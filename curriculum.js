@@ -175,3 +175,41 @@ const curriculum = [
   }
 ];
 
+// 补足前两课进阶练习；每题的情境与反馈独立编写。
+curriculum[1].questions.push(
+  ["Can you see ___?",["us","we","our"],"us","see 后需要宾格 us。"],
+  ["I sent ___ a message.",["her","she","hers"],"her","sent 的间接宾语用 her。"],
+  ["Please wait for ___.",["them","they","their"],"them","介词 for 后用宾格 them。"],
+  ["My sister helped ___ with the bag.",["me","I","my"],"me","helped 后用宾格 me。"],
+  ["We met ___ at the library.",["him","he","his"],"him","met 后面的动作承受者用 him。"],
+  ["The guide showed ___ the way.",["us","we","ours"],"us","showed 后用宾格 us。"],
+  ["I am talking to ___.",["you","your","yours"],"you","to 后需要代词宾格；you 的主宾格同形。"],
+  ["Do not touch ___; the paint is wet.",["it","its","it's"],"it","touch 后用宾格 it。"],
+  ["They invited ___ to the party.",["me","I","mine"],"me","invited 后用宾格 me。"],
+  ["Our teacher asked ___ a question.",["him","he","his"],"him","asked 后用宾格 him。"],
+  ["I will sit next to ___.",["her","she","hers"],"her","介词 to 后用宾格 her。"],
+  ["Could you join ___ for lunch?",["us","we","our"],"us","join 后面要用宾格 us。"],
+  ["The bus left without ___.",["them","they","their"],"them","without 是介词，后接宾格。"],
+  ["Please give ___ the notebook.",["me","I","mine"],"me","give 的间接宾语用 me。"],
+  ["I cannot hear ___ clearly.",["you","your","yours"],"you","hear 后面用宾格 you。"],
+  ["The coach praised ___ after the game.",["her","she","hers"],"her","praised 后面的宾语用 her。"]
+);
+curriculum[2].questions.push(
+  ["I have three ___.",["pens","pen","penes"],"pens","pen 的复数直接加 s。"],
+  ["There are two ___ outside.",["buses","bus","buss"],"buses","bus 的复数加 es。"],
+  ["Five ___ are in the box.",["watches","watchs","watch"],"watches","watch 的复数加 es。"],
+  ["The ___ are playing chess.",["men","mans","man"],"men","man 的不规则复数是 men。"],
+  ["We saw two ___ in the park.",["women","womans","woman"],"women","woman 的不规则复数是 women。"],
+  ["Put the two ___ on the table.",["dishes","dishs","dish"],"dishes","dish 的复数加 es。"],
+  ["The shop sells red ___.",["boxes","boxs","box"],"boxes","box 的复数加 es。"],
+  ["Three ___ came to the meeting.",["people","persons","peoples"],"people","people 通常用作 person 的复数。"],
+  ["The two ___ are asleep.",["babies","babys","baby"],"babies","辅音字母加 y 结尾，变 y 为 ies。"],
+  ["There are four ___ by the road.",["trees","treees","tree"],"trees","tree 的复数加 s。"],
+  ["My ___ are cold.",["feet","foots","foot"],"feet","foot 的不规则复数是 feet。"],
+  ["The ___ are on the shelf.",["knives","knifes","knife"],"knives","knife 的复数通常把 fe 变为 ves。"],
+  ["I washed two ___.",["glasses","glasss","glass"],"glasses","glass 的复数加 es。"],
+  ["The ___ are eating lunch.",["children","childs","child"],"children","child 的不规则复数是 children。"],
+  ["She bought three ___.",["dresses","dresss","dress"],"dresses","dress 的复数加 es。"],
+  ["Two ___ ran across the field.",["mice","mouses","mouse"],"mice","mouse 的不规则复数是 mice。"]
+);
+
