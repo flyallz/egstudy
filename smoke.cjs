@@ -60,8 +60,15 @@ assert.equal(vm.runInContext('Boolean(data.completed[lessonId()])', context), fa
 vm.runInContext('startVocabExercise("practice");for(let i=0;i<10;i++){checkVocabAnswer(0);nextVocabQuestion()}', context);
 assert.equal(vm.runInContext('data.completed[lessonId()].score', context), 100);
 assert.equal(vm.runInContext('data.attempts[0].total', context), 10);
+vm.runInContext('state.track="grammar";state.lesson=0;state.difficulty="hard";showQuizIntro();quizIntro()', context);
+assert.match(getNode('#app').innerHTML, /准备开始答题/);
+vm.runInContext('startQuiz();checkAnswer(true);nextQuestion()', context);
+assert.equal(vm.runInContext('data.attempts[0].passed', context), false);
+assert.equal(vm.runInContext('data.attempts[0].answers[0].timeout', context), true);
+assert.equal(vm.runInContext('state.quiz', context), null);
 context.location.hash = '#/history';
 vm.runInContext('view()', context);
 assert.match(getNode('#app').innerHTML, /练习历史/);
+assert.match(getNode('#app').innerHTML, /正确答案/);
 console.log('smoke checks passed');
 
