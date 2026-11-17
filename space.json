@@ -1,0 +1,8 @@
+{
+  "entry": "client/dist/index.html",
+  "managedCronJobs": [],
+  "name": "英文学习网站",
+  "platformVersion": 28,
+  "runtime": "typescript",
+  "slug": "ying-wen-xue-xi-wang-zhan"
+}

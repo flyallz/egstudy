@@ -1,0 +1,9 @@
+node_modules/
+local-run/backend/
+local-run/dist-client/
+local-run/app.db
+local-run/app.db-shm
+local-run/app.db-wal
+已构建成品-dist/
+.vscode/
+*.log
