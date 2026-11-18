@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_FUTURE_MEDIUM } from "./currentSiteA2FutureMedium";
+import { A2_FUTURE_HARD } from "./currentSiteA2FutureHard";
 
 // 原站 A2 第 5 课：理论及简单档 20 题按公开 A2 课程数据核对，越南语译为中文。
 const futureHint = "判断是在说预先计划、眼前证据、当场决定、主观预测，还是承诺与提议。";
@@ -77,8 +79,8 @@ export const A2_FUTURE: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["表达的是已有计划、当场决定、承诺，还是预测？", "will 后是否接不带 to 的动词原形？", "be going to 前的 be 是否与主语一致？", "承诺和提议不用 be going to。"],
-  questions: A2_FUTURE_QUESTIONS,
+  questions: [...A2_FUTURE_QUESTIONS, ...A2_FUTURE_MEDIUM, ...A2_FUTURE_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
