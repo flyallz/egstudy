@@ -1,4 +1,4 @@
-// A2 第 1–17 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–17 课音标待核。
+// A2 第 1–19 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–19 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -321,4 +321,50 @@ export const A2_SEVENTEENTH_LESSON: OriginalA2Word[] = [
   ["expert", "/ˈekspɜːt/", "名词", "专家；行家", "an expert in/on something = 某方面的专家", "She is an expert in child health.", "Ask an expert before you decide."],
   ["explanation", "/ˌekspləˈneɪʃn/", "名词", "解释；说明", "可数名词；an explanation for something = 对某事的解释", "His explanation made sense.", "There is no explanation for the delay."],
   ["express", "/ɪkˈspres/", "动词", "表达；表露", "express an opinion = 发表意见；express yourself = 表达自己", "She expressed her thanks in a letter.", "I cannot express how happy I am."],
+];
+
+// 第 18 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_EIGHTEENTH_LESSON: OriginalA2Word[] = [
+  ["expression", "/ɪkˈspreʃn/", "名词", "表达方式；表情", "可数名词", "That is a common English expression.", "His expression showed surprise."],
+  ["extreme", "/ɪkˈstriːm/", "形容词", "极端的；严酷的", "extreme weather = 极端天气；extreme sports = 极限运动", "They work in extreme cold.", "He enjoys extreme sports."],
+  ["extremely", "/ɪkˈstriːmli/", "副词", "极其；非常", "程度很高的副词，常放在形容词前", "The exam was extremely difficult.", "She is extremely kind to everyone."],
+  ["factor", "/ˈfæktə/", "名词", "因素；要素", "可数名词；a key factor = 关键因素", "Price is an important factor.", "Several factors caused the delay."],
+  ["factory", "/ˈfæktəri/", "名词", "工厂", "可数名词；复数为 factories", "He works in a shoe factory.", "The factory closed last year."],
+  ["fail", "/feɪl/", "动词", "失败；考试不及格", "fail an exam = 考试不及格；反义词 pass", "She failed her driving test.", "The plan failed because of the rain."],
+  ["fair", "/feə/", "形容词", "公平的；合理的", "反义词 unfair", "The teacher is fair to everyone.", "That is not a fair price."],
+  ["fan", "/fæn/", "名词", "粉丝；风扇", "可数名词", "He is a fan of that band.", "Turn on the fan; it is hot."],
+  ["farming", "/ˈfɑːmɪŋ/", "名词", "农业；务农", "不可数名词", "Farming is hard work.", "The region depends on farming."],
+  ["fashion", "/ˈfæʃn/", "名词", "时尚；流行款式", "in fashion = 正流行", "She follows the latest fashion.", "Long coats are in fashion again."],
+  ["fear", "/fɪə/", "名词", "恐惧；害怕", "a fear of something = 对某事物的恐惧", "She has a fear of heights.", "His eyes were full of fear."],
+  ["feature", "/ˈfiːtʃə/", "名词", "特点；功能", "可数名词", "The phone has a useful new feature.", "Her best feature is her smile."],
+  ["feed", "/fiːd/", "动词", "喂养；给……食物", "不规则动词：feed–fed–fed", "I feed the cat twice a day.", "She fed the baby before bed."],
+  ["female", "/ˈfiːmeɪl/", "形容词", "女性的；雌性的", "反义词 male", "A female doctor examined her.", "The female bird builds the nest."],
+  ["fiction", "/ˈfɪkʃn/", "名词", "虚构作品；小说", "不可数名词；与 non-fiction（非虚构作品）相对", "She reads a lot of fiction.", "The story is fiction, not history."],
+  ["field", "/fiːld/", "名词", "田地；领域", "可数名词", "Cows are standing in the field.", "She is an expert in her field."],
+  ["fight", "/faɪt/", "动词", "打架；斗争", "不规则动词：fight–fought–fought", "Street dogs sometimes fight over food.", "They fought for their rights."],
+  ["figure", "/ˈfɪɡə/", "名词", "数字；人影；身形", "可数名词", "The sales figures went up.", "A tall figure stood at the gate."],
+  ["finally", "/ˈfaɪnəli/", "副词", "终于；最后", "可表示等待后终于发生，也可引出最后一项", "The bus finally arrived.", "Finally, I want to thank my family."],
+];
+
+// 第 19 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_NINETEENTH_LESSON: OriginalA2Word[] = [
+  ["finger", "/ˈfɪŋɡə/", "名词", "手指", "可数名词；脚趾是 toe", "She cut her finger on the knife.", "Count on your fingers."],
+  ["firstly", "/ˈfɜːstli/", "副词", "首先；第一", "列举观点时使用", "Firstly, we need more time.", "Firstly, read the question carefully."],
+  ["fishing", "/ˈfɪʃɪŋ/", "名词", "钓鱼；捕鱼业", "不可数名词；go fishing = 去钓鱼", "We go fishing at the weekend.", "Fishing is important to this village."],
+  ["fit", "/fɪt/", "动词", "合身；装得下", "可形容衣服是否合身，或东西能否放进某处", "These shoes do not fit me.", "The sofa will not fit through the door."],
+  ["fix", "/fɪks/", "动词", "修理；确定（日期）", "fix a car = 修车；fix a date = 定日期", "Can you fix my bicycle?", "We fixed a date for the wedding."],
+  ["flu", "/fluː/", "名词", "流感", "不可数名词；have the flu = 得流感", "She is off work with the flu.", "Flu spreads quickly in winter."],
+  ["flying", "/ˈflaɪɪŋ/", "名词", "飞行；乘飞机出行", "不可数名词", "Flying makes him nervous.", "Flying is faster than driving."],
+  ["focus", "/ˈfəʊkəs/", "动词", "集中注意力；聚焦", "focus on something = 专注于某事", "Focus on your work, not your phone.", "The study focuses on young children."],
+  ["following", "/ˈfɒləʊɪŋ/", "形容词", "接下来的；下述的", "放在名词前；the following day = 第二天", "We met again the following week.", "Answer the following questions."],
+  ["foreign", "/ˈfɒrən/", "形容词", "外国的；国外的", "a foreign language = 外语；字母 g 不发音", "She speaks two foreign languages.", "The shop sells foreign newspapers."],
+  ["forest", "/ˈfɒrɪst/", "名词", "森林", "可数名词", "They walked through the forest.", "The forest is home to many birds."],
+  ["fork", "/fɔːk/", "名词", "叉子", "可数名词", "Use a fork to eat the cake.", "Put the forks on the left."],
+  ["formal", "/ˈfɔːml/", "形容词", "正式的；庄重的", "反义词 informal", "Wear formal clothes to the interview.", "This is a formal letter."],
+  ["fortunately", "/ˈfɔːtʃənətli/", "副词", "幸运地；幸好", "常放在句首；反义词 unfortunately", "Fortunately, nobody was hurt.", "Fortunately, the rain stopped before the match."],
+  ["forward", "/ˈfɔːwəd/", "副词", "向前；往前", "look forward to = 期待；这里的 to 是介词", "Move forward two steps.", "I look forward to meeting you."],
+  ["fresh", "/freʃ/", "形容词", "新鲜的；清新的", "fresh food = 新鲜食物；fresh air = 新鲜空气", "Buy fresh vegetables at the market.", "Let's get some fresh air."],
+  ["fridge", "/frɪdʒ/", "名词", "冰箱", "可数名词；refrigerator 的常用简写", "Put the milk in the fridge.", "The fridge is empty."],
+  ["frog", "/frɒɡ/", "名词", "青蛙", "可数名词", "A frog jumped into the pond.", "Frogs sing after the rain."],
+  ["furniture", "/ˈfɜːnɪtʃə/", "名词", "家具", "不可数名词；一件家具可说 a piece of furniture", "They bought new furniture for the flat.", "The furniture is made of wood."],
 ];

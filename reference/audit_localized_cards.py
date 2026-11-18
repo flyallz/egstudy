@@ -29,7 +29,7 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         originals = list(csv.DictReader(handle))
 
     names = (
-        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH")[:blocks]]
+        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH")[:blocks]]
     )
     cards = []
     for name in names:
@@ -54,5 +54,5 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         raise SystemExit(1)
 
 
-check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 17)
+check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 19)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)
