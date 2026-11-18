@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_SUPERLATIVES_MEDIUM } from "./currentSiteA2SuperlativesMedium";
+import { A2_SUPERLATIVES_HARD } from "./currentSiteA2SuperlativesHard";
 
 // 原站 A2 第 11 课理论与简单档题目按公开课程数据核对；原英文选项和答案保留。
 const original = [
@@ -100,8 +102,8 @@ export const A2_SUPERLATIVES: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["比较群体是否至少有三个对象？", "最高级前是否需要 the？", "-est 和 most 是否只选其一？", "范围是否正确使用 in 或 of？"],
-  questions: A2_SUPERLATIVES_QUESTIONS,
+  questions: [...A2_SUPERLATIVES_QUESTIONS, ...A2_SUPERLATIVES_MEDIUM, ...A2_SUPERLATIVES_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
