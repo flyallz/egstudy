@@ -1,4 +1,4 @@
-// B1 第 1–14 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–16 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -260,4 +260,49 @@ export const B1_FOURTEENTH_LESSON: OriginalA2Word[] = [
   ["equal", "/ˈiːkwəl/", "形容词", "平等的；相等的", "equal rights = 平等权利；equal to = 与……相等", "Men and women should have equal rights.", "The two boxes are equal in weight."],
   ["equally", "/ˈiːkwəli/", "副词", "平等地；同样地", "share/divide something equally = 平分某物", "We divided the money equally between us.", "Both answers are equally correct."],
   ["escape", "/ɪˈskeɪp/", "动词", "逃脱；避开", "escape from somewhere = 从某处逃脱；也可作名词指逃脱", "The thief escaped from prison last night.", "They had a narrow escape when the boat sank."],
+];
+
+export const B1_FIFTEENTH_LESSON: OriginalA2Word[] = [
+  ["essential", "/ɪˈsenʃl/", "形容词", "必不可少的；极其重要的", "essential for/to something = 对某事物必不可少", "Water is essential for all living things.", "It is essential to book your seat early."],
+  ["eventually", "/ɪˈventʃuəli/", "副词", "最终；终于", "强调等待或多次尝试之后发生", "After many tries, she eventually passed the test.", "The bus was late, but it eventually arrived."],
+  ["examine", "/ɪɡˈzæmɪn/", "动词", "检查；仔细观察；诊察", "examine something carefully = 仔细检查某物", "The doctor examined my throat carefully.", "Police are examining the evidence from the scene."],
+  ["exchange", "/ɪksˈtʃeɪndʒ/", "名词", "交换；兑换", "in exchange for = 作为交换；也可作动词", "We exchanged phone numbers after the meeting.", "I gave him my old bike in exchange for his guitar."],
+  ["excitement", "/ɪkˈsaɪtmənt/", "名词", "激动；兴奋", "不可数名词；with excitement = 兴奋地", "The children screamed with excitement on the ride.", "There was great excitement before the big match."],
+  ["exhibition", "/ˌeksɪˈbɪʃn/", "名词", "展览；展览会", "an exhibition of something = 某物的展览", "We went to an exhibition of modern art.", "The museum is holding an exhibition of old photographs."],
+  ["expand", "/ɪkˈspænd/", "动词", "扩大；扩展；膨胀", "expand into something = 扩张进入某领域；反义词 shrink", "The company plans to expand into Asia next year.", "We hope to expand the team by hiring two engineers."],
+  ["expected", "/ɪkˈspektɪd/", "形容词", "预料中的；预计的", "as expected = 正如预期；the expected result = 预期结果", "The results were better than expected.", "Rain is expected later this afternoon."],
+  ["expedition", "/ˌekspəˈdɪʃn/", "名词", "远征；探险", "go on an expedition = 进行探险", "They went on an expedition to the South Pole.", "The scientists led an expedition deep into the jungle."],
+  ["experienced", "/ɪkˈspɪəriənst/", "形容词", "有经验的；熟练的", "an experienced teacher = 有经验的教师；反义词 inexperienced", "We need an experienced nurse for this job.", "She is a highly experienced mountain climber."],
+  ["explode", "/ɪkˈspləʊd/", "动词", "爆炸；激增", "a bomb explodes = 炸弹爆炸；也可比喻数量暴涨", "The old building exploded in a cloud of smoke.", "The population of the city has exploded in ten years."],
+  ["explore", "/ɪkˈsplɔː/", "动词", "探索；探讨", "explore a place/idea/option = 探索地点／想法／选择", "We spent the day exploring the old town.", "Let's explore other ways of solving the problem."],
+  ["explosion", "/ɪkˈspləʊʒn/", "名词", "爆炸；猛增", "a huge explosion = 大爆炸；an explosion in something = 某事物的激增", "A loud explosion woke everyone in the street.", "There has been an explosion in the number of online shops."],
+  ["export", "/ˈekspɔːt/", "名词", "出口；出口商品", "与 import 相对；也可作动词，读音重音不同", "Coffee is one of the country's main exports.", "They export fresh fruit to many countries."],
+  ["fairly", "/ˈfeəli/", "副词", "相当；公平地", "可表示程度适中，也可表示公正地", "The test was fairly easy, so I finished quickly.", "The teacher treats all students fairly."],
+  ["familiar", "/fəˈmɪliə/", "形容词", "熟悉的；常见的", "be familiar with something = 熟悉某事物", "Your face looks familiar to me.", "Are you familiar with this software?"],
+  ["fancy", "/ˈfænsi/", "动词", "想要；喜欢", "英式英语；fancy doing something = 想做某事；也可作形容词指华丽的", "Do you fancy going out for a meal tonight?", "They had dinner at a fancy restaurant in town."],
+  ["fascinating", "/ˈfæsɪneɪtɪŋ/", "形容词", "极有趣的；迷人的", "语气比 interesting 更强", "The book tells a fascinating story about ancient Egypt.", "I find the history of language absolutely fascinating."],
+  ["fashionable", "/ˈfæʃənəbl/", "形容词", "时髦的；流行的", "反义词 old-fashioned", "Short hair is very fashionable this year.", "She always wears fashionable clothes."],
+];
+
+export const B1_SIXTEENTH_LESSON: OriginalA2Word[] = [
+  ["fasten", "/ˈfɑːsn/", "动词", "系牢；扣紧", "fasten your seatbelt = 系安全带；字母 t 不发音", "Please fasten your seatbelt before take-off.", "He fastened the gate so the dog couldn't escape."],
+  ["favour", "/ˈfeɪvə/", "名词", "帮忙；赞同", "英式拼写，美式拼作 favor；do somebody a favour = 帮某人一个忙", "Can you do me a favour and lend me a pen?", "Most people are in favour of the new plan."],
+  ["fence", "/fens/", "名词", "围栏；篱笆", "build/climb over a fence = 建造／翻过围栏", "There is a tall wooden fence around the garden.", "The sheep jumped over the fence and ran away."],
+  ["fighting", "/ˈfaɪtɪŋ/", "名词", "打斗；战斗", "不可数名词；heavy fighting = 激烈战斗", "There was heavy fighting near the border.", "The police tried to stop the fighting in the street."],
+  ["file", "/faɪl/", "名词", "文件；档案夹", "open/save a file = 打开／保存文件", "I saved the document as a new file.", "She kept all her bills in a paper file."],
+  ["financial", "/faɪˈnænʃl/", "形容词", "财务的；金融的", "financial problems = 财务问题；financial advice = 财务建议", "The family is having financial problems this year.", "He gave me some useful financial advice."],
+  ["fitness", "/ˈfɪtnəs/", "名词", "健康；体能", "不可数名词；physical fitness = 身体素质", "Running is a great way to improve your fitness.", "She goes to a fitness centre three times a week."],
+  ["fixed", "/fɪkst/", "形容词", "固定的；不变的", "a fixed price/time = 固定价格／时间", "The shop sells everything at a fixed price.", "We meet at a fixed time every Monday."],
+  ["flag", "/flæɡ/", "名词", "旗帜", "raise/wave a flag = 升旗／挥旗", "People waved flags as the parade passed.", "The national flag flies above the building."],
+  ["flood", "/flʌd/", "名词", "洪水；水灾", "可数名词；也可作动词表示泛滥", "Heavy rain caused a terrible flood in the valley.", "The river flooded after days of rain."],
+  ["flour", "/ˈflaʊə/", "名词", "面粉", "不可数名词；与 flower 同音", "You need flour, eggs and milk to make a cake.", "Add the flour slowly and mix well."],
+  ["flow", "/fləʊ/", "动词", "流动；流淌", "flow into/through = 流入／流经；也可作名词", "The river flows into the sea.", "Traffic was flowing smoothly this morning."],
+  ["fold", "/fəʊld/", "动词", "折叠；合拢", "fold something in half = 把某物对折；反义词 unfold", "She folded the letter and put it in an envelope.", "He folded his arms and waited quietly."],
+  ["folk", "/fəʊk/", "名词", "人们；民间", "复数 folks；folk music = 民间音乐", "The old folk in the village still tell this story.", "I love listening to traditional folk music."],
+  ["force", "/fɔːs/", "名词", "力量；武力；部队", "by force = 强行；动词 force 可指强迫", "The strong wind had great force.", "They forced him to sign the paper."],
+  ["forever", "/fərˈevə/", "副词", "永远；长久地", "take forever = 花很长时间", "I will remember this day forever.", "The journey seemed to take forever."],
+  ["frame", "/freɪm/", "名词", "框架；相框", "picture frame = 相框；window frame = 窗框", "She put the photo in a silver frame.", "The window frame is made of wood."],
+  ["freeze", "/friːz/", "动词", "结冰；冷冻", "不规则变化：freeze–froze–frozen", "Water freezes at zero degrees Celsius.", "You can freeze the soup and eat it later."],
+  ["frequently", "/ˈfriːkwəntli/", "副词", "频繁地；经常", "反义词 rarely；表示较高频率", "He frequently travels abroad for work.", "This question is frequently asked by beginners."],
+  ["friendship", "/ˈfrendʃɪp/", "名词", "友谊；朋友关系", "a close friendship = 亲密的友谊", "Their friendship lasted for over thirty years.", "A good friendship is built on trust."],
 ];
