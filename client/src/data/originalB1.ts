@@ -1,4 +1,4 @@
-// B1 第 1–2 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–4 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -32,4 +32,37 @@ export const B1_SECOND_LESSON: OriginalA2Word[] = [
   ["amazed", "/əˈmeɪzd/", "形容词", "惊奇的；惊叹的", "描述人的感受；be amazed at/by = 对……感到惊讶", "I was amazed at how quickly she learned to drive.", "Everyone was amazed by the beautiful view."],
   ["ambition", "/æmˈbɪʃn/", "名词", "抱负；雄心", "achieve an ambition = 实现抱负", "Her ambition is to travel to every continent.", "He finally achieved his ambition of opening a café."],
   ["ambitious", "/æmˈbɪʃəs/", "形容词", "有抱负的；雄心勃勃的", "可描述人或计划", "She is young and very ambitious.", "The company has ambitious plans for next year."],
+];
+
+export const B1_THIRD_LESSON: OriginalA2Word[] = [
+  ["analyse", "/ˈænəlaɪz/", "动词", "分析；仔细研究", "英式拼写；美式英语拼作 analyze；analyse data = 分析数据", "Scientists analyse the data before writing their report.", "Let's analyse what went wrong in the match."],
+  ["analysis", "/əˈnæləsɪs/", "名词", "分析；分析报告", "复数 analyses；a detailed analysis of something = 对某事的详细分析", "The report gives a clear analysis of the problem.", "Her analysis of the poem was very interesting."],
+  ["announce", "/əˈnaʊns/", "动词", "宣布；通告", "announce that ... = 宣布……；announce something to somebody = 向某人宣布某事", "The airline announced that the flight was delayed.", "They announced their wedding on social media."],
+  ["announcement", "/əˈnaʊnsmənt/", "名词", "公告；声明", "make an announcement = 发布公告", "The teacher made an important announcement before class.", "We are waiting for the government's announcement."],
+  ["annoy", "/əˈnɔɪ/", "动词", "使烦恼；惹恼", "it annoys me when ... = ……让我心烦", "It really annoys me when people are late.", "Stop making that noise, you're annoying everyone."],
+  ["annoyed", "/əˈnɔɪd/", "形容词", "恼怒的；不耐烦的", "描述人的感受；be annoyed with somebody = 对某人生气", "She was annoyed with her brother for breaking her phone.", "He got annoyed about the long queue."],
+  ["annoying", "/əˈnɔɪɪŋ/", "形容词", "烦人的；令人讨厌的", "描述引起烦躁的事物，与 annoyed 的感受义区分", "That dripping tap is so annoying.", "It's annoying when the internet keeps cutting out."],
+  ["apart", "/əˈpɑːt/", "副词", "分开地；相距", "take something apart = 拆开某物；apart from = 除……以外", "The two towns are ten kilometres apart.", "Apart from Sunday, I work every day."],
+  ["apologize", "/əˈpɒlədʒaɪz/", "动词", "道歉", "apologize to somebody for something = 因某事向某人道歉；英式也拼 apologise", "He apologized to his teacher for being late.", "I must apologize for the mess in the kitchen."],
+  ["application", "/ˌæplɪˈkeɪʃn/", "名词", "申请；申请表；应用程序", "application for something = 某事的申请；submit an application = 提交申请", "She sent her application for the job yesterday.", "You can download the application on your phone."],
+  ["appointment", "/əˈpɔɪntmənt/", "名词", "预约；约见；任命", "make an appointment with somebody = 与某人预约", "I have a dentist's appointment at three o'clock.", "You need to make an appointment to see the manager."],
+  ["appreciate", "/əˈpriːʃieɪt/", "动词", "感激；欣赏；领会", "I'd appreciate it if ... = 如果……我将不胜感激", "I really appreciate all your help.", "You can't appreciate the music until you hear it live."],
+  ["approximately", "/əˈprɒksɪmətli/", "副词", "大约；近似地", "比 about 正式，通常放在数字前", "The journey takes approximately two hours.", "Approximately 500 people attended the concert."],
+];
+
+export const B1_FOURTH_LESSON: OriginalA2Word[] = [
+  ["arrest", "/əˈrest/", "动词", "逮捕；拘留", "arrest somebody for something = 因某事逮捕某人；也可作名词", "The police arrested two men after the robbery.", "She was placed under arrest at the airport."],
+  ["arrival", "/əˈraɪvl/", "名词", "到达；新到来的人或物", "on arrival = 抵达时；反义词 departure", "Our arrival was delayed by heavy traffic.", "On arrival at the hotel, we were given a free drink."],
+  ["assignment", "/əˈsaɪnmənt/", "名词", "作业；分派的任务", "hand in an assignment = 交作业", "I have to hand in my English assignment on Friday.", "The reporter was sent on a dangerous assignment abroad."],
+  ["assist", "/əˈsɪst/", "动词", "协助；帮助", "比 help 正式；assist somebody with something = 在某事上帮助某人", "A nurse assisted the doctor during the operation.", "Can you assist me with these heavy bags?"],
+  ["atmosphere", "/ˈætməsfɪə/", "名词", "气氛；大气层", "a friendly atmosphere = 友好的氛围；the Earth's atmosphere = 地球大气层", "The little restaurant has a warm, friendly atmosphere.", "Pollution is damaging the Earth's atmosphere."],
+  ["attach", "/əˈtætʃ/", "动词", "附上；连接", "attach something to something = 把某物附到另一物上", "Please attach your photo to the form.", "I've attached the report to this email."],
+  ["attitude", "/ˈætɪtjuːd/", "名词", "态度；看法", "attitude to/towards something = 对某事的态度", "She has a very positive attitude to her work.", "His rude attitude towards customers caused problems."],
+  ["attract", "/əˈtrækt/", "动词", "吸引；引起兴趣", "attract somebody/something = 吸引某人或某物", "The festival attracts thousands of visitors every year.", "Bright flowers attract bees and butterflies."],
+  ["attraction", "/əˈtrækʃn/", "名词", "吸引力；景点", "a tourist attraction = 旅游景点", "The castle is the town's main tourist attraction.", "I felt a strong attraction to the place as soon as I arrived."],
+  ["authority", "/ɔːˈθɒrəti/", "名词", "权力；当局", "have the authority to do = 有权做某事；the authorities = 当局", "The teacher has the authority to cancel the trip.", "Local authorities are trying to reduce traffic in the city."],
+  ["aware", "/əˈweə/", "形容词", "知道的；意识到的", "be aware of something = 意识到某事；反义词 unaware", "Are you aware of the risks of the plan?", "She wasn't aware that the shop had closed."],
+  ["backwards", "/ˈbækwədz/", "副词", "向后；倒着", "美式英语常用 backward；fall backwards = 向后摔倒", "He fell backwards off the ladder.", "Try counting backwards from ten to one."],
+  ["bake", "/beɪk/", "动词", "烘烤；烤制", "常指在烤箱中烤面包、蛋糕；区别于 fry（油煎）", "She loves to bake cakes at the weekend.", "We baked some bread for the party."],
+  ["balance", "/ˈbæləns/", "名词", "平衡；余额", "a balance between A and B = A 与 B 之间的平衡；也可作动词", "It's hard to find a balance between work and family.", "He lost his balance and fell off the bike."],
 ];
