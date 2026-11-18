@@ -1,4 +1,4 @@
-// A2 第 1–32 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–32 课音标待核。
+// A2 第 1–34 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–34 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -711,4 +711,62 @@ export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["review", "/rɪˈvjuː/", "名词", "评论；复习；回顾", "可数名词", "The film got good reviews.", "We had a review of last month's work."],
   ["ring", "/rɪŋ/", "名词", "戒指；圆圈", "可数名词", "She wears a gold ring.", "The children formed a ring around the teacher."],
   ["rise", "/raɪz/", "动词", "上升；升起", "不及物不规则动词：rise–rose–risen", "Prices rose again this month.", "The sun rises in the east."],
+];
+
+// 第 33 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
+  ["rock", "/rɒk/", "名词", "岩石；石块；摇滚乐", "可指石头，也可指摇滚音乐", "The path is covered with rocks.", "He likes rock music."],
+  ["role", "/rəʊl/", "名词", "角色；作用", "play a role in something = 在某事中发挥作用", "She plays an important role in the team.", "He got the main role in the play."],
+  ["roof", "/ruːf/", "名词", "屋顶", "可数名词；复数 roofs", "The storm damaged the roof.", "Birds sat on the roof."],
+  ["round", "/raʊnd/", "形容词", "圆形的", "描述物体形状", "The table is round.", "She has a round face."],
+  ["route", "/ruːt/", "名词", "路线；线路", "可数名词", "This is the shortest route to the sea.", "The bus route changed last month."],
+  ["rubbish", "/ˈrʌbɪʃ/", "名词", "垃圾；废物", "不可数名词；英式英语用 rubbish，美式英语常用 garbage", "Put the rubbish in the bin.", "They collect the rubbish on Tuesdays."],
+  ["rude", "/ruːd/", "形容词", "粗鲁的；无礼的", "反义词 polite", "It is rude to interrupt.", "He was rude to the waiter."],
+  ["runner", "/ˈrʌnə/", "名词", "跑步者；赛跑运动员", "指跑步的人", "The runner finished in two hours.", "She is the fastest runner in school."],
+  ["running", "/ˈrʌnɪŋ/", "名词", "跑步；赛跑", "不可数名词；go running = 去跑步", "Running keeps me healthy.", "He took up running last year."],
+  ["sadly", "/ˈsædli/", "副词", "悲伤地；令人遗憾地", "sad 的副词形式", "Sadly, the old tree had to be cut down.", "She smiled sadly and said goodbye."],
+  ["safe", "/seɪf/", "形容词", "安全的", "反义词 dangerous", "This street is safe at night.", "Keep your passport in a safe place."],
+  ["sail", "/seɪl/", "动词", "乘船航行；扬帆", "sail to a place = 乘船前往某地", "They sailed to the island.", "The ship sails at dawn."],
+  ["sailing", "/ˈseɪlɪŋ/", "名词", "帆船运动；航行", "不可数名词；go sailing = 去玩帆船", "Sailing is popular on this lake.", "We went sailing last Sunday."],
+  ["salary", "/ˈsæləri/", "名词", "薪水；工资", "通常指按月或按年支付的工资；复数 salaries", "Her salary rose by ten per cent.", "The job offers a good salary."],
+  ["sale", "/seɪl/", "名词", "出售；减价销售", "for sale = 待售；in the sale = 在促销活动中", "The house is for sale.", "I bought this coat in the sale."],
+  ["sauce", "/sɔːs/", "名词", "调味汁；酱汁", "可数或不可数名词", "Add tomato sauce to the pasta.", "This fish sauce is from Phu Quoc."],
+  ["save", "/seɪv/", "动词", "节省；拯救；保存", "save money = 存钱；save a file = 保存文件", "She saves money every month.", "Save the file before you close it."],
+  ["scared", "/skeəd/", "形容词", "害怕的；恐惧的", "be scared of something = 害怕某物", "The child is scared of the dark.", "I was scared when the lights went out."],
+  ["scary", "/ˈskeəri/", "形容词", "吓人的；可怕的", "描述引起恐惧的人或事物", "That was a scary film.", "The road is scary at night."],
+  ["scene", "/siːn/", "名词", "场景；现场", "可指电影、戏剧中的一幕，也可指事件发生地点", "My favourite scene is at the end.", "The police arrived at the scene quickly."],
+  ["schedule", "/ˈʃedjuːl/", "名词", "时间表；日程安排", "on schedule = 按时；behind schedule = 落后于计划", "The train is behind schedule.", "Check the schedule for tomorrow."],
+  ["score", "/skɔː/", "动词", "得分；进球", "score a goal = 进球；score points = 得分", "He scored twice in the second half.", "She scored ninety in the test."],
+  ["screen", "/skriːn/", "名词", "屏幕；银幕", "可数名词", "Do not look at the screen too long.", "The cinema has a huge screen."],
+  ["search", "/sɜːtʃ/", "动词", "搜索；寻找", "search for something = 寻找某物", "They searched for the missing dog.", "I searched the internet for recipes."],
+  ["season", "/ˈsiːzn/", "名词", "季节；时节", "可数名词；the rainy season = 雨季", "Spring is my favourite season.", "The rainy season starts in May."],
+];
+
+// 第 34 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
+  ["seat", "/siːt/", "名词", "座位；椅子", "take a seat = 请坐", "Is this seat free?", "Please take a seat."],
+  ["secondly", "/ˈsekəndli/", "副词", "第二；其次", "列举理由时通常接在 firstly 之后", "Secondly, the price is too high.", "Secondly, we must tell the parents."],
+  ["secret", "/ˈsiːkrət/", "名词", "秘密", "可数名词；keep a secret = 保守秘密", "Can you keep a secret?", "The recipe is a family secret."],
+  ["secretary", "/ˈsekrətri/", "名词", "秘书", "复数 secretaries", "The secretary answered the phone.", "She works as a secretary in a school."],
+  ["seem", "/siːm/", "动词", "似乎；看起来", "seem to do something = 似乎做某事；通常不用进行时", "He seems tired today.", "It seems to be raining."],
+  ["sense", "/sens/", "名词", "感觉；感官；意义", "make sense = 有道理", "Dogs have a strong sense of smell.", "Your plan makes sense."],
+  ["separate", "/ˈseprət/", "形容词", "分开的；单独的", "separate rooms = 不同的房间", "We sleep in separate rooms.", "Keep raw meat separate from vegetables."],
+  ["series", "/ˈsɪəriːz/", "名词", "系列；连续剧", "单复数形式相同", "There was a series of accidents.", "She watches a Korean series every night."],
+  ["serious", "/ˈsɪəriəs/", "形容词", "严重的；严肃的", "可描述问题的严重性或人的严肃态度", "This is a serious problem.", "He has a serious face in photos."],
+  ["serve", "/sɜːv/", "动词", "供应；端上；服务", "serve food = 端上食物；serve customers = 服务顾客", "They serve breakfast until ten.", "She served the soup hot."],
+  ["service", "/ˈsɜːvɪs/", "名词", "服务；公共交通班次", "可数名词；bus service = 公交服务", "The service in that hotel is excellent.", "The bus service stops at midnight."],
+  ["several", "/ˈsevrəl/", "限定词", "几个；若干", "后接复数名词", "I called her several times.", "Several students were absent."],
+  ["shake", "/ʃeɪk/", "动词", "摇晃；抖动", "不规则变化：shake–shook–shaken", "Shake the bottle before opening.", "His hands were shaking with cold."],
+  ["shall", "/ʃæl/", "情态动词", "要不要；将", "英式英语中常用 Shall we ...? 提议；正式用法可表示将来", "Shall we go for a walk?", "I shall return next week."],
+  ["shape", "/ʃeɪp/", "名词", "形状；外形", "in good shape = 身体状况良好", "The cake is in the shape of a heart.", "He keeps in good shape by swimming."],
+  ["sheet", "/ʃiːt/", "名词", "一张（纸）；床单", "可数名词", "Take a clean sheet of paper.", "She changed the sheets on the bed."],
+  ["ship", "/ʃɪp/", "名词", "船；轮船", "通常比 boat 大", "The ship sails to Singapore.", "Goods arrive here by ship."],
+  ["shoulder", "/ˈʃəʊldə/", "名词", "肩膀", "可数名词", "He carried the bag on his shoulder.", "My shoulder hurts after the match."],
+  ["shout", "/ʃaʊt/", "动词", "喊叫；大声说", "shout at somebody = 冲某人喊", "Do not shout; I can hear you.", "She shouted for help."],
+  ["shut", "/ʃʌt/", "动词", "关上；关闭", "不规则变化：shut–shut–shut", "Please shut the window.", "The shop shuts at nine."],
+  ["side", "/saɪd/", "名词", "一边；侧面", "on the other side = 在另一边", "The shop is on the other side of the road.", "Write on both sides of the paper."],
+  ["sign", "/saɪn/", "名词", "标志；迹象", "可数名词", "The sign says the museum is closed.", "Dark clouds are a sign of rain."],
+  ["silver", "/ˈsɪlvə/", "名词", "银；银色", "表示金属时不可数；也可作形容词", "The spoon is made of silver.", "She won a silver medal."],
+  ["simple", "/ˈsɪmpl/", "形容词", "简单的；朴素的", "反义词 complicated", "The instructions are simple.", "We had a simple meal of rice and fish."],
+  ["since", "/sɪns/", "介词", "自从；自……以来", "后接时间起点，常与完成时连用", "I have lived here since 2020.", "She has not called since Monday."],
 ];
