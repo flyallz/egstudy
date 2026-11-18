@@ -1,4 +1,4 @@
-// A2 第 1–9 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9 课音标待核。
+// A2 第 1–10 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–10 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -152,4 +152,24 @@ export const A2_NINTH_LESSON: OriginalA2Word[] = [
   ["chip", "/tʃɪp/", "名词", "薯条；芯片", "可数名词；fish and chips = 英式炸鱼薯条", "We had fish and chips for dinner.", "The phone has a very small chip inside."],
   ["choice", "/tʃɔɪs/", "名词", "选择；选择权", "make a choice = 做选择；have no choice = 别无选择", "You have to make a choice now.", "We had no choice but to wait."],
   ["church", "/tʃɜːtʃ/", "名词", "教堂", "可数名词；go to church = 去教堂做礼拜", "The old church is near the square.", "They go to church on Sunday."],
+];
+
+// 第 10 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TENTH_LESSON: OriginalA2Word[] = [
+  ["cigarette", "/ˌsɪɡəˈret/", "名词", "一支香烟；卷烟", "可数名词；复数为 cigarettes", "He smokes ten cigarettes a day.", "She put out her cigarette."],
+  ["circle", "/ˈsɜːkl/", "名词", "圆；圆圈", "可数名词；sit in a circle = 围坐成一圈", "Draw a circle on the paper.", "The children sat in a circle."],
+  ["classical", "/ˈklæsɪkl/", "形容词", "古典的；经典的", "classical music = 古典音乐", "She listens to classical music.", "He studies classical literature."],
+  ["clear", "/klɪə/", "形容词", "清楚的；清澈的", "make something clear = 把某事讲清楚", "The instructions are clear.", "The water in the lake is clear."],
+  ["clearly", "/ˈklɪəli/", "副词", "清楚地；显然", "clear 的副词形式", "Please speak more clearly.", "He clearly did not understand."],
+  ["clever", "/ˈklevə/", "形容词", "聪明的；机灵的", "英式英语较常用，近义词为 smart", "She is clever at solving puzzles.", "That was a clever answer."],
+  ["climate", "/ˈklaɪmət/", "名词", "气候", "气候指一地长期天气状况，区别于每天的 weather", "The climate here is hot and wet.", "Climate change affects farming."],
+  ["closed", "/kləʊzd/", "形容词", "关闭的；歇业的", "与 open 相反", "The shop is closed on Mondays.", "Keep the door closed."],
+  ["clothing", "/ˈkləʊðɪŋ/", "名词", "衣物；服装（统称）", "不可数名词；比 clothes 更正式", "Bring warm clothing for the trip.", "The shop sells children's clothing."],
+  ["cloud", "/klaʊd/", "名词", "云；云朵", "可数名词；复数为 clouds", "There is not a cloud in the sky.", "Dark clouds mean rain is coming."],
+  ["coach", "/kəʊtʃ/", "名词", "教练；长途客车", "可数名词；依上下文表示人或交通工具", "The coach trains the team every day.", "We took a coach to the airport."],
+  ["coast", "/kəʊst/", "名词", "海岸；沿海地区", "可数名词；on the coast = 在海岸边", "They live on the east coast.", "We drove along the coast."],
+  ["code", "/kəʊd/", "名词", "代码；密码；编码", "可数名词；postal code = 邮政编码", "Enter your code to open the door.", "Write the postal code on the letter."],
+  ["colleague", "/ˈkɒliːɡ/", "名词", "同事", "指在同一单位工作的人", "My colleague helped me finish the report.", "She invited her colleagues to dinner."],
+  ["collect", "/kəˈlekt/", "动词", "收集；收藏；接（人）", "collect stamps = 集邮；collect a child from school = 去学校接孩子", "He collects old coins.", "I collect my son from school at four."],
+  ["column", "/ˈkɒləm/", "名词", "栏；列；柱子；专栏", "可数名词；可指表格的一列或报刊专栏", "Write the numbers in the first column.", "She writes a weekly column for the paper."],
 ];
