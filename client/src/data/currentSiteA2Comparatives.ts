@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_COMPARATIVES_MEDIUM } from "./currentSiteA2ComparativesMedium";
+import { A2_COMPARATIVES_HARD } from "./currentSiteA2ComparativesHard";
 
 // 原站 A2 第 10 课：理论和简单档 20 题按公开 A2 课程数据逐项翻译与核对。
 const comparativeHint = "比较级要明确比较的双方，并按形容词选择 -er、more、less 或不规则形式；连接词是 than。";
@@ -76,8 +78,8 @@ export const A2_COMPARATIVES: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["形容词有几个音节？", "比较级用 -er 还是 more，是否只用其中一种？", "双写辅音或 y → i 的拼写是否正确？", "两边是否由 than 连接？"],
-  questions: A2_COMPARATIVE_QUESTIONS,
+  questions: [...A2_COMPARATIVE_QUESTIONS, ...A2_COMPARATIVES_MEDIUM, ...A2_COMPARATIVES_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
