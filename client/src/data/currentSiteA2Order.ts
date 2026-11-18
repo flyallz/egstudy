@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_ORDER_MEDIUM } from "./currentSiteA2OrderMedium";
+import { A2_ORDER_HARD } from "./currentSiteA2OrderHard";
 
 // 原站 A2 第 9 课：理论和简单档 20 题按公开 A2 课程数据逐项翻译与核对。
 const orderHint = "名词前的形容词通常按意义类别排列：主观评价离名词较远，出处、材料和用途较靠近名词。";
@@ -77,8 +79,8 @@ export const A2_ORDER: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["评价是否排在其他形容词前？", "材料和用途是否最靠近名词？", "同类形容词是否用逗号或 and 隔开？", "连续形容词是否过多？"],
-  questions: A2_ORDER_QUESTIONS,
+  questions: [...A2_ORDER_QUESTIONS, ...A2_ORDER_MEDIUM, ...A2_ORDER_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
