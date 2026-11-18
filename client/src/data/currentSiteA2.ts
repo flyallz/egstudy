@@ -3,6 +3,7 @@ import { A2_MOVEMENT_MEDIUM } from "./currentSiteA2MovementMedium";
 import { A2_MOVEMENT_HARD } from "./currentSiteA2MovementHard";
 import { A2_REFLEXIVE_MEDIUM } from "./currentSiteA2ReflexiveMedium";
 import { A2_REFLEXIVE_HARD } from "./currentSiteA2ReflexiveHard";
+import { A2_PAST_MEDIUM } from "./currentSiteA2PastMedium";
 
 // 原站 A2 第 1 课：逐段核对理论，并完成简单 20、中等 30、困难 30 道题。
 // 题干与选项按原站保留英文；越南语讲解译成中文。
@@ -114,7 +115,7 @@ export const A2_PAST_SIMPLE_QUESTIONS: QuizQuestion[] = [
   easy("选择正确的句子。", ["I went to the shop but I didn't buy milk.", "I go to the shop but I didn't buy milk.", "I went to the shop but I didn't bought milk.", "I went to the shop but I don't buy milk."], 0, `肯定分句用过去式 went；否定分句用 didn't + 原形 buy。${pastCommon}`),
 ];
 
-// 原站 A2 第 2 课理论与简单档 20 题已核对；中等、困难档仍待提取。
+// 原站 A2 第 2 课理论及简单 20、中等 30 题已核对；困难档待补。
 export const A2_PAST_SIMPLE: Partial<GrammarLesson> = {
   titleCn: "一般过去时",
   titleEn: "Past simple",
@@ -163,10 +164,10 @@ export const A2_PAST_SIMPLE: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["句中是否有过去时间标记？", "动词是规则变化还是不规则变化？", "-ed 的拼写是否正确？", "否定句和疑问句是否使用 did + 动词原形？"],
-  questions: A2_PAST_SIMPLE_QUESTIONS,
+  questions: [...A2_PAST_SIMPLE_QUESTIONS, ...A2_PAST_MEDIUM],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: ["困难"],
 };
 
 const wasWereCommon = "过去时中，was 与单数主语搭配，were 与复数主语及 you 搭配；be 动词构成问句时直接提到主语前。";
