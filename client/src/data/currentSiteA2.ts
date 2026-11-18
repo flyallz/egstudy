@@ -1,6 +1,7 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
 import { A2_MOVEMENT_MEDIUM } from "./currentSiteA2MovementMedium";
 import { A2_MOVEMENT_HARD } from "./currentSiteA2MovementHard";
+import { A2_REFLEXIVE_MEDIUM } from "./currentSiteA2ReflexiveMedium";
 
 // 原站 A2 第 1 课：2026-11-17 逐段核对理论，并完成简单档 20 道题。
 // 题干与选项按原站保留英文；越南语讲解译成中文。中等、困难档尚待提取。
@@ -80,10 +81,10 @@ export const A2_REFLEXIVE: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["宾语是否与主语相同？", "单数用 -self，复数用 -selves。", "地点介词后通常用普通宾格。", "each other 表示双方互相作用。"],
-  questions: A2_REFLEXIVE_QUESTIONS,
+  questions: [...A2_REFLEXIVE_QUESTIONS, ...A2_REFLEXIVE_MEDIUM],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: ["困难"],
 };
 
 const pastCommon = "明确的过去时间或已结束的事件顺序决定动词的过去式；若使用 did 或 didn't，后面的主要动词要用原形。";
