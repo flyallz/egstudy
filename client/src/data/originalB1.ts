@@ -1,4 +1,4 @@
-// B1 第 1–10 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–12 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -176,4 +176,45 @@ export const B1_TENTH_LESSON: OriginalA2Word[] = [
   ["court", "/kɔːt/", "名词", "法院；球场", "go to court = 上法庭；tennis court = 网球场", "The case will go to court next month.", "They played two sets on the tennis court."],
   ["cover", "/ˈkʌvə/", "名词", "封面；覆盖物；庇护", "take cover = 寻找掩护；也可作动词表示覆盖", "The book has a beautiful cover.", "When the rain started, we took cover under a tree."],
   ["covered", "/ˈkʌvəd/", "形容词", "被覆盖的；布满的", "covered in/with something = 被某物覆盖", "By morning the fields were covered in snow.", "His hands were covered with paint."],
+];
+
+export const B1_ELEVENTH_LESSON: OriginalA2Word[] = [
+  ["cruel", "/ˈkruːəl/", "形容词", "残忍的；残酷的", "cruel to somebody/something = 对某人或某物残忍；反义词 kind", "It is cruel to leave a dog alone all day.", "The king was famous for his cruel punishments."],
+  ["cultural", "/ˈkʌltʃərəl/", "形容词", "文化的；与文化有关的", "cultural differences = 文化差异", "The festival celebrates the city's cultural heritage.", "Travelling helps you understand cultural differences."],
+  ["currency", "/ˈkʌrənsi/", "名词", "货币；币种", "foreign currency = 外币", "The euro is the currency of many European countries.", "You can change your currency at the airport."],
+  ["current", "/ˈkʌrənt/", "形容词", "当前的；现在的", "与 present 意思相近；名词 current 可指水流或电流", "What is your current address?", "The current situation is better than last year."],
+  ["currently", "/ˈkʌrəntli/", "副词", "目前；现在", "与 at the moment 意思相近", "She is currently working on a new novel.", "The museum is currently closed for repairs."],
+  ["curtain", "/ˈkɜːtn/", "名词", "窗帘；帘子", "draw/close the curtains = 拉上窗帘", "Please close the curtains, it's getting dark.", "She pulled back the curtain to look outside."],
+  ["custom", "/ˈkʌstəm/", "名词", "习俗；惯例", "it is the custom to do something = 按习俗要做某事；customs 另可指海关", "Shaking hands is a common custom when you meet someone.", "It is a local custom to give flowers at weddings."],
+  ["damage", "/ˈdæmɪdʒ/", "名词", "损害；损失", "通常不可数；cause damage to something = 对某物造成损害；也可作动词", "The storm caused serious damage to the roof.", "Smoking can damage your lungs."],
+  ["decade", "/ˈdekeɪd/", "名词", "十年；十年期", "over the past decade = 过去十年里", "The town has changed a lot in the last decade.", "She spent nearly a decade living abroad."],
+  ["decorate", "/ˈdekəreɪt/", "动词", "装饰；装修", "decorate something with something = 用某物装饰另一物", "They decorated the hall with balloons and lights.", "We are going to decorate the living room this weekend."],
+  ["define", "/dɪˈfaɪn/", "动词", "定义；明确说明", "define something as ... = 将某物定义为……", "It's hard to define exactly what happiness is.", "The dictionary defines the word very clearly."],
+  ["definite", "/ˈdefɪnət/", "形容词", "明确的；肯定的", "a definite answer = 明确的答复；反义词 vague", "We need a definite answer by Friday.", "There has been a definite improvement in her health."],
+  ["definition", "/ˌdefɪˈnɪʃn/", "名词", "定义；释义", "a definition of something = 某物的定义", "Look up the definition of this word in the dictionary.", "Everyone has a different definition of success."],
+  ["deliver", "/dɪˈlɪvə/", "动词", "递送；发表；接生", "deliver something to somebody = 把某物送给某人；deliver a speech = 发表演讲", "The shop can deliver the sofa tomorrow.", "She delivered a short speech at the ceremony."],
+  ["departure", "/dɪˈpɑːtʃə/", "名词", "出发；离开", "反义词 arrival；departure time = 出发时间", "The departure of the flight was delayed by two hours.", "Check the board for the departure time of your train."],
+  ["despite", "/dɪˈspaɪt/", "介词", "尽管；虽然", "后接名词或动名词；与 in spite of 同义", "Despite the rain, they finished the match.", "She passed the exam despite being ill."],
+  ["destination", "/ˌdestɪˈneɪʃn/", "名词", "目的地；终点", "holiday destination = 度假目的地；final destination = 最终目的地", "Paris is a popular holiday destination.", "We finally reached our destination after a long drive."],
+];
+
+export const B1_TWELFTH_LESSON: OriginalA2Word[] = [
+  ["determine", "/dɪˈtɜːmɪn/", "动词", "查明；决定", "determine the cause = 查明原因；determine whether/how = 确定是否／如何", "Scientists are trying to determine the cause of the illness.", "Your attitude can determine your success."],
+  ["determined", "/dɪˈtɜːmɪnd/", "形容词", "坚决的；有决心的", "determined to do something = 决心做某事", "She was determined to finish the race.", "He is a determined young man who never gives up."],
+  ["development", "/dɪˈveləpmənt/", "名词", "发展；新进展", "the development of something = 某物的发展；recent developments = 最新进展", "The development of the internet changed the world.", "There have been exciting developments in the case."],
+  ["diagram", "/ˈdaɪəɡræm/", "名词", "示意图；图解", "a diagram of something = 某物的示意图", "The teacher drew a diagram to explain the process.", "The manual includes a diagram of all the parts."],
+  ["diamond", "/ˈdaɪəmənd/", "名词", "钻石；菱形", "a diamond ring = 钻石戒指", "He gave her a beautiful diamond ring.", "The window had small panes in a diamond shape."],
+  ["difficulty", "/ˈdɪfɪkəlti/", "名词", "困难；难题", "have difficulty doing something = 做某事有困难", "She had difficulty finding a parking space.", "He walked up the stairs with great difficulty."],
+  ["directly", "/dəˈrektli/", "副词", "直接地；径直地", "反义词 indirectly", "You can contact the manager directly by phone.", "The road leads directly to the beach."],
+  ["dirt", "/dɜːt/", "名词", "污垢；泥土", "不可数名词；covered in dirt = 沾满泥土", "His shoes were covered in dirt after the walk.", "Wipe the dirt off the window before you paint it."],
+  ["disadvantage", "/ˌdɪsədˈvɑːntɪdʒ/", "名词", "不利条件；缺点", "反义词 advantage；at a disadvantage = 处于不利地位", "One disadvantage of the job is the long hours.", "Not speaking the language put her at a disadvantage."],
+  ["disappointed", "/ˌdɪsəˈpɔɪntɪd/", "形容词", "失望的", "描述人的感受；be disappointed with something = 对某事失望", "I was disappointed with my exam results.", "She looked disappointed when we cancelled the trip."],
+  ["disappointing", "/ˌdɪsəˈpɔɪntɪŋ/", "形容词", "令人失望的", "描述让人失望的事物；与 disappointed 的感受义区分", "The film was really disappointing after all the good reviews.", "We had a disappointing start to the season."],
+  ["discount", "/ˈdɪskaʊnt/", "名词", "折扣；减价", "get a discount on something = 购买某物时享受折扣", "Students get a 10% discount on train tickets.", "I bought these shoes at a big discount."],
+  ["dislike", "/dɪsˈlaɪk/", "动词", "不喜欢；厌恶", "反义词 like；也可作名词指厌恶之情", "I dislike getting up early on cold mornings.", "She has a strong dislike of loud music."],
+  ["divide", "/dɪˈvaɪd/", "动词", "分开；划分", "divide something into ... = 把某物分成……", "Let's divide the cake into eight pieces.", "The teacher divided the class into small groups."],
+  ["documentary", "/ˌdɒkjuˈmentri/", "名词", "纪录片", "a documentary about/on something = 关于某事的纪录片", "We watched a documentary about wild animals in Africa.", "He is making a documentary on climate change."],
+  ["donate", "/dəʊˈneɪt/", "动词", "捐赠；献出", "donate something to somebody/something = 向某人或机构捐赠某物", "They donated a lot of money to the hospital.", "You can donate blood twice a year."],
+  ["doubt", "/daʊt/", "名词", "怀疑；疑虑", "have doubts about = 对……有疑问；no doubt = 毫无疑问", "I have no doubt that she will succeed.", "There is some doubt about whether the plan will work."],
+  ["dressed", "/drest/", "形容词", "穿好衣服的；穿着……的", "get dressed = 穿好衣服；be dressed in something = 身穿某物", "Give me five minutes to get dressed.", "She was dressed in a beautiful red dress."],
 ];
