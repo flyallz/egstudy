@@ -1,4 +1,4 @@
-// B1 第 1–4 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–6 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -65,4 +65,39 @@ export const B1_FOURTH_LESSON: OriginalA2Word[] = [
   ["backwards", "/ˈbækwədz/", "副词", "向后；倒着", "美式英语常用 backward；fall backwards = 向后摔倒", "He fell backwards off the ladder.", "Try counting backwards from ten to one."],
   ["bake", "/beɪk/", "动词", "烘烤；烤制", "常指在烤箱中烤面包、蛋糕；区别于 fry（油煎）", "She loves to bake cakes at the weekend.", "We baked some bread for the party."],
   ["balance", "/ˈbæləns/", "名词", "平衡；余额", "a balance between A and B = A 与 B 之间的平衡；也可作动词", "It's hard to find a balance between work and family.", "He lost his balance and fell off the bike."],
+];
+
+export const B1_FIFTH_LESSON: OriginalA2Word[] = [
+  ["ban", "/bæn/", "动词", "禁止；取缔", "ban somebody from doing something = 禁止某人做某事；也可作名词指禁令", "The school banned students from using phones in class.", "There is now a ban on smoking in restaurants."],
+  ["base", "/beɪs/", "名词", "底座；基础；基地", "the base of something = 某物的底部；也可作动词表示以……为基础", "The lamp has a heavy metal base.", "They based their conclusion on solid evidence."],
+  ["basic", "/ˈbeɪsɪk/", "形容词", "基本的；基础的", "basic skills = 基本技能；the basics = 基础知识", "You only need basic cooking skills for this recipe.", "The course teaches the basic rules of grammar."],
+  ["basis", "/ˈbeɪsɪs/", "名词", "基础；依据", "on a regular/daily basis = 定期／每天", "We meet on a regular basis to discuss the project.", "Her decision had no real basis in fact."],
+  ["battery", "/ˈbætri/", "名词", "电池；蓄电池", "charge a battery = 给电池充电；battery is flat = 电池没电", "My phone battery is almost flat.", "Remember to charge the battery before the trip."],
+  ["battle", "/ˈbætl/", "名词", "战斗；斗争", "a battle against something = 对抗某事的斗争", "Many soldiers died in the battle.", "She won her long battle against the illness."],
+  ["beat", "/biːt/", "动词", "击败；敲打；搅拌", "不规则变化：beat–beat–beaten", "Our team beat them three goals to one.", "Beat the eggs before adding the flour."],
+  ["beauty", "/ˈbjuːti/", "名词", "美；美丽的人或物", "the beauty of something = 某物的美", "The beauty of the mountains took my breath away.", "She was a great beauty when she was young."],
+  ["bee", "/biː/", "名词", "蜜蜂", "a swarm of bees = 一群蜜蜂", "A bee flew in through the open window.", "He was stung by a bee in the garden."],
+  ["belief", "/bɪˈliːf/", "名词", "信念；信仰", "belief in something = 对某事的信念", "She has a strong belief in hard work.", "People should be free to follow their own beliefs."],
+  ["bell", "/bel/", "名词", "铃；钟", "ring the bell = 按铃或敲钟", "The school bell rang at eight o'clock.", "Someone rang the doorbell while we were eating."],
+  ["bend", "/bend/", "动词", "弯曲；俯身", "不规则变化：bend–bent–bent；也可作名词指弯道", "He had to bend down to pick up the coin.", "Slow down, there's a sharp bend in the road ahead."],
+  ["bite", "/baɪt/", "动词", "咬；叮", "不规则变化：bite–bit–bitten；也可作名词指一口", "Be careful, the dog might bite you.", "Let's stop and have a quick bite to eat."],
+  ["block", "/blɒk/", "名词", "大块；楼房；街区", "a block of flats = 一栋公寓楼；动词 block 指挡住", "They live in a tall block of flats.", "A fallen tree is blocking the road."],
+];
+
+export const B1_SIXTH_LESSON: OriginalA2Word[] = [
+  ["bomb", "/bɒm/", "名词", "炸弹", "a bomb goes off = 炸弹爆炸；也可作动词指轰炸", "The old bomb was found under a house.", "Enemy planes bombed the city at night."],
+  ["border", "/ˈbɔːdə/", "名词", "边界；边境；边缘", "the border between A and B = A 与 B 之间的边界", "We crossed the border into France at midnight.", "There were flowers all along the border of the garden."],
+  ["bother", "/ˈbɒðə/", "动词", "打扰；费心", "bother somebody = 打扰某人；not bother to do = 不费心做", "I'm sorry to bother you, but could you help me?", "Don't bother cooking, we can eat out tonight."],
+  ["branch", "/brɑːntʃ/", "名词", "树枝；分支机构", "a branch of a bank = 银行分行", "A bird was sitting on the lowest branch of the tree.", "The bank has opened a new branch in our town."],
+  ["brand", "/brænd/", "名词", "品牌；商标", "a brand of something = 某品牌的产品", "She only buys one brand of coffee.", "It's a popular brand of running shoes among young people."],
+  ["brave", "/breɪv/", "形容词", "勇敢的；无畏的", "brave enough to do = 勇敢到足以做某事", "It was very brave of her to speak in front of so many people.", "The brave firefighter saved the child from the flames."],
+  ["breathe", "/briːð/", "动词", "呼吸", "breathe in/out = 吸气／呼气；与名词 breath 区分", "Try to breathe slowly and stay calm.", "It was hard to breathe in the smoky room."],
+  ["breathing", "/ˈbriːðɪŋ/", "名词", "呼吸；呼吸声", "不可数名词；deep breathing = 深呼吸", "After the run, her breathing was fast and heavy.", "Deep breathing can help you relax."],
+  ["bride", "/braɪd/", "名词", "新娘", "the bride and groom = 新娘和新郎", "The bride wore a beautiful white dress.", "Everyone turned to look as the bride entered the church."],
+  ["bubble", "/ˈbʌbl/", "名词", "气泡；泡泡", "blow bubbles = 吹泡泡", "Children love to blow bubbles in the park.", "Tiny bubbles rose to the top of the glass."],
+  ["bury", "/ˈberi/", "动词", "埋葬；掩埋", "be buried under/in = 被埋在……之下／之中", "They buried their old dog in the garden.", "The village was buried under tonnes of snow."],
+  ["calm", "/kɑːm/", "形容词", "平静的；镇定的", "stay/keep calm = 保持冷静；calm down = 平静下来", "Try to stay calm and don't panic.", "The sea was completely calm this morning."],
+  ["campaign", "/kæmˈpeɪn/", "名词", "运动；宣传活动；竞选活动", "a campaign against/for something = 反对／支持某事的活动", "The charity started a campaign against drink-driving.", "Volunteers campaigned for cleaner streets."],
+  ["campus", "/ˈkæmpəs/", "名词", "校园；大学校区", "on campus = 在校园内", "Most first-year students live on campus.", "The library is in the centre of the campus."],
+  ["candidate", "/ˈkændɪdət/", "名词", "候选人；应聘者", "a candidate for something = 某职位的候选人", "There are five candidates for the manager's job.", "Each candidate had ten minutes to answer the questions."],
 ];
