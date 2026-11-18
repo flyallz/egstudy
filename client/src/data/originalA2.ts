@@ -1,4 +1,4 @@
-// A2 第 1–13 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–13 课音标待核。
+// A2 第 1–15 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–15 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -234,4 +234,47 @@ export const A2_THIRTEENTH_LESSON: OriginalA2Word[] = [
   ["dentist", "/ˈdentɪst/", "名词", "牙医", "指人；go to the dentist = 去看牙医", "I go to the dentist twice a year.", "The dentist checked my teeth."],
   ["department", "/dɪˈpɑːtmənt/", "名词", "部门；院系", "可数名词；department store = 百货商店", "She works in the sales department.", "The history department is on the first floor."],
   ["depend", "/dɪˈpend/", "动词", "取决于；依靠", "depend on something/somebody = 取决于某事／依靠某人", "The price depends on the size.", "You can depend on her."],
+];
+
+// 第 14 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_FOURTEENTH_LESSON: OriginalA2Word[] = [
+  ["desert", "/ˈdezət/", "名词", "沙漠", "可数名词；重音在第一个音节，区别于 dessert", "The Sahara is the largest hot desert.", "Few plants grow in the desert."],
+  ["designer", "/dɪˈzaɪnə/", "名词", "设计师", "指从事设计工作的人", "She is a fashion designer.", "The designer chose a simple shape."],
+  ["dessert", "/dɪˈzɜːt/", "名词", "甜点；餐后甜食", "重音在后一个音节，区别于 desert", "We had ice cream for dessert.", "What is on the dessert menu?"],
+  ["destroy", "/dɪˈstrɔɪ/", "动词", "毁坏；摧毁", "destroy a building/evidence = 摧毁建筑物／证据", "The fire destroyed the old market.", "War destroyed the city."],
+  ["detective", "/dɪˈtektɪv/", "名词", "侦探；调查员", "指调查案件的人；detective story = 侦探小说", "The detective asked many questions.", "She reads detective stories."],
+  ["develop", "/dɪˈveləp/", "动词", "发展；培养；冲洗（照片）", "develop a skill = 培养技能；develop an illness = 患上疾病", "The company develops new software.", "Children develop quickly at this age."],
+  ["device", "/dɪˈvaɪs/", "名词", "设备；装置", "可数名词；electronic device = 电子设备", "This device measures temperature.", "Turn off all devices during the exam."],
+  ["diary", "/ˈdaɪəri/", "名词", "日记；日程本", "复数为 diaries", "She writes in her diary every night.", "I noted the meeting in my diary."],
+  ["differently", "/ˈdɪfrəntli/", "副词", "不同地；以另一种方式", "different 的副词形式", "He sees the problem differently.", "Things are done differently here."],
+  ["digital", "/ˈdɪdʒɪtl/", "形容词", "数字的；数码的", "digital camera = 数码相机；digital skills = 数字技能", "I keep digital copies of all documents.", "Children need digital skills."],
+  ["direct", "/dəˈrekt/", "形容词", "直接的；直达的", "a direct flight = 直飞航班", "Is there a direct flight to Seoul?", "She gave me a direct answer."],
+  ["direction", "/dəˈrekʃn/", "名词", "方向；路线指引", "ask for directions = 问路", "We walked in the wrong direction.", "He asked a stranger for directions."],
+  ["director", "/dəˈrektə/", "名词", "主管；董事；导演", "指负责公司、部门或影片的人", "The director of the company spoke first.", "Who is the director of this film?"],
+  ["disagree", "/ˌdɪsəˈɡriː/", "动词", "不同意；意见不合", "disagree with somebody about something = 与某人就某事意见不合", "I disagree with that idea.", "The two doctors disagreed about the cause."],
+  ["disappear", "/ˌdɪsəˈpɪə/", "动词", "消失；不见", "反义词 appear", "The sun disappeared behind a cloud.", "My keys have disappeared again."],
+  ["disaster", "/dɪˈzɑːstə/", "名词", "灾难；惨败", "可数名词；natural disaster = 自然灾害", "The flood was a disaster for the village.", "The party was a complete disaster."],
+  ["discover", "/dɪˈskʌvə/", "动词", "发现；查明", "discover a place/the truth = 发现一个地方／查明真相", "Scientists discovered a new planet.", "She discovered that he had lied."],
+];
+
+// 第 15 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_FIFTEENTH_LESSON: OriginalA2Word[] = [
+  ["discovery", "/dɪˈskʌvəri/", "名词", "发现；发现的事物", "名词；复数为 discoveries", "The discovery changed medicine.", "They made an important discovery."],
+  ["discussion", "/dɪˈskʌʃn/", "名词", "讨论；商议", "可数名词；have a discussion about something = 讨论某事", "We had a long discussion about the plan.", "The discussion lasted two hours."],
+  ["disease", "/dɪˈziːz/", "名词", "疾病；病症", "可数名词；heart disease = 心脏病", "Heart disease is a serious problem.", "The disease spreads through water."],
+  ["distance", "/ˈdɪstəns/", "名词", "距离；间距", "in the distance = 在远处", "What is the distance between the two cities?", "We saw lights in the distance."],
+  ["divorced", "/dɪˈvɔːst/", "形容词", "离婚的", "get divorced = 离婚", "Her parents are divorced.", "They got divorced last year."],
+  ["document", "/ˈdɒkjumənt/", "名词", "文件；文档", "可数名词", "Sign the document at the bottom.", "Save the document before you close it."],
+  ["double", "/ˈdʌbl/", "形容词", "双的；两倍的", "a double room = 双人间", "We booked a double room.", "The price is double what it was."],
+  ["download", "/ˌdaʊnˈləʊd/", "动词", "下载", "download a file = 下载文件；反义词 upload", "I downloaded the song last night.", "You can download the form here."],
+  ["drama", "/ˈdrɑːmə/", "名词", "戏剧；风波", "a TV drama = 电视剧中的戏剧作品", "She studies drama at college.", "The news caused a lot of drama."],
+  ["drawing", "/ˈdrɔːɪŋ/", "名词", "画作；绘画", "指一幅画时可数；指绘画活动时可作不可数", "Her drawing of the cat is lovely.", "He is good at drawing."],
+  ["dream", "/driːm/", "名词", "梦；梦想", "可数名词；have a dream = 做梦／有梦想", "I had a strange dream last night.", "Her dream is to become a pilot."],
+  ["driving", "/ˈdraɪvɪŋ/", "名词", "驾驶；开车", "不可数名词；driving licence = 驾照", "Driving in the city is stressful.", "He is taking driving lessons."],
+  ["drop", "/drɒp/", "动词", "使落下；下降", "drop something = 使某物落下；prices drop = 价格下降", "I dropped my phone on the floor.", "Prices dropped after the holiday."],
+  ["drug", "/drʌɡ/", "名词", "药物；毒品", "可数名词；依上下文区分药品和违禁药物", "The doctor gave her a new drug.", "The police found drugs in the car."],
+  ["dry", "/draɪ/", "形容词", "干的；干燥的", "反义词 wet", "The towel is dry now.", "We had a long dry summer."],
+  ["earn", "/ɜːn/", "动词", "挣得；赢得", "earn money = 挣钱；earn respect = 赢得尊重", "She earns a good salary.", "He earned everyone's respect."],
+  ["earth", "/ɜːθ/", "名词", "地球；土壤", "表示行星时通常写作 Earth", "The Earth goes around the Sun.", "Plant the seeds in soft earth."],
+  ["easily", "/ˈiːzɪli/", "副词", "容易地；轻松地", "easy 的副词形式", "She passed the test easily.", "This bag opens easily."],
 ];
