@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_PERFECT_MEDIUM } from "./currentSiteA2PerfectMedium";
+import { A2_PERFECT_HARD } from "./currentSiteA2PerfectHard";
 
 // 原站 A2 第 6 课：理论和简单档 20 题按公开 A2 课程数据逐项翻译与核对。
 const perfectHint = "现在完成时用 have/has + 过去分词，强调截至现在的经历、结果或延续；已结束的明确过去时间用一般过去时。";
@@ -77,8 +79,8 @@ export const A2_PERFECT: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["句中是否有已结束的具体过去时间？", "have/has 是否与主语一致？", "主要动词是否用了过去分词？", "just、never、ever 是否放在助动词与主要动词之间？"],
-  questions: A2_PERFECT_QUESTIONS,
+  questions: [...A2_PERFECT_QUESTIONS, ...A2_PERFECT_MEDIUM, ...A2_PERFECT_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
