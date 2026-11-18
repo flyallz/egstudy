@@ -2,9 +2,10 @@ import type { GrammarLesson, QuizQuestion } from "./content";
 import { A2_MOVEMENT_MEDIUM } from "./currentSiteA2MovementMedium";
 import { A2_MOVEMENT_HARD } from "./currentSiteA2MovementHard";
 import { A2_REFLEXIVE_MEDIUM } from "./currentSiteA2ReflexiveMedium";
+import { A2_REFLEXIVE_HARD } from "./currentSiteA2ReflexiveHard";
 
-// 原站 A2 第 1 课：2026-11-17 逐段核对理论，并完成简单档 20 道题。
-// 题干与选项按原站保留英文；越南语讲解译成中文。中等、困难档尚待提取。
+// 原站 A2 第 1 课：逐段核对理论，并完成简单 20、中等 30、困难 30 道题。
+// 题干与选项按原站保留英文；越南语讲解译成中文。
 const common = "反身代词要与所指的人或物在人称和单复数上对应；主语自己实施或承受动作时，它说明动作回到主语身上。";
 
 const easy = (q: string, options: string[], answer: number, explain: string): QuizQuestion => ({
@@ -81,10 +82,10 @@ export const A2_REFLEXIVE: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["宾语是否与主语相同？", "单数用 -self，复数用 -selves。", "地点介词后通常用普通宾格。", "each other 表示双方互相作用。"],
-  questions: [...A2_REFLEXIVE_QUESTIONS, ...A2_REFLEXIVE_MEDIUM],
+  questions: [...A2_REFLEXIVE_QUESTIONS, ...A2_REFLEXIVE_MEDIUM, ...A2_REFLEXIVE_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["困难"],
+  pendingDifficulties: [],
 };
 
 const pastCommon = "明确的过去时间或已结束的事件顺序决定动词的过去式；若使用 did 或 didn't，后面的主要动词要用原形。";
