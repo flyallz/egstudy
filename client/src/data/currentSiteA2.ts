@@ -245,7 +245,30 @@ export const A2_WAS_WERE: Partial<GrammarLesson> = {
   pendingDifficulties: ["中等", "困难"],
 };
 
-// 原站 A2 第 4 课完整理论已核对。课文主体无插图；简单档显示 20 题，题库待提取。
+// 原站 A2 第 4 课完整理论已核对。简单档显示 20 题；下列 18 题有原站测验记录，余下 2 题待核对。
+// 前 17 题来自同一次测验，最后一题来自重做测验；重做时题目顺序会变化。
+const movementHint = "要根据移动路径及起点、终点选介词，不能只看静止位置。";
+export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
+  easy("The train went ___ a long tunnel.", ["along", "through", "across", "over"], 1, `句意是“火车穿过一条长隧道”。隧道是封闭空间，要用 through。${movementHint}`),
+  easy("把“我们在顺化上公交车，在岘港下车”译成英语。", ["We in Da Nang got on the bus in Hue and got off.", "We got on the bus in Hue and got off in Da Nang.", "We are got on the bus in Hue and got off in Da Nang.", "We did got on the bus in Hue and got off in Da Nang."], 1, `公交车、火车、飞机用 get on 和 get off；小汽车用 get into 和 get out of。${movementHint}`),
+  easy("把“她跑上楼梯，然后又下来了”译成英语。", ["She running up the stairs and then came down again.", "She ran up the stairs and then came down again.", "She is ran up the stairs and then came down again.", "She did ran up the stairs and then came down again."], 1, `up 和 down 表示上下移动。${movementHint}`),
+  easy("选择正确的句子。", ["He climbed into the car and left his phone on the seat.", "He climbed into the car and left his phone onto the seat.", "He climbed in the car and left his phone onto the seat.", "He climbed onto the car and left his phone in the seat."], 0, `句意是“他上车并把手机留在座位上”。into 表示进入，on 表示手机的静止位置。${movementHint}`),
+  easy("The children ran ___ the playground to reach the other side.", ["across", "under", "along", "into"], 0, "句意是“孩子们跑过操场到另一边”。across 表示从一侧穿过一片区域到另一侧。"),
+  easy("We walked ___ the river until we reached the bridge.", ["over", "through", "into", "along"], 3, "句意是“我们沿着河走，直到走到桥边”。along 表示顺着河流的长度方向移动。"),
+  easy("把“她走进房间，把包放在桌上”译成英语。", ["She on the table walked into the room and put her bag.", "She walked into the room and put her bag on the table.", "She did walked into the room and put her bag on the table.", "She is walked into the room and put her bag on the table."], 1, `into 表示进入房间的方向，on 表示包放下后的静止位置。${movementHint}`),
+  easy("She walked ___ the room and sat down.", ["into", "in", "at", "on"], 0, `句意是“她走进房间坐下”。表达从外面进入要用 into。${movementHint}`),
+  easy("把“沿着这条街走，经过邮局”译成英语。", ["Walk along those street and go past the post office.", "Walk along this street and go past the post office.", "Walk along these street and go past the post office.", "Walk along this street and gone past the post office."], 1, `along 表示沿着街道走，past 表示从邮局旁经过而不停下。${movementHint}`),
+  easy("We ___ the bus in Hue.", ["got in", "got on", "got at", "got into"], 1, `句意是“我们在顺化上了公交车”。公交车、火车和飞机用 get on。${movementHint}`),
+  easy("选择正确的句子。", ["She walked in the room and sat down.", "She is walked into the room and sat down.", "She walked into the room and sat down.", "She did walked into the room and sat down."], 2, `句意是“她走进房间并坐下”。in 表示已经在室内，into 表示进入室内。${movementHint}`),
+  easy("From the bus stop, walk ___ the post office without going in, then turn left.", ["onto", "past", "out of", "into"], 1, "句意是“从公交站出发，经过邮局而不进去，然后左转”。past 表示经过；into 是进入，out of 是从里面出来，都不符合语境。"),
+  easy("She ran ___ the stairs to the third floor.", ["on", "across", "into", "up"], 3, `句意是“她跑上楼梯到三楼”。up 表示向上移动。${movementHint}`),
+  easy("把“火车穿过一条长隧道”译成英语。", ["The train went through a long tunnel.", "The train did went through a long tunnel.", "The train is went through a long tunnel.", "The train went through an long tunnel."], 0, `through 表示进入空间内部，再从另一端穿出。${movementHint}`),
+  easy("The cat jumped ___ the wall and landed in the next garden.", ["across", "along", "through", "over"], 3, "句意是“猫越过墙，落在旁边的花园里”。over 表示从墙上方越过；along 是沿着墙走，through 是穿墙而过，across 常用于一片表面或区域。"),
+  easy("The rabbit ran ___ its hole when it saw a fox.", ["over", "along", "into", "on"], 2, "句意是“兔子看见狐狸时跑进洞里”。into 表示从外面进入内部。"),
+  easy("把“我们走过桥，到达对岸”译成英语。", ["We walked across the bridge to the other bank.", "We to the other bank walked across the bridge.", "We did walked across the bridge to the other bank.", "We are walked across the bridge to the other bank."], 0, `across 表示从桥的一侧走到另一侧。${movementHint}`),
+  easy("The bird flew ___ the tall, solid fence without touching it.", ["through", "under", "over", "into"], 2, "句意是“鸟从高而结实的围栏上方飞过，没有碰到它”。over 表示越过障碍物的上方。"),
+];
+
 export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
   titleCn: "表示移动的介词",
   titleEn: "Prepositions of movement",
@@ -293,7 +316,7 @@ export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["句子描述静止位置还是有方向的移动？", "介词是否对应实际空间路径？", "交通工具固定搭配是否正确？", "移动动词不能误用静态位置介词。"],
-  questions: [],
+  questions: A2_MOVEMENT_QUESTIONS,
   ownBankOnly: true,
   quizCounts: { "简单": 20 },
   pendingDifficulties: ["简单", "中等", "困难"],
