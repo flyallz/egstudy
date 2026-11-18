@@ -80,7 +80,7 @@ export const A2_REFLEXIVE: Partial<GrammarLesson> = {
   keyPoints: ["宾语是否与主语相同？", "单数用 -self，复数用 -selves。", "地点介词后通常用普通宾格。", "each other 表示双方互相作用。"],
   questions: A2_REFLEXIVE_QUESTIONS,
   ownBankOnly: true,
-  quizCounts: { "简单": 20 },
+  quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
   pendingDifficulties: ["中等", "困难"],
 };
 
@@ -161,7 +161,7 @@ export const A2_PAST_SIMPLE: Partial<GrammarLesson> = {
   keyPoints: ["句中是否有过去时间标记？", "动词是规则变化还是不规则变化？", "-ed 的拼写是否正确？", "否定句和疑问句是否使用 did + 动词原形？"],
   questions: A2_PAST_SIMPLE_QUESTIONS,
   ownBankOnly: true,
-  quizCounts: { "简单": 20 },
+  quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
   pendingDifficulties: ["中等", "困难"],
 };
 
@@ -241,12 +241,11 @@ export const A2_WAS_WERE: Partial<GrammarLesson> = {
   keyPoints: ["主要动词是 be 还是普通动词？", "was / were 是否与主语一致？", "be 动词不与 did 连用。", "疑问词是否放在 was / were / did 前面？"],
   questions: A2_WAS_WERE_QUESTIONS,
   ownBankOnly: true,
-  quizCounts: { "简单": 20 },
+  quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
   pendingDifficulties: ["中等", "困难"],
 };
 
-// 原站 A2 第 4 课完整理论已核对。简单档显示 20 题；下列 19 题有原站测验记录，余下 1 题待核对。
-// 前 17 题来自同一次测验；围栏题的答案按题意判断，原站反馈待确认；车站题已取得原站正确答案。
+// 原站 A2 第 4 课完整理论已核对。简单档 20 题已与原站公开 A2 课程数据逐题核对。
 const movementHint = "要根据移动路径及起点、终点选介词，不能只看静止位置。";
 export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
   easy("The train went ___ a long tunnel.", ["along", "through", "across", "over"], 1, `句意是“火车穿过一条长隧道”。隧道是封闭空间，要用 through。${movementHint}`),
@@ -268,6 +267,7 @@ export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
   easy("把“我们走过桥，到达对岸”译成英语。", ["We walked across the bridge to the other bank.", "We to the other bank walked across the bridge.", "We did walked across the bridge to the other bank.", "We are walked across the bridge to the other bank."], 0, `across 表示从桥的一侧走到另一侧。${movementHint}`),
   easy("The bird flew ___ the tall, solid fence without touching it.", ["through", "under", "over", "into"], 2, "句意是“鸟从高而结实的围栏上方飞过，没有碰到它”。over 表示越过障碍物的上方。"),
   easy("He was walking ___ the station when I saw him, but he was still a long way from it.", ["towards", "across", "off", "through"], 0, "句意是“我看见他时，他正朝车站走去，但离车站还很远”。still a long way from it 说明他尚未到达，因此用 towards 表示朝车站方向移动、但尚未抵达。through 和 across 则要求他已经进入车站区域，与题意不符。"),
+  easy("选择正确的句子。", ["The cat is onto the roof now.", "The cat are on the roof now.", "The cat on the roof now is.", "The cat is on the roof now."], 3, `正确句意是“猫现在在屋顶上”。这里说的是静止位置，用 on，不能用表示移动方向的 onto。${movementHint}`),
 ];
 
 export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
@@ -319,6 +319,6 @@ export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
   keyPoints: ["句子描述静止位置还是有方向的移动？", "介词是否对应实际空间路径？", "交通工具固定搭配是否正确？", "移动动词不能误用静态位置介词。"],
   questions: A2_MOVEMENT_QUESTIONS,
   ownBankOnly: true,
-  quizCounts: { "简单": 20 },
-  pendingDifficulties: ["简单", "中等", "困难"],
+  quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
+  pendingDifficulties: ["中等", "困难"],
 };
