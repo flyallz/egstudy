@@ -1,4 +1,4 @@
-// A2 第 1–36 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–36 课音标待核。
+// A2 第 1–38 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–38 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -828,4 +828,65 @@ export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["structure", "/ˈstrʌktʃə/", "名词", "结构；建筑物", "可数名词", "The structure of the essay is clear.", "The bridge is a huge steel structure."],
   ["stupid", "/ˈstjuːpɪd/", "形容词", "愚蠢的；傻的", "语气较重；较温和的说法可用 silly", "That was a stupid mistake.", "Do not say such stupid things."],
   ["succeed", "/səkˈsiːd/", "动词", "成功；达到目的", "succeed in doing something = 成功做成某事", "She succeeded in passing the exam.", "The plan succeeded beyond our hopes."],
+];
+
+// 第 37 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["successful", "/səkˈsesfl/", "形容词", "成功的；经营良好的", "a successful business = 成功的企业", "He runs a successful bakery.", "The meeting was successful."],
+  ["such", "/sʌtʃ/", "限定词", "这样的；如此的", "such a good day = 这么好的一天", "It was such a hot day.", "I have never seen such a big fish."],
+  ["suddenly", "/ˈsʌdənli/", "副词", "突然地；忽然", "表示事情出乎意料地发生", "Suddenly the lights went out.", "She suddenly started to laugh."],
+  ["suggest", "/səˈdʒest/", "动词", "建议；提议", "后接动名词或 that 从句，不说 suggest somebody to do", "She suggested going by train.", "I suggest that we leave early."],
+  ["suggestion", "/səˈdʒestʃən/", "名词", "建议；提议", "可数名词；make a suggestion = 提出建议", "That is a useful suggestion.", "Do you have any suggestions?"],
+  ["suit", "/suːt/", "名词", "西装；套装", "可数名词", "He wore a dark suit to the interview.", "She bought a swimming suit."],
+  ["support", "/səˈpɔːt/", "动词", "支持；帮助", "support a team = 支持球队；support a family = 养家", "My family supported my decision.", "He supports a local football team."],
+  ["suppose", "/səˈpəʊz/", "动词", "认为；猜想", "be supposed to do something = 按要求或预期应该做某事", "I suppose she is still at work.", "You are supposed to wear a helmet."],
+  ["surprise", "/səˈpraɪz/", "名词", "惊喜；意外之事", "可数名词；a surprise party = 惊喜派对", "Her visit was a lovely surprise.", "They planned a surprise for his birthday."],
+  ["surprised", "/səˈpraɪzd/", "形容词", "惊讶的", "描述人的感受", "I was surprised to see her there.", "He looked surprised at the news."],
+  ["surprising", "/səˈpraɪzɪŋ/", "形容词", "令人惊讶的", "描述让人惊讶的事物；surprised 描述人的感受", "The result was surprising.", "It is surprising how fast children learn."],
+  ["survey", "/ˈsɜːveɪ/", "名词", "调查；问卷调查", "可数名词；carry out a survey = 开展调查", "The survey asked a thousand people.", "A recent survey shows rising prices."],
+  ["sweet", "/swiːt/", "形容词", "甜的；贴心的", "表示味道时与 sour 或 bitter 相对", "This mango is very sweet.", "That was a sweet thing to say."],
+  ["symbol", "/ˈsɪmbl/", "名词", "象征；符号", "a symbol of something = 某物的象征", "The dove is a symbol of peace.", "Each symbol on the map means something."],
+  ["system", "/ˈsɪstəm/", "名词", "系统；体系", "可数名词", "The school has a new computer system.", "The transport system works well here."],
+  ["tablet", "/ˈtæblət/", "名词", "平板电脑；药片", "可数名词", "She reads books on a tablet.", "Take one tablet after meals."],
+  ["target", "/ˈtɑːɡɪt/", "名词", "目标；指标", "meet a target = 达到目标", "We met our sales target.", "Her target is to run ten kilometres."],
+  ["task", "/tɑːsk/", "名词", "任务；工作", "可数名词", "Cleaning the kitchen is my task.", "The task took longer than expected."],
+  ["taste", "/teɪst/", "名词", "味道；品味", "a taste of something = 某物的味道", "This soup has a strong taste.", "She has good taste in clothes."],
+  ["teaching", "/ˈtiːtʃɪŋ/", "名词", "教学；教师工作", "不可数名词", "Teaching is a hard but happy job.", "She went into teaching after university."],
+  ["technology", "/tekˈnɒlədʒi/", "名词", "技术；科技", "复数 technologies 可指多种技术", "Technology changes very fast.", "New technology helps farmers."],
+  ["teenage", "/ˈtiːneɪdʒ/", "形容词", "十几岁的；青少年的", "放在名词前，通常指 13 至 19 岁", "They have two teenage sons.", "Teenage readers love this series."],
+  ["temperature", "/ˈtemprətʃə/", "名词", "温度；体温", "take somebody's temperature = 给某人量体温", "The temperature fell below zero.", "The nurse took my temperature."],
+  ["term", "/tɜːm/", "名词", "学期；术语", "可数名词", "The new term starts in September.", "Explain this medical term simply."],
+  ["themselves", "/ðəmˈselvz/", "代词", "他们自己；她们自己；它们自己", "第三人称复数反身代词", "The children dressed themselves.", "They built the house themselves."],
+  ["thick", "/θɪk/", "形容词", "厚的；浓稠的", "反义词 thin", "Wear a thick coat; it is cold.", "The soup is too thick."],
+];
+
+// 第 38 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["thief", "/θiːf/", "名词", "小偷；盗贼", "复数 thieves", "The thief took her phone.", "Thieves broke into the shop at night."],
+  ["thin", "/θɪn/", "形容词", "薄的；瘦的", "形容厚度时与 thick 相对；形容身材时与 fat 相对", "Cut the bread into thin slices.", "He looks thin after his illness."],
+  ["thinking", "/ˈθɪŋkɪŋ/", "名词", "思考；想法", "不可数名词", "Her thinking on the subject has changed.", "The job needs careful thinking."],
+  ["thought", "/θɔːt/", "名词", "想法；念头", "可数名词；have a thought = 有一个想法", "That is an interesting thought.", "She kept her thoughts to herself."],
+  ["throw", "/θrəʊ/", "动词", "扔；投", "不规则变化：throw–threw–thrown", "Throw the ball to me.", "Do not throw rubbish on the ground."],
+  ["tidy", "/ˈtaɪdi/", "形容词", "整洁的；整齐的", "英式英语常用；反义词 messy", "Her desk is always tidy.", "Keep your room tidy."],
+  ["tie", "/taɪ/", "动词", "系；绑", "tie your shoes = 系鞋带", "Tie your shoelaces before you run.", "He tied the boat to a tree."],
+  ["tip", "/tɪp/", "名词", "小窍门；小费", "可数名词", "Here is a useful tip for cooking rice.", "We left a tip for the waiter."],
+  ["tool", "/tuːl/", "名词", "工具；用具", "可数名词", "A hammer is a simple tool.", "A dictionary is a useful tool for learners."],
+  ["top", "/tɒp/", "名词", "顶部；顶端", "on top of something = 在某物顶部", "We walked to the top of the hill.", "Put the lid on top of the box."],
+  ["touch", "/tʌtʃ/", "动词", "触摸；碰", "直接接宾语，不需要介词", "Do not touch the hot pan.", "She touched his arm gently."],
+  ["tour", "/tʊə/", "名词", "游览；参观旅行", "可数名词；go on a tour = 参加游览", "We went on a tour of the old city.", "The tour lasts three hours."],
+  ["tourism", "/ˈtʊərɪzəm/", "名词", "旅游业", "不可数名词", "Tourism brings money to the island.", "Tourism fell during the storm season."],
+  ["towards", "/təˈwɔːdz/", "介词", "向；朝……方向", "美式英语常拼作 toward", "She walked towards the station.", "He turned towards me and smiled."],
+  ["towel", "/ˈtaʊəl/", "名词", "毛巾；浴巾", "可数名词", "Dry your hands on this towel.", "Take a towel to the beach."],
+  ["tower", "/ˈtaʊə/", "名词", "塔；塔楼", "可数名词", "The tower is sixty metres high.", "We climbed the bell tower."],
+  ["toy", "/tɔɪ/", "名词", "玩具", "可数名词", "The baby dropped her toy.", "The shop sells wooden toys."],
+  ["track", "/træk/", "名词", "小路；轨道；曲目", "可数名词", "Follow the track through the forest.", "My favourite track is the last one."],
+  ["tradition", "/trəˈdɪʃn/", "名词", "传统；惯例", "可数名词", "Giving lucky money is a Tet tradition.", "The village keeps its old traditions."],
+  ["traditional", "/trəˈdɪʃənl/", "形容词", "传统的", "traditional food = 传统食物；traditional music = 传统音乐", "She wore a traditional dress.", "This is traditional northern music."],
+  ["trainer", "/ˈtreɪnə/", "名词", "教练；运动鞋", "单数可指教练；复数 trainers 可指运动鞋", "My trainer plans my exercises.", "She bought new trainers for running."],
+  ["training", "/ˈtreɪnɪŋ/", "名词", "训练；培训", "不可数名词", "New staff get two weeks of training.", "He is in training for a marathon."],
+  ["transport", "/ˈtrænspɔːt/", "名词", "交通；运输工具", "英式英语不可数名词；public transport = 公共交通", "Public transport is cheap here.", "Transport to the airport takes an hour."],
+  ["traveller", "/ˈtrævələ/", "名词", "旅行者；旅客", "美式英语拼作 traveler", "The traveller asked for directions.", "Travellers need insurance."],
+  ["trouble", "/ˈtrʌbl/", "名词", "麻烦；困难", "通常不可数；be in trouble = 遇到麻烦", "He is in trouble at school.", "I had trouble starting the car."],
+  ["truck", "/trʌk/", "名词", "卡车；货车", "美式英语常用；英式英语常说 lorry", "The truck carried sand to the site.", "He drives a truck for a living."],
+  ["twin", "/twɪn/", "名词", "双胞胎之一", "复数 twins 可指一对双胞胎", "Her twin lives in Canada.", "The twins look exactly alike."],
 ];
