@@ -245,8 +245,8 @@ export const A2_WAS_WERE: Partial<GrammarLesson> = {
   pendingDifficulties: ["中等", "困难"],
 };
 
-// 原站 A2 第 4 课完整理论已核对。简单档显示 20 题；下列 18 题有原站测验记录，余下 2 题待核对。
-// 前 17 题来自同一次测验并取得原站正确答案；最后一题来自重做测验，答案按题意判断，原站反馈待确认。
+// 原站 A2 第 4 课完整理论已核对。简单档显示 20 题；下列 19 题有原站测验记录，余下 1 题待核对。
+// 前 17 题来自同一次测验；围栏题的答案按题意判断，原站反馈待确认；车站题已取得原站正确答案。
 const movementHint = "要根据移动路径及起点、终点选介词，不能只看静止位置。";
 export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
   easy("The train went ___ a long tunnel.", ["along", "through", "across", "over"], 1, `句意是“火车穿过一条长隧道”。隧道是封闭空间，要用 through。${movementHint}`),
@@ -267,6 +267,7 @@ export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
   easy("The rabbit ran ___ its hole when it saw a fox.", ["over", "along", "into", "on"], 2, "句意是“兔子看见狐狸时跑进洞里”。into 表示从外面进入内部。"),
   easy("把“我们走过桥，到达对岸”译成英语。", ["We walked across the bridge to the other bank.", "We to the other bank walked across the bridge.", "We did walked across the bridge to the other bank.", "We are walked across the bridge to the other bank."], 0, `across 表示从桥的一侧走到另一侧。${movementHint}`),
   easy("The bird flew ___ the tall, solid fence without touching it.", ["through", "under", "over", "into"], 2, "句意是“鸟从高而结实的围栏上方飞过，没有碰到它”。over 表示越过障碍物的上方。"),
+  easy("He was walking ___ the station when I saw him, but he was still a long way from it.", ["towards", "across", "off", "through"], 0, "句意是“我看见他时，他正朝车站走去，但离车站还很远”。still a long way from it 说明他尚未到达，因此用 towards 表示朝某个方向移动。"),
 ];
 
 export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
