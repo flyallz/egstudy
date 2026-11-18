@@ -1,4 +1,4 @@
-// B1 第 1–6 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–8 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -100,4 +100,41 @@ export const B1_SIXTH_LESSON: OriginalA2Word[] = [
   ["campaign", "/kæmˈpeɪn/", "名词", "运动；宣传活动；竞选活动", "a campaign against/for something = 反对／支持某事的活动", "The charity started a campaign against drink-driving.", "Volunteers campaigned for cleaner streets."],
   ["campus", "/ˈkæmpəs/", "名词", "校园；大学校区", "on campus = 在校园内", "Most first-year students live on campus.", "The library is in the centre of the campus."],
   ["candidate", "/ˈkændɪdət/", "名词", "候选人；应聘者", "a candidate for something = 某职位的候选人", "There are five candidates for the manager's job.", "Each candidate had ten minutes to answer the questions."],
+];
+
+export const B1_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["cap", "/kæp/", "名词", "鸭舌帽；盖子", "a baseball cap = 棒球帽；the cap of a bottle = 瓶盖", "He always wears a baseball cap to play football.", "Put the cap back on the bottle so it doesn't spill."],
+  ["captain", "/ˈkæptɪn/", "名词", "队长；船长；机长", "the captain of a team/ship = 球队队长／船长", "She is the captain of the school hockey team.", "The captain welcomed the passengers on board."],
+  ["careless", "/ˈkeələs/", "形容词", "粗心的；马虎的", "careless with something = 对某事物不小心；反义词 careful", "He made a careless mistake in his test.", "She was careless with money and soon had none left."],
+  ["category", "/ˈkætəɡəri/", "名词", "种类；类别", "复数 categories；fall into a category = 属于某类", "The books are divided into three main categories.", "This film doesn't fit easily into one category."],
+  ["ceiling", "/ˈsiːlɪŋ/", "名词", "天花板；上限", "与 floor 相对；glass ceiling = 无形的晋升障碍", "A spider was crawling across the ceiling.", "They painted the ceiling white to make the room look bigger."],
+  ["celebration", "/ˌselɪˈbreɪʃn/", "名词", "庆祝；庆典", "in celebration of something = 为庆祝某事", "The whole village joined in the celebration.", "We held a small celebration for her birthday at home."],
+  ["central", "/ˈsentrəl/", "形容词", "中心的；核心的", "central to something = 对某事至关重要", "Their flat is in a very central location near the station.", "Trust plays a central role in any friendship."],
+  ["ceremony", "/ˈserəməni/", "名词", "仪式；典礼", "opening/closing ceremony = 开幕／闭幕式", "The wedding ceremony lasted about an hour.", "Medals were handed out during the closing ceremony."],
+  ["chain", "/tʃeɪn/", "名词", "链条；连锁店；一连串", "a chain of shops = 连锁商店；food chain = 食物链", "He locked his bike with a heavy chain.", "That coffee shop is part of a big international chain."],
+  ["challenge", "/ˈtʃælɪndʒ/", "名词", "挑战；难题", "face/take up a challenge = 面对／接受挑战；也可作动词", "Learning a new language is a real challenge.", "She was ready to take on any challenge at work."],
+  ["champion", "/ˈtʃæmpiən/", "名词", "冠军；拥护者", "world champion = 世界冠军；a champion of something = 某事业的支持者", "He became the world champion at just nineteen.", "She is a champion of women's rights in her country."],
+  ["channel", "/ˈtʃænl/", "名词", "频道；渠道；水道", "the English Channel = 英吉利海峡", "Can you switch to another channel? This show is boring.", "The river was used as a channel for transporting goods."],
+  ["chapter", "/ˈtʃæptə/", "名词", "章；阶段", "a new chapter in your life = 人生新篇章", "I read the first chapter on the train.", "Moving abroad opened a new chapter in her life."],
+  ["charge", "/tʃɑːdʒ/", "名词", "费用；指控；责任", "in charge of = 负责；free of charge = 免费；动词也可指收费", "There is no charge for children under five.", "The hotel charges extra for breakfast."],
+  ["cheat", "/tʃiːt/", "动词", "作弊；欺骗", "cheat in an exam = 考试作弊；也可作名词指骗子", "He was caught cheating in the final exam.", "She felt cheated when the shop sold her a fake watch."],
+];
+
+export const B1_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["cheerful", "/ˈtʃɪəfl/", "形容词", "快乐的；开朗的", "反义词 gloomy、miserable", "Despite the bad news, she stayed cheerful.", "He greeted us with a cheerful smile every morning."],
+  ["chemical", "/ˈkemɪkl/", "形容词", "化学的；化学制品", "chemical reaction = 化学反应；也可作名词指化学品", "A chemical reaction turned the liquid bright blue.", "Farmers here use fewer chemicals than before."],
+  ["chest", "/tʃest/", "名词", "胸部；箱子", "chest of drawers = 五斗柜", "He took a deep breath and puffed out his chest.", "We found old letters inside the wooden chest."],
+  ["childhood", "/ˈtʃaɪldhʊd/", "名词", "童年；儿童时期", "childhood memories = 童年回忆", "She spent her childhood in a small fishing village.", "Those songs bring back happy childhood memories."],
+  ["claim", "/kleɪm/", "动词", "声称；要求获得", "claim that ... = 声称……；也可作名词", "He claims that he saw the accident happen.", "You can claim your money back if the product is faulty."],
+  ["clause", "/klɔːz/", "名词", "从句；条款", "relative clause = 定语从句；a clause in a contract = 合同条款", "The contract has a clause about late payment.", "In grammar, a sentence can contain more than one clause."],
+  ["click", "/klɪk/", "动词", "点击；发出咔嗒声", "click on something = 点击某物；也可作名词", "Click on the blue button to save your work.", "The door closed with a soft click."],
+  ["client", "/ˈklaɪənt/", "名词", "客户；委托人", "通常指专业服务的客户；与购买商品的 customer 区分", "The lawyer met her new client at nine.", "Our company works with clients all over the world."],
+  ["cloth", "/klɒθ/", "名词", "布料；抹布", "指材料时不可数；clothes 指衣服", "She wiped the table with a damp cloth.", "The bag is made of strong cotton cloth."],
+  ["clue", "/kluː/", "名词", "线索；提示", "a clue to/about something = 关于某事的线索；have no clue = 毫无头绪", "The police found an important clue at the scene.", "I have no clue where I left my keys."],
+  ["coal", "/kəʊl/", "名词", "煤；煤炭", "不可数名词；coal mine = 煤矿", "The old train ran on coal.", "Many families still burn coal to heat their homes."],
+  ["coin", "/kɔɪn/", "名词", "硬币", "与纸币 note 区分；toss a coin = 抛硬币", "She dropped a coin into the fountain and made a wish.", "He collects rare coins from different countries."],
+  ["collection", "/kəˈlekʃn/", "名词", "收藏品；收集", "a collection of something = 一组收藏品；rubbish collection = 垃圾收集", "He has a huge collection of old records.", "Rubbish collection happens every Tuesday here."],
+  ["coloured", "/ˈkʌləd/", "形容词", "有颜色的；染色的", "brightly coloured = 色彩鲜艳的", "The children drew pictures with brightly coloured pens.", "She wore a dress covered in coloured beads."],
+  ["combine", "/kəmˈbaɪn/", "动词", "结合；合并", "combine something with something = 将某物与另一物结合", "She combines work with raising two children.", "If you combine these two colours, you get green."],
+  ["commercial", "/kəˈmɜːʃl/", "形容词", "商业的；营利的", "commercial success = 商业成功；名词 commercial 可指广告片", "The film was a huge commercial success.", "A loud commercial interrupted the match."],
 ];
