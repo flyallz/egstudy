@@ -1,4 +1,4 @@
-// A2 第 1–30 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–30 课音标待核。
+// A2 第 1–32 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–32 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -655,4 +655,60 @@ export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["pronounce", "/prəˈnaʊns/", "动词", "发音；读出", "pronounce a word = 读出一个词", "How do you pronounce this word?", "He pronounces my name correctly."],
   ["protect", "/prəˈtekt/", "动词", "保护", "protect somebody from something = 保护某人免受某物伤害", "Wear a hat to protect your head.", "Laws protect workers from danger."],
   ["provide", "/prəˈvaɪd/", "动词", "提供；供应", "provide somebody with something = 向某人提供某物", "The school provides free lunches.", "They provided us with maps."],
+];
+
+// 第 31 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
+  ["pub", "/pʌb/", "名词", "酒吧；英式酒馆", "可数名词", "We met at a pub near the station.", "The pub serves food until nine."],
+  ["public", "/ˈpʌblɪk/", "形容词", "公共的；公众的", "public transport = 公共交通；与 private 相对", "Public transport here is cheap.", "The park is open to the public."],
+  ["publish", "/ˈpʌblɪʃ/", "动词", "出版；发表", "publish a book = 出版书；publish an article = 发表文章", "She published her first novel last year.", "The paper published the interview."],
+  ["pull", "/pʊl/", "动词", "拉；拖", "反义词 push", "Pull the door to open it.", "The horse pulled the cart."],
+  ["purpose", "/ˈpɜːpəs/", "名词", "目的；意图", "可数名词；on purpose = 故意地", "The purpose of the meeting is to plan the trip.", "He broke it on purpose."],
+  ["push", "/pʊʃ/", "动词", "推；推动", "反义词 pull", "Push the button to start.", "She pushed the heavy door open."],
+  ["quality", "/ˈkwɒləti/", "名词", "质量；品质", "复数 qualities 可指多种品质", "The quality of the food is excellent.", "Patience is a good quality in a teacher."],
+  ["quantity", "/ˈkwɒntəti/", "名词", "数量；量", "复数 quantities；a quantity of something = 一定数量的某物", "A small quantity of salt is enough.", "They buy rice in large quantities."],
+  ["queen", "/kwiːn/", "名词", "女王；王后", "可数名词，指女性君主或国王的妻子", "The queen opened the new hospital.", "She played the queen in the film."],
+  ["quietly", "/ˈkwaɪətli/", "副词", "安静地；轻声地", "quiet 的副词形式", "He closed the door quietly.", "She spoke quietly so the baby would sleep."],
+  ["race", "/reɪs/", "名词", "比赛；赛跑", "可数名词；win a race = 赢得比赛", "He won the race by two seconds.", "The race starts at nine."],
+  ["railway", "/ˈreɪlweɪ/", "名词", "铁路；铁路线", "英式英语；美式英语常说 railroad", "The railway connects the two cities.", "We waited at the railway station."],
+  ["raise", "/reɪz/", "动词", "举起；抚养", "及物动词：raise your hand；rise 则不接宾语", "Raise your hand if you know the answer.", "They raised three children."],
+  ["rate", "/reɪt/", "名词", "比率；费率", "可数名词；hourly rate = 每小时收费", "The birth rate is falling.", "What is the hourly rate?"],
+  ["rather", "/ˈrɑːðə/", "副词", "相当；有点儿", "would rather = 宁愿", "It is rather cold today.", "I would rather stay at home."],
+  ["reach", "/riːtʃ/", "动词", "到达；够到", "直接说 reach a place，不加 to", "We reached the village at noon.", "She cannot reach the top shelf."],
+  ["react", "/riˈækt/", "动词", "反应；回应", "react to something = 对某事作出反应", "How did he react to the news?", "The crowd reacted angrily."],
+  ["realize", "/ˈrɪəlaɪz/", "动词", "意识到；明白", "英式英语也拼作 realise", "I did not realize how late it was.", "She realized her mistake too late."],
+  ["receive", "/rɪˈsiːv/", "动词", "收到；接到", "比 get 更正式", "I received your letter yesterday.", "She received a prize for her work."],
+  ["recent", "/ˈriːsnt/", "形容词", "最近的；近来的", "通常放在名词前", "In recent years prices have risen.", "This is a recent photo."],
+  ["recently", "/ˈriːsntli/", "副词", "最近；近来", "可与现在完成时或过去时连用", "I have recently moved house.", "She recently started a new job."],
+  ["reception", "/rɪˈsepʃn/", "名词", "接待处；招待会", "酒店的 reception 指前台", "Ask at reception for your key.", "The wedding reception is at six."],
+  ["recipe", "/ˈresəpi/", "名词", "食谱；烹饪方法", "可数名词；a recipe for something = 某道菜的食谱", "This is my mother's recipe for fish soup.", "Follow the recipe step by step."],
+  ["recognize", "/ˈrekəɡnaɪz/", "动词", "认出；识别", "英式英语也拼作 recognise", "I did not recognize you with short hair.", "She recognized his voice at once."],
+];
+
+// 第 32 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
+  ["recommend", "/ˌrekəˈmend/", "动词", "推荐；建议", "recommend something to somebody = 向某人推荐某物", "Can you recommend a good restaurant?", "The doctor recommended more rest."],
+  ["record", "/ˈrekɔːd/", "名词", "记录；纪录", "可数名词；break a record = 打破纪录", "Keep a record of your spending.", "She broke the world record."],
+  ["recording", "/rɪˈkɔːdɪŋ/", "名词", "录音；录像", "可数名词", "Listen to the recording twice.", "The recording lasts ten minutes."],
+  ["recycle", "/ˌriːˈsaɪkl/", "动词", "回收利用；再循环", "recycle paper = 回收纸张", "We recycle all our paper.", "Glass can be recycled many times."],
+  ["reduce", "/rɪˈdjuːs/", "动词", "减少；降低", "反义词 increase", "The shop reduced its prices.", "Walking reduces stress."],
+  ["refer", "/rɪˈfɜː/", "动词", "提及；查阅", "refer to something = 提到或查阅某物", "He referred to his notes while speaking.", "The letter refers to our meeting."],
+  ["refuse", "/rɪˈfjuːz/", "动词", "拒绝", "refuse to do something = 拒绝做某事；与 accept 相对", "She refused to answer the question.", "He refused the offer politely."],
+  ["region", "/ˈriːdʒən/", "名词", "地区；区域", "可数名词", "This region is famous for tea.", "The northern region is colder."],
+  ["regular", "/ˈreɡjələ/", "形容词", "定期的；经常的", "a regular customer = 常客", "He is a regular customer here.", "Take regular breaks when studying."],
+  ["relationship", "/rɪˈleɪʃnʃɪp/", "名词", "关系；联系", "a relationship with somebody = 与某人的关系", "She has a good relationship with her boss.", "There is a relationship between diet and health."],
+  ["remove", "/rɪˈmuːv/", "动词", "移走；去除", "比 take away 更正式", "Remove your shoes before entering.", "The stain will not remove easily."],
+  ["repair", "/rɪˈpeə/", "动词", "修理；修复", "比 fix 更正式", "He repaired the broken chair.", "The road is being repaired."],
+  ["replace", "/rɪˈpleɪs/", "动词", "更换；取代", "replace A with B = 用 B 替换 A", "We replaced the old fridge.", "Nothing can replace a good teacher."],
+  ["reply", "/rɪˈplaɪ/", "动词", "回复；答复", "reply to somebody/something = 回复某人或某事", "She replied to my email at once.", "He did not reply to my question."],
+  ["reporter", "/rɪˈpɔːtə/", "名词", "记者", "从事新闻报道的人", "A reporter asked about the flood.", "She works as a reporter for local radio."],
+  ["request", "/rɪˈkwest/", "名词", "请求；要求", "可数名词；make a request = 提出请求", "They made a request for more time.", "Your request has been approved."],
+  ["research", "/rɪˈsɜːtʃ/", "名词", "研究；调查", "不可数名词；一项研究可说 a piece of research", "She does research on sleep.", "The research took two years."],
+  ["researcher", "/rɪˈsɜːtʃə/", "名词", "研究人员", "指从事研究的人", "The researcher interviewed a hundred people.", "Researchers found a new treatment."],
+  ["respond", "/rɪˈspɒnd/", "动词", "回答；作出反应", "respond to something = 对某事作出回应", "He responded to my message quickly.", "The patient responded well to treatment."],
+  ["response", "/rɪˈspɒns/", "名词", "答复；反应", "可数名词；in response to something = 回应某事", "Her response was very polite.", "We got no response from the office."],
+  ["rest", "/rest/", "名词", "休息；其余部分", "have a rest = 休息一下；the rest of something = 某物的其余部分", "You need a rest after that journey.", "I will do the rest tomorrow."],
+  ["review", "/rɪˈvjuː/", "名词", "评论；复习；回顾", "可数名词", "The film got good reviews.", "We had a review of last month's work."],
+  ["ring", "/rɪŋ/", "名词", "戒指；圆圈", "可数名词", "She wears a gold ring.", "The children formed a ring around the teacher."],
+  ["rise", "/raɪz/", "动词", "上升；升起", "不及物不规则动词：rise–rose–risen", "Prices rose again this month.", "The sun rises in the east."],
 ];
