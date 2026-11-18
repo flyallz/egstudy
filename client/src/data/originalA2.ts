@@ -1,4 +1,4 @@
-// A2 第 1–10 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–10 课音标待核。
+// A2 第 1–11 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–11 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -172,4 +172,24 @@ export const A2_TENTH_LESSON: OriginalA2Word[] = [
   ["colleague", "/ˈkɒliːɡ/", "名词", "同事", "指在同一单位工作的人", "My colleague helped me finish the report.", "She invited her colleagues to dinner."],
   ["collect", "/kəˈlekt/", "动词", "收集；收藏；接（人）", "collect stamps = 集邮；collect a child from school = 去学校接孩子", "He collects old coins.", "I collect my son from school at four."],
   ["column", "/ˈkɒləm/", "名词", "栏；列；柱子；专栏", "可数名词；可指表格的一列或报刊专栏", "Write the numbers in the first column.", "She writes a weekly column for the paper."],
+];
+
+// 第 11 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_ELEVENTH_LESSON: OriginalA2Word[] = [
+  ["comedy", "/ˈkɒmədi/", "名词", "喜剧；喜剧作品", "名词；作喜剧作品时可数，复数为 comedies", "We watched a comedy last night.", "He prefers comedy to horror."],
+  ["comfortable", "/ˈkʌmftəbl/", "形容词", "舒适的；自在的", "可形容椅子、床、衣物，也可描述人的感觉", "This chair is very comfortable.", "I feel comfortable in this class."],
+  ["comment", "/ˈkɒment/", "名词", "评论；意见", "可数名词；make a comment on something = 对某事发表评论", "She made a helpful comment.", "There were many comments under the post."],
+  ["communicate", "/kəˈmjuːnɪkeɪt/", "动词", "交流；传达", "communicate with somebody = 与某人交流", "We communicate by email.", "Babies communicate by crying."],
+  ["community", "/kəˈmjuːnəti/", "名词", "社区；群体", "名词；复数为 communities", "The whole community helped after the storm.", "She works with a farming community."],
+  ["compete", "/kəmˈpiːt/", "动词", "竞争；参加比赛", "compete with somebody for something = 与某人竞争某物", "Small shops compete with supermarkets.", "She competes in swimming races."],
+  ["competition", "/ˌkɒmpəˈtɪʃn/", "名词", "比赛；竞争", "作“比赛”时可数；enter a competition = 参加比赛", "He won a singing competition.", "There is strong competition between the two shops."],
+  ["complain", "/kəmˈpleɪn/", "动词", "抱怨；投诉", "complain about something to somebody = 向某人抱怨某事", "She complained about the noise.", "He complained to the manager."],
+  ["completely", "/kəmˈpliːtli/", "副词", "完全地；彻底地", "程度副词，表示完整或彻底", "I completely forgot the meeting.", "The room is completely empty."],
+  ["condition", "/kənˈdɪʃn/", "名词", "状态；条件", "in good condition = 状况良好；on one condition = 有一个条件", "The car is in good condition.", "You can go on one condition."],
+  ["conference", "/ˈkɒnfərəns/", "名词", "会议；研讨会", "可数名词；attend a conference = 参加会议", "She spoke at a medical conference.", "The conference lasts three days."],
+  ["connect", "/kəˈnekt/", "动词", "连接；联系", "connect A to B = 把 A 连接到 B", "Connect the printer to the computer.", "This road connects the two towns."],
+  ["connected", "/kəˈnektɪd/", "形容词", "连接的；有关联的", "be connected to something = 与某物相连／有关", "My phone is not connected to the wifi.", "The two cases are connected."],
+  ["consider", "/kənˈsɪdə/", "动词", "考虑；斟酌", "后接名词或动名词 V-ing", "We are considering moving house.", "Please consider my offer."],
+  ["contain", "/kənˈteɪn/", "动词", "含有；装有", "通常不用于进行时", "This drink contains a lot of sugar.", "The box contains old photos."],
+  ["context", "/ˈkɒntekst/", "名词", "语境；背景", "in context = 放在上下文中", "Guess the meaning from the context.", "The quote makes sense in context."],
 ];
