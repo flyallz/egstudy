@@ -30,16 +30,22 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         originals = list(csv.DictReader(handle))
 
     names = (
-        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH", "TWENTY_FIRST", "TWENTY_SECOND", "TWENTY_THIRD", "TWENTY_FOURTH", "TWENTY_FIFTH", "TWENTY_SIXTH", "TWENTY_SEVENTH", "TWENTY_EIGHTH", "TWENTY_NINTH", "THIRTIETH", "THIRTY_FIRST", "THIRTY_SECOND", "THIRTY_THIRD", "THIRTY_FOURTH", "THIRTY_FIFTH", "THIRTY_SIXTH", "THIRTY_SEVENTH", "THIRTY_EIGHTH")[:blocks]]
+        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH", "TWENTY_FIRST", "TWENTY_SECOND", "TWENTY_THIRD", "TWENTY_FOURTH", "TWENTY_FIFTH", "TWENTY_SIXTH", "TWENTY_SEVENTH", "TWENTY_EIGHTH", "TWENTY_NINTH", "THIRTIETH", "THIRTY_FIRST", "THIRTY_SECOND", "THIRTY_THIRD", "THIRTY_FOURTH", "THIRTY_FIFTH", "THIRTY_SIXTH", "THIRTY_SEVENTH", "THIRTY_EIGHTH", "THIRTY_NINTH", "FORTIETH")[:blocks]]
     )
     cards = []
-    for name in names:
+    expected_counts = json.loads((ROOT / "reference/original-cefr-lesson-counts.json").read_text(encoding="utf-8"))[label] if label == "A2" else None
+    errors = []
+    for index, name in enumerate(names):
         match = re.search(rf"export const {name}:.*?= \[\n(.*?)\n\];", source, re.S)
         if not match:
             raise AssertionError(f"Missing {name}")
-        cards.extend(json.loads(line.strip().rstrip(",")) for line in match.group(1).splitlines() if line.strip().startswith("["))
+        lesson_cards = [json.loads(line.strip().rstrip(",")) for line in match.group(1).splitlines() if line.strip().startswith("[")]
+        if expected_counts is not None and len(lesson_cards) != expected_counts[index]:
+            errors.append((name, "lesson count", len(lesson_cards), expected_counts[index]))
+        cards.extend(lesson_cards)
 
-    errors = []
+    if blocks == len(expected_counts or []) and len(cards) != len(originals):
+        errors.append(("total count", len(cards), len(originals)))
     for number, (card, original) in enumerate(zip(cards, originals), 1):
         examples = original["Examples"].split(" | ")
         if card[0] != original["Term"] or card[2] != POS[original["Part of speech"]] or card[5:] != examples:
@@ -55,5 +61,5 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         raise SystemExit(1)
 
 
-check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 38)
+check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 40)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)

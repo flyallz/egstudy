@@ -1,7 +1,8 @@
-// A2 第 1–38 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–38 课音标待核。
+// A2 第 1–40 课：词条、词性、英文例句按原站 CSV 核对；课次边界按原站每课词数重排；第 1–8 课音标按原站词库逐张核对，第 9–40 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
+// 第 1 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_FIRST_LESSON: OriginalA2Word[] = [
   ["ability", "/əˈbɪləti/", "名词", "能力；本领", "可数名词；the ability to do something = 做某事的能力", "She has the ability to learn languages fast.", "Reading ability improves with practice."],
   ["able", "/ˈeɪbl/", "形容词", "能够的；有能力的", "be able to do something = 能做某事；可用于 can 不适用的时态", "I was able to finish the work on time.", "He is able to swim across the lake."],
@@ -16,7 +17,7 @@ export const A2_FIRST_LESSON: OriginalA2Word[] = [
   ["advantage", "/ədˈvɑːntɪdʒ/", "名词", "优势；有利条件", "可数名词；与 disadvantage（劣势）相反", "Living near school is a big advantage.", "Knowing English is an advantage at work."],
   ["adventure", "/ədˈventʃə/", "名词", "冒险；奇遇", "可数名词；常用 go on an adventure = 去冒险", "Our trip to the mountains was a real adventure.", "He wrote a book about his adventures at sea."],
 ];
-
+// 第 2 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_SECOND_LESSON: OriginalA2Word[] = [
   ["advertise", "/ˈædvətaɪz/", "动词", "做广告；刊登广告", "动词；advertise a product = 为产品做广告；advertise for staff = 登广告招人", "The company advertises on television.", "They advertised for a new cook."],
   ["advertisement", "/ədˈvɜːtɪsmənt/", "名词", "广告；广告内容", "可数名词，常缩写为 ad", "I saw an advertisement for cheap flights.", "The advertisement was in yesterday's newspaper."],
@@ -32,7 +33,7 @@ export const A2_SECOND_LESSON: OriginalA2Word[] = [
   ["alone", "/əˈləʊn/", "形容词", "独自的；独自地", "可作形容词或副词，通常放在动词后面", "She lives alone in a small flat.", "I do not like eating alone."],
   ["along", "/əˈlɒŋ/", "介词", "沿着", "介词，表示沿着某物的长度方向移动", "We walked along the river.", "There are shops along this street."],
 ];
-
+// 第 3 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_THIRD_LESSON: OriginalA2Word[] = [
   ["already", "/ɔːlˈredi/", "副词", "已经", "副词，常放在句中，多用于完成时", "I have already eaten lunch.", "The film had already started when we arrived."],
   ["alternative", "/ɔːlˈtɜːnətɪv/", "名词", "替代选择；其他办法", "可数名词；an alternative to something = 某物的替代品", "Tea is a good alternative to coffee.", "We had no alternative but to wait."],
@@ -48,7 +49,7 @@ export const A2_THIRD_LESSON: OriginalA2Word[] = [
   ["app", "/æp/", "名词", "手机应用；应用程序", "可数名词，application 的简称", "I downloaded a new weather app.", "This app helps me learn new words."],
   ["appear", "/əˈpɪə/", "动词", "出现；似乎", "与 disappear（消失）相反", "A man appeared at the door.", "She appears to be tired."],
 ];
-
+// 第 4 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_FOURTH_LESSON: OriginalA2Word[] = [
   ["appearance", "/əˈpɪərəns/", "名词", "外貌；出现", "名词，常用于谈论外表", "He cares a lot about his appearance.", "Her appearance on stage surprised everyone."],
   ["apply", "/əˈplaɪ/", "动词", "申请；适用", "apply for a job = 申请工作；apply to a school = 申请学校", "She applied for a job at the bank.", "This rule applies to everyone."],
@@ -64,7 +65,7 @@ export const A2_FOURTH_LESSON: OriginalA2Word[] = [
   ["athlete", "/ˈæθliːt/", "名词", "运动员", "参加体育比赛的人", "The athlete won two gold medals.", "Athletes train every day."],
   ["attack", "/əˈtæk/", "名词", "袭击；（疾病）发作", "可数名词；a heart attack = 心脏病发作", "The attack happened at night.", "He had a heart attack last year."],
 ];
-
+// 第 5 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_FIFTH_LESSON: OriginalA2Word[] = [
   ["attend", "/əˈtend/", "动词", "出席；参加（课程）", "比 go to 正式；attend a meeting = 出席会议", "All students must attend the lecture.", "She attends church every Sunday."],
   ["attention", "/əˈtenʃn/", "名词", "注意；关注", "不可数名词；pay attention to something = 注意某事", "Pay attention to the road signs.", "The news got a lot of attention."],
@@ -81,7 +82,7 @@ export const A2_FIFTH_LESSON: OriginalA2Word[] = [
   ["badly", "/ˈbædli/", "副词", "糟糕地；严重地", "bad 的副词；badly hurt = 伤得很重", "He sings badly but enjoys it.", "She was badly hurt in the accident."],
   ["baseball", "/ˈbeɪsbɔːl/", "名词", "棒球", "指这项运动时通常不可数", "They play baseball every Saturday.", "Baseball is popular in Japan."],
 ];
-
+// 第 6 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_SIXTH_LESSON: OriginalA2Word[] = [
   ["based", "/beɪst/", "形容词", "设在……的；基于……的", "be based in a place = 设在某地；be based on something = 基于某事", "The company is based in Hanoi.", "The film is based on a true story."],
   ["basketball", "/ˈbɑːskɪtbɔːl/", "名词", "篮球", "指这项运动时通常不可数", "My brother plays basketball at school.", "We watched a basketball game last night."],
@@ -98,7 +99,7 @@ export const A2_SIXTH_LESSON: OriginalA2Word[] = [
   ["biology", "/baɪˈɒlədʒi/", "名词", "生物学", "学科名称，不可数", "Biology is my favourite subject.", "She teaches biology at a high school."],
   ["birth", "/bɜːθ/", "名词", "出生；分娩", "give birth to = 生下", "The date of birth is on the form.", "She gave birth to a healthy boy."],
 ];
-
+// 第 7 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_SEVENTH_LESSON: OriginalA2Word[] = [
   ["biscuit", "/ˈbɪskɪt/", "名词", "饼干", "可数名词；英式英语用 biscuit，美式英语常用 cookie", "Would you like a biscuit with your tea?", "He ate three biscuits."],
   ["bit", "/bɪt/", "名词", "一点；一小块", "名词；a bit 表示一点儿", "I am a bit tired today.", "There is still a bit of bread left."],
@@ -116,7 +117,7 @@ export const A2_SEVENTH_LESSON: OriginalA2Word[] = [
   ["bright", "/braɪt/", "形容词", "明亮的；聪明的", "形容词；可说 bright colours、a bright student", "The room is bright in the morning.", "She is a bright student."],
   ["brilliant", "/ˈbrɪliənt/", "形容词", "绝妙的；杰出的", "英式英语中常用于强烈称赞", "That was a brilliant idea.", "He is a brilliant pianist."],
 ];
-
+// 第 8 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_EIGHTH_LESSON: OriginalA2Word[] = [
   ["broken", "/ˈbrəʊkən/", "形容词", "坏掉的；断裂的", "break 的过去分词，也可作形容词", "The window is broken.", "She has a broken leg."],
   ["brush", "/brʌʃ/", "动词", "刷；梳理", "brush your teeth = 刷牙；brush your hair = 梳头", "Brush your teeth before bed.", "She brushed her hair quickly."],
@@ -134,8 +135,7 @@ export const A2_EIGHTH_LESSON: OriginalA2Word[] = [
   ["cash", "/kæʃ/", "名词", "现金", "不可数名词；pay in cash = 用现金支付", "I paid in cash.", "Do you have any cash with you?"],
   ["castle", "/ˈkɑːsl/", "名词", "城堡", "可数名词；字母 t 不发音", "We visited an old castle in Scotland.", "The castle stands on a hill."],
 ];
-
-// 第 9 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 9 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_NINTH_LESSON: OriginalA2Word[] = [
   ["catch", "/kætʃ/", "动词", "接住；抓住；赶上（车等）", "不规则动词：catch–caught–caught；catch a train = 赶上火车", "He caught the ball with one hand.", "I need to catch the seven o'clock train."],
   ["cause", "/kɔːz/", "动词", "导致；引起", "及物动词；cause a problem / an accident = 引起问题／事故", "Heavy rain caused the flood.", "Smoking causes serious illness."],
@@ -153,8 +153,7 @@ export const A2_NINTH_LESSON: OriginalA2Word[] = [
   ["choice", "/tʃɔɪs/", "名词", "选择；选择权", "make a choice = 做选择；have no choice = 别无选择", "You have to make a choice now.", "We had no choice but to wait."],
   ["church", "/tʃɜːtʃ/", "名词", "教堂", "可数名词；go to church = 去教堂做礼拜", "The old church is near the square.", "They go to church on Sunday."],
 ];
-
-// 第 10 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 10 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_TENTH_LESSON: OriginalA2Word[] = [
   ["cigarette", "/ˌsɪɡəˈret/", "名词", "一支香烟；卷烟", "可数名词；复数为 cigarettes", "He smokes ten cigarettes a day.", "She put out her cigarette."],
   ["circle", "/ˈsɜːkl/", "名词", "圆；圆圈", "可数名词；sit in a circle = 围坐成一圈", "Draw a circle on the paper.", "The children sat in a circle."],
@@ -173,8 +172,7 @@ export const A2_TENTH_LESSON: OriginalA2Word[] = [
   ["collect", "/kəˈlekt/", "动词", "收集；收藏；接（人）", "collect stamps = 集邮；collect a child from school = 去学校接孩子", "He collects old coins.", "I collect my son from school at four."],
   ["column", "/ˈkɒləm/", "名词", "栏；列；柱子；专栏", "可数名词；可指表格的一列或报刊专栏", "Write the numbers in the first column.", "She writes a weekly column for the paper."],
 ];
-
-// 第 11 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 11 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_ELEVENTH_LESSON: OriginalA2Word[] = [
   ["comedy", "/ˈkɒmədi/", "名词", "喜剧；喜剧作品", "名词；作喜剧作品时可数，复数为 comedies", "We watched a comedy last night.", "He prefers comedy to horror."],
   ["comfortable", "/ˈkʌmftəbl/", "形容词", "舒适的；自在的", "可形容椅子、床、衣物，也可描述人的感觉", "This chair is very comfortable.", "I feel comfortable in this class."],
@@ -193,8 +191,7 @@ export const A2_ELEVENTH_LESSON: OriginalA2Word[] = [
   ["contain", "/kənˈteɪn/", "动词", "含有；装有", "通常不用于进行时", "This drink contains a lot of sugar.", "The box contains old photos."],
   ["context", "/ˈkɒntekst/", "名词", "语境；背景", "in context = 放在上下文中", "Guess the meaning from the context.", "The quote makes sense in context."],
 ];
-
-// 第 12 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 12 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_TWELFTH_LESSON: OriginalA2Word[] = [
   ["continent", "/ˈkɒntɪnənt/", "名词", "洲；大陆", "可数名词；世界有七大洲", "Africa is a large continent.", "She has visited four continents."],
   ["continue", "/kənˈtɪnjuː/", "动词", "继续；持续", "后可接 to do 或 V-ing", "The rain continued all day.", "He continued working after dinner."],
@@ -214,8 +211,7 @@ export const A2_TWELFTH_LESSON: OriginalA2Word[] = [
   ["crowd", "/kraʊd/", "名词", "人群；一群人", "可数名词；a crowd = 一群人", "A crowd gathered outside the stadium.", "He disappeared into the crowd."],
   ["crowded", "/ˈkraʊdɪd/", "形容词", "拥挤的；人多的", "描述场所或交通工具里人很多", "The bus was crowded this morning.", "I avoid crowded places."],
 ];
-
-// 第 13 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 13 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_THIRTEENTH_LESSON: OriginalA2Word[] = [
   ["cry", "/kraɪ/", "动词", "哭；大声喊叫", "cry about something = 因某事哭泣", "The baby cried all night.", "She cried when she heard the news."],
   ["cupboard", "/ˈkʌbəd/", "名词", "橱柜；储物柜", "可数名词；字母 p 不发音", "The plates are in the cupboard.", "She opened the kitchen cupboard."],
@@ -235,8 +231,7 @@ export const A2_THIRTEENTH_LESSON: OriginalA2Word[] = [
   ["department", "/dɪˈpɑːtmənt/", "名词", "部门；院系", "可数名词；department store = 百货商店", "She works in the sales department.", "The history department is on the first floor."],
   ["depend", "/dɪˈpend/", "动词", "取决于；依靠", "depend on something/somebody = 取决于某事／依靠某人", "The price depends on the size.", "You can depend on her."],
 ];
-
-// 第 14 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 14 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_FOURTEENTH_LESSON: OriginalA2Word[] = [
   ["desert", "/ˈdezət/", "名词", "沙漠", "可数名词；重音在第一个音节，区别于 dessert", "The Sahara is the largest hot desert.", "Few plants grow in the desert."],
   ["designer", "/dɪˈzaɪnə/", "名词", "设计师", "指从事设计工作的人", "She is a fashion designer.", "The designer chose a simple shape."],
@@ -256,8 +251,7 @@ export const A2_FOURTEENTH_LESSON: OriginalA2Word[] = [
   ["disaster", "/dɪˈzɑːstə/", "名词", "灾难；惨败", "可数名词；natural disaster = 自然灾害", "The flood was a disaster for the village.", "The party was a complete disaster."],
   ["discover", "/dɪˈskʌvə/", "动词", "发现；查明", "discover a place/the truth = 发现一个地方／查明真相", "Scientists discovered a new planet.", "She discovered that he had lied."],
 ];
-
-// 第 15 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 15 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_FIFTEENTH_LESSON: OriginalA2Word[] = [
   ["discovery", "/dɪˈskʌvəri/", "名词", "发现；发现的事物", "名词；复数为 discoveries", "The discovery changed medicine.", "They made an important discovery."],
   ["discussion", "/dɪˈskʌʃn/", "名词", "讨论；商议", "可数名词；have a discussion about something = 讨论某事", "We had a long discussion about the plan.", "The discussion lasted two hours."],
@@ -278,8 +272,7 @@ export const A2_FIFTEENTH_LESSON: OriginalA2Word[] = [
   ["earth", "/ɜːθ/", "名词", "地球；土壤", "表示行星时通常写作 Earth", "The Earth goes around the Sun.", "Plant the seeds in soft earth."],
   ["easily", "/ˈiːzɪli/", "副词", "容易地；轻松地", "easy 的副词形式", "She passed the test easily.", "This bag opens easily."],
 ];
-
-// 第 16 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 16 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_SIXTEENTH_LESSON: OriginalA2Word[] = [
   ["education", "/ˌedʒuˈkeɪʃn/", "名词", "教育；受教育程度", "通常不可数；a good education = 良好的教育", "Education should be free for children.", "She had a good education."],
   ["effect", "/ɪˈfekt/", "名词", "影响；效果", "have an effect on something = 对某事有影响；affect 是动词", "The medicine had a quick effect.", "Noise has a bad effect on sleep."],
@@ -300,8 +293,7 @@ export const A2_SIXTEENTH_LESSON: OriginalA2Word[] = [
   ["enter", "/ˈentə/", "动词", "进入；输入（信息）", "enter a room = 进入房间，不说 enter into a room", "Please knock before you enter the office.", "Enter your name in the first box."],
   ["environment", "/ɪnˈvaɪrənmənt/", "名词", "环境；周围条件", "the environment 常指自然环境", "Plastic harms the environment.", "The office is a quiet working environment."],
 ];
-
-// 第 17 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 17 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_SEVENTEENTH_LESSON: OriginalA2Word[] = [
   ["equipment", "/ɪˈkwɪpmənt/", "名词", "设备；器材", "不可数名词；一件设备可说 a piece of equipment", "The lab has new equipment.", "Bring your own camping equipment."],
   ["error", "/ˈerə/", "名词", "错误；差错", "可数名词；make an error = 犯错", "There is an error in this calculation.", "The message said there was a system error."],
@@ -322,8 +314,7 @@ export const A2_SEVENTEENTH_LESSON: OriginalA2Word[] = [
   ["explanation", "/ˌekspləˈneɪʃn/", "名词", "解释；说明", "可数名词；an explanation for something = 对某事的解释", "His explanation made sense.", "There is no explanation for the delay."],
   ["express", "/ɪkˈspres/", "动词", "表达；表露", "express an opinion = 发表意见；express yourself = 表达自己", "She expressed her thanks in a letter.", "I cannot express how happy I am."],
 ];
-
-// 第 18 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 18 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_EIGHTEENTH_LESSON: OriginalA2Word[] = [
   ["expression", "/ɪkˈspreʃn/", "名词", "表达方式；表情", "可数名词", "That is a common English expression.", "His expression showed surprise."],
   ["extreme", "/ɪkˈstriːm/", "形容词", "极端的；严酷的", "extreme weather = 极端天气；extreme sports = 极限运动", "They work in extreme cold.", "He enjoys extreme sports."],
@@ -345,8 +336,7 @@ export const A2_EIGHTEENTH_LESSON: OriginalA2Word[] = [
   ["figure", "/ˈfɪɡə/", "名词", "数字；人影；身形", "可数名词", "The sales figures went up.", "A tall figure stood at the gate."],
   ["finally", "/ˈfaɪnəli/", "副词", "终于；最后", "可表示等待后终于发生，也可引出最后一项", "The bus finally arrived.", "Finally, I want to thank my family."],
 ];
-
-// 第 19 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 19 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_NINETEENTH_LESSON: OriginalA2Word[] = [
   ["finger", "/ˈfɪŋɡə/", "名词", "手指", "可数名词；脚趾是 toe", "She cut her finger on the knife.", "Count on your fingers."],
   ["firstly", "/ˈfɜːstli/", "副词", "首先；第一", "列举观点时使用", "Firstly, we need more time.", "Firstly, read the question carefully."],
@@ -368,8 +358,7 @@ export const A2_NINETEENTH_LESSON: OriginalA2Word[] = [
   ["frog", "/frɒɡ/", "名词", "青蛙", "可数名词", "A frog jumped into the pond.", "Frogs sing after the rain."],
   ["furniture", "/ˈfɜːnɪtʃə/", "名词", "家具", "不可数名词；一件家具可说 a piece of furniture", "They bought new furniture for the flat.", "The furniture is made of wood."],
 ];
-
-// 第 20 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 20 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_TWENTIETH_LESSON: OriginalA2Word[] = [
   ["further", "/ˈfɜːðə/", "形容词", "进一步的；更多的", "further information = 更多信息；也可表示更远的", "For further information, call this number.", "We need further time to decide."],
   ["gallery", "/ˈɡæləri/", "名词", "美术馆；画廊", "复数为 galleries", "We spent the morning in an art gallery.", "The gallery shows young painters."],
@@ -392,8 +381,7 @@ export const A2_TWENTIETH_LESSON: OriginalA2Word[] = [
   ["guy", "/ɡaɪ/", "名词", "家伙；小伙子", "口语词；guys 也可称呼一群人", "That guy works in my office.", "Hi guys, are you ready?"],
   ["habit", "/ˈhæbɪt/", "名词", "习惯", "可数名词；a good/bad habit = 好／坏习惯", "Reading before bed is a good habit.", "He has a habit of arriving late."],
 ];
-
-// 第 21 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 21 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_TWENTY_FIRST_LESSON: OriginalA2Word[] = [
   ["hall", "/hɔːl/", "名词", "门厅；走廊；大厅", "可数名词", "Leave your shoes in the hall.", "The concert is in the main hall."],
   ["happily", "/ˈhæpɪli/", "副词", "高兴地；愉快地", "happy 的副词形式", "The children played happily all afternoon.", "She happily agreed to help."],
@@ -416,8 +404,7 @@ export const A2_TWENTY_FIRST_LESSON: OriginalA2Word[] = [
   ["hole", "/həʊl/", "名词", "洞；孔；坑", "可数名词", "There is a hole in my sock.", "The dog dug a hole in the garden."],
   ["huge", "/hjuːdʒ/", "形容词", "巨大的；庞大的", "程度比 big 强", "They have a huge garden.", "The film was a huge success."],
 ];
-
-// 第 22 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+// 第 22 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
 export const A2_TWENTY_SECOND_LESSON: OriginalA2Word[] = [
   ["human", "/ˈhjuːmən/", "形容词", "人的；人类的", "human body = 人体；human rights = 人权", "The human body needs water.", "Human rights must be respected."],
   ["hurt", "/hɜːt/", "动词", "使受伤；疼痛", "不规则动词：hurt–hurt–hurt", "My back hurts today.", "He hurt his knee playing football."],
@@ -439,12 +426,11 @@ export const A2_TWENTY_SECOND_LESSON: OriginalA2Word[] = [
   ["injury", "/ˈɪndʒəri/", "名词", "伤；损伤", "复数为 injuries", "He missed the match because of an injury.", "The injuries were not serious."],
   ["insect", "/ˈɪnsekt/", "名词", "昆虫", "可数名词", "Bees are useful insects.", "Insects bite more in summer."],
   ["inside", "/ˌɪnˈsaɪd/", "介词", "在……里面", "反义词 outside", "Wait inside the building.", "There is a letter inside the box."],
+];
+// 第 23 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
   ["instead", "/ɪnˈsted/", "副词", "反而；代替", "常放在句尾", "The shop was closed, so we went home instead.", "I did not take the bus; I walked instead."],
   ["instead of", "/ɪnˈsted əv/", "介词", "代替；而不是", "后接名词或 V-ing", "Drink water instead of soda.", "She walked instead of taking a taxi."],
-];
-
-// 第 23 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
   ["instruction", "/ɪnˈstrʌkʃn/", "名词", "指示；操作说明", "可数名词，常用复数 instructions", "Follow the instructions on the box.", "He gave clear instructions to the team."],
   ["instructor", "/ɪnˈstrʌktə/", "名词", "教练；指导员", "指教授驾驶、游泳等技能的人", "My driving instructor is patient.", "The swimming instructor helped the children."],
   ["instrument", "/ˈɪnstrəmənt/", "名词", "乐器；仪器", "可数名词；play an instrument = 演奏一种乐器", "Can you play any instrument?", "The doctor cleaned her instruments."],
@@ -464,13 +450,12 @@ export const A2_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
   ["joke", "/dʒəʊk/", "名词", "笑话；玩笑", "可数名词；tell a joke = 讲笑话", "He told a funny joke.", "It was only a joke."],
   ["journalist", "/ˈdʒɜːnəlɪst/", "名词", "记者；新闻工作者", "指从事新闻报道的人", "A journalist interviewed the mayor.", "She works as a journalist for a daily paper."],
   ["jump", "/dʒʌmp/", "动词", "跳；跃", "jump over something = 跳过某物", "The cat jumped onto the table.", "He jumped over the fence."],
+];
+// 第 24 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["kid", "/kɪd/", "名词", "孩子；小孩", "口语词，比 child 更随意", "Their kids go to the same school.", "The kids are playing outside."],
   ["kill", "/kɪl/", "动词", "杀死；使死亡", "及物动词", "The frost killed all the young plants.", "Smoking kills thousands every year."],
   ["king", "/kɪŋ/", "名词", "国王；君主", "指男性君主；王后是 queen", "The king lived in that castle.", "He played the king in the school play."],
-];
-
-// 第 24 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["knee", "/niː/", "名词", "膝盖", "可数名词；字母 k 不发音", "She fell and hurt her knee.", "He knelt on one knee."],
   ["knife", "/naɪf/", "名词", "刀；小刀", "复数为 knives，字母 k 不发音", "Cut the bread with a sharp knife.", "Put the knives and forks on the table."],
   ["knock", "/nɒk/", "动词", "敲；敲门", "knock on/at the door = 敲门", "Please knock before you come in.", "Someone knocked at the door."],
@@ -489,15 +474,14 @@ export const A2_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["learning", "/ˈlɜːnɪŋ/", "名词", "学习；学问", "不可数名词", "Learning a language takes time.", "The school uses online learning."],
   ["least", "/liːst/", "限定词", "最少的；最小的", "at least = 至少", "At least ten people came.", "This is the least expensive option."],
   ["lecture", "/ˈlektʃə/", "名词", "讲座；授课", "可数名词；give/attend a lecture = 做／听讲座", "The lecture starts at nine.", "She gave a lecture on climate."],
+];
+// 第 25 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["lemon", "/ˈlemən/", "名词", "柠檬；柠檬味", "可数名词；此处指黄色柠檬", "Add a slice of lemon to your tea.", "The cake tastes of lemon."],
   ["lend", "/lend/", "动词", "借给；贷给", "不规则动词：lend–lent–lent；与 borrow 借入相对", "Can you lend me your pen?", "The bank lent them money for the house."],
   ["less", "/les/", "限定词", "较少的；更少的", "修饰不可数名词；可数复数通常用 fewer", "Drink less coffee in the evening.", "We have less time than I thought."],
   ["level", "/ˈlevl/", "名词", "水平；程度；高度", "可数名词", "Her English is at an upper level.", "The water level rose after the rain."],
   ["lifestyle", "/ˈlaɪfstaɪl/", "名词", "生活方式", "可数名词；a healthy lifestyle = 健康的生活方式", "They live a quiet lifestyle in the country.", "Exercise is part of a healthy lifestyle."],
-];
-
-// 第 25 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["lift", "/lɪft/", "动词", "举起；抬起", "lift something up = 把某物抬起来", "He lifted the box onto the shelf.", "She could not lift the heavy bag."],
   ["likely", "/ˈlaɪkli/", "形容词", "可能的；有希望的", "be likely to do something = 可能做某事", "It is likely to rain tonight.", "She is likely to win."],
   ["link", "/lɪŋk/", "名词", "联系；链接", "可数名词", "There is a link between diet and health.", "Click the link to open the page."],
@@ -515,16 +499,15 @@ export const A2_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["major", "/ˈmeɪdʒə/", "形容词", "主要的；重大的", "反义词 minor", "Traffic is a major problem here.", "She played a major role in the project."],
   ["male", "/meɪl/", "形容词", "男性的；雄性的", "反义词 female", "A male nurse looked after him.", "The male bird has brighter colours."],
   ["manage", "/ˈmænɪdʒ/", "动词", "管理；设法做到", "manage to do something = 设法做成某事", "She manages a small hotel.", "I managed to finish before the deadline."],
+];
+// 第 26 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["manager", "/ˈmænɪdʒə/", "名词", "经理；管理者", "指负责管理的人", "The manager will see you now.", "He became manager after two years."],
   ["manner", "/ˈmænə/", "名词", "方式；态度", "复数 manners 可指礼貌；table manners = 餐桌礼仪", "He spoke in a friendly manner.", "Children learn table manners at home."],
   ["mark", "/mɑːk/", "动词", "批改；标记", "mark an exam = 批改试卷；mark a place = 标出位置", "The teacher marked our essays.", "Mark the correct answer with a tick."],
   ["marry", "/ˈmæri/", "动词", "结婚；娶；嫁", "marry somebody = 与某人结婚，不说 marry with", "She married her neighbour.", "They married in a small church."],
   ["material", "/məˈtɪəriəl/", "名词", "材料；布料", "此处指某一种材料时可数", "Wood is a natural material.", "What material is this shirt made of?"],
   ["mathematics", "/ˌmæθəˈmætɪks/", "名词", "数学", "不可数名词；简称 maths", "Mathematics is taught in every school.", "He has a degree in mathematics."],
-];
-
-// 第 26 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["maths", "/mæθs/", "名词", "数学", "不可数名词；英式英语用 maths，美式英语用 math", "I have a maths test tomorrow.", "She is good at maths."],
   ["matter", "/ˈmætə/", "名词", "事情；问题", "what's the matter? = 怎么了？", "This is a serious matter.", "What is the matter with you?"],
   ["media", "/ˈmiːdiə/", "名词", "媒体；传媒", "the media 泛指报纸、电视等新闻媒体", "The media reported the story quickly.", "Social media changed the news."],
@@ -541,6 +524,9 @@ export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["mirror", "/ˈmɪrə/", "名词", "镜子", "可数名词；look in the mirror = 照镜子", "She looked at herself in the mirror.", "There is a mirror in the bathroom."],
   ["missing", "/ˈmɪsɪŋ/", "形容词", "失踪的；缺少的", "a missing page = 缺失的一页；a missing person = 失踪的人", "A page is missing from this book.", "The police are looking for a missing child."],
   ["mobile", "/ˈməʊbaɪl/", "形容词", "移动的；流动的", "mobile phone = 手机", "Give me your mobile number.", "The clinic has a mobile unit."],
+];
+// 第 27 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["monkey", "/ˈmʌŋki/", "名词", "猴子", "可数名词；复数 monkeys", "Monkeys live in these forests.", "A monkey took the food from his hand."],
   ["moon", "/muːn/", "名词", "月亮", "指地球的月亮时通常说 the moon", "The moon is bright tonight.", "Men first walked on the moon in 1969."],
   ["mostly", "/ˈməʊstli/", "副词", "主要地；大部分情况下", "表示大多数人或事物的情况", "The students are mostly from this district.", "We mostly eat at home."],
@@ -548,10 +534,6 @@ export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["movement", "/ˈmuːvmənt/", "名词", "移动；运动；运动组织", "既可指身体或物体的动作，也可指争取目标的社会运动", "She noticed a movement behind the curtain.", "He joined a movement for clean water."],
   ["musical", "/ˈmjuːzɪkl/", "形容词", "音乐的；有音乐天赋的", "musical instrument = 乐器", "She comes from a musical family.", "The guitar is a musical instrument."],
   ["musician", "/mjuˈzɪʃn/", "名词", "音乐家；乐手", "指演奏或创作音乐的人", "The musician played for two hours.", "Street musicians perform near the lake."],
-];
-
-// 第 27 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["myself", "/maɪˈself/", "代词", "我自己；亲自", "第一人称单数反身代词", "I cooked the whole meal myself.", "I hurt myself playing football."],
   ["narrow", "/ˈnærəʊ/", "形容词", "狭窄的", "反义词 wide", "The street is too narrow for cars.", "We walked along a narrow path."],
   ["national", "/ˈnæʃnəl/", "形容词", "国家的；全国性的", "national holiday = 全国性节日", "Tet is a national holiday.", "The national team won the match."],
@@ -567,6 +549,9 @@ export const A2_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["none", "/nʌn/", "代词", "一个也没有；全无", "none of them = 他们当中一个也没有", "None of the shops were open.", "I wanted tea, but there was none left."],
   ["normal", "/ˈnɔːml/", "形容词", "正常的；平常的", "反义词 abnormal；back to normal = 恢复正常", "It is normal to feel tired after a flight.", "Her temperature is back to normal."],
   ["normally", "/ˈnɔːməli/", "副词", "通常；一般情况下", "描述平时的习惯或通常情况", "I normally get up at six.", "The shop normally closes at nine."],
+];
+// 第 28 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["notice", "/ˈnəʊtɪs/", "动词", "注意到；察觉", "表示察觉时通常不用进行时", "Did you notice her new haircut?", "I did not notice him leave."],
   ["novel", "/ˈnɒvl/", "名词", "长篇小说", "可数名词", "She wrote her first novel at twenty.", "This novel is based on real events."],
   ["nowhere", "/ˈnəʊweə/", "副词", "无处；哪里都不", "nowhere to go = 无处可去", "There is nowhere to sit.", "The keys were nowhere to be found."],
@@ -574,10 +559,6 @@ export const A2_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["ocean", "/ˈəʊʃn/", "名词", "海洋；大洋", "可数名词；通常比 sea 所指的海域更大", "The Pacific is the largest ocean.", "Plastic pollutes the ocean."],
   ["offer", "/ˈɒfə/", "动词", "提供；提议", "offer somebody something = 向某人提供某物", "They offered me a job.", "He offered to carry my bag."],
   ["officer", "/ˈɒfɪsə/", "名词", "军官；官员", "指担任职务的人；police officer = 警官", "A police officer stopped the car.", "She is an officer in the navy."],
-];
-
-// 第 28 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["oil", "/ɔɪl/", "名词", "油；石油", "不可数名词；可指食用油或石油", "Cook the fish in a little oil.", "The price of oil rose sharply."],
   ["onto", "/ˈɒntu/", "介词", "到……上面", "表示朝向某物表面的移动", "The cat jumped onto the roof.", "He put the box onto the table."],
   ["opportunity", "/ˌɒpəˈtjuːnəti/", "名词", "机会；时机", "复数 opportunities；比 chance 稍正式", "This job is a great opportunity.", "She had the opportunity to study abroad."],
@@ -594,6 +575,9 @@ export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["painter", "/ˈpeɪntə/", "名词", "画家；油漆工", "可指绘画艺术家或给建筑物刷漆的人", "The painter sold three pictures.", "We hired a painter for the kitchen."],
   ["palace", "/ˈpæləs/", "名词", "宫殿", "可数名词", "The king lived in a huge palace.", "We visited the old palace in Hue."],
   ["pants", "/pænts/", "名词", "裤子（美式）；内裤（英式）", "复数形式；通常与复数动词连用", "These pants are too long.", "He bought a pair of pants."],
+];
+// 第 29 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
   ["parking", "/ˈpɑːkɪŋ/", "名词", "停车；停车位", "不可数名词", "Parking is free after six.", "There is no parking on this street."],
   ["particular", "/pəˈtɪkjələ/", "形容词", "特定的；特别的", "in particular = 尤其；特别是", "Is there a particular book you want?", "He has no particular reason for leaving."],
   ["pass", "/pɑːs/", "动词", "通过（考试）；递给；经过", "pass an exam = 考试及格；反义词 fail", "She passed the exam easily.", "Please pass me the salt."],
@@ -601,10 +585,6 @@ export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["patient", "/ˈpeɪʃnt/", "名词", "病人；患者", "指正在接受治疗的人", "The doctor sees twenty patients a day.", "The patient is getting better."],
   ["pattern", "/ˈpætn/", "名词", "图案；规律", "可数名词；可指花纹，也可指重复出现的规律", "The dress has a flower pattern.", "Scientists found a pattern in the data."],
   ["peace", "/piːs/", "名词", "和平；宁静", "不可数名词；peace and quiet = 安宁清静", "The country has lived in peace for years.", "I want some peace and quiet."],
-];
-
-// 第 29 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
   ["penny", "/ˈpeni/", "名词", "便士；一分钱", "复数可以是 pennies 或 pence", "A penny is the smallest British coin.", "He did not have a penny left."],
   ["per", "/pə/", "介词", "每；每一", "per hour = 每小时；per person = 每人", "The room costs thirty dollars per night.", "He drives at sixty kilometres per hour."],
   ["per cent", "/pə ˈsent/", "名词", "百分之……；百分比", "美式英语通常拼作 percent", "Ninety per cent of students passed.", "Prices rose by five per cent."],
@@ -621,6 +601,9 @@ export const A2_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
   ["planet", "/ˈplænɪt/", "名词", "行星", "可数名词", "Mars is the fourth planet from the Sun.", "We must protect our planet."],
   ["plastic", "/ˈplæstɪk/", "名词", "塑料", "不可数名词；也可作形容词，如 a plastic bag", "The bottle is made of plastic.", "Plastic takes centuries to break down."],
   ["plate", "/pleɪt/", "名词", "盘子；碟子", "可数名词", "Put the rice on a clean plate.", "She washed the plates after dinner."],
+];
+// 第 30 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["platform", "/ˈplætfɔːm/", "名词", "站台；平台；讲台", "可数名词", "The train leaves from platform four.", "The speaker stood on a small platform."],
   ["pleased", "/pliːzd/", "形容词", "高兴的；满意的", "be pleased with something = 对某事满意", "She was pleased with her results.", "I am pleased to meet you."],
   ["pocket", "/ˈpɒkɪt/", "名词", "衣袋；口袋", "可数名词", "He put the ticket in his pocket.", "This coat has deep pockets."],
@@ -628,10 +611,6 @@ export const A2_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
   ["pollution", "/pəˈluːʃn/", "名词", "污染", "不可数名词；air pollution = 空气污染", "Air pollution is worse in the city.", "The factory caused water pollution."],
   ["pop", "/pɒp/", "名词", "流行音乐", "表示音乐类型时是不可数名词", "She listens to pop all day.", "The band plays pop and rock."],
   ["population", "/ˌpɒpjuˈleɪʃn/", "名词", "人口；人口数量", "可数名词；the population of a city = 一座城市的人口", "The population of the city is two million.", "The population is growing slowly."],
-];
-
-// 第 30 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["position", "/pəˈzɪʃn/", "名词", "位置；职位", "可数名词；可指空间位置或工作岗位", "Mark your position on the map.", "He applied for a position in the bank."],
   ["possession", "/pəˈzeʃn/", "名词", "所有物；财产", "指个人物品时常用复数 possessions", "She packed her few possessions.", "The house is his most valuable possession."],
   ["possibility", "/ˌpɒsəˈbɪləti/", "名词", "可能性", "复数 possibilities；a possibility of something = 某事发生的可能性", "There is a possibility of snow.", "We discussed every possibility."],
@@ -648,6 +627,9 @@ export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["produce", "/prəˈdjuːs/", "动词", "生产；产生", "produce goods = 生产商品；produce results = 产生结果", "This factory produces shoes.", "The country produces a lot of rice."],
   ["professional", "/prəˈfeʃənl/", "形容词", "专业的；职业的", "反义词 amateur", "She is a professional dancer.", "He gave professional advice."],
   ["professor", "/prəˈfesə/", "名词", "教授", "指在大学任教的高级教师", "Professor Lan teaches history.", "The professor published a new book."],
+];
+// 第 31 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
   ["profile", "/ˈprəʊfaɪl/", "名词", "个人资料；侧面轮廓", "可数名词；网站中的 profile 通常指个人资料", "Update your profile with a new photo.", "Her profile shows her work experience."],
   ["program", "/ˈprəʊɡræm/", "名词", "计算机程序", "可数名词；英式英语中电视节目常拼作 programme", "Install the program on your computer.", "The program crashed twice."],
   ["progress", "/ˈprəʊɡres/", "名词", "进步；进展", "不可数名词；make progress = 取得进步", "She is making good progress in English.", "The work is in progress."],
@@ -655,10 +637,6 @@ export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["pronounce", "/prəˈnaʊns/", "动词", "发音；读出", "pronounce a word = 读出一个词", "How do you pronounce this word?", "He pronounces my name correctly."],
   ["protect", "/prəˈtekt/", "动词", "保护", "protect somebody from something = 保护某人免受某物伤害", "Wear a hat to protect your head.", "Laws protect workers from danger."],
   ["provide", "/prəˈvaɪd/", "动词", "提供；供应", "provide somebody with something = 向某人提供某物", "The school provides free lunches.", "They provided us with maps."],
-];
-
-// 第 31 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
   ["pub", "/pʌb/", "名词", "酒吧；英式酒馆", "可数名词", "We met at a pub near the station.", "The pub serves food until nine."],
   ["public", "/ˈpʌblɪk/", "形容词", "公共的；公众的", "public transport = 公共交通；与 private 相对", "Public transport here is cheap.", "The park is open to the public."],
   ["publish", "/ˈpʌblɪʃ/", "动词", "出版；发表", "publish a book = 出版书；publish an article = 发表文章", "She published her first novel last year.", "The paper published the interview."],
@@ -676,6 +654,9 @@ export const A2_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
   ["rather", "/ˈrɑːðə/", "副词", "相当；有点儿", "would rather = 宁愿", "It is rather cold today.", "I would rather stay at home."],
   ["reach", "/riːtʃ/", "动词", "到达；够到", "直接说 reach a place，不加 to", "We reached the village at noon.", "She cannot reach the top shelf."],
   ["react", "/riˈækt/", "动词", "反应；回应", "react to something = 对某事作出反应", "How did he react to the news?", "The crowd reacted angrily."],
+];
+// 第 32 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["realize", "/ˈrɪəlaɪz/", "动词", "意识到；明白", "英式英语也拼作 realise", "I did not realize how late it was.", "She realized her mistake too late."],
   ["receive", "/rɪˈsiːv/", "动词", "收到；接到", "比 get 更正式", "I received your letter yesterday.", "She received a prize for her work."],
   ["recent", "/ˈriːsnt/", "形容词", "最近的；近来的", "通常放在名词前", "In recent years prices have risen.", "This is a recent photo."],
@@ -683,10 +664,6 @@ export const A2_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
   ["reception", "/rɪˈsepʃn/", "名词", "接待处；招待会", "酒店的 reception 指前台", "Ask at reception for your key.", "The wedding reception is at six."],
   ["recipe", "/ˈresəpi/", "名词", "食谱；烹饪方法", "可数名词；a recipe for something = 某道菜的食谱", "This is my mother's recipe for fish soup.", "Follow the recipe step by step."],
   ["recognize", "/ˈrekəɡnaɪz/", "动词", "认出；识别", "英式英语也拼作 recognise", "I did not recognize you with short hair.", "She recognized his voice at once."],
-];
-
-// 第 32 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["recommend", "/ˌrekəˈmend/", "动词", "推荐；建议", "recommend something to somebody = 向某人推荐某物", "Can you recommend a good restaurant?", "The doctor recommended more rest."],
   ["record", "/ˈrekɔːd/", "名词", "记录；纪录", "可数名词；break a record = 打破纪录", "Keep a record of your spending.", "She broke the world record."],
   ["recording", "/rɪˈkɔːdɪŋ/", "名词", "录音；录像", "可数名词", "Listen to the recording twice.", "The recording lasts ten minutes."],
@@ -704,6 +681,9 @@ export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["reporter", "/rɪˈpɔːtə/", "名词", "记者", "从事新闻报道的人", "A reporter asked about the flood.", "She works as a reporter for local radio."],
   ["request", "/rɪˈkwest/", "名词", "请求；要求", "可数名词；make a request = 提出请求", "They made a request for more time.", "Your request has been approved."],
   ["research", "/rɪˈsɜːtʃ/", "名词", "研究；调查", "不可数名词；一项研究可说 a piece of research", "She does research on sleep.", "The research took two years."],
+];
+// 第 33 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
   ["researcher", "/rɪˈsɜːtʃə/", "名词", "研究人员", "指从事研究的人", "The researcher interviewed a hundred people.", "Researchers found a new treatment."],
   ["respond", "/rɪˈspɒnd/", "动词", "回答；作出反应", "respond to something = 对某事作出回应", "He responded to my message quickly.", "The patient responded well to treatment."],
   ["response", "/rɪˈspɒns/", "名词", "答复；反应", "可数名词；in response to something = 回应某事", "Her response was very polite.", "We got no response from the office."],
@@ -711,10 +691,6 @@ export const A2_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["review", "/rɪˈvjuː/", "名词", "评论；复习；回顾", "可数名词", "The film got good reviews.", "We had a review of last month's work."],
   ["ring", "/rɪŋ/", "名词", "戒指；圆圈", "可数名词", "She wears a gold ring.", "The children formed a ring around the teacher."],
   ["rise", "/raɪz/", "动词", "上升；升起", "不及物不规则动词：rise–rose–risen", "Prices rose again this month.", "The sun rises in the east."],
-];
-
-// 第 33 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
   ["rock", "/rɒk/", "名词", "岩石；石块；摇滚乐", "可指石头，也可指摇滚音乐", "The path is covered with rocks.", "He likes rock music."],
   ["role", "/rəʊl/", "名词", "角色；作用", "play a role in something = 在某事中发挥作用", "She plays an important role in the team.", "He got the main role in the play."],
   ["roof", "/ruːf/", "名词", "屋顶", "可数名词；复数 roofs", "The storm damaged the roof.", "Birds sat on the roof."],
@@ -733,6 +709,9 @@ export const A2_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
   ["sauce", "/sɔːs/", "名词", "调味汁；酱汁", "可数或不可数名词", "Add tomato sauce to the pasta.", "This fish sauce is from Phu Quoc."],
   ["save", "/seɪv/", "动词", "节省；拯救；保存", "save money = 存钱；save a file = 保存文件", "She saves money every month.", "Save the file before you close it."],
   ["scared", "/skeəd/", "形容词", "害怕的；恐惧的", "be scared of something = 害怕某物", "The child is scared of the dark.", "I was scared when the lights went out."],
+];
+// 第 34 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["scary", "/ˈskeəri/", "形容词", "吓人的；可怕的", "描述引起恐惧的人或事物", "That was a scary film.", "The road is scary at night."],
   ["scene", "/siːn/", "名词", "场景；现场", "可指电影、戏剧中的一幕，也可指事件发生地点", "My favourite scene is at the end.", "The police arrived at the scene quickly."],
   ["schedule", "/ˈʃedjuːl/", "名词", "时间表；日程安排", "on schedule = 按时；behind schedule = 落后于计划", "The train is behind schedule.", "Check the schedule for tomorrow."],
@@ -740,10 +719,6 @@ export const A2_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
   ["screen", "/skriːn/", "名词", "屏幕；银幕", "可数名词", "Do not look at the screen too long.", "The cinema has a huge screen."],
   ["search", "/sɜːtʃ/", "动词", "搜索；寻找", "search for something = 寻找某物", "They searched for the missing dog.", "I searched the internet for recipes."],
   ["season", "/ˈsiːzn/", "名词", "季节；时节", "可数名词；the rainy season = 雨季", "Spring is my favourite season.", "The rainy season starts in May."],
-];
-
-// 第 34 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["seat", "/siːt/", "名词", "座位；椅子", "take a seat = 请坐", "Is this seat free?", "Please take a seat."],
   ["secondly", "/ˈsekəndli/", "副词", "第二；其次", "列举理由时通常接在 firstly 之后", "Secondly, the price is too high.", "Secondly, we must tell the parents."],
   ["secret", "/ˈsiːkrət/", "名词", "秘密", "可数名词；keep a secret = 保守秘密", "Can you keep a secret?", "The recipe is a family secret."],
@@ -762,6 +737,9 @@ export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["sheet", "/ʃiːt/", "名词", "一张（纸）；床单", "可数名词", "Take a clean sheet of paper.", "She changed the sheets on the bed."],
   ["ship", "/ʃɪp/", "名词", "船；轮船", "通常比 boat 大", "The ship sails to Singapore.", "Goods arrive here by ship."],
   ["shoulder", "/ˈʃəʊldə/", "名词", "肩膀", "可数名词", "He carried the bag on his shoulder.", "My shoulder hurts after the match."],
+];
+// 第 35 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["shout", "/ʃaʊt/", "动词", "喊叫；大声说", "shout at somebody = 冲某人喊", "Do not shout; I can hear you.", "She shouted for help."],
   ["shut", "/ʃʌt/", "动词", "关上；关闭", "不规则变化：shut–shut–shut", "Please shut the window.", "The shop shuts at nine."],
   ["side", "/saɪd/", "名词", "一边；侧面", "on the other side = 在另一边", "The shop is on the other side of the road.", "Write on both sides of the paper."],
@@ -769,10 +747,6 @@ export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["silver", "/ˈsɪlvə/", "名词", "银；银色", "表示金属时不可数；也可作形容词", "The spoon is made of silver.", "She won a silver medal."],
   ["simple", "/ˈsɪmpl/", "形容词", "简单的；朴素的", "反义词 complicated", "The instructions are simple.", "We had a simple meal of rice and fish."],
   ["since", "/sɪns/", "介词", "自从；自……以来", "后接时间起点，常与完成时连用", "I have lived here since 2020.", "She has not called since Monday."],
-];
-
-// 第 35 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["singing", "/ˈsɪŋɪŋ/", "名词", "唱歌；歌唱", "不可数名词；singing lessons = 声乐课", "Her singing woke the whole house.", "He takes singing lessons."],
   ["single", "/ˈsɪŋɡl/", "形容词", "单独的；单人的；未婚的", "a single room = 单人间", "I booked a single room.", "She is still single."],
   ["sir", "/sɜː/", "名词", "先生；阁下", "对男性的礼貌称呼", "Can I help you, sir?", "Thank you, sir."],
@@ -791,6 +765,9 @@ export const A2_THIRTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["soap", "/səʊp/", "名词", "肥皂", "不可数名词", "Wash your hands with soap.", "The soap smells of lemon."],
   ["soccer", "/ˈsɒkə/", "名词", "足球", "美式英语；英式英语通常说 football", "He plays soccer after school.", "Soccer is growing in the United States."],
   ["social", "/ˈsəʊʃl/", "形容词", "社会的；社交的", "social media = 社交媒体；social life = 社交生活", "She has a busy social life.", "Social problems need long-term answers."],
+];
+// 第 36 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["society", "/səˈsaɪəti/", "名词", "社会；社团", "复数 societies", "Education matters to every society.", "She joined a history society."],
   ["sock", "/sɒk/", "名词", "袜子", "可数名词；通常用复数 socks", "I cannot find my other sock.", "He wears thick socks in winter."],
   ["soft", "/sɒft/", "形容词", "柔软的；轻柔的", "反义词 hard", "The bed is very soft.", "She spoke in a soft voice."],
@@ -798,10 +775,6 @@ export const A2_THIRTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["solution", "/səˈluːʃn/", "名词", "解决办法；答案", "a solution to a problem = 问题的解决办法", "There is no easy solution to this problem.", "She found the solution quickly."],
   ["solve", "/sɒlv/", "动词", "解决；解答", "solve a problem = 解决问题", "Let's solve this problem together.", "He solved the puzzle in a minute."],
   ["somewhere", "/ˈsʌmweə/", "副词", "在某处；去某处", "通常用于肯定句", "I left my glasses somewhere in the house.", "Let's go somewhere quiet."],
-];
-
-// 第 36 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["sort", "/sɔːt/", "名词", "种类；类别", "a sort of something = 一种某物", "What sort of music do you like?", "There are three sorts of tickets."],
   ["source", "/sɔːs/", "名词", "来源；源头", "a source of something = 某物的来源", "Fruit is a good source of vitamins.", "Name the source of your information."],
   ["speaker", "/ˈspiːkə/", "名词", "发言人；扬声器", "可数名词", "The speaker talked for an hour.", "Turn up the speakers."],
@@ -821,6 +794,9 @@ export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["stone", "/stəʊn/", "名词", "石头；石料", "指单块石头时可数，指石料时不可数", "The wall is made of stone.", "He threw a stone into the water."],
   ["store", "/stɔː/", "名词", "商店；店铺", "美式英语常用 store，英式英语常用 shop", "The store opens at eight.", "She works in a department store."],
   ["storm", "/stɔːm/", "名词", "暴风雨；风暴", "可数名词", "The storm damaged many houses.", "A storm is coming tonight."],
+];
+// 第 37 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["straight", "/streɪt/", "形容词", "直的；笔直的", "形容头发时与 curly 相对", "She has long straight hair.", "Draw a straight line."],
   ["strange", "/streɪndʒ/", "形容词", "奇怪的；陌生的", "描述不寻常的事物", "That is a strange noise.", "I had a strange dream."],
   ["strategy", "/ˈstrætədʒi/", "名词", "策略；战略", "复数 strategies", "We need a new strategy for selling.", "Her learning strategy works well."],
@@ -828,10 +804,6 @@ export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["structure", "/ˈstrʌktʃə/", "名词", "结构；建筑物", "可数名词", "The structure of the essay is clear.", "The bridge is a huge steel structure."],
   ["stupid", "/ˈstjuːpɪd/", "形容词", "愚蠢的；傻的", "语气较重；较温和的说法可用 silly", "That was a stupid mistake.", "Do not say such stupid things."],
   ["succeed", "/səkˈsiːd/", "动词", "成功；达到目的", "succeed in doing something = 成功做成某事", "She succeeded in passing the exam.", "The plan succeeded beyond our hopes."],
-];
-
-// 第 37 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["successful", "/səkˈsesfl/", "形容词", "成功的；经营良好的", "a successful business = 成功的企业", "He runs a successful bakery.", "The meeting was successful."],
   ["such", "/sʌtʃ/", "限定词", "这样的；如此的", "such a good day = 这么好的一天", "It was such a hot day.", "I have never seen such a big fish."],
   ["suddenly", "/ˈsʌdənli/", "副词", "突然地；忽然", "表示事情出乎意料地发生", "Suddenly the lights went out.", "She suddenly started to laugh."],
@@ -851,6 +823,9 @@ export const A2_THIRTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["target", "/ˈtɑːɡɪt/", "名词", "目标；指标", "meet a target = 达到目标", "We met our sales target.", "Her target is to run ten kilometres."],
   ["task", "/tɑːsk/", "名词", "任务；工作", "可数名词", "Cleaning the kitchen is my task.", "The task took longer than expected."],
   ["taste", "/teɪst/", "名词", "味道；品味", "a taste of something = 某物的味道", "This soup has a strong taste.", "She has good taste in clothes."],
+];
+// 第 38 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["teaching", "/ˈtiːtʃɪŋ/", "名词", "教学；教师工作", "不可数名词", "Teaching is a hard but happy job.", "She went into teaching after university."],
   ["technology", "/tekˈnɒlədʒi/", "名词", "技术；科技", "复数 technologies 可指多种技术", "Technology changes very fast.", "New technology helps farmers."],
   ["teenage", "/ˈtiːneɪdʒ/", "形容词", "十几岁的；青少年的", "放在名词前，通常指 13 至 19 岁", "They have two teenage sons.", "Teenage readers love this series."],
@@ -858,10 +833,6 @@ export const A2_THIRTY_SEVENTH_LESSON: OriginalA2Word[] = [
   ["term", "/tɜːm/", "名词", "学期；术语", "可数名词", "The new term starts in September.", "Explain this medical term simply."],
   ["themselves", "/ðəmˈselvz/", "代词", "他们自己；她们自己；它们自己", "第三人称复数反身代词", "The children dressed themselves.", "They built the house themselves."],
   ["thick", "/θɪk/", "形容词", "厚的；浓稠的", "反义词 thin", "Wear a thick coat; it is cold.", "The soup is too thick."],
-];
-
-// 第 38 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
-export const A2_THIRTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["thief", "/θiːf/", "名词", "小偷；盗贼", "复数 thieves", "The thief took her phone.", "Thieves broke into the shop at night."],
   ["thin", "/θɪn/", "形容词", "薄的；瘦的", "形容厚度时与 thick 相对；形容身材时与 fat 相对", "Cut the bread into thin slices.", "He looks thin after his illness."],
   ["thinking", "/ˈθɪŋkɪŋ/", "名词", "思考；想法", "不可数名词", "Her thinking on the subject has changed.", "The job needs careful thinking."],
@@ -882,6 +853,9 @@ export const A2_THIRTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["track", "/træk/", "名词", "小路；轨道；曲目", "可数名词", "Follow the track through the forest.", "My favourite track is the last one."],
   ["tradition", "/trəˈdɪʃn/", "名词", "传统；惯例", "可数名词", "Giving lucky money is a Tet tradition.", "The village keeps its old traditions."],
   ["traditional", "/trəˈdɪʃənl/", "形容词", "传统的", "traditional food = 传统食物；traditional music = 传统音乐", "She wore a traditional dress.", "This is traditional northern music."],
+];
+// 第 39 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_THIRTY_NINTH_LESSON: OriginalA2Word[] = [
   ["trainer", "/ˈtreɪnə/", "名词", "教练；运动鞋", "单数可指教练；复数 trainers 可指运动鞋", "My trainer plans my exercises.", "She bought new trainers for running."],
   ["training", "/ˈtreɪnɪŋ/", "名词", "训练；培训", "不可数名词", "New staff get two weeks of training.", "He is in training for a marathon."],
   ["transport", "/ˈtrænspɔːt/", "名词", "交通；运输工具", "英式英语不可数名词；public transport = 公共交通", "Public transport is cheap here.", "Transport to the airport takes an hour."],
@@ -889,4 +863,54 @@ export const A2_THIRTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["trouble", "/ˈtrʌbl/", "名词", "麻烦；困难", "通常不可数；be in trouble = 遇到麻烦", "He is in trouble at school.", "I had trouble starting the car."],
   ["truck", "/trʌk/", "名词", "卡车；货车", "美式英语常用；英式英语常说 lorry", "The truck carried sand to the site.", "He drives a truck for a living."],
   ["twin", "/twɪn/", "名词", "双胞胎之一", "复数 twins 可指一对双胞胎", "Her twin lives in Canada.", "The twins look exactly alike."],
+  ["typical", "/ˈtɪpɪkl/", "形容词", "典型的；有代表性的", "be typical of somebody = 是某人的一贯作风", "This is a typical village house.", "It is typical of him to arrive late."],
+  ["underground", "/ˌʌndəˈɡraʊnd/", "形容词", "地下的", "the Underground 在英国可指地铁", "There is an underground car park.", "They found an underground river."],
+  ["understanding", "/ˌʌndəˈstændɪŋ/", "名词", "理解；了解", "不可数名词", "She has a good understanding of maths.", "The talk improved our understanding."],
+  ["unfortunately", "/ʌnˈfɔːtʃənətli/", "副词", "不幸地；可惜", "常放句首；反义词 fortunately", "Unfortunately, the shop was closed.", "Unfortunately, I cannot come tonight."],
+  ["unhappy", "/ʌnˈhæpi/", "形容词", "不开心的；不满意的", "反义词 happy", "She looked unhappy after the call.", "He is unhappy with the result."],
+  ["uniform", "/ˈjuːnɪfɔːm/", "名词", "制服；校服", "可数名词", "Students wear a blue uniform.", "The nurse put on her uniform."],
+  ["unit", "/ˈjuːnɪt/", "名词", "单元；单位", "可数名词；可指课本单元或计量单位", "We finished unit three today.", "The metre is a unit of length."],
+  ["united", "/juˈnaɪtɪd/", "形容词", "团结的；联合的", "the United Kingdom = 英国", "The team was united behind its captain.", "She works for the United Nations."],
+  ["unusual", "/ʌnˈjuːʒuəl/", "形容词", "不寻常的；罕见的", "反义词 usual", "It is unusual to see snow here.", "She has an unusual name."],
+  ["used to", "/ˈjuːst tuː/", "情态动词", "过去常常；曾经", "used to do something = 过去常做、现在不再做的事", "I used to walk to school.", "She used to play the piano."],
+  ["user", "/ˈjuːzə/", "名词", "用户；使用者", "指使用产品或服务的人", "The app has a million users.", "Users must create a password."],
+  ["usual", "/ˈjuːʒuəl/", "形容词", "通常的；惯常的", "as usual = 像往常一样", "He sat in his usual seat.", "She was late, as usual."],
+  ["valley", "/ˈvæli/", "名词", "山谷；河谷", "可数名词", "The valley is green in spring.", "A river runs through the valley."],
+  ["van", "/væn/", "名词", "厢式货车；小型货车", "可数名词", "The van delivers bread every morning.", "They moved house in a hired van."],
+  ["variety", "/vəˈraɪəti/", "名词", "多样性；品种", "a variety of = 各种各样的", "The shop sells a variety of bread.", "This variety of rice grows quickly."],
+  ["vehicle", "/ˈviːəkl/", "名词", "车辆；交通工具", "可数名词；字母 h 不发音", "No vehicles are allowed in the park.", "The vehicle stopped at the gate."],
+  ["view", "/vjuː/", "名词", "景色；看法", "可数名词；in my view = 在我看来", "The room has a view of the sea.", "In my view, the price is too high."],
+  ["virus", "/ˈvaɪrəs/", "名词", "病毒", "可数名词，可指生物病毒或计算机病毒", "A virus caused the illness.", "The computer virus deleted my files."],
+  ["voice", "/vɔɪs/", "名词", "声音；嗓音", "in a loud voice = 大声地", "She has a beautiful singing voice.", "He spoke in a quiet voice."],
+  ["war", "/wɔː/", "名词", "战争", "反义词 peace", "The war lasted ten years.", "Many families left during the war."],
+];
+// 第 40 课：英文内容按原站 CSV 顺序、课次词数重排；第 9–40 课音标尚待原站逐张核对。
+export const A2_FORTIETH_LESSON: OriginalA2Word[] = [
+  ["washing", "/ˈwɒʃɪŋ/", "名词", "洗衣；待洗或洗好的衣物", "不可数名词；do the washing = 洗衣服", "I do the washing on Sundays.", "Hang the washing in the sun."],
+  ["wave", "/weɪv/", "名词", "波浪；挥手致意", "可数名词", "Big waves hit the shore.", "She gave me a wave from the bus."],
+  ["weak", "/wiːk/", "形容词", "虚弱的；淡的", "反义词 strong", "He felt weak after the illness.", "The coffee is too weak."],
+  ["web", "/web/", "名词", "万维网；蜘蛛网", "the web = 万维网", "I found the recipe on the web.", "A spider's web hung in the corner."],
+  ["wedding", "/ˈwedɪŋ/", "名词", "婚礼", "可数名词", "Their wedding is in October.", "She wore a white wedding dress."],
+  ["weight", "/weɪt/", "名词", "重量；体重", "put on weight = 体重增加", "What is the weight of this parcel?", "He lost weight after changing his diet."],
+  ["wet", "/wet/", "形容词", "湿的；潮湿的", "反义词 dry", "My shoes are wet from the rain.", "Do not sit on the wet grass."],
+  ["wheel", "/wiːl/", "名词", "车轮；方向盘", "the steering wheel = 方向盘", "The front wheel of my bike is broken.", "He kept both hands on the wheel."],
+  ["while", "/waɪl/", "连词", "当……时；与此同时", "连接同时发生的两个动作", "She called while I was cooking.", "Read this while you wait."],
+  ["whole", "/həʊl/", "形容词", "整个的；全部的", "放在名词前；the whole day = 一整天", "He ate the whole cake.", "We spent the whole day at the beach."],
+  ["whose", "/huːz/", "限定词", "谁的", "可用于疑问句，也可引导定语从句", "Whose bag is this?", "The woman whose car broke down called us."],
+  ["wide", "/waɪd/", "形容词", "宽的；广泛的", "反义词 narrow", "The river is very wide here.", "The shop has a wide choice of books."],
+  ["wild", "/waɪld/", "形容词", "野生的；野外生长的", "wild animals = 野生动物；与 tame 相对", "Wild animals live in this forest.", "The flowers grow wild on the hill."],
+  ["wind", "/wɪnd/", "名词", "风", "作名词时读 /wɪnd/", "A cold wind blew from the north.", "The wind broke two branches."],
+  ["winner", "/ˈwɪnə/", "名词", "获胜者；赢家", "反义词 loser", "The winner receives a gold cup.", "She was the winner of the writing contest."],
+  ["wish", "/wɪʃ/", "动词", "希望；祝愿", "wish somebody something = 祝某人……；wish 从句可表示与现实相反的愿望", "I wish you a happy new year.", "She wishes she had more free time."],
+  ["wood", "/wʊd/", "名词", "木头；木材", "表示材料时不可数", "The table is made of wood.", "We collected wood for the fire."],
+  ["wooden", "/ˈwʊdn/", "形容词", "木制的", "放在名词前", "She sat on a wooden bench.", "The toy is a wooden train."],
+  ["working", "/ˈwɜːkɪŋ/", "形容词", "工作的；运转的", "working hours = 工作时间；in working order = 运转正常", "Our working hours are nine to five.", "Is the lift in working order?"],
+  ["worried", "/ˈwʌrid/", "形容词", "担心的；焦虑的", "be worried about something = 担心某事", "She is worried about her exam.", "He looked worried this morning."],
+  ["worry", "/ˈwʌri/", "动词", "担心；发愁", "worry about something = 为某事担心", "Do not worry about the money.", "She worries too much."],
+  ["worse", "/wɜːs/", "形容词", "更坏的；更糟的", "bad 的比较级", "The weather is worse than yesterday.", "His cough got worse at night."],
+  ["worst", "/wɜːst/", "形容词", "最坏的；最糟的", "bad 的最高级", "That was the worst meal of my life.", "This is the worst traffic of the year."],
+  ["wow", "/waʊ/", "感叹词", "哇；哟", "表示惊讶或赞叹", "Wow, that view is amazing!", "Wow, you finished already?"],
+  ["yet", "/jet/", "副词", "还；尚；已经", "在否定句或疑问句末尾，常与完成时连用", "Have you eaten yet?", "She has not arrived yet."],
+  ["yours", "/jɔːz/", "代词", "你的；你们的", "名词性物主代词，后面不接名词", "Is this pen yours?", "My room is small; yours is bigger."],
+  ["zero", "/ˈzɪərəʊ/", "数词", "零", "可用于温度或分数", "The temperature fell to zero.", "He scored zero in the first game."],
 ];
