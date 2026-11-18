@@ -1,5 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
 import { A2_MOVEMENT_MEDIUM } from "./currentSiteA2MovementMedium";
+import { A2_MOVEMENT_HARD } from "./currentSiteA2MovementHard";
 
 // 原站 A2 第 1 课：2026-11-17 逐段核对理论，并完成简单档 20 道题。
 // 题干与选项按原站保留英文；越南语讲解译成中文。中等、困难档尚待提取。
@@ -318,8 +319,8 @@ export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["句子描述静止位置还是有方向的移动？", "介词是否对应实际空间路径？", "交通工具固定搭配是否正确？", "移动动词不能误用静态位置介词。"],
-  questions: [...A2_MOVEMENT_QUESTIONS, ...A2_MOVEMENT_MEDIUM],
+  questions: [...A2_MOVEMENT_QUESTIONS, ...A2_MOVEMENT_MEDIUM, ...A2_MOVEMENT_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["困难"],
+  pendingDifficulties: [],
 };
