@@ -1,4 +1,4 @@
-// B1 第 1–12 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–14 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -217,4 +217,47 @@ export const B1_TWELFTH_LESSON: OriginalA2Word[] = [
   ["donate", "/dəʊˈneɪt/", "动词", "捐赠；献出", "donate something to somebody/something = 向某人或机构捐赠某物", "They donated a lot of money to the hospital.", "You can donate blood twice a year."],
   ["doubt", "/daʊt/", "名词", "怀疑；疑虑", "have doubts about = 对……有疑问；no doubt = 毫无疑问", "I have no doubt that she will succeed.", "There is some doubt about whether the plan will work."],
   ["dressed", "/drest/", "形容词", "穿好衣服的；穿着……的", "get dressed = 穿好衣服；be dressed in something = 身穿某物", "Give me five minutes to get dressed.", "She was dressed in a beautiful red dress."],
+];
+
+export const B1_THIRTEENTH_LESSON: OriginalA2Word[] = [
+  ["drum", "/drʌm/", "名词", "鼓", "play the drums = 打架子鼓", "He plays the drums in a local band.", "The children banged on the drum all afternoon."],
+  ["drunk", "/drʌŋk/", "形容词", "喝醉的", "get drunk = 喝醉；反义词 sober", "He got drunk at the party and sang loudly.", "You should never drive when you are drunk."],
+  ["due", "/djuː/", "形容词", "预定的；到期的", "be due to do something = 预计要做某事；作业 due 指到截止日期", "The train is due to arrive at six o'clock.", "Her essay is due next Monday."],
+  ["dust", "/dʌst/", "名词", "灰尘；尘土", "不可数名词；a layer of dust = 一层灰尘", "There was a thick layer of dust on the old books.", "Please wipe the dust off the shelves."],
+  ["duty", "/ˈdjuːti/", "名词", "责任；职责；关税", "on duty = 值班；off duty = 下班", "It is the duty of every citizen to vote.", "The nurse is on duty until midnight."],
+  ["earthquake", "/ˈɜːθkweɪk/", "名词", "地震", "可数名词；earthquake strikes a place = 某地发生地震", "A powerful earthquake destroyed many homes in the city.", "Thousands of people were left homeless by the earthquake."],
+  ["eastern", "/ˈiːstən/", "形容词", "东部的；东方的", "通常放在名词前；与 western 相对", "Heavy rain is expected in the eastern part of the country.", "She grew up in a small town in eastern Europe."],
+  ["economic", "/ˌiːkəˈnɒmɪk/", "形容词", "经济的；经济方面的", "描述经济问题；economical 则指节省的", "The country is facing serious economic problems.", "The government promised strong economic growth."],
+  ["economy", "/ɪˈkɒnəmi/", "名词", "经济；节约", "a strong economy = 强劲的经济；economy class = 经济舱", "The economy is growing faster than last year.", "We flew economy class to save money."],
+  ["edge", "/edʒ/", "名词", "边缘；边沿；刀刃", "on the edge of something = 在某物边缘", "Don't stand too close to the edge of the cliff.", "She sat on the edge of the bed and cried."],
+  ["editor", "/ˈedɪtə/", "名词", "编辑；编者", "the editor of a newspaper = 报纸编辑", "She is the editor of a popular fashion magazine.", "The editor cut two pages from my article."],
+  ["educate", "/ˈedʒukeɪt/", "动词", "教育；培养", "educate somebody about something = 教育某人了解某事", "Schools should educate children about healthy eating.", "He was educated at a famous university in London."],
+  ["educated", "/ˈedʒukeɪtɪd/", "形容词", "受过教育的；有学识的", "well educated = 受过良好教育的", "She is a well educated and thoughtful woman.", "Highly educated people still make mistakes."],
+  ["educational", "/ˌedʒuˈkeɪʃənl/", "形容词", "教育的；有教育意义的", "educational activities = 教育活动", "The museum offers many educational activities for kids.", "This app is both fun and educational."],
+  ["effective", "/ɪˈfektɪv/", "形容词", "有效的；起作用的", "an effective way of doing something = 做某事的有效办法", "Exercise is an effective way to reduce stress.", "We need a more effective method to solve this."],
+  ["effectively", "/ɪˈfektɪvli/", "副词", "有效地；实际上", "修饰动词；也可表示实质上", "The new system works very effectively.", "The two sides effectively agreed on everything."],
+  ["effort", "/ˈefət/", "名词", "努力；尽力", "make an effort to do something = 努力做某事", "She made a big effort to finish on time.", "It took a lot of effort to climb the mountain."],
+  ["election", "/ɪˈlekʃn/", "名词", "选举", "hold/win an election = 举行／赢得选举", "The country will hold an election next spring.", "Their party won the last election."],
+];
+
+export const B1_FOURTEENTH_LESSON: OriginalA2Word[] = [
+  ["element", "/ˈelɪmənt/", "名词", "要素；元素", "a key element of something = 某事物的关键要素", "Trust is a key element of any friendship.", "Water is made of two chemical elements."],
+  ["embarrassed", "/ɪmˈbærəst/", "形容词", "尴尬的；难为情的", "描述人的感受；be embarrassed about something = 因某事难为情", "I felt really embarrassed when I forgot his name.", "She was too embarrassed to ask for help."],
+  ["embarrassing", "/ɪmˈbærəsɪŋ/", "形容词", "令人尴尬的", "描述引起尴尬的事；与 embarrassed 的感受义区分", "Falling over in front of everyone was so embarrassing.", "He told an embarrassing story about his childhood."],
+  ["emergency", "/ɪˈmɜːdʒənsi/", "名词", "紧急情况", "in an emergency = 在紧急情况下；emergency exit = 紧急出口", "Call this number in an emergency.", "The plane had to make an emergency landing."],
+  ["emotion", "/ɪˈməʊʃn/", "名词", "情感；情绪", "show/hide your emotions = 表露／掩饰情绪", "He spoke about the war with great emotion.", "It is healthy to express your emotions."],
+  ["employment", "/ɪmˈplɔɪmənt/", "名词", "就业；雇用", "不可数名词；find employment = 找到工作；反义词 unemployment", "She found employment at a local hospital.", "The new factory will create employment for the area."],
+  ["encourage", "/ɪnˈkʌrɪdʒ/", "动词", "鼓励；支持", "encourage somebody to do something = 鼓励某人做某事", "My parents encouraged me to study abroad.", "Good teachers encourage students to ask questions."],
+  ["enemy", "/ˈenəmi/", "名词", "敌人；对手", "复数 enemies；反义词 friend", "The two countries were enemies for many years.", "He made a few enemies during his career."],
+  ["engaged", "/ɪnˈɡeɪdʒd/", "形容词", "订婚的；占线的", "be/get engaged to somebody = 与某人订婚；电话线 engaged = 占线", "They got engaged last summer and will marry soon.", "I tried to call her, but the line was engaged."],
+  ["engineering", "/ˌendʒɪˈnɪərɪŋ/", "名词", "工程学；工程技术", "不可数名词；civil engineering = 土木工程", "He is studying engineering at university.", "The bridge is a great piece of engineering."],
+  ["entertain", "/ˌentəˈteɪn/", "动词", "使欢乐；招待", "entertain somebody with something = 用某事物使某人开心", "The clown entertained the children for an hour.", "They love to entertain friends at home."],
+  ["entertainment", "/ˌentəˈteɪnmənt/", "名词", "娱乐；消遣", "不可数名词；live entertainment = 现场娱乐表演", "The hotel offers live entertainment every night.", "People use their phones mostly for entertainment."],
+  ["entrance", "/ˈentrəns/", "名词", "入口；进入", "the entrance to a place = 某地的入口；反义词 exit", "I'll meet you at the main entrance of the station.", "There is a small entrance fee for the museum."],
+  ["entry", "/ˈentri/", "名词", "进入；准入；条目", "no entry = 禁止入内；日记中的一则也叫 entry", "The sign says 'No Entry' on that door.", "She wrote a short entry in her diary every day."],
+  ["environmental", "/ɪnˌvaɪrənˈmentl/", "形容词", "环境的；环保的", "environmental problems = 环境问题", "Pollution is a serious environmental problem.", "The company is trying to reduce environmental damage."],
+  ["episode", "/ˈepɪsəʊd/", "名词", "一集；一段经历", "the final episode of a series = 连续剧的最后一集", "I can't wait to watch the next episode tonight.", "The final episode of the show was very emotional."],
+  ["equal", "/ˈiːkwəl/", "形容词", "平等的；相等的", "equal rights = 平等权利；equal to = 与……相等", "Men and women should have equal rights.", "The two boxes are equal in weight."],
+  ["equally", "/ˈiːkwəli/", "副词", "平等地；同样地", "share/divide something equally = 平分某物", "We divided the money equally between us.", "Both answers are equally correct."],
+  ["escape", "/ɪˈskeɪp/", "动词", "逃脱；避开", "escape from somewhere = 从某处逃脱；也可作名词指逃脱", "The thief escaped from prison last night.", "They had a narrow escape when the boat sank."],
 ];
