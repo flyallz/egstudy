@@ -19,6 +19,7 @@ POS = {
     "Số từ": "数词",
     "Liên từ": "连词",
     "Đại từ": "代词",
+    "Từ hạn định": "限定词",
 }
 
 
@@ -28,7 +29,7 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         originals = list(csv.DictReader(handle))
 
     names = (
-        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH")[:blocks]]
+        [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH")[:blocks]]
     )
     cards = []
     for name in names:
@@ -53,5 +54,5 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         raise SystemExit(1)
 
 
-check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 15)
+check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 17)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)

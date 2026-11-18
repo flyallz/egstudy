@@ -1,4 +1,4 @@
-// A2 第 1–15 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–15 课音标待核。
+// A2 第 1–17 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–17 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -277,4 +277,48 @@ export const A2_FIFTEENTH_LESSON: OriginalA2Word[] = [
   ["earn", "/ɜːn/", "动词", "挣得；赢得", "earn money = 挣钱；earn respect = 赢得尊重", "She earns a good salary.", "He earned everyone's respect."],
   ["earth", "/ɜːθ/", "名词", "地球；土壤", "表示行星时通常写作 Earth", "The Earth goes around the Sun.", "Plant the seeds in soft earth."],
   ["easily", "/ˈiːzɪli/", "副词", "容易地；轻松地", "easy 的副词形式", "She passed the test easily.", "This bag opens easily."],
+];
+
+// 第 16 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_SIXTEENTH_LESSON: OriginalA2Word[] = [
+  ["education", "/ˌedʒuˈkeɪʃn/", "名词", "教育；受教育程度", "通常不可数；a good education = 良好的教育", "Education should be free for children.", "She had a good education."],
+  ["effect", "/ɪˈfekt/", "名词", "影响；效果", "have an effect on something = 对某事有影响；affect 是动词", "The medicine had a quick effect.", "Noise has a bad effect on sleep."],
+  ["either", "/ˈaɪðə/", "限定词", "两者中的任意一个；也不", "either ... or ... = 要么……要么……；否定句末可表“也不”", "You can take either road.", "I do not like it either."],
+  ["electric", "/ɪˈlektrɪk/", "形容词", "用电的；电动的", "形容具体电器：electric car / light", "They bought an electric car.", "The electric light went out."],
+  ["electrical", "/ɪˈlektrɪkl/", "形容词", "电的；与电有关的", "多用于电力系统或电气领域", "There is an electrical fault in the house.", "He studies electrical engineering."],
+  ["electricity", "/ɪˌlekˈtrɪsəti/", "名词", "电；电力", "不可数名词", "The storm cut off the electricity.", "Electricity is expensive this year."],
+  ["electronic", "/ɪˌlekˈtrɒnɪk/", "形容词", "电子的", "electronic devices = 电子设备；electronic music = 电子音乐", "Electronic payments are quick and safe.", "He collects electronic music."],
+  ["employ", "/ɪmˈplɔɪ/", "动词", "雇用；聘请", "employ somebody as something = 雇某人担任某职", "The factory employs five hundred people.", "They employed her as a translator."],
+  ["employee", "/ɪmˈplɔɪiː/", "名词", "雇员；员工", "指受雇工作的人；与 employer 相对", "The company has ten new employees.", "Every employee gets training."],
+  ["employer", "/ɪmˈplɔɪə/", "名词", "雇主；用人单位", "指雇用他人的人或机构", "My employer pays for my travel.", "She is a fair employer."],
+  ["empty", "/ˈempti/", "形容词", "空的；无人占用的", "反义词 full", "The bottle is empty.", "We found an empty seat at the back."],
+  ["ending", "/ˈendɪŋ/", "名词", "结局；结尾", "可数名词；a happy ending = 美满结局", "The film has a happy ending.", "I did not expect that ending."],
+  ["energy", "/ˈenədʒi/", "名词", "能量；精力", "通常不可数", "Solar energy is clean.", "I have no energy after work."],
+  ["engine", "/ˈendʒɪn/", "名词", "发动机；引擎", "可数名词", "The car engine is making a strange noise.", "This engine runs on diesel."],
+  ["engineer", "/ˌendʒɪˈnɪə/", "名词", "工程师", "指从事工程工作的人", "My father is a civil engineer.", "The engineer checked the bridge."],
+  ["enormous", "/ɪˈnɔːməs/", "形容词", "巨大的；庞大的", "程度比 big 更强", "They live in an enormous house.", "The job took an enormous amount of time."],
+  ["enter", "/ˈentə/", "动词", "进入；输入（信息）", "enter a room = 进入房间，不说 enter into a room", "Please knock before you enter the office.", "Enter your name in the first box."],
+  ["environment", "/ɪnˈvaɪrənmənt/", "名词", "环境；周围条件", "the environment 常指自然环境", "Plastic harms the environment.", "The office is a quiet working environment."],
+];
+
+// 第 17 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_SEVENTEENTH_LESSON: OriginalA2Word[] = [
+  ["equipment", "/ɪˈkwɪpmənt/", "名词", "设备；器材", "不可数名词；一件设备可说 a piece of equipment", "The lab has new equipment.", "Bring your own camping equipment."],
+  ["error", "/ˈerə/", "名词", "错误；差错", "可数名词；make an error = 犯错", "There is an error in this calculation.", "The message said there was a system error."],
+  ["especially", "/ɪˈspeʃəli/", "副词", "尤其；特别是", "强调其中一种情况", "I love fruit, especially mangoes.", "The road is busy, especially in the morning."],
+  ["essay", "/ˈeseɪ/", "名词", "短文；论文", "可数名词；write an essay on something = 写一篇关于某事的文章", "She wrote an essay about her village.", "The essay is due on Monday."],
+  ["everyday", "/ˈevrideɪ/", "形容词", "日常的；普通的", "放在名词前；区别于分开写的 every day（每天）", "These are everyday problems.", "He uses everyday English at work."],
+  ["everywhere", "/ˈevriweə/", "副词", "到处；处处", "地点副词；通常修饰动词，表示所有地方", "I looked everywhere for my keys.", "There were flowers everywhere."],
+  ["evidence", "/ˈevɪdəns/", "名词", "证据；迹象", "不可数名词；一项证据可说 a piece of evidence", "The police found new evidence.", "There is no evidence for that claim."],
+  ["exact", "/ɪɡˈzækt/", "形容词", "准确的；确切的", "the exact time/words = 确切时间／原话", "What is the exact time of the flight?", "Those were his exact words."],
+  ["exactly", "/ɪɡˈzæktli/", "副词", "恰好；完全正确", "也可单独用于表示强烈赞同", "That is exactly what I meant.", "The bus leaves at exactly six."],
+  ["excellent", "/ˈeksələnt/", "形容词", "优秀的；极好的", "用于高度赞扬", "Her English is excellent.", "The food in that restaurant is excellent."],
+  ["except", "/ɪkˈsept/", "介词", "除了；除……之外", "except for 也可表达相近意思", "Everyone came except Minh.", "The shop opens daily except Sunday."],
+  ["exist", "/ɪɡˈzɪst/", "动词", "存在", "通常不用于进行时", "Dinosaurs no longer exist.", "Does life exist on other planets?"],
+  ["expect", "/ɪkˈspekt/", "动词", "期待；预计", "expect somebody to do something = 期待某人做某事", "We expect the guests at seven.", "I expect her to pass the exam."],
+  ["experience", "/ɪkˈspɪəriəns/", "名词", "经验；经历", "表示经验时不可数，表示一次经历时可数", "She has five years of teaching experience.", "Visiting Hue was a wonderful experience."],
+  ["experiment", "/ɪkˈsperɪmənt/", "名词", "实验；试验", "可数名词；do an experiment = 做实验", "We did an experiment with water and oil.", "The experiment proved his idea."],
+  ["expert", "/ˈekspɜːt/", "名词", "专家；行家", "an expert in/on something = 某方面的专家", "She is an expert in child health.", "Ask an expert before you decide."],
+  ["explanation", "/ˌekspləˈneɪʃn/", "名词", "解释；说明", "可数名词；an explanation for something = 对某事的解释", "His explanation made sense.", "There is no explanation for the delay."],
+  ["express", "/ɪkˈspres/", "动词", "表达；表露", "express an opinion = 发表意见；express yourself = 表达自己", "She expressed her thanks in a letter.", "I cannot express how happy I am."],
 ];
