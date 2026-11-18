@@ -1,4 +1,4 @@
-// A2 第 1–26 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–26 课音标待核。
+// A2 第 1–28 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–28 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -548,4 +548,57 @@ export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["movement", "/ˈmuːvmənt/", "名词", "移动；运动；运动组织", "既可指身体或物体的动作，也可指争取目标的社会运动", "She noticed a movement behind the curtain.", "He joined a movement for clean water."],
   ["musical", "/ˈmjuːzɪkl/", "形容词", "音乐的；有音乐天赋的", "musical instrument = 乐器", "She comes from a musical family.", "The guitar is a musical instrument."],
   ["musician", "/mjuˈzɪʃn/", "名词", "音乐家；乐手", "指演奏或创作音乐的人", "The musician played for two hours.", "Street musicians perform near the lake."],
+];
+
+// 第 27 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["myself", "/maɪˈself/", "代词", "我自己；亲自", "第一人称单数反身代词", "I cooked the whole meal myself.", "I hurt myself playing football."],
+  ["narrow", "/ˈnærəʊ/", "形容词", "狭窄的", "反义词 wide", "The street is too narrow for cars.", "We walked along a narrow path."],
+  ["national", "/ˈnæʃnəl/", "形容词", "国家的；全国性的", "national holiday = 全国性节日", "Tet is a national holiday.", "The national team won the match."],
+  ["nature", "/ˈneɪtʃə/", "名词", "自然；本性", "不可数名词；可指自然界，也可指人的性格本质", "She loves walking in nature.", "It is in his nature to help people."],
+  ["nearly", "/ˈnɪəli/", "副词", "几乎；差不多", "与 almost 意思相近", "It is nearly midnight.", "I nearly dropped the plate."],
+  ["necessary", "/ˈnesəsəri/", "形容词", "必要的；必需的", "it is necessary to do something = 有必要做某事", "Sleep is necessary for health.", "It is not necessary to book a seat."],
+  ["neck", "/nek/", "名词", "脖子；颈部", "可数名词", "He wore a scarf around his neck.", "My neck hurts from the long drive."],
+  ["neither", "/ˈnaɪðə/", "限定词", "两者都不", "neither ... nor ... = 既不……也不……", "Neither answer is correct.", "Neither of us speaks French."],
+  ["nervous", "/ˈnɜːvəs/", "形容词", "紧张的；焦虑的", "be nervous about something = 对某事感到紧张", "She feels nervous before exams.", "He was nervous about the interview."],
+  ["network", "/ˈnetwɜːk/", "名词", "网络；关系网", "可数名词", "The phone network is down.", "She built a network of contacts."],
+  ["noise", "/nɔɪz/", "名词", "噪声；响声", "make a noise = 发出声音", "The noise from the street kept me awake.", "Do not make a noise; the baby is asleep."],
+  ["noisy", "/ˈnɔɪzi/", "形容词", "吵闹的；嘈杂的", "反义词 quiet", "The classroom is noisy today.", "We stayed in a noisy hotel."],
+  ["none", "/nʌn/", "代词", "一个也没有；全无", "none of them = 他们当中一个也没有", "None of the shops were open.", "I wanted tea, but there was none left."],
+  ["normal", "/ˈnɔːml/", "形容词", "正常的；平常的", "反义词 abnormal；back to normal = 恢复正常", "It is normal to feel tired after a flight.", "Her temperature is back to normal."],
+  ["normally", "/ˈnɔːməli/", "副词", "通常；一般情况下", "描述平时的习惯或通常情况", "I normally get up at six.", "The shop normally closes at nine."],
+  ["notice", "/ˈnəʊtɪs/", "动词", "注意到；察觉", "表示察觉时通常不用进行时", "Did you notice her new haircut?", "I did not notice him leave."],
+  ["novel", "/ˈnɒvl/", "名词", "长篇小说", "可数名词", "She wrote her first novel at twenty.", "This novel is based on real events."],
+  ["nowhere", "/ˈnəʊweə/", "副词", "无处；哪里都不", "nowhere to go = 无处可去", "There is nowhere to sit.", "The keys were nowhere to be found."],
+  ["nut", "/nʌt/", "名词", "坚果", "可数名词，如杏仁、腰果等", "She put nuts on top of the cake.", "Some people are allergic to nuts."],
+  ["ocean", "/ˈəʊʃn/", "名词", "海洋；大洋", "可数名词；通常比 sea 所指的海域更大", "The Pacific is the largest ocean.", "Plastic pollutes the ocean."],
+  ["offer", "/ˈɒfə/", "动词", "提供；提议", "offer somebody something = 向某人提供某物", "They offered me a job.", "He offered to carry my bag."],
+  ["officer", "/ˈɒfɪsə/", "名词", "军官；官员", "指担任职务的人；police officer = 警官", "A police officer stopped the car.", "She is an officer in the navy."],
+];
+
+// 第 28 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["oil", "/ɔɪl/", "名词", "油；石油", "不可数名词；可指食用油或石油", "Cook the fish in a little oil.", "The price of oil rose sharply."],
+  ["onto", "/ˈɒntu/", "介词", "到……上面", "表示朝向某物表面的移动", "The cat jumped onto the roof.", "He put the box onto the table."],
+  ["opportunity", "/ˌɒpəˈtjuːnəti/", "名词", "机会；时机", "复数 opportunities；比 chance 稍正式", "This job is a great opportunity.", "She had the opportunity to study abroad."],
+  ["option", "/ˈɒpʃn/", "名词", "选择；可选方案", "可数名词；have the option of doing something = 可以选择做某事", "You have two options.", "Working from home is not an option here."],
+  ["ordinary", "/ˈɔːdnri/", "形容词", "普通的；平常的", "反义词 special", "It was an ordinary working day.", "They live in an ordinary flat."],
+  ["organization", "/ˌɔːɡənaɪˈzeɪʃn/", "名词", "组织；机构", "可数名词；英式英语也拼作 organisation", "She works for a health organization.", "The organization helps homeless people."],
+  ["organize", "/ˈɔːɡənaɪz/", "动词", "组织；安排", "英式英语也拼作 organise", "They organized a charity concert.", "She organizes her notes by subject."],
+  ["original", "/əˈrɪdʒənl/", "形容词", "原来的；原作的", "the original plan = 原计划", "Keep the original document safe.", "This is the original painting, not a copy."],
+  ["ourselves", "/aʊəˈselvz/", "代词", "我们自己；亲自", "第一人称复数反身代词", "We painted the room ourselves.", "We enjoyed ourselves at the festival."],
+  ["oven", "/ˈʌvn/", "名词", "烤箱；烤炉", "可数名词", "Put the cake in the oven for thirty minutes.", "The oven is still hot."],
+  ["owner", "/ˈəʊnə/", "名词", "所有者；主人", "指拥有某物的人", "The owner of the shop lives upstairs.", "Dog owners must clean up."],
+  ["pack", "/pæk/", "动词", "打包；收拾行李", "pack a bag = 收拾包；反义词 unpack", "I packed my bag last night.", "She packed the books into boxes."],
+  ["pain", "/peɪn/", "名词", "疼痛；痛苦", "a pain in your back = 背部疼痛", "He felt a sharp pain in his chest.", "The medicine stops the pain."],
+  ["painter", "/ˈpeɪntə/", "名词", "画家；油漆工", "可指绘画艺术家或给建筑物刷漆的人", "The painter sold three pictures.", "We hired a painter for the kitchen."],
+  ["palace", "/ˈpæləs/", "名词", "宫殿", "可数名词", "The king lived in a huge palace.", "We visited the old palace in Hue."],
+  ["pants", "/pænts/", "名词", "裤子（美式）；内裤（英式）", "复数形式；通常与复数动词连用", "These pants are too long.", "He bought a pair of pants."],
+  ["parking", "/ˈpɑːkɪŋ/", "名词", "停车；停车位", "不可数名词", "Parking is free after six.", "There is no parking on this street."],
+  ["particular", "/pəˈtɪkjələ/", "形容词", "特定的；特别的", "in particular = 尤其；特别是", "Is there a particular book you want?", "He has no particular reason for leaving."],
+  ["pass", "/pɑːs/", "动词", "通过（考试）；递给；经过", "pass an exam = 考试及格；反义词 fail", "She passed the exam easily.", "Please pass me the salt."],
+  ["passenger", "/ˈpæsɪndʒə/", "名词", "乘客；旅客", "指乘坐交通工具的人", "The bus carries fifty passengers.", "Passengers must show their tickets."],
+  ["patient", "/ˈpeɪʃnt/", "名词", "病人；患者", "指正在接受治疗的人", "The doctor sees twenty patients a day.", "The patient is getting better."],
+  ["pattern", "/ˈpætn/", "名词", "图案；规律", "可数名词；可指花纹，也可指重复出现的规律", "The dress has a flower pattern.", "Scientists found a pattern in the data."],
+  ["peace", "/piːs/", "名词", "和平；宁静", "不可数名词；peace and quiet = 安宁清静", "The country has lived in peace for years.", "I want some peace and quiet."],
 ];
