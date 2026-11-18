@@ -18,6 +18,7 @@ import { CURRENT_SITE_A1_THEORY } from "./currentSiteA1";
 import { A2_MOVEMENT_PREPOSITIONS, A2_PAST_SIMPLE, A2_REFLEXIVE, A2_WAS_WERE } from "./currentSiteA2";
 import { A2_FUTURE } from "./currentSiteA2Future";
 import { A2_PERFECT } from "./currentSiteA2Perfect";
+import { A2_OBLIGATION } from "./currentSiteA2Obligation";
 import { A1_TAIL_LESSONS } from "./a1Tail";
 import { A2_FIRST_LESSON, A2_SECOND_LESSON, A2_THIRD_LESSON, A2_FOURTH_LESSON, A2_FIFTH_LESSON, A2_SIXTH_LESSON, A2_SEVENTH_LESSON, A2_EIGHTH_LESSON } from "./originalA2";
 import { EDUCATION_EXAMPLE_TRANSLATIONS, EDUCATION_FIRST_LESSON, EDUCATION_SECOND_LESSON, EDUCATION_THIRD_LESSON, EDUCATION_FOURTH_LESSON, EDUCATION_FIFTH_LESSON, type OriginalTopicWord } from "./originalTopics";
@@ -2796,6 +2797,9 @@ function applyExtractedA1(lesson: GrammarLesson): GrammarLesson {
   }
   if (lesson.id === "g-a2-6") {
     return { ...lesson, ...A2_PERFECT };
+  }
+  if (lesson.id === "g-a2-7") {
+    return { ...lesson, ...A2_OBLIGATION };
   }
   if (lesson.id === "g-a1-1") {
     // 第 1 课 To be & subject pronouns：测验整课换成原站原题（简单 20 + 中等 30 + 困难前 8），
