@@ -246,7 +246,7 @@ export const A2_WAS_WERE: Partial<GrammarLesson> = {
 };
 
 // 原站 A2 第 4 课完整理论已核对。简单档显示 20 题；下列 18 题有原站测验记录，余下 2 题待核对。
-// 前 17 题来自同一次测验，最后一题来自重做测验；重做时题目顺序会变化。
+// 前 17 题来自同一次测验并取得原站正确答案；最后一题来自重做测验，答案按题意判断，原站反馈待确认。
 const movementHint = "要根据移动路径及起点、终点选介词，不能只看静止位置。";
 export const A2_MOVEMENT_QUESTIONS: QuizQuestion[] = [
   easy("The train went ___ a long tunnel.", ["along", "through", "across", "over"], 1, `句意是“火车穿过一条长隧道”。隧道是封闭空间，要用 through。${movementHint}`),
