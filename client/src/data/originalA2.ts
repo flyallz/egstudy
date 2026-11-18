@@ -1,4 +1,4 @@
-// A2 第 1–23 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–23 课音标待核。
+// A2 第 1–25 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–25 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -467,4 +467,58 @@ export const A2_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
   ["kid", "/kɪd/", "名词", "孩子；小孩", "口语词，比 child 更随意", "Their kids go to the same school.", "The kids are playing outside."],
   ["kill", "/kɪl/", "动词", "杀死；使死亡", "及物动词", "The frost killed all the young plants.", "Smoking kills thousands every year."],
   ["king", "/kɪŋ/", "名词", "国王；君主", "指男性君主；王后是 queen", "The king lived in that castle.", "He played the king in the school play."],
+];
+
+// 第 24 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
+  ["knee", "/niː/", "名词", "膝盖", "可数名词；字母 k 不发音", "She fell and hurt her knee.", "He knelt on one knee."],
+  ["knife", "/naɪf/", "名词", "刀；小刀", "复数为 knives，字母 k 不发音", "Cut the bread with a sharp knife.", "Put the knives and forks on the table."],
+  ["knock", "/nɒk/", "动词", "敲；敲门", "knock on/at the door = 敲门", "Please knock before you come in.", "Someone knocked at the door."],
+  ["knowledge", "/ˈnɒlɪdʒ/", "名词", "知识；了解", "不可数名词；knowledge of something = 对某事的了解", "She has a good knowledge of history.", "Knowledge grows with practice."],
+  ["lab", "/læb/", "名词", "实验室", "可数名词；laboratory 的简称", "The students worked in the lab.", "The lab is closed at weekends."],
+  ["lady", "/ˈleɪdi/", "名词", "女士；夫人", "较礼貌的称呼；复数为 ladies", "An old lady asked for directions.", "Good evening, ladies and gentlemen."],
+  ["lake", "/leɪk/", "名词", "湖；湖泊", "可数名词", "We swam in the lake.", "The lake freezes in winter."],
+  ["lamp", "/læmp/", "名词", "灯；台灯", "可数名词", "Turn on the lamp; it is dark.", "There is a reading lamp by the bed."],
+  ["laptop", "/ˈlæptɒp/", "名词", "笔记本电脑", "可数名词", "I take my laptop to class.", "Her laptop battery lasts six hours."],
+  ["laughter", "/ˈlɑːftə/", "名词", "笑声", "不可数名词", "The room was full of laughter.", "Her laughter made everyone smile."],
+  ["law", "/lɔː/", "名词", "法律；法学", "against the law = 违法", "Parking here is against the law.", "She studies law at university."],
+  ["lawyer", "/ˈlɔːjə/", "名词", "律师", "指从事法律工作的人", "My cousin is a lawyer.", "The lawyer read the contract carefully."],
+  ["lazy", "/ˈleɪzi/", "形容词", "懒惰的；懒散的", "反义词 hard-working", "He is too lazy to cook.", "It was a lazy Sunday afternoon."],
+  ["lead", "/liːd/", "动词", "带领；通向", "不规则动词：lead–led–led", "She leads the research team.", "This path leads to the beach."],
+  ["leader", "/ˈliːdə/", "名词", "领袖；负责人", "指领导一个团队或组织的人", "She is a natural leader.", "The leaders met to sign the deal."],
+  ["learning", "/ˈlɜːnɪŋ/", "名词", "学习；学问", "不可数名词", "Learning a language takes time.", "The school uses online learning."],
+  ["least", "/liːst/", "限定词", "最少的；最小的", "at least = 至少", "At least ten people came.", "This is the least expensive option."],
+  ["lecture", "/ˈlektʃə/", "名词", "讲座；授课", "可数名词；give/attend a lecture = 做／听讲座", "The lecture starts at nine.", "She gave a lecture on climate."],
+  ["lemon", "/ˈlemən/", "名词", "柠檬；柠檬味", "可数名词；此处指黄色柠檬", "Add a slice of lemon to your tea.", "The cake tastes of lemon."],
+  ["lend", "/lend/", "动词", "借给；贷给", "不规则动词：lend–lent–lent；与 borrow 借入相对", "Can you lend me your pen?", "The bank lent them money for the house."],
+  ["less", "/les/", "限定词", "较少的；更少的", "修饰不可数名词；可数复数通常用 fewer", "Drink less coffee in the evening.", "We have less time than I thought."],
+  ["level", "/ˈlevl/", "名词", "水平；程度；高度", "可数名词", "Her English is at an upper level.", "The water level rose after the rain."],
+  ["lifestyle", "/ˈlaɪfstaɪl/", "名词", "生活方式", "可数名词；a healthy lifestyle = 健康的生活方式", "They live a quiet lifestyle in the country.", "Exercise is part of a healthy lifestyle."],
+];
+
+// 第 25 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
+  ["lift", "/lɪft/", "动词", "举起；抬起", "lift something up = 把某物抬起来", "He lifted the box onto the shelf.", "She could not lift the heavy bag."],
+  ["likely", "/ˈlaɪkli/", "形容词", "可能的；有希望的", "be likely to do something = 可能做某事", "It is likely to rain tonight.", "She is likely to win."],
+  ["link", "/lɪŋk/", "名词", "联系；链接", "可数名词", "There is a link between diet and health.", "Click the link to open the page."],
+  ["listener", "/ˈlɪsənə/", "名词", "听众；倾听者", "指听的人；a good listener = 善于倾听的人", "She is a good listener.", "The radio show has many listeners."],
+  ["lock", "/lɒk/", "动词", "锁；锁上", "反义词 unlock", "Lock the door when you leave.", "She locked her bike to the fence."],
+  ["lorry", "/ˈlɒri/", "名词", "卡车；货车", "英式英语；复数 lorries，美式英语常说 truck", "A lorry blocked the narrow road.", "The lorry carries vegetables to the city."],
+  ["lost", "/lɒst/", "形容词", "迷路的；丢失的", "get lost = 迷路", "We got lost in the old town.", "My lost keys turned up in the car."],
+  ["loud", "/laʊd/", "形容词", "响亮的；吵闹的", "反义词 quiet", "The music is too loud.", "He has a loud voice."],
+  ["loudly", "/ˈlaʊdli/", "副词", "大声地；吵闹地", "loud 的副词形式", "They were talking loudly on the bus.", "The dog barked loudly all night."],
+  ["lovely", "/ˈlʌvli/", "形容词", "可爱的；美好的", "英式英语中常用于称赞", "What a lovely garden!", "We had a lovely evening."],
+  ["low", "/ləʊ/", "形容词", "低的；低廉的", "反义词 high", "The wall is quite low.", "Prices are low this month."],
+  ["luck", "/lʌk/", "名词", "运气；幸运", "不可数名词；good luck = 祝好运", "Good luck with your exam!", "We had no luck finding a taxi."],
+  ["lucky", "/ˈlʌki/", "形容词", "幸运的", "be lucky to do something = 有幸做某事", "You are lucky to live near the sea.", "It was a lucky guess."],
+  ["mail", "/meɪl/", "名词", "邮件；邮递", "不可数名词；英式英语也常用 post", "The mail arrives before ten.", "I sent the parcel by mail."],
+  ["major", "/ˈmeɪdʒə/", "形容词", "主要的；重大的", "反义词 minor", "Traffic is a major problem here.", "She played a major role in the project."],
+  ["male", "/meɪl/", "形容词", "男性的；雄性的", "反义词 female", "A male nurse looked after him.", "The male bird has brighter colours."],
+  ["manage", "/ˈmænɪdʒ/", "动词", "管理；设法做到", "manage to do something = 设法做成某事", "She manages a small hotel.", "I managed to finish before the deadline."],
+  ["manager", "/ˈmænɪdʒə/", "名词", "经理；管理者", "指负责管理的人", "The manager will see you now.", "He became manager after two years."],
+  ["manner", "/ˈmænə/", "名词", "方式；态度", "复数 manners 可指礼貌；table manners = 餐桌礼仪", "He spoke in a friendly manner.", "Children learn table manners at home."],
+  ["mark", "/mɑːk/", "动词", "批改；标记", "mark an exam = 批改试卷；mark a place = 标出位置", "The teacher marked our essays.", "Mark the correct answer with a tick."],
+  ["marry", "/ˈmæri/", "动词", "结婚；娶；嫁", "marry somebody = 与某人结婚，不说 marry with", "She married her neighbour.", "They married in a small church."],
+  ["material", "/məˈtɪəriəl/", "名词", "材料；布料", "此处指某一种材料时可数", "Wood is a natural material.", "What material is this shirt made of?"],
+  ["mathematics", "/ˌmæθəˈmætɪks/", "名词", "数学", "不可数名词；简称 maths", "Mathematics is taught in every school.", "He has a degree in mathematics."],
 ];
