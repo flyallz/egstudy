@@ -1,4 +1,4 @@
-// A2 第 1–21 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–21 课音标待核。
+// A2 第 1–23 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–23 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -415,4 +415,56 @@ export const A2_TWENTY_FIRST_LESSON: OriginalA2Word[] = [
   ["hold", "/həʊld/", "动词", "拿着；握住；举办", "不规则动词：hold–held–held", "Hold my bag for a moment.", "The school holds a concert every year."],
   ["hole", "/həʊl/", "名词", "洞；孔；坑", "可数名词", "There is a hole in my sock.", "The dog dug a hole in the garden."],
   ["huge", "/hjuːdʒ/", "形容词", "巨大的；庞大的", "程度比 big 强", "They have a huge garden.", "The film was a huge success."],
+];
+
+// 第 22 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_SECOND_LESSON: OriginalA2Word[] = [
+  ["human", "/ˈhjuːmən/", "形容词", "人的；人类的", "human body = 人体；human rights = 人权", "The human body needs water.", "Human rights must be respected."],
+  ["hurt", "/hɜːt/", "动词", "使受伤；疼痛", "不规则动词：hurt–hurt–hurt", "My back hurts today.", "He hurt his knee playing football."],
+  ["ideal", "/aɪˈdiːəl/", "形容词", "理想的；最佳的", "the ideal place for something = 做某事的理想地点", "This is an ideal place for a picnic.", "She is the ideal person for the job."],
+  ["identify", "/aɪˈdentɪfaɪ/", "动词", "认出；确定", "identify a person/problem = 认出某人／确定问题", "Can you identify the man in the photo?", "We must identify the cause first."],
+  ["ill", "/ɪl/", "形容词", "生病的；不适的", "英式英语常用，美式英语也常用 sick", "She has been ill for a week.", "He felt ill after the journey."],
+  ["illness", "/ˈɪlnəs/", "名词", "疾病；患病", "指一种疾病时可数；a serious illness = 重病", "A long illness kept him at home.", "Many illnesses start with a fever."],
+  ["image", "/ˈɪmɪdʒ/", "名词", "图像；形象", "可数名词", "The image on the screen is blurred.", "The company wants a modern image."],
+  ["immediately", "/ɪˈmiːdiətli/", "副词", "立刻；马上", "近义短语 at once", "Call the doctor immediately.", "She answered immediately."],
+  ["impossible", "/ɪmˈpɒsəbl/", "形容词", "不可能的；办不到的", "反义词 possible", "It is impossible to finish today.", "Nothing is impossible if you try."],
+  ["included", "/ɪnˈkluːdɪd/", "形容词", "包括在内的；已包含的", "可放在名词后：breakfast included = 含早餐", "The price has breakfast included.", "Service is included in the bill."],
+  ["including", "/ɪnˈkluːdɪŋ/", "介词", "包括；连……在内", "放在名词前", "Ten people came, including the teacher.", "The tour costs 50 dollars including lunch."],
+  ["increase", "/ɪnˈkriːs/", "动词", "增加；增长", "反义词 decrease", "Prices increased last month.", "Walking increases your energy."],
+  ["incredible", "/ɪnˈkredəbl/", "形容词", "难以置信的；惊人的", "形容令人惊讶的事物", "The view from the top is incredible.", "She has an incredible memory."],
+  ["independent", "/ˌɪndɪˈpendənt/", "形容词", "独立的；自主的", "independent of something = 不依赖某事物", "She is very independent for her age.", "The country became independent in 1945."],
+  ["individual", "/ˌɪndɪˈvɪdʒuəl/", "名词", "个人；个体", "指单独的一个人", "Each individual must sign the form.", "The rights of the individual matter."],
+  ["industry", "/ˈɪndəstri/", "名词", "工业；行业", "复数为 industries", "The car industry employs thousands.", "Tourism is a growing industry here."],
+  ["informal", "/ɪnˈfɔːml/", "形容词", "非正式的；随意的", "反义词 formal", "It was an informal meeting.", "Use informal language with friends."],
+  ["injury", "/ˈɪndʒəri/", "名词", "伤；损伤", "复数为 injuries", "He missed the match because of an injury.", "The injuries were not serious."],
+  ["insect", "/ˈɪnsekt/", "名词", "昆虫", "可数名词", "Bees are useful insects.", "Insects bite more in summer."],
+  ["inside", "/ˌɪnˈsaɪd/", "介词", "在……里面", "反义词 outside", "Wait inside the building.", "There is a letter inside the box."],
+  ["instead", "/ɪnˈsted/", "副词", "反而；代替", "常放在句尾", "The shop was closed, so we went home instead.", "I did not take the bus; I walked instead."],
+  ["instead of", "/ɪnˈsted əv/", "介词", "代替；而不是", "后接名词或 V-ing", "Drink water instead of soda.", "She walked instead of taking a taxi."],
+];
+
+// 第 23 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
+  ["instruction", "/ɪnˈstrʌkʃn/", "名词", "指示；操作说明", "可数名词，常用复数 instructions", "Follow the instructions on the box.", "He gave clear instructions to the team."],
+  ["instructor", "/ɪnˈstrʌktə/", "名词", "教练；指导员", "指教授驾驶、游泳等技能的人", "My driving instructor is patient.", "The swimming instructor helped the children."],
+  ["instrument", "/ˈɪnstrəmənt/", "名词", "乐器；仪器", "可数名词；play an instrument = 演奏一种乐器", "Can you play any instrument?", "The doctor cleaned her instruments."],
+  ["intelligent", "/ɪnˈtelɪdʒənt/", "形容词", "聪明的；有智慧的", "比 clever 稍正式", "She is an intelligent student.", "Dolphins are intelligent animals."],
+  ["international", "/ˌɪntəˈnæʃnəl/", "形容词", "国际的", "an international flight = 国际航班", "He works for an international company.", "The city has an international airport."],
+  ["introduction", "/ˌɪntrəˈdʌkʃn/", "名词", "引言；介绍", "可数名词", "Read the introduction before chapter one.", "She wrote an introduction to the book."],
+  ["invent", "/ɪnˈvent/", "动词", "发明；创造", "invent 是创造新事物；discover 是发现已存在的事物", "Who invented the telephone?", "He invented a machine for drying rice."],
+  ["invention", "/ɪnˈvenʃn/", "名词", "发明；发明物", "可数名词", "The wheel was a great invention.", "Her invention saves farmers time."],
+  ["invitation", "/ˌɪnvɪˈteɪʃn/", "名词", "邀请；请柬", "可数名词；an invitation to something = 参加某活动的邀请", "I got an invitation to the wedding.", "Thank you for the invitation."],
+  ["invite", "/ɪnˈvaɪt/", "动词", "邀请", "invite somebody to something = 邀请某人参加某活动", "They invited us to dinner.", "She invited twenty friends to the party."],
+  ["involve", "/ɪnˈvɒlv/", "动词", "涉及；包含", "后接名词或 V-ing", "The job involves travelling.", "The accident involved two cars."],
+  ["item", "/ˈaɪtəm/", "名词", "项目；一件物品", "可数名词", "Each item has a price label.", "There are five items on the list."],
+  ["itself", "/ɪtˈself/", "代词", "它自己；它本身", "物或动物对应的反身代词", "The door closed by itself.", "The cat washed itself in the sun."],
+  ["jam", "/dʒæm/", "名词", "果酱；堵塞", "traffic jam = 交通堵塞", "She spread jam on her toast.", "We were stuck in a traffic jam."],
+  ["jazz", "/dʒæz/", "名词", "爵士乐", "不可数名词", "He plays jazz on the piano.", "There is a jazz club near the river."],
+  ["jewellery", "/ˈdʒuːəlri/", "名词", "珠宝；首饰", "不可数名词；美式拼写 jewelry", "She keeps her jewellery in a wooden box.", "The shop sells silver jewellery."],
+  ["joke", "/dʒəʊk/", "名词", "笑话；玩笑", "可数名词；tell a joke = 讲笑话", "He told a funny joke.", "It was only a joke."],
+  ["journalist", "/ˈdʒɜːnəlɪst/", "名词", "记者；新闻工作者", "指从事新闻报道的人", "A journalist interviewed the mayor.", "She works as a journalist for a daily paper."],
+  ["jump", "/dʒʌmp/", "动词", "跳；跃", "jump over something = 跳过某物", "The cat jumped onto the table.", "He jumped over the fence."],
+  ["kid", "/kɪd/", "名词", "孩子；小孩", "口语词，比 child 更随意", "Their kids go to the same school.", "The kids are playing outside."],
+  ["kill", "/kɪl/", "动词", "杀死；使死亡", "及物动词", "The frost killed all the young plants.", "Smoking kills thousands every year."],
+  ["king", "/kɪŋ/", "名词", "国王；君主", "指男性君主；王后是 queen", "The king lived in that castle.", "He played the king in the school play."],
 ];
