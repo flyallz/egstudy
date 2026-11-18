@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_ADJECTIVES_MEDIUM } from "./currentSiteA2AdjectivesMedium";
+import { A2_ADJECTIVES_HARD } from "./currentSiteA2AdjectivesHard";
 
 // 原站 A2 第 8 课：理论和简单档 20 题按公开 A2 课程数据逐项翻译与核对。
 const adjectiveHint = "先辨认谁引起情绪、谁感受到情绪，再选择 -ing 或 -ed，不能只看主语是不是人。";
@@ -77,8 +79,8 @@ export const A2_ED_ING: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["句子说的是情绪的原因还是感受者？", "感受者通常用 -ed。", "引起感受的人、事或情境用 -ing。", "-ed 形容词后的介词是否正确？"],
-  questions: A2_ED_ING_QUESTIONS,
+  questions: [...A2_ED_ING_QUESTIONS, ...A2_ADJECTIVES_MEDIUM, ...A2_ADJECTIVES_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
