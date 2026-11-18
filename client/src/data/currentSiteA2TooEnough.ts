@@ -1,5 +1,7 @@
 import type { GrammarLesson } from "./content";
 import { A2_TOO_ENOUGH_EASY } from "./currentSiteA2TooEnoughEasy";
+import { A2_TOO_ENOUGH_MEDIUM } from "./currentSiteA2TooEnoughMedium";
+import { A2_TOO_ENOUGH_HARD } from "./currentSiteA2TooEnoughHard";
 
 export const A2_TOO_ENOUGH: Partial<GrammarLesson> = {
   titleCn: "too 与 enough 的用法",
@@ -49,8 +51,8 @@ export const A2_TOO_ENOUGH: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["程度是太过还是刚好足够？", "enough 在形容词后、名词前吗？", "结果动作是否使用 to do？", "是否避免重复不定式的宾语？"],
-  questions: A2_TOO_ENOUGH_EASY,
+  questions: [...A2_TOO_ENOUGH_EASY, ...A2_TOO_ENOUGH_MEDIUM, ...A2_TOO_ENOUGH_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
