@@ -1,4 +1,4 @@
-// A2 第 1–12 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–12 课音标待核。
+// A2 第 1–13 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–13 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -213,4 +213,25 @@ export const A2_TWELFTH_LESSON: OriginalA2Word[] = [
   ["cross", "/krɒs/", "动词", "穿过；横越", "cross the road / river = 过马路／河", "Look both ways before you cross the road.", "We crossed the river by boat."],
   ["crowd", "/kraʊd/", "名词", "人群；一群人", "可数名词；a crowd = 一群人", "A crowd gathered outside the stadium.", "He disappeared into the crowd."],
   ["crowded", "/ˈkraʊdɪd/", "形容词", "拥挤的；人多的", "描述场所或交通工具里人很多", "The bus was crowded this morning.", "I avoid crowded places."],
+];
+
+// 第 13 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTEENTH_LESSON: OriginalA2Word[] = [
+  ["cry", "/kraɪ/", "动词", "哭；大声喊叫", "cry about something = 因某事哭泣", "The baby cried all night.", "She cried when she heard the news."],
+  ["cupboard", "/ˈkʌbəd/", "名词", "橱柜；储物柜", "可数名词；字母 p 不发音", "The plates are in the cupboard.", "She opened the kitchen cupboard."],
+  ["curly", "/ˈkɜːli/", "形容词", "卷曲的；鬈曲的", "常形容头发；反义词 straight", "She has long curly hair.", "My hair goes curly in the rain."],
+  ["cycle", "/ˈsaɪkl/", "动词", "骑自行车", "英式英语常用；美式英语也说 ride a bike", "I cycle to work every day.", "They cycled around the lake."],
+  ["daily", "/ˈdeɪli/", "形容词", "每日的；每天的", "a daily newspaper = 日报", "She takes a daily walk.", "This is a daily newspaper."],
+  ["danger", "/ˈdeɪndʒə/", "名词", "危险；危险因素", "in danger = 处于危险中；a danger of fire = 火灾隐患", "The driver was in danger.", "There is a danger of fire here."],
+  ["data", "/ˈdeɪtə/", "名词", "数据；资料", "现代英语中常作不可数名词；原站例句用 The data shows", "The data shows a clear trend.", "We collect data from every school."],
+  ["dead", "/ded/", "形容词", "死的；没电的", "反义词 alive；也可形容电池耗尽", "The plant is dead.", "My phone battery is dead."],
+  ["deal", "/diːl/", "动词", "处理；应对", "deal with something = 处理某事", "I will deal with this problem today.", "She deals with customers every day."],
+  ["death", "/deθ/", "名词", "死亡；去世", "反义词 birth；指具体死亡事件时可数", "His death shocked the whole village.", "The number of deaths fell last year."],
+  ["decision", "/dɪˈsɪʒn/", "名词", "决定；抉择", "可数名词；make a decision = 作决定", "It was a hard decision.", "We must make a decision today."],
+  ["deep", "/diːp/", "形容词", "深的；深沉的", "反义词 shallow；take a deep breath = 深吸一口气", "The river is very deep here.", "She took a deep breath."],
+  ["definitely", "/ˈdefɪnətli/", "副词", "肯定；确实；一定", "表示很强的肯定语气", "I will definitely come to your party.", "That is definitely the right answer."],
+  ["degree", "/dɪˈɡriː/", "名词", "学位；度", "可数名词；a degree in something = 某学科的学位", "She has a degree in history.", "Water boils at a hundred degrees."],
+  ["dentist", "/ˈdentɪst/", "名词", "牙医", "指人；go to the dentist = 去看牙医", "I go to the dentist twice a year.", "The dentist checked my teeth."],
+  ["department", "/dɪˈpɑːtmənt/", "名词", "部门；院系", "可数名词；department store = 百货商店", "She works in the sales department.", "The history department is on the first floor."],
+  ["depend", "/dɪˈpend/", "动词", "取决于；依靠", "depend on something/somebody = 取决于某事／依靠某人", "The price depends on the size.", "You can depend on her."],
 ];
