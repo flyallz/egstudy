@@ -1,5 +1,7 @@
 import type { GrammarLesson } from "./content";
 import { A2_SO_SUCH_EASY } from "./currentSiteA2SoSuchEasy";
+import { A2_SO_SUCH_MEDIUM } from "./currentSiteA2SoSuchMedium";
+import { A2_SO_SUCH_HARD } from "./currentSiteA2SoSuchHard";
 
 export const A2_SO_SUCH: Partial<GrammarLesson> = {
   titleCn: "so 与 such 的用法",
@@ -49,8 +51,8 @@ export const A2_SO_SUCH: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["后面是形容词／副词，还是名词短语？", "单数可数名词前保留 a/an 了吗？", "many、much、few、little 前是否用了 so？", "that 后是否是完整从句？"],
-  questions: A2_SO_SUCH_EASY,
+  questions: [...A2_SO_SUCH_EASY, ...A2_SO_SUCH_MEDIUM, ...A2_SO_SUCH_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
