@@ -1,4 +1,4 @@
-// A2 第 1–28 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–28 课音标待核。
+// A2 第 1–30 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–30 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -601,4 +601,58 @@ export const A2_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["patient", "/ˈpeɪʃnt/", "名词", "病人；患者", "指正在接受治疗的人", "The doctor sees twenty patients a day.", "The patient is getting better."],
   ["pattern", "/ˈpætn/", "名词", "图案；规律", "可数名词；可指花纹，也可指重复出现的规律", "The dress has a flower pattern.", "Scientists found a pattern in the data."],
   ["peace", "/piːs/", "名词", "和平；宁静", "不可数名词；peace and quiet = 安宁清静", "The country has lived in peace for years.", "I want some peace and quiet."],
+];
+
+// 第 29 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
+  ["penny", "/ˈpeni/", "名词", "便士；一分钱", "复数可以是 pennies 或 pence", "A penny is the smallest British coin.", "He did not have a penny left."],
+  ["per", "/pə/", "介词", "每；每一", "per hour = 每小时；per person = 每人", "The room costs thirty dollars per night.", "He drives at sixty kilometres per hour."],
+  ["per cent", "/pə ˈsent/", "名词", "百分之……；百分比", "美式英语通常拼作 percent", "Ninety per cent of students passed.", "Prices rose by five per cent."],
+  ["perform", "/pəˈfɔːm/", "动词", "表演；执行", "perform a song = 表演歌曲；perform an operation = 做手术", "The band performs every Friday.", "The surgeon performed the operation."],
+  ["perhaps", "/pəˈhæps/", "副词", "也许；可能", "常放在句首表示不确定", "Perhaps she forgot the time.", "Perhaps we should ask for help."],
+  ["permission", "/pəˈmɪʃn/", "名词", "许可；准许", "不可数名词；ask for permission = 请求许可", "You need permission to park here.", "She asked her teacher for permission."],
+  ["personality", "/ˌpɜːsəˈnæləti/", "名词", "性格；个性", "复数 personalities", "He has a warm personality.", "The twins have very different personalities."],
+  ["pet", "/pet/", "名词", "宠物", "可数名词；keep a pet = 养宠物", "Their pet is a black cat.", "No pets are allowed in this building."],
+  ["petrol", "/ˈpetrəl/", "名词", "汽油", "不可数名词；英式英语用 petrol，美式英语常用 gas", "The car needs petrol.", "Petrol prices went up again."],
+  ["physical", "/ˈfɪzɪkl/", "形容词", "身体的；体力的", "physical exercise = 体育锻炼；与 mental 相对", "Football is good physical exercise.", "The job needs physical strength."],
+  ["physics", "/ˈfɪzɪks/", "名词", "物理学", "学科名称，作不可数名词", "Physics explains how light travels.", "He teaches physics at a high school."],
+  ["pick", "/pɪk/", "动词", "采摘；挑选；拾起", "pick up 可表示捡起或接某人", "She picked flowers in the garden.", "Pick a card from the pack."],
+  ["pilot", "/ˈpaɪlət/", "名词", "飞行员", "指驾驶飞机的人", "The pilot landed the plane safely.", "She trained as a pilot in Australia."],
+  ["planet", "/ˈplænɪt/", "名词", "行星", "可数名词", "Mars is the fourth planet from the Sun.", "We must protect our planet."],
+  ["plastic", "/ˈplæstɪk/", "名词", "塑料", "不可数名词；也可作形容词，如 a plastic bag", "The bottle is made of plastic.", "Plastic takes centuries to break down."],
+  ["plate", "/pleɪt/", "名词", "盘子；碟子", "可数名词", "Put the rice on a clean plate.", "She washed the plates after dinner."],
+  ["platform", "/ˈplætfɔːm/", "名词", "站台；平台；讲台", "可数名词", "The train leaves from platform four.", "The speaker stood on a small platform."],
+  ["pleased", "/pliːzd/", "形容词", "高兴的；满意的", "be pleased with something = 对某事满意", "She was pleased with her results.", "I am pleased to meet you."],
+  ["pocket", "/ˈpɒkɪt/", "名词", "衣袋；口袋", "可数名词", "He put the ticket in his pocket.", "This coat has deep pockets."],
+  ["polite", "/pəˈlaɪt/", "形容词", "有礼貌的", "反义词 rude", "It is polite to say thank you.", "She gave a polite answer."],
+  ["pollution", "/pəˈluːʃn/", "名词", "污染", "不可数名词；air pollution = 空气污染", "Air pollution is worse in the city.", "The factory caused water pollution."],
+  ["pop", "/pɒp/", "名词", "流行音乐", "表示音乐类型时是不可数名词", "She listens to pop all day.", "The band plays pop and rock."],
+  ["population", "/ˌpɒpjuˈleɪʃn/", "名词", "人口；人口数量", "可数名词；the population of a city = 一座城市的人口", "The population of the city is two million.", "The population is growing slowly."],
+];
+
+// 第 30 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTIETH_LESSON: OriginalA2Word[] = [
+  ["position", "/pəˈzɪʃn/", "名词", "位置；职位", "可数名词；可指空间位置或工作岗位", "Mark your position on the map.", "He applied for a position in the bank."],
+  ["possession", "/pəˈzeʃn/", "名词", "所有物；财产", "指个人物品时常用复数 possessions", "She packed her few possessions.", "The house is his most valuable possession."],
+  ["possibility", "/ˌpɒsəˈbɪləti/", "名词", "可能性", "复数 possibilities；a possibility of something = 某事发生的可能性", "There is a possibility of snow.", "We discussed every possibility."],
+  ["poster", "/ˈpəʊstə/", "名词", "海报；招贴画", "可数名词", "A film poster hangs on her wall.", "They put up posters about the concert."],
+  ["power", "/ˈpaʊə/", "名词", "电力；力量；权力", "此处作不可数名词", "The storm cut off the power.", "She has the power to change the rule."],
+  ["predict", "/prɪˈdɪkt/", "动词", "预测；预言", "predict that something will happen = 预测某事将发生", "Nobody can predict the weather exactly.", "Experts predict higher prices."],
+  ["president", "/ˈprezɪdənt/", "名词", "总统；主席；会长", "可指国家或团体的负责人", "The president gave a speech.", "She is president of the student club."],
+  ["prevent", "/prɪˈvent/", "动词", "阻止；预防", "prevent somebody from doing something = 阻止某人做某事", "Wash your hands to prevent illness.", "The rain prevented us from going out."],
+  ["print", "/prɪnt/", "动词", "打印；印刷", "print a document = 打印文件", "Please print two copies.", "The machine prints in colour."],
+  ["printer", "/ˈprɪntə/", "名词", "打印机", "可数名词", "The printer is out of paper.", "Connect your laptop to the printer."],
+  ["prison", "/ˈprɪzn/", "名词", "监狱", "in prison = 在狱中服刑", "He spent two years in prison.", "The old prison is now a museum."],
+  ["prize", "/praɪz/", "名词", "奖品；奖项", "可数名词；win a prize = 获奖", "She won first prize in the contest.", "The prize is a trip to Japan."],
+  ["process", "/ˈprəʊses/", "名词", "过程；流程", "可数名词", "Learning is a slow process.", "The process takes three days."],
+  ["produce", "/prəˈdjuːs/", "动词", "生产；产生", "produce goods = 生产商品；produce results = 产生结果", "This factory produces shoes.", "The country produces a lot of rice."],
+  ["professional", "/prəˈfeʃənl/", "形容词", "专业的；职业的", "反义词 amateur", "She is a professional dancer.", "He gave professional advice."],
+  ["professor", "/prəˈfesə/", "名词", "教授", "指在大学任教的高级教师", "Professor Lan teaches history.", "The professor published a new book."],
+  ["profile", "/ˈprəʊfaɪl/", "名词", "个人资料；侧面轮廓", "可数名词；网站中的 profile 通常指个人资料", "Update your profile with a new photo.", "Her profile shows her work experience."],
+  ["program", "/ˈprəʊɡræm/", "名词", "计算机程序", "可数名词；英式英语中电视节目常拼作 programme", "Install the program on your computer.", "The program crashed twice."],
+  ["progress", "/ˈprəʊɡres/", "名词", "进步；进展", "不可数名词；make progress = 取得进步", "She is making good progress in English.", "The work is in progress."],
+  ["promise", "/ˈprɒmɪs/", "动词", "承诺；答应", "promise to do something = 答应做某事", "He promised to call me tonight.", "She promised that she would help."],
+  ["pronounce", "/prəˈnaʊns/", "动词", "发音；读出", "pronounce a word = 读出一个词", "How do you pronounce this word?", "He pronounces my name correctly."],
+  ["protect", "/prəˈtekt/", "动词", "保护", "protect somebody from something = 保护某人免受某物伤害", "Wear a hat to protect your head.", "Laws protect workers from danger."],
+  ["provide", "/prəˈvaɪd/", "动词", "提供；供应", "provide somebody with something = 向某人提供某物", "The school provides free lunches.", "They provided us with maps."],
 ];
