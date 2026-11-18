@@ -1,4 +1,4 @@
-// A2 第 1–25 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–25 课音标待核。
+// A2 第 1–26 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–26 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -521,4 +521,31 @@ export const A2_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
   ["marry", "/ˈmæri/", "动词", "结婚；娶；嫁", "marry somebody = 与某人结婚，不说 marry with", "She married her neighbour.", "They married in a small church."],
   ["material", "/məˈtɪəriəl/", "名词", "材料；布料", "此处指某一种材料时可数", "Wood is a natural material.", "What material is this shirt made of?"],
   ["mathematics", "/ˌmæθəˈmætɪks/", "名词", "数学", "不可数名词；简称 maths", "Mathematics is taught in every school.", "He has a degree in mathematics."],
+];
+
+// 第 26 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
+  ["maths", "/mæθs/", "名词", "数学", "不可数名词；英式英语用 maths，美式英语用 math", "I have a maths test tomorrow.", "She is good at maths."],
+  ["matter", "/ˈmætə/", "名词", "事情；问题", "what's the matter? = 怎么了？", "This is a serious matter.", "What is the matter with you?"],
+  ["media", "/ˈmiːdiə/", "名词", "媒体；传媒", "the media 泛指报纸、电视等新闻媒体", "The media reported the story quickly.", "Social media changed the news."],
+  ["medical", "/ˈmedɪkl/", "形容词", "医疗的；医学的", "medical care = 医疗护理；medical student = 医学生", "She needs medical care.", "He is a medical student."],
+  ["medicine", "/ˈmedsn/", "名词", "药；医学", "take medicine = 吃药；study medicine = 学医", "Take this medicine after meals.", "She studies medicine in Hue."],
+  ["memory", "/ˈmeməri/", "名词", "记忆力；回忆", "复数是 memories，可指多段回忆", "He has a good memory for names.", "I have happy memories of that summer."],
+  ["mention", "/ˈmenʃn/", "动词", "提到；说起", "mention something to somebody = 向某人提及某事", "She mentioned your name at the meeting.", "He never mentioned the problem."],
+  ["metal", "/ˈmetl/", "名词", "金属", "可作材料名词，指金属这种物质", "The gate is made of metal.", "Metal expands when it is heated."],
+  ["method", "/ˈmeθəd/", "名词", "方法；办法", "可数名词；a method of doing something = 做某事的方法", "This is a quick method of cooking rice.", "Teachers try new methods every year."],
+  ["middle", "/ˈmɪdl/", "名词", "中间；中部", "in the middle of something = 在某物中间", "Put the vase in the middle of the table.", "He woke up in the middle of the night."],
+  ["might", "/maɪt/", "情态动词", "可能；也许", "表示不确定的可能性；后接动词原形", "It might rain later.", "She might come to the party."],
+  ["mind", "/maɪnd/", "名词", "头脑；心思", "change your mind = 改变主意", "Keep an open mind about the plan.", "She changed her mind at the last minute."],
+  ["mine", "/maɪn/", "代词", "我的；属于我的东西", "名词性物主代词，后面不再接名词", "That umbrella is mine.", "Your bag is bigger than mine."],
+  ["mirror", "/ˈmɪrə/", "名词", "镜子", "可数名词；look in the mirror = 照镜子", "She looked at herself in the mirror.", "There is a mirror in the bathroom."],
+  ["missing", "/ˈmɪsɪŋ/", "形容词", "失踪的；缺少的", "a missing page = 缺失的一页；a missing person = 失踪的人", "A page is missing from this book.", "The police are looking for a missing child."],
+  ["mobile", "/ˈməʊbaɪl/", "形容词", "移动的；流动的", "mobile phone = 手机", "Give me your mobile number.", "The clinic has a mobile unit."],
+  ["monkey", "/ˈmʌŋki/", "名词", "猴子", "可数名词；复数 monkeys", "Monkeys live in these forests.", "A monkey took the food from his hand."],
+  ["moon", "/muːn/", "名词", "月亮", "指地球的月亮时通常说 the moon", "The moon is bright tonight.", "Men first walked on the moon in 1969."],
+  ["mostly", "/ˈməʊstli/", "副词", "主要地；大部分情况下", "表示大多数人或事物的情况", "The students are mostly from this district.", "We mostly eat at home."],
+  ["motorcycle", "/ˈməʊtəsaɪkl/", "名词", "摩托车", "可数名词；英式英语也说 motorbike", "He rides a motorcycle to work.", "Motorcycles fill the streets of Hanoi."],
+  ["movement", "/ˈmuːvmənt/", "名词", "移动；运动；运动组织", "既可指身体或物体的动作，也可指争取目标的社会运动", "She noticed a movement behind the curtain.", "He joined a movement for clean water."],
+  ["musical", "/ˈmjuːzɪkl/", "形容词", "音乐的；有音乐天赋的", "musical instrument = 乐器", "She comes from a musical family.", "The guitar is a musical instrument."],
+  ["musician", "/mjuˈzɪʃn/", "名词", "音乐家；乐手", "指演奏或创作音乐的人", "The musician played for two hours.", "Street musicians perform near the lake."],
 ];
