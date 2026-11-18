@@ -1,4 +1,4 @@
-// B1 第 1–8 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–10 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -137,4 +137,43 @@ export const B1_EIGHTH_LESSON: OriginalA2Word[] = [
   ["coloured", "/ˈkʌləd/", "形容词", "有颜色的；染色的", "brightly coloured = 色彩鲜艳的", "The children drew pictures with brightly coloured pens.", "She wore a dress covered in coloured beads."],
   ["combine", "/kəmˈbaɪn/", "动词", "结合；合并", "combine something with something = 将某物与另一物结合", "She combines work with raising two children.", "If you combine these two colours, you get green."],
   ["commercial", "/kəˈmɜːʃl/", "形容词", "商业的；营利的", "commercial success = 商业成功；名词 commercial 可指广告片", "The film was a huge commercial success.", "A loud commercial interrupted the match."],
+];
+
+export const B1_NINTH_LESSON: OriginalA2Word[] = [
+  ["commit", "/kəˈmɪt/", "动词", "犯（罪）；投入；承诺", "commit a crime = 犯罪；commit yourself to something = 致力于某事", "He was accused of committing a serious crime.", "She committed herself fully to the new project."],
+  ["communication", "/kəˌmjuːnɪˈkeɪʃn/", "名词", "交流；沟通；通信", "通常不可数；communication skills = 沟通能力", "Good communication is important in any team.", "Modern technology has made communication much faster."],
+  ["comparison", "/kəmˈpærɪsn/", "名词", "比较；对照", "in comparison with/to = 与……相比", "In comparison with last year, sales have risen sharply.", "There is no comparison between the two restaurants."],
+  ["competitor", "/kəmˈpetɪtə/", "名词", "竞争对手；参赛者", "可指市场或比赛中的竞争者", "Our main competitor just lowered its prices.", "All the competitors lined up at the starting line."],
+  ["competitive", "/kəmˈpetətɪv/", "形容词", "竞争的；好胜的；有竞争力的", "competitive prices = 有竞争力的价格", "He is very competitive and hates losing.", "The shop offers competitive prices on phones."],
+  ["complaint", "/kəmˈpleɪnt/", "名词", "抱怨；投诉", "make a complaint about something = 投诉某事；与 compliment 区分", "I'd like to make a complaint about the service.", "The hotel received several complaints about the noise."],
+  ["complex", "/ˈkɒmpleks/", "形容词", "复杂的", "反义词 simple；也可作名词指建筑群", "The rules of the game are quite complex.", "Scientists are studying this complex problem."],
+  ["concentrate", "/ˈkɒnsntreɪt/", "动词", "集中注意力；专注", "concentrate on something = 专心于某事", "I can't concentrate when the TV is on.", "She concentrated hard on her exam questions."],
+  ["conclude", "/kənˈkluːd/", "动词", "得出结论；结束", "conclude that ... = 得出……的结论", "The report concludes that the plan is too expensive.", "The teacher concluded the lesson with a short quiz."],
+  ["conclusion", "/kənˈkluːʒn/", "名词", "结论；结束", "reach a conclusion = 得出结论；in conclusion = 总之", "After hours of talking, they reached no conclusion.", "In conclusion, exercise is good for both body and mind."],
+  ["confident", "/ˈkɒnfɪdənt/", "形容词", "自信的；确信的", "be confident about something = 对某事有信心", "She felt confident before the interview.", "We are confident that the team will win."],
+  ["confirm", "/kənˈfɜːm/", "动词", "确认；证实", "confirm a booking = 确认预订", "Please confirm your booking by email.", "The doctor confirmed that he was fully recovered."],
+  ["confuse", "/kənˈfjuːz/", "动词", "使困惑；混淆", "confuse A with B = 把 A 和 B 搞混", "The complicated map confused all the tourists.", "People often confuse these two words."],
+  ["confused", "/kənˈfjuːzd/", "形容词", "困惑的；糊涂的", "be confused about something = 对某事感到困惑", "I was completely confused by his instructions.", "She looked confused when nobody answered."],
+  ["connection", "/kəˈnekʃn/", "名词", "联系；连接；转乘班次", "a connection between A and B = A 与 B 之间的联系", "There is a clear connection between smoking and illness.", "I missed my connection because the first train was late."],
+  ["consequence", "/ˈkɒnsɪkwəns/", "名词", "后果；结果", "as a consequence of something = 由于某事的结果", "He never thinks about the consequences of his actions.", "As a consequence of the storm, many flights were cancelled."],
+];
+
+export const B1_TENTH_LESSON: OriginalA2Word[] = [
+  ["consist", "/kənˈsɪst/", "动词", "由……组成", "consist of something = 由某物组成；通常不用进行时", "The team consists of five players.", "Breakfast consisted of bread, eggs and coffee."],
+  ["consume", "/kənˈsjuːm/", "动词", "消耗；消费；食用", "consume energy/food = 消耗能源／食用食物", "This old fridge consumes a lot of electricity.", "Children should not consume too much sugar."],
+  ["consumer", "/kənˈsjuːmə/", "名词", "消费者", "consumer rights = 消费者权益", "Consumers today want cheaper and greener products.", "The new law protects consumers from unfair prices."],
+  ["contact", "/ˈkɒntækt/", "名词", "接触；联系；熟人", "be in contact with = 与……保持联系；也可作动词", "Keep in contact with me while you're abroad.", "She has useful contacts in the music industry."],
+  ["container", "/kənˈteɪnə/", "名词", "容器；集装箱", "a container for something = 装某物的容器", "Put the leftover rice in a plastic container.", "The goods arrived in a huge metal container."],
+  ["content", "/ˈkɒntent/", "名词", "内容；容纳物", "online content = 网络内容；contents 可指容器里的东西", "The website offers free content for students.", "She emptied the contents of her bag onto the table."],
+  ["continuous", "/kənˈtɪnjuəs/", "形容词", "连续的；不间断的", "与表示反复发生的 continual 区分", "We heard a continuous noise from the building site.", "The machine ran in continuous operation all night."],
+  ["contrast", "/ˈkɒntrɑːst/", "名词", "对比；反差", "in contrast to/with = 与……相反；也可作动词", "There is a sharp contrast between the rich and the poor here.", "In contrast to his brother, he is very quiet."],
+  ["convenient", "/kənˈviːniənt/", "形容词", "方便的；合适的", "convenient for somebody = 对某人方便；反义词 inconvenient", "The shop is very convenient because it opens late.", "Is Monday a convenient day for our meeting?"],
+  ["convince", "/kənˈvɪns/", "动词", "说服；使相信", "convince somebody to do something = 说服某人做某事", "I couldn't convince him to change his mind.", "She convinced me that the plan would work."],
+  ["costume", "/ˈkɒstjuːm/", "名词", "戏服；化装服", "a Halloween costume = 万圣节化装服；与日常 clothes 区分", "The children wore animal costumes to the party.", "Each dancer had a bright, colourful costume."],
+  ["cottage", "/ˈkɒtɪdʒ/", "名词", "乡间小屋", "a country cottage = 乡间小屋", "They spent the weekend in a cottage by the sea.", "The old cottage had a thatched roof and a small garden."],
+  ["cotton", "/ˈkɒtn/", "名词", "棉花；棉布", "不可数名词；a cotton shirt = 棉衬衫", "This T-shirt is made of pure cotton.", "Cotton is grown in many warm countries."],
+  ["countryside", "/ˈkʌntrisaɪd/", "名词", "乡村；农村地区", "不可数名词；in the countryside = 在乡下", "We love walking in the countryside at weekends.", "Life in the countryside is slower and quieter."],
+  ["court", "/kɔːt/", "名词", "法院；球场", "go to court = 上法庭；tennis court = 网球场", "The case will go to court next month.", "They played two sets on the tennis court."],
+  ["cover", "/ˈkʌvə/", "名词", "封面；覆盖物；庇护", "take cover = 寻找掩护；也可作动词表示覆盖", "The book has a beautiful cover.", "When the rain started, we took cover under a tree."],
+  ["covered", "/ˈkʌvəd/", "形容词", "被覆盖的；布满的", "covered in/with something = 被某物覆盖", "By morning the fields were covered in snow.", "His hands were covered with paint."],
 ];
