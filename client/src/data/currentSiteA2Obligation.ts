@@ -1,4 +1,6 @@
 import type { GrammarLesson, QuizQuestion } from "./content";
+import { A2_OBLIGATION_MEDIUM } from "./currentSiteA2ObligationMedium";
+import { A2_OBLIGATION_HARD } from "./currentSiteA2ObligationHard";
 
 // 原站 A2 第 7 课：理论和简单档 20 题按公开 A2 课程数据逐项翻译与核对。
 const obligationHint = "建议、义务、禁止和不必做的事情意思不同，选择的结构必须符合语境。";
@@ -78,8 +80,8 @@ export const A2_OBLIGATION: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["义务来自个人判断还是外部规定？", "must、should 后是否接不带 to 的动词原形？", "have to 是否与主语和时态一致？", "否定要表达禁止还是不必？", "ought to 后保留 to。"],
-  questions: A2_OBLIGATION_QUESTIONS,
+  questions: [...A2_OBLIGATION_QUESTIONS, ...A2_OBLIGATION_MEDIUM, ...A2_OBLIGATION_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
