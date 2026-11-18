@@ -1,4 +1,4 @@
-// A2 第 1–11 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–11 课音标待核。
+// A2 第 1–12 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–12 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -192,4 +192,25 @@ export const A2_ELEVENTH_LESSON: OriginalA2Word[] = [
   ["consider", "/kənˈsɪdə/", "动词", "考虑；斟酌", "后接名词或动名词 V-ing", "We are considering moving house.", "Please consider my offer."],
   ["contain", "/kənˈteɪn/", "动词", "含有；装有", "通常不用于进行时", "This drink contains a lot of sugar.", "The box contains old photos."],
   ["context", "/ˈkɒntekst/", "名词", "语境；背景", "in context = 放在上下文中", "Guess the meaning from the context.", "The quote makes sense in context."],
+];
+
+// 第 12 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWELFTH_LESSON: OriginalA2Word[] = [
+  ["continent", "/ˈkɒntɪnənt/", "名词", "洲；大陆", "可数名词；世界有七大洲", "Africa is a large continent.", "She has visited four continents."],
+  ["continue", "/kənˈtɪnjuː/", "动词", "继续；持续", "后可接 to do 或 V-ing", "The rain continued all day.", "He continued working after dinner."],
+  ["control", "/kənˈtrəʊl/", "动词", "控制；操纵", "control a car = 驾驭汽车；control your temper = 控制脾气", "She controls the whole department.", "He could not control his anger."],
+  ["cooker", "/ˈkʊkə/", "名词", "炉灶；炊具", "英式英语，可数；做饭的人是 cook", "We bought a new gas cooker.", "The cooker is not working."],
+  ["copy", "/ˈkɒpi/", "名词", "副本；一份；册", "可数名词；复数为 copies", "Please make a copy of this page.", "The book sold a million copies."],
+  ["corner", "/ˈkɔːnə/", "名词", "角；街角", "可数名词；on the corner = 在街角；in the corner = 在室内角落", "The shop is on the corner of the street.", "A plant stands in the corner of the room."],
+  ["correctly", "/kəˈrektli/", "副词", "正确地；准确地", "correct 的副词形式", "She answered every question correctly.", "Spell your name correctly on the form."],
+  ["count", "/kaʊnt/", "动词", "数数；计数；算数", "count to ten = 数到十；count 也可表示“有意义”", "The child can count to twenty.", "Every point counts in this game."],
+  ["couple", "/ˈkʌpl/", "名词", "一对；一双；两三个", "可数名词；a couple of = 两个或几个", "The couple got married last year.", "I need a couple of days to finish."],
+  ["crazy", "/ˈkreɪzi/", "形容词", "疯狂的；荒唐的；着迷的", "口语常见；be crazy about = 对……非常着迷", "That is a crazy idea.", "She is crazy about football."],
+  ["creative", "/kriˈeɪtɪv/", "形容词", "有创造力的；富有创意的", "a creative person = 有创造力的人；creative work = 创意工作", "He is very creative with words.", "The job needs creative thinking."],
+  ["credit", "/ˈkredɪt/", "名词", "信用；赞誉；功劳", "credit card = 信用卡；get credit for = 因……获得认可", "I paid by credit card.", "She got credit for the idea."],
+  ["crime", "/kraɪm/", "名词", "犯罪；罪行", "commit a crime = 犯罪；可指犯罪现象或具体罪行", "Crime has fallen in this area.", "Stealing is a crime."],
+  ["criminal", "/ˈkrɪmɪnl/", "名词", "罪犯；犯罪者", "指犯罪的人，可数名词", "The criminal was caught at the border.", "Criminals often work at night."],
+  ["cross", "/krɒs/", "动词", "穿过；横越", "cross the road / river = 过马路／河", "Look both ways before you cross the road.", "We crossed the river by boat."],
+  ["crowd", "/kraʊd/", "名词", "人群；一群人", "可数名词；a crowd = 一群人", "A crowd gathered outside the stadium.", "He disappeared into the crowd."],
+  ["crowded", "/ˈkraʊdɪd/", "形容词", "拥挤的；人多的", "描述场所或交通工具里人很多", "The bus was crowded this morning.", "I avoid crowded places."],
 ];
