@@ -1,4 +1,4 @@
-// A2 第 1–34 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–34 课音标待核。
+// A2 第 1–36 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–36 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -769,4 +769,63 @@ export const A2_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["silver", "/ˈsɪlvə/", "名词", "银；银色", "表示金属时不可数；也可作形容词", "The spoon is made of silver.", "She won a silver medal."],
   ["simple", "/ˈsɪmpl/", "形容词", "简单的；朴素的", "反义词 complicated", "The instructions are simple.", "We had a simple meal of rice and fish."],
   ["since", "/sɪns/", "介词", "自从；自……以来", "后接时间起点，常与完成时连用", "I have lived here since 2020.", "She has not called since Monday."],
+];
+
+// 第 35 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_FIFTH_LESSON: OriginalA2Word[] = [
+  ["singing", "/ˈsɪŋɪŋ/", "名词", "唱歌；歌唱", "不可数名词；singing lessons = 声乐课", "Her singing woke the whole house.", "He takes singing lessons."],
+  ["single", "/ˈsɪŋɡl/", "形容词", "单独的；单人的；未婚的", "a single room = 单人间", "I booked a single room.", "She is still single."],
+  ["sir", "/sɜː/", "名词", "先生；阁下", "对男性的礼貌称呼", "Can I help you, sir?", "Thank you, sir."],
+  ["site", "/saɪt/", "名词", "地点；场地；网站", "可数名词；可指建筑用地或网页站点", "They are building a school on this site.", "The site has useful lessons."],
+  ["size", "/saɪz/", "名词", "大小；尺码", "可数名词；what size = 什么尺码", "What size shoes do you wear?", "The two rooms are the same size."],
+  ["ski", "/skiː/", "动词", "滑雪", "go skiing = 去滑雪", "They ski every winter in Japan.", "She learned to ski at six."],
+  ["skiing", "/ˈskiːɪŋ/", "名词", "滑雪运动", "不可数名词", "Skiing is expensive in Europe.", "We went skiing for a week."],
+  ["skin", "/skɪn/", "名词", "皮肤；果皮", "可指人的皮肤，也可指水果的皮", "Sun cream protects your skin.", "Remove the skin of the banana."],
+  ["sky", "/skaɪ/", "名词", "天空", "通常说 the sky", "The sky is grey this morning.", "Stars filled the night sky."],
+  ["slowly", "/ˈsləʊli/", "副词", "缓慢地", "slow 的副词形式", "Please speak more slowly.", "The old man walked slowly up the hill."],
+  ["smartphone", "/ˈsmɑːtfəʊn/", "名词", "智能手机", "可数名词", "She bought a new smartphone.", "Most students have a smartphone."],
+  ["smell", "/smel/", "动词", "闻到；散发气味", "smell of something = 有某种气味", "The kitchen smells of coffee.", "I can smell smoke."],
+  ["smile", "/smaɪl/", "动词", "微笑", "smile at somebody = 对某人微笑", "She smiled at the baby.", "He smiled when he saw the photo."],
+  ["smoke", "/sməʊk/", "名词", "烟；烟雾", "不可数名词", "Smoke came out of the window.", "The smoke made my eyes hurt."],
+  ["smoking", "/ˈsməʊkɪŋ/", "名词", "吸烟", "不可数名词；no smoking = 禁止吸烟", "Smoking damages the lungs.", "He gave up smoking last year."],
+  ["soap", "/səʊp/", "名词", "肥皂", "不可数名词", "Wash your hands with soap.", "The soap smells of lemon."],
+  ["soccer", "/ˈsɒkə/", "名词", "足球", "美式英语；英式英语通常说 football", "He plays soccer after school.", "Soccer is growing in the United States."],
+  ["social", "/ˈsəʊʃl/", "形容词", "社会的；社交的", "social media = 社交媒体；social life = 社交生活", "She has a busy social life.", "Social problems need long-term answers."],
+  ["society", "/səˈsaɪəti/", "名词", "社会；社团", "复数 societies", "Education matters to every society.", "She joined a history society."],
+  ["sock", "/sɒk/", "名词", "袜子", "可数名词；通常用复数 socks", "I cannot find my other sock.", "He wears thick socks in winter."],
+  ["soft", "/sɒft/", "形容词", "柔软的；轻柔的", "反义词 hard", "The bed is very soft.", "She spoke in a soft voice."],
+  ["soldier", "/ˈsəʊldʒə/", "名词", "士兵", "注意字母 d 读作 /dʒ/ 的一部分", "The soldier stood by the gate.", "Soldiers helped after the earthquake."],
+  ["solution", "/səˈluːʃn/", "名词", "解决办法；答案", "a solution to a problem = 问题的解决办法", "There is no easy solution to this problem.", "She found the solution quickly."],
+  ["solve", "/sɒlv/", "动词", "解决；解答", "solve a problem = 解决问题", "Let's solve this problem together.", "He solved the puzzle in a minute."],
+  ["somewhere", "/ˈsʌmweə/", "副词", "在某处；去某处", "通常用于肯定句", "I left my glasses somewhere in the house.", "Let's go somewhere quiet."],
+];
+
+// 第 36 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_THIRTY_SIXTH_LESSON: OriginalA2Word[] = [
+  ["sort", "/sɔːt/", "名词", "种类；类别", "a sort of something = 一种某物", "What sort of music do you like?", "There are three sorts of tickets."],
+  ["source", "/sɔːs/", "名词", "来源；源头", "a source of something = 某物的来源", "Fruit is a good source of vitamins.", "Name the source of your information."],
+  ["speaker", "/ˈspiːkə/", "名词", "发言人；扬声器", "可数名词", "The speaker talked for an hour.", "Turn up the speakers."],
+  ["specific", "/spəˈsɪfɪk/", "形容词", "具体的；特定的", "be specific about something = 把某事说具体", "Give me a specific example.", "She had a specific reason for leaving."],
+  ["speech", "/spiːtʃ/", "名词", "演讲；讲话", "可数名词；make a speech = 作演讲", "The president gave a short speech.", "Her speech moved the audience."],
+  ["speed", "/spiːd/", "名词", "速度；速率", "at a speed of = 以……的速度", "The car was travelling at high speed.", "Reduce your speed near the school."],
+  ["spider", "/ˈspaɪdə/", "名词", "蜘蛛", "可数名词", "A spider made a web in the corner.", "She is afraid of spiders."],
+  ["spoon", "/spuːn/", "名词", "勺子；匙", "可数名词", "Eat the soup with a spoon.", "Add two spoons of sugar."],
+  ["square", "/skweə/", "名词", "正方形；广场", "可数名词", "Draw a square on the page.", "We met in the town square."],
+  ["stage", "/steɪdʒ/", "名词", "舞台；阶段", "可数名词", "The singer walked onto the stage.", "The project is at an early stage."],
+  ["stair", "/steə/", "名词", "台阶；楼梯的一阶", "复数 stairs 可指整段楼梯", "He sat on the bottom stair.", "Be careful on the stairs."],
+  ["stamp", "/stæmp/", "名词", "邮票", "可数名词", "Put a stamp on the envelope.", "He collects stamps from many countries."],
+  ["state", "/steɪt/", "名词", "州；状态", "可数名词", "California is a large state.", "The house is in a poor state."],
+  ["steal", "/stiːl/", "动词", "偷；盗取", "不规则变化：steal–stole–stolen", "Someone stole my bicycle.", "He was caught stealing from the shop."],
+  ["step", "/step/", "名词", "脚步；台阶", "step by step = 一步一步地", "Take three steps forward.", "She climbed the last step slowly."],
+  ["stomach", "/ˈstʌmək/", "名词", "胃；肚子", "字母组合 ch 在这里读 /k/", "My stomach hurts after that meal.", "Do not swim on a full stomach."],
+  ["stone", "/stəʊn/", "名词", "石头；石料", "指单块石头时可数，指石料时不可数", "The wall is made of stone.", "He threw a stone into the water."],
+  ["store", "/stɔː/", "名词", "商店；店铺", "美式英语常用 store，英式英语常用 shop", "The store opens at eight.", "She works in a department store."],
+  ["storm", "/stɔːm/", "名词", "暴风雨；风暴", "可数名词", "The storm damaged many houses.", "A storm is coming tonight."],
+  ["straight", "/streɪt/", "形容词", "直的；笔直的", "形容头发时与 curly 相对", "She has long straight hair.", "Draw a straight line."],
+  ["strange", "/streɪndʒ/", "形容词", "奇怪的；陌生的", "描述不寻常的事物", "That is a strange noise.", "I had a strange dream."],
+  ["strategy", "/ˈstrætədʒi/", "名词", "策略；战略", "复数 strategies", "We need a new strategy for selling.", "Her learning strategy works well."],
+  ["stress", "/stres/", "名词", "压力；紧张", "表示心理压力时通常不可数", "Too much stress is bad for health.", "She handles stress very well."],
+  ["structure", "/ˈstrʌktʃə/", "名词", "结构；建筑物", "可数名词", "The structure of the essay is clear.", "The bridge is a huge steel structure."],
+  ["stupid", "/ˈstjuːpɪd/", "形容词", "愚蠢的；傻的", "语气较重；较温和的说法可用 silly", "That was a stupid mistake.", "Do not say such stupid things."],
+  ["succeed", "/səkˈsiːd/", "动词", "成功；达到目的", "succeed in doing something = 成功做成某事", "She succeeded in passing the exam.", "The plan succeeded beyond our hopes."],
 ];
