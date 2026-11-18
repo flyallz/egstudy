@@ -1,4 +1,4 @@
-// A2 第 1–8 课：词条、词性、英文例句按原站 CSV 核对；音标按原站词库逐张核对。
+// A2 第 1–9 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -133,4 +133,23 @@ export const A2_EIGHTH_LESSON: OriginalA2Word[] = [
   ["case", "/keɪs/", "名词", "情况；案件", "可数名词；in that case = 如果是那样", "In that case, we should leave early.", "The police are working on the case."],
   ["cash", "/kæʃ/", "名词", "现金", "不可数名词；pay in cash = 用现金支付", "I paid in cash.", "Do you have any cash with you?"],
   ["castle", "/ˈkɑːsl/", "名词", "城堡", "可数名词；字母 t 不发音", "We visited an old castle in Scotland.", "The castle stands on a hill."],
+];
+
+// 第 9 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_NINTH_LESSON: OriginalA2Word[] = [
+  ["catch", "/kætʃ/", "动词", "接住；抓住；赶上（车等）", "不规则动词：catch–caught–caught；catch a train = 赶上火车", "He caught the ball with one hand.", "I need to catch the seven o'clock train."],
+  ["cause", "/kɔːz/", "动词", "导致；引起", "及物动词；cause a problem / an accident = 引起问题／事故", "Heavy rain caused the flood.", "Smoking causes serious illness."],
+  ["celebrate", "/ˈselɪbreɪt/", "动词", "庆祝；纪念", "celebrate a birthday / a victory = 庆祝生日／胜利", "We celebrated her birthday at home.", "The city celebrates its founding every year."],
+  ["celebrity", "/səˈlebrəti/", "名词", "名人；知名人士", "可数名词；复数为 celebrities", "A celebrity opened the new shop.", "She became a celebrity after the film."],
+  ["certain", "/ˈsɜːtn/", "形容词", "确信的；某个特定的", "be certain that = 确信……；a certain person = 某个人", "I am certain that he will come.", "A certain student asked about it."],
+  ["certainly", "/ˈsɜːtnli/", "副词", "当然；肯定", "副词，也可用于礼貌地表示同意", "She is certainly the best player.", "Certainly, I will help you."],
+  ["chance", "/tʃɑːns/", "名词", "机会；可能性", "可数名词；have a chance to do something = 有机会做某事", "This is your last chance.", "There is a good chance of rain."],
+  ["character", "/ˈkærəktə/", "名词", "人物；角色；性格", "可数名词；可指故事人物或人的性格", "My favourite character dies in the book.", "She has a strong character."],
+  ["charity", "/ˈtʃærəti/", "名词", "慈善机构；慈善事业", "名词；指慈善机构时复数为 charities", "The money went to a children's charity.", "They collect clothes for charity."],
+  ["chat", "/tʃæt/", "动词", "聊天；闲谈", "chat with somebody about something = 与某人聊某事", "We chatted for an hour.", "She chats online with her cousins."],
+  ["chef", "/ʃef/", "名词", "厨师；主厨", "指专业厨师；发音为 /ʃef/", "The chef cooked a special dish for us.", "He trained as a chef in Paris."],
+  ["chemistry", "/ˈkemɪstri/", "名词", "化学", "学科名，不可数", "Chemistry is harder than biology for me.", "We did an experiment in chemistry class."],
+  ["chip", "/tʃɪp/", "名词", "薯条；芯片", "可数名词；fish and chips = 英式炸鱼薯条", "We had fish and chips for dinner.", "The phone has a very small chip inside."],
+  ["choice", "/tʃɔɪs/", "名词", "选择；选择权", "make a choice = 做选择；have no choice = 别无选择", "You have to make a choice now.", "We had no choice but to wait."],
+  ["church", "/tʃɜːtʃ/", "名词", "教堂", "可数名词；go to church = 去教堂做礼拜", "The old church is near the square.", "They go to church on Sunday."],
 ];

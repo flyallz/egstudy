@@ -29,7 +29,7 @@ import { A2_LINKERS } from "./currentSiteA2Linkers";
 import { A2_INDEFINITE } from "./currentSiteA2Indefinite";
 import { A2_QUANTIFIERS } from "./currentSiteA2Quantifiers";
 import { A1_TAIL_LESSONS } from "./a1Tail";
-import { A2_FIRST_LESSON, A2_SECOND_LESSON, A2_THIRD_LESSON, A2_FOURTH_LESSON, A2_FIFTH_LESSON, A2_SIXTH_LESSON, A2_SEVENTH_LESSON, A2_EIGHTH_LESSON } from "./originalA2";
+import { A2_FIRST_LESSON, A2_SECOND_LESSON, A2_THIRD_LESSON, A2_FOURTH_LESSON, A2_FIFTH_LESSON, A2_SIXTH_LESSON, A2_SEVENTH_LESSON, A2_EIGHTH_LESSON, A2_NINTH_LESSON } from "./originalA2";
 import { EDUCATION_EXAMPLE_TRANSLATIONS, EDUCATION_FIRST_LESSON, EDUCATION_SECOND_LESSON, EDUCATION_THIRD_LESSON, EDUCATION_FOURTH_LESSON, EDUCATION_FIFTH_LESSON, type OriginalTopicWord } from "./originalTopics";
 
 // 紧凑语法课规格：[英文名, 中文名, 导语, 功能, 形式, 句中分析,
@@ -7251,7 +7251,7 @@ function applyExtractedCefrA1() {
 }
 applyExtractedCefrA1();
 
-for (const [index, sourceWords] of [A2_FIRST_LESSON, A2_SECOND_LESSON, A2_THIRD_LESSON, A2_FOURTH_LESSON, A2_FIFTH_LESSON, A2_SIXTH_LESSON, A2_SEVENTH_LESSON, A2_EIGHTH_LESSON].entries()) {
+for (const [index, sourceWords] of [A2_FIRST_LESSON, A2_SECOND_LESSON, A2_THIRD_LESSON, A2_FOURTH_LESSON, A2_FIFTH_LESSON, A2_SIXTH_LESSON, A2_SEVENTH_LESSON, A2_EIGHTH_LESSON, A2_NINTH_LESSON].entries()) {
   const set = CEFR_LESSONS.find((item) => item.id === `c-a2-${index + 1}`);
   if (!set) continue;
   set.words = sourceWords.map(ewToWord);
