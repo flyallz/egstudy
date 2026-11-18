@@ -1,4 +1,4 @@
-// A2 第 1–19 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–19 课音标待核。
+// A2 第 1–21 课：词条、词性、英文例句按原站 CSV 核对；第 1–8 课音标按原站词库逐张核对，第 9–21 课音标待核。
 // 释义与用法译自原站越南语字段。原站学卡顺序每次进入会重排，故这里按词库顺序存储。
 export type OriginalA2Word = [string, string, string, string, string, string, string];
 
@@ -367,4 +367,52 @@ export const A2_NINETEENTH_LESSON: OriginalA2Word[] = [
   ["fridge", "/frɪdʒ/", "名词", "冰箱", "可数名词；refrigerator 的常用简写", "Put the milk in the fridge.", "The fridge is empty."],
   ["frog", "/frɒɡ/", "名词", "青蛙", "可数名词", "A frog jumped into the pond.", "Frogs sing after the rain."],
   ["furniture", "/ˈfɜːnɪtʃə/", "名词", "家具", "不可数名词；一件家具可说 a piece of furniture", "They bought new furniture for the flat.", "The furniture is made of wood."],
+];
+
+// 第 20 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTIETH_LESSON: OriginalA2Word[] = [
+  ["further", "/ˈfɜːðə/", "形容词", "进一步的；更多的", "further information = 更多信息；也可表示更远的", "For further information, call this number.", "We need further time to decide."],
+  ["gallery", "/ˈɡæləri/", "名词", "美术馆；画廊", "复数为 galleries", "We spent the morning in an art gallery.", "The gallery shows young painters."],
+  ["gap", "/ɡæp/", "名词", "缺口；间隙", "可数名词；a gap between things = 事物之间的间隙", "Fill in the gaps in the sentence.", "There is a gap between the two houses."],
+  ["gas", "/ɡæs/", "名词", "气体；燃气", "美式英语中 gas 也可指汽油", "We cook with gas.", "The gas bill came yesterday."],
+  ["gate", "/ɡeɪt/", "名词", "大门；登机口", "可数名词", "Close the gate behind you.", "Our flight leaves from gate twelve."],
+  ["general", "/ˈdʒenrəl/", "形容词", "一般的；总体的", "in general = 总的来说", "This is just general advice.", "The general opinion is positive."],
+  ["gift", "/ɡɪft/", "名词", "礼物；天赋", "可数名词；指礼物时比 present 略正式", "She gave me a gift for my birthday.", "The shop wraps gifts for free."],
+  ["goal", "/ɡəʊl/", "名词", "目标；进球", "可数名词；score a goal = 进球", "My goal is to speak English well.", "He scored the winning goal."],
+  ["god", "/ɡɒd/", "名词", "神；上帝", "指一神教的上帝时首字母大写 God", "The ancient Greeks had many gods.", "She prays to God every evening."],
+  ["gold", "/ɡəʊld/", "名词", "金；黄金", "不可数名词；gold ring 中也可作定语", "The ring is made of gold.", "Gold is expensive this year."],
+  ["golf", "/ɡɒlf/", "名词", "高尔夫球运动", "不可数名词；play golf = 打高尔夫球", "My uncle plays golf on Sundays.", "There is a golf course near the sea."],
+  ["government", "/ˈɡʌvənmənt/", "名词", "政府", "可数名词；读音中的第一个 n 常弱化", "The government raised the minimum wage.", "She works for the local government."],
+  ["grass", "/ɡrɑːs/", "名词", "草；草地", "通常不可数", "The children sat on the grass.", "Please keep off the grass."],
+  ["greet", "/ɡriːt/", "动词", "迎接；向……打招呼", "greet somebody with something = 以某种方式迎接某人", "He greeted us with a smile.", "The host greeted every guest."],
+  ["ground", "/ɡraʊnd/", "名词", "地面；土地", "on the ground = 在地面上", "The ball fell to the ground.", "We slept on the ground in a tent."],
+  ["guest", "/ɡest/", "名词", "客人；宾客", "可指受邀者或住店客人", "We have two guests for dinner.", "The hotel has forty guests tonight."],
+  ["guide", "/ɡaɪd/", "名词", "导游；指南", "可数名词", "Our guide knew the history of the city.", "I bought a guide to Vietnam."],
+  ["gun", "/ɡʌn/", "名词", "枪；枪支", "可数名词", "The police officer carried a gun.", "Guns are not allowed in this country."],
+  ["guy", "/ɡaɪ/", "名词", "家伙；小伙子", "口语词；guys 也可称呼一群人", "That guy works in my office.", "Hi guys, are you ready?"],
+  ["habit", "/ˈhæbɪt/", "名词", "习惯", "可数名词；a good/bad habit = 好／坏习惯", "Reading before bed is a good habit.", "He has a habit of arriving late."],
+];
+
+// 第 21 课英文内容对照原站 CSV；音标采用通用英式读法，尚待原站词卡逐张核对。
+export const A2_TWENTY_FIRST_LESSON: OriginalA2Word[] = [
+  ["hall", "/hɔːl/", "名词", "门厅；走廊；大厅", "可数名词", "Leave your shoes in the hall.", "The concert is in the main hall."],
+  ["happily", "/ˈhæpɪli/", "副词", "高兴地；愉快地", "happy 的副词形式", "The children played happily all afternoon.", "She happily agreed to help."],
+  ["headache", "/ˈhedeɪk/", "名词", "头痛", "可数名词；have a headache = 头痛", "I have a bad headache.", "Loud noise gives me a headache."],
+  ["heart", "/hɑːt/", "名词", "心脏；心；内心", "可数名词；learn by heart = 背熟", "The doctor listened to my heart.", "She learned the poem by heart."],
+  ["heat", "/hiːt/", "名词", "热；高温", "通常不可数", "I cannot work in this heat.", "Cook the rice over a low heat."],
+  ["heavy", "/ˈhevi/", "形容词", "重的；猛烈的", "heavy rain = 大雨；heavy traffic = 交通繁忙", "This box is too heavy for me.", "We drove through heavy rain."],
+  ["height", "/haɪt/", "名词", "高度；身高", "读作 /haɪt/，字母 gh 不发音", "What is your height?", "The height of the tower is sixty metres."],
+  ["helpful", "/ˈhelpfl/", "形容词", "有帮助的；乐于助人的", "可形容人或建议", "The shop assistant was very helpful.", "That was a helpful suggestion."],
+  ["hero", "/ˈhɪərəʊ/", "名词", "英雄；主角", "复数为 heroes", "The firefighter was a real hero.", "He is the hero of the story."],
+  ["hers", "/hɜːz/", "代词", "她的；属于她的", "名词性物主代词，后面不再接名词", "This book is hers, not mine.", "The red bag is hers."],
+  ["herself", "/hɜːˈself/", "代词", "她自己；她亲自", "女性主语对应的反身代词", "She hurt herself while cooking.", "She made the dress herself."],
+  ["hide", "/haɪd/", "动词", "躲藏；藏起", "不规则动词：hide–hid–hidden", "Children love to hide behind the curtains.", "He hid the money under the bed."],
+  ["hike", "/haɪk/", "名词", "徒步旅行；远足", "可数名词；go for a hike = 去徒步", "We went for a hike in the hills.", "The hike took four hours."],
+  ["hill", "/hɪl/", "名词", "小山；山丘", "可数名词；通常比 mountain 矮", "Their house is on a hill.", "We cycled up the hill slowly."],
+  ["himself", "/hɪmˈself/", "代词", "他自己；他亲自", "男性主语对应的反身代词", "He cut himself while shaving.", "He built the shelf himself."],
+  ["hit", "/hɪt/", "动词", "击打；撞到", "不规则动词：hit–hit–hit", "The ball hit the window.", "She hit her head on the door."],
+  ["hockey", "/ˈhɒki/", "名词", "曲棍球", "不可数名词；ice hockey = 冰球", "They play hockey in winter.", "Ice hockey is popular in Canada."],
+  ["hold", "/həʊld/", "动词", "拿着；握住；举办", "不规则动词：hold–held–held", "Hold my bag for a moment.", "The school holds a concert every year."],
+  ["hole", "/həʊl/", "名词", "洞；孔；坑", "可数名词", "There is a hole in my sock.", "The dog dug a hole in the garden."],
+  ["huge", "/hjuːdʒ/", "形容词", "巨大的；庞大的", "程度比 big 强", "They have a huge garden.", "The film was a huge success."],
 ];
