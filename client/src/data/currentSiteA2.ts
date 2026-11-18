@@ -5,6 +5,8 @@ import { A2_REFLEXIVE_MEDIUM } from "./currentSiteA2ReflexiveMedium";
 import { A2_REFLEXIVE_HARD } from "./currentSiteA2ReflexiveHard";
 import { A2_PAST_MEDIUM } from "./currentSiteA2PastMedium";
 import { A2_PAST_HARD } from "./currentSiteA2PastHard";
+import { A2_WAS_WERE_MEDIUM } from "./currentSiteA2WasWereMedium";
+import { A2_WAS_WERE_HARD } from "./currentSiteA2WasWereHard";
 
 // 原站 A2 第 1 课：逐段核对理论，并完成简单 20、中等 30、困难 30 道题。
 // 题干与选项按原站保留英文；越南语讲解译成中文。
@@ -197,7 +199,7 @@ export const A2_WAS_WERE_QUESTIONS: QuizQuestion[] = [
   easy("选择正确的句子。", ["Did you tired? Were you sleep well?", "Were you tired? Did you sleep well?", "Were you tired? Were you sleep well?", "Did you be tired? Did you slept well?"], 1, `第一问含 be 动词，提前 were；第二问含普通动词，用 did + 原形。${wasWereCommon}`),
 ];
 
-// 原站 A2 第 3 课理论与简单档 20 题已核对；中等、困难档尚待提取。
+// 原站 A2 第 3 课理论与简单 20、中等 30、困难 30 题已核对。
 export const A2_WAS_WERE: Partial<GrammarLesson> = {
   titleCn: "was、were 与过去时疑问句",
   titleEn: "Was, were & past questions",
@@ -245,10 +247,10 @@ export const A2_WAS_WERE: Partial<GrammarLesson> = {
     ] },
   ],
   keyPoints: ["主要动词是 be 还是普通动词？", "was / were 是否与主语一致？", "be 动词不与 did 连用。", "疑问词是否放在 was / were / did 前面？"],
-  questions: A2_WAS_WERE_QUESTIONS,
+  questions: [...A2_WAS_WERE_QUESTIONS, ...A2_WAS_WERE_MEDIUM, ...A2_WAS_WERE_HARD],
   ownBankOnly: true,
   quizCounts: { "简单": 20, "中等": 30, "困难": 30 },
-  pendingDifficulties: ["中等", "困难"],
+  pendingDifficulties: [],
 };
 
 // 原站 A2 第 4 课完整理论已核对。简单档 20 题已与原站公开 A2 课程数据逐题核对。
