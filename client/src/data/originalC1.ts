@@ -314,3 +314,43 @@ export const C1_EIGHTEENTH_LESSON: OriginalA2Word[] = [
   ["closure", "/ˈkləʊʒə/", "名词", "关闭；释怀", "factory closure = 工厂关闭；a sense of closure = 释怀感", "The sudden closure of the plant cost hundreds of workers their jobs.", "Meeting him one last time finally gave her a sense of closure."],
   ["contempt", "/kənˈtempt/", "名词", "蔑视；藐视法庭", "contempt for somebody = 对某人的蔑视；contempt of court = 藐视法庭", "She could not hide her contempt for their dishonest tactics.", "The witness was warned he risked being held in contempt of court."],
 ];
+
+export const C1_NINETEENTH_LESSON: OriginalA2Word[] = [
+  ["deficit", "/ˈdefɪsɪt/", "名词", "赤字；不足", "budget deficit = 预算赤字；a deficit of two goals = 落后两球；反义词 surplus", "The government is still struggling to reduce its growing budget deficit.", "The team came back from a two-goal deficit to win the match."],
+  ["blast", "/blɑːst/", "名词", "爆炸；强风；开心时光", "bomb blast = 炸弹爆炸；a blast of cold air = 一股冷风；have a blast = 玩得很开心", "The massive blast shattered windows several streets away.", "A sudden blast of icy wind swept across the open platform."],
+  ["cluster", "/ˈklʌstə/", "名词", "群；簇", "a cluster of stars = 星团；a cluster of cases = 聚集的一组病例；也可作动词", "A small cluster of houses sat at the foot of the hill.", "Health officials investigated a sudden cluster of infections."],
+  ["contend", "/kənˈtend/", "动词", "主张；竞争；应对", "contend that = 主张；contend with = 应对；contend for = 争夺", "Critics contend that the new rules will do more harm than good.", "Small farmers must contend with rising costs every single season."],
+  ["defy", "/dɪˈfaɪ/", "动词", "违抗；难以解释", "defy orders = 违抗命令；defy belief = 令人难以置信", "A few workers openly defy the manager's most unreasonable demands.", "The sheer scale of the disaster seems to defy belief."],
+  ["blaze", "/bleɪz/", "名词", "大火；绚烂色彩", "battle a blaze = 扑救大火；a blaze of colour = 绚烂色彩", "Firefighters battled the blaze for more than six hours.", "The garden was a blaze of colour in late spring."],
+  ["coalition", "/ˌkəʊəˈlɪʃn/", "名词", "联盟；联合政府", "form a coalition = 组建联盟；coalition government = 联合政府", "The two parties formed a fragile coalition to stay in power.", "A broad coalition of charities campaigned against the cuts."],
+  ["contender", "/kənˈtendə/", "名词", "竞争者；有望获胜者", "a leading contender = 主要竞争者；a contender for the title = 冠军争夺者", "She quickly emerged as a leading contender for the top job.", "The young driver is now a genuine contender for the title."],
+  ["delegate", "/ˈdelɪɡət/", "名词", "代表；会议代表", "a delegate to a conference = 会议代表；作动词时读 /ˈdelɪɡeɪt/", "Each delegate was given ten minutes to present their proposal.", "The union sent its most experienced delegate to the talks."],
+  ["bleed", "/bliːd/", "动词", "流血；褪色", "bleed to death = 失血而死；colours bleed = 颜色渗染；过去式 bled", "Deep cuts like this can bleed for quite a long time.", "The dark fabric tends to bleed when it is washed in hot water."],
+  ["coastal", "/ˈkəʊstl/", "形容词", "沿海的；海岸的", "coastal town = 沿海城镇；coastal erosion = 海岸侵蚀", "Rising sea levels threaten many low-lying coastal communities.", "The storm caused severe damage all along the coastal road."],
+  ["delegation", "/ˌdelɪˈɡeɪʃn/", "名词", "代表团；授权", "a trade delegation = 贸易代表团；delegation of authority = 授权", "A high-level delegation arrived to negotiate the new trade deal.", "Effective delegation allows managers to focus on strategy."],
+  ["blend", "/blend/", "动词", "混合；融合", "blend A with B = 把 A 与 B 混合；blend in = 融入；也可作名词", "Gradually blend the eggs into the flour until the mixture is smooth.", "The singer blends folk and jazz into a style all her own."],
+  ["cocktail", "/ˈkɒkteɪl/", "名词", "鸡尾酒；混合物", "cocktail party = 鸡尾酒会；a cocktail of drugs = 多种药物的混合", "The bartender mixed an elaborate cocktail with fresh lime and mint.", "Patients were given a dangerous cocktail of powerful painkillers."],
+  ["contention", "/kənˈtenʃn/", "名词", "争论；论点；竞争", "a point of contention = 争议点；in contention = 仍有竞争机会", "The exact wording of the clause became a point of contention.", "Both teams are still in contention for the championship."],
+  ["delicate", "/ˈdelɪkət/", "形容词", "易碎的；精致的；微妙的", "delicate manuscript = 易损手稿；delicate balance = 微妙平衡", "The restorer handled the delicate manuscript with great care.", "Negotiators are trying to maintain a delicate balance between the two sides."],
+  ["bless", "/bles/", "动词", "祝福；赐福", "bless somebody = 祝福某人；be blessed with = 幸运拥有；过去式 blessed", "The priest raised his hand to bless the kneeling congregation.", "They felt truly blessed with such kind and supportive neighbours."],
+];
+
+export const C1_TWENTIETH_LESSON: OriginalA2Word[] = [
+  ["cognitive", "/ˈkɒɡnətɪv/", "形容词", "认知的", "cognitive ability = 认知能力；cognitive development = 认知发展", "The study measured cognitive skills in children of different ages.", "Lack of sleep has a clear effect on cognitive performance."],
+  ["continually", "/kənˈtɪnjuəli/", "副词", "不断地；反复地", "continually updated = 不断更新；侧重反复发生，区别于不间断的 continuously", "The software is continually updated to fix newly discovered bugs.", "He was continually interrupted by phone calls during the meeting."],
+  ["demon", "/ˈdiːmən/", "名词", "恶魔；心魔", "fight one’s demons = 与心魔抗争；a demon for work = 工作狂", "In the old legend, a fearsome demon guarded the entrance to the cave.", "She finally confronted the demons that had haunted her childhood."],
+  ["blessing", "/ˈblesɪŋ/", "名词", "福分；赞同", "a blessing in disguise = 因祸得福；give one’s blessing = 表示赞同", "Having such a close-knit family felt like a real blessing.", "They started the new venture with their parents' full blessing."],
+  ["coincide", "/ˌkəʊɪnˈsaɪd/", "动词", "同时发生；相符", "coincide with = 与……同时发生或相符；名词 coincidence", "They arranged the launch to coincide with the start of the festival.", "The two anniversaries coincided purely by chance."],
+  ["contractor", "/kənˈtræktə/", "名词", "承包商；合同工", "building contractor = 建筑承包商；independent contractor = 独立合同工", "The building contractor promised to finish the roof before winter.", "As an independent contractor, she sets her own working hours."],
+  ["denial", "/dɪˈnaɪəl/", "名词", "否认；拒绝", "in denial = 不肯接受事实；denial of rights = 剥夺权利", "Despite the clear evidence, he issued a firm denial of any wrongdoing.", "For months she was in complete denial about her illness."],
+  ["collaborate", "/kəˈlæbəreɪt/", "动词", "合作；通敌", "collaborate with somebody on something = 与某人就某事合作；名词 collaboration", "Researchers from both countries collaborate closely on new climate models.", "She refused to collaborate with the occupying forces during the war."],
+  ["contrary", "/ˈkɒntrəri/", "形容词", "相反的；对立的", "contrary to = 与……相反；on the contrary = 恰恰相反", "His account is directly contrary to what the witnesses described.", "Contrary to popular belief, the city is actually quite affordable."],
+  ["denounce", "/dɪˈnaʊns/", "动词", "公开谴责；告发", "denounce an attack = 谴责袭击；denounce somebody as corrupt = 谴责某人腐败", "Leaders from across the region were quick to denounce the attack.", "She publicly denounced the regime as corrupt and brutal."],
+  ["boast", "/bəʊst/", "动词", "吹嘘；以……为傲", "boast about something = 吹嘘某事；a city boasts something = 城市拥有值得夸耀之物", "He likes to boast about his son's achievements to anyone who listens.", "The resort boasts three pools and a private beach."],
+  ["collaboration", "/kəˌlæbəˈreɪʃn/", "名词", "合作；合作作品", "in collaboration with = 与……合作；close collaboration = 密切合作", "The album was a close collaboration between two very different artists.", "The project was completed in collaboration with several local schools."],
+  ["contributor", "/kənˈtrɪbjətə/", "名词", "撰稿人；促成因素", "a regular contributor = 固定撰稿人；a contributor to pollution = 污染成因", "She was a regular contributor to the magazine for many years.", "Traffic is a major contributor to the city's poor air quality."],
+  ["dense", "/dens/", "形容词", "密集的；难懂的", "dense forest = 茂密森林；dense text = 晦涩文字；名词 density", "They lost their way in the dense forest shortly after sunset.", "The report is so dense that few people ever read it fully."],
+  ["bolster", "/ˈbəʊlstə/", "动词", "增强；支持", "bolster confidence = 增强信心；bolster the economy = 提振经济", "The government hopes the tax cuts will bolster consumer spending.", "Fresh evidence helped bolster her case considerably."],
+  ["collective", "/kəˈlektɪv/", "形容词", "集体的；共同的", "collective responsibility = 集体责任；反义词 individual", "Solving the crisis will require a genuine collective effort.", "There was a collective sigh of relief when the results came in."],
+  ["conversion", "/kənˈvɜːʃn/", "名词", "转换；改建；改宗", "currency conversion = 货币兑换；loft conversion = 阁楼改建", "The company specializes in the conversion of old warehouses into flats.", "His conversion to a new faith surprised many of his old friends."],
+];
