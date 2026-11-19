@@ -2316,3 +2316,33 @@ export const ECONOMY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "fiscal policy": ["为了稳定市场，财政政策收紧了。", "财政政策包括税收和支出两方面。"],
   "monetary policy": ["央行独立制定货币政策。", "那一年货币政策放松了三次。"],
 };
+
+export const ECONOMY_SECOND_LESSON: OriginalTopicWord[] = [
+  ["interest rate", "/ˈɪntrəst reɪt/", "名词短语", "利率", "可数；raise/cut interest rates", "Interest rates were cut to half a per cent.", "A single rise in interest rates emptied the showrooms."],
+  ["exchange rate", "/ɪksˈtʃeɪndʒ reɪt/", "名词短语", "汇率", "可数；a favourable exchange rate；the exchange rate falls", "The exchange rate moved against exporters.", "A favourable exchange rate brought in tourists."],
+  ["currency", "/ˈkʌrənsi/", "名词", "货币；通货", "可数；a strong currency；devalue a currency", "The currency lost a fifth of its value.", "Three countries share the same currency."],
+  ["devaluation", "/ˌdiːvæljuˈeɪʃn/", "名词", "货币贬值", "可数或不可数；a sharp devaluation", "Devaluation made imported medicine unaffordable.", "The sudden devaluation wiped out savings."],
+  ["budget deficit", "/ˈbʌdʒɪt ˌdefɪsɪt/", "名词短语", "预算赤字", "可数；run/close a budget deficit", "The state has run a budget deficit since 2008.", "Closing the budget deficit took eight years."],
+  ["national debt", "/ˌnæʃnəl ˈdet/", "名词短语", "国债；国家债务", "不可数；service/reduce the national debt", "Servicing the national debt costs more than schools.", "The national debt doubled within a decade."],
+  ["trade surplus", "/ˈtreɪd ˌsɜːpləs/", "名词短语", "贸易顺差", "可数；run/record a trade surplus", "The country runs a trade surplus with its neighbours.", "A record trade surplus pushed the currency up."],
+  ["trade deficit", "/ˈtreɪd ˌdefɪsɪt/", "名词短语", "贸易逆差", "可数；a widening trade deficit", "The trade deficit widened for six months running.", "Cheap imports explain most of the trade deficit."],
+  ["public spending", "/ˌpʌblɪk ˈspendɪŋ/", "名词短语", "公共支出；政府开支", "不可数；cut/increase public spending", "Public spending was cut in every department but defence.", "Public spending rises faster than revenue."],
+  ["austerity", "/ɒˈsterəti/", "名词", "财政紧缩；紧缩政策", "不可数；impose/a decade of austerity", "A decade of austerity emptied the youth centres.", "Austerity was imposed in the name of the deficit."],
+  ["stimulus package", "/ˈstɪmjələs ˌpækɪdʒ/", "名词短语", "经济刺激方案", "可数；announce/a fiscal stimulus package", "The stimulus package favoured construction.", "A second stimulus package was announced in June."],
+  ["subsidy", "/ˈsʌbsədi/", "名词", "补贴；补助金", "可数；receive/withdraw a subsidy", "Bus routes survive on a public subsidy.", "The fuel subsidy was withdrawn overnight."],
+];
+
+export const ECONOMY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "interest rate": ["利率降到了百分之零点五。", "利率只上调一次，就让展厅门可罗雀。"],
+  "exchange rate": ["汇率变化对出口商不利。", "有利的汇率吸引了游客。"],
+  "currency": ["这种货币贬值了五分之一。", "三个国家使用同一种货币。"],
+  "devaluation": ["货币贬值使进口药品贵得买不起。", "突然贬值让积蓄化为乌有。"],
+  "budget deficit": ["该国自 2008 年以来一直有预算赤字。", "弥补预算赤字花了八年。"],
+  "national debt": ["偿付国家债务的费用比学校开支还高。", "国家债务在十年内翻了一番。"],
+  "trade surplus": ["该国与邻国保持贸易顺差。", "创纪录的贸易顺差推高了本币汇率。"],
+  "trade deficit": ["贸易逆差连续六个月扩大。", "廉价进口商品解释了大部分贸易逆差。"],
+  "public spending": ["除国防以外，各部门公共支出都被削减了。", "公共支出的增长速度快于收入。"],
+  "austerity": ["十年的紧缩政策使青年中心变得空荡荡。", "政府以弥补赤字为由实施紧缩政策。"],
+  "stimulus package": ["这项经济刺激方案偏重建筑业。", "第二轮经济刺激方案于六月公布。"],
+  "subsidy": ["公交线路依靠公共补贴维持运营。", "燃油补贴一夜之间被取消了。"],
+};
