@@ -97,3 +97,37 @@ export const C1_SIXTH_LESSON: OriginalA2Word[] = [
   ["aspire", "/əˈspaɪə/", "动词", "渴望；立志", "aspire to do something = 立志做某事；aspire to a career = 渴望从事某职业", "Many young players aspire to play for their national team.", "She always aspired to a career in medicine."],
   ["spite", "/spaɪt/", "名词", "恶意；怨恨", "out of spite = 出于恶意；in spite of = 尽管，虽然", "He broke her favourite vase out of pure spite.", "There was a touch of spite in the way she said it."],
 ];
+
+export const C1_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["treasure", "/ˈtreʒə/", "名词", "财宝；珍贵的人或物", "buried treasure = 埋藏的财宝；national treasure = 国宝；也可作动词表示珍惜", "Divers discovered a chest of treasure on the sunken ship.", "These old family photographs are a real treasure to her."],
+  ["accusation", "/ˌækjuˈzeɪʃn/", "名词", "指控；控诉", "make an accusation = 提出指控；an accusation of something = 对某事的指控", "She strongly denied the accusation of cheating.", "Such a serious accusation must be backed by solid evidence."],
+  ["assassination", "/əˌsæsɪˈneɪʃn/", "名词", "暗杀", "an assassination attempt = 暗杀企图；character assassination = 人格诋毁", "The assassination of the president shocked the entire nation.", "Police foiled an assassination attempt at the last moment."],
+  ["spoil", "/spɔɪl/", "动词", "破坏；宠坏；变质", "spoil a child = 宠坏孩子；be spoilt for choice = 选择太多；过去式 spoiled 或 spoilt", "Don't let one rude comment spoil your whole evening.", "Grandparents often spoil their grandchildren with too many gifts."],
+  ["tribe", "/traɪb/", "名词", "部落；族群", "an indigenous tribe = 原住民部落；形容词 tribal", "The documentary follows a nomadic tribe across the desert.", "Each tribe had its own language and customs."],
+  ["accused", "/əˈkjuːzd/", "名词", "被告；被控告的人", "通常说 the accused，可指一个或多个被告", "The accused denied all the charges brought against him.", "Throughout the trial, the accused remained completely silent."],
+  ["assault", "/əˈsɔːlt/", "名词", "殴打；袭击", "commit an assault = 实施袭击；an assault on somebody = 对某人的袭击", "He was arrested and charged with assault after the fight.", "The troops launched a fierce assault on the enemy position."],
+  ["spokesman", "/ˈspəʊksmən/", "名词", "男发言人", "复数 spokesmen；中性说法 spokesperson，女性说法 spokeswoman", "A government spokesman confirmed the news this morning.", "The spokesman refused to comment on the ongoing investigation."],
+  ["trigger", "/ˈtrɪɡə/", "动词", "引发；触发", "trigger a reaction = 引发反应；过去式 triggered；也可作名词表示扳机", "A single careless remark can trigger a major argument.", "Certain foods trigger allergic reactions in sensitive people."],
+  ["acid", "/ˈæsɪd/", "形容词", "酸的；尖刻的", "an acid taste = 酸味；acid remarks = 尖刻的话；也可作名词表示酸", "The lemon left a sharp, acid taste in her mouth.", "His acid remarks about her work left her close to tears."],
+  ["assemble", "/əˈsembl/", "动词", "集合；组装", "assemble a team = 组建团队；assemble furniture = 组装家具；名词 assembly", "Workers began to assemble the parts on the production line.", "Crowds assemble in the square every year to welcome the new year."],
+  ["spokesperson", "/ˈspəʊkspɜːsn/", "名词", "发言人", "不区分性别；act as a spokesperson for = 担任……的发言人", "The charity appointed a well-known actor as its spokesperson.", "A spokesperson for the airline apologised for the delays."],
+  ["trillion", "/ˈtrɪljən/", "数词", "万亿；兆", "相当于 10 的 12 次方；three trillion dollars = 三万亿美元；trillions of = 数以万亿计的", "The national debt has now passed one trillion dollars.", "Scientists estimate the galaxy contains a trillion stars."],
+  ["acquisition", "/ˌækwɪˈzɪʃn/", "名词", "收购；获得；习得", "corporate acquisition = 企业收购；language acquisition = 语言习得", "The bank announced the acquisition of a smaller rival.", "Early childhood is crucial for language acquisition."],
+];
+
+export const C1_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["assembly", "/əˈsembli/", "名词", "集会；议会；组装", "school assembly = 学校集会；the National Assembly = 国民议会；assembly line = 装配线", "The whole school gathered for assembly in the main hall.", "Cars move slowly along the assembly line as robots weld each part."],
+  ["spokeswoman", "/ˈspəʊkswʊmən/", "名词", "女发言人", "复数 spokeswomen；男性说法 spokesman，中性说法 spokesperson", "A spokeswoman for the hospital denied that staff had been negligent.", "The spokeswoman promised that a full statement would follow shortly."],
+  ["troop", "/truːp/", "名词", "部队；一群", "troops 常指士兵；a troop of scouts = 一队童子军；withdraw troops = 撤军", "A troop of scouts marched past the town hall on parade.", "The government agreed to withdraw its troops from the region."],
+  ["acre", "/ˈeɪkə/", "名词", "英亩", "约 4047 平方米；a ten-acre farm = 十英亩农场；acres of = 大片的", "The developer paid a fortune for every acre of the site.", "Behind the house stretched acres of golden wheat."],
+  ["assert", "/əˈsɜːt/", "动词", "断言；维护", "assert that = 断言；assert one’s rights = 维护自己的权利；assert oneself = 坚持自己的立场", "Critics continue to assert that the policy has failed.", "She learned to assert herself in meetings dominated by men."],
+  ["sponsorship", "/ˈspɒnsəʃɪp/", "名词", "赞助；资助", "corporate sponsorship = 企业赞助；secure sponsorship = 获得赞助", "The club relies on sponsorship from local businesses.", "They signed a lucrative sponsorship deal with a sportswear brand."],
+  ["tsunami", "/tsuːˈnɑːmi/", "名词", "海啸；汹涌而来的浪潮", "a tsunami struck = 海啸袭来；a tsunami of complaints = 大量投诉", "A massive tsunami struck the coast without any warning.", "The announcement triggered a tsunami of angry messages online."],
+  ["activation", "/ˌæktɪˈveɪʃn/", "名词", "激活；启动", "account activation = 账户激活；activation code = 激活码", "You will receive an email to confirm the activation of your account.", "The alarm's activation sent everyone rushing to the exits."],
+  ["assertion", "/əˈsɜːʃn/", "名词", "断言；坚决主张", "make an assertion = 作出断言；a sweeping assertion = 笼统的断言", "Her confident assertion that the figures had been falsified startled the whole committee.", "Such a sweeping assertion really needs far stronger evidence to back it up."],
+  ["sporting", "/ˈspɔːtɪŋ/", "形容词", "体育的；有体育精神的", "a sporting chance = 尚可一试的机会；a sporting gesture = 有风度的举动", "It was a remarkably sporting gesture to congratulate the rival who had just beaten him.", "The underdogs still have a sporting chance of reaching the final if they win tonight."],
+  ["ultimate", "/ˈʌltɪmət/", "形容词", "最终的；极致的", "the ultimate goal = 最终目标；the ultimate luxury = 极致的奢华", "Their ultimate aim was to make the technology affordable for ordinary households.", "For many critics, this remains the ultimate expression of his artistic vision."],
+  ["activist", "/ˈæktɪvɪst/", "名词", "社会活动家", "human-rights activist = 人权活动家；climate activist = 气候行动人士", "A group of veteran activists chained themselves to the factory gates in protest.", "She became a committed activist after witnessing the eviction of her neighbours."],
+  ["assurance", "/əˈʃʊərəns/", "名词", "保证；自信", "give an assurance = 作出保证；with assurance = 自信地", "He gave repeated assurances that no jobs would be lost in the merger.", "She handled the hostile questions with remarkable assurance."],
+  ["stall", "/stɔːl/", "名词", "摊位；隔间；停滞", "market stall = 市场摊位；也可作动词表示拖延或熄火", "We bought roasted chestnuts from a stall on the corner of the square.", "Every stall at the craft fair was offering something handmade."],
+];
