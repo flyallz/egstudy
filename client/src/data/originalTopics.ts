@@ -4646,3 +4646,37 @@ export const GOVERNMENT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "referendum": ["这次全民公投使各政党内部出现分歧。", "公投与地方选举在同一天举行。"],
   "general election": ["大选提前两年举行。", "她已经参加过四次大选竞选。"],
 };
+
+export const GOVERNMENT_THIRD_LESSON: OriginalTopicWord[] = [
+  ["by-election", "/ˌbaɪ ɪˈlekʃən/", "名词", "补选", "可数；trigger/lose a by-election", "The resignation triggered a by-election.", "They lost the by-election on a low turnout."],
+  ["electoral system", "/ɪˈlektərəl ˈsɪstəm/", "名词短语", "选举制度", "可数；reform the electoral system", "The electoral system rewards concentrated support.", "Reforming the electoral system was rejected by referendum."],
+  ["first past the post", "/ˌfɜːst pɑːst ðə ˈpəʊst/", "名词短语", "相对多数制；得票最多者当选的制度", "不可数；under first past the post", "Under first past the post a third of the vote can win a majority.", "First past the post produces decisive results and unhappy minorities."],
+  ["proportional representation", "/prəˌpɔːʃənl ˌreprɪzenˈteɪʃən/", "名词短语", "比例代表制", "不可数；adopt proportional representation", "Proportional representation gave the small parties seats at last.", "The assembly uses proportional representation; the parliament does not."],
+  ["constituency", "/kənˈstɪtjuənsi/", "名词", "选区", "可数；a marginal constituency；represent a constituency", "She represents a marginal constituency on the coast.", "Constituency boundaries were redrawn in 2019."],
+  ["electorate", "/ɪˈlektərət/", "名词", "全体选民", "可数，通常单数；the electorate votes", "The electorate has grown younger and less loyal.", "Half the electorate stayed at home."],
+  ["turnout", "/ˈtɜːnaʊt/", "名词", "投票率；投票人数", "可数或不可数；a low/record turnout", "Turnout fell below forty per cent.", "A record turnout surprised both campaigns."],
+  ["ballot paper", "/ˈbælət ˌpeɪpə/", "名词短语", "选票", "可数；mark/spoil a ballot paper", "Nine hundred ballot papers were spoiled.", "The ballot paper listed eleven candidates."],
+  ["polling station", "/ˈpəʊlɪŋ ˌsteɪʃən/", "名词短语", "投票站", "可数；at/open a polling station", "The polling station opens at seven.", "Queues formed outside every polling station."],
+  ["postal vote", "/ˈpəʊstl vəʊt/", "名词短语", "邮寄选票；邮寄投票", "可数；apply for a postal vote", "Postal votes decided two seats.", "She applied for a postal vote from hospital."],
+  ["manifesto", "/ˌmænɪˈfestəʊ/", "名词", "竞选纲领；宣言", "可数；publish a manifesto；a manifesto commitment", "The manifesto promised nine new hospitals.", "Nothing in the manifesto mentioned the sale."],
+  ["swing voter", "/ˌswɪŋ ˈvəʊtə/", "名词短语", "摇摆选民", "可数；target a swing voter", "Both campaigns chase the same swing voters.", "Swing voters decided the outcome in four seats."],
+  ["mandate", "/ˈmændeɪt/", "名词", "选民授权；执政授权", "可数；claim/have a mandate for + 名词", "They claimed a mandate on a third of the vote.", "The government has no mandate for that sale."],
+  ["landslide victory", "/ˌlændslaɪd ˈvɪktəri/", "名词短语", "压倒性胜利", "可数；win a landslide victory", "The party won a landslide victory and lost its direction.", "A landslide victory hides a shallow coalition of voters."],
+];
+
+export const GOVERNMENT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "by-election": ["辞职事件引发了一场补选。", "他们因投票率低而输掉了补选。"],
+  "electoral system": ["这种选举制度有利于支持者集中在少数地区的政党。", "改革选举制度的提议在公投中遭到否决。"],
+  "first past the post": ["在相对多数制下，获得三分之一的选票也可能赢得多数席位。", "相对多数制能产生明确的结果，却令少数派不满。"],
+  "proportional representation": ["比例代表制终于让小党获得了议席。", "地方议会采用比例代表制，国家议会则没有。"],
+  "constituency": ["她代表沿海地区一个选情胶着的选区。", "选区边界于 2019 年重新划定。"],
+  "electorate": ["选民群体变得更年轻，对政党的忠诚度也降低了。", "半数选民没有出门投票。"],
+  "turnout": ["投票率降到了百分之四十以下。", "创纪录的投票率让双方竞选阵营都感到意外。"],
+  "ballot paper": ["有九百张选票被判无效。", "选票上列有十一名候选人。"],
+  "polling station": ["投票站七点开放。", "每个投票站外都排起了队。"],
+  "postal vote": ["邮寄选票决定了两个议席的归属。", "她在医院申请了邮寄投票。"],
+  "manifesto": ["竞选纲领承诺新建九所医院。", "竞选纲领中完全没有提及这次出售。"],
+  "swing voter": ["两个竞选阵营都在争取同一批摇摆选民。", "四个选区的选举结果由摇摆选民决定。"],
+  "mandate": ["他们只获得三分之一的选票，却声称得到了选民授权。", "政府并未获得出售那项资产的选民授权。"],
+  "landslide victory": ["该党赢得压倒性胜利，却迷失了方向。", "压倒性胜利掩盖了选民联盟基础薄弱的事实。"],
+};
