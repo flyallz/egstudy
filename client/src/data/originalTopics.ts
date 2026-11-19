@@ -3726,3 +3726,37 @@ export const TRANSPORT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "freight train": ["夜间，货运列车会经过这个车站。", "一列货车能替代四十辆卡车。"],
   "container ship": ["这艘集装箱船等了六天才获得泊位。", "集装箱船变大的速度超过了港口扩建的速度。"],
 };
+
+export const TRANSPORT_THIRD_LESSON: OriginalTopicWord[] = [
+  ["budget airline", "/ˈbʌdʒɪt ˌeəlaɪn/", "名词短语", "廉价航空公司", "可数；fly with a budget airline", "A budget airline opened the route in 2003.", "Budget airlines charge for every bag."],
+  ["road network", "/ˈrəʊd ˌnetwɜːk/", "名词短语", "道路网络", "可数；maintain/expand a road network", "The road network was built for half this traffic.", "Maintaining the road network costs more than building it."],
+  ["motorway", "/ˈməʊtəweɪ/", "名词", "高速公路", "可数；join/widen a motorway", "The motorway was widened to six lanes.", "Two motorways meet north of the city."],
+  ["dual carriageway", "/ˌdjuːəl ˈkærɪdʒweɪ/", "名词短语", "双幅分隔道路", "可数；a dual carriageway runs", "A dual carriageway separates the estate from the shops.", "The road becomes a dual carriageway after the bridge."],
+  ["ring road", "/ˈrɪŋ rəʊd/", "名词短语", "环城路；环线道路", "可数；build an inner ring road", "The inner ring road cut three districts in half.", "A ring road removed lorries from the centre."],
+  ["bypass", "/ˈbaɪpɑːs/", "名词", "绕行道路；城镇外环路", "可数；build/open a bypass", "The bypass took the traffic and the trade.", "A bypass opened in 1996 and the high street emptied."],
+  ["slip road", "/ˈslɪp rəʊd/", "名词短语", "高速公路匝道", "可数；join/leave by a slip road", "The slip road backs up every evening.", "Lorries queue on the slip road for the terminal."],
+  ["junction", "/ˈdʒʌŋkʃn/", "名词", "路口；交叉路口", "可数；redesign a busy junction", "The junction has been redesigned twice.", "Four roads meet at the junction with no signals."],
+  ["roundabout", "/ˈraʊndəbaʊt/", "名词", "环岛；环形交叉口", "可数；approach a mini roundabout", "A mini roundabout replaced the signals.", "The roundabout carries forty thousand vehicles a day."],
+  ["flyover", "/ˈflaɪəʊvə/", "名词", "高架桥；立交桥", "可数；build/demolish a flyover", "The flyover was demolished after forty years.", "A flyover carries the road over the railway."],
+  ["toll road", "/ˈtəʊl rəʊd/", "名词短语", "收费公路", "可数；use/build a toll road", "The toll road stays empty while the old route jams.", "Toll roads are rare in this country."],
+  ["hard shoulder", "/ˌhɑːd ˈʃəʊldə/", "名词短语", "高速公路应急停车带", "通常单数；stop on the hard shoulder", "The hard shoulder was converted into a running lane.", "Breaking down without a hard shoulder is dangerous."],
+  ["lay-by", "/ˈleɪ baɪ/", "名词", "路边临时停车区", "可数；pull into a lay-by", "Lorry drivers sleep in the lay-by all week.", "He pulled into a lay-by to check the map."],
+  ["central reservation", "/ˌsentrəl rezəˈveɪʃn/", "名词短语", "道路中央隔离带", "可数；cross a central reservation", "Planting on the central reservation hides the headlights.", "The barrier runs along the central reservation."],
+];
+
+export const TRANSPORT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "budget airline": ["一家廉价航空公司于 2003 年开通了这条航线。", "廉价航空公司对每件行李都收费。"],
+  "road network": ["这套道路网络当初按如今一半的车流量设计。", "维护道路网络比修建它还贵。"],
+  "motorway": ["这条高速公路拓宽成了六车道。", "两条高速公路在城市北面交会。"],
+  "dual carriageway": ["一条双幅分隔道路把住宅区和商店隔开。", "过桥后，这条路变成双幅分隔道路。"],
+  "ring road": ["内环路把三个区都一分为二。", "环城路让卡车不再穿过市中心。"],
+  "bypass": ["绕城路带走了车流，也带走了生意。", "1996 年绕城路通车后，商业街冷清了下来。"],
+  "slip road": ["这条匝道每晚都会堵车。", "卡车在通往航站楼的匝道上排队。"],
+  "junction": ["这个路口已经重新设计过两次。", "四条道路在没有信号灯的路口交会。"],
+  "roundabout": ["一个小环岛取代了交通信号灯。", "这个环岛每天通行四万辆车。"],
+  "flyover": ["这座高架桥使用四十年后被拆除了。", "高架桥让公路从铁路上方跨过。"],
+  "toll road": ["收费公路空荡荡的，旧路却堵得水泄不通。", "收费公路在这个国家很少见。"],
+  "hard shoulder": ["应急停车带被改成了行车道。", "没有应急停车带时发生车辆故障很危险。"],
+  "lay-by": ["货车司机整周都在路边停车区过夜。", "他驶入路边停车区查看地图。"],
+  "central reservation": ["中央隔离带上的植物挡住了对向车灯。", "护栏沿着中央隔离带延伸。"],
+};
