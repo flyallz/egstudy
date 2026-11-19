@@ -4590,3 +4590,29 @@ export const CRIME_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "come clean": ["他坦白了第二个账户的事。", "直到审计开始，她才说出真相。"],
   "on the run": ["他逃亡了四个月。", "他们开始逃亡，最终在一处露营地被找到。"],
 };
+
+export const GOVERNMENT_FIRST_LESSON: OriginalTopicWord[] = [
+  ["democracy", "/dɪˈmɒkrəsi/", "名词", "民主制度；民主政体", "可数或不可数；a parliamentary democracy；defend democracy", "Democracy here survived two attempted coups.", "A parliamentary democracy depends on an opposition with teeth."],
+  ["dictatorship", "/dɪkˈteɪtəʃɪp/", "名词", "独裁统治；独裁政权", "可数；a military dictatorship；live under a dictatorship", "The dictatorship lasted nineteen years.", "They lived under a military dictatorship until 1985."],
+  ["constitutional monarchy", "/ˌkɒnstɪˈtjuːʃənl ˈmɒnəki/", "名词短语", "君主立宪制；君主立宪国家", "可数；a constitutional monarchy", "A constitutional monarchy leaves the real power with parliament.", "The country became a constitutional monarchy in 1849."],
+  ["republic", "/rɪˈpʌblɪk/", "名词", "共和国；共和政体", "可数；declare a republic；a federal republic", "The republic was declared after the referendum.", "A federal republic shares power with its regions."],
+  ["federal system", "/ˈfedərəl ˈsɪstəm/", "名词短语", "联邦制度", "可数；a federal system of government", "A federal system gives the provinces their own taxes.", "The federal system has been renegotiated twice."],
+  ["one-party state", "/ˌwʌn ˈpɑːti steɪt/", "名词短语", "一党制国家", "可数；a one-party state", "The country was a one-party state for a generation.", "A one-party state has no mechanism for admitting error."],
+  ["coalition government", "/ˌkəʊəˈlɪʃən ˈɡʌvənmənt/", "名词短语", "联合政府；联合内阁", "可数；form a coalition government", "A coalition government was formed after nine weeks.", "The coalition government collapsed over the budget."],
+  ["minority government", "/maɪˌnɒrəti ˈɡʌvənmənt/", "名词短语", "少数派政府", "可数；a minority government survives", "The minority government survived on a confidence deal.", "A minority government cannot pass contested bills."],
+  ["caretaker government", "/ˈkeəteɪkə ˈɡʌvənmənt/", "名词短语", "看守政府；临时政府", "可数；a caretaker government holds office", "A caretaker government held office until the election.", "The caretaker government took no major decisions."],
+  ["local government", "/ˌləʊkl ˈɡʌvənmənt/", "名词短语", "地方政府；地方行政机构", "不可数；reform/fund local government", "Local government lost half its funding in a decade.", "Local government reform merged nine districts into three."],
+];
+
+export const GOVERNMENT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "democracy": ["这里的民主制度挺过了两次未遂政变。", "议会民主制依赖有力的反对派。"],
+  "dictatorship": ["独裁统治持续了十九年。", "直到 1985 年，他们一直生活在军事独裁统治下。"],
+  "constitutional monarchy": ["在君主立宪制下，实权由议会掌握。", "这个国家于 1849 年成为君主立宪制国家。"],
+  "republic": ["公投结束后宣布成立共和国。", "联邦共和国与各地区分享权力。"],
+  "federal system": ["联邦制度赋予各省自行征税的权力。", "联邦制度已经重新谈判过两次。"],
+  "one-party state": ["这个国家实行一党制长达一代人的时间。", "一党制国家缺乏承认错误的机制。"],
+  "coalition government": ["九周后组成了联合政府。", "联合政府因预算争议而垮台。"],
+  "minority government": ["少数派政府凭借一项信任协议得以维持。", "少数派政府无法通过有争议的法案。"],
+  "caretaker government": ["临时政府执政至选举举行。", "看守政府没有作出任何重大决定。"],
+  "local government": ["十年间，地方政府的经费减少了一半。", "地方政府改革将九个行政区合并为三个。"],
+};
