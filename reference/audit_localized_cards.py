@@ -86,3 +86,5 @@ check("Crime", "client/src/data/originalTopics.ts", "reference/original-topic-cs
 check("Government", "client/src/data/originalTopics.ts", "reference/original-topic-csv/government-policy.csv", "GOVERNMENT", 10)
 check("Media", "client/src/data/originalTopics.ts", "reference/original-topic-csv/media-advertising.csv", "MEDIA", 10)
 check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/culture-heritage.csv", "CULTURE", 10)
+
+check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-topic-csv/globalisation-trade.csv", "GLOBALISATION", 1)

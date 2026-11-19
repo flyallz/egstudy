@@ -5970,3 +5970,29 @@ export const CULTURE_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "the jewel in the crown": ["这座图书馆是整个收藏体系中最珍贵的部分。", "这座博物馆曾是最耀眼的明珠，如今却成了储藏室。"],
   "behind the scenes": ["每位表演者背后都有九个人在幕后工作。", "私底下，经费其实早已耗尽。"],
 };
+
+export const GLOBALISATION_FIRST_LESSON: OriginalTopicWord[] = [
+  ["globalisation", "/ˌɡləʊbəlaɪˈzeɪʃən/", "名词", "全球化进程", "不可数；economic globalisation；resist globalisation", "Globalisation moved the work and left the housing.", "Economic globalisation accelerated after 1990."],
+  ["global trade", "/ˌɡləʊbəl ˈtreɪd/", "名词短语", "全球贸易", "不可数；global trade grows/contracts", "Global trade contracted for the first time in decades.", "Global trade in grain depends on three exporting regions."],
+  ["free trade agreement", "/ˌfriː ˈtreɪd əɡriːmənt/", "名词短语", "自由贸易协定", "可数；sign a free trade agreement", "The free trade agreement took nine years to negotiate.", "A free trade agreement removed duty on nine thousand lines."],
+  ["trade bloc", "/ˈtreɪd blɒk/", "名词短语", "贸易集团；贸易区块", "可数；join/form a trade bloc", "Two trade blocs cover most of the continent.", "Joining the trade bloc changed every customs form."],
+  ["customs union", "/ˈkʌstəmz juːniən/", "名词短语", "关税同盟", "可数；be in/leave a customs union", "A customs union means one external tariff.", "Leaving the customs union added paperwork to every lorry."],
+  ["single market", "/ˌsɪŋɡəl ˈmɑːkɪt/", "名词短语", "单一市场；共同市场", "可数，常用单数；the single market allows", "The single market allows goods to move without checks.", "Access to the single market was the whole argument."],
+  ["multinational corporation", "/ˌmʌltiˈnæʃənəl ˌkɔːpəˈreɪʃən/", "名词短语", "跨国公司", "可数；a multinational corporation operates", "The multinational corporation pays tax in one jurisdiction and profits in nine.", "Two multinational corporations control the whole seed market."],
+  ["foreign direct investment", "/ˌfɒrən dəˌrekt ɪnˈvestmənt/", "名词短语", "外国直接投资", "不可数；attract foreign direct investment", "Foreign direct investment built the whole industrial strip.", "Foreign direct investment follows cheap labour and stable courts."],
+  ["offshoring", "/ˌɒfˈʃɔːrɪŋ/", "名词", "业务外迁；生产外包到海外", "不可数；offshoring of production", "Offshoring of production emptied two valleys.", "Offshoring reached professional work in the 2000s."],
+  ["global supply chain", "/ˌɡləʊbəl səˈplaɪ tʃeɪn/", "名词短语", "全球供应链", "可数；a global supply chain breaks", "One closed factory broke a global supply chain.", "Global supply chains were built for cost, not resilience."],
+];
+
+export const GLOBALISATION_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "globalisation": ["全球化把工作岗位转移走了，却留下了住房。", "经济全球化在 1990 年后加速。"],
+  "global trade": ["全球贸易数十年来首次萎缩。", "全球粮食贸易依赖三个出口地区。"],
+  "free trade agreement": ["这份自由贸易协定谈判了九年才达成。", "一份自由贸易协定取消了九千个税目上的关税。"],
+  "trade bloc": ["两个贸易集团覆盖了这片大陆的大部分地区。", "加入贸易集团改变了每一份海关表格。"],
+  "customs union": ["关税同盟意味着对外实行统一关税。", "退出关税同盟后，每辆货车都得多办文书手续。"],
+  "single market": ["单一市场允许货物免于检查而自由流通。", "整场争论的核心就是能否进入单一市场。"],
+  "multinational corporation": ["这家跨国公司在一个司法辖区纳税，却在另外九个辖区获利。", "两家跨国公司控制了整个种子市场。"],
+  "foreign direct investment": ["外国直接投资建起了整条工业带。", "外国直接投资会流向劳动力便宜、司法稳定的地方。"],
+  "offshoring": ["生产活动迁往海外，让两座山谷失去了工作机会。", "到 2000 年代，专业工作也开始外迁。"],
+  "global supply chain": ["一家工厂关闭，就打断了一条全球供应链。", "全球供应链的设计重视成本，却忽视了韧性。"],
+};
