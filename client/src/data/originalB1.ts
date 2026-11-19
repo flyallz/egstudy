@@ -1,4 +1,4 @@
-// B1 第 1–26 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–28 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -555,4 +555,60 @@ export const B1_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
   ["profession", "/prəˈfeʃn/", "名词", "职业；专业行当", "by profession = 以……为职业；常指需要专业训练的工作", "Teaching is a rewarding profession.", "She is a lawyer by profession."],
   ["profit", "/ˈprɒfɪt/", "名词", "利润；盈利", "make a profit = 盈利；反义词 loss", "The company made a big profit last year.", "They sold the house at a good profit."],
   ["promote", "/prəˈməʊt/", "动词", "提拔；推广；促进", "be promoted to = 晋升为；promote a product = 推广产品", "She was promoted to manager after two years.", "The company is promoting its new phone online."],
+];
+
+export const B1_TWENTY_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["proper", "/ˈprɒpə/", "形容词", "恰当的；合适的", "the proper way to do something = 做某事的正确方法", "You need the proper tools for this job.", "There wasn't a proper answer to my question."],
+  ["properly", "/ˈprɒpəli/", "副词", "正确地；妥善地", "do something properly = 妥善做某事；反义词 improperly", "Please close the door properly when you leave.", "The machine isn't working properly."],
+  ["property", "/ˈprɒpəti/", "名词", "财产；房产；性质", "personal property = 个人财产；properties of a material = 材料的性质", "The house is private property, so don't enter.", "Water has the property of dissolving many substances."],
+  ["protest", "/ˈprəʊtest/", "名词", "抗议；反对", "protest against something = 抗议某事；也可作动词", "Thousands joined the protest in the city centre.", "People protested against the new tax."],
+  ["proud", "/praʊd/", "形容词", "自豪的；得意的", "be proud of somebody/something = 为某人或某事自豪", "His parents are very proud of him.", "She felt proud to receive the award."],
+  ["prove", "/pruːv/", "动词", "证明；证实", "prove that ... = 证明……；过去分词可用 proved 或 proven", "The scientist tried to prove his theory.", "The journey proved to be longer than we expected."],
+  ["punish", "/ˈpʌnɪʃ/", "动词", "惩罚；处罚", "punish somebody for something = 因某事惩罚某人", "The teacher punished him for cheating.", "Society must punish serious crimes."],
+  ["punishment", "/ˈpʌnɪʃmənt/", "名词", "处罚；刑罚", "as a punishment for something = 作为对某事的惩罚", "Losing his phone was a fair punishment.", "The punishment for the crime was ten years in prison."],
+  ["qualification", "/ˌkwɒlɪfɪˈkeɪʃn/", "名词", "资格；学历；资质", "表示资历时常用复数 qualifications", "She has the right qualifications for the job.", "You need a teaching qualification to work here."],
+  ["qualified", "/ˈkwɒlɪfaɪd/", "形容词", "有资格的；合格的", "qualified to do something = 有资格做某事", "He is a fully qualified engineer.", "She isn't qualified to teach older students."],
+  ["qualify", "/ˈkwɒlɪfaɪ/", "动词", "取得资格；获得参赛资格", "qualify as something = 取得某种资格；qualify for = 入围", "She studied hard to qualify as a nurse.", "Our team qualified for the final."],
+  ["queue", "/kjuː/", "名词", "队列；排队", "既可作名词也可作动词；主要为英式用法", "There was a long queue outside the cinema.", "We had to queue for an hour to buy tickets."],
+  ["quit", "/kwɪt/", "动词", "离开；辞职；戒掉", "quit doing something = 停止做某事；过去式仍为 quit", "He quit his job to travel the world.", "I'm trying to quit smoking."],
+  ["quotation", "/kwəʊˈteɪʃn/", "名词", "引文；报价", "a quotation from a book = 书中引文；get a quotation = 获取报价", "She began her speech with a famous quotation.", "We asked the builder for a quotation."],
+  ["quote", "/kwəʊt/", "动词", "引用；报价", "quote somebody = 引用某人的话；也可作名词", "The newspaper quoted the president's exact words.", "She often quotes lines from her favourite films."],
+  ["racing", "/ˈreɪsɪŋ/", "名词", "竞速运动；赛马", "horse racing = 赛马；motor racing = 赛车", "He loves watching horse racing on weekends.", "Motor racing can be a dangerous sport."],
+  ["range", "/reɪndʒ/", "名词", "范围；种类；山脉", "a range of something = 一系列某物；price range = 价格区间", "The shop sells a wide range of products.", "Prices are in the range of 20 to 50 dollars."],
+  ["rare", "/reə/", "形容词", "稀有的；罕见的；半熟的", "a rare animal = 珍稀动物；反义词 common", "Pandas are a rare and protected animal.", "It's rare to see snow in this part of the country."],
+  ["rarely", "/ˈreəli/", "副词", "很少；难得", "频率副词；与 seldom 意思相近", "He rarely watches television these days.", "She rarely goes out during the week."],
+  ["reaction", "/riˈækʃn/", "名词", "反应；回应", "a reaction to something = 对某事的反应；an allergic reaction = 过敏反应", "What was her reaction to the news?", "He had a bad reaction to the medicine."],
+  ["reality", "/riˈæləti/", "名词", "现实；实际情况", "in reality = 事实上；face reality = 面对现实", "In reality, the job was much harder than I thought.", "She finds it hard to accept reality."],
+  ["receipt", "/rɪˈsiːt/", "名词", "收据；发票凭据", "keep the receipt = 留好收据；字母 p 不发音", "Please keep your receipt in case you want a refund.", "The shop assistant gave me a receipt for the shoes."],
+  ["recommendation", "/ˌrekəmenˈdeɪʃn/", "名词", "推荐；建议", "make a recommendation = 提出建议；on somebody's recommendation = 经某人推荐", "I chose this hotel on a friend's recommendation.", "The report made several useful recommendations."],
+  ["reference", "/ˈrefrəns/", "名词", "参考；推荐信；提及", "make a reference to something = 提及某事；a job reference = 求职推荐信", "She wrote me a good reference for the job.", "The book has a useful list of references at the end."],
+  ["reflect", "/rɪˈflekt/", "动词", "反射；反映；反思", "reflect on something = 认真思考某事", "The lake reflected the colours of the sky.", "He sat quietly and reflected on his mistakes."],
+];
+
+export const B1_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["regularly", "/ˈreɡjələli/", "副词", "经常地；定期地", "频率副词；反义词 rarely", "You should exercise regularly to stay healthy.", "We meet regularly to discuss the project."],
+  ["reject", "/rɪˈdʒekt/", "动词", "拒绝；驳回", "reject an offer/idea = 拒绝提议／想法；反义词 accept", "The company rejected his application.", "She rejected my suggestion without thinking."],
+  ["relate", "/rɪˈleɪt/", "动词", "有关联；讲述", "relate to something = 与某事有关；relate a story = 讲故事", "I can't see how these two problems relate.", "Young readers find it easy to relate to the hero."],
+  ["related", "/rɪˈleɪtɪd/", "形容词", "相关的；有亲属关系的", "be related to something/somebody = 与某事相关／与某人有亲属关系", "The two events are closely related.", "Are you related to the famous singer?"],
+  ["relation", "/rɪˈleɪʃn/", "名词", "关系；关联", "relation between A and B = A 与 B 的关系；in relation to = 关于", "There is a clear relation between smoking and illness.", "Our company has good relations with its customers."],
+  ["relative", "/ˈrelətɪv/", "形容词", "相对的；亲戚", "既可作形容词表示相对，也可作名词表示亲属", "They live in relative comfort now.", "All my relatives came to the wedding."],
+  ["relaxed", "/rɪˈlækst/", "形容词", "放松的；自在的", "形容人的感受；feel relaxed = 感到放松", "After the holiday I felt completely relaxed.", "He has a calm and relaxed manner."],
+  ["relaxing", "/rɪˈlæksɪŋ/", "形容词", "令人放松的", "形容能使人放松的事物或活动", "A hot bath is very relaxing after work.", "We spent a relaxing weekend by the sea."],
+  ["release", "/rɪˈliːs/", "动词", "发布；释放", "release a film = 发行电影；release a prisoner = 释放囚犯", "The band will release their new album next month.", "The police released him without charge."],
+  ["reliable", "/rɪˈlaɪəbl/", "形容词", "可靠的；可信赖的", "a reliable friend = 可靠的朋友；反义词 unreliable", "She is a reliable worker who never misses a deadline.", "We need a reliable source of information."],
+  ["religion", "/rɪˈlɪdʒən/", "名词", "宗教；宗教信仰", "freedom of religion = 宗教信仰自由", "People of every religion were welcome at the event.", "Religion plays an important part in her life."],
+  ["religious", "/rɪˈlɪdʒəs/", "形容词", "宗教的；虔诚的", "religious beliefs = 宗教信仰；a religious person = 虔诚的人", "They hold religious ceremonies every week.", "Her grandmother is a very religious woman."],
+  ["remain", "/rɪˈmeɪn/", "动词", "保持；剩余", "remain + 形容词 = 保持某种状态；与 stay 相近", "Only a few tickets remain for the concert.", "Please remain calm and leave the building slowly."],
+  ["remind", "/rɪˈmaɪnd/", "动词", "提醒；使想起", "remind somebody to do something = 提醒某人做某事", "Please remind me to call the doctor.", "This song reminds me of my childhood."],
+  ["remote", "/rɪˈməʊt/", "形容词", "偏远的；远程的", "a remote area = 偏远地区；remote control = 遥控器", "They live in a remote village in the mountains.", "You can turn off the TV with the remote control."],
+  ["renewable", "/rɪˈnjuːəbl/", "形容词", "可再生的", "renewable energy = 可再生能源；反义词 non-renewable", "Solar power is a clean and renewable source of energy.", "Many countries are investing in renewable energy."],
+  ["rent", "/rent/", "名词", "租金；租用；出租", "pay the rent = 付租金；rent a flat = 租公寓", "My monthly rent has gone up again this year.", "We decided to rent a car for the weekend trip."],
+  ["repeated", "/rɪˈpiːtɪd/", "形容词", "反复的；多次的", "repeated attempts = 多次尝试；来自 repeat", "Despite repeated warnings, he kept arriving late.", "She passed the exam after repeated attempts."],
+  ["represent", "/ˌreprɪˈzent/", "动词", "代表；象征；表现", "represent a country = 代表国家；represent something = 象征某物", "She was chosen to represent her school at the competition.", "The red line on the map represents the border."],
+  ["require", "/rɪˈkwaɪə/", "动词", "需要；要求", "be required to do something = 被要求做某事；比 need 正式", "This job requires a lot of patience.", "All visitors are required to show their ID."],
+  ["reservation", "/ˌrezəˈveɪʃn/", "名词", "预订；保留意见", "make a reservation = 预订；have reservations about = 对……有所保留", "I'd like to make a reservation for two people at eight.", "She had some reservations about the new plan."],
+  ["resource", "/rɪˈsɔːs/", "名词", "资源；资料", "natural resources = 自然资源；常用复数", "Water is a precious natural resource.", "The library is a great resource for students."],
+  ["respect", "/rɪˈspekt/", "名词", "尊重；敬意", "respect for somebody = 对某人的尊重；也可作动词", "Children should show respect for their teachers.", "I respect her decision, even if I disagree."],
+  ["responsibility", "/rɪˌspɒnsəˈbɪləti/", "名词", "责任；职责", "take responsibility for something = 对某事负责", "It is your responsibility to lock the door at night.", "He took full responsibility for the mistake."],
+  ["responsible", "/rɪˈspɒnsəbl/", "形容词", "负责的；有责任心的", "be responsible for somebody/something = 对某人或某事负责", "She is responsible for training the new staff.", "We need a responsible person to look after the children."],
 ];
