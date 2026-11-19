@@ -3266,3 +3266,37 @@ export const CITIES_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "civic pride": ["修复后的公共浴场成了市民自豪感的来源。", "企业关门后，市民的自豪感比建筑物保存得更久。"],
   "zoning": ["严格的分区规划将住宅与工场隔开。", "放宽分区规定后，公寓之间也能开咖啡馆了。"],
 };
+
+export const CITIES_THIRD_LESSON: OriginalTopicWord[] = [
+  ["land value", "/ˈlænd ˌvæljuː/", "名词短语", "土地价值；地价", "可数或不可数；land values rise；capture land value", "Land values trebled once the line was announced.", "The levy captures part of the land value created."],
+  ["master plan", "/ˈmɑːstə plæn/", "名词短语", "总体规划", "可数；draw up/follow a master plan", "The master plan was drawn up before the floods.", "Nothing in the quarter follows the master plan."],
+  ["planning permission", "/ˈplænɪŋ pəˌmɪʃn/", "名词短语", "规划许可；建设许可", "不可数；apply for/be refused planning permission", "They were refused planning permission twice.", "Planning permission came with sixty conditions."],
+  ["high-rise", "/ˈhaɪ raɪz/", "名词", "高层建筑", "可数；a cluster of high-rises", "Six high-rises replaced the terraces.", "The high-rise has no lift above the tenth floor."],
+  ["skyline", "/ˈskaɪlaɪn/", "名词", "城市天际线", "可数；dominate/alter the skyline", "One tower now dominates the skyline.", "The skyline changed beyond recognition in a decade."],
+  ["landmark", "/ˈlændmɑːk/", "名词", "地标；标志性建筑", "可数；a famous/listed landmark", "The water tower is the only landmark for miles.", "The bridge became a landmark it was never meant to be."],
+  ["pedestrian zone", "/pəˈdestriən zəʊn/", "名词短语", "步行区；步行街区", "可数；create/extend a pedestrian zone", "The pedestrian zone was extended to the cathedral.", "Shops inside the pedestrian zone report higher footfall."],
+  ["public space", "/ˌpʌblɪk ˈspeɪs/", "名词短语", "公共空间", "可数或不可数；defend/privatise public space", "Benches were removed from every public space.", "The square is the only real public space left."],
+  ["civic centre", "/ˌsɪvɪk ˈsentə/", "名词短语", "市政中心", "可数；a new civic centre", "The civic centre houses the registry and the library.", "A concrete civic centre replaced the old arcade."],
+  ["town hall", "/ˌtaʊn ˈhɔːl/", "名词短语", "市政厅", "可数；outside/meet at the town hall", "The protest filled the steps of the town hall.", "Decisions are taken in the town hall, not the ward."],
+  ["market square", "/ˈmɑːkɪt skweə/", "名词短语", "集市广场", "可数；in/cross the market square", "Stalls fill the market square twice a week.", "The market square doubles as a car park."],
+  ["promenade", "/ˌprɒməˈnɑːd/", "名词", "滨海或滨河步道", "可数；walk along the promenade", "The promenade was rebuilt after the storm.", "Families walk the promenade on Sunday evenings."],
+  ["pocket park", "/ˈpɒkɪt pɑːk/", "名词短语", "口袋公园；街区小公园", "可数；create a pocket park", "A pocket park replaced two parking bays.", "Pocket parks cost little and are used all day."],
+  ["playground", "/ˈpleɪɡraʊnd/", "名词", "儿童游乐场", "可数；build a fenced playground", "A playground replaced the gap site.", "The nearest playground is a bus ride away."],
+];
+
+export const CITIES_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "land value": ["线路一公布，沿线地价就涨到了原来的三倍。", "这项征税收回了新增土地价值的一部分。"],
+  "master plan": ["总体规划是在洪水发生前制定的。", "这个街区没有一处符合总体规划。"],
+  "planning permission": ["他们两次被拒绝颁发规划许可。", "这份规划许可附带六十项条件。"],
+  "high-rise": ["六栋高层建筑取代了成排的联排住宅。", "这栋高楼的电梯到不了十楼以上。"],
+  "skyline": ["如今一座高塔主导着城市天际线。", "十年间，这座城市的天际线变得面目全非。"],
+  "landmark": ["方圆数英里内，这座水塔是唯一的地标。", "这座桥意外成了地标。"],
+  "pedestrian zone": ["步行区扩展到了大教堂。", "步行区内的商店报告客流量有所上升。"],
+  "public space": ["每处公共空间的长椅都被拆走了。", "这个广场是仅存的真正公共空间。"],
+  "civic centre": ["市政中心设有登记处和图书馆。", "一座混凝土市政中心取代了旧拱廊。"],
+  "town hall": ["抗议者站满了市政厅的台阶。", "决策是在市政厅作出的，而不是在选区。"],
+  "market square": ["每周两次，摊位都会摆满集市广场。", "集市广场还兼作停车场。"],
+  "promenade": ["暴风雨后，滨海步道得以重建。", "周日傍晚，家家户户沿着步道散步。"],
+  "pocket park": ["两个停车位被改成了一座口袋公园。", "口袋公园花费不多，却整天都有人使用。"],
+  "playground": ["一座儿童游乐场取代了那块空地。", "最近的儿童游乐场也得坐公交才能到。"],
+};
