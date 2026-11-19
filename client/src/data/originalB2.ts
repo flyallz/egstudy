@@ -32,3 +32,36 @@ export const B2_SECOND_LESSON: OriginalA2Word[] = [
   ["budget", "/ˈbʌdʒɪt/", "名词", "预算；经费", "on a tight budget = 预算紧张；a budget hotel = 经济型酒店", "We managed to stay within our budget this month.", "The government announced cuts to the education budget."],
   ["creature", "/ˈkriːtʃə/", "名词", "生物；动物", "living creatures = 生物；常指活着的动物", "Owls are fascinating creatures that hunt at night.", "The deep ocean is home to many strange creatures."],
 ];
+
+export const B2_THIRD_LESSON: OriginalA2Word[] = [
+  ["acknowledge", "/əkˈnɒlɪdʒ/", "动词", "承认；认可；确认收到", "acknowledge that ... = 承认……；acknowledge receipt of = 确认收到", "He refused to acknowledge that he was wrong.", "Please acknowledge receipt of this email as soon as possible."],
+  ["bullet", "/ˈbʊlɪt/", "名词", "子弹；项目符号", "a bullet wound = 枪伤；bullet points = 列表符号", "The bullet missed him by only a few centimetres.", "List the main ideas as bullet points on the slide."],
+  ["acquire", "/əˈkwaɪə/", "动词", "获得；习得；收购", "acquire a skill = 学会一项技能；acquire a company = 收购公司", "She acquired a good knowledge of Spanish while living abroad.", "The firm acquired three smaller companies last year."],
+  ["bunch", "/bʌntʃ/", "名词", "束；串；一群", "a bunch of flowers/grapes = 一束花／一串葡萄", "He gave her a bunch of flowers for her birthday.", "A bunch of us are going to the beach this weekend."],
+  ["crew", "/kruː/", "名词", "全体船员；机组；工作团队", "a film crew = 摄制组；the ship's crew = 船员", "The entire crew survived the shipwreck.", "A film crew was setting up cameras in the street."],
+  ["actual", "/ˈæktʃuəl/", "形容词", "实际的；真实的", "the actual cost = 实际成本；不表示‘当前的’", "The actual cost was much higher than we had expected.", "Nobody knows the actual number of people affected."],
+  ["crisis", "/ˈkraɪsɪs/", "名词", "危机；危急关头", "复数 crises；an economic crisis = 经济危机", "The country is facing a serious economic crisis.", "The government has handled several crises this year."],
+  ["adapt", "/əˈdæpt/", "动词", "适应；改编", "adapt to something = 适应某事；adapt a book into a film = 把书改编成电影", "It took her a while to adapt to life in a new city.", "The novel was adapted into a successful film."],
+  ["bush", "/bʊʃ/", "名词", "灌木；荒野", "a rose bush = 玫瑰丛；beat about the bush = 拐弯抹角", "A rabbit was hiding behind the bush.", "Stop beating about the bush and tell me the truth."],
+  ["criterion", "/kraɪˈtɪəriən/", "名词", "准则；标准", "复数 criteria；meet the criteria = 符合标准", "Price is not the only criterion we take into account.", "Applicants must meet all the criteria for the job."],
+  ["additional", "/əˈdɪʃənl/", "形容词", "额外的；补充的", "additional information = 补充信息；与 extra 相近", "There is an additional charge for breakfast at the hotel.", "We need some additional information before we proceed."],
+  ["critic", "/ˈkrɪtɪk/", "名词", "评论家；批评者", "a film critic = 影评人；与 critical（形容词）区分", "The film received glowing reviews from the critics.", "She is one of the government's harshest critics."],
+  ["cable", "/ˈkeɪbl/", "名词", "电缆；有线电视", "an electric cable = 电缆；cable TV = 有线电视", "The electrician replaced the old cable behind the wall.", "We watch most of our films on cable TV."],
+];
+
+export const B2_FOURTH_LESSON: OriginalA2Word[] = [
+  ["critical", "/ˈkrɪtɪkl/", "形容词", "批评的；关键的；危急的", "be critical of something = 批评某事；in critical condition = 病情危重", "She was very critical of the way the project was managed.", "The next few days will be critical for the peace talks."],
+  ["administration", "/ədˌmɪnɪˈstreɪʃn/", "名词", "管理；行政部门；政府", "business administration = 企业管理；the administration = 政府", "The administration of the hospital clearly needs to improve.", "The new administration promised lower taxes."],
+  ["calculate", "/ˈkælkjuleɪt/", "动词", "计算；估算", "calculate the cost/risk = 计算成本／风险", "Let me calculate how much the whole trip will cost.", "Scientists calculated the distance to the nearest star."],
+  ["criticism", "/ˈkrɪtɪsɪzəm/", "名词", "批评；批判", "constructive criticism = 建设性批评；face criticism = 面临批评", "The new plan has attracted a great deal of criticism.", "He finds it hard to accept any criticism of his work."],
+  ["adopt", "/əˈdɒpt/", "动词", "收养；采用；通过", "adopt a child = 收养孩子；adopt a policy = 采用政策", "They decided to adopt a child from overseas.", "The company adopted a new marketing strategy last year."],
+  ["cancel", "/ˈkænsl/", "动词", "取消；撤销", "cancel a meeting/flight = 取消会议／航班", "We had to cancel the trip because of the storm.", "Her flight was cancelled due to bad weather."],
+  ["criticize", "/ˈkrɪtɪsaɪz/", "动词", "批评；指责", "criticize somebody for doing something = 因某事批评某人；英式拼写 criticise", "The press criticized the government for its slow response.", "It's easy to criticize, but much harder to offer solutions."],
+  ["advance", "/ədˈvɑːns/", "名词", "进展；预付款", "advances in technology = 技术进步；in advance = 提前", "Recent advances in medicine have saved countless lives.", "Please book your tickets well in advance."],
+  ["cancer", "/ˈkænsə/", "名词", "癌症", "lung/breast cancer = 肺癌／乳腺癌", "Early detection of cancer can save lives.", "He was diagnosed with lung cancer last spring."],
+  ["crop", "/krɒp/", "名词", "农作物；收成", "grow/harvest crops = 种植／收获庄稼", "Farmers are worried that the drought will ruin their crops.", "This year's wheat crop was the best in a decade."],
+  ["affair", "/əˈfeə/", "名词", "事情；事务；婚外情", "current affairs = 时事；have an affair = 有婚外情", "The wedding was a grand affair with hundreds of guests.", "He was having an affair with a colleague."],
+  ["capable", "/ˈkeɪpəbl/", "形容词", "有能力的；能干的", "capable of doing something = 有能力做某事；反义词 incapable", "She is perfectly capable of looking after herself.", "The new engine is capable of remarkable speeds."],
+  ["crucial", "/ˈkruːʃl/", "形容词", "至关重要的；关键的", "crucial to/for something = 对某事至关重要；语气强于 important", "Getting enough sleep is crucial for good health.", "This is a crucial moment in the country's history."],
+  ["afterwards", "/ˈɑːftəwədz/", "副词", "随后；后来", "可置于句首或句末；美式拼写 afterward", "We had dinner and went for a long walk afterwards.", "Afterwards, she realized she had made a mistake."],
+];
