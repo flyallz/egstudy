@@ -3696,3 +3696,33 @@ export const TRANSPORT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, strin
   "intercity service": ["这班城际列车只停四站。", "城际列车服务被削减为每小时一班。"],
   "bus route": ["这条公交线路未经征询意见就被取消了。", "两条公交线路在市场交会。"],
 };
+
+export const TRANSPORT_SECOND_LESSON: OriginalTopicWord[] = [
+  ["coach", "/kəʊtʃ/", "名词", "长途客车", "可数；take a long-distance coach", "The overnight coach is cheaper than any train.", "Coaches leave from the back of the station."],
+  ["ferry", "/ˈferi/", "名词", "渡船；轮渡", "可数；take a car ferry", "The ferry crosses in twenty minutes.", "A car ferry serves the island twice a day."],
+  ["cable car", "/ˈkeɪbl kɑː/", "名词短语", "缆车", "可数；ride a cable car", "A cable car carries workers up the valley side.", "The cable car stops in high wind."],
+  ["taxi rank", "/ˈtæksi ræŋk/", "名词短语", "出租车候客点", "可数；wait at a taxi rank", "The taxi rank is empty after midnight.", "A second taxi rank opened beside the terminal."],
+  ["ride-hailing", "/ˈraɪd ˌheɪlɪŋ/", "名词", "网约车服务", "不可数；a ride-hailing app/service", "Ride-hailing halved the number of licensed cabs.", "The ride-hailing app sets its own fares."],
+  ["car sharing", "/ˈkɑː ˌʃeərɪŋ/", "名词短语", "汽车共享；共用汽车", "不可数；join a car sharing scheme", "Car sharing replaced the second family car.", "The car sharing scheme has nine vehicles."],
+  ["cycle hire", "/ˈsaɪkl haɪə/", "名词短语", "自行车租赁服务", "不可数；a cycle hire scheme/dock", "The cycle hire scheme reached the outer wards last.", "Cycle hire is free for the first half hour."],
+  ["e-bike", "/ˈiː baɪk/", "名词", "电动自行车", "可数；ride/buy an e-bike", "An e-bike flattens every hill in the city.", "E-bikes made the delivery round possible."],
+  ["moped", "/ˈməʊped/", "名词", "轻便摩托车", "可数；ride a moped", "Mopeds fill the lanes at lunchtime.", "He delivers on a moped in all weathers."],
+  ["articulated lorry", "/ɑːˌtɪkjuleɪtɪd ˈlɒri/", "名词短语", "铰接式重型货车；半挂货车", "可数；an articulated lorry delivers", "Articulated lorries cannot turn into the lane.", "An articulated lorry blocked the junction for an hour."],
+  ["freight train", "/ˈfreɪt treɪn/", "名词短语", "货运列车", "可数；a freight train runs/carries", "Freight trains run through the station at night.", "One freight train replaces forty lorries."],
+  ["container ship", "/kənˈteɪnə ʃɪp/", "名词短语", "集装箱船", "可数；load a container ship", "The container ship waited six days for a berth.", "Container ships grew faster than the ports."],
+];
+
+export const TRANSPORT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "coach": ["夜间长途客车比任何火车都便宜。", "长途客车从车站后面发车。"],
+  "ferry": ["渡船二十分钟就能到对岸。", "汽车渡轮每天两次往返该岛。"],
+  "cable car": ["缆车把工人送上山谷一侧。", "风大时缆车停运。"],
+  "taxi rank": ["午夜后，出租车候客点空无一车。", "航站楼旁开设了第二个出租车候客点。"],
+  "ride-hailing": ["网约车服务使持牌出租车数量减半。", "这款叫车应用自行制定车费。"],
+  "car sharing": ["汽车共享代替了家里的第二辆车。", "汽车共享计划有九辆车。"],
+  "cycle hire": ["自行车租赁计划最后才覆盖外围选区。", "自行车租赁的前半小时免费。"],
+  "e-bike": ["骑上电动自行车，城里的每座坡都显得平缓了。", "电动自行车使这条送货路线成为可能。"],
+  "moped": ["午餐时分，小巷里挤满了轻便摩托车。", "不论天气如何，他都骑轻便摩托车送货。"],
+  "articulated lorry": ["铰接式重型货车无法转进小巷。", "一辆半挂货车把路口堵了一个小时。"],
+  "freight train": ["夜间，货运列车会经过这个车站。", "一列货车能替代四十辆卡车。"],
+  "container ship": ["这艘集装箱船等了六天才获得泊位。", "集装箱船变大的速度超过了港口扩建的速度。"],
+};
