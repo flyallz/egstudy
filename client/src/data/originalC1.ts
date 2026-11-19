@@ -276,3 +276,41 @@ export const C1_SIXTEENTH_LESSON: OriginalA2Word[] = [
   ["citizenship", "/ˈsɪtɪzənʃɪp/", "名词", "公民身份；公民意识", "apply for citizenship = 申请公民身份；good citizenship = 良好公民意识", "After ten years abroad, he finally applied for citizenship in his adopted country.", "Schools try to foster a strong sense of citizenship in their pupils."],
   ["consolidate", "/kənˈsɒlɪdeɪt/", "动词", "巩固；合并", "consolidate power = 巩固权力；consolidate debts = 合并债务", "The company plans to consolidate its three regional offices into a single hub.", "A string of victories helped the party consolidate its hold on power."],
 ];
+
+export const C1_SEVENTEENTH_LESSON: OriginalA2Word[] = [
+  ["dedicated", "/ˈdedɪkeɪtɪd/", "形容词", "尽心尽力的；专用的", "dedicated to = 致力于；dedicated space = 专用空间", "She is a dedicated nurse who rarely leaves before her patients are settled.", "The building now has a dedicated space for community events."],
+  ["beneath", "/bɪˈniːθ/", "介词", "在……之下；有失……身份", "beneath the surface = 在表面之下；比 under 更正式", "A small stream flowed quietly beneath the old stone bridge.", "He felt that such menial work was beneath his dignity."],
+  ["civic", "/ˈsɪvɪk/", "形容词", "公民的；城市的", "civic duty = 公民义务；civic pride = 城市自豪感", "Voting in local elections is often described as a basic civic duty.", "The new library quickly became a source of real civic pride."],
+  ["constituency", "/kənˈstɪtjuənsi/", "名词", "选区；支持者群体", "a rural constituency = 农村选区；复数 constituencies", "The minister returned to her constituency to meet local voters every month.", "The policy was carefully designed to appeal to the party's traditional constituency."],
+  ["dedication", "/ˌdedɪˈkeɪʃn/", "名词", "奉献；献词", "dedication to students = 对学生的奉献；书前题献也称 dedication", "Her dedication to her students went far beyond the classroom.", "The author's dedication thanked his late grandmother."],
+  ["beneficiary", "/ˌbenɪˈfɪʃəri/", "名词", "受益人；受益者", "the main beneficiary of = ……的主要受益者；复数 beneficiaries", "The charity was the main beneficiary of a wealthy donor's generous bequest.", "Small farmers turned out to be the biggest beneficiaries of the reform."],
+  ["civilian", "/səˈvɪliən/", "名词", "平民", "innocent civilians = 无辜平民；也可作形容词", "The soldiers helped a stranded civilian find shelter for the night.", "Thousands of civilians were forced to flee the besieged city."],
+  ["constitute", "/ˈkɒnstɪtjuːt/", "动词", "构成；被视为", "constitute a majority = 构成多数；constitute a breach = 构成违约", "Women constitute nearly half of the company's senior management.", "Such behaviour could constitute a serious breach of contract."],
+  ["deed", "/diːd/", "名词", "行为；契据", "a brave deed = 勇敢行为；title deed = 房产契据", "She was quietly rewarded for a brave deed she never spoke about.", "The solicitor kept the title deed to the property in a safe."],
+  ["betray", "/bɪˈtreɪ/", "动词", "背叛；泄露出", "betray a friend = 背叛朋友；betray emotion = 流露情感", "He would never betray the colleagues who had stood by him.", "Her trembling voice betrayed just how nervous she really was."],
+  ["clarity", "/ˈklærəti/", "名词", "清楚；明晰", "clarity of thought = 思路清晰；with clarity = 清楚地", "The report explains a complex issue with impressive clarity.", "She spoke with a clarity that left no room for misunderstanding."],
+  ["constitution", "/ˌkɒnstɪˈtjuːʃn/", "名词", "宪法；体质", "amend the constitution = 修改宪法；a strong constitution = 强健体质", "The court ruled that the law violated the country's constitution.", "Despite his age, he still has a remarkably robust constitution."],
+  ["deem", "/diːm/", "动词", "认为；视作", "deem it necessary = 认为有必要；be deemed invalid = 被视为无效", "The authorities may deem the building unsafe and order its closure.", "Any application submitted after the deadline will be deemed invalid."],
+  ["bind", "/baɪnd/", "动词", "捆绑；约束；装订", "bind together = 结合在一起；过去式和过去分词都是 bound", "A shared sense of purpose can bind a community together in hard times.", "The agreement binds both parties to strict confidentiality."],
+  ["clash", "/klæʃ/", "名词", "冲突；时间冲突", "a clash between A and B = A 与 B 的冲突；a clash of dates = 日期冲突", "A violent clash broke out between protesters and the police.", "There was an awkward clash of dates between the two meetings."],
+  ["constitutional", "/ˌkɒnstɪˈtjuːʃənl/", "形容词", "宪法的；合宪的", "constitutional rights = 宪法权利；反义词 unconstitutional", "The court ruling confirmed that the measure was fully constitutional.", "Many citizens feared the decree would trigger a constitutional crisis."],
+];
+
+export const C1_EIGHTEENTH_LESSON: OriginalA2Word[] = [
+  ["default", "/dɪˈfɔːlt/", "名词", "违约；默认值", "default on a loan = 贷款违约；by default = 默认情况下", "The company narrowly avoided a default on its massive debts.", "You can change the default settings at any time in the menu."],
+  ["biography", "/baɪˈɒɡrəfi/", "名词", "传记", "a biography of somebody = 某人的传记；区别于 autobiography（自传）", "She spent years writing a detailed biography of the composer.", "The new biography reveals letters that were never published before."],
+  ["classification", "/ˌklæsɪfɪˈkeɪʃn/", "名词", "分类；分类体系", "classification system = 分类系统；the classification of species = 物种分类", "Scientists revised the classification of several newly discovered species.", "The library uses a classification based on subject and author."],
+  ["constraint", "/kənˈstreɪnt/", "名词", "限制；约束", "time constraints = 时间限制；work within constraints = 在限制下工作", "A severe time constraint left the designers with very few options.", "They had to work within the constraints imposed by the new regulations."],
+  ["defect", "/ˈdiːfekt/", "名词", "缺陷；瑕疵", "a defect in a product = 产品缺陷；作动词表示叛逃时发音不同", "Inspectors found a serious defect in the car's braking system.", "The phones were recalled because of a minor design defect."],
+  ["bishop", "/ˈbɪʃəp/", "名词", "主教；象棋中的象", "the Bishop of London = 伦敦主教；国际象棋中的 bishop 斜线走", "The local bishop led the service at the crowded cathedral.", "She moved her bishop diagonally to threaten the queen."],
+  ["cling", "/klɪŋ/", "动词", "紧抓；依附", "cling to = 紧抓或坚持；过去式和过去分词 clung", "Frightened passengers cling to the railings as the boat rocks violently.", "Many voters still cling to the hope of a quick recovery."],
+  ["consultation", "/ˌkɒnslˈteɪʃn/", "名词", "咨询；会诊", "public consultation = 公众咨询；a consultation with a doctor = 医生会诊", "The new policy was drawn up after a lengthy public consultation.", "You should book a consultation with your doctor before travelling."],
+  ["defensive", "/dɪˈfensɪv/", "形容词", "防御的；戒备的", "defensive strategy = 防御策略；get defensive = 变得戒备", "The army took up a purely defensive position along the river.", "He grew defensive the moment anyone questioned his figures."],
+  ["bizarre", "/bɪˈzɑː/", "形容词", "离奇的；怪异的", "a bizarre coincidence = 离奇的巧合；比 strange 语气更强", "They heard a bizarre noise coming from the empty attic.", "By a bizarre twist of fate, the two strangers shared a birthday."],
+  ["clinical", "/ˈklɪnɪkl/", "形容词", "临床的；冷静到近乎冷漠的", "clinical trial = 临床试验；a clinical tone = 冷漠的语气", "The drug performed well in its first large clinical trial.", "She described the tragedy in a cold, almost clinical tone."],
+  ["contemplate", "/ˈkɒntəmpleɪt/", "动词", "深思；考虑", "contemplate doing something = 考虑做某事；比 consider 更正式", "She paused to contemplate the full consequences of her decision.", "They are seriously contemplating moving the business abroad."],
+  ["deficiency", "/dɪˈfɪʃnsi/", "名词", "缺乏；缺陷", "iron deficiency = 缺铁；a deficiency in a system = 系统缺陷", "A long-term iron deficiency can leave people feeling constantly exhausted.", "The audit exposed serious deficiencies in the firm's safety procedures."],
+  ["blade", "/bleɪd/", "名词", "刀刃；叶片；草叶", "a sharp blade = 锋利刀刃；turbine blade = 涡轮叶片", "He carefully sharpened the blade before carving the roast.", "A single blade of grass trembled in the morning breeze."],
+  ["closure", "/ˈkləʊʒə/", "名词", "关闭；释怀", "factory closure = 工厂关闭；a sense of closure = 释怀感", "The sudden closure of the plant cost hundreds of workers their jobs.", "Meeting him one last time finally gave her a sense of closure."],
+  ["contempt", "/kənˈtempt/", "名词", "蔑视；藐视法庭", "contempt for somebody = 对某人的蔑视；contempt of court = 藐视法庭", "She could not hide her contempt for their dishonest tactics.", "The witness was warned he risked being held in contempt of court."],
+];
