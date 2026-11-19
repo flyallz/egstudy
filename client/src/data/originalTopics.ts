@@ -6486,3 +6486,37 @@ export const FAMILY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "upbringing": ["他从小受严格管教，却性情温和。", "她的成长经历解释了她为何花钱如此谨慎。"],
   "parenting": ["在那条街上，父母共同育儿并不常见。", "育儿课程比宣传单更有帮助。"],
 };
+
+export const FAMILY_THIRD_LESSON: OriginalTopicWord[] = [
+  ["parenting style", "/ˈpeərəntɪŋ staɪl/", "名词短语", "育儿方式；教养风格", "可数；an authoritarian parenting style", "Their parenting style was firm and predictable.", "Two parenting styles in one house confuse a child."],
+  ["firm boundaries", "/ˌfɜːm ˈbaʊndəriz/", "名词短语", "明确而坚定的行为界限", "复数；set/keep firm boundaries", "Firm boundaries at home were consistent and gently kept.", "Firm boundaries without warmth produce secrecy."],
+  ["childcare", "/ˈtʃaɪldkeə/", "名词", "儿童照护；托育", "不可数；affordable childcare；arrange childcare", "Affordable childcare decides whether mothers return to work.", "Childcare costs more than her rent."],
+  ["childminder", "/ˈtʃaɪldmaɪndə/", "名词", "在自己家中照看儿童的人", "可数；a registered childminder", "A registered childminder takes three children a day.", "The childminder lives two doors away."],
+  ["babysitter", "/ˈbeɪbisɪtə/", "名词", "临时保姆；按小时照看孩子的人", "可数；find/pay a babysitter", "Finding a babysitter on a Saturday is impossible here.", "The babysitter is their oldest niece."],
+  ["maternity leave", "/məˈtɜːnəti liːv/", "名词短语", "产假", "不可数；take/return from maternity leave", "She took nine months of maternity leave.", "Maternity leave is paid at a fraction of the salary."],
+  ["paternity leave", "/pəˈtɜːnəti liːv/", "名词短语", "陪产假；父亲育儿假", "不可数；take/two weeks of paternity leave", "Paternity leave is two weeks and rarely all taken.", "He took paternity leave and was asked about it for years."],
+  ["child benefit", "/ˈtʃaɪld benɪfɪt/", "名词短语", "儿童津贴；育儿补助", "不可数；claim/freeze child benefit", "Child benefit was frozen for six years.", "She claims child benefit for three children."],
+  ["marriage", "/ˈmærɪdʒ/", "名词", "婚姻", "可数或不可数；a long/an arranged marriage", "The marriage lasted fifty-one years.", "Marriage rates have fallen in every age group."],
+  ["wedding", "/ˈwedɪŋ/", "名词", "婚礼", "可数；hold a wedding；a small wedding", "The wedding was held in the village hall.", "A small wedding suited them both."],
+  ["engagement", "/ɪnˈɡeɪdʒmənt/", "名词", "订婚；婚约", "可数；announce/break off an engagement", "The engagement was announced at Christmas.", "They broke off the engagement and stayed friends."],
+  ["honeymoon", "/ˈhʌnimuːn/", "名词", "蜜月", "可数；go on a honeymoon", "They went on honeymoon to the next county.", "The honeymoon lasted four days and forty years."],
+  ["spouse", "/spaʊs/", "名词", "配偶", "可数；a spouse inherits", "A surviving spouse inherits the tenancy.", "Each spouse kept their own name."],
+  ["partner", "/ˈpɑːtnə/", "名词", "伴侣；生活伴侣", "可数；a long-term partner", "Her long-term partner has no legal status here.", "They have been partners for nineteen years."],
+];
+
+export const FAMILY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "parenting style": ["他们的育儿方式既坚定又让孩子有章可循。", "一个家里有两套不同的育儿方式，会让孩子无所适从。"],
+  "firm boundaries": ["家里的行为界限始终一致，也以温和的方式坚持。", "只有严格界限、没有温情，会让孩子学会隐瞒。"],
+  "childcare": ["能否负担托育费用，决定了母亲能否重返职场。", "托育费用比她的房租还高。"],
+  "childminder": ["一位注册家庭托育员每天照看三个孩子。", "这位家庭托育员住在隔两户的地方。"],
+  "babysitter": ["在这里，星期六几乎找不到临时保姆。", "给他们看孩子的是他们最大的侄女。"],
+  "maternity leave": ["她休了九个月产假。", "产假工资只有正常工资的一小部分。"],
+  "paternity leave": ["陪产假有两周，却很少有人把假休满。", "他休了陪产假，此后多年都有人拿这件事问他。"],
+  "child benefit": ["儿童津贴连续六年没有上调。", "她为三个孩子申领儿童津贴。"],
+  "marriage": ["这段婚姻持续了五十一年。", "各个年龄段的结婚率都下降了。"],
+  "wedding": ["婚礼在村礼堂举行。", "一场小型婚礼对他们两人都合适。"],
+  "engagement": ["他们在圣诞节宣布订婚。", "他们解除了婚约，但仍是朋友。"],
+  "honeymoon": ["他们到邻郡度蜜月。", "蜜月持续了四天，而他们的幸福延续了四十年。"],
+  "spouse": ["在世的配偶继承了租住权。", "夫妻双方都保留了各自的姓氏。"],
+  "partner": ["她的长期伴侣在这里没有法律身份。", "他们相伴了十九年。"],
+};
