@@ -5510,3 +5510,29 @@ export const MEDIA_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "break the news": ["一家周报首先报道了关闭的消息。", "他们比官方声明提前一小时发布了消息。"],
   "in the public domain": ["这些文件早已公开。", "公布这些数字后，争论便结束了。"],
 };
+
+export const CULTURE_FIRST_LESSON: OriginalTopicWord[] = [
+  ["the arts", "/ði ˈɑːts/", "名词短语", "艺术领域；各门艺术", "复数；fund/work in the arts", "Funding for the arts fell faster than for sport.", "She has worked in the arts since leaving college."],
+  ["fine art", "/ˌfaɪn ˈɑːt/", "名词短语", "美术；纯艺术", "不可数；study fine art；a fine art degree", "He studied fine art for four years and now paints signs.", "Fine art and craft were taught in separate buildings."],
+  ["visual arts", "/ˌvɪʒuəl ˈɑːts/", "名词短语", "视觉艺术", "复数；the visual arts attract", "The visual arts attract the largest audiences and the smallest grants.", "Her training was in the visual arts, not in design."],
+  ["performing arts", "/pəˌfɔːmɪŋ ˈɑːts/", "名词短语", "表演艺术", "复数；study performing arts；a performing arts centre", "The performing arts centre opened without an endowment.", "Performing arts courses were cut in nine colleges."],
+  ["exhibition", "/ˌeksɪˈbɪʃən/", "名词", "展览；展览会", "可数；hold/mount an exhibition", "The exhibition toured four cities.", "They mounted an exhibition of local photographs."],
+  ["gallery", "/ˈɡæləri/", "名词", "美术馆；画廊", "可数；a public/commercial gallery", "The public gallery is free on Wednesdays.", "Two commercial galleries closed in the same year."],
+  ["museum", "/mjuˈziːəm/", "名词", "博物馆", "可数；visit/endow a museum", "The museum holds nine thousand objects and shows two hundred.", "A local museum tells a story no national one can."],
+  ["collection", "/kəˈlekʃən/", "名词", "收藏品；藏品系列", "可数；build/donate a collection", "The collection was donated on condition it stayed together.", "He built the collection over fifty years."],
+  ["curator", "/kjʊəˈreɪtə/", "名词", "博物馆或画廊策展人", "可数；a curator selects", "The curator chose objects nobody expected.", "Two curators share the whole department."],
+  ["artefact", "/ˈɑːtɪfækt/", "名词", "文物；人工制品", "可数；display/return an artefact", "The artefact was returned to its country of origin.", "Nine artefacts were lost in transit."],
+];
+
+export const CULTURE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "the arts": ["艺术领域的经费下降得比体育领域更快。", "她大学毕业后一直在艺术领域工作。"],
+  "fine art": ["他学了四年美术，现在却在画招牌。", "美术和手工艺分别在两栋楼里教授。"],
+  "visual arts": ["视觉艺术吸引了最多的观众，却获得最少的资助。", "她接受的是视觉艺术训练，而不是设计训练。"],
+  "performing arts": ["表演艺术中心开业时没有捐赠基金。", "九所学院削减了表演艺术课程。"],
+  "exhibition": ["这场展览巡回了四座城市。", "他们举办了一场本地摄影作品展。"],
+  "gallery": ["这家公共美术馆每周三免费开放。", "两家商业画廊在同一年关闭。"],
+  "museum": ["这座博物馆藏有九千件物品，只展出两百件。", "地方博物馆讲述着国家级博物馆无法讲述的故事。"],
+  "collection": ["这批藏品的捐赠条件是必须完整保存。", "他花了五十年建立这批收藏。"],
+  "curator": ["策展人选了出乎所有人意料的展品。", "两名策展人共同负责整个部门。"],
+  "artefact": ["这件文物被归还给原属国。", "九件文物在运输途中遗失。"],
+};
