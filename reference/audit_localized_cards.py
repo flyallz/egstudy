@@ -70,4 +70,4 @@ check("C1", "client/src/data/originalC1.ts", "reference/original-cefr-csv/cefr-c
 check("C2", "client/src/data/originalC2.ts", "reference/original-cefr-csv/cefr-c2.csv", "C2", 36)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 10)
 check("Work", "client/src/data/originalTopics.ts", "reference/original-topic-csv/work-employment.csv", "WORK", 10)
-check("Health", "client/src/data/originalTopics.ts", "reference/original-topic-csv/health-well-being.csv", "HEALTH", 1)
+check("Health", "client/src/data/originalTopics.ts", "reference/original-topic-csv/health-well-being.csv", "HEALTH", 2)

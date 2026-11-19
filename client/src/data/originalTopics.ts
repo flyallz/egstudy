@@ -936,3 +936,33 @@ export const HEALTH_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "specialist referral": ["获得专科转诊平均需要六周。", "他做任何扫描检查前都需要专科转诊单。"],
   "emergency department": ["急诊科每天救治四百人。", "轻微伤患者使急诊科人满为患。"],
 };
+
+export const HEALTH_SECOND_LESSON: OriginalTopicWord[] = [
+  ["intensive care", "/ɪnˌtensɪv ˈkeə/", "名词短语", "重症监护；加强护理", "不可数；be in/need intensive care", "Only twelve intensive care beds served the whole province.", "She spent nine days in intensive care."],
+  ["outpatient clinic", "/ˈaʊtpeɪʃnt ˌklɪnɪk/", "名词短语", "门诊部；门诊诊所", "可数；run/attend an outpatient clinic", "The outpatient clinic runs three mornings a week.", "Most follow-ups happen at an outpatient clinic."],
+  ["home care", "/ˈhəʊm keə/", "名词短语", "居家护理", "不可数；provide/rely on home care", "Home care costs a fraction of a hospital bed.", "Families provide most home care unpaid."],
+  ["palliative care", "/ˈpæliətɪv keə/", "名词短语", "姑息治疗；缓和医疗", "不可数；receive/expand palliative care", "Palliative care treats pain rather than the disease.", "Only one hospice offers palliative care here."],
+  ["universal coverage", "/ˌjuːnɪvɜːsl ˈkʌvərɪdʒ/", "名词短语", "全民医疗保障覆盖", "不可数；achieve/move towards universal coverage", "Universal coverage still leaves gaps for migrants.", "The country moved towards universal coverage in 2008."],
+  ["chronic illness", "/ˌkrɒnɪk ˈɪlnəs/", "名词短语", "慢性病", "可数；live with/manage a chronic illness", "Millions live with a chronic illness for decades.", "Chronic illness is managed, not cured."],
+  ["infectious disease", "/ɪnˌfekʃəs dɪˈziːz/", "名词短语", "传染病", "可数；contain an infectious disease；spread of infectious disease", "Infectious disease spreads fastest in crowded housing.", "Clean water stopped three infectious diseases at once."],
+  ["epidemic", "/ˌepɪˈdemɪk/", "名词", "流行病；疫情", "可数；contain/declare an epidemic", "The epidemic was contained within one district.", "An epidemic of dengue followed the floods."],
+  ["pandemic", "/pænˈdemɪk/", "名词", "大流行病；全球性疫情", "可数；declare/prepare for a pandemic", "No health service was prepared for a pandemic.", "The pandemic exposed every weakness in supply chains."],
+  ["outbreak", "/ˈaʊtbreɪk/", "名词", "暴发；疫情突发", "可数；an outbreak of + 疾病", "An outbreak of measles closed two schools.", "The outbreak was traced to a single market."],
+  ["symptom", "/ˈsɪmptəm/", "名词", "症状", "可数；show/relieve symptoms", "Early symptoms are easy to mistake for flu.", "The drug relieves symptoms without curing the cause."],
+  ["diagnosis", "/ˌdaɪəɡˈnəʊsɪs/", "名词", "诊断；诊断结果", "复数 diagnoses；make/confirm a diagnosis", "An early diagnosis doubles the survival rate.", "The diagnosis was confirmed by a second test."],
+];
+
+export const HEALTH_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "intensive care": ["全省只有十二张重症监护病床。", "她在重症监护室住了九天。"],
+  "outpatient clinic": ["这家门诊部每周有三个上午开诊。", "大多数复诊都在门诊完成。"],
+  "home care": ["居家护理的费用远低于住院。", "大多数居家护理由家人无偿提供。"],
+  "palliative care": ["缓和医疗处理疼痛，而不以治愈疾病为目标。", "这里只有一家临终关怀机构提供缓和医疗。"],
+  "universal coverage": ["即使实现全民医保，移民群体仍可能存在保障缺口。", "这个国家在 2008 年开始迈向全民医保。"],
+  "chronic illness": ["数百万人与慢性病共处几十年。", "慢性病通常需要长期管理，而无法治愈。"],
+  "infectious disease": ["传染病在拥挤的居住环境中传播得最快。", "清洁饮水同时阻止了三种传染病。"],
+  "epidemic": ["疫情被控制在一个地区内。", "洪灾后暴发了登革热疫情。"],
+  "pandemic": ["没有一家医疗机构为大流行病做好准备。", "这场大流行暴露了供应链中的每一处弱点。"],
+  "outbreak": ["麻疹暴发导致两所学校关闭。", "这次暴发被追溯到一个市场。"],
+  "symptom": ["早期症状很容易被误认为流感。", "这种药能缓解症状，却不能消除病因。"],
+  "diagnosis": ["早期诊断使生存率翻倍。", "第二次检查确认了诊断结果。"],
+};
