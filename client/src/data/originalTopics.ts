@@ -506,3 +506,37 @@ export const WORK_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "job interview": ["他一周之内参加了四场求职面试。", "准备一场求职面试需要整整一个晚上。"],
   "shortlist": ["六名候选人进入了最终入围名单。", "评审小组在周五拟定了候选人短名单。"],
 };
+
+export const WORK_THIRD_LESSON: OriginalTopicWord[] = [
+  ["job description", "/ˈdʒɒb dɪˌskrɪpʃn/", "名词短语", "岗位说明；职位描述", "可数；write/match a job description", "The job description had not been updated since 2014.", "Nothing in her work matched the job description."],
+  ["reference", "/ˈrefərəns/", "名词", "推荐信；工作证明", "可数；provide/check a reference", "Two references are taken up before any offer.", "His former manager provided a glowing reference."],
+  ["career path", "/kəˈrɪə pɑːθ/", "名词短语", "职业发展路径", "可数；follow a career path；a clear career path", "Nursing offers a clear career path.", "She left a safe career path to start a workshop."],
+  ["career break", "/kəˈrɪə breɪk/", "名词短语", "职业间歇；离职休整期", "可数；take/return from a career break", "She took a career break to care for her father.", "Returning from a career break is hardest after five years."],
+  ["promotion", "/prəˈməʊʃn/", "名词", "晋升；升职", "可数或不可数；get/be passed over for promotion", "He got a promotion within a year.", "She was passed over for promotion twice."],
+  ["performance review", "/pəˈfɔːməns rɪˌvjuː/", "名词短语", "绩效考核；工作表现评估", "可数；have/conduct a performance review", "The performance review happens every six months.", "Managers conduct a performance review with each team member."],
+  ["line manager", "/ˈlaɪn ˌmænɪdʒə/", "名词短语", "直属经理；直接上级", "可数；report to a line manager；a supportive line manager", "Every new starter reports to one line manager.", "A supportive line manager matters more than the salary."],
+  ["graduate scheme", "/ˈɡrædʒuət skiːm/", "名词短语", "应届毕业生招聘培养计划", "可数；apply for/join a graduate scheme", "The graduate scheme takes thirty people a year.", "She joined a graduate scheme straight from university."],
+  ["trainee", "/treɪˈniː/", "名词", "实习生；受训员工", "可数；take on a trainee；management trainee", "The firm takes on twelve trainees each autumn.", "Trainees rotate through four departments."],
+  ["salary", "/ˈsæləri/", "名词", "薪水；固定工资", "可数；earn/negotiate a salary", "The salary is paid on the last working day.", "She negotiated a higher salary before accepting."],
+  ["wage", "/weɪdʒ/", "名词", "工资；按小时或周支付的工钱", "常用复数；pay/cut wages", "Wages have not kept pace with rents.", "The company cut wages rather than jobs."],
+  ["minimum wage", "/ˌmɪnɪməm ˈweɪdʒ/", "名词短语", "最低工资", "可数，常用单数；raise/earn the minimum wage", "The minimum wage rose twice in one year.", "A million people earn the minimum wage or less."],
+  ["living wage", "/ˈlɪvɪŋ weɪdʒ/", "名词短语", "维持基本生活的工资", "可数，常用单数；pay/campaign for a living wage", "The council pays every contractor a living wage.", "Campaigners calculate the living wage city by city."],
+  ["pay rise", "/ˈpeɪ raɪz/", "名词短语", "加薪；涨薪", "可数；ask for/award a pay rise", "She asked for a pay rise after the audit.", "Staff were awarded a two per cent pay rise."],
+];
+
+export const WORK_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "job description": ["这份职位描述自 2014 年以来就没有更新过。", "她的实际工作与职位描述完全不符。"],
+  "reference": ["发出录用通知前会联系两位推荐人核实情况。", "他的前任经理写了一封热情赞扬他的推荐信。"],
+  "career path": ["护理工作提供清晰的职业发展路径。", "她离开了安稳的职业道路，开办了一家工作室。"],
+  "career break": ["她为了照顾父亲暂停了职业生涯。", "职业中断五年后，重返职场最为困难。"],
+  "promotion": ["他在一年内获得了升职。", "她两次被排除在晋升人选之外。"],
+  "performance review": ["绩效考核每六个月进行一次。", "经理与每位团队成员进行工作表现评估。"],
+  "line manager": ["每位新员工都向一名直属经理汇报。", "一位支持员工的直属经理比薪水更重要。"],
+  "graduate scheme": ["这个毕业生培养计划每年招收三十人。", "她大学一毕业就加入了一项应届生培养计划。"],
+  "trainee": ["公司每年秋季招聘十二名实习员工。", "受训员工在四个部门轮岗。"],
+  "salary": ["薪水在每月最后一个工作日发放。", "接受工作前，她谈到了更高的薪水。"],
+  "wage": ["工资的涨幅没有跟上房租。", "公司削减了工资，而不是裁员。"],
+  "minimum wage": ["最低工资在一年里上调了两次。", "一百万人领取的工资不高于最低工资。"],
+  "living wage": ["市议会向每位承包商支付足以维持生活的工资。", "倡议者逐个城市计算生活工资标准。"],
+  "pay rise": ["审计之后，她要求加薪。", "员工获得了百分之二的加薪。"],
+};
