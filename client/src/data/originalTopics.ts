@@ -6520,3 +6520,41 @@ export const FAMILY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "spouse": ["在世的配偶继承了租住权。", "夫妻双方都保留了各自的姓氏。"],
   "partner": ["她的长期伴侣在这里没有法律身份。", "他们相伴了十九年。"],
 };
+
+export const FAMILY_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["cohabitation", "/kəʊˌhæbɪˈteɪʃən/", "名词", "同居；未婚共同生活", "不可数；cohabitation rates", "Cohabitation overtook marriage in that age group.", "Cohabitation carries fewer rights than people assume."],
+  ["civil partnership", "/ˌsɪvəl ˈpɑːtnəʃɪp/", "名词短语", "民事伴侣关系", "可数；enter into a civil partnership", "They entered into a civil partnership in 2006.", "A civil partnership was the only option available then."],
+  ["divorce", "/dɪˈvɔːs/", "名词", "离婚", "可数或不可数；file for/go through a divorce", "The divorce took two years and most of the savings.", "Divorce rates peaked in the 1990s."],
+  ["separation", "/ˌsepəˈreɪʃən/", "名词", "分居；离异", "可数；a trial/legal separation", "The separation was amicable for about a month.", "A legal separation precedes most divorces here."],
+  ["child custody", "/ˌtʃaɪld ˈkʌstədi/", "名词短语", "子女监护权；抚养权", "不可数；be granted/share child custody", "Child custody was shared equally.", "The child custody hearing lasted three days."],
+  ["alimony", "/ˈælɪməni/", "名词", "离婚赡养费", "不可数；pay/receive alimony", "He paid alimony for eleven years.", "Alimony was replaced by a single settlement."],
+  ["widow", "/ˈwɪdəʊ/", "名词", "寡妇", "可数；a widow inherits", "The widow kept the farm going alone.", "Nine widows live on the same terrace."],
+  ["widower", "/ˈwɪdəʊə/", "名词", "鳏夫", "可数；a widower lives", "The widower cooked for himself for the first time at seventy.", "A widower is more isolated than a widow, the study found."],
+  ["relationship", "/rɪˈleɪʃənʃɪp/", "名词", "关系；恋爱关系", "可数；build/end a relationship", "The relationship survived two separations.", "They built the relationship on long letters."],
+  ["courtship", "/ˈkɔːtʃɪp/", "名词", "求爱；恋爱交往阶段", "可数或不可数；a long courtship", "Their courtship lasted seven years.", "Courtship then involved chaperones and letters."],
+  ["dating", "/ˈdeɪtɪŋ/", "名词", "约会；恋爱交往", "不可数；online dating", "Online dating is how most couples here now meet.", "Dating at fifty is a different activity entirely."],
+  ["long-distance relationship", "/ˌlɒŋ dɪstəns rɪˈleɪʃənʃɪp/", "名词短语", "异地恋", "可数；be in a long-distance relationship", "They were in a long-distance relationship for four years.", "A long-distance relationship survives on routine, not romance."],
+  ["commitment", "/kəˈmɪtmənt/", "名词", "承诺；长期投入", "可数或不可数；make/avoid a commitment", "The commitment was never in doubt.", "He avoided commitment until he was forty."],
+  ["loyalty", "/ˈlɔɪəlti/", "名词", "忠诚", "不可数；show/repay loyalty", "Her loyalty to her brother cost her a job.", "Loyalty in that family was never discussed and never broken."],
+  ["affection", "/əˈfekʃən/", "名词", "爱意；亲情", "不可数；show/withhold affection", "Affection in that house was shown in food, not words.", "He showed affection awkwardly and constantly."],
+  ["intimacy", "/ˈɪntɪməsi/", "名词", "亲密；亲近感", "不可数；emotional intimacy", "Emotional intimacy took them a decade.", "Intimacy is easier to lose than to explain."],
+];
+
+export const FAMILY_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "cohabitation": ["在那个年龄组中，同居比结婚更普遍。", "同居所享有的权利比人们想象的少。"],
+  "civil partnership": ["他们在 2006 年登记了民事伴侣关系。", "当时，民事伴侣关系是唯一可选的方式。"],
+  "divorce": ["这场离婚耗时两年，还花掉了大部分积蓄。", "离婚率在 20 世纪 90 年代达到顶峰。"],
+  "separation": ["分居后的友好关系维持了大约一个月。", "在这里，大多数离婚之前都会先经历法律上的分居。"],
+  "child custody": ["双方平等分享了子女监护权。", "子女抚养权听证会持续了三天。"],
+  "alimony": ["他支付离婚赡养费长达十一年。", "持续支付赡养费改为一次性和解付款。"],
+  "widow": ["这位寡妇独自维持农场经营。", "同一排联排房屋里住着九位寡妇。"],
+  "widower": ["这位鳏夫七十岁时第一次给自己做饭。", "研究发现，鳏夫比寡妇更孤独。"],
+  "relationship": ["这段关系经历了两次分居仍然维系下来。", "他们靠一封封长信建立了感情。"],
+  "courtship": ["他们的恋爱交往持续了七年。", "那时的求爱过程有陪伴监督的人，也有往来书信。"],
+  "dating": ["如今这里大多数情侣通过网上约会认识。", "五十岁时的约会完全是另一回事。"],
+  "long-distance relationship": ["他们异地恋了四年。", "异地恋靠规律的联系维持，而不只是靠浪漫。"],
+  "commitment": ["这份承诺从未受到怀疑。", "他直到四十岁都在逃避作出长期承诺。"],
+  "loyalty": ["她对兄弟的忠诚让她失去了一份工作。", "在那个家庭里，忠诚从不挂在嘴边，也从未被背弃。"],
+  "affection": ["那户人家的爱意通过食物表达，而不是言语。", "他表达爱意的方式笨拙，却始终如一。"],
+  "intimacy": ["他们花了十年才建立起情感上的亲密。", "亲密关系更容易失去，却很难解释清楚。"],
+};
