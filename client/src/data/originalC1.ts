@@ -238,3 +238,41 @@ export const C1_FOURTEENTH_LESSON: OriginalA2Word[] = [
   ["charm", "/tʃɑːm/", "名词", "魅力；护身符", "a good-luck charm = 幸运符；work like a charm = 十分有效；也可作动词", "The old town has a quiet charm that keeps visitors coming back.", "She wore a thin silver bracelet hung with tiny charms."],
   ["conquer", "/ˈkɒŋkə/", "动词", "征服；克服", "conquer a country = 征服国家；conquer a fear = 克服恐惧；名词 conquest", "It took her years to conquer her crippling fear of flying.", "At its height the empire had conquered most of the known world."],
 ];
+
+export const C1_FIFTEENTH_LESSON: OriginalA2Word[] = [
+  ["dam", "/dæm/", "名词", "水坝；拦河坝", "build a dam = 建坝；hydroelectric dam = 水电大坝；与 damn 区分", "The new dam will supply electricity to half the region.", "Engineers warned that the aging dam might soon collapse."],
+  ["bat", "/bæt/", "动词", "用球棒击打；眨眼", "bat a ball = 击球；not bat an eyelid = 不动声色；过去式 batted", "She batted the ball cleanly over the fielder's head.", "He didn't even bat an eyelid when he heard the shocking news."],
+  ["charming", "/ˈtʃɑːmɪŋ/", "形容词", "迷人的；讨人喜欢的", "a charming smile = 迷人的微笑；Prince Charming = 白马王子", "They stayed in a charming little cottage right by the sea.", "He can be incredibly charming when he wants something."],
+  ["conscience", "/ˈkɒnʃəns/", "名词", "良心；道德意识", "a guilty conscience = 愧疚的良心；与 conscious 区分", "His guilty conscience kept him awake for nights on end.", "She could not in good conscience accept the money."],
+  ["damaging", "/ˈdæmɪdʒɪŋ/", "形容词", "有害的；造成损害的", "damaging to something = 对某物有害；damaging evidence = 不利证据", "The leaked emails proved deeply damaging to her campaign.", "Excessive sunlight can be surprisingly damaging to delicate fabrics."],
+  ["battlefield", "/ˈbætlfiːld/", "名词", "战场；争斗领域", "on the battlefield = 在战场上；political battlefield = 政治战场", "Thousands of soldiers died on the battlefield during that single campaign.", "Social media has become a battlefield for competing political narratives."],
+  ["charter", "/ˈtʃɑːtə/", "名词", "宪章；章程；包租", "the UN Charter = 联合国宪章；charter flight = 包机航班", "The organization's charter explicitly guarantees every member an equal vote.", "A private charter carried the delegation to the remote conference."],
+  ["consciousness", "/ˈkɒnʃəsnəs/", "名词", "意识；知觉", "regain consciousness = 恢复知觉；raise consciousness = 提高意识", "The patient slowly regained consciousness several hours after the operation.", "Environmental consciousness has grown sharply among younger voters."],
+  ["dawn", "/dɔːn/", "名词", "黎明；开端", "at dawn = 黎明时；the dawn of a new era = 新时代的开端", "The fishermen set out at dawn, long before the market opened.", "Historians often mark that invention as the dawn of the modern age."],
+  ["beam", "/biːm/", "名词", "光束；横梁", "a beam of light = 一束光；steel beam = 钢梁；也可作动词", "A narrow beam of sunlight slipped through the gap in the curtains.", "Engineers reinforced the central beam before the upper floors were added."],
+  ["chill", "/tʃɪl/", "名词", "寒意；寒颤", "a chill in the air = 空气中的寒意；send a chill down one’s spine = 令人脊背发凉", "A sudden chill ran through the room when she mentioned the accident.", "There was a distinct chill in the autumn morning air."],
+  ["consecutive", "/kənˈsekjətɪv/", "形容词", "连续的；接连的", "three consecutive days = 连续三天；近义词 successive", "The team has now won five consecutive matches without conceding a goal.", "Prices rose for the third consecutive quarter, worrying many analysts."],
+  ["debris", "/ˈdebriː/", "名词", "碎片；残骸", "不可数名词；debris from an explosion = 爆炸残骸", "Rescue workers searched through the debris for any remaining survivors.", "Floating debris posed a serious hazard to passing ships."],
+  ["beast", "/biːst/", "名词", "野兽；凶残的人", "wild beast = 野兽；也可比喻强大或难对付的事物", "The hunters tracked the wounded beast deep into the forest.", "That new engine is an absolute beast on the open road."],
+  ["chronic", "/ˈkrɒnɪk/", "形容词", "慢性的；长期的", "chronic illness = 慢性病；chronic shortage = 长期短缺；反义词 acute", "Many patients struggle to manage their chronic conditions without regular support.", "The region suffers from a chronic shortage of clean water."],
+  ["consensus", "/kənˈsensəs/", "名词", "共识；一致意见", "reach a consensus = 达成共识；broad consensus = 广泛共识", "After hours of debate, the committee finally reached a consensus on the budget.", "There is growing scientific consensus about the causes of the warming."],
+];
+
+export const C1_SIXTEENTH_LESSON: OriginalA2Word[] = [
+  ["debut", "/ˈdeɪbjuː/", "名词", "首次亮相；处女作", "make one’s debut = 首次亮相；也可作动词", "The young pianist made her debut at the city's grand concert hall.", "The film marked the director's debut on the international stage."],
+  ["behalf", "/bɪˈhɑːf/", "名词", "代表；为了某人的利益", "on behalf of somebody = 代表某人；通常只用于该固定短语", "She accepted the award on behalf of the entire research team.", "The lawyer spoke on behalf of her client throughout the hearing."],
+  ["chunk", "/tʃʌŋk/", "名词", "大块；相当大的一部分", "a chunk of bread = 一大块面包；a large chunk of the budget = 预算的一大部分", "He broke off a generous chunk of bread and passed it around.", "A sizeable chunk of her salary goes straight into savings."],
+  ["consent", "/kənˈsent/", "名词", "同意；许可", "give consent = 表示同意；informed consent = 知情同意；也可作动词", "Researchers must obtain written consent from every participant beforehand.", "Parental consent is required before the trip can go ahead."],
+  ["decision-making", "/dɪˈsɪʒn ˌmeɪkɪŋ/", "名词", "决策；作决定的过程", "decision-making process = 决策过程；decision-making power = 决策权", "Good decision-making depends on having accurate and timely information.", "The reform gave local staff far more decision-making power."],
+  ["beloved", "/bɪˈlʌvɪd/", "形容词", "深受喜爱的", "a beloved teacher = 深受喜爱的老师；常置于名词前", "The town mourned its beloved doctor, who had served there for decades.", "She reread the beloved novel every winter without fail."],
+  ["circulate", "/ˈsɜːkjuleɪt/", "动词", "循环；传播；传阅", "blood circulates = 血液循环；circulate a memo = 传阅备忘录", "Officials circulate the draft proposal to every department before the vote.", "Rumours about the merger circulated quickly through the whole office."],
+  ["conserve", "/kənˈsɜːv/", "动词", "保护；节约", "conserve energy = 节约能源；conserve wildlife = 保护野生动物", "Simple habits at home can help households conserve a surprising amount of energy.", "The trust was set up to conserve ancient woodland for future generations."],
+  ["decisive", "/dɪˈsaɪsɪv/", "形容词", "果断的；决定性的", "a decisive leader = 果断的领导者；decisive victory = 决定性胜利", "Her quick, decisive response prevented the crisis from spreading further.", "The late goal proved decisive in a tightly contested final."],
+  ["bench", "/bentʃ/", "名词", "长椅；替补席；法官席", "park bench = 公园长椅；on the bench = 在替补席上", "They sat on a worn wooden bench overlooking the harbour.", "The coach left his best striker on the bench for the first half."],
+  ["circulation", "/ˌsɜːkjəˈleɪʃn/", "名词", "循环；流通；发行量", "blood circulation = 血液循环；magazine circulation = 杂志发行量", "Regular exercise improves blood circulation throughout the body.", "The magazine's circulation has fallen steadily since the rise of online news."],
+  ["consistency", "/kənˈsɪstənsi/", "名词", "一致性；稠度", "consistency in performance = 表现稳定；a creamy consistency = 奶油般的稠度", "Judges praised the gymnast for her remarkable consistency across all four events.", "Stir the sauce until it reaches a smooth, creamy consistency."],
+  ["declaration", "/ˌdekləˈreɪʃn/", "名词", "声明；申报单", "declaration of independence = 独立宣言；customs declaration = 海关申报单", "The leaders signed a joint declaration committing to deeper cooperation.", "Travellers must complete a customs declaration on arrival."],
+  ["benchmark", "/ˈbentʃmɑːk/", "名词", "基准；参照标准", "set a benchmark = 设立基准；也可作动词表示基准测试", "The exam results set a new benchmark for the whole school district.", "Investors use the index as a benchmark for measuring their returns."],
+  ["citizenship", "/ˈsɪtɪzənʃɪp/", "名词", "公民身份；公民意识", "apply for citizenship = 申请公民身份；good citizenship = 良好公民意识", "After ten years abroad, he finally applied for citizenship in his adopted country.", "Schools try to foster a strong sense of citizenship in their pupils."],
+  ["consolidate", "/kənˈsɒlɪdeɪt/", "动词", "巩固；合并", "consolidate power = 巩固权力；consolidate debts = 合并债务", "The company plans to consolidate its three regional offices into a single hub.", "A string of victories helped the party consolidate its hold on power."],
+];
