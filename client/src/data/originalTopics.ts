@@ -1460,3 +1460,41 @@ export const ENVIRONMENT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "reforestation": ["一项重新造林计划种下了两百万株树苗。", "只有树种适合土壤，重新造林才能奏效。"],
   "endangered species": ["河流海豚如今是一种濒危物种。", "根据该公约，濒危物种贸易受到禁止。"],
 };
+
+export const ENVIRONMENT_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["extinction", "/ɪkˈstɪŋkʃn/", "名词", "灭绝", "可数或不可数；face/be driven to extinction", "Three frog species face extinction within a decade.", "Hunting drove the bird to extinction by 1900."],
+  ["nature reserve", "/ˈneɪtʃə rɪˌzɜːv/", "名词短语", "自然保护区", "可数；establish/visit a nature reserve", "The wetland became a nature reserve in 1998.", "A nature reserve protects the last patch of old forest."],
+  ["wildlife corridor", "/ˈwaɪldlaɪf ˌkɒrɪdɔː/", "名词短语", "野生动物迁徙廊道", "可数；create/restore a wildlife corridor", "A wildlife corridor links the two forest blocks.", "Creating wildlife corridors reduces road deaths."],
+  ["wetland", "/ˈwetlənd/", "名词", "湿地", "常用复数；drain/protect wetlands", "Wetlands store carbon far better than dry grassland.", "Half the country's wetlands were drained for rice."],
+  ["coral reef", "/ˈkɒrəl riːf/", "名词短语", "珊瑚礁", "可数；bleach/protect a coral reef", "Warmer water has bleached most of the coral reef.", "Fishing is banned over the inner coral reef."],
+  ["food chain", "/ˈfuːd tʃeɪn/", "名词短语", "食物链", "可数；enter/disrupt the food chain", "Plastic particles now enter the food chain at every level.", "Removing one predator disrupts the whole food chain."],
+  ["invasive species", "/ɪnˌveɪsɪv ˈspiːʃiːz/", "名词短语", "入侵物种", "单复数同形；introduce/control an invasive species", "An invasive species can empty a lake within years.", "Controlling invasive species costs the park service millions."],
+  ["carbon sink", "/ˈkɑːbən sɪŋk/", "名词短语", "碳汇", "可数；act as/destroy a carbon sink", "Peat bogs act as a huge carbon sink.", "Draining the marsh destroyed a natural carbon sink."],
+  ["green space", "/ˈɡriːn speɪs/", "名词短语", "绿色空间；绿地", "可数或不可数；create/lack green space", "The district has less green space than any other.", "Creating green space lowers summer temperatures."],
+  ["waste management", "/ˈweɪst ˌmænɪdʒmənt/", "名词短语", "废弃物管理", "不可数；improve/invest in waste management", "Waste management swallows a fifth of the city budget.", "Better waste management would cut methane sharply."],
+  ["landfill", "/ˈlændfɪl/", "名词", "垃圾填埋；垃圾填埋场", "可数或不可数；send sth to/divert sth from landfill", "Two thirds of household rubbish still goes to landfill.", "The scheme diverts food waste from landfill."],
+  ["single-use plastic", "/ˌsɪŋɡl juːs ˈplæstɪk/", "名词短语", "一次性塑料", "可数或不可数；ban/phase out single-use plastic", "Single-use plastic was banned in all state offices.", "Supermarkets agreed to phase out single-use plastic bags."],
+  ["packaging", "/ˈpækɪdʒɪŋ/", "名词", "包装材料；包装", "不可数；excessive/reduce packaging", "Excessive packaging accounts for a third of the bin.", "The brand reduced packaging by switching to paper."],
+  ["composting", "/ˈkɒmpɒstɪŋ/", "名词", "堆肥；制作堆肥", "不可数；home/promote composting", "Home composting removes most food waste from the bin.", "The council promotes composting with free bins."],
+  ["e-waste", "/ˈiː weɪst/", "名词", "电子废弃物", "不可数；export/recycle e-waste", "E-waste is the fastest growing waste stream.", "Rich countries still export e-waste to poorer ones."],
+  ["circular economy", "/ˌsɜːkjələ ɪˈkɒnəmi/", "名词短语", "循环经济", "可数，常用单数；move towards/build a circular economy", "A circular economy treats waste as raw material.", "The strategy moves the industry towards a circular economy."],
+];
+
+export const ENVIRONMENT_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "extinction": ["三种蛙类面临在十年内灭绝的危险。", "到 1900 年，捕猎已使这种鸟灭绝。"],
+  "nature reserve": ["这片湿地于 1998 年成为自然保护区。", "一处自然保护区保护着最后一片原生林。"],
+  "wildlife corridor": ["一条野生动物迁徙廊道连接着两片林区。", "建设野生动物迁徙廊道可以减少动物在道路上死亡。"],
+  "wetland": ["湿地储存碳的能力远强于干草地。", "该国一半的湿地被排干以种植水稻。"],
+  "coral reef": ["较暖的海水使大部分珊瑚礁白化。", "内侧珊瑚礁区域禁止捕鱼。"],
+  "food chain": ["塑料微粒如今进入了食物链的每一层。", "移除一种捕食者就会扰乱整个食物链。"],
+  "invasive species": ["一种入侵物种可能在几年内使一座湖中的生物消失。", "控制入侵物种让公园管理部门花费数百万。"],
+  "carbon sink": ["泥炭沼泽充当巨大的碳汇。", "排干沼泽破坏了一个天然碳汇。"],
+  "green space": ["这个区的绿地比其他任何区都少。", "增加绿地能够降低夏季气温。"],
+  "waste management": ["废弃物管理耗去了该市预算的五分之一。", "改善废弃物管理会大幅减少甲烷排放。"],
+  "landfill": ["三分之二的家庭垃圾仍被送去填埋。", "这项计划让厨余垃圾免于被填埋。"],
+  "single-use plastic": ["所有政府办公室都禁用了一次性塑料。", "超市同意逐步淘汰一次性塑料袋。"],
+  "packaging": ["过度包装占了垃圾桶中废弃物的三分之一。", "这个品牌改用纸材后减少了包装用量。"],
+  "composting": ["家庭堆肥使大部分厨余垃圾不再进入垃圾桶。", "当地议会通过免费提供堆肥桶来推广堆肥。"],
+  "e-waste": ["电子废弃物是增长最快的废弃物流。", "富裕国家仍向较贫穷的国家出口电子废弃物。"],
+  "circular economy": ["循环经济把废弃物视为原材料。", "这项战略推动该行业迈向循环经济。"],
+};
