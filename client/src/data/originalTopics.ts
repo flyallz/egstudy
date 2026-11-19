@@ -6026,3 +6026,37 @@ export const GLOBALISATION_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, 
   "protocol": ["议定书为公约增添了具有约束力的目标。", "一项任择议定书允许个人提出申诉。"],
   "summit": ["这场峰会发表了一份公报，却没有制定时间表。", "九位领导人亲自出席了峰会。"],
 };
+
+export const GLOBALISATION_THIRD_LESSON: OriginalTopicWord[] = [
+  ["bilateral agreement", "/baɪˌlætərəl əˈɡriːmənt/", "名词短语", "双边协议", "可数；a bilateral agreement covers", "A bilateral agreement covers fishing rights in the strait.", "Bilateral agreements replaced the collapsed global round."],
+  ["multilateral agreement", "/ˌmʌltiˈlætərəl əˈɡriːmənt/", "名词短语", "多边协议", "可数；reach a multilateral agreement", "The multilateral agreement took eleven years.", "A multilateral agreement is slower and harder to escape."],
+  ["diplomacy", "/dɪˈpləʊməsi/", "名词", "外交活动；外交手段", "不可数；quiet/shuttle diplomacy", "Quiet diplomacy reopened the border crossing.", "Diplomacy achieved in six months what sanctions had not."],
+  ["diplomat", "/ˈdɪpləmæt/", "名词", "外交官", "可数；a senior diplomat", "Two diplomats were expelled in retaliation.", "A senior diplomat briefed the committee privately."],
+  ["embassy", "/ˈembəsi/", "名词", "大使馆", "可数；open/close an embassy", "The embassy closed for eleven years.", "They opened an embassy in the new capital."],
+  ["foreign policy", "/ˌfɒrən ˈpɒləsi/", "名词短语", "外交政策；对外政策", "可数或不可数；set foreign policy；a shift in foreign policy", "Foreign policy shifted with the trade figures.", "Foreign policy was made in two ministries at once."],
+  ["soft power", "/ˌsɒft ˈpaʊə/", "名词短语", "软实力", "不可数；exercise/lose soft power", "Soft power comes from universities and television, not armies.", "They lost soft power faster than they gained markets."],
+  ["trade sanctions", "/ˈtreɪd sæŋkʃənz/", "名词短语", "贸易制裁", "复数；impose/lift trade sanctions", "Trade sanctions were imposed on three sectors.", "Trade sanctions hurt importers on both sides."],
+  ["foreign aid", "/ˌfɒrən ˈeɪd/", "名词短语", "对外援助", "不可数；give/cut foreign aid", "Foreign aid was cut to fund domestic spending.", "Foreign aid tied to purchases helps the donor most."],
+  ["development aid", "/dɪˈveləpmənt eɪd/", "名词短语", "发展援助", "不可数；receive/target development aid", "Development aid built the clinics and not the roads to them.", "Development aid fell as a share of national income."],
+  ["humanitarian aid", "/hjuːˌmænɪˈteəriən eɪd/", "名词短语", "人道主义援助", "不可数；deliver/block humanitarian aid", "Humanitarian aid reached the valley after nine days.", "Humanitarian aid convoys were blocked at the border."],
+  ["debt relief", "/ˈdet rɪliːf/", "名词短语", "债务减免", "不可数；grant/qualify for debt relief", "Debt relief freed money for primary schooling.", "Debt relief came with conditions on spending."],
+  ["developing country", "/dɪˌveləpɪŋ ˈkʌntri/", "名词短语", "发展中国家", "可数；a developing country exports", "Developing countries pay more to borrow than rich ones do.", "The term developing country covers wildly different places."],
+  ["developed country", "/dɪˌveləpt ˈkʌntri/", "名词短语", "发达国家", "可数；a developed country imports", "Developed countries outsourced the emissions with the factories.", "Every developed country here has an ageing workforce."],
+];
+
+export const GLOBALISATION_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "bilateral agreement": ["一份双边协议涵盖了该海峡的捕鱼权。", "全球性谈判破裂后，双边协议取而代之。"],
+  "multilateral agreement": ["这份多边协议花了十一年才达成。", "达成多边协议更慢，但要退出也更难。"],
+  "diplomacy": ["低调的外交斡旋使边境口岸重新开放。", "外交手段在六个月内做到了制裁未能做到的事。"],
+  "diplomat": ["两名外交官遭到报复性驱逐。", "一位高级外交官私下向委员会作了简报。"],
+  "embassy": ["这座大使馆关闭了十一年。", "他们在新首都开设了一座大使馆。"],
+  "foreign policy": ["外交政策随着贸易数据的变化而调整。", "两个政府部门同时制定外交政策。"],
+  "soft power": ["软实力来自大学和电视，而非军队。", "他们失去软实力的速度比赢得市场的速度还快。"],
+  "trade sanctions": ["三个行业受到了贸易制裁。", "贸易制裁损害了双方进口商的利益。"],
+  "foreign aid": ["对外援助经费被削减，用来资助国内开支。", "与采购挂钩的对外援助最有利于援助国。"],
+  "development aid": ["发展援助修建了诊所，却没有修通往诊所的道路。", "发展援助占国民收入的比重下降了。"],
+  "humanitarian aid": ["九天后，人道主义援助抵达了山谷。", "人道主义援助车队在边境受阻。"],
+  "debt relief": ["债务减免腾出了用于小学教育的资金。", "债务减免附带了开支方面的条件。"],
+  "developing country": ["发展中国家的借款成本高于富裕国家。", "“发展中国家”这个词涵盖了差异极大的地区。"],
+  "developed country": ["发达国家把工厂迁走，也把排放转移到了国外。", "这里每个发达国家都面临劳动力老龄化。"],
+};
