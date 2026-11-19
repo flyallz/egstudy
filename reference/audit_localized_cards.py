@@ -63,5 +63,5 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
 
 check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 40)
 check("B1", "client/src/data/originalB1.ts", "reference/original-cefr-csv/cefr-b1.csv", "B1", 34)
-check("B2", "client/src/data/originalB2.ts", "reference/original-cefr-csv/cefr-b2.csv", "B2", 16)
+check("B2", "client/src/data/originalB2.ts", "reference/original-cefr-csv/cefr-b2.csv", "B2", 18)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)
