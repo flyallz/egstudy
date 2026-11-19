@@ -1,4 +1,4 @@
-// B1 第 1–22 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–24 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -449,4 +449,56 @@ export const B1_TWENTY_SECOND_LESSON: OriginalA2Word[] = [
   ["mud", "/mʌd/", "名词", "泥；泥浆", "不可数名词；形容词 muddy = 泥泞的", "The children came home covered in mud.", "Our car got stuck in the thick mud."],
   ["murder", "/ˈmɜːdə/", "名词", "谋杀；谋杀案", "commit murder = 犯谋杀罪；也可作动词", "The police are investigating a murder in the town.", "He was sent to prison for murdering his neighbour."],
   ["muscle", "/ˈmʌsl/", "名词", "肌肉", "build muscle = 锻炼肌肉；pull a muscle = 拉伤肌肉", "Lifting weights helps you build muscle.", "He pulled a muscle in his leg while running."],
+];
+
+export const B1_TWENTY_THIRD_LESSON: OriginalA2Word[] = [
+  ["mystery", "/ˈmɪstri/", "名词", "谜；神秘的事；推理小说", "solve a mystery = 解开谜团；a mystery to somebody = 对某人而言是个谜", "How the key disappeared is still a mystery.", "She loves reading murder mystery novels."],
+  ["nail", "/neɪl/", "名词", "指甲；钉子", "cut your nails = 剪指甲；也指金属钉子", "She painted her nails bright red.", "He hit the nail into the wall with a hammer."],
+  ["narrative", "/ˈnærətɪv/", "名词", "叙述；故事", "a first-person narrative = 第一人称叙述；也可作形容词", "The novel has a clear and exciting narrative.", "The film uses a simple narrative style to tell the story."],
+  ["nation", "/ˈneɪʃn/", "名词", "国家；民族", "national = 国家的；强调一国人民的整体", "The whole nation celebrated the team's victory.", "Leaders from many nations attended the meeting."],
+  ["native", "/ˈneɪtɪv/", "形容词", "本地的；母语的；本地人", "native language = 母语；be native to a place = 原产于某地", "English is not her native language.", "Kangaroos are native to Australia."],
+  ["naturally", "/ˈnætʃrəli/", "副词", "自然地；当然", "可用于句首表示‘当然’", "Try to speak naturally in front of the camera.", "Naturally, she was upset when she lost her keys."],
+  ["necessarily", "/ˌnesəˈserəli/", "副词", "必然地；一定", "not necessarily = 不一定", "A high price does not necessarily mean good quality.", "Being rich is not necessarily the same as being happy."],
+  ["needle", "/ˈniːdl/", "名词", "针；针头", "thread a needle = 穿针；a needle and thread = 针线", "It is hard to thread a needle in poor light.", "The nurse used a clean needle for the injection."],
+  ["neighbourhood", "/ˈneɪbəhʊd/", "名词", "街区；附近地区", "in the neighbourhood = 在附近；美式拼写 neighborhood", "We live in a quiet, friendly neighbourhood.", "There are several good schools in the neighbourhood."],
+  ["net", "/net/", "名词", "网；网状物", "a fishing net = 渔网；也用于体育运动", "The fishermen pulled the net full of fish onto the boat.", "She hit the ball straight into the net."],
+  ["nor", "/nɔː/", "连词", "也不", "neither ... nor ... = 既不……也不……；nor 后可用倒装", "She neither called nor wrote all summer.", "I don't like coffee, nor does my sister."],
+  ["northern", "/ˈnɔːðən/", "形容词", "北部的", "专有地名中常大写，如 Northern Ireland", "They spent the holiday in the northern part of the country.", "The northern coast is colder and windier."],
+  ["nuclear", "/ˈnjuːkliə/", "形容词", "核能的；原子核的", "nuclear power = 核电；nuclear weapons = 核武器", "Many countries use nuclear power to make electricity.", "There were large protests against nuclear weapons."],
+  ["obvious", "/ˈɒbviəs/", "形容词", "明显的；显而易见的", "it is obvious that ... = 显然……；副词 obviously", "It was obvious that she had been crying.", "The answer seems obvious once you think about it."],
+  ["obviously", "/ˈɒbviəsli/", "副词", "显然；明显地", "可置于句首强调众所周知的事", "Obviously, you need a passport to travel abroad.", "He was obviously tired after the long trip."],
+  ["occasion", "/əˈkeɪʒn/", "名词", "场合；时机；特别事件", "on this occasion = 在这一次；a special occasion = 特别场合", "We only use these glasses on special occasions.", "I met him on several occasions last year."],
+  ["occur", "/əˈkɜː/", "动词", "发生；出现", "比 happen 正式；it occurs to somebody that ... = 某人忽然想到……", "The accident occurred late at night.", "It never occurred to me that he might be lying."],
+  ["odd", "/ɒd/", "形容词", "奇怪的；奇数的", "an odd number = 奇数；与 even（偶数）相对", "It's a bit odd that she hasn't replied yet.", "Three, five and seven are all odd numbers."],
+  ["official", "/əˈfɪʃl/", "形容词", "正式的；官员", "an official statement = 官方声明；反义词 unofficial", "The official result will be announced tomorrow.", "He made an official visit to the capital."],
+  ["old-fashioned", "/ˌəʊld ˈfæʃnd/", "形容词", "过时的；老派的", "也可褒义表示传统、经典的风格", "My grandmother has rather old-fashioned ideas about clothes.", "I love this old-fashioned little tea shop."],
+  ["operation", "/ˌɒpəˈreɪʃn/", "名词", "手术；行动；运作", "have an operation = 做手术；a rescue operation = 救援行动", "She had an operation on her knee last week.", "The rescue operation lasted for three days."],
+  ["organized", "/ˈɔːɡənaɪzd/", "形容词", "有条理的；组织好的", "a well-organized event = 组织周密的活动；英式拼写 organised", "She is very organized and never misses a deadline.", "It was a well-organized conference with clear timings."],
+  ["organizer", "/ˈɔːɡənaɪzə/", "名词", "组织者；整理工具", "an event organizer = 活动组织者；英式拼写 organiser", "The organizers of the festival expect thousands of people.", "I keep my notes in a small desk organizer."],
+];
+
+export const B1_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
+  ["originally", "/əˈrɪdʒənəli/", "副词", "原本；起初", "表示改变之前的情况", "We originally planned to go to Spain, but changed our minds.", "The building was originally a factory."],
+  ["ought", "/ɔːt/", "情态动词", "应该；理应", "情态动词，后接 to：ought to do something", "You ought to see a doctor about that cough.", "We ought to leave now if we want to catch the train."],
+  ["ours", "/aʊəz/", "代词", "我们的", "独立物主代词，代替 our + 名词；没有撇号", "Their garden is big, but ours is bigger.", "This table is theirs and that one is ours."],
+  ["outdoor", "/ˈaʊtdɔː/", "形容词", "户外的", "通常放在名词前，如 an outdoor pool；反义词 indoor", "The hotel has a large outdoor swimming pool.", "Children need plenty of outdoor activities."],
+  ["outdoors", "/ˌaʊtˈdɔːz/", "副词", "在户外", "副词，位于动词后，如 play outdoors", "In summer we often eat outdoors in the garden.", "The children spend most of the day outdoors."],
+  ["package", "/ˈpækɪdʒ/", "名词", "包裹；成套服务", "a package of ... = 一包……；a holiday package = 度假套餐", "A large package arrived for you this morning.", "They booked a holiday package that includes flights and hotel."],
+  ["painful", "/ˈpeɪnfl/", "形容词", "疼痛的；令人痛苦的", "来自 pain；副词 painfully", "The injection was quick but a little painful.", "Losing the match was a painful experience for the team."],
+  ["pale", "/peɪl/", "形容词", "苍白的；浅色的", "go pale = 脸色发白；a pale blue = 淡蓝色", "She looked pale and tired after the long flight.", "The walls were painted a pale shade of green."],
+  ["pan", "/pæn/", "名词", "平底锅；锅", "a frying pan = 煎锅", "Heat some oil in the pan before adding the eggs.", "He washed the dirty pans after dinner."],
+  ["participate", "/pɑːˈtɪsɪpeɪt/", "动词", "参加；参与", "participate in something = 参与某事；比 take part 正式", "Everyone is welcome to participate in the discussion.", "She participated in the school play last year."],
+  ["particularly", "/pəˈtɪkjələli/", "副词", "特别；尤其", "与 especially 相近；not particularly = 不怎么", "I'm not particularly fond of spicy food.", "The museum is particularly popular with children."],
+  ["passion", "/ˈpæʃn/", "名词", "热情；热爱", "a passion for something = 对某事物的热情", "Music is her greatest passion in life.", "He has a real passion for cooking Italian food."],
+  ["path", "/pɑːθ/", "名词", "小路；路线；方向", "a narrow path = 狭窄的小路；a career path = 职业道路", "A narrow path led down to the beach.", "She has chosen a different career path from her parents."],
+  ["payment", "/ˈpeɪmənt/", "名词", "付款；款项", "make a payment = 支付款项；monthly payments = 每月付款", "We accept payment by card or cash.", "They make monthly payments on their new car."],
+  ["peaceful", "/ˈpiːsfl/", "形容词", "平静的；和平的", "a peaceful protest = 和平抗议；来自 peace", "We spent a peaceful weekend in the countryside.", "The protest was large but completely peaceful."],
+  ["percentage", "/pəˈsentɪdʒ/", "名词", "百分比", "a high percentage of ... = 很大比例的……", "A high percentage of students passed the exam.", "Only a small percentage of people replied to the survey."],
+  ["perfectly", "/ˈpɜːfɪktli/", "副词", "完美地；完全地", "perfectly clear = 非常清楚；perfectly normal = 完全正常", "She speaks French perfectly.", "It is perfectly normal to feel nervous before a test."],
+  ["performance", "/pəˈfɔːməns/", "名词", "演出；表现；绩效", "give a performance = 演出；job performance = 工作表现", "The band gave an amazing performance last night.", "The company is pleased with its sales performance this year."],
+  ["personally", "/ˈpɜːsənəli/", "副词", "就个人而言；亲自", "可用于句首提出个人看法", "Personally, I think the film was too long.", "The manager personally thanked each member of staff."],
+  ["persuade", "/pəˈsweɪd/", "动词", "说服", "persuade somebody to do something = 说服某人做某事", "I tried to persuade her to stay a little longer.", "He persuaded his parents to buy him a bike."],
+  ["photographer", "/fəˈtɒɡrəfə/", "名词", "摄影师", "a wedding photographer = 婚礼摄影师", "She works as a wedding photographer at weekends.", "The photographer asked us to smile for the camera."],
+  ["photography", "/fəˈtɒɡrəfi/", "名词", "摄影；摄影艺术", "不可数名词；take up photography = 开始学习摄影", "He has been interested in photography since he was a boy.", "The magazine is famous for its beautiful photography."],
+  ["pin", "/pɪn/", "名词", "别针；大头针；钉住", "pin something to/on something = 把某物别在……上", "She fixed the hem of the dress with a pin.", "He pinned the notice to the board by the door."],
 ];
