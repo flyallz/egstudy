@@ -4616,3 +4616,33 @@ export const GOVERNMENT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "caretaker government": ["临时政府执政至选举举行。", "看守政府没有作出任何重大决定。"],
   "local government": ["十年间，地方政府的经费减少了一半。", "地方政府改革将九个行政区合并为三个。"],
 };
+
+export const GOVERNMENT_SECOND_LESSON: OriginalTopicWord[] = [
+  ["central government", "/ˌsentrəl ˈɡʌvənmənt/", "名词短语", "中央政府", "不可数；central government sets/funds", "Central government sets the targets and sends the bill.", "Decisions moved from central government to the regions."],
+  ["devolution", "/ˌdiːvəˈluːʃən/", "名词", "向地方分权；权力下放", "不可数；demand/further devolution", "Devolution gave the assembly control of health.", "Further devolution was promised and quietly shelved."],
+  ["separation of powers", "/ˌsepəˈreɪʃən əv ˈpaʊəz/", "名词短语", "三权分立；权力分立", "不可数；the separation of powers", "The separation of powers keeps the courts out of politics.", "Emergency rules blurred the separation of powers."],
+  ["checks and balances", "/ˌtʃeks ən ˈbælənsɪz/", "名词短语", "制衡机制", "复数；weaken/rely on checks and balances", "Checks and balances slowed the reform and improved it.", "Weakening checks and balances is easy and hard to undo."],
+  ["rule of law", "/ˌruːl əv ˈlɔː/", "名词短语", "法治原则；法律至上", "不可数；uphold/undermine the rule of law", "The rule of law applies to ministers as well.", "Emergency powers undermined the rule of law for two years."],
+  ["constitution", "/ˌkɒnstɪˈtjuːʃən/", "名词", "宪法", "可数；amend a constitution；a written constitution", "The constitution has been amended eleven times.", "The country has no written constitution at all."],
+  ["legislation", "/ˌledʒɪsˈleɪʃən/", "名词", "立法；法律", "不可数；pass/draft legislation", "The legislation passed with two amendments.", "Drafting the legislation took four years."],
+  ["bill", "/bɪl/", "名词", "议案；法案草案", "可数；introduce/block a bill", "The bill was blocked in the upper house.", "A private member's bill rarely becomes law."],
+  ["act of parliament", "/ˌækt əv ˈpɑːləmənt/", "名词短语", "议会通过的法令", "可数；an act of parliament requires", "An act of parliament is needed to close the line.", "The charity was created by an act of parliament."],
+  ["amendment", "/əˈmendmənt/", "名词", "修正案；修订条款", "可数；table/pass an amendment", "The amendment was defeated by nine votes.", "They tabled forty amendments to delay the vote."],
+  ["referendum", "/ˌrefəˈrendəm/", "名词", "全民公投；公民投票", "可数；hold/call a referendum", "The referendum split every party.", "A referendum was held on the same day as the local elections."],
+  ["general election", "/ˌdʒenərəl ɪˈlekʃən/", "名词短语", "大选；全国选举", "可数；call/win a general election", "A general election was called two years early.", "She has fought four general elections."],
+];
+
+export const GOVERNMENT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "central government": ["中央政府设定目标，却把账单交给别处承担。", "决策权从中央政府转移到了各地区。"],
+  "devolution": ["权力下放使地方议会获得了卫生事务的管理权。", "政府承诺进一步下放权力，随后却悄悄搁置了计划。"],
+  "separation of powers": ["权力分立使法院远离政治。", "紧急规定模糊了权力分立的界限。"],
+  "checks and balances": ["制衡机制减慢了改革进程，也改善了改革。", "削弱制衡机制很容易，恢复却很难。"],
+  "rule of law": ["法治原则同样适用于部长。", "紧急权力在两年间损害了法治原则。"],
+  "constitution": ["宪法已经修订了十一次。", "这个国家完全没有成文宪法。"],
+  "legislation": ["这项法案连同两项修正案获得通过。", "起草这项法案花了四年。"],
+  "bill": ["这项法案在上议院受阻。", "议员个人提出的法案很少成为法律。"],
+  "act of parliament": ["关闭这条线路需要议会通过一项法令。", "这家慈善机构依据议会法令成立。"],
+  "amendment": ["这项修正案以九票之差遭到否决。", "他们提出四十项修正案，以拖延表决。"],
+  "referendum": ["这次全民公投使各政党内部出现分歧。", "公投与地方选举在同一天举行。"],
+  "general election": ["大选提前两年举行。", "她已经参加过四次大选竞选。"],
+};
