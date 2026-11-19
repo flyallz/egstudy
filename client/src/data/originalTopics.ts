@@ -4220,3 +4220,41 @@ export const CRIME_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "domestic abuse": ["家庭暴力是最少被报案的犯罪类型。", "她带着两个孩子逃离了家庭暴力。"],
   "stalking": ["跟踪骚扰于 2012 年被列为独立罪名。", "她曾十一次举报跟踪骚扰。"],
 };
+
+export const CRIME_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["benefit fraud", "/ˈbenɪfɪt frɔːd/", "名词短语", "福利金诈骗；骗取补助", "不可数；be charged with benefit fraud", "Benefit fraud is a fraction of the sum unclaimed.", "She was charged with benefit fraud over nine months."],
+  ["insider trading", "/ɪnˌsaɪdə ˈtreɪdɪŋ/", "名词短语", "内幕交易", "不可数；be prosecuted for insider trading", "Two brokers were prosecuted for insider trading.", "Insider trading is detected by pattern, not by confession."],
+  ["hit and run", "/ˌhɪt ən ˈrʌn/", "名词短语", "肇事逃逸案", "可数；a hit and run", "The hit and run was caught on a dashcam.", "A hit and run leaves no insurance to claim on."],
+  ["drink-driving", "/ˈdrɪŋk ˌdraɪvɪŋ/", "名词", "酒后驾驶", "不可数；be convicted of drink-driving", "Drink-driving convictions fell by half.", "He lost his job after a drink-driving charge."],
+  ["trespassing", "/ˈtrespəsɪŋ/", "名词", "擅自闯入；非法进入", "不可数；warn sb about trespassing", "Trespassing on the line kills someone every year.", "Signs warn against trespassing on the site."],
+  ["police force", "/pəˈliːs fɔːs/", "名词短语", "警察队伍；警务机构", "可数；a local police force", "The police force lost a fifth of its officers.", "Two police forces share one control room."],
+  ["police officer", "/pəˈliːs ˌɒfɪsə/", "名词短语", "警员", "可数；a police officer patrols", "Two police officers cover the whole district at night.", "A police officer took the statement at the door."],
+  ["detective", "/dɪˈtektɪv/", "名词", "侦探；刑警", "可数；a detective investigates", "Detectives reopened the case after the letter.", "A detective interviewed every neighbour."],
+  ["beat patrol", "/ˈbiːt pəˌtrəʊl/", "名词短语", "辖区步巡；责任区巡逻", "可数或不可数；on beat patrol", "Beat patrols returned to the estate in 2019.", "Officers on beat patrol know every shopkeeper."],
+  ["community policing", "/kəˌmjuːnəti pəˈliːsɪŋ/", "名词短语", "社区警务", "不可数；invest in community policing", "Community policing depends on officers staying put.", "Community policing was cut to pay for response teams."],
+  ["crime prevention", "/ˈkraɪm prɪˌvenʃn/", "名词短语", "犯罪预防", "不可数；a crime prevention scheme", "Crime prevention here means better locks and lighting.", "The crime prevention officer visits every new tenant."],
+  ["undercover operation", "/ˌʌndəˈkʌvə ˌɒpəˈreɪʃn/", "名词短语", "卧底行动；秘密侦查行动", "可数；mount an undercover operation", "An undercover operation ran for nine months.", "The undercover operation collapsed when a file leaked."],
+  ["CCTV camera", "/ˌsiː siː tiː ˈviː ˌkæmərə/", "名词短语", "闭路电视监控摄像头", "可数；install a CCTV camera", "A CCTV camera covers both entrances.", "CCTV cameras were installed after the third break-in."],
+  ["stop and search", "/ˌstɒp ən ˈsɜːtʃ/", "名词短语", "拦查与搜身", "不可数；the use of stop and search", "Stop and search was used unevenly across the wards.", "Stop and search damages trust faster than it finds knives."],
+  ["arrest", "/əˈrest/", "名词", "逮捕；拘捕", "可数；make an arrest；be under arrest", "Nine arrests were made that night.", "He was under arrest within the hour."],
+  ["custody", "/ˈkʌstədi/", "名词", "警方拘留；羁押", "不可数；be held in police custody", "She was held in custody overnight.", "Deaths in police custody are investigated separately."],
+];
+
+export const CRIME_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "benefit fraud": ["骗取福利金的金额只是未申领福利总额的一小部分。", "她被控在九个月内骗取福利金。"],
+  "insider trading": ["两名经纪人因内幕交易被起诉。", "内幕交易是通过交易模式被发现的，而不是靠口供。"],
+  "hit and run": ["行车记录仪拍下了这起肇事逃逸。", "肇事逃逸使受害者无法向肇事方保险索赔。"],
+  "drink-driving": ["酒驾定罪数量减半了。", "他被控酒驾后丢了工作。"],
+  "trespassing": ["每年都有人因擅自进入铁路线而丧生。", "告示警告人们不要擅闯这块场地。"],
+  "police force": ["这支警队失去了五分之一的警员。", "两个警察机构共用一间控制室。"],
+  "police officer": ["夜间只有两名警员负责整个区域。", "一名警员在门口录取了口供。"],
+  "detective": ["收到那封信后，刑警重新调查了案件。", "一名侦探询问了每一位邻居。"],
+  "beat patrol": ["辖区步巡于 2019 年恢复覆盖这片住宅区。", "负责步巡的警员认识每位店主。"],
+  "community policing": ["社区警务依赖警员长期驻守同一地区。", "社区警务经费被削减，用来支付应急处置队伍的费用。"],
+  "crime prevention": ["这里的犯罪预防就是换更好的锁和照明。", "犯罪预防警员会走访每位新租户。"],
+  "undercover operation": ["一项卧底行动持续了九个月。", "一份文件泄露后，卧底行动失败了。"],
+  "CCTV camera": ["一台监控摄像头覆盖了两个入口。", "第三次入室盗窃后，安装了监控摄像头。"],
+  "stop and search": ["各选区实施拦查搜身的力度不均。", "拦查搜身破坏信任的速度，比它查获刀具的速度还快。"],
+  "arrest": ["那晚有九人被逮捕。", "不到一小时，他就被逮捕了。"],
+  "custody": ["她被拘留了一夜。", "警方拘留期间发生的死亡事件会单独调查。"],
+};
