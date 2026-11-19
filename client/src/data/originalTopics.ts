@@ -2776,3 +2776,33 @@ export const SCIENCE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "evidence": ["证据指向一个方向，资助资金却指向另一个方向。", "他们连续九个野外考察季收集证据。"],
   "referee report": ["同行评审报告发现了计算错误。", "两份同行评审报告相互矛盾。"],
 };
+
+export const SCIENCE_SECOND_LESSON: OriginalTopicWord[] = [
+  ["replication", "/ˌreplɪˈkeɪʃn/", "名词", "重复研究；结果复现", "不可数；attempt replication", "Replication is the least funded and most necessary work.", "Two attempts at replication failed."],
+  ["research paper", "/rɪˈsɜːtʃ ˌpeɪpə/", "名词短语", "研究论文", "可数；write/submit a research paper", "The research paper runs to nine pages and four years of work.", "They submitted the research paper to three journals."],
+  ["journal article", "/ˈdʒɜːnl ˌɑːtɪkl/", "名词短语", "期刊论文", "可数；publish/cite a journal article", "The journal article is behind a paywall nobody local can pass.", "She cited the same journal article in every lecture."],
+  ["impact factor", "/ˈɪmpækt ˌfæktə/", "名词短语", "期刊影响因子", "可数；a high impact factor", "The journal has a high impact factor and a narrow readership.", "Impact factor measures the journal, not the paper."],
+  ["laboratory", "/ləˈbɒrətri/", "名词", "实验室", "可数；work in/equip a laboratory", "The laboratory had one working fume cupboard.", "She worked in the same laboratory for thirty years."],
+  ["fieldwork", "/ˈfiːldwɜːk/", "名词", "实地研究；田野工作", "不可数；carry out fieldwork；three seasons of fieldwork", "Fieldwork took three summers and produced one table.", "Fieldwork in winter was abandoned after the first attempt."],
+  ["specimen", "/ˈspesɪmɪn/", "名词", "标本；样本", "可数；collect/label a specimen", "Each specimen was labelled with the date and depth.", "Nine thousand specimens sit in unopened drawers."],
+  ["microscope", "/ˈmaɪkrəskəʊp/", "名词", "显微镜", "可数；use/under a microscope", "Under the microscope the structure is obvious.", "The microscope was donated by a retired dentist."],
+  ["telescope", "/ˈtelɪskəʊp/", "名词", "望远镜", "可数；build/point a telescope", "The telescope sees further than anything built before it.", "They pointed the telescope at an empty patch of sky."],
+  ["apparatus", "/ˌæpəˈreɪtəs/", "名词", "实验装置；仪器设备", "不可数；set up/dismantle apparatus", "The apparatus took two days to set up.", "Half the apparatus was built in the workshop."],
+  ["measurement", "/ˈmeʒəmənt/", "名词", "测量；测量结果", "可数；take/repeat a measurement", "Every measurement was repeated three times.", "One measurement contradicted the whole series."],
+  ["calibration", "/ˌkælɪˈbreɪʃn/", "名词", "校准；校准工作", "可数或不可数；check calibration；regular calibration", "The calibration had drifted over the winter.", "Regular calibration is dull and non-negotiable."],
+];
+
+export const SCIENCE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "replication": ["重复验证研究结果得到的经费最少，却最有必要。", "两次重复验证的尝试都失败了。"],
+  "research paper": ["这篇研究论文只有九页，却凝结了四年的工作。", "他们将这篇论文投给了三家期刊。"],
+  "journal article": ["这篇期刊论文被付费墙挡住，当地没有人能读到。", "她在每一堂课上都引用了同一篇期刊论文。"],
+  "impact factor": ["这本期刊的影响因子很高，读者群却很小。", "影响因子衡量的是期刊，而不是单篇论文。"],
+  "laboratory": ["实验室里只有一个能正常使用的通风橱。", "她在同一间实验室工作了三十年。"],
+  "fieldwork": ["实地研究历时三个夏天，最后只产出了一张表格。", "第一次尝试后，冬季的实地研究就被放弃了。"],
+  "specimen": ["每份标本都标上了日期和采集深度。", "九千份标本放在从未打开的抽屉里。"],
+  "microscope": ["在显微镜下，这种结构一目了然。", "这台显微镜是一位退休牙医捐赠的。"],
+  "telescope": ["这台望远镜能看得比此前制造的任何望远镜都远。", "他们把望远镜对准了一片看似空无一物的天空。"],
+  "apparatus": ["这套装置花了两天才安装完成。", "一半的设备是在车间里制作的。"],
+  "measurement": ["每项测量都重复了三次。", "有一次测量结果与整组数据相矛盾。"],
+  "calibration": ["这套设备的校准状态在冬季发生了偏移。", "定期校准虽然乏味，却不能省略。"],
+};
