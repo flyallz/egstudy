@@ -78,4 +78,4 @@ check("Technology", "client/src/data/originalTopics.ts", "reference/original-top
 
 check("Economy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/economy-consumerism.csv", "ECONOMY", 10)
 check("Science", "client/src/data/originalTopics.ts", "reference/original-topic-csv/science-research.csv", "SCIENCE", 10)
-check("Cities", "client/src/data/originalTopics.ts", "reference/original-topic-csv/cities-urban-life.csv", "CITIES", 7)
+check("Cities", "client/src/data/originalTopics.ts", "reference/original-topic-csv/cities-urban-life.csv", "CITIES", 8)
