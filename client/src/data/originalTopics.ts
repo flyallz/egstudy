@@ -540,3 +540,41 @@ export const WORK_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> =
   "living wage": ["市议会向每位承包商支付足以维持生活的工资。", "倡议者逐个城市计算生活工资标准。"],
   "pay rise": ["审计之后，她要求加薪。", "员工获得了百分之二的加薪。"],
 };
+
+export const WORK_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["bonus", "/ˈbəʊnəs/", "名词", "奖金；额外奖励", "可数；receive/withhold a bonus", "The annual bonus depends on team results.", "Bonuses were withheld across the whole division."],
+  ["commission", "/kəˈmɪʃn/", "名词", "销售佣金；提成", "此义不可数；work on/earn commission", "Sales staff work mainly on commission.", "He earns more in commission than in basic pay."],
+  ["overtime", "/ˈəʊvətaɪm/", "名词", "加班；加班时间", "不可数；work/be paid overtime", "Nurses worked unpaid overtime all winter.", "Overtime is paid at time and a half."],
+  ["pension", "/ˈpenʃn/", "名词", "养老金；退休金", "可数；draw/contribute to a pension", "He draws a pension from two employers.", "Few informal workers contribute to a pension."],
+  ["sick pay", "/ˈsɪk peɪ/", "名词短语", "病假工资", "不可数；receive/statutory sick pay", "Statutory sick pay starts on the fourth day.", "Agency staff receive no sick pay at all."],
+  ["parental leave", "/pəˈrentl liːv/", "名词短语", "育儿假", "不可数；take/shared parental leave", "Shared parental leave is still rarely used by fathers.", "She took nine months of parental leave."],
+  ["annual leave", "/ˌænjuəl ˈliːv/", "名词短语", "年假", "不可数；take/carry over annual leave", "Staff may carry over five days of annual leave.", "He took his annual leave in two blocks."],
+  ["benefits package", "/ˈbenɪfɪts ˌpækɪdʒ/", "名词短语", "福利待遇方案", "可数；offer/a generous benefits package", "The benefits package includes dental cover.", "A generous benefits package offsets a modest salary."],
+  ["payslip", "/ˈpeɪslɪp/", "名词", "工资单", "可数；check/issue a payslip", "Always check the payslip against your hours.", "Payslips are issued electronically now."],
+  ["income tax", "/ˈɪnkʌm tæks/", "名词短语", "所得税", "不可数；pay/deduct income tax", "Income tax is deducted before the salary arrives.", "Freelancers pay income tax twice a year."],
+  ["workplace", "/ˈwɜːkpleɪs/", "名词", "工作场所", "可数；a safe workplace；in the workplace", "Bullying in the workplace is badly under-reported.", "The workplace was redesigned around quiet rooms."],
+  ["company culture", "/ˈkʌmpəni ˌkʌltʃə/", "名词短语", "企业文化", "可数；build/a toxic company culture", "Company culture is set by what managers tolerate.", "A toxic company culture drives out the best staff."],
+  ["teamwork", "/ˈtiːmwɜːk/", "名词", "团队协作", "不可数；rely on/good teamwork", "The operation relies on teamwork rather than heroics.", "Good teamwork saved the project after the setback."],
+  ["hierarchy", "/ˈhaɪərɑːki/", "名词", "层级制度；等级结构", "可数；a flat hierarchy；climb the hierarchy", "A flat hierarchy speeds up decisions.", "She climbed the hierarchy in under a decade."],
+  ["micromanagement", "/ˈmaɪkrəʊˌmænɪdʒmənt/", "名词", "事无巨细的管理；微观管理", "不可数；avoid/suffer micromanagement", "Micromanagement destroys initiative within weeks.", "Remote teams suffer less micromanagement, not more."],
+  ["work-life balance", "/ˌwɜːk laɪf ˈbæləns/", "名词短语", "工作与生活的平衡", "不可数；maintain/improve work-life balance", "Shift patterns make work-life balance impossible.", "She moved jobs purely for a better work-life balance."],
+];
+
+export const WORK_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "bonus": ["年度奖金取决于团队业绩。", "整个部门的奖金都被停发了。"],
+  "commission": ["销售人员的收入主要靠提成。", "他的佣金收入比基本工资还高。"],
+  "overtime": ["护士们整个冬天都在无偿加班。", "加班费按正常工资的一倍半支付。"],
+  "pension": ["他从两名前雇主那里领取养老金。", "很少有非正规就业人员缴纳养老金。"],
+  "sick pay": ["法定病假工资从第四天开始发放。", "派遣员工完全没有病假工资。"],
+  "parental leave": ["父亲们仍很少使用共享育儿假。", "她休了九个月的育儿假。"],
+  "annual leave": ["员工可以把五天年假结转到下一年。", "他把年假分两次休完。"],
+  "benefits package": ["福利方案包括牙科保险。", "丰厚的福利待遇弥补了工资不高的不足。"],
+  "payslip": ["一定要核对工资单上的工时。", "现在工资单都以电子方式发放。"],
+  "income tax": ["工资到账前会先扣除所得税。", "自由职业者每年缴纳两次所得税。"],
+  "workplace": ["职场霸凌被严重低报。", "工作场所重新设计，以安静的房间为中心。"],
+  "company culture": ["管理者容忍什么行为，就塑造出什么样的企业文化。", "有害的企业文化会逼走最优秀的员工。"],
+  "teamwork": ["这项工作依靠团队协作，而非个人逞英雄。", "遭遇挫折后，良好的团队协作挽救了项目。"],
+  "hierarchy": ["扁平的层级结构能加快决策。", "她不到十年就升到了更高的管理层。"],
+  "micromanagement": ["事无巨细的管理几周内就会扼杀主动性。", "远程团队受到的微观管理更少，而不是更多。"],
+  "work-life balance": ["轮班安排使工作与生活的平衡难以实现。", "她换工作纯粹是为了更好的工作生活平衡。"],
+};
