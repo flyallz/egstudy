@@ -37,9 +37,9 @@ const explanations = [
 if (unit.levels.medium.length !== explanations.length) throw new Error('Question count changed');
 const rows = unit.levels.medium.map((poolIndex, index) => {
   const source = unit.pool[poolIndex];
-  const q = source.q || '选择正确的句子。';
+  const q = source.sentence || '选择正确的句子。';
   const common = { q, explain: explanations[index], difficulty: '中等' };
-  if (source.type === 'fill') return { ...common, options: [], answer: 0, answerText: source.answer, sentence: q.replace('___', source.answer), kind: 'blank' };
+  if (source.type === 'fill') return { ...common, options: [], answer: 0, answerText: source.answer, sentence: source.sentence.replace('___', source.answer), kind: 'blank' };
   return { ...common, options: source.options, answer: source.options.indexOf(source.answer), keepChoice: true };
 });
 const output = `import type { QuizQuestion } from "./content";\n\n// 英文题干、选项与答案按原站 A2 第 1 课中等档顺序保留；解析译为中文。\nexport const A2_REFLEXIVE_MEDIUM: QuizQuestion[] = ${JSON.stringify(rows, null, 2)};\n`;

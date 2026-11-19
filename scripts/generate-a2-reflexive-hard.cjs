@@ -20,14 +20,14 @@ const fresh = {
 };
 const rows = unit.levels.hard.map((poolIndex, index) => {
   const source = unit.pool[poolIndex];
-  const mediumMatch = medium.find(row => row.q === (source.q || '选择正确的句子。') &&
+  const mediumMatch = medium.find(row => row.q === (source.sentence || '选择正确的句子。') &&
     (source.type === 'fill' ? row.answerText === source.answer :
       JSON.stringify(row.options) === JSON.stringify(source.options) && row.options[row.answer] === source.answer));
   const explain = fresh[index + 1] || mediumMatch?.explain;
   if (!explain) throw new Error(`Missing explanation for ${index + 1}`);
-  const q = source.q || '选择正确的句子。';
+  const q = source.sentence || '选择正确的句子。';
   const common = { q, explain, difficulty: '困难' };
-  if (source.type === 'fill') return { ...common, options: [], answer: 0, answerText: source.answer, sentence: q.replace('___', source.answer), kind: 'blank' };
+  if (source.type === 'fill') return { ...common, options: [], answer: 0, answerText: source.answer, sentence: source.sentence.replace('___', source.answer), kind: 'blank' };
   return { ...common, options: source.options, answer: source.options.indexOf(source.answer), keepChoice: true };
 });
 const output = `import type { QuizQuestion } from "./content";\n\n// 英文题干、选项与答案按原站 A2 第 1 课困难档顺序保留；解析译为中文。\nexport const A2_REFLEXIVE_HARD: QuizQuestion[] = ${JSON.stringify(rows, null, 2)};\n`;
