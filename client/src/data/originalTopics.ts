@@ -4130,3 +4130,29 @@ export const TRANSPORT_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, strin
   "on the move": ["外卖骑手连续九个小时奔波在路上。", "她每天往返于三个场地之间。"],
   "go off the rails": ["升级改造在第二年就偏离了正轨。", "资金转向后，这项计划失控了。"],
 };
+
+export const CRIME_FIRST_LESSON: OriginalTopicWord[] = [
+  ["crime rate", "/ˈkraɪm reɪt/", "名词短语", "犯罪率", "可数；a falling crime rate", "The crime rate fell for nine years running.", "A low crime rate hides what goes unreported."],
+  ["petty crime", "/ˈpeti kraɪm/", "名词短语", "轻微犯罪；小偷小摸", "不可数；tackle petty crime", "Petty crime rose after the youth centre closed.", "Petty crime takes most of the officers' time."],
+  ["violent crime", "/ˈvaɪələnt kraɪm/", "名词短语", "暴力犯罪", "不可数；violent crime rises/falls", "Violent crime is concentrated in two wards.", "Violent crime halved between 1995 and 2015."],
+  ["organised crime", "/ˌɔːɡənaɪzd ˈkraɪm/", "名词短语", "有组织犯罪", "不可数；tackle organised crime", "Organised crime moved into waste disposal.", "Tackling organised crime needs more than arrests."],
+  ["white-collar crime", "/ˌwaɪt kɒlə ˈkraɪm/", "名词短语", "白领犯罪；经济犯罪", "不可数；prosecute white-collar crime", "White-collar crime is rarely punished with prison.", "White-collar crime costs more than burglary ever did."],
+  ["burglary", "/ˈbɜːɡləri/", "名词", "入室盗窃；入室盗窃案", "可数；report a burglary", "Burglaries fell once the alleys were gated.", "The burglary was reported three days later."],
+  ["robbery", "/ˈrɒbəri/", "名词", "抢劫；抢劫案", "可数；an armed robbery", "An armed robbery closed the branch for a week.", "Two robberies took place on the same street."],
+  ["theft", "/θeft/", "名词", "盗窃；盗窃行为", "可数或不可数；report petty theft", "Bicycle theft is the commonest crime here.", "Theft from vehicles rose sharply in June."],
+  ["shoplifting", "/ˈʃɒplɪftɪŋ/", "名词", "商店行窃", "不可数；tackle shoplifting", "Shoplifting rose with the cost of food.", "The shop reports shoplifting only above a set value."],
+  ["pickpocketing", "/ˈpɪkpɒkɪtɪŋ/", "名词", "扒窃；偷钱包", "不可数；pickpocketing is common", "Pickpocketing is common at the terminus.", "Signs warn visitors about pickpocketing."],
+];
+
+export const CRIME_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "crime rate": ["犯罪率连续九年下降。", "低犯罪率掩盖了未被举报的案件。"],
+  "petty crime": ["青少年活动中心关闭后，轻微犯罪增加了。", "小偷小摸占用了警员的大部分时间。"],
+  "violent crime": ["暴力犯罪集中发生在两个选区。", "1995 年至 2015 年间，暴力犯罪减半。"],
+  "organised crime": ["有组织犯罪渗入了垃圾处理行业。", "打击有组织犯罪需要的措施不只是逮捕。"],
+  "white-collar crime": ["白领犯罪很少被判监禁。", "白领犯罪造成的损失远超入室盗窃。"],
+  "burglary": ["小巷装上门禁后，入室盗窃案件减少了。", "这起入室盗窃三天后才被报案。"],
+  "robbery": ["一起持械抢劫使这家分行关闭了一周。", "同一条街发生了两起抢劫案。"],
+  "theft": ["自行车盗窃是这里最常见的犯罪。", "六月，车内物品盗窃案件急剧增加。"],
+  "shoplifting": ["随着食品价格上涨，商店行窃增加了。", "这家店只有在失窃金额超过规定数额时才报案。"],
+  "pickpocketing": ["终点站扒窃频发。", "告示提醒游客注意扒窃。"],
+};
