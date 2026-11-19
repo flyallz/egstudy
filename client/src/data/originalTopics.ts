@@ -5106,3 +5106,37 @@ export const MEDIA_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "editor": ["截稿前一小时，主编撤下了这篇稿件。", "新主编改变了这份报纸的政治立场。"],
   "press release": ["新闻稿没有回答任何问题。", "这篇文章有一半只是把新闻稿中的名字换了换。"],
 };
+
+export const MEDIA_THIRD_LESSON: OriginalTopicWord[] = [
+  ["press conference", "/ˈpres ˌkɒnfərəns/", "名词短语", "新闻发布会；记者会", "可数；hold/walk out of a press conference", "The press conference lasted eleven minutes.", "She held a press conference and took three questions."],
+  ["circulation", "/ˌsɜːkjəˈleɪʃən/", "名词", "发行量", "可数或不可数；a falling circulation；boost circulation", "Circulation fell from four hundred thousand to ninety.", "Free distribution boosted circulation and killed the revenue."],
+  ["readership", "/ˈriːdəʃɪp/", "名词", "读者群；读者人数", "可数，通常单数；a loyal/ageing readership", "The readership is loyal, elderly and shrinking.", "Online readership is many times the print figure."],
+  ["viewing figures", "/ˈvjuːɪŋ ˌfɪɡəz/", "名词短语", "收视人数；收视数据", "复数；viewing figures rise/collapse", "Viewing figures collapsed after the format changed.", "The viewing figures were the highest since 2011."],
+  ["ratings", "/ˈreɪtɪŋz/", "名词", "收视率；收听率", "复数；chase/top the ratings", "Chasing ratings produced nine identical talent shows.", "The documentary topped the ratings in its slot."],
+  ["prime time", "/ˌpraɪm ˈtaɪm/", "名词短语", "黄金播出时段", "不可数；in prime time；a prime time slot", "The series was moved out of prime time.", "Prime time advertising costs ten times the daytime rate."],
+  ["channel", "/ˈtʃænl/", "名词", "电视频道；广播频道", "可数；launch/switch a channel", "The channel lost its news budget first.", "Nine channels show the same film on the same night."],
+  ["broadcaster", "/ˈbrɔːdkɑːstə/", "名词", "广播电视机构；播出方", "可数；a public/commercial broadcaster", "The public broadcaster is funded by a licence fee.", "Commercial broadcasters dropped regional bulletins."],
+  ["licence fee", "/ˈlaɪsns fiː/", "名词短语", "电视收视许可费", "可数；pay/freeze the licence fee", "The licence fee was frozen for six years.", "Every household with a television pays the licence fee."],
+  ["subscription", "/səbˈskrɪpʃən/", "名词", "订阅；订阅费", "可数；take out/cancel a subscription", "Digital subscriptions now outnumber print copies.", "She cancelled her subscription over one headline."],
+  ["print run", "/ˈprɪnt rʌn/", "名词短语", "印刷数量；一次印量", "可数；a print run of + 数量", "The print run fell to nine thousand copies.", "They doubled the print run for the final edition."],
+  ["column inches", "/ˈkɒləm ˌɪntʃɪz/", "名词短语", "报纸版面篇幅；报道篇幅", "复数；devote/fill column inches", "The wedding filled more column inches than the budget.", "Column inches went to the row, not to the report."],
+  ["sensationalism", "/senˈseɪʃənəlɪzəm/", "名词", "耸人听闻的报道方式", "不可数；criticise/avoid sensationalism", "Sensationalism sells and distorts in equal measure.", "The coverage slid into sensationalism by the third day."],
+  ["scoop", "/skuːp/", "名词", "独家新闻；抢先报道", "可数；get/lose a scoop", "The scoop came from a single unguarded remark.", "They lost the scoop by an hour."],
+];
+
+export const MEDIA_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "press conference": ["记者会持续了十一分钟。", "她举行了记者会，回答了三个问题。"],
+  "circulation": ["发行量从四十万降至九十。", "免费派发提高了发行量，却断送了收入。"],
+  "readership": ["读者群忠诚、年长，而且人数正在缩减。", "线上读者人数是纸质版的数倍。"],
+  "viewing figures": ["节目形式改变后，收视人数骤降。", "该节目的收视人数创下了 2011 年以来的新高。"],
+  "ratings": ["追逐收视率催生了九档一模一样的才艺节目。", "这部纪录片在该时段的收视率排名第一。"],
+  "prime time": ["这部剧集被移出了黄金时段。", "黄金时段的广告费用是白天时段的十倍。"],
+  "channel": ["这个频道首先被削减了新闻预算。", "同一晚有九个频道播放同一部电影。"],
+  "broadcaster": ["公共广播机构由电视许可费提供经费。", "商业广播机构取消了地区新闻简报。"],
+  "licence fee": ["电视许可费冻结了六年。", "每个有电视机的家庭都要缴纳许可费。"],
+  "subscription": ["数字订阅量如今超过了纸质版份数。", "她因为一个标题取消了订阅。"],
+  "print run": ["印刷数量降到了九千份。", "他们把最后一期的印量翻了一倍。"],
+  "column inches": ["那场婚礼占据的报纸版面比预算案还多。", "版面篇幅给了争吵事件，而不是那份报告。"],
+  "sensationalism": ["耸人听闻的报道既能卖座，也同样会扭曲事实。", "到了第三天，相关报道变得越来越哗众取宠。"],
+  "scoop": ["这条独家新闻来自一句不经意的话。", "他们比对手晚了一小时，错失了独家新闻。"],
+};
