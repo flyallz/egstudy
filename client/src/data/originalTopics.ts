@@ -2346,3 +2346,37 @@ export const ECONOMY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "stimulus package": ["这项经济刺激方案偏重建筑业。", "第二轮经济刺激方案于六月公布。"],
   "subsidy": ["公交线路依靠公共补贴维持运营。", "燃油补贴一夜之间被取消了。"],
 };
+
+export const ECONOMY_THIRD_LESSON: OriginalTopicWord[] = [
+  ["taxation", "/tækˈseɪʃn/", "名词", "税收制度；征税", "不可数；progressive taxation；reform taxation", "Progressive taxation narrows the gap after wages.", "Taxation was reformed twice in five years."],
+  ["tax revenue", "/ˈtæks ˌrevənjuː/", "名词短语", "税收收入", "不可数；raise/lose tax revenue", "Tax revenue fell with every factory closure.", "The levy raised modest tax revenue."],
+  ["tax evasion", "/ˈtæks ɪˌveɪʒn/", "名词短语", "逃税", "不可数；prosecute sb for tax evasion", "Two directors were prosecuted for tax evasion.", "Tax evasion is a crime; avoidance is not."],
+  ["tax avoidance", "/ˈtæks əˌvɔɪdəns/", "名词短语", "避税", "不可数；aggressive tax avoidance；clamp down on tax avoidance", "Aggressive tax avoidance is legal and corrosive.", "Governments clamp down on tax avoidance slowly."],
+  ["tariff", "/ˈtærɪf/", "名词", "关税", "可数；impose/lift a tariff on + 商品", "A tariff was imposed on imported steel.", "Tariffs on grain were lifted in March."],
+  ["import quota", "/ˈɪmpɔːt ˌkwəʊtə/", "名词短语", "进口配额", "可数；set/scrap an import quota", "An import quota protected local mills.", "The import quota was scrapped under the treaty."],
+  ["supply and demand", "/səˌplaɪ ən dɪˈmɑːnd/", "名词短语", "供求关系", "不可数；the law of supply and demand", "Rents are set by supply and demand, not by need.", "Supply and demand explain the shortage only partly."],
+  ["market share", "/ˈmɑːkɪt ʃeə/", "名词短语", "市场份额", "可数或不可数；gain/lose market share", "The firm lost market share to cheaper rivals.", "Two companies hold ninety per cent of the market share."],
+  ["competition", "/ˌkɒmpəˈtɪʃn/", "名词", "竞争", "此义不可数；face/stifle competition", "Local bakers face competition from supermarkets.", "Patents stifle competition for twenty years."],
+  ["monopoly", "/məˈnɒpəli/", "名词", "垄断；专营权", "可数；hold/break up a monopoly", "One operator held a monopoly on the route.", "Regulators broke up the monopoly in 1998."],
+  ["cartel", "/kɑːˈtel/", "名词", "卡特尔；垄断联盟", "可数；form/expose a cartel", "Six suppliers had formed a cartel.", "The cartel fixed prices for eleven years."],
+  ["deregulation", "/ˌdiːreɡjuˈleɪʃn/", "名词", "放松监管", "不可数；financial deregulation", "Financial deregulation preceded the crash.", "Deregulation lowered fares and safety standards alike."],
+  ["privatisation", "/ˌpraɪvətaɪˈzeɪʃn/", "名词", "私有化", "可数或不可数；the privatisation of + 名词", "The privatisation of water remains contested.", "Privatisation raised cash and lost control."],
+  ["nationalisation", "/ˌnæʃənəlaɪˈzeɪʃn/", "名词", "国有化", "可数或不可数；call for nationalisation", "Unions called for the nationalisation of the grid.", "Nationalisation followed the second bailout."],
+];
+
+export const ECONOMY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "taxation": ["累进税制缩小了工资收入后的差距。", "税制在五年内改革了两次。"],
+  "tax revenue": ["每关闭一家工厂，税收收入就减少一些。", "这项征税带来了少量税收收入。"],
+  "tax evasion": ["两名董事因逃税受到起诉。", "逃税是犯罪，避税则不是。"],
+  "tax avoidance": ["激进避税虽合法，却会侵蚀制度。", "各国政府对避税的打击进展缓慢。"],
+  "tariff": ["进口钢材被征收关税。", "谷物关税于三月取消。"],
+  "import quota": ["进口配额保护了本地磨坊。", "根据该条约，进口配额被取消。"],
+  "supply and demand": ["租金由供求决定，而不是由需求者的需要决定。", "供求关系只能部分解释这次短缺。"],
+  "market share": ["这家公司将市场份额输给了更便宜的竞争对手。", "两家公司占有百分之九十的市场份额。"],
+  "competition": ["本地面包店面临来自超市的竞争。", "专利会抑制竞争长达二十年。"],
+  "monopoly": ["一家运营商垄断了这条线路。", "监管机构于 1998 年打破了这项垄断。"],
+  "cartel": ["六家供应商组成了一个价格联盟。", "这个联盟操纵价格长达十一年。"],
+  "deregulation": ["金融放松监管先于金融崩盘发生。", "放松监管既降低了票价，也降低了安全标准。"],
+  "privatisation": ["供水私有化仍存在争议。", "私有化带来了现金，也失去了控制权。"],
+  "nationalisation": ["工会呼吁将电网国有化。", "第二次救助之后实施了国有化。"],
+};
