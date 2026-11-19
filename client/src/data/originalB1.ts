@@ -1,4 +1,4 @@
-// B1 第 1–24 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–26 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -501,4 +501,58 @@ export const B1_TWENTY_FOURTH_LESSON: OriginalA2Word[] = [
   ["photographer", "/fəˈtɒɡrəfə/", "名词", "摄影师", "a wedding photographer = 婚礼摄影师", "She works as a wedding photographer at weekends.", "The photographer asked us to smile for the camera."],
   ["photography", "/fəˈtɒɡrəfi/", "名词", "摄影；摄影艺术", "不可数名词；take up photography = 开始学习摄影", "He has been interested in photography since he was a boy.", "The magazine is famous for its beautiful photography."],
   ["pin", "/pɪn/", "名词", "别针；大头针；钉住", "pin something to/on something = 把某物别在……上", "She fixed the hem of the dress with a pin.", "He pinned the notice to the board by the door."],
+];
+
+export const B1_TWENTY_FIFTH_LESSON: OriginalA2Word[] = [
+  ["pipe", "/paɪp/", "名词", "管道；烟斗", "a water pipe = 水管；a gas pipe = 燃气管", "A water pipe burst and flooded the kitchen.", "The old man sat by the fire smoking his pipe."],
+  ["planning", "/ˈplænɪŋ/", "名词", "规划；计划", "通常不可数；city planning = 城市规划", "The trip was a success thanks to careful planning.", "Good planning helped us finish the project on time."],
+  ["pleasant", "/ˈpleznt/", "形容词", "愉快的；宜人的；和善的", "可形容人、天气或经历；反义词 unpleasant", "We had a pleasant afternoon in the park.", "She has a warm, pleasant personality."],
+  ["pleasure", "/ˈpleʒə/", "名词", "快乐；满足", "with pleasure = 乐意；it's a pleasure to do something = 做某事很愉快", "Reading gives me great pleasure.", "It was a pleasure to meet your family."],
+  ["plenty", "/ˈplenti/", "代词", "大量；充足", "plenty of + 名词 = 大量且有余", "Don't worry, we still have plenty of time.", "There's plenty of food for everyone at the party."],
+  ["plot", "/plɒt/", "名词", "情节；小块土地；阴谋", "the plot of a novel = 小说情节；a plot of land = 一块地", "The film has an exciting plot full of surprises.", "They bought a small plot of land to build a house."],
+  ["plus", "/plʌs/", "介词", "加上；此外", "可用于数字相加，也可补充一个原因", "Two plus three equals five.", "The rent is 500 dollars a month, plus electricity."],
+  ["podcast", "/ˈpɒdkɑːst/", "名词", "播客节目", "listen to a podcast = 收听播客", "I listen to a history podcast on my way to work.", "She started a podcast about healthy cooking."],
+  ["poem", "/ˈpəʊɪm/", "名词", "诗；诗篇", "write、read、recite a poem = 写、读、朗诵一首诗", "He wrote a beautiful poem for his mother.", "We had to learn a short poem by heart at school."],
+  ["poet", "/ˈpəʊɪt/", "名词", "诗人", "写诗的人；相关词 poetry", "Shakespeare was a famous poet and playwright.", "She dreams of becoming a well-known poet one day."],
+  ["poetry", "/ˈpəʊətri/", "名词", "诗歌；诗作", "通常不可数，指诗歌这一文体", "I enjoy reading poetry in my free time.", "Modern poetry can be hard to understand at first."],
+  ["poison", "/ˈpɔɪzn/", "名词", "毒药；使中毒", "既可作名词，也可作动词", "Some wild mushrooms contain a dangerous poison.", "Chemicals from the factory poisoned the river."],
+  ["poisonous", "/ˈpɔɪzənəs/", "形容词", "有毒的", "可形容毒蛇、植物或气体", "Be careful, that snake is poisonous.", "The berries on this bush are poisonous to humans."],
+  ["policy", "/ˈpɒləsi/", "名词", "政策；方针", "a policy on something = 关于某事的政策", "The company has a strict policy on working hours.", "The government announced a new policy to help farmers."],
+  ["political", "/pəˈlɪtɪkl/", "形容词", "政治的", "a political party = 政党；political views = 政治观点", "He rarely talks about his political opinions.", "The country is going through a period of political change."],
+  ["politician", "/ˌpɒləˈtɪʃn/", "名词", "政治家；政客", "从事政治的人", "The politician promised to lower taxes.", "Many politicians attended the ceremony."],
+  ["politics", "/ˈpɒlətɪks/", "名词", "政治；政治活动", "通常不可数，作主语时通常用单数动词", "She has always been interested in politics.", "Politics is a popular topic at our dinner table."],
+  ["port", "/pɔːt/", "名词", "港口", "a fishing port = 渔港；arrive at a port = 抵达港口", "The ship finally reached the port after two weeks.", "This city has one of the busiest ports in the world."],
+  ["portrait", "/ˈpɔːtrət/", "名词", "肖像；画像", "a portrait of somebody = 某人的肖像", "The artist painted a portrait of the queen.", "A large portrait of her grandfather hangs in the hall."],
+  ["possibly", "/ˈpɒsəbli/", "副词", "或许；可能", "也可与 can、could 连用以加强语气", "She might possibly arrive late tonight.", "I can't possibly finish all this work today."],
+  ["pot", "/pɒt/", "名词", "锅；盆；壶", "a cooking pot = 锅；a plant pot = 花盆", "He put the soup in a large pot on the stove.", "She grows herbs in small pots on the balcony."],
+  ["pour", "/pɔː/", "动词", "倾倒；倒入；（雨）倾盆而下", "pour something into/onto = 把某物倒入／倒在……上", "Could you pour me a glass of water, please?", "It was pouring with rain all afternoon."],
+  ["poverty", "/ˈpɒvəti/", "名词", "贫困；贫穷", "通常不可数；live in poverty = 生活贫困", "Millions of people still live in poverty.", "The charity works hard to fight poverty in the region."],
+  ["powder", "/ˈpaʊdə/", "名词", "粉末；粉", "通常不可数；washing powder = 洗衣粉", "Add two spoons of chili powder to the sauce.", "The snow was as soft as powder."],
+];
+
+export const B1_TWENTY_SIXTH_LESSON: OriginalA2Word[] = [
+  ["powerful", "/ˈpaʊəfl/", "形容词", "有力的；强大的", "a powerful leader = 有权势的领导人；反义词 weak", "The new car has a very powerful engine.", "She gave a powerful speech that moved everyone."],
+  ["practical", "/ˈpræktɪkl/", "形容词", "实用的；切合实际的", "practical advice = 实用建议；反义词 impractical", "He gave me some practical advice about saving money.", "These shoes aren't pretty, but they're very practical."],
+  ["pray", "/preɪ/", "动词", "祈祷；祈求", "pray for somebody/something = 为某人或某事祈祷", "They went to the temple to pray.", "She prayed for her family's safety."],
+  ["prayer", "/preə/", "名词", "祈祷；祈祷文", "say a prayer = 做祷告；与 pray 区分", "He said a quiet prayer before the meal.", "People gathered in the church for evening prayers."],
+  ["prediction", "/prɪˈdɪkʃn/", "名词", "预测；预言", "make a prediction about something = 对某事作预测", "Her prediction about the weather turned out to be right.", "It's hard to make a prediction about the final score."],
+  ["prepared", "/prɪˈpeəd/", "形容词", "准备好的；愿意的", "be prepared for something = 为某事做好准备", "Are you prepared for the exam tomorrow?", "I'm not prepared to wait any longer."],
+  ["presentation", "/ˌpreznˈteɪʃn/", "名词", "演示；报告；演讲", "give a presentation on something = 就某事做报告", "I have to give a presentation at work on Monday.", "Her presentation on climate change was very clear."],
+  ["press", "/pres/", "名词", "新闻界；按压", "the press = 新闻界；作动词表示按下", "The press reported the news the next morning.", "Press the button to start the machine."],
+  ["pressure", "/ˈpreʃə/", "名词", "压力；压迫", "under pressure = 承受压力；put pressure on somebody = 向某人施压", "She works well even under a lot of pressure.", "There is growing pressure on the government to act."],
+  ["pretend", "/prɪˈtend/", "动词", "假装；佯装", "pretend to do something = 假装做某事", "The children pretended to be asleep.", "He pretended that he didn't hear me."],
+  ["previous", "/ˈpriːviəs/", "形容词", "以前的；先前的", "the previous day/week = 前一天／前一周", "I enjoyed the film more than her previous one.", "We had met on a previous occasion."],
+  ["previously", "/ˈpriːviəsli/", "副词", "先前；以前", "可表示另一件事发生前的时间", "She had previously worked as a nurse.", "The house was previously owned by a famous writer."],
+  ["priest", "/priːst/", "名词", "神父；祭司", "宗教仪式的主持者", "The priest welcomed everyone to the church.", "He trained for many years to become a priest."],
+  ["primary", "/ˈpraɪməri/", "形容词", "主要的；初级的", "primary cause = 主要原因；primary school = 小学", "Safety is our primary concern on this trip.", "My daughter has just started primary school."],
+  ["prince", "/prɪns/", "名词", "王子", "与 princess（公主）相对", "The young prince will one day become king.", "In the story, a brave prince rescues the village."],
+  ["princess", "/ˌprɪnˈses/", "名词", "公主；王妃", "国王的女儿或王子的妻子", "The little girl dressed up as a princess.", "The princess waved to the crowd from the balcony."],
+  ["printing", "/ˈprɪntɪŋ/", "名词", "印刷；印刷业", "the printing of books = 书籍印刷；通常不可数", "The printing of the new magazine will start next week.", "The invention of printing changed the world."],
+  ["prisoner", "/ˈprɪznə/", "名词", "囚犯；犯人", "take somebody prisoner = 俘虏某人", "The prisoner was released after five years.", "Soldiers took several prisoners during the battle."],
+  ["private", "/ˈpraɪvət/", "形容词", "私人的；私立的", "private life = 私生活；反义词 public", "She keeps her private life away from the media.", "They sent their son to a private school."],
+  ["producer", "/prəˈdjuːsə/", "名词", "生产者；制片人", "可指生产商品的企业或制作电影的人", "He works as a film producer in Hollywood.", "This country is a major producer of coffee."],
+  ["production", "/prəˈdʌkʃn/", "名词", "生产；产量；演出", "mass production = 大规模生产；a theatre production = 戏剧演出", "Oil production has fallen this year.", "We went to see a new production of the play."],
+  ["profession", "/prəˈfeʃn/", "名词", "职业；专业行当", "by profession = 以……为职业；常指需要专业训练的工作", "Teaching is a rewarding profession.", "She is a lawyer by profession."],
+  ["profit", "/ˈprɒfɪt/", "名词", "利润；盈利", "make a profit = 盈利；反义词 loss", "The company made a big profit last year.", "They sold the house at a good profit."],
+  ["promote", "/prəˈməʊt/", "动词", "提拔；推广；促进", "be promoted to = 晋升为；promote a product = 推广产品", "She was promoted to manager after two years.", "The company is promoting its new phone online."],
 ];
