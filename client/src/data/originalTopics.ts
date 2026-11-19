@@ -5076,3 +5076,33 @@ export const MEDIA_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "front page": ["这则新闻两次登上头版。", "他们把头版腾出来报道判决。"],
   "headline": ["标题所表达的内容超出了文章能够支持的范围。", "标题往往由没有亲自报道这则新闻的人撰写。"],
 };
+
+export const MEDIA_SECOND_LESSON: OriginalTopicWord[] = [
+  ["byline", "/ˈbaɪlaɪn/", "名词", "文章署名；作者名栏", "可数；a byline appears", "Her byline appeared on three pages.", "A shared byline hides who did the digging."],
+  ["columnist", "/ˈkɒləmnɪst/", "名词", "专栏作家", "可数；a columnist argues", "The columnist attacked her own party.", "Columnists are paid for opinions, not for reporting."],
+  ["editorial", "/ˌedɪˈtɔːriəl/", "名词", "社论", "可数；write an editorial；an editorial urges", "The editorial urged a public inquiry.", "Two editorials in one week signalled a change of line."],
+  ["opinion piece", "/əˈpɪnjən piːs/", "名词短语", "评论文章；观点文章", "可数；write/commission an opinion piece", "The opinion piece was answered the following day.", "They commissioned an opinion piece from the retiring judge."],
+  ["feature article", "/ˈfiːtʃə ˌɑːtɪkl/", "名词短语", "特写文章；专题报道", "可数；write a feature article on + 名词", "The feature article took four months to research.", "A feature article can do what a bulletin cannot."],
+  ["news bulletin", "/ˈnjuːz ˌbʊlətɪn/", "名词短语", "新闻简报；新闻快讯", "可数；a news bulletin at + 时间", "The news bulletin runs every hour on the half hour.", "A two-minute news bulletin cannot carry context."],
+  ["breaking news", "/ˌbreɪkɪŋ ˈnjuːz/", "名词短语", "突发新闻", "不可数；breaking news interrupts", "Breaking news interrupted the programme twice.", "Breaking news is usually wrong in its first version."],
+  ["news agency", "/ˈnjuːz ˌeɪdʒənsi/", "名词短语", "通讯社", "可数；a news agency supplies", "One news agency supplies most of the foreign coverage.", "News agencies employ the last correspondents in the region."],
+  ["correspondent", "/ˌkɒrəˈspɒndənt/", "名词", "驻外记者；特派记者", "可数；a foreign correspondent；our correspondent", "Their correspondent filed from the border for a month.", "Foreign correspondents were withdrawn to save money."],
+  ["journalist", "/ˈdʒɜːnəlɪst/", "名词", "新闻记者", "可数；an investigative journalist", "Two journalists spent a year on the documents.", "The journalist refused to name her source."],
+  ["editor", "/ˈedɪtə/", "名词", "编辑；主编", "可数；the editor decides/spikes", "The editor spiked the piece an hour before deadline.", "A new editor changed the politics of the paper."],
+  ["press release", "/ˈpres rɪˌliːs/", "名词短语", "新闻稿；新闻通稿", "可数；issue/rewrite a press release", "The press release answered none of the questions.", "Half the article was the press release with the names changed."],
+];
+
+export const MEDIA_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "byline": ["她的署名出现在三个版面上。", "共同署名掩盖了究竟是谁做了深入调查。"],
+  "columnist": ["这位专栏作家批评了自己所属的政党。", "专栏作家拿报酬是为了发表观点，不是为了采访报道。"],
+  "editorial": ["社论呼吁开展公开调查。", "一周内发表两篇社论，表明报纸立场发生了变化。"],
+  "opinion piece": ["第二天就有人撰文回应了这篇评论。", "他们约请即将退休的法官撰写一篇评论文章。"],
+  "feature article": ["这篇专题报道花了四个月做资料调查。", "特写文章能做到新闻简报做不到的事。"],
+  "news bulletin": ["新闻简报每小时在半点播出。", "两分钟的新闻简报无法提供事件背景。"],
+  "breaking news": ["突发新闻两次打断了节目。", "突发新闻的最初版本通常有误。"],
+  "news agency": ["一家通讯社提供了大部分国外新闻报道。", "这个地区最后几位驻外记者仍受雇于通讯社。"],
+  "correspondent": ["他们的特派记者在边境连续发稿一个月。", "为了节省开支，驻外记者被撤回了。"],
+  "journalist": ["两名记者花了一年时间查阅这些文件。", "这名记者拒绝透露消息来源的姓名。"],
+  "editor": ["截稿前一小时，主编撤下了这篇稿件。", "新主编改变了这份报纸的政治立场。"],
+  "press release": ["新闻稿没有回答任何问题。", "这篇文章有一半只是把新闻稿中的名字换了换。"],
+};
