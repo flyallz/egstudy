@@ -138,3 +138,43 @@ export const B2_EIGHTH_LESSON: OriginalA2Word[] = [
   ["external", "/ɪkˈstɜːnl/", "形容词", "外部的；外来的", "external factors = 外部因素；反义词 internal", "The external walls of the house need a fresh coat of paint.", "Several external factors affected the company's profits."],
   ["housing", "/ˈhaʊzɪŋ/", "名词", "住房；住房供应", "通常不可数；affordable housing = 经济适用住房", "The city needs more affordable housing for young families.", "Rising prices have made the housing market difficult for buyers."],
 ];
+
+export const B2_NINTH_LESSON: OriginalA2Word[] = [
+  ["lung", "/lʌŋ/", "名词", "肺", "常用复数 lungs；at the top of your lungs = 声嘶力竭地", "The doctor listened carefully to his left lung.", "Smoking can seriously damage your lungs over time."],
+  ["demand", "/dɪˈmɑːnd/", "名词", "需求；要求", "demand for something = 对某物的需求；in demand = 受欢迎", "There is a growing demand for electric cars in the city.", "The job places heavy demands on your time and energy."],
+  ["extraordinary", "/ɪkˈstrɔːdnri/", "形容词", "非凡的；特别的", "an extraordinary achievement = 非凡成就；反义词 ordinary", "She showed extraordinary courage during the rescue.", "It was an extraordinary coincidence that they met again."],
+  ["maintain", "/meɪnˈteɪn/", "动词", "维持；保养；坚称", "maintain a relationship = 维持关系；maintain that ... = 坚称……", "It is hard to maintain a healthy diet while travelling.", "He maintained that he had done nothing wrong."],
+  ["demonstrate", "/ˈdemənstreɪt/", "动词", "证明；演示；示威", "demonstrate that/how = 证明……；demonstrate against = 示威反对", "The results clearly demonstrate that the new method works.", "A teacher demonstrated how to use the machine safely."],
+  ["humorous", "/ˈhjuːmərəs/", "形容词", "幽默的；诙谐的", "a humorous remark = 幽默的话语；近义词 funny", "He gave a humorous speech that made the whole room laugh.", "Her emails are always full of humorous remarks."],
+  ["majority", "/məˈdʒɒrəti/", "名词", "大多数；多数票", "the majority of + 复数名词；反义词 minority", "The majority of students passed the final exam.", "The party won the election with a large majority."],
+  ["deny", "/dɪˈnaɪ/", "动词", "否认；拒绝给予", "deny doing something = 否认做过某事；deny somebody something = 拒绝给某人某物", "He continued to deny any involvement in the crime.", "They were denied access to the building without a pass."],
+  ["facility", "/fəˈsɪləti/", "名词", "设施；便利条件；天赋", "sports facilities = 体育设施；a facility for languages = 语言天赋", "The hotel has a modern facility for conferences and meetings.", "The town lacks basic facilities such as a library and a clinic."],
+  ["humour", "/ˈhjuːmə/", "名词", "幽默；幽默感", "英式 humour，美式 humor；a sense of humour = 幽默感", "Her sense of humour helped the team through difficult days.", "There was a touch of humour in his serious speech."],
+  ["depressed", "/dɪˈprest/", "形容词", "沮丧的；抑郁的；萧条的", "feel depressed = 感到沮丧；与 depressing 区分", "He felt depressed after losing his job last winter.", "The factory closures left the whole region economically depressed."],
+  ["failure", "/ˈfeɪljə/", "名词", "失败；故障；未能做到", "end in failure = 以失败告终；engine failure = 发动机故障", "The project ended in complete failure despite everyone's effort.", "His failure to reply on time cost the company the deal."],
+  ["depressing", "/dɪˈpresɪŋ/", "形容词", "令人沮丧的；压抑的", "a depressing film = 令人压抑的电影；与 depressed 区分", "The news about the floods was deeply depressing.", "Living in that grey, depressing flat affected her mood."],
+  ["faith", "/feɪθ/", "名词", "信任；信仰", "have faith in somebody = 信任某人；in good faith = 出于善意", "She never lost faith in her son's ability to change.", "People of every faith were welcome at the ceremony."],
+  ["hunting", "/ˈhʌntɪŋ/", "名词", "狩猎；搜寻", "go hunting = 去狩猎；job-hunting = 找工作", "Hunting was once the main way these tribes found food.", "The village has strict rules about hunting in the forest."],
+  ["mass", "/mæs/", "名词", "大量；群众；质量", "a mass of = 大量；the masses = 群众；物理中指质量", "A thick mass of cloud covered the mountain by noon.", "The factory switched to mass production to meet demand."],
+  ["depth", "/depθ/", "名词", "深度；深刻程度", "in depth = 深入地；out of your depth = 力不从心", "The divers measured the depth of the lake carefully.", "She discussed the topic in great depth during the lecture."],
+];
+
+export const B2_TENTH_LESSON: OriginalA2Word[] = [
+  ["fault", "/fɔːlt/", "名词", "过错；缺陷；断层", "it's my fault = 是我的错；a fault in the system = 系统故障", "The accident was entirely his fault.", "The engineers found a fault in the electrical system."],
+  ["massive", "/ˈmæsɪv/", "形容词", "巨大的；大规模的", "a massive increase = 大幅增长；近义词 enormous", "They built a massive bridge across the river.", "The concert was a massive success with record ticket sales."],
+  ["master", "/ˈmɑːstə/", "名词", "大师；主人；硕士", "a master of something = 某方面的大师；a master's degree = 硕士学位", "He is a master of storytelling who holds every listener's attention.", "The dog waited patiently for its master to return."],
+  ["deserve", "/dɪˈzɜːv/", "动词", "应得；值得", "deserve to do something = 应该做某事；well-deserved = 实至名归的", "Honest workers deserve fair pay for what they do.", "They deserve to win after all their effort this season."],
+  ["feather", "/ˈfeðə/", "名词", "羽毛", "as light as a feather = 轻如羽毛；可数名词", "A single feather drifted down from the nest above us.", "She noticed bright blue feathers scattered across the garden path."],
+  ["illustrate", "/ˈɪləstreɪt/", "动词", "说明；以图示说明", "illustrate something with an example = 用例子说明某事", "Let me illustrate the idea with a simple everyday example.", "The teacher used a short video to illustrate how volcanoes form."],
+  ["matching", "/ˈmætʃɪŋ/", "形容词", "配套的；相配的", "a matching pair = 配套的一对；matching colours = 相配的颜色", "They arrived wearing matching jackets without planning it.", "The curtains and the cushions came in matching shades of green."],
+  ["desire", "/dɪˈzaɪə/", "名词", "渴望；强烈愿望", "a desire to do something = 做某事的渴望；比 wish 正式", "Her desire to travel the world only grew stronger with age.", "There was a clear desire for change among the younger staff."],
+  ["fee", "/fiː/", "名词", "费用；服务费", "tuition fee = 学费；与 fare（车费）、fine（罚款）区分", "The gallery charges a small fee for guided tours.", "Lawyers in that city tend to demand very high fees."],
+  ["illustration", "/ˌɪləˈstreɪʃn/", "名词", "插图；例证", "an illustration of something = 某事的说明或例证", "The children's book is full of colourful illustrations.", "His reaction was a perfect illustration of how stress affects people."],
+  ["desperate", "/ˈdespərət/", "形容词", "绝望的；急切的", "be desperate for something = 极需要某物；be desperate to do = 急于做", "They were desperate for any news about the missing climbers.", "After hours without water, the hikers grew desperate."],
+  ["imagination", "/ɪˌmædʒɪˈneɪʃn/", "名词", "想象力", "use your imagination = 发挥想象力；通常不可数", "Writing stories really stretches a child's imagination.", "With a little imagination, the empty room could become a studio."],
+  ["maximum", "/ˈmæksɪməm/", "形容词", "最大的；最高的", "maximum speed = 最高速度；反义词 minimum", "The lift has a maximum load of eight people.", "Drivers must not exceed the maximum speed on this road."],
+  ["feedback", "/ˈfiːdbæk/", "名词", "反馈；意见", "不可数名词；give feedback = 提供反馈", "The manager gave me helpful feedback on my presentation.", "We collect customer feedback through short online surveys."],
+  ["impatient", "/ɪmˈpeɪʃnt/", "形容词", "不耐烦的；急切的", "impatient with somebody = 对某人不耐烦；反义词 patient", "He gets impatient when the train is even a few minutes late.", "The children were impatient to open their presents."],
+  ["means", "/miːnz/", "名词", "方法；手段", "单复数同形；a means of transport = 一种交通方式", "For many people, a bicycle is the cheapest means of getting to work.", "They had no means of contacting anyone on the island."],
+  ["detailed", "/ˈdiːteɪld/", "形容词", "详细的；细致的", "a detailed report = 详细报告；反义词 vague", "The guide gave us a detailed map of the old town.", "Investigators wrote a detailed account of the accident."],
+];
