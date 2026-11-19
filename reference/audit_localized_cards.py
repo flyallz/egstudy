@@ -73,4 +73,4 @@ check("Work", "client/src/data/originalTopics.ts", "reference/original-topic-csv
 check("Health", "client/src/data/originalTopics.ts", "reference/original-topic-csv/health-well-being.csv", "HEALTH", 10)
 check("Environment", "client/src/data/originalTopics.ts", "reference/original-topic-csv/environment-climate.csv", "ENVIRONMENT", 10)
 
-check("Technology", "client/src/data/originalTopics.ts", "reference/original-topic-csv/technology-digital-life.csv", "TECHNOLOGY", 2)
+check("Technology", "client/src/data/originalTopics.ts", "reference/original-topic-csv/technology-digital-life.csv", "TECHNOLOGY", 3)

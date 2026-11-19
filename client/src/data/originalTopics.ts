@@ -1886,3 +1886,37 @@ export const TECHNOLOGY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "data privacy": ["如今数据隐私法保护的是用户，而非服务器。", "这款应用通过共享联系人侵犯了数据隐私。"],
   "personal data": ["这份表格收集的个人数据远多于所需。", "个人数据必须存储在本国境内。"],
 };
+
+export const TECHNOLOGY_THIRD_LESSON: OriginalTopicWord[] = [
+  ["data breach", "/ˈdeɪtə briːtʃ/", "名词短语", "数据泄露事件", "可数；suffer/report a data breach", "The hospital suffered a data breach affecting eight thousand patients.", "Firms must report a data breach within three days."],
+  ["encryption", "/ɪnˈkrɪpʃn/", "名词", "加密", "不可数；use/weaken encryption", "End-to-end encryption hides the message from the provider.", "Governments keep asking firms to weaken encryption."],
+  ["two-factor authentication", "/ˌtuː fæktə ɔːˌθentɪˈkeɪʃn/", "名词短语", "双重身份验证", "不可数；enable/require two-factor authentication", "Two-factor authentication blocks most stolen passwords.", "The bank requires two-factor authentication for transfers."],
+  ["surveillance", "/səˈveɪləns/", "名词", "监视；监控", "不可数；under/expand surveillance", "Workers objected to constant surveillance of their keystrokes.", "The square is under surveillance from eleven cameras."],
+  ["facial recognition", "/ˈfeɪʃl rekəɡˌnɪʃn/", "名词短语", "人脸识别", "不可数；use/ban facial recognition", "Facial recognition misidentifies darker faces more often.", "Two cities banned facial recognition in public spaces."],
+  ["digital footprint", "/ˌdɪdʒɪtl ˈfʊtprɪnt/", "名词短语", "数字足迹", "可数；leave/shrink a digital footprint", "Every search leaves a digital footprint.", "Employers read a candidate's digital footprint before interview."],
+  ["cyberattack", "/ˈsaɪbərətæk/", "名词", "网络攻击", "可数；launch/withstand a cyberattack", "A cyberattack shut the pipeline for six days.", "The grid withstood three cyberattacks last winter."],
+  ["malware", "/ˈmælweə/", "名词", "恶意软件", "不可数；spread/detect malware", "Malware spread through a single infected attachment.", "The scanner detects malware before it reaches the inbox."],
+  ["phishing", "/ˈfɪʃɪŋ/", "名词", "网络钓鱼；诱骗获取信息", "不可数；a phishing email/attempt", "Phishing emails now copy internal templates exactly.", "Staff reported forty phishing attempts in a week."],
+  ["firewall", "/ˈfaɪəwɔːl/", "名词", "防火墙", "可数；configure/breach a firewall", "The firewall blocks every unrecognised port.", "Attackers breached the firewall through a test account."],
+  ["identity theft", "/aɪˈdentəti θeft/", "名词短语", "身份盗用", "不可数；a victim of/guard against identity theft", "Identity theft often starts with a leaked password.", "She was a victim of identity theft for three years."],
+  ["data protection", "/ˈdeɪtə prəˌtekʃn/", "名词短语", "数据保护", "不可数；a data protection law/officer", "Data protection rules apply to paper records too.", "Every ministry now appoints a data protection officer."],
+  ["user consent", "/ˈjuːzə kənˌsent/", "名词短语", "用户同意；用户许可", "不可数；obtain/without user consent", "The tracker ran without user consent for two years.", "Apps must obtain user consent before reading location."],
+  ["anonymity", "/ˌænəˈnɪməti/", "名词", "匿名性；匿名状态", "不可数；preserve/hide behind anonymity", "Anonymity protects whistleblowers and trolls alike.", "Reviewers hide behind anonymity to settle scores."],
+];
+
+export const TECHNOLOGY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "data breach": ["这家医院发生数据泄露，影响了八千名患者。", "企业必须在三天内报告数据泄露事件。"],
+  "encryption": ["端到端加密使服务提供商无法读取消息。", "各国政府不断要求企业削弱加密。"],
+  "two-factor authentication": ["双重身份验证能挡住大多数被盗密码带来的风险。", "这家银行要求转账时进行双重身份验证。"],
+  "surveillance": ["员工反对持续监控他们的键盘输入。", "广场受到十一个摄像头的监控。"],
+  "facial recognition": ["人脸识别更容易错误识别深色皮肤的人。", "两座城市禁止在公共空间使用人脸识别。"],
+  "digital footprint": ["每一次搜索都会留下数字足迹。", "雇主在面试前会查看候选人的数字足迹。"],
+  "cyberattack": ["一次网络攻击使管道停运了六天。", "去年冬天，电网抵御了三次网络攻击。"],
+  "malware": ["恶意软件通过一个受感染的附件传播。", "扫描程序会在恶意软件进入收件箱前将其检测出来。"],
+  "phishing": ["如今钓鱼邮件能够精确仿制内部模板。", "员工一周内报告了四十次网络钓鱼尝试。"],
+  "firewall": ["防火墙会阻止所有未识别的端口。", "攻击者通过一个测试账号突破了防火墙。"],
+  "identity theft": ["身份盗用往往始于密码泄露。", "她连续三年遭受身份盗用之害。"],
+  "data protection": ["数据保护规定也适用于纸质记录。", "如今每个部委都任命一名数据保护官。"],
+  "user consent": ["这个追踪器未经用户同意运行了两年。", "应用在读取位置信息前必须取得用户同意。"],
+  "anonymity": ["匿名性既保护举报人，也保护网络喷子。", "评论者躲在匿名身份背后借机报复。"],
+};
