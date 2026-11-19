@@ -71,4 +71,4 @@ check("C2", "client/src/data/originalC2.ts", "reference/original-cefr-csv/cefr-c
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 10)
 check("Work", "client/src/data/originalTopics.ts", "reference/original-topic-csv/work-employment.csv", "WORK", 10)
 check("Health", "client/src/data/originalTopics.ts", "reference/original-topic-csv/health-well-being.csv", "HEALTH", 10)
-check("Environment", "client/src/data/originalTopics.ts", "reference/original-topic-csv/environment-climate.csv", "ENVIRONMENT", 4)
+check("Environment", "client/src/data/originalTopics.ts", "reference/original-topic-csv/environment-climate.csv", "ENVIRONMENT", 5)
