@@ -1,4 +1,4 @@
-// B1 第 1–30 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–32 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -669,4 +669,64 @@ export const B1_THIRTIETH_LESSON: OriginalA2Word[] = [
   ["solid", "/ˈsɒlɪd/", "形容词", "固体的；结实的；固体", "a solid wall = 结实的墙；liquids and solids = 液体和固体", "Water becomes solid when it freezes.", "The house is built on solid rock."],
   ["southern", "/ˈsʌðən/", "形容词", "南方的；南部的", "the southern part of the country = 国家南部", "They spent the summer in the southern part of Spain.", "The southern coast is popular with tourists."],
   ["specifically", "/spəˈsɪfɪkli/", "副词", "具体地；专门地", "specifically designed for = 专为……设计", "This course is specifically designed for beginners.", "She asked specifically for a window seat."],
+];
+
+export const B1_THIRTY_FIRST_LESSON: OriginalA2Word[] = [
+  ["spending", "/ˈspendɪŋ/", "名词", "支出；开销", "通常不可数；government spending = 政府支出", "The government plans to cut spending on roads.", "Our family is trying to reduce its spending."],
+  ["spicy", "/ˈspaɪsi/", "形容词", "辛辣的；香料味浓的", "spicy food = 辣味食物；too spicy = 太辣", "This curry is a bit too spicy for me.", "I love spicy food from Thailand."],
+  ["spirit", "/ˈspɪrɪt/", "名词", "精神；士气；灵魂", "team spirit = 团队精神；in good spirits = 心情好", "The team showed great fighting spirit.", "Some people believe the house is full of spirits."],
+  ["spoken", "/ˈspəʊkən/", "形容词", "口语的；说出的", "spoken English = 英语口语；来自 speak", "Her spoken English is better than her writing.", "We practise spoken Vietnamese every day in class."],
+  ["spot", "/spɒt/", "名词", "地点；斑点", "a quiet spot = 安静的地方；a spot on your shirt = 衣服上的污点", "We found a lovely spot for a picnic.", "There's a dark spot on your shirt."],
+  ["spread", "/spred/", "动词", "传播；扩散；摊开", "过去式和过去分词均为 spread；spread butter on bread = 往面包上抹黄油", "The fire spread quickly through the building.", "She spread butter on her toast."],
+  ["stadium", "/ˈsteɪdiəm/", "名词", "体育场；运动场", "a football stadium = 足球场", "Thousands of fans filled the football stadium.", "The new stadium can hold sixty thousand people."],
+  ["staff", "/stɑːf/", "名词", "全体员工；工作人员", "集合名词；a member of staff = 一名员工", "The hotel staff were friendly and helpful.", "She is a member of the teaching staff."],
+  ["standard", "/ˈstændəd/", "名词", "标准；标准的", "a high standard = 高标准；standard size = 标准尺寸", "The food here is of a very high standard.", "This is the standard size for a kitchen table."],
+  ["statistic", "/stəˈtɪstɪk/", "名词", "统计数据", "常用复数 statistics；official statistics = 官方统计数据", "This statistic shows that crime is falling.", "The report is full of interesting statistics."],
+  ["statue", "/ˈstætʃuː/", "名词", "雕像；塑像", "a statue of somebody = 某人的雕像", "There is a statue of a famous poet in the square.", "Tourists take photos of the huge stone statue."],
+  ["stranger", "/ˈstreɪndʒə/", "名词", "陌生人", "a complete stranger = 完全不认识的人", "Parents tell children not to talk to strangers.", "A stranger stopped to help me change the tyre."],
+  ["strength", "/streŋθ/", "名词", "力量；长处", "physical strength = 体力；反义词 weakness", "He didn't have the strength to lift the heavy box.", "Patience is one of her greatest strengths."],
+  ["string", "/strɪŋ/", "名词", "细绳；弦；一连串", "a piece of string = 一段细绳；a string of events = 一连串事件", "She tied the parcel with a piece of string.", "One of the guitar strings has broken."],
+  ["strongly", "/ˈstrɒŋli/", "副词", "强烈地；坚决地", "strongly agree = 强烈同意；strongly recommend = 强烈推荐", "I strongly advise you to see a doctor.", "Most people strongly disagreed with the new rule."],
+  ["studio", "/ˈstjuːdiəʊ/", "名词", "录音室；工作室；单间公寓", "a recording studio = 录音室；a studio flat = 单间公寓", "The band recorded their new song in a studio.", "She rents a small studio in the city centre."],
+  ["stuff", "/stʌf/", "名词", "东西；物品", "非正式用语，通常不可数；all my stuff = 我所有的东西", "Can you put all your stuff in the bag?", "There's a lot of useful stuff in this book."],
+  ["substance", "/ˈsʌbstəns/", "名词", "物质；实质内容", "a chemical substance = 化学物质", "This cleaning product contains a dangerous substance.", "The bottle was full of a strange, sticky substance."],
+  ["successfully", "/səkˈsesfəli/", "副词", "成功地", "complete something successfully = 成功完成某事", "She successfully completed the training course.", "The doctors successfully treated the illness."],
+  ["sudden", "/ˈsʌdn/", "形容词", "突然的；意外的", "a sudden change = 突变；all of a sudden = 突然", "There was a sudden change in the weather.", "His sudden decision surprised everyone."],
+  ["suffer", "/ˈsʌfə/", "动词", "遭受；受苦；患病", "suffer from an illness = 患某种疾病；suffer losses = 蒙受损失", "Many people suffer from back pain.", "The business suffered badly during the crisis."],
+  ["suitable", "/ˈsuːtəbl/", "形容词", "合适的；适宜的", "suitable for somebody/something = 适合某人或某物", "This film is not suitable for young children.", "We are looking for a suitable place to live."],
+  ["summarize", "/ˈsʌməraɪz/", "动词", "概括；总结", "summarize the main points = 概括要点", "Can you summarize the story in a few sentences?", "The teacher asked us to summarize the article."],
+  ["summary", "/ˈsʌməri/", "名词", "摘要；总结", "a summary of something = 某事的摘要；in summary = 总之", "Can you write a short summary of the report?", "In summary, the project was a great success."],
+  ["supply", "/səˈplaɪ/", "名词", "供应；供给", "supply somebody with something = 为某人提供某物；supply and demand = 供求", "The city has a good supply of clean water.", "The company supplies schools with computers."],
+  ["supporter", "/səˈpɔːtə/", "名词", "支持者；球迷", "a supporter of a team/idea = 球队或观点的支持者", "He is a lifelong supporter of the local football club.", "Thousands of supporters gathered outside the stadium."],
+  ["surely", "/ˈʃʊəli/", "副词", "肯定；想必", "可用于句首表达确信或惊讶", "Surely you don't believe everything you read online.", "If we leave now, we will surely catch the train."],
+];
+
+export const B1_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
+  ["surface", "/ˈsɜːfɪs/", "名词", "表面；水面", "on the surface = 表面上；below the surface = 表面之下", "The surface of the lake was completely calm.", "Wipe the surface of the table before you eat."],
+  ["survive", "/səˈvaɪv/", "动词", "幸存；存活", "survive something = 从某事中幸存；survive on = 靠……维生", "Only two people survived the plane crash.", "Few plants can survive in such cold weather."],
+  ["switch", "/swɪtʃ/", "动词", "切换；开关", "switch on/off = 打开／关闭；switch to something = 转换到某物", "Please switch off the lights when you leave.", "She switched from teaching to nursing last year."],
+  ["symptom", "/ˈsɪmptəm/", "名词", "症状；征兆", "a symptom of an illness = 疾病症状；也可比喻问题的征兆", "A high fever is a common symptom of the flu.", "Rising prices are a symptom of a weak economy."],
+  ["tail", "/teɪl/", "名词", "尾巴；末端", "可指动物的尾巴或事物末端", "The dog wagged its tail happily.", "We watched the plane's tail disappear into the clouds."],
+  ["talent", "/ˈtælənt/", "名词", "天赋；才能", "a talent for something = 在某方面的天赋", "She has a real talent for painting.", "The show looks for young musical talent."],
+  ["talented", "/ˈtæləntɪd/", "形容词", "有天赋的；有才能的", "talented at/in something = 擅长某事；近义词 gifted", "He is a very talented young pianist.", "The team is full of talented players."],
+  ["tax", "/tæks/", "名词", "税；对……征税", "pay tax = 缴税；income tax = 所得税", "Everyone has to pay tax on their income.", "The government plans to tax sugary drinks."],
+  ["technical", "/ˈteknɪkl/", "形容词", "技术的；专业的", "technical skills = 技术技能；technical problem = 技术问题", "We are having some technical problems with the website.", "The job requires strong technical skills."],
+  ["technique", "/tekˈniːk/", "名词", "技术；技巧；方法", "a technique for doing something = 做某事的方法；与 technology 区分", "The teacher showed us a new technique for solving the problem.", "She has perfect technique when she plays the violin."],
+  ["tend", "/tend/", "动词", "倾向于；往往会", "tend to do something = 往往做某事", "People tend to eat more in winter.", "Prices tend to rise before the holidays."],
+  ["tent", "/tent/", "名词", "帐篷", "put up a tent = 搭帐篷", "We put up our tent near the river.", "It started to rain, so we stayed inside the tent."],
+  ["theirs", "/ðeəz/", "代词", "他们的；她们的；它们的", "独立物主代词，不接名词；与 their + 名词区分", "This house is ours, and the one next door is theirs.", "My bag is blue, but theirs is red."],
+  ["theme", "/θiːm/", "名词", "主题；题材", "the theme of something = 某事的主题；theme park = 主题公园", "The main theme of the film is friendship.", "The party had a tropical theme."],
+  ["theory", "/ˈθɪəri/", "名词", "理论；学说", "in theory = 理论上；与 practice（实践）相对", "In theory, the plan should work perfectly.", "He has an interesting theory about how the universe began."],
+  ["therefore", "/ˈðeəfɔː/", "副词", "因此；所以", "较正式的连接副词；常与逗号连用", "It was raining heavily; therefore, the match was cancelled.", "She studied hard and therefore passed the exam."],
+  ["though", "/ðəʊ/", "连词", "虽然；不过", "作连词与 although 相近；也可置于句末表示‘不过’", "Though it was late, they kept working.", "I don't really like coffee. I had some this morning, though."],
+  ["throat", "/θrəʊt/", "名词", "喉咙", "a sore throat = 喉咙痛；clear your throat = 清嗓子", "I have a sore throat and can't speak well.", "He cleared his throat before he started to sing."],
+  ["throughout", "/θruːˈaʊt/", "介词", "遍及；贯穿始终", "throughout the day = 一整天；throughout the country = 全国各地", "The disease has spread throughout the country.", "She stayed calm throughout the interview."],
+  ["tight", "/taɪt/", "形容词", "紧的；绷紧的", "反义词 loose；副词 tightly", "These shoes are too tight for me.", "Make sure the lid is tight so nothing leaks out."],
+  ["till", "/tɪl/", "连词", "直到……为止", "until 的非正式形式；口语中用法相同", "We waited till the rain stopped.", "The shop is open till nine in the evening."],
+  ["tin", "/tɪn/", "名词", "锡；罐头盒", "a tin of something = 一罐某物；英式用法", "She opened a tin of beans for dinner.", "The roof of the old house was made of tin."],
+  ["tiny", "/ˈtaɪni/", "形容词", "极小的；微小的", "程度比 small 更强；反义词 huge", "They live in a tiny flat in the city centre.", "A tiny insect landed on my hand."],
+  ["toe", "/təʊ/", "名词", "脚趾", "big toe = 大脚趾；stub your toe = 踢伤脚趾", "I hurt my toe when I kicked the door.", "The water was so cold that my toes went numb."],
+  ["tongue", "/tʌŋ/", "名词", "舌头；语言", "mother tongue = 母语；也指身体部位", "She burnt her tongue on the hot soup.", "Spanish is his mother tongue."],
+  ["total", "/ˈtəʊtl/", "形容词", "总计；全部的", "in total = 总共；a total of + 数字 = 总计……", "The total cost of the trip was quite high.", "In total, we spent a week in Italy."],
+  ["totally", "/ˈtəʊtəli/", "副词", "完全地；彻底地", "totally agree = 完全同意；近义词 completely", "I totally agree with your decision.", "The two brothers are totally different."],
 ];
