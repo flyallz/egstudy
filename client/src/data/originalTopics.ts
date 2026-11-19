@@ -1370,3 +1370,29 @@ export const HEALTH_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "life-threatening": ["这种反应几分钟内就可能危及生命。", "所有伤势均未危及生命。"],
   "well-being": ["绿地改善身心健康的效果胜过任何应用程序。", "这项政策涵盖身体和心理两方面的健康。"],
 };
+
+export const ENVIRONMENT_FIRST_LESSON: OriginalTopicWord[] = [
+  ["climate change", "/ˈklaɪmət tʃeɪndʒ/", "名词短语", "气候变化", "不可数；tackle/adapt to/accelerate climate change", "Climate change is already reshaping the rice calendar.", "No single country can tackle climate change alone."],
+  ["global warming", "/ˌɡləʊbl ˈwɔːmɪŋ/", "名词短语", "全球变暖", "不可数；slow/contribute to global warming", "Global warming has pushed average temperatures up by one degree.", "Burning coal contributes directly to global warming."],
+  ["greenhouse gas", "/ˈɡriːnhaʊs ɡæs/", "名词短语", "温室气体", "常用复数；emit/cut greenhouse gases", "Agriculture emits more greenhouse gases than aviation.", "The plan cuts greenhouse gases by a third."],
+  ["carbon emissions", "/ˈkɑːbən ɪˌmɪʃnz/", "名词短语", "碳排放量", "复数；reduce/offset carbon emissions", "Carbon emissions fell during the lockdown.", "The airline offsets its carbon emissions by planting trees."],
+  ["carbon footprint", "/ˈkɑːbən ˌfʊtprɪnt/", "名词短语", "碳足迹", "可数；have/shrink a carbon footprint", "Air freight has an enormous carbon footprint.", "Eating less meat shrinks a household's carbon footprint."],
+  ["extreme weather", "/ɪkˌstriːm ˈweðə/", "名词短语", "极端天气", "不可数；extreme weather events", "Extreme weather now hits the region twice a year.", "Insurers have raised premiums because of extreme weather."],
+  ["heatwave", "/ˈhiːtweɪv/", "名词", "热浪；持续高温", "可数；a heatwave hits/breaks", "A heatwave closed schools across the north.", "The city recorded its longest heatwave on record."],
+  ["drought", "/draʊt/", "名词", "干旱", "可数或不可数；suffer/be hit by drought", "Three years of drought emptied the reservoirs.", "Farmers in the highlands were hit hardest by the drought."],
+  ["flash flooding", "/ˌflæʃ ˈflʌdɪŋ/", "名词短语", "暴发性洪水；山洪", "不可数；cause/be prone to flash flooding", "Concrete surfaces make flash flooding worse.", "The valley is prone to flash flooding in September."],
+  ["rising sea levels", "/ˌraɪzɪŋ ˈsiː ˌlevlz/", "名词短语", "海平面上升", "复数；threaten/be displaced by rising sea levels", "Rising sea levels threaten the entire delta.", "Whole villages have moved inland because of rising sea levels."],
+];
+
+export const ENVIRONMENT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "climate change": ["气候变化已经在改变水稻种植时节。", "没有一个国家能够独自应对气候变化。"],
+  "global warming": ["全球变暖使平均气温升高了一度。", "燃烧煤炭直接加剧全球变暖。"],
+  "greenhouse gas": ["农业排放的温室气体比航空业更多。", "这项计划将温室气体排放量削减三分之一。"],
+  "carbon emissions": ["封锁期间，碳排放量下降了。", "这家航空公司通过植树抵消碳排放。"],
+  "carbon footprint": ["航空货运的碳足迹很大。", "少吃肉会缩小一个家庭的碳足迹。"],
+  "extreme weather": ["如今该地区每年遭遇两次极端天气。", "由于极端天气，保险公司提高了保费。"],
+  "heatwave": ["热浪使北部各地学校停课。", "这座城市记录了有史以来持续时间最长的一次热浪。"],
+  "drought": ["三年的干旱使水库枯竭。", "高地农民受干旱影响最严重。"],
+  "flash flooding": ["混凝土地面使暴发性洪水更加严重。", "这个山谷在九月容易发生山洪。"],
+  "rising sea levels": ["海平面上升威胁着整个三角洲地区。", "由于海平面上升，整座村庄都已迁往内陆。"],
+};
