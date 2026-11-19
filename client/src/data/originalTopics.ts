@@ -450,3 +450,29 @@ export const EDUCATION_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, strin
   "consolidate": ["一场简短测验能巩固上午所学。", "假期作业能巩固整个学期学过的内容。"],
   "deliver a lecture": ["她每年九月都讲授开学第一课。", "他作了一场关于城市史的讲座。"],
 };
+
+export const WORK_FIRST_LESSON: OriginalTopicWord[] = [
+  ["labour market", "/ˈleɪbə ˌmɑːkɪt/", "名词短语", "劳动力市场", "可数，通常用单数；enter/a tight labour market", "The labour market tightened as migration slowed.", "Graduates enter the labour market with heavy debt."],
+  ["workforce", "/ˈwɜːkfɔːs/", "名词", "劳动力；全体员工", "可数；a skilled workforce；shrink the workforce", "Half the workforce is over fifty.", "The factory cut its workforce by a third."],
+  ["labour shortage", "/ˈleɪbə ˌʃɔːtɪdʒ/", "名词短语", "劳动力短缺", "可数；face/ease a labour shortage", "Farms face a labour shortage every harvest.", "Higher wages eased the labour shortage within months."],
+  ["skills shortage", "/ˈskɪlz ˌʃɔːtɪdʒ/", "名词短语", "技能人才短缺", "可数；a skills shortage in + 行业", "There is a skills shortage in every technical trade.", "Training schemes address the skills shortage slowly."],
+  ["unemployment rate", "/ˌʌnɪmˈplɔɪmənt reɪt/", "名词短语", "失业率", "可数；the unemployment rate rises/falls", "The unemployment rate fell below four per cent.", "A low unemployment rate hides a lot of part-time work."],
+  ["job vacancy", "/ˈdʒɒb ˌveɪkənsi/", "名词短语", "职位空缺；招聘岗位", "可数；advertise/fill a job vacancy", "The hospital advertised ninety job vacancies.", "Most job vacancies here are never advertised publicly."],
+  ["job security", "/ˈdʒɒb sɪˌkjʊərəti/", "名词短语", "工作保障；就业稳定性", "不可数；offer/lack job security", "Public service offers job security rather than high pay.", "Delivery riders have almost no job security."],
+  ["informal economy", "/ɪnˌfɔːml ɪˈkɒnəmi/", "名词短语", "非正规经济；非正式经济", "可数，通常用单数；work in the informal economy", "A third of workers earn their living in the informal economy.", "The informal economy pays no tax and offers no pension."],
+  ["gig economy", "/ˈɡɪɡ ɪˌkɒnəmi/", "名词短语", "零工经济", "可数，通常用单数；work in/regulate the gig economy", "The gig economy shifts every risk onto the worker.", "Courts have started to regulate the gig economy."],
+  ["zero-hours contract", "/ˌzɪərəʊ ˈaʊəz ˌkɒntrækt/", "名词短语", "零工时合同；不保证工时的合同", "可数；be on/ban a zero-hours contract", "She was on a zero-hours contract for two years.", "Several countries have banned zero-hours contracts."],
+];
+
+export const WORK_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "labour market": ["随着移民人数减少，劳动力市场趋紧。", "毕业生背负沉重债务进入劳动力市场。"],
+  "workforce": ["一半的劳动力年龄超过五十岁。", "工厂将员工人数削减了三分之一。"],
+  "labour shortage": ["农场每逢收获季都面临劳动力短缺。", "提高工资后，劳动力短缺在几个月内得到缓解。"],
+  "skills shortage": ["每个技术行业都面临技能人才短缺。", "培训计划只能缓慢缓解技能短缺。"],
+  "unemployment rate": ["失业率降到了百分之四以下。", "低失业率掩盖了大量兼职就业。"],
+  "job vacancy": ["这家医院发布了九十个职位空缺。", "这里的大多数空缺岗位从不公开招聘。"],
+  "job security": ["公共部门工作提供的是稳定性，而不是高薪。", "送货骑手几乎没有工作保障。"],
+  "informal economy": ["三分之一的劳动者靠非正规经济谋生。", "非正规经济既不纳税，也不提供养老金。"],
+  "gig economy": ["零工经济把所有风险都转嫁给劳动者。", "法院已开始对零工经济加以规范。"],
+  "zero-hours contract": ["她签了两年的零工时合同。", "一些国家已经禁止零工时合同。"],
+};
