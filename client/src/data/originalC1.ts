@@ -64,3 +64,36 @@ export const C1_FOURTH_LESSON: OriginalA2Word[] = [
   ["arena", "/əˈriːnə/", "名词", "竞技场；活动领域", "a sports arena = 体育场馆；the political arena = 政治舞台", "The band performed in a packed arena of twenty thousand fans.", "She first entered the political arena as a local councillor."],
   ["specialize", "/ˈspeʃəlaɪz/", "动词", "专攻；专门从事", "specialize in something = 专攻某领域；英式拼法 specialise", "She decided to specialize in criminal law after graduating.", "Several clinics specialize in treating rare diseases."],
 ];
+
+export const C1_FIFTH_LESSON: OriginalA2Word[] = [
+  ["trading", "/ˈtreɪdɪŋ/", "名词", "交易；买卖", "stock trading = 股票交易；insider trading = 内幕交易；trading hours = 交易时段", "Heavy trading pushed share prices up sharply this morning.", "The company was fined for breaking the rules on insider trading."],
+  ["accomplishment", "/əˈkʌmplɪʃmənt/", "名词", "成就；完成", "a sense of accomplishment = 成就感；近义词 achievement", "Finishing the marathon was a real accomplishment for her.", "The team took pride in the accomplishment of such a difficult task."],
+  ["arguably", "/ˈɑːɡjuəbli/", "副词", "可以说；按理说", "arguably the best = 可以说是最好的；常用于可辩护的学术观点", "He is arguably the finest violinist of his generation.", "This is arguably the most important decision the board has ever made."],
+  ["specify", "/ˈspesɪfaɪ/", "动词", "具体说明；明确规定", "specify something = 明确某事；specify that... = 明确规定……；名词 specification", "Please specify the size and colour you want on the order form.", "The contract did not specify who would pay for repairs."],
+  ["tragedy", "/ˈtrædʒədi/", "名词", "悲剧；惨事", "a terrible tragedy = 可怕的悲剧；Greek tragedy = 希腊悲剧；反义词 comedy", "The fire was a terrible tragedy that shocked the whole town.", "Shakespeare's most famous tragedy is probably Hamlet."],
+  ["accordance", "/əˈkɔːdns/", "名词", "一致；遵循", "in accordance with = 按照，符合；多用于正式或法律文本", "All data is handled in accordance with the privacy policy.", "They acted in accordance with the instructions they were given."],
+  ["spectacular", "/spekˈtækjələ/", "形容词", "壮观的；惊人的", "a spectacular view = 壮丽景色；a spectacular failure = 惨重失败", "From the summit they enjoyed a spectacular view of the valley.", "The company's collapse was a spectacular failure of management."],
+  ["tragic", "/ˈtrædʒɪk/", "形容词", "悲惨的；悲剧性的", "a tragic accident = 悲惨事故；a tragic hero = 悲剧英雄；副词 tragically", "Her brother died in a tragic accident last year.", "The play tells the tragic story of two young lovers."],
+  ["accordingly", "/əˈkɔːdɪŋli/", "副词", "相应地；因此", "act accordingly = 采取相应行动；也可放句首表示结果", "Read the rules carefully and act accordingly.", "Demand had fallen, and prices were adjusted accordingly."],
+  ["array", "/əˈreɪ/", "名词", "一系列；阵列", "a wide array of = 各式各样的；计算机中也指数组", "The shop offers a dazzling array of imported cheeses.", "Scientists installed an array of sensors across the forest."],
+  ["spectator", "/spekˈteɪtə/", "名词", "观众；旁观者", "spectator sport = 观赏性运动；与演出观众 audience 区分", "Not a single spectator left before the final whistle.", "The match drew a record crowd of excited spectators."],
+  ["trait", "/treɪt/", "名词", "特征；特质", "a personality trait = 性格特征；an inherited trait = 遗传特征", "Patience is a trait that every good teacher needs.", "Curiosity is a common trait among successful scientists."],
+  ["accountability", "/əˌkaʊntəˈbɪləti/", "名词", "问责；责任承担", "accountability for = 对……的责任；public accountability = 公共问责", "Voters are demanding greater accountability from their leaders.", "The report called for more transparency and accountability in government."],
+];
+
+export const C1_SIXTH_LESSON: OriginalA2Word[] = [
+  ["articulate", "/ɑːˈtɪkjuleɪt/", "动词", "清楚表达；清晰发音", "articulate one’s thoughts = 清楚表达想法；作形容词时读 /ɑːˈtɪkjulət/", "She struggled to articulate exactly what was bothering her.", "Good leaders can articulate a clear vision for the future."],
+  ["speculate", "/ˈspekjuleɪt/", "动词", "猜测；投机", "speculate about something = 猜测某事；speculate in property = 投机炒房", "Reporters began to speculate about the reasons for her sudden resignation.", "Many investors speculate in property, hoping prices will keep rising."],
+  ["transmit", "/trænzˈmɪt/", "动词", "传送；传播", "transmit a signal = 传送信号；transmit a disease = 传播疾病；过去式 transmitted", "Satellites transmit television signals across the globe.", "The disease can transmit from animals to humans."],
+  ["accountable", "/əˈkaʊntəbl/", "形容词", "负有责任的；须作解释的", "accountable to somebody for something = 就某事向某人负责；hold somebody accountable = 追究某人责任", "Ministers must be accountable to the public for their decisions.", "The company was held accountable for the environmental damage."],
+  ["ash", "/æʃ/", "名词", "灰烬；骨灰", "volcanic ash = 火山灰；ashes = 骨灰；ash tree = 白蜡树", "A thick layer of ash covered the entire village after the eruption.", "She flicked the ash from her cigarette into the tray."],
+  ["speculation", "/ˌspekjuˈleɪʃn/", "名词", "猜测；投机", "speculation about something = 对某事的猜测；property speculation = 房产投机", "There has been much speculation about who will replace her.", "Reckless speculation on the housing market ruined many families."],
+  ["transportation", "/ˌtrænspɔːˈteɪʃn/", "名词", "运输；交通工具", "public transportation = 公共交通；英式英语多用 transport", "The city invested heavily in public transportation last year.", "Reliable transportation is essential for people living in rural areas."],
+  ["accumulate", "/əˈkjuːmjuleɪt/", "动词", "积累；逐渐聚集", "accumulate wealth = 积累财富；dust accumulates = 灰尘积聚；名词 accumulation", "Over the years he managed to accumulate a small fortune.", "Dust and dirt quickly accumulate in an empty house."],
+  ["aspiration", "/ˌæspəˈreɪʃn/", "名词", "抱负；志向", "career aspirations = 职业抱负；an aspiration to do something = 做某事的愿望", "Her greatest aspiration was to become a human rights lawyer.", "The school tries to raise the aspirations of every pupil."],
+  ["spill", "/spɪl/", "动词", "洒出；涌出", "spill coffee = 洒出咖啡；spill out = 涌出；spill the beans = 泄露秘密", "Be careful not to spill coffee on the keyboard.", "Crowds began to spill out of the stadium after the final whistle."],
+  ["trap", "/træp/", "动词", "使受困；设陷阱", "be trapped = 被困住；trap somebody in = 使某人陷入……；过去式 trapped", "Firefighters feared the flames would trap people on the upper floors.", "Low wages trap many families in a cycle of poverty."],
+  ["accumulation", "/əˌkjuːmjəˈleɪʃn/", "名词", "积累；堆积", "an accumulation of debts = 债务累积；the accumulation of evidence = 证据的积累", "The accumulation of small debts eventually became unmanageable.", "Years of research led to a vast accumulation of data."],
+  ["aspire", "/əˈspaɪə/", "动词", "渴望；立志", "aspire to do something = 立志做某事；aspire to a career = 渴望从事某职业", "Many young players aspire to play for their national team.", "She always aspired to a career in medicine."],
+  ["spite", "/spaɪt/", "名词", "恶意；怨恨", "out of spite = 出于恶意；in spite of = 尽管，虽然", "He broke her favourite vase out of pure spite.", "There was a touch of spite in the way she said it."],
+];
