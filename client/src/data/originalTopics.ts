@@ -2290,3 +2290,29 @@ export const TECHNOLOGY_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "bandwidth-heavy": ["高带宽视频挤占了其他所有流量。", "在共用线路上避免使用占带宽大的工具。"],
   "future-proof": ["没有哪种线缆能真正保证将来不过时。", "他们通过预留管道使这栋楼能适应未来需求。"],
 };
+
+export const ECONOMY_FIRST_LESSON: OriginalTopicWord[] = [
+  ["economic growth", "/ˌiːkəˌnɒmɪk ˈɡrəʊθ/", "名词短语", "经济增长", "不可数；sustain/stall economic growth", "Economic growth stalled in the second quarter.", "The province sustained economic growth for a decade."],
+  ["gross domestic product", "/ˌɡrəʊs dəˌmestɪk ˈprɒdʌkt/", "名词短语", "国内生产总值", "不可数；简称 GDP；a share of gross domestic product", "Health spending is eight per cent of gross domestic product.", "Gross domestic product tells you nothing about distribution."],
+  ["recession", "/rɪˈseʃn/", "名词", "经济衰退", "可数；enter/come out of a recession", "The country entered a recession in the spring.", "Two quarters of decline define a recession."],
+  ["inflation", "/ɪnˈfleɪʃn/", "名词", "通货膨胀", "不可数；curb/rising inflation", "Inflation reached nine per cent that winter.", "The bank raised rates to curb inflation."],
+  ["deflation", "/diːˈfleɪʃn/", "名词", "通货紧缩", "不可数；slip into/fear deflation", "Japan slipped into deflation for years.", "Falling wages and deflation reinforce each other."],
+  ["economic downturn", "/ˌiːkəˌnɒmɪk ˈdaʊntɜːn/", "名词短语", "经济下行", "可数；a sharp downturn；weather an economic downturn", "Small shops rarely weather an economic downturn.", "The economic downturn hit tourism first."],
+  ["upturn", "/ˈʌptɜːn/", "名词", "好转；回升", "可数，常用单数；an upturn in + 名词", "The upturn reached the coast two years late.", "An upturn in orders saved the foundry."],
+  ["business cycle", "/ˈbɪznəs ˌsaɪkl/", "名词短语", "商业周期；经济周期", "可数；the business cycle peaks/turns", "Every business cycle ends in the same complacency.", "Housing follows the business cycle closely."],
+  ["fiscal policy", "/ˈfɪskl ˌpɒləsi/", "名词短语", "财政政策", "不可数；tighten/loosen fiscal policy", "Fiscal policy was tightened to calm the markets.", "Fiscal policy covers both taxation and spending."],
+  ["monetary policy", "/ˈmʌnɪtri ˌpɒləsi/", "名词短语", "货币政策", "不可数；set/ease monetary policy", "The central bank sets monetary policy independently.", "Monetary policy was eased three times that year."],
+];
+
+export const ECONOMY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "economic growth": ["第二季度经济增长停滞。", "该省维持了十年的经济增长。"],
+  "gross domestic product": ["医疗支出占国内生产总值的百分之八。", "国内生产总值不能说明财富如何分配。"],
+  "recession": ["这个国家在春季陷入经济衰退。", "连续两个季度经济下滑构成衰退。"],
+  "inflation": ["那年冬天通胀率达到百分之九。", "央行提高利率以抑制通胀。"],
+  "deflation": ["日本曾连续多年陷入通货紧缩。", "工资下降与通货紧缩相互强化。"],
+  "economic downturn": ["小商店通常难以熬过经济下行。", "经济下行首先冲击了旅游业。"],
+  "upturn": ["经济回升晚了两年才传到沿海地区。", "订单回升挽救了这家铸造厂。"],
+  "business cycle": ["每个商业周期结束时都会出现同样的自满情绪。", "房地产市场紧随经济周期变化。"],
+  "fiscal policy": ["为了稳定市场，财政政策收紧了。", "财政政策包括税收和支出两方面。"],
+  "monetary policy": ["央行独立制定货币政策。", "那一年货币政策放松了三次。"],
+};
