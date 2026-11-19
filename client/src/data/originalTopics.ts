@@ -1920,3 +1920,41 @@ export const TECHNOLOGY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "user consent": ["这个追踪器未经用户同意运行了两年。", "应用在读取位置信息前必须取得用户同意。"],
   "anonymity": ["匿名性既保护举报人，也保护网络喷子。", "评论者躲在匿名身份背后借机报复。"],
 };
+
+export const TECHNOLOGY_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["metadata", "/ˈmetədeɪtə/", "名词", "元数据", "不可数；collect/strip metadata", "Metadata alone reveals who met whom and when.", "The site strips metadata from uploaded photos."],
+  ["password manager", "/ˈpɑːswɜːd ˌmænɪdʒə/", "名词短语", "密码管理器", "可数；use/sync a password manager", "A password manager removes the temptation to reuse one phrase.", "The password manager syncs across all her devices."],
+  ["cybersecurity", "/ˌsaɪbəsɪˈkjʊərəti/", "名词", "网络安全", "不可数；invest in/a cybersecurity team", "Cybersecurity spending doubled after the incident.", "The utility hired a full cybersecurity team."],
+  ["digital identity", "/ˌdɪdʒɪtl aɪˈdentəti/", "名词短语", "数字身份", "可数；verify/issue a digital identity", "A single digital identity now opens every public service.", "Banks verify digital identity with a short video."],
+  ["social media", "/ˌsəʊʃl ˈmiːdiə/", "名词短语", "社交媒体", "不可数；可接单数或复数动词", "Social media shapes how teenagers judge their own appearance.", "She closed every social media account for a month."],
+  ["user-generated content", "/ˌjuːzə ˈdʒenəreɪtɪd ˌkɒntent/", "名词短语", "用户生成内容", "不可数；host/moderate user-generated content", "The site is built almost entirely on user-generated content.", "Moderating user-generated content costs more than hosting it."],
+  ["viral content", "/ˌvaɪrəl ˈkɒntent/", "名词短语", "爆款内容；病毒式传播的内容", "不可数；create/chase viral content", "Viral content rewards outrage over accuracy.", "Newsrooms now chase viral content instead of scoops."],
+  ["influencer", "/ˈɪnfluənsə/", "名词", "网络影响者；网红", "可数；a travel influencer；pay an influencer", "Brands pay an influencer more than a television advert.", "The influencer never declared the payment."],
+  ["echo chamber", "/ˈekəʊ ˌtʃeɪmbə/", "名词短语", "信息茧房；回音室效应", "可数；create/escape an echo chamber", "Recommendation engines create an echo chamber within weeks.", "Following opponents is one way to escape an echo chamber."],
+  ["filter bubble", "/ˈfɪltə ˌbʌbl/", "名词短语", "过滤气泡；信息过滤泡", "可数；live in/burst a filter bubble", "Two users in the same city live in different filter bubbles.", "Nothing bursts a filter bubble faster than travel."],
+  ["screen time", "/ˈskriːn taɪm/", "名词短语", "屏幕使用时间", "不可数；limit/track screen time", "Average screen time rose by two hours during the lockdown.", "The phone tracks screen time by application."],
+  ["digital detox", "/ˌdɪdʒɪtl ˈdiːtɒks/", "名词短语", "数字戒断；暂时远离电子设备", "可数；go on/need a digital detox", "She went on a digital detox for the whole holiday.", "A weekend digital detox improves sleep measurably."],
+  ["online community", "/ˌɒnlaɪn kəˈmjuːnəti/", "名词短语", "线上社群", "可数；join/build an online community", "The online community answers questions faster than the helpline.", "He built an online community of model builders."],
+  ["live streaming", "/ˈlaɪv ˌstriːmɪŋ/", "名词短语", "直播", "不可数；through/monetise live streaming", "Live streaming turned a village market into a national shop.", "Musicians monetise live streaming through small donations."],
+  ["subscription model", "/səbˈskrɪpʃn ˌmɒdl/", "名词短语", "订阅模式", "可数；move to a subscription model", "Newspapers moved to a subscription model to survive.", "A subscription model smooths out monthly income."],
+  ["notification", "/ˌnəʊtɪfɪˈkeɪʃn/", "名词", "通知；推送消息", "可数；mute/be bombarded with notifications", "Muting notifications restored her concentration.", "The app sends eleven notifications a day."],
+];
+
+export const TECHNOLOGY_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "metadata": ["仅凭元数据就能知道谁在何时见了谁。", "该网站会移除上传照片中的元数据。"],
+  "password manager": ["密码管理器能让人不再想重复使用同一个密码。", "密码管理器在她的所有设备之间同步。"],
+  "cybersecurity": ["事件发生后，网络安全支出翻了一番。", "这家公用事业公司聘请了一整支网络安全团队。"],
+  "digital identity": ["如今一个数字身份就能使用所有公共服务。", "银行通过一段短视频验证数字身份。"],
+  "social media": ["社交媒体影响青少年如何评价自己的外貌。", "她关闭了所有社交媒体账号一个月。"],
+  "user-generated content": ["这个网站几乎完全由用户生成内容构成。", "审核用户生成内容的成本高于托管这些内容。"],
+  "viral content": ["爆款内容让愤怒情绪比准确性更容易得到回报。", "新闻编辑室如今追逐爆款内容，而非独家新闻。"],
+  "influencer": ["品牌支付给网红的费用超过电视广告费用。", "这位网红从未披露那笔报酬。"],
+  "echo chamber": ["推荐引擎几周内就会形成信息回音室。", "关注观点相反的人是走出信息回音室的一种方法。"],
+  "filter bubble": ["同一座城市的两个用户可能生活在不同的信息过滤泡中。", "旅行比什么都能更快打破信息过滤泡。"],
+  "screen time": ["封锁期间，平均屏幕使用时间增加了两小时。", "手机按应用统计屏幕使用时间。"],
+  "digital detox": ["她整个假期都暂时远离电子设备。", "周末进行一次数字戒断能明显改善睡眠。"],
+  "online community": ["线上社群回答问题的速度比帮助热线更快。", "他建立了一个模型制作爱好者的线上社群。"],
+  "live streaming": ["直播让一个乡村集市变成面向全国的商店。", "音乐人通过小额捐赠从直播中获得收入。"],
+  "subscription model": ["报纸为了生存转向订阅模式。", "订阅模式使每月收入更加平稳。"],
+  "notification": ["关闭通知让她重新集中注意力。", "这款应用每天发送十一次通知。"],
+};
