@@ -1,4 +1,4 @@
-// B1 第 1–18 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–20 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -351,4 +351,52 @@ export const B1_EIGHTEENTH_LESSON: OriginalA2Word[] = [
   ["historic", "/hɪˈstɒrɪk/", "形容词", "具有历史意义的", "指重要或值得铭记的事件；与 historical 区分", "The signing of the treaty was a historic moment.", "The two leaders made a historic agreement."],
   ["historical", "/hɪˈstɒrɪkl/", "形容词", "历史的；与历史有关的", "historical events/records = 历史事件／记录；与 historic 区分", "She enjoys reading historical novels.", "The museum keeps many important historical documents."],
   ["honest", "/ˈɒnɪst/", "形容词", "诚实的；坦率的", "be honest with somebody = 对某人坦诚；字母 h 不发音", "He is an honest and reliable worker.", "To be honest, I didn't really enjoy the film."],
+];
+
+export const B1_NINETEENTH_LESSON: OriginalA2Word[] = [
+  ["horrible", "/ˈhɒrəbl/", "形容词", "糟糕的；令人不快的", "口语中与 awful、terrible 相近", "The weather was horrible all weekend.", "A horrible smell was coming from the kitchen."],
+  ["horror", "/ˈhɒrə/", "名词", "恐惧；恐怖作品", "in horror = 惊恐地；a horror film = 恐怖电影", "She watched in horror as the two cars crashed.", "He loves horror films about ghosts and monsters."],
+  ["host", "/həʊst/", "名词", "主人；主持人；东道主", "也可作动词指举办；hostess 可指女主人", "Our host offered us dinner and a warm bed.", "The country will be the host of the next Olympic Games."],
+  ["hunt", "/hʌnt/", "动词", "狩猎；搜寻", "hunt for something = 搜寻某物；也可作名词", "Lions usually hunt at night.", "The police are hunting for the missing child."],
+  ["hurricane", "/ˈhʌrɪkən/", "名词", "飓风；强烈风暴", "可数名词；强度通常大于普通 storm", "The hurricane destroyed hundreds of homes.", "People left the coast before the hurricane arrived."],
+  ["hurry", "/ˈhʌri/", "名词", "匆忙；急忙", "in a hurry = 匆忙；也可作动词，hurry up = 快点", "There's no need to hurry; we have plenty of time.", "She was in a great hurry to catch the early train."],
+  ["identity", "/aɪˈdentəti/", "名词", "身份；特性", "prove your identity = 证明身份；cultural identity = 文化认同", "The police could not confirm the man's identity.", "Language is an important part of a nation's identity."],
+  ["ignore", "/ɪɡˈnɔː/", "动词", "无视；不理会", "ignore somebody/something = 忽视某人或某事", "She ignored my advice and did it her own way.", "Don't ignore the early warning signs of illness."],
+  ["illegal", "/ɪˈliːɡl/", "形容词", "违法的；非法的", "it is illegal to do something = 做某事违法；反义词 legal", "It is illegal to drive without a licence.", "The company was fined for several illegal activities."],
+  ["imaginary", "/ɪˈmædʒɪnəri/", "形容词", "想象中的；虚构的", "与 imaginative（富于想象力的）区分", "The little girl has an imaginary friend.", "Dragons are imaginary creatures found only in stories."],
+  ["immediate", "/ɪˈmiːdiət/", "形容词", "立即的；直接的", "take immediate action = 立即行动；immediate family = 直系亲属", "The doctor said the patient needed immediate help.", "There was no immediate answer to my question."],
+  ["immigrant", "/ˈɪmɪɡrənt/", "名词", "移民；迁入者", "指迁入某国居住的人；与 emigrant（迁出者）区分", "Many immigrants came to the city looking for work.", "Her parents were immigrants from Italy."],
+  ["impact", "/ˈɪmpækt/", "名词", "影响；冲击", "have an impact on something = 对某事产生影响；也可作动词", "The new law had a big impact on small businesses.", "Rising prices impact poor families the most."],
+  ["import", "/ˈɪmpɔːt/", "名词", "进口；进口货物", "反义词 export；作动词时重音不同", "The country relies heavily on imports of oil.", "They import most of their coffee from Brazil."],
+  ["importance", "/ɪmˈpɔːtns/", "名词", "重要性", "不可数名词；the importance of something = 某事的重要性", "Teachers often stress the importance of reading.", "He doesn't understand the importance of saving money."],
+  ["impression", "/ɪmˈpreʃn/", "名词", "印象；感觉", "make a good impression = 留下好印象", "She made a very good impression at the interview.", "My first impression of the city was quite positive."],
+  ["impressive", "/ɪmˈpresɪv/", "形容词", "令人印象深刻的", "可形容表现、成绩或景色", "The young team gave an impressive performance.", "The view from the mountain was truly impressive."],
+  ["improvement", "/ɪmˈpruːvmənt/", "名词", "改进；进步", "an improvement in something = 某方面的改善", "There has been a clear improvement in her health.", "The new software is a big improvement on the old one."],
+  ["incredibly", "/ɪnˈkredəbli/", "副词", "极其；难以置信地", "强调程度，与 extremely 意思相近", "The final exam was incredibly difficult this year.", "She sings incredibly well for her age."],
+  ["indeed", "/ɪnˈdiːd/", "副词", "确实；的确", "可加强 very 的语气，也可用于确认", "Thank you very much indeed for all your help.", "The journey was tiring indeed."],
+  ["indicate", "/ˈɪndɪkeɪt/", "动词", "表明；指示", "indicate that ... = 表明……", "The survey indicates that prices are still rising.", "A red light usually indicates danger."],
+];
+
+export const B1_TWENTIETH_LESSON: OriginalA2Word[] = [
+  ["indirect", "/ˌɪndəˈrekt/", "形容词", "间接的；迂回的", "反义词 direct；an indirect route = 绕行路线", "We took an indirect route to avoid the traffic.", "She gave a rather indirect answer to my question."],
+  ["indoor", "/ˈɪndɔː/", "形容词", "室内的", "通常放在名词前；反义词 outdoor", "The hotel has a large indoor swimming pool.", "They play indoor games when it rains."],
+  ["indoors", "/ˌɪnˈdɔːz/", "副词", "在室内；到室内", "stay indoors = 待在室内；与形容词 indoor 区分", "We stayed indoors all day because of the storm.", "It's too hot to play outside, so let's go indoors."],
+  ["influence", "/ˈɪnfluəns/", "名词", "影响；影响力", "have an influence on = 对……有影响；也可作动词", "Parents have a strong influence on their children.", "Advertising influences what people choose to buy."],
+  ["ingredient", "/ɪnˈɡriːdiənt/", "名词", "原料；成分；要素", "mix the ingredients = 混合原料；a key ingredient = 关键因素", "Flour and sugar are the main ingredients of the cake.", "Trust is an essential ingredient in any friendship."],
+  ["injure", "/ˈɪndʒə/", "动词", "使受伤", "injure yourself = 伤到自己；被动语态也常见", "He injured his knee while playing football.", "Several people were injured in the accident."],
+  ["injured", "/ˈɪndʒəd/", "形容词", "受伤的", "the injured = 伤员；badly injured = 伤势严重", "The injured driver was taken straight to hospital.", "She couldn't walk properly on her injured foot."],
+  ["innocent", "/ˈɪnəsnt/", "形容词", "无辜的；天真的", "innocent of something = 未犯某罪；反义词 guilty", "The court finally decided that he was innocent.", "She has an innocent smile just like a child's."],
+  ["intelligence", "/ɪnˈtelɪdʒəns/", "名词", "智力；情报", "不可数名词；artificial intelligence = 人工智能", "Dolphins are known for their high intelligence.", "The spy passed secret intelligence to the enemy."],
+  ["intend", "/ɪnˈtend/", "动词", "打算；计划", "intend to do something = 打算做某事", "We intend to travel around Europe next year.", "I didn't intend to hurt your feelings."],
+  ["intention", "/ɪnˈtenʃn/", "名词", "意图；打算", "have no intention of doing something = 无意做某事", "She has no intention of leaving her current job.", "His intention was to help, not to cause trouble."],
+  ["invest", "/ɪnˈvest/", "动词", "投资；投入", "invest in something = 投资某物；也可投入时间精力", "They decided to invest in a small business.", "She invested a lot of time in the project."],
+  ["investigate", "/ɪnˈvestɪɡeɪt/", "动词", "调查；研究", "investigate a crime = 调查犯罪案件", "The police are investigating the bank robbery.", "Scientists are investigating the causes of the disease."],
+  ["involved", "/ɪnˈvɒlvd/", "形容词", "参与的；有关联的", "be involved in something = 参与某事", "Many local people were involved in the project.", "I really don't want to get involved in their argument."],
+  ["iron", "/ˈaɪən/", "名词", "铁；熨斗", "也可作动词表示熨衣服", "The old gate is made of heavy iron.", "She ironed her shirt before the meeting."],
+  ["issue", "/ˈɪʃuː/", "名词", "问题；期号", "raise an issue = 提出问题；也可作动词表示发行", "Pollution is a serious environmental issue.", "The latest issue of the magazine comes out today."],
+  ["journal", "/ˈdʒɜːnl/", "名词", "期刊；日记", "a scientific journal = 科学期刊；keep a journal = 写日记", "Her research was published in a medical journal.", "He writes in his journal every evening before bed."],
+  ["judge", "/dʒʌdʒ/", "名词", "法官；裁判", "也可作动词表示判断或评判", "The judge sentenced him to five years in prison.", "You shouldn't judge people by their appearance."],
+  ["keen", "/kiːn/", "形容词", "热衷的；渴望的", "keen on something = 热衷于某事；keen to do = 急于做", "She is very keen on learning new languages.", "He was keen to start his new job as soon as possible."],
+  ["keyboard", "/ˈkiːbɔːd/", "名词", "键盘；电子琴", "可指计算机输入设备或乐器", "My computer keyboard stopped working this morning.", "He plays the keyboard in a local band."],
+  ["kick", "/kɪk/", "动词", "踢；踹", "kick the ball = 踢球；也可作名词指一次踢击", "He kicked the ball straight into the goal.", "The horse gave the fence a hard kick."],
 ];
