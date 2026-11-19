@@ -131,3 +131,38 @@ export const C1_EIGHTH_LESSON: OriginalA2Word[] = [
   ["assurance", "/əˈʃʊərəns/", "名词", "保证；自信", "give an assurance = 作出保证；with assurance = 自信地", "He gave repeated assurances that no jobs would be lost in the merger.", "She handled the hostile questions with remarkable assurance."],
   ["stall", "/stɔːl/", "名词", "摊位；隔间；停滞", "market stall = 市场摊位；也可作动词表示拖延或熄火", "We bought roasted chestnuts from a stall on the corner of the square.", "Every stall at the craft fair was offering something handmade."],
 ];
+
+export const C1_NINTH_LESSON: OriginalA2Word[] = [
+  ["unacceptable", "/ˌʌnəkˈseptəbl/", "形容词", "不可接受的；不能容忍的", "unacceptable behaviour = 不可接受的行为；反义词 acceptable", "The report described the hospital's hygiene standards as wholly unacceptable.", "Such delays are simply unacceptable when people's lives are at stake."],
+  ["acute", "/əˈkjuːt/", "形容词", "严重的；敏锐的；急性的", "acute shortage = 严重短缺；acute pain = 剧痛；急性病与 chronic 慢性病相对", "The region is facing an acute shortage of clean drinking water.", "Her acute sense of smell made the spoiled milk impossible to ignore."],
+  ["asylum", "/əˈsaɪləm/", "名词", "庇护；政治避难", "seek asylum = 寻求庇护；political asylum = 政治避难；旧义精神病院现少用", "Thousands of refugees have applied for asylum since the conflict began.", "The dissident was eventually granted political asylum by a neighbouring country."],
+  ["stance", "/stæns/", "名词", "立场；站姿", "take a stance on something = 就某事表明立场；体育中也指站姿", "The government has softened its stance on immigration in recent months.", "Critics attacked the senator for constantly shifting his stance on taxation."],
+  ["uncertainty", "/ʌnˈsɜːtnti/", "名词", "不确定；不稳定；未知因素", "economic uncertainty = 经济不确定性；复数 uncertainties 指各种未知因素", "Growing economic uncertainty has made investors reluctant to commit.", "The negotiations were overshadowed by uncertainty about the new tariffs."],
+  ["adaptation", "/ˌædæpˈteɪʃn/", "名词", "适应；改编作品", "adaptation to change = 适应变化；film adaptation = 电影改编版", "The film is a loose adaptation of a nineteenth-century novel.", "Successful adaptation to a warmer climate will require hardier crop varieties."],
+  ["attain", "/əˈteɪn/", "动词", "达到；获得", "attain a goal = 实现目标；attain a standard = 达到标准；名词 attainment", "Few athletes ever attain the level of fitness required for this event.", "She attained the rank of professor before she had even turned forty."],
+  ["steadily", "/ˈstedɪli/", "副词", "稳定地；持续地", "rise steadily = 稳步上升；work steadily = 持续工作；形容词 steady", "Sales have risen steadily since the new branch opened in spring.", "He worked steadily through the night to meet the deadline."],
+  ["undergo", "/ˌʌndəˈɡəʊ/", "动词", "经历；接受", "undergo surgery = 接受手术；过去式 underwent，过去分词 undergone", "Patients who undergo this procedure usually recover within a week.", "The whole city centre is currently undergoing a dramatic transformation."],
+  ["adhere", "/ədˈhɪə/", "动词", "遵守；附着", "adhere to rules = 遵守规则；adhere to a surface = 黏附于表面", "All staff must adhere to the company's safety guidelines at all times.", "The paint simply will not adhere properly to a damp surface."],
+  ["attendance", "/əˈtendəns/", "名词", "出席；出席人数", "take attendance = 点名；in attendance = 出席；attendance figures = 出席人数", "Poor attendance forced the organizers to cancel the second lecture.", "Her attendance at the weekly meetings had become increasingly irregular."],
+  ["attorney", "/əˈtɜːni/", "名词", "律师；受托代理人", "美式英语常指律师；power of attorney = 授权委托书", "The defendant's attorney argued that the evidence had been obtained illegally.", "She signed a power of attorney so her son could manage her finances."],
+  ["canvas", "/ˈkænvəs/", "名词", "帆布；画布", "on canvas = 画在画布上；a blank canvas = 一张白纸般的起点；区别于 canvass（游说）", "The artist stretched a fresh canvas over the wooden frame.", "These sturdy tents are made of heavy waterproof canvas."],
+  ["comply", "/kəmˈplaɪ/", "动词", "遵守；服从", "comply with regulations = 遵守规定；名词 compliance", "Companies that fail to comply with the new rules face heavy fines.", "He reluctantly complied with the officer's instructions."],
+];
+
+export const C1_TENTH_LESSON: OriginalA2Word[] = [
+  ["countless", "/ˈkaʊntləs/", "形容词", "无数的", "countless times = 无数次；通常修饰可数名词复数", "She had rehearsed the speech countless times before the big night.", "Countless small businesses were ruined by the sudden lockdown."],
+  ["attribute", "/əˈtrɪbjuːt/", "动词", "把……归因于；认为属于", "attribute something to somebody = 把某事归因于某人；作名词时重音不同", "Doctors attribute the sharp rise in allergies partly to modern diets.", "The painting was long attributed to a pupil of Rembrandt."],
+  ["capability", "/ˌkeɪpəˈbɪləti/", "名词", "能力；潜力；功能", "within one’s capabilities = 在能力范围内；military capability = 军事能力", "The new sensor gives the drone a genuine night-vision capability.", "Managing a project of this size is well within her capabilities."],
+  ["composition", "/ˌkɒmpəˈzɪʃn/", "名词", "组成；构图；作品", "the composition of soil = 土壤成分；music composition = 音乐作品", "Scientists carefully analysed the chemical composition of the meteorite.", "The photograph's careful composition draws the eye straight to the horizon."],
+  ["coup", "/kuː/", "名词", "政变；出人意料的成就", "stage a coup = 发动政变；a major coup = 一项重大成功；词尾 p 不发音", "The general seized power in a swift and bloodless coup.", "Signing the star striker was quite a coup for such a small club."],
+  ["audit", "/ˈɔːdɪt/", "名词", "审计；系统检查", "conduct an audit = 进行审计；energy audit = 能源审查；也可作动词", "The annual audit revealed several irregularities in the accounts.", "The council commissioned an energy audit of all its public buildings."],
+  ["capitalism", "/ˈkæpɪtəlɪzəm/", "名词", "资本主义", "free-market capitalism = 自由市场资本主义；反义概念 socialism", "The book offers a sharp critique of unregulated capitalism.", "Supporters argue that capitalism rewards innovation and hard work."],
+  ["compromise", "/ˈkɒmprəmaɪz/", "名词", "妥协；折中方案", "reach a compromise = 达成妥协；a compromise between A and B = A 与 B 间的折中", "After hours of talks, the two sides finally reached a compromise.", "The final design was a sensible compromise between cost and quality."],
+  ["courtesy", "/ˈkɜːtəsi/", "名词", "礼貌；好意", "common courtesy = 基本礼貌；courtesy of = 由……提供", "He didn't even have the courtesy to reply to my email.", "As a courtesy, the hotel upgraded our room free of charge."],
+  ["authentic", "/ɔːˈθentɪk/", "形容词", "真正的；地道的", "authentic cuisine = 地道菜肴；authentic document = 真正的文件；反义词 fake", "The restaurant serves authentic Sicilian dishes cooked by a local family.", "Experts later confirmed that the signature was authentic."],
+  ["capitalist", "/ˈkæpɪtəlɪst/", "形容词", "资本主义的", "capitalist economy = 资本主义经济；也可作名词表示资本家", "They grew up in a fiercely capitalist society that prized individual success.", "The reforms pushed the country toward a far more capitalist model."],
+  ["conceal", "/kənˈsiːl/", "动词", "隐瞒；隐藏", "conceal something from somebody = 向某人隐瞒某事；名词 concealment", "She could barely conceal her disappointment at the final result.", "The thieves had concealed the stolen goods beneath the floorboards."],
+  ["craft", "/krɑːft/", "动词", "精心制作；巧妙构思", "craft a speech = 精心写演讲稿；carefully crafted = 精心打造的；也可作名词", "The jeweller crafts each ring individually from recycled gold.", "The speech had been carefully crafted to appeal to younger voters."],
+  ["authorize", "/ˈɔːθəraɪz/", "动词", "授权；批准", "authorize somebody to do something = 授权某人做某事；英式拼法 authorise", "Only the branch manager can authorize a refund of this size.", "The board finally authorized the construction of a second factory."],
+  ["cargo", "/ˈkɑːɡəʊ/", "名词", "货物；船货", "cargo ship = 货船；a cargo of grain = 一批谷物；区别于个人行李 luggage", "The vessel was carrying a cargo of grain bound for North Africa.", "Customs officers inspected the entire cargo for contraband."],
+];
