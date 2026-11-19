@@ -32,3 +32,35 @@ export const C1_SECOND_LESSON: OriginalA2Word[] = [
   ["timeline", "/ˈtaɪmlaɪn/", "名词", "时间线；进度安排", "a timeline of events = 事件时间线；a tight timeline = 紧凑的进度安排", "The museum displays a timeline of the city's history.", "Managers set an ambitious timeline for completing the project."],
   ["abundance", "/əˈbʌndəns/", "名词", "丰富；充裕", "an abundance of = 大量的；in abundance = 充裕地；反义词 scarcity", "The region produces an abundance of fresh fruit every summer.", "Wild flowers grew in abundance along the hillside."],
 ];
+
+export const C1_THIRD_LESSON: OriginalA2Word[] = [
+  ["applaud", "/əˈplɔːd/", "动词", "鼓掌；称赞，赞同", "applaud somebody for doing something = 称赞某人做某事；applaud a decision = 赞同一项决定", "The audience began to applaud as soon as she finished speaking.", "Critics applaud the director for tackling such a difficult subject."],
+  ["slogan", "/ˈsləʊɡən/", "名词", "口号；标语", "a catchy slogan = 朗朗上口的口号；chant a slogan = 高喊口号", "The company's new slogan appeared on billboards across the city.", "Protesters marched through the streets chanting the same slogan."],
+  ["timing", "/ˈtaɪmɪŋ/", "名词", "时机的选择；发生的时间", "perfect timing = 恰到好处的时机；the timing of something = 某事发生的时间", "The comedian's timing was perfect, and the crowd roared with laughter.", "Unfortunately, the timing of the announcement could not have been worse."],
+  ["abuse", "/əˈbjuːs/", "名词", "滥用；虐待；辱骂", "abuse of power = 滥用权力；drug abuse = 药物滥用；作名词读 /əˈbjuːs/，动词读 /əˈbjuːz/", "Investigators uncovered a shocking abuse of public funds.", "Victims of abuse often find it hard to speak out."],
+  ["applicable", "/əˈplɪkəbl/", "形容词", "适用的；可应用的", "applicable to = 适用于；where applicable = 在适用的情况下", "This rule is applicable to all employees without exception.", "Please fill in the form and delete the sections that are not applicable."],
+  ["so-called", "/ˌsəʊ ˈkɔːld/", "形容词", "所谓的", "放在名词前，常表示对称谓存疑或讽刺；the so-called experts = 所谓的专家", "Their so-called experts could not answer the simplest question.", "These so-called reforms made the situation even worse."],
+  ["tissue", "/ˈtɪʃuː/", "名词", "组织；纸巾", "soft tissue = 软组织；a tissue = 一张纸巾；a tissue of lies = 一派谎言", "The scan revealed damage to the soft tissue around the joint.", "She pulled a tissue from the box to wipe her eyes."],
+  ["academy", "/əˈkædəmi/", "名词", "学院；研究院", "a military academy = 军事学院；the Academy 也可指学术机构", "At sixteen he won a place at a prestigious music academy.", "The riding academy trains both horses and their owners."],
+  ["appoint", "/əˈpɔɪnt/", "动词", "任命；指定", "appoint somebody as or to something = 任命某人担任某职；at the appointed time = 在指定时间", "The board plans to appoint a new chief executive next month.", "They appoint inspectors to check standards in every factory."],
+  ["somehow", "/ˈsʌmhaʊ/", "副词", "以某种方式；不知怎么地", "somehow or other = 无论如何；可放句首或句末", "We will somehow find the money to repair the roof.", "She looked tired, and somehow older than before."],
+  ["ton", "/tʌn/", "名词", "吨；大量", "tons of something = 大量某物；区别于 1000 千克的公吨 tonne", "The truck was carrying almost a ton of gravel.", "There is still a ton of work to do before the deadline."],
+  ["accelerate", "/əkˈseləreɪt/", "动词", "加速；促进", "accelerate growth = 加速增长；既可及物也可不及物；反义词 decelerate", "The car began to accelerate as it joined the motorway.", "Rising demand could accelerate the shift to clean energy."],
+  ["appreciation", "/əˌpriːʃiˈeɪʃn/", "名词", "感激；鉴赏；增值", "show appreciation = 表示感激；an appreciation of art = 对艺术的鉴赏", "She wrote a short note to show her appreciation for their help.", "A deeper appreciation of history helps us understand the present."],
+];
+
+export const C1_FOURTH_LESSON: OriginalA2Word[] = [
+  ["sometime", "/ˈsʌmtaɪm/", "副词", "在某个时候", "sometime next week = 下周某个时候；区别于 some time（一段时间）和 sometimes（有时）", "Let's meet for coffee sometime next week.", "The letter must have been written sometime in the 1940s."],
+  ["tonne", "/tʌn/", "名词", "公吨", "一公吨为 1000 千克；也称 metric ton；区别于英美制的 ton", "Each container can hold up to one tonne of cargo.", "The factory recycles several tonnes of plastic every day."],
+  ["acceptance", "/əkˈseptəns/", "名词", "接受；认可；顺从", "gain acceptance = 获得认可；acceptance of something = 对某事的接受", "The theory gradually won acceptance among scientists.", "Her calm acceptance of the bad news surprised everyone."],
+  ["architectural", "/ˌɑːkɪˈtektʃərəl/", "形容词", "建筑的；建筑设计的", "architectural style = 建筑风格；architectural heritage = 建筑遗产", "The city is famous for its stunning architectural heritage.", "They hired a firm to draw up the architectural plans."],
+  ["sophisticated", "/səˈfɪstɪkeɪtɪd/", "形容词", "精密的；见多识广的", "sophisticated technology = 精密技术；sophisticated taste = 高雅品味", "Hackers used increasingly sophisticated methods to break in.", "She has rather sophisticated taste in art and music."],
+  ["tournament", "/ˈtʊənəmənt/", "名词", "锦标赛；联赛", "enter a tournament = 参加锦标赛；a chess tournament = 国际象棋锦标赛", "Their team was knocked out of the tournament in the first round.", "The city will host an international chess tournament this autumn."],
+  ["accessible", "/əkˈsesəbl/", "形容词", "可到达的；易懂的；平易近人的", "accessible to somebody = 某人可接触或理解的；wheelchair accessible = 方便轮椅通行的", "The new ramp makes the building accessible to wheelchair users.", "She has a gift for making difficult ideas accessible to everyone."],
+  ["archive", "/ˈɑːkaɪv/", "名词", "档案；档案馆", "the national archives = 国家档案馆；a digital archive = 数字档案；也可作动词", "Researchers spent months searching the national archive for the letter.", "The newspaper keeps a huge archive of old photographs."],
+  ["spare", "/speə/", "形容词", "备用的；空闲的", "a spare key = 备用钥匙；spare time = 空闲时间；也可作动词", "Always keep a spare key hidden somewhere safe.", "In her spare time she volunteers at a local shelter."],
+  ["trace", "/treɪs/", "动词", "追踪；追溯；描摹", "trace something back to = 将某事追溯到；trace a missing person = 追查失踪者", "Police are trying to trace the owner of the abandoned car.", "Historians trace the custom back to the Middle Ages."],
+  ["accessory", "/əkˈsesəri/", "名词", "配件；饰品；从犯", "fashion accessories = 时尚配饰；accessory to a crime = 犯罪的从犯", "A simple scarf can be the perfect accessory for a plain dress.", "He was charged as an accessory to the robbery."],
+  ["arena", "/əˈriːnə/", "名词", "竞技场；活动领域", "a sports arena = 体育场馆；the political arena = 政治舞台", "The band performed in a packed arena of twenty thousand fans.", "She first entered the political arena as a local councillor."],
+  ["specialize", "/ˈspeʃəlaɪz/", "动词", "专攻；专门从事", "specialize in something = 专攻某领域；英式拼法 specialise", "She decided to specialize in criminal law after graduating.", "Several clinics specialize in treating rare diseases."],
+];
