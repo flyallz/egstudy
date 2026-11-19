@@ -476,3 +476,33 @@ export const WORK_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> =
   "gig economy": ["零工经济把所有风险都转嫁给劳动者。", "法院已开始对零工经济加以规范。"],
   "zero-hours contract": ["她签了两年的零工时合同。", "一些国家已经禁止零工时合同。"],
 };
+
+export const WORK_SECOND_LESSON: OriginalTopicWord[] = [
+  ["permanent contract", "/ˌpɜːmənənt ˈkɒntrækt/", "名词短语", "无固定期限劳动合同；长期合同", "可数；offer/be given a permanent contract", "After eighteen months he was given a permanent contract.", "Few new jobs come with a permanent contract."],
+  ["fixed-term contract", "/ˌfɪkst tɜːm ˈkɒntrækt/", "名词短语", "固定期限合同", "可数；sign/renew a fixed-term contract", "Researchers move from one fixed-term contract to the next.", "The fixed-term contract was not renewed."],
+  ["probation period", "/prəˈbeɪʃn ˌpɪəriəd/", "名词短语", "试用期", "可数；serve/pass a probation period", "The probation period lasts three months.", "She passed her probation period without a review."],
+  ["notice period", "/ˈnəʊtɪs ˌpɪəriəd/", "名词短语", "离职通知期；提前通知期限", "可数；work/serve a notice period", "His notice period is a full month.", "She worked her notice period before moving."],
+  ["redundancy", "/rɪˈdʌndənsi/", "名词", "裁员；岗位裁撤", "可数或不可数；face/voluntary redundancy", "Forty staff faced redundancy in the autumn.", "He took voluntary redundancy at fifty-five."],
+  ["recruitment", "/rɪˈkruːtmənt/", "名词", "招聘；招募", "不可数；a recruitment drive/freeze", "A recruitment freeze left every department short.", "Recruitment takes three months from advert to start date."],
+  ["staff retention", "/ˈstɑːf rɪˌtenʃn/", "名词短语", "员工留任；留住员工", "不可数；improve/poor staff retention", "Flexible hours improved staff retention immediately.", "Poor staff retention costs more than higher pay would."],
+  ["job application", "/ˈdʒɒb ˌæplɪkeɪʃn/", "名词短语", "求职申请", "可数；submit/reject a job application", "She submitted forty job applications in one month.", "Most job applications are filtered by software first."],
+  ["covering letter", "/ˈkʌvərɪŋ ˌletə/", "名词短语", "求职附信", "可数；write/tailor a covering letter", "A tailored covering letter beats a long one.", "He wrote a fresh covering letter for every role."],
+  ["curriculum vitae", "/kəˌrɪkjələm ˈviːtaɪ/", "名词短语", "履历；个人简历", "可数，缩写 CV；update/send a curriculum vitae", "Her curriculum vitae runs to two pages only.", "Update your curriculum vitae before you need it."],
+  ["job interview", "/ˈdʒɒb ˌɪntəvjuː/", "名词短语", "求职面试", "可数；attend/prepare for a job interview", "He had four job interviews in a single week.", "Preparing for a job interview takes a full evening."],
+  ["shortlist", "/ˈʃɔːtlɪst/", "名词", "入围名单；候选人短名单", "可数；draw up/make the shortlist", "Six candidates made the shortlist.", "The panel drew up a shortlist on Friday."],
+];
+
+export const WORK_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "permanent contract": ["十八个月后，他获得了一份无固定期限合同。", "很少有新工作会直接提供长期合同。"],
+  "fixed-term contract": ["研究人员从一份固定期限合同转到下一份。", "这份固定期限合同没有续签。"],
+  "probation period": ["试用期为三个月。", "她没有接受考核就通过了试用期。"],
+  "notice period": ["他的离职通知期整整一个月。", "她在离职前完成了通知期的工作。"],
+  "redundancy": ["秋季有四十名员工面临裁员。", "他在五十五岁时选择了自愿离职裁员方案。"],
+  "recruitment": ["招聘冻结使每个部门都缺人。", "从发布招聘广告到正式上岗，招聘要花三个月。"],
+  "staff retention": ["弹性工作时间立即改善了员工留任情况。", "员工留任率低的成本甚至高于加薪。"],
+  "job application": ["她一个月内提交了四十份求职申请。", "大多数求职申请首先会被软件筛选。"],
+  "covering letter": ["有针对性的求职附信胜过冗长的附信。", "他为每个岗位都重新写了一封求职附信。"],
+  "curriculum vitae": ["她的个人简历只有两页。", "在需要简历之前就把它更新好。"],
+  "job interview": ["他一周之内参加了四场求职面试。", "准备一场求职面试需要整整一个晚上。"],
+  "shortlist": ["六名候选人进入了最终入围名单。", "评审小组在周五拟定了候选人短名单。"],
+};
