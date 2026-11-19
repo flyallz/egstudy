@@ -4186,3 +4186,37 @@ export const CRIME_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "extortion": ["市场商贩为了避免遭勒索而付钱。", "两名男子因勒索被判入狱。"],
   "bribery": ["发证办公室里，贿赂曾是家常便饭。", "这家公司因在国外行贿而被罚款。"],
 };
+
+export const CRIME_THIRD_LESSON: OriginalTopicWord[] = [
+  ["corruption", "/kəˈrʌpʃn/", "名词", "腐败；贪污受贿", "不可数；root out corruption", "Corruption in procurement cost the city two schools.", "Rooting out corruption outlasted three mayors."],
+  ["fraud", "/frɔːd/", "名词", "欺诈；诈骗", "可数或不可数；investigate fraud", "The benefit fraud ran for four years.", "Fraud is investigated by a specialist unit."],
+  ["embezzlement", "/ɪmˈbezlmənt/", "名词", "侵吞公款；挪用资金", "不可数；be convicted of embezzlement", "The treasurer was convicted of embezzlement.", "Embezzlement was uncovered during a routine audit."],
+  ["money laundering", "/ˈmʌni ˌlɔːndərɪŋ/", "名词短语", "洗钱", "不可数；be charged with money laundering", "Money laundering passed through nine small accounts.", "The casino was fined over money laundering checks."],
+  ["counterfeiting", "/ˈkaʊntəfɪtɪŋ/", "名词", "伪造货币或商品", "不可数；tackle counterfeiting", "Counterfeiting of medicines is the gravest kind.", "Counterfeiting moved from markets to parcels."],
+  ["forgery", "/ˈfɔːdʒəri/", "名词", "伪造文件或签名", "可数或不可数；be charged with forgery", "The signature was a clumsy forgery.", "He was charged with forgery of the permits."],
+  ["smuggling", "/ˈsmʌɡlɪŋ/", "名词", "走私", "不可数；tobacco smuggling", "Tobacco smuggling followed every duty rise.", "Smuggling across the estuary is centuries old."],
+  ["drug trafficking", "/ˈdrʌɡ ˌtræfɪkɪŋ/", "名词短语", "毒品贩运", "不可数；be jailed for drug trafficking", "Drug trafficking carries the longest sentences here.", "The port is a known route for drug trafficking."],
+  ["human trafficking", "/ˈhjuːmən ˌtræfɪkɪŋ/", "名词短语", "人口贩运", "不可数；a victim of human trafficking", "Human trafficking was uncovered at two car washes.", "Victims of human trafficking need shelter before statements."],
+  ["looting", "/ˈluːtɪŋ/", "名词", "趁乱抢劫；哄抢", "不可数；widespread looting", "Looting followed the power cut.", "Shopkeepers boarded up against looting."],
+  ["rioting", "/ˈraɪətɪŋ/", "名词", "骚乱；暴动", "不可数；rioting breaks out", "Rioting broke out after the verdict.", "Rioting lasted two nights and emptied the parade."],
+  ["hate crime", "/ˈheɪt kraɪm/", "名词短语", "仇恨犯罪", "可数；report a hate crime", "Hate crime reports doubled in a decade.", "The attack was recorded as a hate crime."],
+  ["domestic abuse", "/dəˌmestɪk əˈbjuːs/", "名词短语", "家庭暴力；家庭虐待", "不可数；report/flee domestic abuse", "Domestic abuse is the least reported crime of all.", "She fled domestic abuse with two children."],
+  ["stalking", "/ˈstɔːkɪŋ/", "名词", "跟踪骚扰", "不可数；report stalking", "Stalking became a separate offence in 2012.", "She reported the stalking eleven times."],
+];
+
+export const CRIME_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "corruption": ["采购腐败使这座城市失去了建两所学校的资金。", "根除腐败的工作历经三任市长仍未完成。"],
+  "fraud": ["这起福利诈骗持续了四年。", "诈骗案件由一个专门部门调查。"],
+  "embezzlement": ["财务主管被判侵吞公款罪。", "一次例行审计揭露了挪用资金的行为。"],
+  "money laundering": ["洗钱款项经过了九个小额账户。", "这家赌场因洗钱审查存在问题而被罚款。"],
+  "counterfeiting": ["伪造药品是最严重的一种造假。", "假货交易从市场转移到了包裹邮寄。"],
+  "forgery": ["这个签名是拙劣的伪造品。", "他被控伪造许可证。"],
+  "smuggling": ["每次提高税费，烟草走私就会随之增加。", "跨越河口的走私活动已有数百年历史。"],
+  "drug trafficking": ["在这里，贩毒罪对应的刑期最长。", "这座港口是已知的毒品贩运路线。"],
+  "human trafficking": ["两家洗车店被发现涉及人口贩运。", "人口贩运受害者在录口供前需要先获得庇护。"],
+  "looting": ["停电后发生了趁乱哄抢。", "店主们用木板封住店面，以防遭哄抢。"],
+  "rioting": ["判决公布后爆发了骚乱。", "骚乱持续了两夜，使商业街空荡荡的。"],
+  "hate crime": ["十年间，仇恨犯罪举报数量翻倍。", "这次袭击被登记为仇恨犯罪。"],
+  "domestic abuse": ["家庭暴力是最少被报案的犯罪类型。", "她带着两个孩子逃离了家庭暴力。"],
+  "stalking": ["跟踪骚扰于 2012 年被列为独立罪名。", "她曾十一次举报跟踪骚扰。"],
+};
