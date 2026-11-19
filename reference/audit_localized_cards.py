@@ -83,4 +83,4 @@ check("Cities", "client/src/data/originalTopics.ts", "reference/original-topic-c
 check("Transport", "client/src/data/originalTopics.ts", "reference/original-topic-csv/transport-mobility.csv", "TRANSPORT", 10)
 
 check("Crime", "client/src/data/originalTopics.ts", "reference/original-topic-csv/crime-justice.csv", "CRIME", 10)
-check("Government", "client/src/data/originalTopics.ts", "reference/original-topic-csv/government-policy.csv", "GOVERNMENT", 9)
+check("Government", "client/src/data/originalTopics.ts", "reference/original-topic-csv/government-policy.csv", "GOVERNMENT", 10)
