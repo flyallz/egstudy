@@ -89,4 +89,4 @@ check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-
 
 check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-topic-csv/globalisation-trade.csv", "GLOBALISATION", 10)
 
-check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-csv/family-children.csv", "FAMILY", 4)
+check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-csv/family-children.csv", "FAMILY", 5)
