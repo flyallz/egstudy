@@ -1856,3 +1856,33 @@ export const TECHNOLOGY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "software": ["这款软件每月自动更新。", "学校为每间教室购买同一款软件的使用许可。"],
   "algorithm": ["算法决定每个用户首先看到什么。", "对算法的小幅调整改变了观看习惯。"],
 };
+
+export const TECHNOLOGY_SECOND_LESSON: OriginalTopicWord[] = [
+  ["source code", "/ˈsɔːs kəʊd/", "名词短语", "源代码", "不可数；publish/audit source code", "Publishing the source code let outsiders audit it.", "The source code was leaked online."],
+  ["open source", "/ˌəʊpən ˈsɔːs/", "名词短语", "开源软件；开放源代码", "不可数；亦可作定语 an open source tool", "Open source now powers most public websites.", "The ministry switched to open source to avoid licence fees."],
+  ["user interface", "/ˈjuːzə ˌɪntəfeɪs/", "名词短语", "用户界面", "可数；redesign/a clean user interface", "A cluttered user interface loses users within seconds.", "The team redesigned the user interface for older phones."],
+  ["platform", "/ˈplætfɔːm/", "名词", "在线平台", "可数；launch/moderate a platform", "The platform now hosts two billion accounts.", "Regulators want platforms to moderate content faster."],
+  ["sensor", "/ˈsensə/", "名词", "传感器", "可数；fit/a network of sensors", "Sensors measure air quality on every bus.", "The bridge is fitted with two hundred sensors."],
+  ["processor", "/ˈprəʊsesə/", "名词", "处理器", "可数；a fast/replace processor", "A faster processor made little difference to battery life.", "The chip contains sixteen separate processors."],
+  ["wearable device", "/ˈweərəbl dɪˌvaɪs/", "名词短语", "可穿戴设备", "可数；wear/sync a wearable device", "Wearable devices track heart rate all night.", "Doctors read data straight from the wearable device."],
+  ["smartphone", "/ˈsmɑːtfəʊn/", "名词", "智能手机", "可数；own/be glued to a smartphone", "Nine in ten adults here own a smartphone.", "Teenagers check their smartphone every few minutes."],
+  ["touchscreen", "/ˈtʌtʃskriːn/", "名词", "触摸屏", "可数；a touchscreen display/kiosk", "Touchscreens replaced every ticket window.", "The touchscreen fails in heavy rain."],
+  ["battery life", "/ˈbætəri laɪf/", "名词短语", "电池续航时间", "不可数；extend/drain battery life", "Battery life matters more than screen size to most buyers.", "Background apps drain battery life quickly."],
+  ["data privacy", "/ˈdeɪtə ˌprɪvəsi/", "名词短语", "数据隐私", "不可数；protect/breach data privacy", "Data privacy law now follows the user, not the server.", "The app breached data privacy by sharing contacts."],
+  ["personal data", "/ˌpɜːsənl ˈdeɪtə/", "名词短语", "个人数据", "不可数；collect/store personal data", "The form collects far more personal data than it needs.", "Personal data must be stored inside the country."],
+];
+
+export const TECHNOLOGY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "source code": ["公开源代码使外部人员能够审核它。", "源代码被泄露到了网上。"],
+  "open source": ["如今大多数公共网站都由开源软件提供支持。", "该部改用开源软件，以避免支付许可费。"],
+  "user interface": ["杂乱的用户界面会在几秒内让用户离开。", "团队为旧款手机重新设计了用户界面。"],
+  "platform": ["该平台现在承载着二十亿个账号。", "监管机构希望平台更快地审核内容。"],
+  "sensor": ["每辆公交车上的传感器都会测量空气质量。", "这座桥安装了两百个传感器。"],
+  "processor": ["更快的处理器对电池续航影响不大。", "这枚芯片内含十六个独立处理器。"],
+  "wearable device": ["可穿戴设备整夜跟踪心率。", "医生直接从可穿戴设备读取数据。"],
+  "smartphone": ["这里十个成年人中有九个拥有智能手机。", "青少年每隔几分钟就查看一次智能手机。"],
+  "touchscreen": ["触摸屏取代了所有售票窗口。", "这块触摸屏在大雨中会失灵。"],
+  "battery life": ["对大多数买家来说，电池续航比屏幕尺寸更重要。", "后台应用会迅速消耗电池电量。"],
+  "data privacy": ["如今数据隐私法保护的是用户，而非服务器。", "这款应用通过共享联系人侵犯了数据隐私。"],
+  "personal data": ["这份表格收集的个人数据远多于所需。", "个人数据必须存储在本国境内。"],
+};
