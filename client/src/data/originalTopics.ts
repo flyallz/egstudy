@@ -4156,3 +4156,33 @@ export const CRIME_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "shoplifting": ["随着食品价格上涨，商店行窃增加了。", "这家店只有在失窃金额超过规定数额时才报案。"],
   "pickpocketing": ["终点站扒窃频发。", "告示提醒游客注意扒窃。"],
 };
+
+export const CRIME_SECOND_LESSON: OriginalTopicWord[] = [
+  ["mugging", "/ˈmʌɡɪŋ/", "名词", "街头抢劫；拦路抢劫案", "可数；a mugging takes place", "Two muggings were reported near the underpass.", "The mugging happened in full daylight."],
+  ["vandalism", "/ˈvændəlɪzəm/", "名词", "破坏公物或财产的行为", "不可数；tackle vandalism", "Vandalism costs the school a boiler every winter.", "Lighting reduced vandalism in the car park."],
+  ["arson", "/ˈɑːsn/", "名词", "纵火罪；故意纵火", "不可数；commit/suspect arson", "The fire was treated as arson from the start.", "Arson destroyed the empty mill."],
+  ["assault", "/əˈsɔːlt/", "名词", "袭击；人身攻击", "可数或不可数；be charged with assault", "Assaults on staff rose during the dispute.", "He was charged with assault and released on bail."],
+  ["grievous bodily harm", "/ˌɡriːvəs ˌbɒdili ˈhɑːm/", "名词短语", "严重身体伤害罪", "不可数；be charged with grievous bodily harm", "He was convicted of grievous bodily harm.", "The charge was reduced from grievous bodily harm."],
+  ["murder", "/ˈmɜːdə/", "名词", "谋杀；谋杀案", "可数或不可数；be convicted of murder", "The murder remained unsolved for thirty years.", "She was convicted of murder on circumstantial evidence."],
+  ["manslaughter", "/ˈmænslɔːtə/", "名词", "过失杀人罪；非谋杀性致死", "不可数；be convicted of manslaughter", "The jury returned a verdict of manslaughter.", "Manslaughter carries no fixed sentence."],
+  ["homicide", "/ˈhɒmɪsaɪd/", "名词", "杀人行为；杀人案件", "可数或不可数；the homicide rate", "The homicide rate is the lowest since records began.", "Two homicides in one weekend shocked the district."],
+  ["kidnapping", "/ˈkɪdnæpɪŋ/", "名词", "绑架；绑架案", "可数或不可数；a kidnapping takes place", "The kidnapping was reported within an hour.", "Kidnapping for ransom is almost unknown here."],
+  ["blackmail", "/ˈblækmeɪl/", "名词", "敲诈；以揭露秘密相威胁的勒索", "不可数；be charged with blackmail", "The letters amounted to blackmail.", "Blackmail is hard to prove without a recording."],
+  ["extortion", "/ɪkˈstɔːʃn/", "名词", "勒索；敲诈财物", "不可数；be jailed for extortion", "Market traders paid to avoid extortion.", "Two men were jailed for extortion."],
+  ["bribery", "/ˈbraɪbəri/", "名词", "行贿；受贿", "不可数；bribery and corruption", "Bribery was routine in the licensing office.", "The firm was fined for bribery abroad."],
+];
+
+export const CRIME_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "mugging": ["地下通道附近报告了两起街头抢劫。", "这起拦路抢劫发生在光天化日之下。"],
+  "vandalism": ["每年冬天，蓄意破坏都会让学校损失一台锅炉。", "改善照明减少了停车场内的破坏行为。"],
+  "arson": ["这场火灾从一开始就被视为纵火案。", "纵火烧毁了那座空置的磨坊。"],
+  "assault": ["争执期间，员工遭袭击的案件增加了。", "他被控袭击罪，随后获准保释。"],
+  "grievous bodily harm": ["他被判犯有严重身体伤害罪。", "指控从严重身体伤害罪降为较轻罪名。"],
+  "murder": ["这起谋杀案三十年来一直未破。", "她依据间接证据被判谋杀罪。"],
+  "manslaughter": ["陪审团作出了过失杀人的裁决。", "过失杀人罪没有固定刑期。"],
+  "homicide": ["杀人案发生率降至有记录以来最低。", "一个周末发生两起杀人案，震惊了整个区域。"],
+  "kidnapping": ["绑架案在一小时内就报了警。", "以勒索赎金为目的的绑架在这里几乎闻所未闻。"],
+  "blackmail": ["这些信已经构成敲诈。", "没有录音，敲诈行为很难证明。"],
+  "extortion": ["市场商贩为了避免遭勒索而付钱。", "两名男子因勒索被判入狱。"],
+  "bribery": ["发证办公室里，贿赂曾是家常便饭。", "这家公司因在国外行贿而被罚款。"],
+};
