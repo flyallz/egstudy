@@ -65,3 +65,38 @@ export const B2_FOURTH_LESSON: OriginalA2Word[] = [
   ["crucial", "/ˈkruːʃl/", "形容词", "至关重要的；关键的", "crucial to/for something = 对某事至关重要；语气强于 important", "Getting enough sleep is crucial for good health.", "This is a crucial moment in the country's history."],
   ["afterwards", "/ˈɑːftəwədz/", "副词", "随后；后来", "可置于句首或句末；美式拼写 afterward", "We had dinner and went for a long walk afterwards.", "Afterwards, she realized she had made a mistake."],
 ];
+
+export const B2_FIFTH_LESSON: OriginalA2Word[] = [
+  ["capacity", "/kəˈpæsəti/", "名词", "容量；容纳能力；能力", "seating capacity = 座位容量；at full capacity = 满负荷", "The stadium has a capacity of sixty thousand people.", "Humans have an enormous capacity for learning."],
+  ["agency", "/ˈeɪdʒənsi/", "名词", "机构；代理处", "a travel agency = 旅行社；a government agency = 政府机构", "She works for an advertising agency in London.", "The aid agency sent supplies to the flooded region."],
+  ["capture", "/ˈkæptʃə/", "动词", "捕获；占领；记录下", "capture a prisoner = 抓获囚犯；capture the moment = 记录瞬间", "Soldiers captured the enemy town after a long battle.", "The photograph perfectly captures the joy of the moment."],
+  ["cure", "/kjʊə/", "动词", "治愈；治疗", "cure somebody of something = 治好某人的病；也可作名词", "Doctors still cannot cure the common cold.", "The treatment cured her of the infection within days."],
+  ["agenda", "/əˈdʒendə/", "名词", "议程；意图", "top of the agenda = 议程首要事项；a hidden agenda = 隐藏的意图", "The first item on the agenda is the budget.", "Many people suspected that he had a hidden agenda."],
+  ["cast", "/kɑːst/", "名词", "全体演员；石膏", "the cast of a film = 电影演员阵容；也可作动词", "The entire cast gathered on stage for the final bow.", "Her broken arm was in a cast for six weeks."],
+  ["aggressive", "/əˈɡresɪv/", "形容词", "好斗的；强势的", "aggressive behaviour = 攻击行为；an aggressive marketing campaign = 强势营销", "The dog became aggressive when strangers approached.", "The company launched an aggressive advertising campaign."],
+  ["curve", "/kɜːv/", "名词", "曲线；弯道", "a sharp curve = 急弯；a learning curve = 学习曲线", "There is a dangerous curve just past the bridge.", "Starting a new job involves a steep learning curve."],
+  ["aid", "/eɪd/", "名词", "援助；辅助用具", "humanitarian aid = 人道主义援助；a hearing aid = 助听器", "The country relies heavily on foreign aid.", "She wears a hearing aid in her left ear."],
+  ["cell", "/sel/", "名词", "细胞；牢房；表格单元格", "blood cells = 血细胞；a prison cell = 牢房", "The human body contains billions of tiny cells.", "The prisoner spent years alone in a cramped cell."],
+  ["curved", "/kɜːvd/", "形容词", "弯曲的；呈曲线的", "a curved line = 曲线；反义词 straight", "The path follows a gently curved line through the garden.", "The old knife had a slightly curved blade."],
+  ["aircraft", "/ˈeəkrɑːft/", "名词", "航空器；飞机", "单复数同形：one aircraft、two aircraft；比 plane 正式", "The aircraft landed safely despite the storm.", "Several military aircraft flew low over the city."],
+  ["debate", "/dɪˈbeɪt/", "名词", "辩论；讨论", "a heated debate = 激烈辩论；也可作动词", "There was a lively debate about climate change.", "The question of funding is still open to debate."],
+  ["alter", "/ˈɔːltə/", "动词", "更改；修改", "alter a plan = 修改计划；通常指部分调整", "We may need to alter our plans slightly.", "The tailor altered the jacket to fit him better."],
+];
+
+export const B2_SIXTH_LESSON: OriginalA2Word[] = [
+  ["debt", "/det/", "名词", "债务；欠款", "be in debt = 负债；pay off a debt = 偿清债务；字母 b 不发音", "He worked hard for years to pay off his debt.", "Many students are in debt by the time they graduate."],
+  ["characteristic", "/ˌkærəktəˈrɪstɪk/", "名词", "特征；特点", "a characteristic of something = 某物的特征；与 character 区分", "Patience is a characteristic I admire in good teachers.", "Each region has characteristics that set its cooking apart."],
+  ["decent", "/ˈdiːsnt/", "形容词", "体面的；不错的", "a decent person = 正派的人；a decent salary = 还不错的工资", "He earns a decent salary, enough to support his family comfortably.", "It was decent of her to apologize in front of everyone."],
+  ["anger", "/ˈæŋɡə/", "名词", "愤怒；怒气", "in anger = 气愤地；control your anger = 控制怒气", "She struggled to hide her anger when the meeting was cancelled again.", "His words were spoken in anger and he later regretted them."],
+  ["declare", "/dɪˈkleə/", "动词", "宣布；申报", "declare war = 宣战；declare goods = 申报货物", "The government will declare a state of emergency if the floods continue.", "You must declare any goods you bought abroad at customs."],
+  ["angle", "/ˈæŋɡl/", "名词", "角；角度", "at an angle = 倾斜着；from a different angle = 从另一角度", "The photographer shot the building from a low angle to make it look taller.", "Try looking at the problem from a different angle."],
+  ["chief", "/tʃiːf/", "形容词", "首要的；主要的", "the chief reason = 主要原因；chief executive = 首席执行官", "The chief advantage of this method is that it saves everyone time.", "Safety remains the chief concern for everyone on the team."],
+  ["decline", "/dɪˈklaɪn/", "动词", "下降；婉拒", "sales declined = 销量下降；decline an invitation = 婉拒邀请", "Sales began to decline sharply after the price increase.", "She politely declined the offer to lead the project."],
+  ["anniversary", "/ˌænɪˈvɜːsəri/", "名词", "周年纪念日", "wedding anniversary = 结婚纪念日；the 10th anniversary of = ……十周年", "They celebrated their tenth wedding anniversary with a trip to Italy.", "The city held events to mark the anniversary of its founding."],
+  ["circumstance", "/ˈsɜːkəmstəns/", "名词", "情况；环境", "常用复数 circumstances；under the circumstances = 在这种情况下", "In this particular circumstance, staying calm was the wisest choice.", "Under no circumstances should you share your password with anyone."],
+  ["decoration", "/ˌdekəˈreɪʃn/", "名词", "装饰品；装饰", "Christmas decorations = 圣诞装饰品；interior decoration = 室内装饰", "They hung a paper decoration above the doorway for the party.", "The hall was filled with colourful decorations for the festival."],
+  ["annual", "/ˈænjuəl/", "形容词", "每年的；年度的", "annual report = 年度报告；副词 annually", "The company publishes an annual report every spring.", "Her annual salary rose by five percent this year."],
+  ["cite", "/saɪt/", "动词", "引用；举出", "cite a source = 引用资料来源；与 site、sight 区分", "Writers must cite every source they use in their essays.", "He cited family reasons when he resigned from the board."],
+  ["decrease", "/dɪˈkriːs/", "动词", "减少；降低", "decrease by/to = 减少了／减少到；反义词 increase", "Exercise can help decrease the risk of heart disease.", "The number of visitors decreased sharply during the storm."],
+  ["deeply", "/ˈdiːpli/", "副词", "深深地；非常", "deeply moved = 深受感动；常修饰情感", "She was deeply moved by the letter her students wrote.", "Many people feel deeply about this issue."],
+];
