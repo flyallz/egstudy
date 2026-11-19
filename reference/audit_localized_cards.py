@@ -13,6 +13,7 @@ POS = {
     "Trạng từ": "副词",
     "Giới từ": "介词",
     "Cụm danh từ": "名词短语",
+    "Cụm tính từ": "形容词短语",
     "Cụm động từ": "动词短语",
     "Cụm giới từ": "介词短语",
     "Thán từ": "感叹词",
@@ -77,4 +78,4 @@ check("Technology", "client/src/data/originalTopics.ts", "reference/original-top
 
 check("Economy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/economy-consumerism.csv", "ECONOMY", 10)
 check("Science", "client/src/data/originalTopics.ts", "reference/original-topic-csv/science-research.csv", "SCIENCE", 10)
-check("Cities", "client/src/data/originalTopics.ts", "reference/original-topic-csv/cities-urban-life.csv", "CITIES", 5)
+check("Cities", "client/src/data/originalTopics.ts", "reference/original-topic-csv/cities-urban-life.csv", "CITIES", 6)
