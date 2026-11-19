@@ -1396,3 +1396,33 @@ export const ENVIRONMENT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "flash flooding": ["混凝土地面使暴发性洪水更加严重。", "这个山谷在九月容易发生山洪。"],
   "rising sea levels": ["海平面上升威胁着整个三角洲地区。", "由于海平面上升，整座村庄都已迁往内陆。"],
 };
+
+export const ENVIRONMENT_SECOND_LESSON: OriginalTopicWord[] = [
+  ["ocean acidification", "/ˈəʊʃn əˌsɪdɪfɪˈkeɪʃn/", "名词短语", "海洋酸化", "不可数；cause/accelerate ocean acidification", "Ocean acidification dissolves the shells of young oysters.", "Extra carbon dioxide accelerates ocean acidification."],
+  ["desertification", "/dɪˌzɜːtɪfɪˈkeɪʃn/", "名词", "荒漠化", "不可数；halt/lead to desertification", "Overgrazing leads to desertification within a decade.", "Tree belts have halted desertification along the border."],
+  ["soil erosion", "/ˈsɔɪl ɪˌrəʊʒn/", "名词短语", "土壤侵蚀；水土流失", "不可数；prevent/accelerate soil erosion", "Removing hedgerows accelerates soil erosion.", "Terracing prevents soil erosion on steep slopes."],
+  ["air pollution", "/ˈeə pəˌluːʃn/", "名词短语", "空气污染", "不可数；reduce/be exposed to air pollution", "Air pollution shortens life expectancy in the capital.", "Children near main roads are exposed to the worst air pollution."],
+  ["water pollution", "/ˈwɔːtə pəˌluːʃn/", "名词短语", "水污染", "不可数；cause/monitor water pollution", "Untreated sewage causes most water pollution here.", "Volunteers monitor water pollution in the estuary."],
+  ["noise pollution", "/ˈnɔɪz pəˌluːʃn/", "名词短语", "噪声污染", "不可数；suffer from/limit noise pollution", "Residents near the airport suffer from noise pollution.", "A night-flight ban would limit noise pollution."],
+  ["light pollution", "/ˈlaɪt pəˌluːʃn/", "名词短语", "光污染", "不可数；reduce/be affected by light pollution", "Light pollution hides all but the brightest stars.", "Migrating birds are badly affected by light pollution."],
+  ["smog", "/smɒɡ/", "名词", "烟雾；污染性雾霾", "不可数；thick smog；be covered in smog", "Thick smog closed the motorway for two days.", "The city sits under smog for most of the winter."],
+  ["acid rain", "/ˌæsɪd ˈreɪn/", "名词短语", "酸雨", "不可数；cause/be damaged by acid rain", "Acid rain stripped the leaves from entire forests.", "Limestone buildings are slowly damaged by acid rain."],
+  ["carbon dioxide", "/ˌkɑːbən daɪˈɒksaɪd/", "名词短语", "二氧化碳", "不可数；absorb/release carbon dioxide", "Forests absorb carbon dioxide as they grow.", "Cement production releases huge amounts of carbon dioxide."],
+  ["renewable energy", "/rɪˌnjuːəbl ˈenədʒi/", "名词短语", "可再生能源", "不可数；invest in/switch to renewable energy", "Renewable energy now supplies a third of the grid.", "The province switched to renewable energy in five years."],
+  ["fossil fuel", "/ˈfɒsl ˌfjuːəl/", "名词短语", "化石燃料", "常用复数；burn/move away from fossil fuels", "Fossil fuels still dominate heavy industry.", "Moving away from fossil fuels requires new storage."],
+];
+
+export const ENVIRONMENT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "ocean acidification": ["海洋酸化会溶解幼小牡蛎的外壳。", "额外的二氧化碳加速了海洋酸化。"],
+  "desertification": ["过度放牧会在十年内导致荒漠化。", "防护林带遏制了边境沿线的荒漠化。"],
+  "soil erosion": ["清除树篱会加快土壤侵蚀。", "修筑梯田能防止陡坡水土流失。"],
+  "air pollution": ["空气污染缩短了首都居民的预期寿命。", "住在主干道附近的儿童遭受最严重的空气污染。"],
+  "water pollution": ["未经处理的污水是这里水污染的主要原因。", "志愿者监测河口的水污染情况。"],
+  "noise pollution": ["机场附近的居民深受噪声污染之苦。", "夜间航班禁令可以限制噪声污染。"],
+  "light pollution": ["光污染遮住了除最亮的恒星以外的所有星星。", "迁徙的鸟类受到光污染的严重影响。"],
+  "smog": ["浓重的雾霾使高速公路关闭了两天。", "这座城市冬季大部分时间都笼罩在雾霾中。"],
+  "acid rain": ["酸雨使整片森林的树叶脱落。", "石灰岩建筑正受到酸雨的缓慢侵蚀。"],
+  "carbon dioxide": ["森林在生长过程中吸收二氧化碳。", "水泥生产会释放大量二氧化碳。"],
+  "renewable energy": ["如今可再生能源提供了电网三分之一的电力。", "该省在五年内转向了可再生能源。"],
+  "fossil fuel": ["化石燃料仍在重工业中占主导地位。", "摆脱对化石燃料的依赖需要新的储能设施。"],
+};
