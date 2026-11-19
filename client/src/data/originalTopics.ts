@@ -5566,3 +5566,37 @@ export const CULTURE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "world heritage site": ["这座山谷于 2001 年成为世界遗产地。", "世界遗产地的身份带来了游客，也带来了限制。"],
   "monument": ["纪念碑上刻着九百个名字。", "原来的小教堂所在地竖起了一座纪念碑。"],
 };
+
+export const CULTURE_THIRD_LESSON: OriginalTopicWord[] = [
+  ["ruins", "/ˈruːɪnz/", "名词", "遗址；废墟", "复数；the ruins of + 建筑", "The ruins of the abbey draw visitors all summer.", "Only the ruins of the bath house remain."],
+  ["restoration", "/ˌrestəˈreɪʃən/", "名词", "修复；修缮", "可数或不可数；fund a careful restoration", "The restoration took eleven years.", "A careless restoration destroys more than neglect."],
+  ["theatre", "/ˈθɪətə/", "名词", "剧院；戏剧", "可数；a repertory theatre；go to the theatre", "The theatre seats four hundred and loses money.", "She goes to the theatre twice a month."],
+  ["playwright", "/ˈpleɪraɪt/", "名词", "剧作家", "可数；a playwright writes", "The playwright rewrote the ending during rehearsals.", "Two playwrights were commissioned for the season."],
+  ["drama", "/ˈdrɑːmə/", "名词", "戏剧；剧作", "可数或不可数；study drama；a television drama", "The drama was staged in a converted warehouse.", "Drama classes kept half the year group in school."],
+  ["rehearsal", "/rɪˈhɜːsl/", "名词", "排练", "可数；a dress rehearsal；hold a rehearsal", "The dress rehearsal was open to the public.", "Nine rehearsals in a cold hall preceded the premiere."],
+  ["opera", "/ˈɒpərə/", "名词", "歌剧", "可数或不可数；stage/sing in an opera", "The opera was sung in translation.", "Opera carries a reputation for grandeur it rarely deserves."],
+  ["ballet", "/ˈbæleɪ/", "名词", "芭蕾舞；芭蕾舞剧", "可数或不可数；dance in a ballet", "The ballet company tours every spring.", "She danced in the ballet for nine seasons."],
+  ["orchestra", "/ˈɔːkɪstrə/", "名词", "管弦乐团", "可数；conduct/join an orchestra", "The orchestra lost its subsidy and its conductor.", "A youth orchestra rehearses in the same hall."],
+  ["symphony", "/ˈsɪmfəni/", "名词", "交响乐；交响曲", "可数；compose/perform a symphony", "The symphony was performed twice in one week.", "He left the symphony unfinished."],
+  ["concert", "/ˈkɒnsət/", "名词", "音乐会", "可数；give/attend a concert", "The concert sold out in an afternoon.", "They give a free concert every midsummer."],
+  ["recital", "/rɪˈsaɪtl/", "名词", "独奏会；独唱会", "可数；give a piano recital", "Her first recital was in a village church.", "The recital lasted an hour without an interval."],
+  ["choir", "/ˈkwaɪə/", "名词", "唱诗班；合唱团", "可数；sing in/join a choir", "The choir has sung in that church since 1890.", "He joined the choir to meet people."],
+  ["folk music", "/ˌfəʊk ˈmjuːzɪk/", "名词短语", "民间音乐", "不可数；play/collect folk music", "Folk music survived in two valleys and nowhere else.", "She collects folk music from the older singers."],
+];
+
+export const CULTURE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "ruins": ["修道院遗址整个夏天都吸引着游客。", "如今只剩下浴场的废墟。"],
+  "restoration": ["修复工作历时十一年。", "草率修复造成的破坏比放任不管还大。"],
+  "theatre": ["这家剧院有四百个座位，却一直亏损。", "她每个月去看两次戏。"],
+  "playwright": ["剧作家在排练期间重写了结局。", "这一演出季委托了两位剧作家创作。"],
+  "drama": ["这出戏在一座改造后的仓库里上演。", "戏剧课让这届一半的学生继续留在学校。"],
+  "rehearsal": ["彩排对公众开放。", "首演前，他们在寒冷的大厅里排练了九次。"],
+  "opera": ["这部歌剧以译文演唱。", "歌剧素有宏伟的名声，但很少名副其实。"],
+  "ballet": ["这家芭蕾舞团每年春天巡演。", "她在这部芭蕾舞剧中演出了九季。"],
+  "orchestra": ["乐团失去了补贴，也失去了指挥。", "一支青年管弦乐团在同一个大厅排练。"],
+  "symphony": ["这部交响曲一周内演出了两次。", "他没能完成这部交响曲。"],
+  "concert": ["音乐会门票在一个下午就售罄了。", "他们每年仲夏都举办一场免费音乐会。"],
+  "recital": ["她的第一场独奏会是在一座乡村教堂举行的。", "这场独奏会持续一个小时，中间没有休息。"],
+  "choir": ["这支合唱团自 1890 年以来一直在那座教堂演唱。", "他加入合唱团是为了认识新朋友。"],
+  "folk music": ["民间音乐只在两座山谷中留存，其他地方都消失了。", "她从年长的歌手那里收集民间音乐。"],
+};

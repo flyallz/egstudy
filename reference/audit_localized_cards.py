@@ -85,4 +85,4 @@ check("Transport", "client/src/data/originalTopics.ts", "reference/original-topi
 check("Crime", "client/src/data/originalTopics.ts", "reference/original-topic-csv/crime-justice.csv", "CRIME", 10)
 check("Government", "client/src/data/originalTopics.ts", "reference/original-topic-csv/government-policy.csv", "GOVERNMENT", 10)
 check("Media", "client/src/data/originalTopics.ts", "reference/original-topic-csv/media-advertising.csv", "MEDIA", 10)
-check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/culture-heritage.csv", "CULTURE", 2)
+check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/culture-heritage.csv", "CULTURE", 3)
