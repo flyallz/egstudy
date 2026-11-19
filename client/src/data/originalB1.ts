@@ -1,4 +1,4 @@
-// B1 第 1–16 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–18 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -305,4 +305,50 @@ export const B1_SIXTEENTH_LESSON: OriginalA2Word[] = [
   ["freeze", "/friːz/", "动词", "结冰；冷冻", "不规则变化：freeze–froze–frozen", "Water freezes at zero degrees Celsius.", "You can freeze the soup and eat it later."],
   ["frequently", "/ˈfriːkwəntli/", "副词", "频繁地；经常", "反义词 rarely；表示较高频率", "He frequently travels abroad for work.", "This question is frequently asked by beginners."],
   ["friendship", "/ˈfrendʃɪp/", "名词", "友谊；朋友关系", "a close friendship = 亲密的友谊", "Their friendship lasted for over thirty years.", "A good friendship is built on trust."],
+];
+
+export const B1_SEVENTEENTH_LESSON: OriginalA2Word[] = [
+  ["frighten", "/ˈfraɪtn/", "动词", "使害怕；吓唬", "frighten somebody = 吓到某人；近义词 scare", "The loud noise frightened the baby.", "Don't frighten the birds, or they will fly away."],
+  ["frightened", "/ˈfraɪtnd/", "形容词", "害怕的；受惊的", "描述人的感受；be frightened of something = 害怕某物", "The child was frightened of the dark.", "She looked frightened when she heard the strange noise."],
+  ["frightening", "/ˈfraɪtnɪŋ/", "形容词", "令人恐惧的", "描述引起害怕的事物；与 frightened 的感受义区分", "It was a frightening experience to be alone in the storm.", "The film has some truly frightening scenes."],
+  ["frozen", "/ˈfrəʊzn/", "形容词", "冷冻的；结冰的", "freeze 的过去分词；frozen food = 冷冻食品", "We keep frozen vegetables in the freezer.", "The lake was completely frozen in January."],
+  ["fry", "/fraɪ/", "动词", "煎；炸", "fry something in oil = 用油煎炸某物", "She fried two eggs for breakfast.", "You should fry the onions until they turn golden."],
+  ["fuel", "/ˈfjuːəl/", "名词", "燃料", "通常不可数；也可作动词表示加燃料或助长", "The plane ran out of fuel before it could land.", "Rising fuel prices affect almost everyone."],
+  ["function", "/ˈfʌŋkʃn/", "名词", "功能；作用", "the function of something = 某物的功能；也可作动词表示运转", "The main function of the heart is to pump blood.", "This old button has no function on the newer model."],
+  ["fur", "/fɜː/", "名词", "动物毛皮；皮毛", "通常不可数", "The cat has soft grey fur.", "She refuses to wear coats made of real fur."],
+  ["garage", "/ˈɡærɑːʒ/", "名词", "车库；汽车修理厂", "可指停车处或修车店", "He parked the car in the garage for the night.", "I took my car to the garage to fix the brakes."],
+  ["gather", "/ˈɡæðə/", "动词", "聚集；收集", "gather information = 收集信息；gather round = 围拢", "A large crowd gathered outside the stadium.", "Scientists are gathering data about the climate."],
+  ["generally", "/ˈdʒenrəli/", "副词", "通常；一般来说", "generally speaking = 总体而言", "Generally, I go to bed before midnight.", "The weather here is generally warm in summer."],
+  ["generation", "/ˌdʒenəˈreɪʃn/", "名词", "一代人；一代产品", "the younger generation = 年轻一代", "My grandparents' generation lived through the war.", "This phone belongs to the latest generation of the brand."],
+  ["generous", "/ˈdʒenərəs/", "形容词", "慷慨的；丰厚的", "generous with something = 在某方面大方；反义词 stingy", "She is very generous with her time and money.", "They gave us a generous discount on the furniture."],
+  ["gentle", "/ˈdʒentl/", "形容词", "温柔的；轻柔的", "反义词 rough、harsh", "Please be gentle with the new baby.", "A gentle wind moved the leaves in the garden."],
+  ["ghost", "/ɡəʊst/", "名词", "鬼；幽灵", "believe in ghosts = 相信有鬼", "Some people believe this house is haunted by a ghost.", "She was as pale as a ghost after the accident."],
+  ["giant", "/ˈdʒaɪənt/", "形容词", "巨大的；庞大的", "也可作名词指巨人或大型企业", "A giant wave hit the small fishing boat.", "The company has become a giant in the technology world."],
+  ["glad", "/ɡlæd/", "形容词", "高兴的；欣慰的", "glad to do something = 很高兴做某事；常放在 be 后", "I'm glad you could come to the party.", "She was glad to hear the good news at last."],
+  ["global", "/ˈɡləʊbl/", "形容词", "全球的；世界范围的", "global warming = 全球变暖", "Climate change is a serious global problem.", "The company has a global network of offices."],
+  ["glove", "/ɡlʌv/", "名词", "手套", "常用复数 gloves；a pair of gloves = 一副手套", "Put on your gloves; it's freezing outside.", "The surgeon wore thin rubber gloves."],
+  ["goods", "/ɡʊdz/", "名词", "商品；货物", "只用复数形式；electrical goods = 电器商品", "The shop sells leather goods such as bags and belts.", "These goods are transported to the city by train."],
+];
+
+export const B1_EIGHTEENTH_LESSON: OriginalA2Word[] = [
+  ["grade", "/ɡreɪd/", "名词", "成绩；年级；等级", "get good grades = 取得好成绩；也可作动词表示评分", "She got the highest grade in the whole class.", "This shop sells only top-grade coffee beans."],
+  ["graduate", "/ˈɡrædʒuət/", "名词", "毕业生", "也可作动词，动词发音不同；graduate from = 从……毕业", "He is a graduate of Oxford University.", "She will graduate from high school next summer."],
+  ["grain", "/ɡreɪn/", "名词", "谷物；颗粒", "a grain of rice/sand = 一粒米／沙；泛指谷物时不可数", "Farmers store their grain in large barns.", "There isn't a grain of truth in his story."],
+  ["grateful", "/ˈɡreɪtfl/", "形容词", "感激的", "grateful to somebody for something = 因某事感激某人", "I'm really grateful to you for all your help.", "She was grateful for such a warm welcome."],
+  ["growth", "/ɡrəʊθ/", "名词", "增长；成长", "通常不可数；economic growth = 经济增长", "The country has seen rapid economic growth.", "Good nutrition supports a child's healthy growth."],
+  ["guard", "/ɡɑːd/", "名词", "警卫；守卫", "security guard = 保安；也可作动词表示守卫", "A security guard stood by the main door.", "Soldiers guard the entrance to the palace day and night."],
+  ["guilty", "/ˈɡɪlti/", "形容词", "有罪的；内疚的", "guilty of something = 犯某罪；feel guilty about = 对……感到内疚", "The jury found him guilty of theft.", "I feel guilty about forgetting her birthday."],
+  ["hang", "/hæŋ/", "动词", "悬挂；吊着", "表示悬挂时过去式及过去分词为 hung；hang up = 挂断电话", "Please hang your coat on the hook.", "She hung the painting above the fireplace."],
+  ["happiness", "/ˈhæpinəs/", "名词", "幸福；快乐", "不可数名词；反义词 sadness", "Money cannot always buy happiness.", "Her face was full of happiness on her wedding day."],
+  ["hardly", "/ˈhɑːdli/", "副词", "几乎不；很难", "hardly ever = 几乎从不；与 hard 区分", "I could hardly hear him over the loud music.", "She hardly ever eats meat these days."],
+  ["headline", "/ˈhedlaɪn/", "名词", "新闻标题；头条", "hit the headlines = 成为新闻头条", "The story made the front-page headline.", "The scandal was in all the headlines yesterday."],
+  ["heating", "/ˈhiːtɪŋ/", "名词", "供暖；暖气系统", "不可数名词；central heating = 中央供暖", "We turned on the heating because the house was cold.", "The central heating broke down in the middle of winter."],
+  ["heavily", "/ˈhevɪli/", "副词", "猛烈地；大量地", "rain heavily = 下大雨；rely heavily on = 严重依赖", "It was raining heavily when we left the office.", "He relies heavily on his parents for money."],
+  ["helicopter", "/ˈhelɪkɒptə/", "名词", "直升机", "by helicopter = 乘直升机", "The injured man was taken to hospital by helicopter.", "A police helicopter flew low over the city."],
+  ["highlight", "/ˈhaɪlaɪt/", "动词", "强调；突出显示", "也可作名词指最精彩的部分", "The report highlights the need for more teachers.", "Meeting the president was the highlight of her trip."],
+  ["highly", "/ˈhaɪli/", "副词", "非常；高度地", "highly likely/unlikely = 很可能／很不可能", "She is a highly skilled surgeon.", "It's highly unlikely that he will agree to this."],
+  ["hire", "/ˈhaɪə/", "动词", "租用；雇用", "hire a car = 租车；hire somebody = 雇用某人", "We hired a car for the whole weekend.", "The company plans to hire fifty new workers."],
+  ["historic", "/hɪˈstɒrɪk/", "形容词", "具有历史意义的", "指重要或值得铭记的事件；与 historical 区分", "The signing of the treaty was a historic moment.", "The two leaders made a historic agreement."],
+  ["historical", "/hɪˈstɒrɪkl/", "形容词", "历史的；与历史有关的", "historical events/records = 历史事件／记录；与 historic 区分", "She enjoys reading historical novels.", "The museum keeps many important historical documents."],
+  ["honest", "/ˈɒnɪst/", "形容词", "诚实的；坦率的", "be honest with somebody = 对某人坦诚；字母 h 不发音", "He is an honest and reliable worker.", "To be honest, I didn't really enjoy the film."],
 ];
