@@ -1426,3 +1426,37 @@ export const ENVIRONMENT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, st
   "renewable energy": ["如今可再生能源提供了电网三分之一的电力。", "该省在五年内转向了可再生能源。"],
   "fossil fuel": ["化石燃料仍在重工业中占主导地位。", "摆脱对化石燃料的依赖需要新的储能设施。"],
 };
+
+export const ENVIRONMENT_THIRD_LESSON: OriginalTopicWord[] = [
+  ["solar power", "/ˈsəʊlə ˌpaʊə/", "名词短语", "太阳能发电；太阳能", "不可数；generate/run on solar power", "Rooftop panels generate solar power for the whole block.", "The pumping station runs entirely on solar power."],
+  ["wind farm", "/ˈwɪnd fɑːm/", "名词短语", "风力发电场", "可数；build/oppose a wind farm", "An offshore wind farm will power sixty thousand homes.", "Local residents opposed the wind farm on visual grounds."],
+  ["hydropower", "/ˈhaɪdrəʊpaʊə/", "名词", "水力发电；水电", "不可数；rely on/expand hydropower", "The country relies on hydropower for most of its electricity.", "Expanding hydropower floods farmland upstream."],
+  ["nuclear power", "/ˈnjuːkliə ˌpaʊə/", "名词短语", "核能发电；核电", "不可数；phase out/debate nuclear power", "Nuclear power produces no carbon while it runs.", "Germany decided to phase out nuclear power entirely."],
+  ["energy efficiency", "/ˈenədʒi ɪˌfɪʃnsi/", "名词短语", "能源效率", "不可数；improve/standards for energy efficiency", "Insulation is the cheapest route to energy efficiency.", "New appliances must meet strict energy efficiency standards."],
+  ["energy consumption", "/ˈenədʒi kənˌsʌmpʃn/", "名词短语", "能源消耗量", "不可数；cut/measure energy consumption", "Household energy consumption peaks in January.", "Smart meters let families measure energy consumption hourly."],
+  ["natural resources", "/ˌnætʃrəl rɪˈzɔːsɪz/", "名词短语", "自然资源", "复数；exploit/manage natural resources", "The delta's natural resources support millions of people.", "Natural resources are being exploited faster than they recover."],
+  ["power grid", "/ˈpaʊə ɡrɪd/", "名词短语", "电网", "可数；upgrade/connect to the power grid", "The old power grid cannot absorb so much solar output.", "Remote villages were connected to the power grid last year."],
+  ["biodiversity", "/ˌbaɪəʊdaɪˈvɜːsəti/", "名词", "生物多样性", "不可数；protect/loss of biodiversity", "Biodiversity is highest where habitats remain unbroken.", "The loss of biodiversity is hardest to reverse."],
+  ["ecosystem", "/ˈiːkəʊsɪstəm/", "名词", "生态系统", "可数；a fragile ecosystem；restore an ecosystem", "Mangroves form one of the richest ecosystems on the coast.", "It takes decades to restore a damaged ecosystem."],
+  ["habitat loss", "/ˈhæbɪtæt lɒs/", "名词短语", "栖息地丧失", "不可数；cause/slow habitat loss", "Habitat loss drives more extinctions than hunting.", "Road building causes habitat loss far from the road itself."],
+  ["deforestation", "/diːˌfɒrɪˈsteɪʃn/", "名词", "森林砍伐；毁林", "不可数；halt/rate of deforestation", "Deforestation has slowed but not stopped.", "Cattle farming drives most deforestation in the basin."],
+  ["reforestation", "/ˌriːfɒrɪˈsteɪʃn/", "名词", "重新造林", "不可数；a reforestation programme/scheme", "A reforestation programme planted two million saplings.", "Reforestation works only if the species suit the soil."],
+  ["endangered species", "/ɪnˌdeɪndʒəd ˈspiːʃiːz/", "名词短语", "濒危物种", "单复数同形；protect/list as an endangered species", "The river dolphin is now an endangered species.", "Trade in endangered species is banned under the convention."],
+];
+
+export const ENVIRONMENT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "solar power": ["屋顶的太阳能板为整个街区发电。", "这座泵站完全依靠太阳能运行。"],
+  "wind farm": ["一座海上风电场将为六万户家庭供电。", "当地居民因视觉景观问题反对这座风电场。"],
+  "hydropower": ["这个国家的大部分电力依赖水电。", "扩建水电设施会淹没上游农田。"],
+  "nuclear power": ["核电在运行时不产生碳排放。", "德国决定彻底淘汰核电。"],
+  "energy efficiency": ["保温隔热是提高能源效率最便宜的办法。", "新电器必须符合严格的能效标准。"],
+  "energy consumption": ["家庭能源消耗在一月达到高峰。", "智能电表让家庭能够按小时测量能源消耗量。"],
+  "natural resources": ["三角洲的自然资源养活了数百万人。", "自然资源的开采速度超过了其恢复速度。"],
+  "power grid": ["老旧电网无法吸收这么多太阳能发电量。", "偏远村庄去年接入了电网。"],
+  "biodiversity": ["栖息地保持完整的地方，生物多样性最高。", "生物多样性的丧失最难逆转。"],
+  "ecosystem": ["红树林构成了海岸线上最丰富的生态系统之一。", "修复受损的生态系统需要数十年。"],
+  "habitat loss": ["栖息地丧失导致的物种灭绝比狩猎更多。", "修路会使远离道路的地区也失去栖息地。"],
+  "deforestation": ["森林砍伐速度放缓了，但尚未停止。", "养牛业是该流域森林砍伐的主要驱动因素。"],
+  "reforestation": ["一项重新造林计划种下了两百万株树苗。", "只有树种适合土壤，重新造林才能奏效。"],
+  "endangered species": ["河流海豚如今是一种濒危物种。", "根据该公约，濒危物种贸易受到禁止。"],
+};
