@@ -6060,3 +6060,41 @@ export const GLOBALISATION_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, s
   "developing country": ["发展中国家的借款成本高于富裕国家。", "“发展中国家”这个词涵盖了差异极大的地区。"],
   "developed country": ["发达国家把工厂迁走，也把排放转移到了国外。", "这里每个发达国家都面临劳动力老龄化。"],
 };
+
+export const GLOBALISATION_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["emerging economy", "/ɪˌmɜːdʒɪŋ ɪˈkɒnəmi/", "名词短语", "新兴经济体", "可数；an emerging economy grows", "Four emerging economies drove most of the growth.", "An emerging economy attracts capital and loses it quickly."],
+  ["least developed country", "/ˌliːst dɪˈveləpt ˈkʌntri/", "名词短语", "最不发达国家", "可数；a least developed country qualifies", "Least developed countries qualify for duty-free access.", "Nine least developed countries depend on one crop."],
+  ["brain drain", "/ˈbreɪn dreɪn/", "名词短语", "人才外流；人才流失", "可数，常用单数；suffer/reverse a brain drain", "The brain drain took nine hundred nurses in a year.", "Reversing the brain drain needs laboratories, not appeals."],
+  ["remittance", "/rɪˈmɪtəns/", "名词", "汇款；侨汇", "可数；send/rely on remittances", "Remittances are larger than aid and investment combined here.", "He sends a remittance home every month."],
+  ["migrant worker", "/ˈmaɪɡrənt wɜːkə/", "名词短语", "外来务工人员；移民劳工", "可数；employ a migrant worker", "Migrant workers pick the entire harvest.", "The scheme ties migrant workers to one employer."],
+  ["diaspora", "/daɪˈæspərə/", "名词", "海外侨民社群；离散社群", "可数；the diaspora sends/returns", "The diaspora funded two schools and a clinic.", "Three generations of the diaspora still speak the language."],
+  ["westernisation", "/ˌwestənaɪˈzeɪʃən/", "名词", "西方化", "不可数；resist westernisation", "Westernisation arrived with the television schedule.", "What is called westernisation is often just urban life."],
+  ["global brand", "/ˌɡləʊbəl ˈbrænd/", "名词短语", "全球品牌", "可数；build a global brand", "The global brand uses the same colours in ninety countries.", "Two global brands dominate the shelf."],
+  ["global market", "/ˌɡləʊbəl ˈmɑːkɪt/", "名词短语", "全球市场", "可数；compete in the global market", "The global market for coffee is set in two cities.", "Small growers cannot reach the global market alone."],
+  ["global citizen", "/ˌɡləʊbəl ˈsɪtɪzən/", "名词短语", "世界公民；全球公民", "可数；a global citizen thinks", "The school teaches pupils to think as global citizens.", "Calling yourself a global citizen is easier with a strong passport."],
+  ["uneven development", "/ʌnˌiːvən dɪˈveləpmənt/", "名词短语", "发展不均衡", "不可数；uneven development between regions", "Uneven development left the north with the ports and no trade.", "Uneven development inside one country can exceed the gap between countries."],
+  ["international law", "/ˌɪntəˈnæʃənəl ˈlɔː/", "名词短语", "国际法", "不可数；breach/uphold international law", "International law depends on states choosing to comply.", "The blockade was held to breach international law."],
+  ["peacekeeping", "/ˈpiːskiːpɪŋ/", "名词", "维和行动；维护和平", "不可数；a peacekeeping mission", "The peacekeeping mission lasted eleven years.", "Peacekeeping works where there is a peace to keep."],
+  ["ceasefire", "/ˈsiːsfaɪə/", "名词", "停火协议；停火", "可数；agree/breach a ceasefire", "The ceasefire held for nine days.", "A ceasefire was agreed and breached the same week."],
+  ["peace treaty", "/ˈpiːs triːti/", "名词短语", "和平条约", "可数；sign a peace treaty", "The peace treaty was signed in a neutral city.", "A peace treaty settled the border and not the grievance."],
+  ["conflict zone", "/ˈkɒnflɪkt zəʊn/", "名词短语", "冲突地区", "可数；in/report from a conflict zone", "Reporting from a conflict zone costs insurance nobody will pay.", "Two conflict zones lie on the same trade route."],
+];
+
+export const GLOBALISATION_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "emerging economy": ["四个新兴经济体带动了大部分增长。", "新兴经济体能吸引资本，也可能很快失去资本。"],
+  "least developed country": ["最不发达国家符合免税准入的条件。", "九个最不发达国家依赖同一种作物。"],
+  "brain drain": ["人才流失使当地一年内少了九百名护士。", "要扭转人才外流，需要的是实验室，而不是呼吁。"],
+  "remittance": ["在这里，侨汇的规模超过了援助和投资之和。", "他每个月都往家里汇款。"],
+  "migrant worker": ["外来务工人员采摘了全部收成。", "这项计划把移民劳工绑定在一名雇主名下。"],
+  "diaspora": ["海外侨民社群资助了两所学校和一家诊所。", "这个侨民社群延续了三代，仍在说原来的语言。"],
+  "westernisation": ["西方化随着电视节目表一起到来。", "所谓的西方化，往往只是城市生活。"],
+  "global brand": ["这个全球品牌在九十个国家使用相同的颜色。", "两个全球品牌占据了货架上的主要位置。"],
+  "global market": ["全球咖啡市场的行情由两座城市决定。", "小种植者靠自己无法进入全球市场。"],
+  "global citizen": ["这所学校教学生以全球公民的视角思考。", "拥有一本通行便利的护照时，自称全球公民就容易得多。"],
+  "uneven development": ["发展不均衡让北方虽有港口，却没有贸易。", "一个国家内部的发展差距可能超过国家之间的差距。"],
+  "international law": ["国际法能否奏效取决于各国是否选择遵守。", "这场封锁被认定违反了国际法。"],
+  "peacekeeping": ["这项维和任务持续了十一年。", "维和行动只有在确实存在和平可维护时才有效。"],
+  "ceasefire": ["停火维持了九天。", "停火协议在同一周内达成，又在同一周内遭到违反。"],
+  "peace treaty": ["和平条约在一座中立城市签署。", "和平条约解决了边界问题，却没有化解积怨。"],
+  "conflict zone": ["从冲突地区报道所需的保险费高得无人愿意支付。", "两个冲突地区位于同一条贸易路线上。"],
+};
