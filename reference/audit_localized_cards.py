@@ -33,7 +33,7 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH", "TWENTY_FIRST", "TWENTY_SECOND", "TWENTY_THIRD", "TWENTY_FOURTH", "TWENTY_FIFTH", "TWENTY_SIXTH", "TWENTY_SEVENTH", "TWENTY_EIGHTH", "TWENTY_NINTH", "THIRTIETH", "THIRTY_FIRST", "THIRTY_SECOND", "THIRTY_THIRD", "THIRTY_FOURTH", "THIRTY_FIFTH", "THIRTY_SIXTH", "THIRTY_SEVENTH", "THIRTY_EIGHTH", "THIRTY_NINTH", "FORTIETH")[:blocks]]
     )
     cards = []
-    expected_counts = json.loads((ROOT / "reference/original-cefr-lesson-counts.json").read_text(encoding="utf-8"))[label] if label in ("A2", "B1") else None
+    expected_counts = json.loads((ROOT / "reference/original-cefr-lesson-counts.json").read_text(encoding="utf-8"))[label] if label in ("A2", "B1", "B2") else None
     errors = []
     for index, name in enumerate(names):
         match = re.search(rf"export const {name}:.*?= \[\n(.*?)\n\];", source, re.S)
@@ -63,4 +63,5 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
 
 check("A2", "client/src/data/originalA2.ts", "reference/original-cefr-csv/cefr-a2.csv", "A2", 40)
 check("B1", "client/src/data/originalB1.ts", "reference/original-cefr-csv/cefr-b1.csv", "B1", 34)
+check("B2", "client/src/data/originalB2.ts", "reference/original-cefr-csv/cefr-b2.csv", "B2", 2)
 check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)
