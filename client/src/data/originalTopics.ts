@@ -5996,3 +5996,33 @@ export const GLOBALISATION_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, s
   "offshoring": ["生产活动迁往海外，让两座山谷失去了工作机会。", "到 2000 年代，专业工作也开始外迁。"],
   "global supply chain": ["一家工厂关闭，就打断了一条全球供应链。", "全球供应链的设计重视成本，却忽视了韧性。"],
 };
+
+export const GLOBALISATION_SECOND_LESSON: OriginalTopicWord[] = [
+  ["sweatshop", "/ˈswetʃɒp/", "名词", "血汗工厂；剥削劳工的工厂", "可数；a sweatshop produces", "The brand denied using sweatshops for nine years.", "Inspectors found three sweatshops in one building."],
+  ["labour standards", "/ˈleɪbə stændədz/", "名词短语", "劳动标准", "复数；enforce/undercut labour standards", "Labour standards exist on paper in every contract.", "Imports undercut labour standards as well as prices."],
+  ["fair trade", "/ˌfeə ˈtreɪd/", "名词短语", "公平贸易", "不可数；fair trade certification", "Fair trade certification pays growers a floor price.", "Fair trade covers a small share of the crop."],
+  ["trade liberalisation", "/ˌtreɪd ˌlɪbərəlaɪˈzeɪʃən/", "名词短语", "贸易自由化", "不可数；pursue trade liberalisation", "Trade liberalisation ended the textile quota system.", "Trade liberalisation helped consumers and hollowed out towns."],
+  ["protectionism", "/prəˈtekʃənɪzəm/", "名词", "贸易保护主义", "不可数；a return to protectionism", "Protectionism returned under a different name.", "Protectionism protects the firm, rarely the worker."],
+  ["interdependence", "/ˌɪntədɪˈpendəns/", "名词", "相互依赖", "不可数；economic interdependence", "Economic interdependence makes war expensive, not impossible.", "Interdependence became visible when the ports closed."],
+  ["global governance", "/ˌɡləʊbəl ˈɡʌvənəns/", "名词短语", "全球治理", "不可数；weak global governance", "Global governance depends on states agreeing to be bound.", "Global governance of shipping emissions is almost absent."],
+  ["international organisation", "/ˌɪntəˈnæʃənəl ˌɔːɡənaɪˈzeɪʃən/", "名词短语", "国际组织", "可数；join an international organisation", "The international organisation has no power to enter a port.", "Nine international organisations monitor the same treaty."],
+  ["treaty", "/ˈtriːti/", "名词", "条约", "可数；sign/withdraw from a treaty", "The treaty was signed by forty states.", "Withdrawing from the treaty took two years."],
+  ["convention", "/kənˈvenʃən/", "名词", "国际公约", "可数；ratify/breach a convention", "The convention binds only those who ratify it.", "Both states breached the convention within a year."],
+  ["protocol", "/ˈprəʊtəkɒl/", "名词", "议定书；补充协定", "可数；adopt an optional protocol", "The protocol added binding targets to the convention.", "An optional protocol allows individual complaints."],
+  ["summit", "/ˈsʌmɪt/", "名词", "峰会；首脑会议", "可数；host/attend a summit", "The summit produced a communiqué and no timetable.", "Nine leaders attended the summit in person."],
+];
+
+export const GLOBALISATION_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "sweatshop": ["这个品牌连续九年否认使用血汗工厂。", "检查人员在一栋楼里发现了三家血汗工厂。"],
+  "labour standards": ["每份合同里都写着劳动标准，但只停留在纸面上。", "进口商品压低了价格，也削弱了劳动标准。"],
+  "fair trade": ["公平贸易认证保证种植者能拿到最低价格。", "公平贸易仅覆盖这种作物的一小部分。"],
+  "trade liberalisation": ["贸易自由化终结了纺织品配额制度。", "贸易自由化让消费者受益，却也使一些城镇的产业空心化。"],
+  "protectionism": ["贸易保护主义换了个名字卷土重来。", "保护主义保护的是企业，很少保护工人。"],
+  "interdependence": ["经济上的相互依赖让战争代价高昂，却不能让战争不可能发生。", "港口关闭时，人们才看清彼此的相互依赖。"],
+  "global governance": ["全球治理取决于各国是否同意受共同规则约束。", "航运排放方面几乎不存在全球治理。"],
+  "international organisation": ["这个国际组织无权进入港口。", "九个国际组织监督同一份条约。"],
+  "treaty": ["四十个国家签署了这份条约。", "退出这份条约花了两年。"],
+  "convention": ["这项公约只约束批准它的国家。", "两国都在一年内违反了这项公约。"],
+  "protocol": ["议定书为公约增添了具有约束力的目标。", "一项任择议定书允许个人提出申诉。"],
+  "summit": ["这场峰会发表了一份公报，却没有制定时间表。", "九位领导人亲自出席了峰会。"],
+};
