@@ -966,3 +966,37 @@ export const HEALTH_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "symptom": ["早期症状很容易被误认为流感。", "这种药能缓解症状，却不能消除病因。"],
   "diagnosis": ["早期诊断使生存率翻倍。", "第二次检查确认了诊断结果。"],
 };
+
+export const HEALTH_THIRD_LESSON: OriginalTopicWord[] = [
+  ["prognosis", "/prɒɡˈnəʊsɪs/", "名词", "预后；病情预测", "复数 prognoses；a poor prognosis；improve the prognosis", "The prognosis depends on how early it is caught.", "New drugs improved the prognosis considerably."],
+  ["side effect", "/ˈsaɪd ɪfekt/", "名词短语", "副作用", "可数；cause/tolerate side effects", "The side effects wore off after a week.", "Patients stop treatment because of side effects."],
+  ["allergy", "/ˈælədʒi/", "名词", "过敏；过敏反应", "可数；have/develop an allergy to + 某物", "A third of children now have some allergy.", "She developed an allergy to shellfish as an adult."],
+  ["obesity", "/əʊˈbiːsəti/", "名词", "肥胖症", "不可数；childhood obesity；tackle obesity", "Childhood obesity has tripled since 1990.", "Sugar taxes alone will not tackle obesity."],
+  ["diabetes", "/ˌdaɪəˈbiːtiːz/", "名词", "糖尿病", "不可数；develop/manage diabetes", "Type two diabetes is largely preventable.", "He manages his diabetes with diet alone."],
+  ["mental illness", "/ˌmentl ˈɪlnəs/", "名词短语", "精神疾病", "可数或不可数；live with/treat mental illness", "Mental illness accounts for a fifth of lost workdays.", "Stigma stops people reporting mental illness."],
+  ["depression", "/dɪˈpreʃn/", "名词", "抑郁症；抑郁状态", "不可数；suffer from/treat depression", "Depression responds to therapy as well as medication.", "He has suffered from depression since his twenties."],
+  ["anxiety", "/æŋˈzaɪəti/", "名词", "焦虑；不安", "可数或不可数；cope with/reduce anxiety", "Exam anxiety peaks in the final fortnight.", "Breathing exercises reduce anxiety measurably."],
+  ["burnout", "/ˈbɜːnaʊt/", "名词", "职业倦怠；过度劳累", "不可数；suffer/lead to burnout", "Burnout drove a quarter of nurses out of the profession.", "Long shifts lead to burnout within two years."],
+  ["insomnia", "/ɪnˈsɒmniə/", "名词", "失眠症", "不可数；suffer from/treat insomnia", "Shift workers report insomnia far more often.", "Caffeine after noon worsens insomnia."],
+  ["preventive care", "/prɪˌventɪv ˈkeə/", "名词短语", "预防性医疗保健", "不可数；invest in/neglect preventive care", "Every unit spent on preventive care saves four later.", "Preventive care is the first budget to be cut."],
+  ["vaccination", "/ˌvæksɪˈneɪʃn/", "名词", "疫苗接种", "可数或不可数；a vaccination programme/rate", "Vaccination wiped out smallpox entirely.", "The vaccination rate fell below ninety per cent."],
+  ["immunity", "/ɪˈmjuːnəti/", "名词", "免疫力；免疫状态", "不可数；build/lose immunity", "Immunity fades within a year for some strains.", "Infection gives immunity at a far higher cost."],
+  ["screening", "/ˈskriːnɪŋ/", "名词", "筛查；筛检", "不可数；offer/attend screening", "Screening catches most cases before symptoms appear.", "Only half of those invited attend screening."],
+];
+
+export const HEALTH_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "prognosis": ["预后取决于疾病发现得有多早。", "新药显著改善了预后。"],
+  "side effect": ["副作用一周后消退了。", "患者因副作用而停止治疗。"],
+  "allergy": ["现在三分之一的儿童有某种过敏。", "她成年后对贝类产生了过敏反应。"],
+  "obesity": ["自 1990 年以来，儿童肥胖症增加了两倍。", "仅靠糖税无法解决肥胖问题。"],
+  "diabetes": ["二型糖尿病在很大程度上可以预防。", "他仅靠饮食管理糖尿病。"],
+  "mental illness": ["精神疾病造成了五分之一的缺勤工作日。", "污名化使人们不愿报告精神疾病。"],
+  "depression": ["心理治疗和药物治疗都能对抑郁症产生作用。", "他从二十多岁起就患有抑郁症。"],
+  "anxiety": ["考前焦虑在最后两周达到高峰。", "呼吸练习能明显减轻焦虑。"],
+  "burnout": ["职业倦怠使四分之一的护士离开了这一行业。", "长时间轮班会在两年内导致倦怠。"],
+  "insomnia": ["轮班工人报告失眠的频率高得多。", "中午以后摄入咖啡因会加重失眠。"],
+  "preventive care": ["预防性医疗每投入一单位，日后就能节省四单位。", "预防性医疗的预算最先被削减。"],
+  "vaccination": ["疫苗接种彻底消灭了天花。", "疫苗接种率降到了百分之九十以下。"],
+  "immunity": ["对某些毒株的免疫力会在一年内减弱。", "感染虽能产生免疫力，代价却高得多。"],
+  "screening": ["筛查能在出现症状前发现大多数病例。", "受邀者中只有一半参加筛查。"],
+};
