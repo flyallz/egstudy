@@ -4680,3 +4680,41 @@ export const GOVERNMENT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "mandate": ["他们只获得三分之一的选票，却声称得到了选民授权。", "政府并未获得出售那项资产的选民授权。"],
   "landslide victory": ["该党赢得压倒性胜利，却迷失了方向。", "压倒性胜利掩盖了选民联盟基础薄弱的事实。"],
 };
+
+export const GOVERNMENT_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["hung parliament", "/ˌhʌŋ ˈpɑːləmənt/", "名词短语", "悬浮议会；无单一政党取得多数席位的议会", "可数；a hung parliament results", "A hung parliament forced nine weeks of talks.", "The polls pointed to a hung parliament."],
+  ["vote of no confidence", "/ˌvəʊt əv nəʊ ˈkɒnfɪdəns/", "名词短语", "不信任投票", "可数；table/survive a vote of no confidence", "The minister survived a vote of no confidence.", "A vote of no confidence was tabled that afternoon."],
+  ["parliamentary session", "/ˌpɑːləˈmentəri ˈseʃən/", "名词短语", "议会会期", "可数；open a parliamentary session", "The parliamentary session was extended twice.", "Four bills fell when the parliamentary session ended."],
+  ["select committee", "/sɪˌlekt kəˈmɪti/", "名词短语", "议会专责委员会", "可数；sit on a select committee", "The select committee called both directors.", "She sits on the select committee for transport."],
+  ["opposition", "/ˌɒpəˈzɪʃən/", "名词", "反对党；反对派", "不可数；the opposition opposes/tables", "The opposition forced a debate on the closure.", "A weak opposition is bad for the government too."],
+  ["backbencher", "/ˌbækˈbentʃə/", "名词", "普通议员；非前排议员", "可数；a backbencher rebels", "Forty backbenchers voted against their own party.", "A backbencher raised the case in the chamber."],
+  ["cabinet", "/ˈkæbɪnət/", "名词", "内阁", "可数；sit in the cabinet；a cabinet meeting", "The cabinet met twice that week.", "She sat in the cabinet for six years."],
+  ["cabinet reshuffle", "/ˌkæbɪnət riːˈʃʌfl/", "名词短语", "内阁改组", "可数；a cabinet reshuffle follows", "A cabinet reshuffle followed the by-election.", "The cabinet reshuffle moved four ministers in one morning."],
+  ["prime minister", "/ˌpraɪm ˈmɪnɪstə/", "名词短语", "首相；总理", "可数；the prime minister announces", "The prime minister announced the inquiry herself.", "Three prime ministers held office in one year."],
+  ["head of state", "/ˌhed əv ˈsteɪt/", "名词短语", "国家元首", "可数；the head of state signs", "The head of state signs but does not decide.", "The roles of head of state and head of government are separate."],
+  ["minister", "/ˈmɪnɪstə/", "名词", "部长；大臣", "可数；a minister resigns/announces", "The minister resigned before the report appeared.", "Two ministers denied seeing the advice."],
+  ["ministry", "/ˈmɪnɪstri/", "名词", "政府部委", "可数；the ministry of + 名词", "The ministry employs nine thousand people.", "Responsibility passed to another ministry entirely."],
+  ["civil service", "/ˌsɪvl ˈsɜːvɪs/", "名词短语", "公务员体系；文官系统", "可数，通常单数；join/reform the civil service", "The civil service keeps working while ministers change.", "She joined the civil service straight from university."],
+  ["civil servant", "/ˌsɪvl ˈsɜːvənt/", "名词短语", "公务员", "可数；a senior civil servant", "A senior civil servant gave evidence for two hours.", "Civil servants cannot campaign publicly."],
+  ["bureaucracy", "/bjʊəˈrɒkrəsi/", "名词", "官僚机构；繁文缛节", "可数或不可数；cut bureaucracy；layers of bureaucracy", "Bureaucracy added nine months to every application.", "They cut the bureaucracy and the oversight with it."],
+  ["red tape", "/ˌred ˈteɪp/", "名词短语", "繁文缛节；官僚手续", "不可数；cut/be buried in red tape", "Small firms are buried in red tape.", "Cutting red tape is promised at every election."],
+];
+
+export const GOVERNMENT_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "hung parliament": ["没有任何政党取得多数席位，迫使各方谈判了九周。", "民调显示可能出现悬浮议会。"],
+  "vote of no confidence": ["这名部长挺过了一次不信任投票。", "当天下午有人提出了不信任投票动议。"],
+  "parliamentary session": ["议会会期延长了两次。", "议会会期结束时，四项法案未能通过。"],
+  "select committee": ["议会专责委员会传唤了两名主管。", "她是议会交通专责委员会的成员。"],
+  "opposition": ["反对党促使议会就关闭事宜展开辩论。", "反对党软弱对政府也没有好处。"],
+  "backbencher": ["四十名普通议员投票反对自己所属的政党。", "一名普通议员在议事厅提出了这起案件。"],
+  "cabinet": ["那一周内阁开了两次会。", "她担任内阁成员六年。"],
+  "cabinet reshuffle": ["补选之后进行了内阁改组。", "内阁改组在一个上午调动了四名部长。"],
+  "prime minister": ["首相亲自宣布了这项调查。", "一年里先后有三位首相执政。"],
+  "head of state": ["国家元首负责签署，但不作决定。", "国家元首与政府首脑是两个不同的职务。"],
+  "minister": ["报告发布前，这名部长辞职了。", "两名部长否认看过该建议。"],
+  "ministry": ["该部雇用了九千人。", "全部职责转交给了另一个部。"],
+  "civil service": ["部长更替时，公务员体系照常运作。", "她一大学毕业就进入了公务员体系。"],
+  "civil servant": ["一名高级公务员作证两个小时。", "公务员不得公开参与竞选。"],
+  "bureaucracy": ["官僚程序使每项申请都多耗了九个月。", "他们精简官僚程序时，也一并削弱了监督。"],
+  "red tape": ["小企业深陷繁文缛节。", "每次选举都会有人承诺减少繁文缛节。"],
+};
