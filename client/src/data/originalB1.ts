@@ -1,4 +1,4 @@
-// B1 第 1–28 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–30 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -611,4 +611,62 @@ export const B1_TWENTY_EIGHTH_LESSON: OriginalA2Word[] = [
   ["respect", "/rɪˈspekt/", "名词", "尊重；敬意", "respect for somebody = 对某人的尊重；也可作动词", "Children should show respect for their teachers.", "I respect her decision, even if I disagree."],
   ["responsibility", "/rɪˌspɒnsəˈbɪləti/", "名词", "责任；职责", "take responsibility for something = 对某事负责", "It is your responsibility to lock the door at night.", "He took full responsibility for the mistake."],
   ["responsible", "/rɪˈspɒnsəbl/", "形容词", "负责的；有责任心的", "be responsible for somebody/something = 对某人或某事负责", "She is responsible for training the new staff.", "We need a responsible person to look after the children."],
+];
+
+export const B1_TWENTY_NINTH_LESSON: OriginalA2Word[] = [
+  ["retire", "/rɪˈtaɪə/", "动词", "退休", "retire from work = 退休；retire at 60 = 60 岁退休", "My father plans to retire next year.", "She retired from teaching after thirty years."],
+  ["retired", "/rɪˈtaɪəd/", "形容词", "已退休的", "a retired teacher = 退休教师；来自 retire", "My grandfather is a retired police officer.", "Many retired people enjoy travelling abroad."],
+  ["revise", "/rɪˈvaɪz/", "动词", "复习；修订", "revise for an exam = 备考复习；revise a plan = 修订计划", "I need to revise for my history exam this weekend.", "The author revised the ending of the story."],
+  ["risk", "/rɪsk/", "名词", "风险；冒险", "take a risk = 冒险；at risk = 处于危险中", "There is a real risk of flooding in this area.", "He risked his life to save the child."],
+  ["robot", "/ˈrəʊbɒt/", "名词", "机器人", "an industrial robot = 工业机器人", "This factory uses robots to build cars.", "The children were excited to see the dancing robot."],
+  ["roll", "/rəʊl/", "动词", "滚动；卷；小圆面包", "roll down = 滚下；a roll of paper = 一卷纸", "The ball rolled under the table.", "I bought a roll of tape and some bread rolls."],
+  ["romantic", "/rəʊˈmæntɪk/", "形容词", "浪漫的", "a romantic dinner = 浪漫晚餐；a romantic film = 爱情电影", "They had a romantic dinner by the sea.", "She loves watching romantic films on weekends."],
+  ["rope", "/rəʊp/", "名词", "绳子；粗绳", "a piece of rope = 一段绳子；climb a rope = 攀绳", "They used a strong rope to pull the boat.", "The climbers tied themselves together with a rope."],
+  ["rough", "/rʌf/", "形容词", "粗糙的；大致的；波涛汹涌的", "a rough surface = 粗糙的表面；a rough estimate = 粗略估计", "The road was rough and full of holes.", "Can you give me a rough idea of the cost?"],
+  ["royal", "/ˈrɔɪəl/", "形容词", "王室的；皇家的", "the royal family = 王室；a royal palace = 王宫", "The royal family appeared on the balcony.", "We visited an old royal palace in London."],
+  ["rugby", "/ˈrʌɡbi/", "名词", "橄榄球运动", "play rugby = 打橄榄球；a rugby match = 橄榄球赛", "He plays rugby for his local team.", "We watched an exciting rugby match on Sunday."],
+  ["safety", "/ˈseɪfti/", "名词", "安全；安全性", "通常不可数；safety rules = 安全规则", "For your own safety, please wear a seatbelt.", "The factory has strict safety rules."],
+  ["sailor", "/ˈseɪlə/", "名词", "水手；海员", "an experienced sailor = 经验丰富的水手", "The old sailor told us stories about the sea.", "She became the first female sailor to cross the ocean alone."],
+  ["sample", "/ˈsɑːmpl/", "名词", "样本；样品", "a sample of something = 某物的样本；a free sample = 免费样品", "The doctor took a blood sample for testing.", "They gave out free samples of the new drink."],
+  ["sand", "/sænd/", "名词", "沙；沙子", "通常不可数；a grain of sand = 一粒沙", "The children were playing in the warm sand.", "I got sand in my shoes at the beach."],
+  ["scan", "/skæn/", "动词", "扫描；浏览", "scan a document = 扫描文件；scan a page for information = 浏览页面寻找信息", "Please scan your ticket at the gate.", "She scanned the newspaper for job adverts."],
+  ["scientific", "/ˌsaɪənˈtɪfɪk/", "形容词", "科学的", "scientific research = 科学研究；scientific evidence = 科学证据", "There is no scientific evidence for that idea.", "The team carried out several scientific experiments."],
+  ["script", "/skrɪpt/", "名词", "剧本；文字体系", "a film script = 电影剧本；write the script = 写剧本", "The actors studied the script before filming.", "The play has a very funny script."],
+  ["secondary", "/ˈsekəndri/", "形容词", "次要的；中学的", "of secondary importance = 次要的；secondary school = 中学", "The cost is of secondary importance to us.", "My daughter started secondary school this year."],
+  ["security", "/sɪˈkjʊərəti/", "名词", "安全；保安", "airport security = 机场安保；a sense of security = 安全感", "Security at the airport is very tight.", "A steady job gives him a sense of security."],
+  ["seed", "/siːd/", "名词", "种子", "plant seeds = 播种；a packet of seeds = 一包种子", "She planted some flower seeds in the garden.", "Birds love to eat these small seeds."],
+  ["sensible", "/ˈsensəbl/", "形容词", "明智的；合理的", "a sensible decision = 明智的决定；与 sensitive（敏感的）区分", "It was sensible of you to save some money.", "Wearing a helmet is a sensible thing to do."],
+  ["seriously", "/ˈsɪəriəsli/", "副词", "认真地；严重地", "take something seriously = 认真对待某事；seriously injured = 重伤", "You should take his advice seriously.", "Two people were seriously injured in the crash."],
+  ["servant", "/ˈsɜːvənt/", "名词", "仆人；佣人", "a public servant = 公务员", "In the old days, rich families had many servants.", "The servant opened the door for the guests."],
+  ["setting", "/ˈsetɪŋ/", "名词", "背景；环境；设置", "the setting of a story = 故事背景；change the settings = 更改设置", "The novel has a beautiful countryside setting.", "You can change the language in the settings menu."],
+  ["sex", "/seks/", "名词", "性别；性行为", "the opposite sex = 异性；male/female sex = 男性／女性性别", "The form asks for your name, age and sex.", "Children of both sexes attend the school."],
+];
+
+export const B1_THIRTIETH_LESSON: OriginalA2Word[] = [
+  ["sexual", "/ˈsekʃuəl/", "形容词", "性别的；性的", "sexual equality = 性别平等；sexual health = 性健康", "The law aims to ensure sexual equality at work.", "The campaign teaches young people about sexual health."],
+  ["sharp", "/ʃɑːp/", "形容词", "锋利的；敏锐的；整点的", "a sharp knife = 锋利的刀；at seven o'clock sharp = 七点整", "Be careful, that knife is very sharp.", "The meeting starts at nine o'clock sharp."],
+  ["shelf", "/ʃelf/", "名词", "架子；搁板", "复数 shelves；put something on the shelf = 把某物放在架上", "She put the books back on the shelf.", "The top shelf is too high for me to reach."],
+  ["shell", "/ʃel/", "名词", "壳；外壳", "a sea shell = 贝壳；an egg shell = 蛋壳", "The children collected shells on the beach.", "Crack the shell and take out the nut."],
+  ["shift", "/ʃɪft/", "名词", "轮班；变化", "work the night shift = 上夜班；a shift in opinion = 观点的转变", "She works the night shift at the hospital.", "There has been a big shift in people's attitudes."],
+  ["shine", "/ʃaɪn/", "动词", "发光；照耀；擦亮", "过去式和过去分词 shone；the sun shines = 太阳照耀", "The sun was shining brightly all morning.", "He shone the torch into the dark room."],
+  ["shiny", "/ˈʃaɪni/", "形容词", "闪亮的；有光泽的", "shiny hair = 有光泽的头发；来自 shine", "She has beautiful shiny black hair.", "He polished his shoes until they were shiny."],
+  ["shoot", "/ʃuːt/", "动词", "射击；拍摄", "过去式和过去分词 shot；shoot a film = 拍电影", "The hunter shot at the bird but missed.", "They are shooting a film near my house this week."],
+  ["shy", "/ʃaɪ/", "形容词", "害羞的；腼腆的", "too shy to do something = 太害羞而不敢做某事", "He was too shy to talk to the new girl.", "She gave a shy smile and looked away."],
+  ["sight", "/saɪt/", "名词", "视力；视野；景点", "lose your sight = 失明；in sight = 在视线内", "My grandmother is losing her sight.", "The mountains were a wonderful sight at sunrise."],
+  ["signal", "/ˈsɪɡnəl/", "名词", "信号；发信号", "a signal to do something = 做某事的信号；也可作动词", "The green light is a signal that you can go.", "She signalled to the driver to stop."],
+  ["silent", "/ˈsaɪlənt/", "形容词", "沉默的；安静的", "keep silent = 保持沉默；fall silent = 安静下来", "The whole class fell silent when the teacher entered.", "He stayed silent during the whole meeting."],
+  ["silly", "/ˈsɪli/", "形容词", "愚蠢的；荒唐的", "a silly mistake = 愚蠢的错误", "It was silly of me to forget the tickets.", "Stop making such silly jokes."],
+  ["similarity", "/ˌsɪməˈlærəti/", "名词", "相似性；相似之处", "a similarity between A and B = A 与 B 的相似之处", "There are many similarities between the two sisters.", "I noticed a similarity between their ideas."],
+  ["similarly", "/ˈsɪmələli/", "副词", "同样地；类似地", "可用于句首连接两个相似观点", "The first plan failed; similarly, the second one did not work.", "Dogs need exercise; similarly, cats need time to play."],
+  ["simply", "/ˈsɪmpli/", "副词", "仅仅；简明地", "可强调‘只是’，也可表示以简单的方式", "I simply don't have the time to help today.", "She explained the rules simply and clearly."],
+  ["sink", "/sɪŋk/", "动词", "下沉；沉没", "过去式 sank，过去分词 sunk；sink into something = 陷入某物", "The old boat slowly sank into the lake.", "My feet sank into the soft mud."],
+  ["slice", "/slaɪs/", "名词", "薄片；切成片", "a slice of bread = 一片面包；slice something up = 把某物切片", "Would you like a slice of cake?", "He sliced the tomato into thin pieces."],
+  ["slightly", "/ˈslaɪtli/", "副词", "稍微；略微", "slightly better = 略好一些；用于减弱程度", "I'm feeling slightly better today.", "This bag is slightly bigger than the other one."],
+  ["smart", "/smɑːt/", "形容词", "聪明的；衣着整洁的", "a smart student = 聪明的学生；smart clothes = 得体的衣服", "She is a smart girl who learns quickly.", "He wore a smart suit to the interview."],
+  ["smooth", "/smuːð/", "形容词", "光滑的；顺畅的", "a smooth surface = 光滑的表面；反义词 rough", "The baby has lovely smooth skin.", "We had a smooth flight to Paris."],
+  ["software", "/ˈsɒftweə/", "名词", "软件", "通常不可数；a piece of software = 一款软件", "I need to install some new software on my laptop.", "This software helps students learn English."],
+  ["soil", "/sɔɪl/", "名词", "土壤", "rich soil = 肥沃土壤；plant in the soil = 种在土里", "These plants grow well in rich, dark soil.", "Farmers test the soil before planting crops."],
+  ["solid", "/ˈsɒlɪd/", "形容词", "固体的；结实的；固体", "a solid wall = 结实的墙；liquids and solids = 液体和固体", "Water becomes solid when it freezes.", "The house is built on solid rock."],
+  ["southern", "/ˈsʌðən/", "形容词", "南方的；南部的", "the southern part of the country = 国家南部", "They spent the summer in the southern part of Spain.", "The southern coast is popular with tourists."],
+  ["specifically", "/spəˈsɪfɪkli/", "副词", "具体地；专门地", "specifically designed for = 专为……设计", "This course is specifically designed for beginners.", "She asked specifically for a window seat."],
 ];
