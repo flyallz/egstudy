@@ -100,3 +100,41 @@ export const B2_SIXTH_LESSON: OriginalA2Word[] = [
   ["decrease", "/dɪˈkriːs/", "动词", "减少；降低", "decrease by/to = 减少了／减少到；反义词 increase", "Exercise can help decrease the risk of heart disease.", "The number of visitors decreased sharply during the storm."],
   ["deeply", "/ˈdiːpli/", "副词", "深深地；非常", "deeply moved = 深受感动；常修饰情感", "She was deeply moved by the letter her students wrote.", "Many people feel deeply about this issue."],
 ];
+
+export const B2_SEVENTH_LESSON: OriginalA2Word[] = [
+  ["excuse", "/ɪkˈskjuːs/", "名词", "借口；辩解", "make an excuse = 找借口；there's no excuse for ... = ……没有借口", "He gave a weak excuse for arriving so late.", "There is no excuse for treating customers rudely."],
+  ["lively", "/ˈlaɪvli/", "形容词", "活泼的；热闹的", "形容人或气氛；虽然以 -ly 结尾，仍是形容词", "The market was a lively place full of music and shouting vendors.", "They had a lively discussion about the new policy."],
+  ["defeat", "/dɪˈfiːt/", "动词", "击败；使失败", "defeat an opponent = 击败对手；也可作名词", "Our team hopes to defeat the champions in tonight's match.", "Their proposal was defeated by a narrow margin in parliament."],
+  ["executive", "/ɪɡˈzekjətɪv/", "名词", "高级主管；行政部门", "a senior executive = 高级主管；chief executive = 首席执行官", "She became a senior executive at the bank before turning forty.", "The executives met to discuss the company's future."],
+  ["load", "/ləʊd/", "名词", "负载；工作量；大量", "a heavy load = 沉重负担；loads of = 很多（口语）", "The truck carried a heavy load of bricks up the hill.", "They shared the load so that nobody felt overwhelmed by the work."],
+  ["defence", "/dɪˈfens/", "名词", "防御；辩护；后防线", "英式拼写 defence，美式 defense；in defence of = 为保护……", "The soldiers prepared a strong defence against the attack.", "She spoke in defence of her colleague's decision."],
+  ["existence", "/ɪɡˈzɪstəns/", "名词", "存在；生存", "come into existence = 产生；in existence = 现存", "Scientists still debate the existence of life on other planets.", "The law has been in existence for over a century."],
+  ["loan", "/ləʊn/", "名词", "贷款；借出物", "take out a loan = 贷款；on loan = 借出中", "They took out a loan to buy their first home.", "The painting is on loan from a private collector."],
+  ["defend", "/dɪˈfend/", "动词", "保卫；辩护", "defend against/from = 抵御；defend a client = 为当事人辩护", "Soldiers were sent to defend the city against invaders.", "She defended her research when critics questioned it."],
+  ["expectation", "/ˌekspekˈteɪʃn/", "名词", "期望；预期", "meet expectations = 符合预期；常用复数", "The film lived up to every expectation the fans had.", "Parents sometimes place high expectations on their children."],
+  ["hollow", "/ˈhɒləʊ/", "形容词", "空心的；空洞的", "a hollow tree = 空心树；a hollow promise = 空洞的承诺", "The children hid their notes inside a hollow log.", "His apology felt hollow because he kept making the same mistake."],
+  ["logical", "/ˈlɒdʒɪkl/", "形容词", "合乎逻辑的；合理的", "a logical conclusion = 合理的结论；反义词 illogical", "Selling the old car was the logical thing to do.", "Her argument followed a clear and logical order."],
+  ["delay", "/dɪˈleɪ/", "动词", "推迟；耽搁", "delay doing something = 推迟做某事；也可作名词", "Heavy snow could delay the morning flights.", "Don't delay booking your tickets if you want good seats."],
+  ["expense", "/ɪkˈspens/", "名词", "费用；开支", "travel expenses = 差旅费；at the expense of = 以牺牲……为代价", "The repair turned out to be a major expense for the family.", "He finished the project on time, but at the expense of his health."],
+  ["holy", "/ˈhəʊli/", "形容词", "神圣的；圣洁的", "a holy place = 圣地；与 wholly（完全地）区分", "Pilgrims travel for weeks to reach the holy city.", "The temple is considered a holy site by millions of people."],
+  ["long-term", "/ˌlɒŋ ˈtɜːm/", "形容词", "长期的；长远的", "a long-term plan = 长期计划；in the long term = 从长远看", "The company is making a long-term investment in clean energy.", "Smoking causes serious long-term damage to the lungs."],
+];
+
+export const B2_EIGHTH_LESSON: OriginalA2Word[] = [
+  ["deliberate", "/dɪˈlɪbərət/", "形容词", "故意的；审慎的", "a deliberate attempt = 蓄意尝试；反义词 accidental", "The damage was clearly a deliberate act, not an accident.", "She spoke in a slow, deliberate voice so everyone understood."],
+  ["exploration", "/ˌekspləˈreɪʃn/", "名词", "探索；勘探", "space exploration = 太空探索；an exploration of a topic = 对课题的探讨", "Space exploration has revealed much about distant planets.", "The book is a thoughtful exploration of childhood memories."],
+  ["honour", "/ˈɒnə/", "名词", "荣誉；尊敬", "英式 honour，美式 honor；in honour of = 为向……致敬", "It was a great honour to meet the author in person.", "They held a dinner in honour of the retiring teacher."],
+  ["loose", "/luːs/", "形容词", "松的；宽松的", "come loose = 松脱；与 lose /luːz/ 区分", "One of the screws had come loose and the shelf fell.", "She prefers loose, comfortable clothes for travelling."],
+  ["deliberately", "/dɪˈlɪbərətli/", "副词", "故意地；有意地", "do something deliberately = 故意做某事；近义词 on purpose", "He deliberately left out the bad news to avoid worrying them.", "She walked slowly and deliberately toward the stage."],
+  ["expose", "/ɪkˈspəʊz/", "动词", "暴露；揭露", "expose somebody to something = 使某人接触某物；expose a scandal = 揭露丑闻", "The report will expose the truth behind the scandal.", "Children should not be exposed to such violent images."],
+  ["lord", "/lɔːd/", "名词", "领主；贵族；主", "Lord 可作英国贵族称号；the Lord 可指上帝", "The castle once belonged to a powerful lord who ruled the valley.", "In the past, a lord could demand taxes from the peasants."],
+  ["delight", "/dɪˈlaɪt/", "动词", "使高兴；乐于", "delight somebody = 使某人欣喜；delight in doing = 乐于做某事", "The magician's tricks never fail to delight young audiences.", "She delights in telling stories about her travels."],
+  ["extend", "/ɪkˈstend/", "动词", "延长；扩展；伸出", "extend a deadline = 延长截止日期；extend a hand = 伸出手", "They decided to extend the deadline by one week.", "The garden extends all the way down to the river."],
+  ["delighted", "/dɪˈlaɪtɪd/", "形容词", "高兴极了的", "be delighted to do something = 很高兴做某事；比 pleased 强烈", "She was delighted to hear that she had passed the exam.", "We are delighted with the results of the survey."],
+  ["extent", "/ɪkˈstent/", "名词", "程度；范围", "to a large extent = 在很大程度上；the extent of the damage = 损害程度", "Nobody realized the full extent of the damage until morning.", "To some extent, both sides were to blame for the mistake."],
+  ["household", "/ˈhaʊshəʊld/", "名词", "家庭；住户", "a household of five = 五口之家；household chores = 家务", "Every household on the street received a letter from the council.", "In many families, household tasks are shared between members."],
+  ["lower", "/ˈləʊə/", "动词", "降低；放低", "lower the price = 降价；反义词 raise", "Please lower your voice; the baby is sleeping.", "The shop lowered its prices to attract more customers."],
+  ["delivery", "/dɪˈlɪvəri/", "名词", "递送；交付；表达方式", "home delivery = 送货上门；delivery date = 交货日期", "The delivery arrived two days later than promised.", "We offer free delivery on orders over fifty pounds."],
+  ["external", "/ɪkˈstɜːnl/", "形容词", "外部的；外来的", "external factors = 外部因素；反义词 internal", "The external walls of the house need a fresh coat of paint.", "Several external factors affected the company's profits."],
+  ["housing", "/ˈhaʊzɪŋ/", "名词", "住房；住房供应", "通常不可数；affordable housing = 经济适用住房", "The city needs more affordable housing for young families.", "Rising prices have made the housing market difficult for buyers."],
+];
