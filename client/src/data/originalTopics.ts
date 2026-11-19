@@ -3300,3 +3300,41 @@ export const CITIES_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "pocket park": ["两个停车位被改成了一座口袋公园。", "口袋公园花费不多，却整天都有人使用。"],
   "playground": ["一座儿童游乐场取代了那块空地。", "最近的儿童游乐场也得坐公交才能到。"],
 };
+
+export const CITIES_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["allotment", "/əˈlɒtmənt/", "名词", "租来种植蔬果的小块土地", "可数；rent an allotment", "The allotments have a seven-year waiting list.", "He rents an allotment behind the embankment."],
+  ["street furniture", "/ˈstriːt ˌfɜːnɪtʃə/", "名词短语", "街道设施；街道家具", "不可数；install/replace street furniture", "New street furniture arrived before the pavement was fixed.", "Street furniture here is designed to stop people sitting."],
+  ["pavement", "/ˈpeɪvmənt/", "名词", "人行道", "可数；widen/block the pavement", "The pavement is too narrow for two pushchairs.", "Parked vans block the pavement every morning."],
+  ["alley", "/ˈæli/", "名词", "小巷；胡同", "可数；a narrow/back alley", "The alley behind the shops smells of fryers.", "Narrow alleys survive between the new blocks."],
+  ["boulevard", "/ˈbuːləvɑːd/", "名词", "林荫大道", "可数；a tree-lined boulevard", "A tree-lined boulevard runs down to the river.", "The boulevard was cut through the old quarter."],
+  ["cul-de-sac", "/ˈkʌl də sæk/", "名词", "尽头不通的路；死胡同", "可数；live in a quiet cul-de-sac", "They live in a cul-de-sac off the main road.", "Children play safely in the cul-de-sac."],
+  ["high street", "/ˈhaɪ striːt/", "名词短语", "商业街；主要购物街", "可数；the high street declines/revives", "The high street lost its last bank in March.", "A pedestrianised high street brought the cafés back."],
+  ["waterfront", "/ˈwɔːtəfrʌnt/", "名词", "滨水区；沿河或沿海地带", "可数；redevelop the waterfront", "The waterfront was derelict for thirty years.", "Flats along the waterfront sold before completion."],
+  ["industrial estate", "/ɪnˌdʌstriəl ɪˈsteɪt/", "名词短语", "工业园区", "可数；on an industrial estate", "The workshop sits on an industrial estate by the bypass.", "Half the industrial estate stands empty."],
+  ["business park", "/ˈbɪznəs pɑːk/", "名词短语", "商务园区；办公园区", "可数；an out-of-town business park", "The business park has nine hundred parking spaces and no café.", "Offices moved to a business park and the centre emptied."],
+  ["residential area", "/ˌrezɪˈdenʃəl ˈeəriə/", "名词短语", "住宅区；居民区", "可数；a quiet/dense residential area", "Lorries are banned from the residential area at night.", "The quarter is a purely residential area now."],
+  ["mixed-use development", "/ˌmɪkst juːs dɪˈveləpmənt/", "名词短语", "混合用途开发项目", "可数；a mixed-use development", "The mixed-use development puts flats above shops.", "Mixed-use development keeps a street alive after six."],
+  ["population density", "/ˌpɒpjuˈleɪʃn ˈdensəti/", "名词短语", "人口密度", "不可数；high/measure population density", "Population density here is twelve thousand per square kilometre.", "High population density is not the same as overcrowding."],
+  ["urban decay", "/ˌɜːbən dɪˈkeɪ/", "名词短语", "城市衰败；城市环境恶化", "不可数；visible/reverse urban decay", "Urban decay is visible one street behind the parade.", "Reversing urban decay needs jobs, not planters."],
+  ["vacant lot", "/ˌveɪkənt ˈlɒt/", "名词短语", "空地；闲置地块", "可数；use a vacant lot", "A vacant lot became a temporary garden.", "Three vacant lots sit beside the station."],
+  ["street tree", "/ˈstriːt triː/", "名词短语", "行道树", "可数；plant/fell a street tree", "Ninety street trees were planted along the parade.", "Felling one street tree now needs a hearing."],
+];
+
+export const CITIES_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "allotment": ["这些租赁菜地的等候名单已经排到了七年后。", "他在河堤后面租了一小块地种菜。"],
+  "street furniture": ["新街道设施到了，人行道却还没修好。", "这里的街道设施专门设计成让人无法坐下。"],
+  "pavement": ["这条人行道窄得容不下两辆婴儿车并排走。", "每天早上，停着的货车都会堵住人行道。"],
+  "alley": ["商店后面的小巷闻起来有炸锅的味道。", "新楼之间还留存着几条狭窄的小巷。"],
+  "boulevard": ["一条林荫大道一直延伸到河边。", "这条大道从老城区中间开辟出来。"],
+  "cul-de-sac": ["他们住在主路旁的一条尽头路上。", "孩子们在这条尽头路上安全地玩耍。"],
+  "high street": ["今年三月，这条商业街上的最后一家银行也关了。", "商业街改成步行街后，咖啡馆又开了回来。"],
+  "waterfront": ["这片滨水区荒废了三十年。", "滨水区沿线的公寓还没竣工就卖完了。"],
+  "industrial estate": ["这家作坊位于绕城公路旁的工业园区。", "工业园区有一半的地方空着。"],
+  "business park": ["这个商务园区有九百个停车位，却没有一家咖啡馆。", "办公室搬进商务园区后，市中心空了下来。"],
+  "residential area": ["夜间，卡车不得驶入这片住宅区。", "这个街区如今完全是住宅区。"],
+  "mixed-use development": ["这个混合用途开发项目把公寓建在商店楼上。", "混合用途开发让街道在晚上六点后仍有活力。"],
+  "population density": ["这里的人口密度是每平方公里一万二千人。", "人口密度高并不等于过度拥挤。"],
+  "urban decay": ["从商业街往里走一条街，就能看到城市衰败的迹象。", "扭转城市衰败需要就业机会，光摆花箱是不够的。"],
+  "vacant lot": ["一块空地变成了临时花园。", "车站旁有三块闲置地。"],
+  "street tree": ["商业街沿线种了九十棵行道树。", "如今砍伐一棵行道树也需要经过听证。"],
+};
