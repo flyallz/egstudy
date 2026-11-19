@@ -2806,3 +2806,37 @@ export const SCIENCE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "measurement": ["每项测量都重复了三次。", "有一次测量结果与整组数据相矛盾。"],
   "calibration": ["这套设备的校准状态在冬季发生了偏移。", "定期校准虽然乏味，却不能省略。"],
 };
+
+export const SCIENCE_THIRD_LESSON: OriginalTopicWord[] = [
+  ["accuracy", "/ˈækjərəsi/", "名词", "准确度；与真值接近的程度", "不可数；improve/check accuracy", "Accuracy matters more than resolution here.", "They improved accuracy by cooling the detector."],
+  ["precision", "/prɪˈsɪʒn/", "名词", "精密度；测量结果的一致程度", "不可数；high/improve precision", "High precision with poor accuracy fools everyone.", "Precision improved tenfold with the new instrument."],
+  ["margin of error", "/ˌmɑːdʒɪn əv ˈerə/", "名词短语", "误差范围", "可数；a margin of error of + 数值", "The margin of error is wider than the effect claimed.", "They quoted the figure without any margin of error."],
+  ["statistical significance", "/stəˌtɪstɪkl sɪɡˈnɪfɪkəns/", "名词短语", "统计显著性", "不可数；reach/claim statistical significance", "The result never reached statistical significance.", "Statistical significance is not the same as importance."],
+  ["correlation", "/ˌkɒrəˈleɪʃn/", "名词", "相关性；相关关系", "可数；find a strong correlation", "They found a strong correlation and no mechanism.", "The correlation held in four countries out of nine."],
+  ["causation", "/kɔːˈzeɪʃn/", "名词", "因果关系", "不可数；establish/infer causation", "Correlation was clear; causation was not.", "Establishing causation required a controlled trial."],
+  ["bias", "/ˈbaɪəs/", "名词", "偏差；研究偏倚", "可数或不可数；selection/publication bias", "Publication bias hides every negative result.", "Selection bias explained most of the difference."],
+  ["breakthrough", "/ˈbreɪkθruː/", "名词", "突破；重大进展", "可数；a major breakthrough；achieve a breakthrough", "The breakthrough came from a failed experiment.", "They achieved the breakthrough with borrowed equipment."],
+  ["discovery", "/dɪˈskʌvəri/", "名词", "发现", "可数；make/announce a discovery", "The discovery was made by a student checking old data.", "They announced the discovery before anyone had checked it."],
+  ["invention", "/ɪnˈvenʃn/", "名词", "发明；发明物", "可数；an invention transforms + 对象", "The invention was ignored for forty years.", "One invention changed how the whole trade worked."],
+  ["research funding", "/rɪˈsɜːtʃ ˌfʌndɪŋ/", "名词短语", "科研经费", "不可数；secure/cut research funding", "Research funding goes to safe questions.", "Research funding was cut in the middle of the project."],
+  ["research institute", "/rɪˈsɜːtʃ ˌɪnstɪtjuːt/", "名词短语", "研究所；研究机构", "可数；found a research institute", "The research institute employs ninety people.", "A research institute was founded on one private legacy."],
+  ["researcher", "/rɪˈsɜːtʃə/", "名词", "研究人员", "可数；an early-career researcher", "Early-career researchers hold the shortest contracts.", "Two researchers shared one microscope."],
+  ["scientist", "/ˈsaɪəntɪst/", "名词", "科学家", "可数；a scientist argues/publishes", "Nine scientists signed the letter.", "The scientist refused to overstate the result."],
+];
+
+export const SCIENCE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "accuracy": ["这里的准确度比解析度更重要。", "他们通过冷却探测器提高了准确度。"],
+  "precision": ["测量结果即使高度一致，只要偏离真值，仍会误导所有人。", "使用新仪器后，测量精密度提高了十倍。"],
+  "margin of error": ["误差范围比他们声称的效应还大。", "他们引用了这个数字，却没有说明误差范围。"],
+  "statistical significance": ["这一结果始终未达到统计显著性。", "统计显著性并不等同于实际重要性。"],
+  "correlation": ["他们发现了很强的相关性，却没有找到作用机制。", "这种相关性只在九个国家中的四个成立。"],
+  "causation": ["相关性很明显，因果关系却不明确。", "要确定因果关系，需要进行对照试验。"],
+  "bias": ["发表偏倚掩盖了所有阴性结果。", "选择偏倚解释了大部分差异。"],
+  "breakthrough": ["这项突破来自一次失败的实验。", "他们用借来的设备取得了这项突破。"],
+  "discovery": ["一名学生检查旧数据时做出了这项发现。", "还没人验证，他们就宣布了这项发现。"],
+  "invention": ["这项发明被忽视了四十年。", "一项发明改变了整个行业的运作方式。"],
+  "research funding": ["科研经费流向了风险较低的研究问题。", "项目进行到一半时，科研经费被削减了。"],
+  "research institute": ["这家研究所雇用了九十人。", "一家研究所依靠一笔私人遗赠建立起来。"],
+  "researcher": ["职业生涯初期的研究人员拿到的合同期限最短。", "两名研究人员共用一台显微镜。"],
+  "scientist": ["九名科学家在这封信上签了名。", "这名科学家拒绝夸大研究结果。"],
+};
