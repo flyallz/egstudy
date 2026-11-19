@@ -2750,3 +2750,29 @@ export const ECONOMY_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "make a killing": ["早期投资者从上市中赚了一大笔。", "有人通过土地重新划区赚得盆满钵满。"],
   "cost an arm and a leg": ["那款车型的零部件贵得离谱。", "那次维修花了一大笔钱，却只撑了一年。"],
 };
+
+export const SCIENCE_FIRST_LESSON: OriginalTopicWord[] = [
+  ["scientific method", "/ˌsaɪənˌtɪfɪk ˈmeθəd/", "名词短语", "科学方法", "通常单数；follow/apply the scientific method", "The scientific method is a habit of doubting your own result.", "They applied the scientific method to a question nobody had framed."],
+  ["hypothesis", "/haɪˈpɒθəsɪs/", "名词", "假设；科学假说", "可数；复数 hypotheses；form/test a hypothesis", "The hypothesis survived nine rounds of testing.", "She formed a hypothesis from one odd reading."],
+  ["theory", "/ˈθɪəri/", "名词", "理论；学说", "可数；propose/overturn a theory", "The theory explained everything except the timing.", "One measurement overturned a theory held for a century."],
+  ["experiment", "/ɪkˈsperɪmənt/", "名词", "实验", "可数；run/design an experiment", "The experiment ran for eleven months.", "A badly designed experiment wastes a year."],
+  ["control group", "/kənˈtrəʊl ɡruːp/", "名词短语", "对照组", "可数；a control group receives + 处理", "The control group received no treatment at all.", "Without a control group the result means little."],
+  ["variable", "/ˈveəriəbl/", "名词", "变量", "可数；isolate a variable；a confounding variable", "One variable had been left uncontrolled.", "They isolated each variable in turn."],
+  ["sample size", "/ˈsɑːmpl saɪz/", "名词短语", "样本量", "可数；a small sample size；increase the sample size", "The sample size was nine, which explains everything.", "They increased the sample size and the effect disappeared."],
+  ["findings", "/ˈfaɪndɪŋz/", "名词", "研究结果；调查发现", "复数；publish/replicate the findings", "The findings were published two years after the work.", "Nobody has replicated the findings since."],
+  ["evidence", "/ˈevɪdəns/", "名词", "证据", "不可数；gather/weigh evidence", "The evidence points one way and the funding another.", "They gathered evidence for nine field seasons."],
+  ["referee report", "/ˌrefəˈriː rɪˈpɔːt/", "名词短语", "同行评审报告", "可数；receive a referee report", "The referee report caught the arithmetic error.", "Two referee reports contradicted each other."],
+];
+
+export const SCIENCE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "scientific method": ["科学方法要求养成质疑自己研究结果的习惯。", "他们把科学方法用于一个此前无人明确提出的问题。"],
+  "hypothesis": ["这个假说经受住了九轮检验。", "她根据一次异常读数提出了一个假设。"],
+  "theory": ["这个理论解释了除发生时间之外的一切。", "一次测量推翻了一个延续百年的理论。"],
+  "experiment": ["这项实验持续了十一个月。", "设计不当的实验会白白浪费一年。"],
+  "control group": ["对照组完全没有接受任何处理。", "没有对照组，这个结果就没什么说服力。"],
+  "variable": ["有一个变量没有受到控制。", "他们依次分离出每个变量。"],
+  "sample size": ["样本量只有九，这就解释了所有问题。", "他们扩大了样本量，结果效应消失了。"],
+  "findings": ["研究完成两年后，结果才发表。", "此后没有人重复验证出这些结果。"],
+  "evidence": ["证据指向一个方向，资助资金却指向另一个方向。", "他们连续九个野外考察季收集证据。"],
+  "referee report": ["同行评审报告发现了计算错误。", "两份同行评审报告相互矛盾。"],
+};
