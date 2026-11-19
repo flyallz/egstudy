@@ -2840,3 +2840,41 @@ export const SCIENCE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "researcher": ["职业生涯初期的研究人员拿到的合同期限最短。", "两名研究人员共用一台显微镜。"],
   "scientist": ["九名科学家在这封信上签了名。", "这名科学家拒绝夸大研究结果。"],
 };
+
+export const SCIENCE_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["physicist", "/ˈfɪzɪsɪst/", "名词", "物理学家", "可数；a theoretical physicist", "A theoretical physicist predicted the particle in 1964.", "Two physicists shared the prize."],
+  ["chemist", "/ˈkemɪst/", "名词", "化学家", "可数；an industrial chemist", "An industrial chemist solved the problem in a week.", "The chemist kept nine notebooks of failures."],
+  ["biologist", "/baɪˈɒlədʒɪst/", "名词", "生物学家", "可数；a marine biologist", "The biologist counted the same colony for thirty years.", "Two biologists disagreed about the classification."],
+  ["geneticist", "/dʒəˈnetɪsɪst/", "名词", "遗传学家", "可数；a geneticist sequences + 基因组", "The geneticist traced the line back nine generations.", "Geneticists revised the family tree entirely."],
+  ["astronomer", "/əˈstrɒnəmə/", "名词", "天文学家", "可数；an amateur astronomer", "An amateur astronomer spotted the comet first.", "Astronomers booked the telescope two years ahead."],
+  ["research field", "/rɪˈsɜːtʃ fiːld/", "名词短语", "研究领域", "可数；a research field emerges", "The research field barely existed in 1950.", "Two research fields use the same word for different things."],
+  ["physics", "/ˈfɪzɪks/", "名词", "物理学", "不可数；study/particle physics", "Particle physics needs machines the size of a town.", "She teaches physics to pupils who will never use it."],
+  ["chemistry", "/ˈkemɪstri/", "名词", "化学", "不可数；organic chemistry；study chemistry", "Organic chemistry defeated half the year group.", "The chemistry of the soil explains the whole harvest."],
+  ["biology", "/baɪˈɒlədʒi/", "名词", "生物学", "不可数；marine biology；study biology", "Biology here was taught from one shelf of textbooks.", "Biology was the last subject to go quantitative."],
+  ["genetics", "/dʒəˈnetɪks/", "名词", "遗传学", "不可数；study/human genetics", "Genetics answered a question history could not.", "Human genetics advanced faster than the ethics did."],
+  ["genome", "/ˈdʒiːnəʊm/", "名词", "基因组", "可数；sequence the human genome", "The genome was sequenced in thirteen years and now takes a day.", "Sequencing one genome cost a billion and now costs little."],
+  ["gene", "/dʒiːn/", "名词", "基因", "可数；a gene codes for + 蛋白质", "The gene codes for a single protein.", "Nine genes influence the same trait."],
+  ["chromosome", "/ˈkrəʊməsəʊm/", "名词", "染色体", "可数；a chromosome carries + 基因", "Each chromosome carries thousands of genes.", "The extra chromosome explains the condition."],
+  ["cell", "/sel/", "名词", "细胞", "可数；a cell divides", "The cell divides every twenty hours.", "Nine cells were enough to start the culture."],
+  ["molecule", "/ˈmɒlɪkjuːl/", "名词", "分子", "可数；a molecule binds", "The molecule binds to one site only.", "They modelled the molecule before synthesising it."],
+  ["atom", "/ˈætəm/", "名词", "原子", "可数；an atom consists of + 组成部分", "The atom is mostly empty space.", "They counted atoms one layer at a time."],
+];
+
+export const SCIENCE_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "physicist": ["一位理论物理学家在 1964 年预测了这种粒子。", "两位物理学家分享了这一奖项。"],
+  "chemist": ["一位工业化学家用一周解决了这个问题。", "这名化学家用九本笔记本记录失败的尝试。"],
+  "biologist": ["这名生物学家连续三十年统计同一个群落。", "两位生物学家对分类意见不一。"],
+  "geneticist": ["这名遗传学家把这条家系追溯到了九代以前。", "遗传学家彻底修订了这份家谱。"],
+  "astronomer": ["一位业余天文学家最先发现了这颗彗星。", "天文学家提前两年预订了这台望远镜。"],
+  "research field": ["这个研究领域在 1950 年几乎还不存在。", "两个研究领域用同一个词指代不同的事物。"],
+  "physics": ["粒子物理学需要城镇般大小的机器。", "她向将来用不上物理知识的学生教授物理。"],
+  "chemistry": ["有机化学难倒了同年级一半的学生。", "土壤的化学性质解释了整季收成的情况。"],
+  "biology": ["这里的生物学教学只靠一架子教科书。", "生物学是最后一个走向定量研究的学科。"],
+  "genetics": ["遗传学回答了历史学无法解答的问题。", "人类遗传学的发展速度超过了伦理规范的发展。"],
+  "genome": ["过去测序一个基因组要十三年，如今只需一天。", "过去测序一个基因组要花十亿，如今成本已很低。"],
+  "gene": ["这个基因编码一种蛋白质。", "九个基因共同影响同一种性状。"],
+  "chromosome": ["每条染色体携带数千个基因。", "多出的一条染色体解释了这种病症。"],
+  "cell": ["这个细胞每二十小时分裂一次。", "九个细胞就足以开始细胞培养。"],
+  "molecule": ["这个分子只与一个位点结合。", "他们先对该分子建模，再将其合成。"],
+  "atom": ["原子内部大部分是空的。", "他们逐层计数原子。"],
+};
