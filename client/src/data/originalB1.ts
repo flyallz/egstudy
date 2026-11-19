@@ -1,4 +1,4 @@
-// B1 第 1–20 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–22 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -399,4 +399,54 @@ export const B1_TWENTIETH_LESSON: OriginalA2Word[] = [
   ["keen", "/kiːn/", "形容词", "热衷的；渴望的", "keen on something = 热衷于某事；keen to do = 急于做", "She is very keen on learning new languages.", "He was keen to start his new job as soon as possible."],
   ["keyboard", "/ˈkiːbɔːd/", "名词", "键盘；电子琴", "可指计算机输入设备或乐器", "My computer keyboard stopped working this morning.", "He plays the keyboard in a local band."],
   ["kick", "/kɪk/", "动词", "踢；踹", "kick the ball = 踢球；也可作名词指一次踢击", "He kicked the ball straight into the goal.", "The horse gave the fence a hard kick."],
+];
+
+export const B1_TWENTY_FIRST_LESSON: OriginalA2Word[] = [
+  ["killing", "/ˈkɪlɪŋ/", "名词", "杀人事件；杀戮", "the killing of someone = 某人的遇害；make a killing = 赚大钱", "The police are investigating the killing of a young man.", "The war led to the killing of thousands of people."],
+  ["kiss", "/kɪs/", "动词", "亲吻；吻", "kiss somebody on the cheek = 亲某人的脸颊；也可作名词", "She kissed her little son goodnight.", "He gave his mother a kiss before leaving home."],
+  ["label", "/ˈleɪbl/", "名词", "标签；贴标签；归类", "read the label = 阅读标签；label something as = 将某物归类为", "Always read the label before taking any medicine.", "The bottles were carefully labelled with the date."],
+  ["laboratory", "/ləˈbɒrətri/", "名词", "实验室", "可缩写为 lab；work in a laboratory = 在实验室工作", "The scientists work in a modern laboratory.", "Blood samples are tested in the laboratory."],
+  ["lack", "/læk/", "名词", "缺乏；不足", "a lack of something = 缺乏某物；也可作动词", "The plants died from a lack of water.", "He lacks the experience needed for the job."],
+  ["latest", "/ˈleɪtɪst/", "形容词", "最新的；最近的", "the latest news = 最新消息；与 newest 比较", "Have you heard the latest news about the election?", "She always wants to buy the latest phone."],
+  ["lay", "/leɪ/", "动词", "放置；摆放；产卵", "lay something down = 放下某物；与 lie（躺）区分", "He laid the baby gently on the bed.", "The hens lay eggs every morning."],
+  ["layer", "/ˈleɪə/", "名词", "层；层次", "a layer of something = 一层某物；可数名词", "There was a thick layer of dust on the shelf.", "Wear several thin layers of clothing when it is cold."],
+  ["leading", "/ˈliːdɪŋ/", "形容词", "领先的；主要的", "a leading expert = 顶尖专家；a leading role = 主演", "She is one of the leading scientists in her field.", "He played the leading role in the new film."],
+  ["leaf", "/liːf/", "名词", "叶子", "复数形式为 leaves", "A single leaf fell onto the path.", "The leaves turn red and gold in autumn."],
+  ["leather", "/ˈleðə/", "名词", "皮革", "通常不可数；leather jacket = 皮夹克", "This bag is made of real leather.", "He wore an old leather jacket to the party."],
+  ["legal", "/ˈliːɡl/", "形容词", "合法的；法律的", "legal advice = 法律建议；反义词 illegal", "It is not legal to drive without a licence.", "She asked a lawyer for legal advice."],
+  ["leisure", "/ˈleʒə/", "名词", "闲暇；空闲时间", "leisure time = 闲暇时间；at your leisure = 有空时", "In her leisure time she enjoys painting.", "The resort offers many leisure activities for guests."],
+  ["length", "/leŋθ/", "名词", "长度；时长", "in length = 长度为；at length = 详尽地", "The swimming pool is 25 metres in length.", "The length of the film is about two hours."],
+  ["limit", "/ˈlɪmɪt/", "名词", "限制；限度", "a limit on something = 对某事的限制；也可作动词", "There is a speed limit of 50 on this road.", "The doctor told him to limit his salt intake."],
+  ["lip", "/lɪp/", "名词", "嘴唇", "常用复数 lips", "She bit her lip because she was nervous.", "He pressed a finger to his lips to ask for silence."],
+  ["liquid", "/ˈlɪkwɪd/", "名词", "液体；液态的", "与 solid（固体）和 gas（气体）相对；也可作形容词", "Water is a liquid at room temperature.", "Pour the liquid soap into the bottle slowly."],
+  ["literature", "/ˈlɪtrətʃə/", "名词", "文学；资料", "通常不可数；English literature = 英国文学", "She studied English literature at university.", "The tourist office gave us some literature about the city."],
+  ["living", "/ˈlɪvɪŋ/", "形容词", "活着的；生计", "living things = 生物；make a living = 谋生", "There are no living creatures on that dry planet.", "He makes a living by teaching music."],
+  ["locate", "/ləʊˈkeɪt/", "动词", "找到……的位置；设置于", "be located in/at = 位于；表示位置时常用被动形式", "Rescuers managed to locate the lost hikers.", "They plan to locate the new factory near the river."],
+  ["located", "/ləʊˈkeɪtɪd/", "形容词", "位于；坐落于", "be located in/on/near = 位于某处", "The hotel is located right in the city centre.", "Their office is located on the third floor."],
+  ["location", "/ləʊˈkeɪʃn/", "名词", "位置；地点", "a central location = 中心位置；on location = 在外景地", "The shop has moved to a new location.", "They chose a quiet location for the wedding."],
+];
+
+export const B1_TWENTY_SECOND_LESSON: OriginalA2Word[] = [
+  ["lonely", "/ˈləʊnli/", "形容词", "孤独的；偏僻的", "指独处时感到难过；与 alone 区分", "She felt lonely after her friends moved away.", "The old house stood on a lonely hilltop."],
+  ["loss", "/lɒs/", "名词", "损失；失去；亏损", "loss of something = 某物的丧失；at a loss = 不知所措", "The company reported a huge financial loss this year.", "The loss of his job came as a shock."],
+  ["luxury", "/ˈlʌkʃəri/", "名词", "奢华；奢侈品", "live in luxury = 过奢华生活；也可指一件奢侈品", "They live in luxury in a huge house by the sea.", "A holiday abroad is a luxury we cannot afford."],
+  ["mad", "/mæd/", "形容词", "生气的；疯狂的；痴迷的", "be mad at somebody = 生某人的气；be mad about = 痴迷于", "Don't be mad at me, it was an accident.", "She is mad about football and never misses a match."],
+  ["magic", "/ˈmædʒɪk/", "名词", "魔法；神奇的", "do magic = 施魔法；a magic trick = 魔术戏法", "The children believed the old man could do magic.", "He pulled a rabbit out of the hat like a magic trick."],
+  ["mainly", "/ˈmeɪnli/", "副词", "主要地；大部分", "与 mostly 意思相近", "The students are mainly from Asia.", "We go there mainly because the food is cheap."],
+  ["mall", "/mɔːl/", "名词", "购物中心", "shopping mall = 购物中心；主要为美式用法", "We spent the whole afternoon at the mall.", "There is a new shopping mall near my house."],
+  ["management", "/ˈmænɪdʒmənt/", "名词", "管理；管理层", "time management = 时间管理；under new management = 由新管理层经营", "Good time management will help you study better.", "The management has decided to close the factory."],
+  ["marketing", "/ˈmɑːkɪtɪŋ/", "名词", "营销；市场推广", "通常不可数；a marketing campaign = 营销活动", "She works in the marketing department.", "The company spent a lot on marketing its new product."],
+  ["marriage", "/ˈmærɪdʒ/", "名词", "婚姻；结婚", "a happy marriage = 幸福的婚姻；动词为 marry", "They have a long and happy marriage.", "Her marriage to a foreigner surprised the whole family."],
+  ["meanwhile", "/ˈmiːnwaɪl/", "副词", "与此同时；在此期间", "连接同时发生的两件事", "I was cooking dinner. Meanwhile, the kids were doing homework.", "You start the report; meanwhile I will call the client."],
+  ["measure", "/ˈmeʒə/", "动词", "测量；措施", "作动词表示测量；take measures to do something = 采取措施", "Can you measure the width of this window?", "The government took strong measures to stop the virus."],
+  ["medium", "/ˈmiːdiəm/", "形容词", "中等的；适中的", "medium size = 中号；也可作名词指媒介", "I would like a medium coffee, please.", "He is of medium height with dark hair."],
+  ["mental", "/ˈmentl/", "形容词", "精神的；智力的", "mental health = 心理健康；与 physical 相对", "Regular exercise is good for your mental health.", "Doing the sums in your head is hard mental work."],
+  ["mess", "/mes/", "名词", "杂乱；困境", "make a mess = 弄乱；in a mess = 一团糟", "Your room is in a terrible mess.", "Sorry about the mess; I'll clean it up later."],
+  ["mild", "/maɪld/", "形容词", "温和的；轻微的；不辣的", "mild weather = 温和的天气；与 severe、strong 相对", "We had a mild winter with very little snow.", "The curry had a mild, pleasant flavour."],
+  ["mix", "/mɪks/", "动词", "混合；混合物", "mix A with B = 把 A 与 B 混合；也可作名词", "Mix the flour with the eggs and some milk.", "The class is a good mix of boys and girls."],
+  ["mixture", "/ˈmɪkstʃə/", "名词", "混合物；混合", "a mixture of A and B = A 与 B 的混合物", "Pour the cake mixture into the tin.", "I felt a strange mixture of joy and fear."],
+  ["mood", "/muːd/", "名词", "心情；情绪", "in a good/bad mood = 心情好／差", "She has been in a bad mood all day.", "I'm not in the mood for a party tonight."],
+  ["mud", "/mʌd/", "名词", "泥；泥浆", "不可数名词；形容词 muddy = 泥泞的", "The children came home covered in mud.", "Our car got stuck in the thick mud."],
+  ["murder", "/ˈmɜːdə/", "名词", "谋杀；谋杀案", "commit murder = 犯谋杀罪；也可作动词", "The police are investigating a murder in the town.", "He was sent to prison for murdering his neighbour."],
+  ["muscle", "/ˈmʌsl/", "名词", "肌肉", "build muscle = 锻炼肌肉；pull a muscle = 拉伤肌肉", "Lifting weights helps you build muscle.", "He pulled a muscle in his leg while running."],
 ];
