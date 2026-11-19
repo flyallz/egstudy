@@ -5140,3 +5140,41 @@ export const MEDIA_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "sensationalism": ["耸人听闻的报道既能卖座，也同样会扭曲事实。", "到了第三天，相关报道变得越来越哗众取宠。"],
   "scoop": ["这条独家新闻来自一句不经意的话。", "他们比对手晚了一小时，错失了独家新闻。"],
 };
+
+export const MEDIA_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["exclusive", "/ɪkˈskluːsɪv/", "名词", "独家报道", "可数；run an exclusive", "The exclusive filled four pages.", "An exclusive is worth less than it was."],
+  ["unauthorised disclosure", "/ʌnˈɔːθəraɪzd dɪsˈkləʊʒə/", "名词短语", "未经授权的信息披露", "可数；an unauthorised disclosure of + 名词", "An unauthorised disclosure revealed the minutes of two meetings.", "The inquiry into the unauthorised disclosure found nothing."],
+  ["anonymous source", "/əˈnɒnɪməs sɔːs/", "名词短语", "匿名消息来源", "可数；quote/rely on an anonymous source", "The claim rests on one anonymous source.", "Anonymous sources allow the truth and the smear alike."],
+  ["off the record", "/ˌɒf ðə ˈrekɔːd/", "名词短语", "不供引用的；私下透露的", "用作状语；speak off the record", "He briefed them off the record for an hour.", "Nothing said off the record stays off the record."],
+  ["embargo", "/ɪmˈbɑːɡəʊ/", "名词", "暂缓发布令；禁发期", "可数；break/lift an embargo", "One outlet broke the embargo by nine minutes.", "The embargo lifts at midnight."],
+  ["retraction", "/rɪˈtrækʃən/", "名词", "撤稿声明；更正声明", "可数；issue/print a retraction", "The retraction ran on page nineteen.", "A retraction never reaches the people who read the headline."],
+  ["right of reply", "/ˌraɪt əv rɪˈplaɪ/", "名词短语", "答复权；回应权", "不可数；offer/be denied a right of reply", "She was denied any right of reply.", "A right of reply the following week repairs very little."],
+  ["libel", "/ˈlaɪbl/", "名词", "文字诽谤；书面诽谤", "不可数；sue for/be found guilty of libel", "The paper was sued for libel and settled.", "Libel law here protects the wealthy best."],
+  ["defamation", "/ˌdefəˈmeɪʃən/", "名词", "诽谤；损害名誉", "不可数；a defamation case", "The defamation case ran for three years.", "Defamation actions deter small publishers entirely."],
+  ["press intrusion", "/ˌpres ɪnˈtruːʒən/", "名词短语", "新闻媒体侵犯隐私", "不可数；suffer/complain about press intrusion", "The family suffered press intrusion for a month.", "Press intrusion into grief is the hardest to defend."],
+  ["phone hacking", "/ˈfəʊn ˌhækɪŋ/", "名词短语", "电话窃听；入侵电话", "不可数；the phone hacking scandal", "The phone hacking scandal closed a newspaper.", "Phone hacking was systematic, not the work of one reporter."],
+  ["press regulation", "/ˈpres ˌreɡjəˈleɪʃən/", "名词短语", "新闻媒体监管", "不可数；introduce/oppose press regulation", "Press regulation remains voluntary here.", "Statutory press regulation was proposed and dropped."],
+  ["press freedom", "/ˈpres ˌfriːdəm/", "名词短语", "新闻自由；出版自由", "不可数；defend/restrict press freedom", "Press freedom is measured by what goes unpunished.", "Two laws restricted press freedom in a single year."],
+  ["censorship", "/ˈsensəʃɪp/", "名词", "审查制度；内容审查", "不可数；impose/lift censorship", "Wartime censorship lasted four years.", "Censorship of the broadcast was never admitted."],
+  ["self-censorship", "/ˌself ˈsensəʃɪp/", "名词", "自我审查", "不可数；practise self-censorship", "Self-censorship does the work no official could.", "Lawyers' letters produced quiet self-censorship."],
+  ["propaganda", "/ˌprɒpəˈɡændə/", "名词", "宣传；政治宣传", "不可数；spread/state propaganda", "State propaganda filled the evening schedule.", "Propaganda works best when it is partly true."],
+];
+
+export const MEDIA_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "exclusive": ["这篇独家报道占了四个版面。", "独家报道的价值已不如过去。"],
+  "unauthorised disclosure": ["一次未经授权的信息披露公布了两场会议的纪要。", "对这起未经授权披露事件的调查没有查出结果。"],
+  "anonymous source": ["这项说法只依据一名匿名消息人士。", "匿名消息来源既能揭示真相，也能散布诋毁。"],
+  "off the record": ["他私下向他们通报了一个小时的情况，要求不供引用。", "所谓不供引用的话，最终都可能被公开。"],
+  "embargo": ["一家新闻机构提前九分钟违反了禁发令。", "禁发期在午夜结束。"],
+  "retraction": ["撤稿声明登在第十九版。", "更正声明从来无法传达到看过原报道标题的所有人。"],
+  "right of reply": ["她完全没有得到回应的机会。", "下一周才给出的答复权补救不了多少损害。"],
+  "libel": ["这家报纸因文字诽谤被起诉，最终达成和解。", "这里的诽谤法最能保护富人。"],
+  "defamation": ["这起诽谤案持续了三年。", "诽谤诉讼会让小型出版机构彻底不敢发声。"],
+  "press intrusion": ["这个家庭遭受了一个月的媒体骚扰。", "媒体侵扰丧亲者的悲痛，是最难辩护的行为。"],
+  "phone hacking": ["电话窃听丑闻导致一家报纸停刊。", "电话窃听是系统性行为，并非一名记者独自所为。"],
+  "press regulation": ["这里的新闻媒体监管仍靠自愿遵守。", "法定新闻监管曾被提出，随后又遭放弃。"],
+  "press freedom": ["衡量新闻自由，要看哪些报道不会受到惩罚。", "一年内有两部法律限制了新闻自由。"],
+  "censorship": ["战时审查持续了四年。", "当局从未承认对那次广播进行了审查。"],
+  "self-censorship": ["自我审查完成了任何官员都做不到的事。", "律师函引发了悄无声息的自我审查。"],
+  "propaganda": ["国家宣传占满了晚间节目表。", "宣传在部分真实时最有效。"],
+};
