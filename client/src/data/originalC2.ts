@@ -63,3 +63,38 @@ export const C2_FOURTH_LESSON: OriginalA2Word[] = [
   ["contrite", "/kənˈtraɪt/", "形容词", "真诚悔过的；深感内疚的", "形容真心悔过的人或表情；名词 contrition", "He wrote a contrite letter begging their forgiveness.", "She looked genuinely contrite as she admitted her mistake."],
   ["conundrum", "/kəˈnʌndrəm/", "名词", "难题；谜题", "a difficult conundrum = 棘手的难题；也指谜语", "The judges faced the conundrum of rewarding ambition over polish.", "How to fund the service without raising taxes remains a conundrum."],
 ];
+
+export const C2_FIFTH_LESSON: OriginalA2Word[] = [
+  ["corollary", "/kəˈrɒləri/", "名词", "必然结果；推论", "a corollary of/to = ……的必然结果；数学中也指推论；复数 corollaries", "Rising rents are a direct corollary of the housing shortage.", "Greater automation has an unwelcome corollary in job losses."],
+  ["credulity", "/krəˈdjuːləti/", "名词", "轻信；易受骗", "strain credulity = 令人难以置信；区别于 credibility（可信度）", "The plot strains credulity at almost every turn.", "Swindlers prey on the credulity of the desperate."],
+  ["culpable", "/ˈkʌlpəbl/", "形容词", "有过错的；应受责备的", "culpable for/of = 对……负有过错责任；名词 culpability", "The inquiry found several officials culpable for the oversight.", "He felt culpable for not having spoken up sooner."],
+  ["debacle", "/deɪˈbɑːkl/", "名词", "惨败；彻底失败的局面", "常指政治、军事或财务上的惨败；近义词 fiasco", "The product launch turned into a public relations debacle.", "Investors are still reeling from last year's financial debacle."],
+  ["deference", "/ˈdefərəns/", "名词", "尊重；敬重；顺从", "in deference to = 出于对……的尊重；动词 defer to", "Out of deference to the elders, the young men remained silent.", "She treated her mentor with unfailing deference."],
+  ["deleterious", "/ˌdelɪˈtɪəriəs/", "形容词", "有害的；造成损害的", "deleterious effect on = 对……的有害影响", "Prolonged stress has a deleterious effect on the immune system.", "The ruling could prove deleterious to press freedom."],
+  ["demagogue", "/ˈdeməɡɒɡ/", "名词", "蛊惑民心的政客；煽动家", "贬义，指利用情绪和偏见操纵民众的人", "The crisis was exploited by every demagogue hungry for power.", "He denounced his opponent as a dangerous demagogue."],
+  ["denouement", "/deɪˈnuːmɒn/", "名词", "故事结局；情节的收束", "文学术语，指矛盾和悬念得到解决的末段", "The novel's denouement ties together threads laid down hundreds of pages earlier.", "After months of rumor, the scandal reached its inevitable denouement."],
+  ["deprecate", "/ˈdeprəkeɪt/", "动词", "反对；贬低；标记为弃用", "self-deprecating = 自嘲的；计算机语境中指功能即将弃用", "Critics deprecate the habit of judging art solely by its market value.", "The older method has been deprecated in the latest release."],
+  ["derivative", "/dɪˈrɪvətɪv/", "形容词", "缺乏原创性的；衍生的", "艺术评论中常为贬义；也可作名词指衍生品或导数", "The band's debut album was slick but hopelessly derivative.", "Reviewers found the film derivative of a dozen better thrillers."],
+  ["desiccated", "/ˈdesɪkeɪtɪd/", "形容词", "脱水干燥的；枯燥无生气的", "desiccated coconut = 椰子干；动词 desiccate", "The desiccated fields had not seen rain in months.", "His desiccated prose drained the drama from every scene."],
+  ["desultory", "/ˈdesəltəri/", "形容词", "漫无目的的；断断续续的", "desultory conversation/effort = 漫无目的的谈话／敷衍的努力", "They made only a desultory effort to tidy the room.", "The meeting drifted into desultory chatter about the weather."],
+  ["diaphanous", "/daɪˈæfənəs/", "形容词", "轻薄半透明的", "diaphanous fabric/mist = 轻薄透明的织物／薄雾", "She wore a diaphanous gown that seemed to float as she moved.", "Dawn light filtered through the diaphanous curtains."],
+  ["diffident", "/ˈdɪfɪdənt/", "形容词", "缺乏自信的；羞怯的", "比 shy 更强调自我怀疑；反义词 confident", "He was too diffident to put his own name forward.", "She gave a diffident little smile and looked away."],
+];
+
+export const C2_SIXTH_LESSON: OriginalA2Word[] = [
+  ["dilettante", "/ˌdɪləˈtænti/", "名词", "浅尝辄止的业余爱好者", "略带贬义；复数 dilettantes 或 dilettanti", "He dismissed the newcomer as a mere dilettante playing at science.", "For all her enthusiasm, she remained a dilettante who finished nothing."],
+  ["disabuse", "/ˌdɪsəˈbjuːz/", "动词", "使醒悟；纠正错误想法", "disabuse somebody of an idea = 让某人放弃错误想法", "Let me disabuse you of the notion that this work is easy.", "Experience soon disabused her of such romantic ideas."],
+  ["discursive", "/dɪˈskɜːsɪv/", "形容词", "离题的；东拉西扯的；推论的", "常形容讲话或写作旁逸斜出；哲学中也指推论式的", "His lectures were discursive, wandering from history to gossip and back.", "The essay is charming but far too discursive to persuade."],
+  ["disparate", "/ˈdɪspərət/", "形容词", "迥然不同的；不相称的", "disparate groups/elements = 截然不同的群体／要素", "The movement united disparate groups behind a single cause.", "She wove disparate strands of research into one elegant argument."],
+  ["dissemble", "/dɪˈsembl/", "动词", "掩饰真实想法；假装", "指以假象掩盖情绪或意图；区别于 disassemble（拆卸）", "He learned to dissemble his contempt behind a courteous smile.", "She was too honest to dissemble when asked a direct question."],
+  ["dissonance", "/ˈdɪsənəns/", "名词", "不协调；冲突；音乐上的不协和", "cognitive dissonance = 认知失调；反义词 consonance", "There is a glaring dissonance between the firm's stated values and its conduct.", "The music builds tension through deliberate dissonance."],
+  ["dolorous", "/ˈdɒlərəs/", "形容词", "悲伤的；哀怨的", "较古雅的文学用词，形容语调、叹息或表情", "A dolorous bell tolled across the empty square.", "She sang in a slow, dolorous voice that moved the whole hall."],
+  ["ebullient", "/ɪˈbʊliənt/", "形容词", "热情洋溢的；兴高采烈的", "ebullient mood/personality = 欢快的心情／性格", "The team returned from victory in ebullient spirits.", "Her ebullient charm filled the room the moment she entered."],
+  ["eclectic", "/ɪˈklektɪk/", "形容词", "兼收并蓄的；多种风格混合的", "eclectic taste/collection = 兼容并蓄的品味／收藏", "The playlist was wonderfully eclectic, lurching from jazz to punk.", "Her reading tastes are famously eclectic."],
+  ["edifice", "/ˈedɪfɪs/", "名词", "宏伟建筑；庞大体系", "the edifice of a theory = 某理论的整体架构", "A marble edifice dominated the far end of the square.", "The whole edifice of his theory rests on one unproven assumption."],
+  ["effervescent", "/ˌefəˈvesnt/", "形容词", "活泼开朗的；起泡的", "形容人活力四射，也可形容饮料冒泡", "Her effervescent personality made her the life of every gathering.", "He dropped a tablet into the glass and watched it turn effervescent."],
+  ["effete", "/ɪˈfiːt/", "形容词", "衰弱的；失去活力的", "贬义，常指人或阶层软弱、失去创造力", "Critics portrayed the old aristocracy as effete and out of touch.", "He dismissed their art as the effete indulgence of a dying class."],
+  ["effrontery", "/ɪˈfrʌntəri/", "名词", "厚颜无耻；放肆", "have the effrontery to do = 厚着脸皮做某事", "He had the effrontery to demand a raise after losing the account.", "I was stunned by the sheer effrontery of her reply."],
+  ["effusive", "/ɪˈfjuːsɪv/", "形容词", "热情洋溢的；感情过于外露的", "effusive praise/thanks = 滔滔不绝的赞美／感谢", "She was effusive in her thanks, hugging everyone in sight.", "The host gave us an effusive welcome at the door."],
+  ["egregious", "/ɪˈɡriːdʒəs/", "形容词", "极其严重的；恶劣得惊人的", "egregious error/violation = 极其严重的错误／违规", "The audit uncovered an egregious misuse of public funds.", "It was one of the most egregious errors in the paper's history."],
+];
