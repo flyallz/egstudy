@@ -87,4 +87,4 @@ check("Government", "client/src/data/originalTopics.ts", "reference/original-top
 check("Media", "client/src/data/originalTopics.ts", "reference/original-topic-csv/media-advertising.csv", "MEDIA", 10)
 check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/culture-heritage.csv", "CULTURE", 10)
 
-check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-topic-csv/globalisation-trade.csv", "GLOBALISATION", 9)
+check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-topic-csv/globalisation-trade.csv", "GLOBALISATION", 10)
