@@ -88,3 +88,5 @@ check("Media", "client/src/data/originalTopics.ts", "reference/original-topic-cs
 check("Culture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/culture-heritage.csv", "CULTURE", 10)
 
 check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-topic-csv/globalisation-trade.csv", "GLOBALISATION", 10)
+
+check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-csv/family-children.csv", "FAMILY", 1)

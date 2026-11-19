@@ -6430,3 +6430,29 @@ export const GLOBALISATION_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, s
   "close the gap": ["二十年的学校教育缩小了识字水平的差距。", "这份计划没有任何措施能缩小地区之间的差距。"],
   "hold all the cards": ["在那场谈判中，买方掌握了全部主动权。", "谁控制海峡，谁就掌握全部主动权。"],
 };
+
+export const FAMILY_FIRST_LESSON: OriginalTopicWord[] = [
+  ["nuclear family", "/ˌnjuːkliə ˈfæməli/", "名词短语", "核心家庭；父母与子女组成的小家庭", "可数；a nuclear family of four", "The nuclear family was a postwar arrangement, not an ancient one.", "Housing here is built for a nuclear family of four."],
+  ["extended family", "/ɪkˌstendɪd ˈfæməli/", "名词短语", "大家庭；扩展家庭", "可数；live with an extended family", "Three generations of the extended family share the yard.", "An extended family absorbs a crisis better than a couple can."],
+  ["single-parent family", "/ˌsɪŋɡəl peərənt ˈfæməli/", "名词短语", "单亲家庭", "可数；a single-parent family raises", "A quarter of pupils come from single-parent families.", "Single-parent families lost the most in the benefit freeze."],
+  ["blended family", "/ˌblendɪd ˈfæməli/", "名词短语", "重组家庭；再婚组合家庭", "可数；a blended family forms", "The blended family took three years to settle.", "In a blended family the rules have to be renegotiated."],
+  ["foster family", "/ˈfɒstə fæməli/", "名词短语", "寄养家庭", "可数；place sb with a foster family", "He was placed with a foster family at nine.", "Foster families are paid an allowance, not a wage."],
+  ["adoptive parents", "/əˌdɒptɪv ˈpeərənts/", "名词短语", "养父母", "复数；his/her adoptive parents", "Her adoptive parents told her at seven.", "Adoptive parents wait an average of two years."],
+  ["guardian", "/ˈɡɑːdiən/", "名词", "监护人", "可数；a legal guardian", "His aunt became his legal guardian.", "A guardian must sign every school form."],
+  ["sibling", "/ˈsɪblɪŋ/", "名词", "兄弟姐妹", "可数；an older/a younger sibling", "She has four siblings and sees two of them.", "Older siblings do a third of the childcare here."],
+  ["only child", "/ˌəʊnli ˈtʃaɪld/", "名词短语", "独生子女", "可数；be/grow up as an only child", "He grew up as an only child in a crowded street.", "Being an only child was unusual in that generation."],
+  ["twin", "/twɪn/", "名词", "双胞胎之一", "可数；identical twins；be twins", "The twins were separated at school deliberately.", "Identical twins are studied for exactly this reason."],
+];
+
+export const FAMILY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "nuclear family": ["核心家庭是战后形成的一种家庭模式，并非自古就有。", "这里的住房按一家四口的核心家庭设计。"],
+  "extended family": ["这个大家庭的三代人共用一个院子。", "扩展家庭比一对夫妻更能应对危机。"],
+  "single-parent family": ["四分之一的学生来自单亲家庭。", "福利待遇冻结时，单亲家庭损失最大。"],
+  "blended family": ["这个重组家庭花了三年才安顿下来。", "在重组家庭里，规矩需要重新商量。"],
+  "foster family": ["他九岁时被安置到一个寄养家庭。", "寄养家庭拿到的是补贴，而不是工资。"],
+  "adoptive parents": ["她的养父母在她七岁时告诉了她。", "养父母平均需要等待两年。"],
+  "guardian": ["他的姑妈成了他的法定监护人。", "每一份学校表格都必须由监护人签字。"],
+  "sibling": ["她有四个兄弟姐妹，平时见其中两个。", "这里三分之一的照料孩子工作由年长的兄弟姐妹承担。"],
+  "only child": ["他是独生子女，在一条拥挤的街道上长大。", "在那一代人中，独生子女并不常见。"],
+  "twin": ["学校有意把这对双胞胎分到了不同班级。", "研究同卵双胞胎，正是为了弄清这个问题。"],
+};
