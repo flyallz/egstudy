@@ -1830,3 +1830,29 @@ export const ENVIRONMENT_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "draw up a plan": ["该机构为整个流域拟订了一项计划。", "每个地区都制定自己的防洪计划。"],
   "strike a balance": ["这项政策在就业和清洁空气之间取得平衡。", "规划者必须在住房与绿地之间取得平衡。"],
 };
+
+export const TECHNOLOGY_FIRST_LESSON: OriginalTopicWord[] = [
+  ["artificial intelligence", "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/", "名词短语", "人工智能", "不可数；简称 AI；train/deploy artificial intelligence", "Artificial intelligence now drafts most routine contracts.", "Hospitals deploy artificial intelligence to read scans."],
+  ["machine learning", "/məˌʃiːn ˈlɜːnɪŋ/", "名词短语", "机器学习", "不可数；a machine learning model/system", "Machine learning spots patterns no analyst would notice.", "The bank built a machine learning model to flag fraud."],
+  ["cloud computing", "/ˌklaʊd kəmˈpjuːtɪŋ/", "名词短语", "云计算", "不可数；move to/rely on cloud computing", "Cloud computing removed the need for a server room.", "Small firms rely on cloud computing to cut costs."],
+  ["data centre", "/ˈdeɪtə ˌsentə/", "名词短语", "数据中心", "可数；build/cool a data centre", "A single data centre can use as much power as a town.", "Cold climates cut the cost of cooling a data centre."],
+  ["broadband", "/ˈbrɔːdbænd/", "名词", "宽带网络", "不可数；install/high-speed broadband", "Broadband reached the last mountain commune in 2022.", "High-speed broadband is now treated as basic infrastructure."],
+  ["bandwidth", "/ˈbændwɪdθ/", "名词", "带宽", "不可数；limited/share bandwidth", "Video calls swallow most of the household bandwidth.", "Limited bandwidth makes remote surgery impossible here."],
+  ["operating system", "/ˈɒpəreɪtɪŋ ˌsɪstəm/", "名词短语", "操作系统", "可数；run/update an operating system", "The laptop runs an operating system released in 2015.", "An unsupported operating system is a security risk."],
+  ["hardware", "/ˈhɑːdweə/", "名词", "硬件", "不可数；replace/upgrade hardware", "Ageing hardware slows the whole network.", "The grant covers software but not hardware."],
+  ["software", "/ˈsɒftweə/", "名词", "软件", "不可数；develop/license software", "The software is updated automatically each month.", "Schools license the same software for every classroom."],
+  ["algorithm", "/ˈælɡərɪðəm/", "名词", "算法", "可数；design/tweak an algorithm", "The algorithm decides what each user sees first.", "A small tweak to the algorithm changed viewing habits."],
+];
+
+export const TECHNOLOGY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "artificial intelligence": ["如今，大多数常规合同由人工智能起草。", "医院部署人工智能来读取扫描影像。"],
+  "machine learning": ["机器学习能发现分析人员难以察觉的模式。", "这家银行建立了机器学习模型来标记欺诈行为。"],
+  "cloud computing": ["云计算使机房不再是必需的。", "小企业依靠云计算降低成本。"],
+  "data centre": ["一座数据中心的耗电量可能与一座城镇相当。", "寒冷气候降低了数据中心的冷却成本。"],
+  "broadband": ["宽带于 2022 年覆盖到最后一个山区乡镇。", "高速宽带如今被视为基础设施。"],
+  "bandwidth": ["视频通话占用了家庭的大部分带宽。", "带宽有限使这里无法开展远程手术。"],
+  "operating system": ["这台笔记本电脑运行着一款 2015 年发布的操作系统。", "不再受支持的操作系统会带来安全风险。"],
+  "hardware": ["老旧硬件拖慢了整个网络。", "这笔补助涵盖软件，但不包括硬件。"],
+  "software": ["这款软件每月自动更新。", "学校为每间教室购买同一款软件的使用许可。"],
+  "algorithm": ["算法决定每个用户首先看到什么。", "对算法的小幅调整改变了观看习惯。"],
+};
