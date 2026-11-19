@@ -202,3 +202,39 @@ export const C1_TWELFTH_LESSON: OriginalA2Word[] = [
   ["confine", "/kənˈfaɪn/", "动词", "限制；禁闭", "confine something to something = 将某事限制在某范围；be confined to bed = 卧床不起", "Please confine your comments strictly to the topic under discussion.", "For several weeks the illness confined him to his bed."],
   ["crude", "/kruːd/", "形容词", "粗糙的；未经提炼的；粗俗的", "crude oil = 原油；a crude estimate = 粗略估算；crude joke = 粗俗笑话", "The price of crude oil fell sharply during the last quarter.", "They built a crude shelter out of branches and leaves."],
 ];
+
+export const C1_THIRTEENTH_LESSON: OriginalA2Word[] = [
+  ["backup", "/ˈbækʌp/", "名词", "备份；后援；后备方案", "make a backup = 做备份；call for backup = 呼叫增援；动词为分写的 back up", "Always keep a backup of your files in case the laptop fails.", "The officer radioed for backup before entering the building."],
+  ["caution", "/ˈkɔːʃn/", "名词", "谨慎；警告", "with caution = 谨慎地；exercise caution = 保持谨慎；也可作动词", "Investors are urging caution amid the recent market turmoil.", "These powerful medicines should be handled with extreme caution."],
+  ["confirmation", "/ˌkɒnfəˈmeɪʃn/", "名词", "确认；证明", "receive confirmation = 收到确认；confirmation bias = 确认偏误", "We are still awaiting official confirmation of the final results.", "This email serves as confirmation of your hotel reservation."],
+  ["crush", "/krʌʃ/", "动词", "压碎；镇压；摧毁", "crush grapes = 压碎葡萄；crush a rebellion = 镇压叛乱", "Workers crush the grapes carefully before the juice is left to ferment.", "The regime brutally crushed the student uprising within days."],
+  ["bail", "/beɪl/", "名词", "保释金；保释", "post bail = 缴纳保释金；be released on bail = 获准保释", "The judge set bail at fifty thousand dollars.", "He was released on bail pending his trial next spring."],
+  ["cautious", "/ˈkɔːʃəs/", "形容词", "谨慎的；小心的", "cautious about something = 对某事谨慎；a cautious welcome = 谨慎欢迎", "Economists remain cautious about the prospects for a quick recovery.", "She gave the ambitious plan only a cautious welcome."],
+  ["confront", "/kənˈfrʌnt/", "动词", "面对；当面质问", "confront a problem = 面对问题；confront somebody with evidence = 以证据当面质问某人", "Sooner or later she will have to confront the painful truth.", "The reporter confronted the minister with the leaked documents."],
+  ["cryptocurrency", "/ˌkrɪptəʊˈkʌrənsi/", "名词", "加密货币；数字货币", "trade cryptocurrency = 交易加密货币；复数 cryptocurrencies", "Many investors lost fortunes when the cryptocurrency market collapsed.", "The company now accepts several cryptocurrencies as payment."],
+  ["ballot", "/ˈbælət/", "名词", "选票；无记名投票", "a secret ballot = 无记名投票；ballot box = 票箱；on the ballot = 在选票上", "Union members will decide the issue by secret ballot.", "Several candidates failed to get their names onto the ballot."],
+  ["cease", "/siːs/", "动词", "停止；终止", "cease to do 或 doing = 停止做；cease trading = 停止营业；比 stop 正式", "The firm will cease all operations at the end of the month.", "By midnight the heavy rain had finally ceased."],
+  ["confrontation", "/ˌkɒnfrʌnˈteɪʃn/", "名词", "对抗；冲突", "a confrontation with somebody = 与某人的对抗；avoid confrontation = 避免冲突", "Police tried hard to avoid a direct confrontation with the protesters.", "The debate soon turned into an angry confrontation between the two leaders."],
+  ["crystal", "/ˈkrɪstl/", "名词", "晶体；水晶；水晶玻璃", "salt crystals = 盐晶体；crystal clear = 晶莹剔透或非常清楚", "Under the microscope we could clearly see tiny salt crystals forming.", "She served the wine in a set of beautiful crystal glasses."],
+  ["bang", "/bæŋ/", "动词", "猛敲；砰地关上", "bang on a door = 猛敲门；也可作名词表示巨响", "He banged his fist on the table in sheer frustration.", "Someone was banging loudly on the front door at midnight."],
+  ["cemetery", "/ˈsemətri/", "名词", "公墓；墓地", "bury somebody in a cemetery = 把某人葬在公墓；与教堂旁的 graveyard 区分", "His grandparents are buried in the old cemetery up on the hill.", "They walked quietly through the vast military cemetery."],
+  ["congratulate", "/kənˈɡrætʃuleɪt/", "动词", "祝贺；为自己感到得意", "congratulate somebody on something = 因某事祝贺某人；名词 congratulations", "I'd like to congratulate you on your well-deserved promotion.", "She warmly congratulated the whole team on a remarkable season."],
+];
+
+export const C1_FOURTEENTH_LESSON: OriginalA2Word[] = [
+  ["cult", "/kʌlt/", "名词", "邪教；狂热崇拜；小众经典", "a religious cult = 宗教教派；cult following = 狂热追随者", "The low-budget film gradually acquired a devoted cult following.", "He was raised inside a secretive religious cult."],
+  ["banner", "/ˈbænə/", "名词", "横幅；旗帜；大标题", "under the banner of = 以……为名；banner headline = 通栏大标题", "Protesters marched through the city carrying banners and flags.", "The campaign brought several rival groups together under a single banner."],
+  ["chamber", "/ˈtʃeɪmbə/", "名词", "房间；议院；腔室", "council chamber = 议事厅；the upper chamber = 上议院；heart chamber = 心腔", "The heated debate took place in the main council chamber.", "The human heart has four chambers that pump blood around the body."],
+  ["congregation", "/ˌkɒŋɡrɪˈɡeɪʃn/", "名词", "会众；教堂礼拜者", "the whole congregation = 全体会众；动词 congregate = 聚集", "The priest asked the congregation to stand for the final hymn.", "A large congregation gathered for the midnight Christmas service."],
+  ["cultivate", "/ˈkʌltɪveɪt/", "动词", "耕作；培养；建立", "cultivate crops = 种植作物；cultivate a skill = 培养技能；cultivate relationships = 建立关系", "Farmers here cultivate rice on narrow terraces carved into the mountains.", "Over the years he carefully cultivated a reputation for honesty."],
+  ["bare", "/beə/", "形容词", "裸露的；空荡荡的；最低限度的", "bare feet = 赤脚；the bare minimum = 最低限度；与 bear 区分", "She walked across the cold stone floor in bare feet.", "The shelves were almost bare by the end of the day."],
+  ["chaos", "/ˈkeɪɒs/", "名词", "混乱；无序", "descend into chaos = 陷入混乱；不可数名词；形容词 chaotic", "The sudden power cut threw the whole airport into chaos.", "The one-day strike caused travel chaos right across the country."],
+  ["congressional", "/kənˈɡreʃənl/", "形容词", "国会的", "congressional election = 国会选举；Congress = 国会，多用于美国政治", "The scandal triggered a lengthy congressional investigation.", "Several congressional committees are now reviewing the proposed law."],
+  ["curiosity", "/ˌkjʊəriˈɒsəti/", "名词", "好奇心；奇物", "out of curiosity = 出于好奇；arouse curiosity = 引起好奇", "Out of sheer curiosity, she opened the unmarked wooden box.", "The little museum is full of curiosities from distant lands."],
+  ["barrel", "/ˈbærəl/", "名词", "桶；石油桶；枪管", "a barrel of oil = 一桶石油；price per barrel = 每桶价格", "The wine was aged for two full years in an oak barrel.", "Oil prices climbed above eighty dollars a barrel last week."],
+  ["characterize", "/ˈkærəktəraɪz/", "动词", "描述……的特征；以……为特色", "characterize somebody as = 将某人描述为；be characterized by = 以……为特征", "Critics characterize his early work as naive and overly sentimental.", "The region's climate is characterized by long, dry summers."],
+  ["connectivity", "/ˌkɒnekˈtɪvəti/", "名词", "连接能力；连通性", "internet connectivity = 互联网连接；poor connectivity = 连接不畅", "Poor internet connectivity makes remote working difficult out here.", "The new phone promises much faster connectivity in rural areas."],
+  ["custody", "/ˈkʌstədi/", "名词", "监护权；拘留", "joint custody = 共同监护权；in police custody = 被警方羁押", "The court awarded joint custody of the children to both parents.", "The chief suspect remains in police custody awaiting trial."],
+  ["charm", "/tʃɑːm/", "名词", "魅力；护身符", "a good-luck charm = 幸运符；work like a charm = 十分有效；也可作动词", "The old town has a quiet charm that keeps visitors coming back.", "She wore a thin silver bracelet hung with tiny charms."],
+  ["conquer", "/ˈkɒŋkə/", "动词", "征服；克服", "conquer a country = 征服国家；conquer a fear = 克服恐惧；名词 conquest", "It took her years to conquer her crippling fear of flying.", "At its height the empire had conquered most of the known world."],
+];
