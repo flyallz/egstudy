@@ -5536,3 +5536,33 @@ export const CULTURE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "curator": ["策展人选了出乎所有人意料的展品。", "两名策展人共同负责整个部门。"],
   "artefact": ["这件文物被归还给原属国。", "九件文物在运输途中遗失。"],
 };
+
+export const CULTURE_SECOND_LESSON: OriginalTopicWord[] = [
+  ["sculpture", "/ˈskʌlptʃə/", "名词", "雕塑；雕刻艺术", "可数或不可数；carve a sculpture；a bronze sculpture", "The sculpture stood in the square for forty years.", "She works in sculpture rather than paint."],
+  ["painting", "/ˈpeɪntɪŋ/", "名词", "绘画作品；画", "可数；hang/restore a painting", "The painting hung in a corridor for decades.", "Restoring the painting revealed a second figure."],
+  ["portrait", "/ˈpɔːtrət/", "名词", "肖像画；肖像", "可数；paint/sit for a portrait", "She sat for the portrait four times.", "The portrait is the only likeness that survives."],
+  ["landscape painting", "/ˈlændskeɪp ˌpeɪntɪŋ/", "名词短语", "风景画", "可数；a landscape painting of + 地点", "The landscape painting shows the valley before the reservoir.", "Landscape painting went out of fashion and came back."],
+  ["still life", "/ˌstɪl ˈlaɪf/", "名词短语", "静物画", "可数；paint a still life", "He painted the same still life for a year.", "A still life teaches patience more than talent."],
+  ["abstract art", "/ˌæbstrækt ˈɑːt/", "名词短语", "抽象艺术", "不可数；understand/dislike abstract art", "Abstract art emptied the galleries and filled the arguments.", "She came to abstract art late."],
+  ["installation", "/ˌɪnstəˈleɪʃən/", "名词", "装置艺术作品", "可数；create a site-specific installation", "The installation filled the whole turbine hall.", "A site-specific installation cannot be sold on."],
+  ["folk art", "/ˌfəʊk ˈɑːt/", "名词短语", "民间艺术", "不可数；collect/study folk art", "Folk art was collected only when it had almost disappeared.", "Folk art here means painted carts and embroidered cloth."],
+  ["cultural heritage", "/ˌkʌltʃərəl ˈherɪtɪdʒ/", "名词短语", "文化遗产", "不可数；protect/destroy cultural heritage", "Cultural heritage was destroyed deliberately during the war.", "Protecting cultural heritage costs money every year, not once."],
+  ["intangible heritage", "/ɪnˌtændʒəbl ˈherɪtɪdʒ/", "名词短语", "非物质文化遗产", "不可数；safeguard intangible heritage", "Songs and crafts count as intangible heritage.", "Intangible heritage disappears when the last speaker dies."],
+  ["world heritage site", "/ˌwɜːld ˈherɪtɪdʒ saɪt/", "名词短语", "世界遗产地", "可数；designate a world heritage site", "The valley became a world heritage site in 2001.", "World heritage site status brought visitors and restrictions."],
+  ["monument", "/ˈmɒnjumənt/", "名词", "纪念碑；纪念性建筑", "可数；erect/preserve a monument", "The monument lists nine hundred names.", "A monument was erected where the chapel stood."],
+];
+
+export const CULTURE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "sculpture": ["这座雕塑在广场上矗立了四十年。", "她从事雕塑创作，而不是绘画。"],
+  "painting": ["这幅画在走廊里挂了几十年。", "修复这幅画时发现了第二个人物。"],
+  "portrait": ["她为这幅肖像画坐了四次。", "这幅肖像是唯一留存的她的相貌记录。"],
+  "landscape painting": ["这幅风景画描绘了水库建成前的山谷。", "风景画一度过时，后来又流行起来。"],
+  "still life": ["他用了一年时间画同一组静物。", "静物画更能培养耐心，而非天赋。"],
+  "abstract art": ["抽象艺术让画廊冷清，却引发了热烈争论。", "她很晚才开始接触抽象艺术。"],
+  "installation": ["这件装置作品占据了整个涡轮机大厅。", "为特定场地创作的装置作品无法转卖给其他场馆。"],
+  "folk art": ["民间艺术几乎消失时，人们才开始收藏它。", "这里所说的民间艺术包括彩绘马车和刺绣布料。"],
+  "cultural heritage": ["战争期间，文化遗产遭到蓄意破坏。", "保护文化遗产需要年复一年的投入，而不是一次投入。"],
+  "intangible heritage": ["歌谣和手工技艺都属于非物质文化遗产。", "最后一位会说这种语言的人去世时，非物质遗产也随之消失。"],
+  "world heritage site": ["这座山谷于 2001 年成为世界遗产地。", "世界遗产地的身份带来了游客，也带来了限制。"],
+  "monument": ["纪念碑上刻着九百个名字。", "原来的小教堂所在地竖起了一座纪念碑。"],
+};
