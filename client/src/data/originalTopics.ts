@@ -3210,3 +3210,29 @@ export const SCIENCE_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "open to question": ["这一解释仍值得商榷。", "他们的抽样方法仍有疑问。"],
   "a quantum leap": ["新探测器的灵敏度有了巨大飞跃。", "测序技术在短短十年里实现了巨大飞跃。"],
 };
+
+export const CITIES_FIRST_LESSON: OriginalTopicWord[] = [
+  ["urbanisation", "/ˌɜːbənaɪˈzeɪʃn/", "名词", "城市化", "不可数；rapid/unplanned urbanisation", "Rapid urbanisation outran the water network.", "Urbanisation slowed once the mills closed."],
+  ["urban sprawl", "/ˌɜːbən ˈsprɔːl/", "名词短语", "城市蔓延；无序扩张", "不可数；contain/unchecked urban sprawl", "Urban sprawl swallowed four villages.", "The green belt was drawn to contain urban sprawl."],
+  ["megacity", "/ˈmeɡəsɪti/", "名词", "超大城市", "可数；a sprawling megacity", "Three megacities sit on the same delta.", "A megacity cannot be governed from one office."],
+  ["metropolis", "/məˈtrɒpəlɪs/", "名词", "大都市", "可数；a bustling metropolis", "The port grew into a metropolis in fifty years.", "Everything in the province is decided in the metropolis."],
+  ["conurbation", "/ˌkɒnɜːˈbeɪʃn/", "名词", "城市群；连绵都市区", "可数；a single conurbation", "Five towns have merged into one conurbation.", "The conurbation stretches along the whole estuary."],
+  ["city centre", "/ˌsɪti ˈsentə/", "名词短语", "市中心", "可数；in/revive the city centre", "The city centre empties after seven in the evening.", "Reviving the city centre took a decade of small grants."],
+  ["central business district", "/ˌsentrəl ˈbɪznəs ˌdɪstrɪkt/", "名词短语", "中央商务区", "可数；缩写 CBD；work in the central business district", "The central business district holds half the office space.", "Nobody lives in the central business district."],
+  ["inner city", "/ˌɪnə ˈsɪti/", "名词短语", "旧城区；内城区", "通常单数；inner city schools/estates", "Inner city schools lost a third of their pupils.", "The inner city was rebuilt twice in one century."],
+  ["suburb", "/ˈsʌbɜːb/", "名词", "郊区", "可数；a leafy suburb；move to a suburb", "They moved to a suburb for the garden.", "The outer suburbs have no evening bus."],
+  ["outskirts", "/ˈaʊtskɜːts/", "名词", "市郊；城市边缘", "复数；on the outskirts of + 地点", "The depot sits on the outskirts of town.", "Cheap land on the outskirts attracted the warehouses."],
+];
+
+export const CITIES_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "urbanisation": ["快速城市化的发展超过了供水网络的承载能力。", "工厂关闭后，城市化进程放缓了。"],
+  "urban sprawl": ["无序城市扩张吞没了四个村庄。", "这条绿化带的规划是为了遏制城市蔓延。"],
+  "megacity": ["三座超大城市坐落在同一片三角洲。", "超大城市无法只靠一个办公室来治理。"],
+  "metropolis": ["这座港口在五十年间发展成了一座大都市。", "该省的一切事务都由这座大都市决定。"],
+  "conurbation": ["五座城镇已经连成了一个城市群。", "这片连绵都市区沿着整条河口延伸。"],
+  "city centre": ["晚上七点过后，市中心就空了。", "振兴市中心花了十年时间，并依靠许多小额补助。"],
+  "central business district": ["中央商务区集中了全市一半的办公空间。", "中央商务区没有人居住。"],
+  "inner city": ["旧城区的学校失去了三分之一的学生。", "内城区在一个世纪内重建了两次。"],
+  "suburb": ["他们为了有个花园搬到了郊区。", "远郊晚上没有公交车。"],
+  "outskirts": ["仓库位于城镇边缘。", "市郊的廉价土地吸引了这些仓储企业。"],
+};
