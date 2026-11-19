@@ -1000,3 +1000,41 @@ export const HEALTH_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "immunity": ["对某些毒株的免疫力会在一年内减弱。", "感染虽能产生免疫力，代价却高得多。"],
   "screening": ["筛查能在出现症状前发现大多数病例。", "受邀者中只有一半参加筛查。"],
 };
+
+export const HEALTH_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["balanced diet", "/ˌbælənst ˈdaɪət/", "名词短语", "均衡饮食", "可数；eat/maintain a balanced diet", "A balanced diet costs more in food deserts.", "She maintains a balanced diet on a tight budget."],
+  ["physical activity", "/ˌfɪzɪkl ækˈtɪvəti/", "名词短语", "身体活动；体力活动", "不可数；increase/moderate physical activity", "Thirty minutes of physical activity a day is enough.", "Physical activity falls sharply after the age of twelve."],
+  ["sedentary lifestyle", "/ˌsedntri ˈlaɪfstaɪl/", "名词短语", "久坐不动的生活方式", "可数；lead/avoid a sedentary lifestyle", "Office work encourages a sedentary lifestyle.", "A sedentary lifestyle harms the heart as much as smoking."],
+  ["life expectancy", "/ˈlaɪf ɪkˌspektənsi/", "名词短语", "预期寿命", "不可数；rise/gap in life expectancy", "Life expectancy rose by eleven years in a generation.", "The gap in life expectancy between districts is nine years."],
+  ["infant mortality", "/ˌɪnfənt mɔːˈtæləti/", "名词短语", "婴儿死亡率", "不可数；reduce infant mortality；infant mortality rate", "Infant mortality halved after the clinics opened.", "Clean delivery rooms cut infant mortality fastest."],
+  ["substance abuse", "/ˈsʌbstəns əˌbjuːs/", "名词短语", "物质滥用；药物和酒精滥用", "不可数；treat/tackle substance abuse", "Substance abuse is treated as illness, not crime, here.", "The centre treats substance abuse without charge."],
+  ["treatment", "/ˈtriːtmənt/", "名词", "治疗；疗法", "可数或不可数；receive/respond to treatment", "Treatment begins within an hour of admission.", "Some tumours respond to treatment immediately."],
+  ["medication", "/ˌmedɪˈkeɪʃn/", "名词", "药物；药物治疗", "可数或不可数；take/adjust medication", "She takes three medications every morning.", "The dose of medication was adjusted twice."],
+  ["prescription", "/prɪˈskrɪpʃn/", "名词", "处方；药方", "可数；write/collect a prescription", "The prescription lasts twenty-eight days.", "Repeat prescriptions can be collected without an appointment."],
+  ["dosage", "/ˈdəʊsɪdʒ/", "名词", "剂量；用药量", "可数或不可数；the correct dosage；exceed the dosage", "The dosage depends on body weight.", "Never exceed the stated dosage."],
+  ["surgery", "/ˈsɜːdʒəri/", "名词", "外科手术", "可数或不可数；undergo/major surgery", "She underwent surgery on both knees.", "Major surgery was avoided by early treatment."],
+  ["therapy", "/ˈθerəpi/", "名词", "治疗；疗法", "可数或不可数；undergo/talking therapy", "Talking therapy is as effective as medication for mild cases.", "He had therapy twice a week for a year."],
+  ["rehabilitation", "/ˌriːəˌbɪlɪˈteɪʃn/", "名词", "康复治疗；康复训练", "不可数；undergo a rehabilitation programme", "Rehabilitation takes longer than the operation itself.", "The ward has its own rehabilitation gym."],
+  ["recovery", "/rɪˈkʌvəri/", "名词", "康复；恢复", "可数或不可数；make a full recovery", "He made a full recovery within three months.", "Recovery is slower in older patients."],
+  ["antibiotic", "/ˌæntibaɪˈɒtɪk/", "名词", "抗生素", "常用复数；prescribe/overuse antibiotics", "Antibiotics do nothing for a viral infection.", "Overusing antibiotics breeds resistant bacteria."],
+  ["painkiller", "/ˈpeɪnkɪlə/", "名词", "止痛药", "可数；take/strong painkillers", "Strong painkillers are kept behind the counter.", "She took painkillers for a fortnight."],
+];
+
+export const HEALTH_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "balanced diet": ["在食物荒漠地区，均衡饮食的成本更高。", "她在预算紧张的情况下仍保持均衡饮食。"],
+  "physical activity": ["每天进行三十分钟身体活动就足够了。", "十二岁之后，身体活动量明显下降。"],
+  "sedentary lifestyle": ["办公室工作容易让人养成久坐的生活方式。", "久坐的生活方式对心脏的危害不亚于吸烟。"],
+  "life expectancy": ["一代人的时间里，预期寿命提高了十一年。", "不同地区之间的预期寿命相差九年。"],
+  "infant mortality": ["诊所开办后，婴儿死亡率减半。", "清洁的产房最有效地降低了婴儿死亡率。"],
+  "substance abuse": ["这里把物质滥用当作疾病，而不是犯罪来处理。", "这家中心免费治疗物质滥用问题。"],
+  "treatment": ["入院后一小时内开始治疗。", "有些肿瘤会立即对治疗产生反应。"],
+  "medication": ["她每天早上服用三种药物。", "药物剂量调整了两次。"],
+  "prescription": ["这张处方的有效期为二十八天。", "续方处方无需预约就可以领取。"],
+  "dosage": ["剂量取决于体重。", "绝不要超过标明的剂量。"],
+  "surgery": ["她双膝都接受了手术。", "由于及早治疗，避免了大手术。"],
+  "therapy": ["对轻症患者，谈话治疗与药物治疗一样有效。", "他一年来每周接受两次治疗。"],
+  "rehabilitation": ["康复所需时间比手术本身还长。", "这个病房有自己的康复训练室。"],
+  "recovery": ["他在三个月内完全康复。", "年长患者的恢复速度更慢。"],
+  "antibiotic": ["抗生素对病毒感染不起作用。", "滥用抗生素会催生耐药细菌。"],
+  "painkiller": ["强效止痛药存放在柜台后面。", "她服用了两周的止痛药。"],
+};
