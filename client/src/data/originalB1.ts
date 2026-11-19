@@ -1,4 +1,4 @@
-// B1 第 1–32 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
+// B1 第 1–34 课：词条、词性、英文例句按原站 CSV 核对，按原站每课词数和 CSV 顺序划分。
 // 中文释义与用法译自越南语字段；音标采用通用英式读法，尚待原站词卡逐张核对。
 import type { OriginalA2Word } from "./originalA2";
 
@@ -729,4 +729,65 @@ export const B1_THIRTY_SECOND_LESSON: OriginalA2Word[] = [
   ["tongue", "/tʌŋ/", "名词", "舌头；语言", "mother tongue = 母语；也指身体部位", "She burnt her tongue on the hot soup.", "Spanish is his mother tongue."],
   ["total", "/ˈtəʊtl/", "形容词", "总计；全部的", "in total = 总共；a total of + 数字 = 总计……", "The total cost of the trip was quite high.", "In total, we spent a week in Italy."],
   ["totally", "/ˈtəʊtəli/", "副词", "完全地；彻底地", "totally agree = 完全同意；近义词 completely", "I totally agree with your decision.", "The two brothers are totally different."],
+];
+
+export const B1_THIRTY_THIRD_LESSON: OriginalA2Word[] = [
+  ["trade", "/treɪd/", "名词", "贸易；交易", "trade with somebody = 与某人交易；trade something for something = 用某物换某物", "Trade between the two countries has grown quickly.", "He traded his old phone for a newer model."],
+  ["translate", "/trænzˈleɪt/", "动词", "翻译；译出", "translate something from one language into another = 把某物从一种语言译成另一种语言", "Can you translate this letter into English for me?", "The book has been translated into twenty languages."],
+  ["translation", "/trænzˈleɪʃn/", "名词", "翻译；译文", "a translation of something = 某物的译本", "This is a good translation of the original poem.", "She works as a translator and loves doing translation."],
+  ["treat", "/triːt/", "动词", "对待；治疗；请客", "treat somebody with respect = 尊重某人；treat an illness = 治疗疾病", "You should treat others the way you want to be treated.", "Doctors used the new drug to treat the disease."],
+  ["treatment", "/ˈtriːtmənt/", "名词", "治疗；待遇；处理方式", "medical treatment = 医疗；treatment of somebody = 对某人的待遇", "She is receiving treatment for a serious illness.", "The workers complained about their unfair treatment."],
+  ["trend", "/trend/", "名词", "趋势；潮流", "a trend towards something = 朝某方向发展的趋势", "There is a growing trend towards working from home.", "She always follows the latest fashion trends."],
+  ["trick", "/trɪk/", "名词", "窍门；诡计；欺骗", "play a trick on somebody = 捉弄某人；也可作动词", "He showed us a clever card trick.", "They tricked him into paying for everything."],
+  ["truth", "/truːθ/", "名词", "真相；事实", "tell the truth = 说实话；常用 the truth", "You should always tell the truth.", "Nobody knows the truth about what really happened."],
+  ["tube", "/tjuːb/", "名词", "管；软管；伦敦地铁", "a tube of something = 一管某物；by tube = 乘伦敦地铁", "He squeezed some cream from the tube.", "We took the tube to the city centre."],
+  ["typically", "/ˈtɪpɪkli/", "副词", "通常；典型地", "表示常见或典型的情形；近义词 usually", "Classes typically start at nine in the morning.", "Such behaviour is typically found in young children."],
+  ["tyre", "/ˈtaɪə/", "名词", "轮胎", "英式拼写；美式 tire；a flat tyre = 漏气的轮胎", "We had a flat tyre on the way home.", "He checked the tyres before the long drive."],
+  ["ugly", "/ˈʌɡli/", "形容词", "丑陋的；难看的", "反义词 beautiful、pretty；也可形容令人不快的局面", "The building was grey and ugly.", "The argument quickly turned ugly."],
+  ["unable", "/ʌnˈeɪbl/", "形容词", "不能的；无能力的", "be unable to do something = 无法做某事；比 can't 正式", "She was unable to attend the meeting because she was ill.", "He felt unable to answer the difficult question."],
+  ["uncomfortable", "/ʌnˈkʌmftəbl/", "形容词", "不舒服的；不自在的", "feel uncomfortable about something = 对某事感到不自在", "The chair was hard and uncomfortable.", "I felt uncomfortable when everyone stared at me."],
+  ["underwear", "/ˈʌndəweə/", "名词", "内衣；贴身衣物", "不可数名词；不用 underwears", "She packed some clean underwear for the trip.", "You can buy socks and underwear in that shop."],
+  ["unemployed", "/ˌʌnɪmˈplɔɪd/", "形容词", "失业的", "the unemployed = 失业者；反义词 employed", "He has been unemployed since the factory closed.", "The number of unemployed workers is rising."],
+  ["unemployment", "/ˌʌnɪmˈplɔɪmənt/", "名词", "失业；失业状况", "不可数名词；unemployment rate = 失业率", "Unemployment is a serious problem in the region.", "The government wants to reduce unemployment."],
+  ["unfair", "/ˌʌnˈfeə/", "形容词", "不公平的", "unfair to somebody = 对某人不公；反义词 fair", "It's unfair that she has to do all the work.", "The referee made an unfair decision."],
+  ["union", "/ˈjuːniən/", "名词", "工会；联盟", "trade union = 工会；the European Union = 欧洲联盟", "The workers joined a union to protect their rights.", "The two states formed a union many years ago."],
+  ["unless", "/ənˈles/", "连词", "除非；如果不", "unless + 从句 = if ... not；引出例外条件", "We will go for a walk unless it rains.", "You won't pass the exam unless you study harder."],
+  ["unlike", "/ˌʌnˈlaɪk/", "介词", "不像；与……不同", "介词；unlike somebody/something = 与某人／某物不同", "Unlike her sister, she hates sport.", "This phone is quite unlike the one I had before."],
+  ["unlikely", "/ʌnˈlaɪkli/", "形容词", "不太可能的", "it is unlikely that ... = ……不太可能；反义词 likely", "It's unlikely that he will arrive on time.", "She is unlikely to change her mind now."],
+  ["unnecessary", "/ʌnˈnesəsəri/", "形容词", "不必要的；多余的", "it is unnecessary to do something = 没必要做某事", "He made a lot of unnecessary mistakes.", "It's unnecessary to book a ticket in advance."],
+  ["unpleasant", "/ʌnˈpleznt/", "形容词", "令人不快的；讨厌的", "反义词 pleasant；可形容气味、经历或人", "There was an unpleasant smell in the kitchen.", "She had an unpleasant experience at the hotel."],
+  ["update", "/ˌʌpˈdeɪt/", "动词", "更新；最新消息", "update somebody on something = 向某人通报某事最新情况", "Please update your password every few months.", "I'll give you an update on the project tomorrow."],
+  ["upset", "/ʌpˈset/", "形容词", "难过的；使心烦", "be upset about something = 因某事难过；动词三态均为 upset", "She was really upset about losing her job.", "I didn't mean to upset you with my words."],
+  ["used", "/juːzd/", "形容词", "用过的；习惯的", "used cars = 二手车；be used to doing something = 习惯做某事", "They bought a used car to save money.", "I'm not used to getting up so early."],
+];
+
+export const B1_THIRTY_FOURTH_LESSON: OriginalA2Word[] = [
+  ["valuable", "/ˈvæljuəbl/", "形容词", "贵重的；宝贵的", "valuable advice = 宝贵的建议；也可指金钱价值高", "Her advice was very valuable to me.", "Keep your valuable items in the hotel safe."],
+  ["value", "/ˈvæljuː/", "名词", "价值；重要性", "good value for money = 物有所值；the value of something = 某物的价值", "The painting has great artistic value.", "This phone is good value for money."],
+  ["various", "/ˈveəriəs/", "形容词", "各种各样的；多种的", "置于复数名词前；与 several、different 意思相近", "The museum has objects from various countries.", "We discussed the problem for various reasons."],
+  ["version", "/ˈvɜːʃn/", "名词", "版本；说法", "a new version of something = 某物的新版本", "This is the latest version of the software.", "He told a different version of the story."],
+  ["victim", "/ˈvɪktɪm/", "名词", "受害者；牺牲者", "a victim of something = 某事的受害者；fall victim to = 成为……的受害者", "The flood left many victims without a home.", "She was a victim of an online scam."],
+  ["viewer", "/ˈvjuːə/", "名词", "观众；收看者", "指电视或视频观众；与 reader（读者）区分", "Millions of viewers watched the final match.", "The show is popular with young viewers."],
+  ["violent", "/ˈvaɪələnt/", "形容词", "暴力的；猛烈的", "a violent crime = 暴力犯罪；a violent storm = 猛烈的风暴", "The film contains some violent scenes.", "A violent storm hit the coast last night."],
+  ["volunteer", "/ˌvɒlənˈtɪə/", "名词", "志愿者；自愿做", "volunteer to do something = 自愿做某事", "She works as a volunteer at the local hospital.", "He volunteered to help clean up the beach."],
+  ["vote", "/vəʊt/", "名词", "投票；选票", "vote for/against = 投赞成／反对票；have the right to vote = 有投票权", "Each member has one vote at the meeting.", "Most people voted for the new plan."],
+  ["warn", "/wɔːn/", "动词", "警告；提醒", "warn somebody about/of something = 提醒某人注意某事", "The teacher warned us about the difficult test.", "She warned him not to drive too fast."],
+  ["warning", "/ˈwɔːnɪŋ/", "名词", "警告；预警", "a warning about something = 关于某事的警告；without warning = 毫无预警地", "The sign is a warning about the deep water.", "The storm arrived without any warning."],
+  ["waste", "/weɪst/", "名词", "浪费；废弃物", "waste time/money on something = 在某事上浪费时间／金钱", "Don't waste your money on things you don't need.", "The factory produces a lot of waste."],
+  ["weapon", "/ˈwepən/", "名词", "武器", "也可比喻应对某事的有力手段", "The police found a weapon at the scene.", "Knowledge is a powerful weapon against fear."],
+  ["weigh", "/weɪ/", "动词", "称重；重达", "weigh something = 称某物的重量；it weighs ... = 它重……", "Can you weigh these apples for me, please?", "The baby weighs about four kilograms."],
+  ["western", "/ˈwestən/", "形容词", "西方的；西部的", "western culture = 西方文化；指文化时可大写 Western", "Western countries often celebrate Christmas in December.", "They travelled to the western part of the island."],
+  ["whatever", "/wɒtˈevə/", "限定词", "无论什么；任何东西", "whatever you want = 你想要的任何东西；兼作限定词和代词", "You can order whatever you like from the menu.", "Whatever happens, I will always support you."],
+  ["whenever", "/wenˈevə/", "连词", "无论何时；每当", "whenever + 从句 = 每当或在任何时候", "Call me whenever you need help.", "Whenever it rains, the roads get very busy."],
+  ["whether", "/ˈweðə/", "连词", "是否；不管是否", "whether or not = 是否；常接在 ask、know、decide 后", "I'm not sure whether he will come or not.", "She asked me whether I liked the film."],
+  ["Wi-Fi", "/ˈwaɪfaɪ/", "名词", "无线网络", "connect to the Wi-Fi = 连接无线网络", "Is there free Wi-Fi in this café?", "The Wi-Fi is too slow to watch videos."],
+  ["wing", "/wɪŋ/", "名词", "翅膀；机翼；建筑侧翼", "the wing of a bird/plane = 鸟翼／机翼", "The bird spread its wings and flew away.", "We sat near the wing of the plane."],
+  ["within", "/wɪˈðɪn/", "介词", "在……之内；不超过", "within a week = 一周内；within the building = 建筑物内", "The doctor will see you within ten minutes.", "Everything you need is within walking distance."],
+  ["wonder", "/ˈwʌndə/", "动词", "想知道；奇迹", "wonder if/whether = 想知道是否；a wonder of the world = 世界奇观", "I wonder why she left so early.", "The pyramids are one of the wonders of the world."],
+  ["wool", "/wʊl/", "名词", "羊毛；毛线", "不可数名词；made of wool = 羊毛制成的", "This jumper is made of pure wool.", "Wool keeps you warm in cold weather."],
+  ["worldwide", "/ˌwɜːldˈwaɪd/", "形容词", "全世界的；在全世界", "a worldwide problem = 全球性问题；也可作副词", "The company has a worldwide reputation.", "The book has sold millions of copies worldwide."],
+  ["worth", "/wɜːθ/", "形容词", "值……；值得", "be worth + 金额 = 值……钱；be worth doing = 值得做", "The house is worth a lot of money now.", "This museum is really worth visiting."],
+  ["written", "/ˈrɪtn/", "形容词", "书面的；写成的", "a written test = 笔试；与 spoken/oral 相对", "You will need written permission from your parents.", "There is a written exam and a speaking exam."],
+  ["yard", "/jɑːd/", "名词", "院子；码（长度单位）", "back yard = 后院；一码约 0.91 米", "The children were playing in the back yard.", "The shop is just a few yards down the street."],
+  ["youth", "/juːθ/", "名词", "青年时期；青年人", "in your youth = 年轻时；the youth of today = 当今青年", "He travelled a lot in his youth.", "The club offers many activities for local youth."],
 ];
