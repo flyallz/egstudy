@@ -2380,3 +2380,41 @@ export const ECONOMY_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "privatisation": ["供水私有化仍存在争议。", "私有化带来了现金，也失去了控制权。"],
   "nationalisation": ["工会呼吁将电网国有化。", "第二次救助之后实施了国有化。"],
 };
+
+export const ECONOMY_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["state-owned enterprise", "/ˌsteɪt əʊnd ˈentəpraɪz/", "名词短语", "国有企业", "可数；reform a state-owned enterprise；a loss-making state-owned enterprise", "Loss-making state-owned enterprises were merged.", "The port is still a state-owned enterprise."],
+  ["private sector", "/ˌpraɪvət ˈsektə/", "名词短语", "私营部门", "通常单数；in/work in the private sector", "Most new jobs are in the private sector.", "She moved to the private sector for the pay."],
+  ["public sector", "/ˌpʌblɪk ˈsektə/", "名词短语", "公共部门", "通常单数；public sector pay/workers", "Public sector pay was frozen for four years.", "The public sector employs a fifth of the workforce."],
+  ["consumer spending", "/kənˌsjuːmə ˈspendɪŋ/", "名词短语", "消费者支出；消费支出", "不可数；consumer spending rises/weakens", "Consumer spending weakened before the layoffs began.", "Christmas consumer spending beat every forecast."],
+  ["consumer confidence", "/kənˌsjuːmə ˈkɒnfɪdəns/", "名词短语", "消费者信心", "不可数；restore/dent consumer confidence", "Consumer confidence fell to a ten-year low.", "Nothing dents consumer confidence like a rate rise."],
+  ["purchasing power", "/ˈpɜːtʃəsɪŋ ˌpaʊə/", "名词短语", "购买力", "不可数；lose/erode purchasing power", "Wages rose but purchasing power fell.", "Inflation eroded the purchasing power of pensions."],
+  ["cost of living", "/ˌkɒst əv ˈlɪvɪŋ/", "名词短语", "生活成本；生活费用", "不可数；the rising cost of living", "The rising cost of living emptied the restaurants.", "Cost of living differs hugely between the two cities."],
+  ["price index", "/ˈpraɪs ˌɪndeks/", "名词短语", "价格指数", "可数；the consumer price index", "The consumer price index rose for the ninth month.", "Housing is weighted oddly in the price index."],
+  ["price war", "/ˈpraɪs wɔː/", "名词短语", "价格战", "可数；start/be locked in a price war", "Two airlines were locked in a price war.", "The price war destroyed both margins."],
+  ["profit margin", "/ˈprɒfɪt ˌmɑːdʒɪn/", "名词短语", "利润率；利润空间", "可数；a thin profit margin；squeeze a profit margin", "Profit margins in grocery are famously thin.", "Energy costs squeezed the profit margin to nothing."],
+  ["revenue", "/ˈrevənjuː/", "名词", "收入；营业收入", "可数或不可数；generate revenue；annual revenue", "Advertising generates most of the revenue.", "Annual revenue passed a billion in 2021."],
+  ["overheads", "/ˈəʊvəhedz/", "名词", "间接费用；日常运营开支", "复数；cut/high overheads", "High overheads closed the city branch.", "Working from home cut overheads sharply."],
+  ["break-even point", "/ˌbreɪk ˈiːvn pɔɪnt/", "名词短语", "盈亏平衡点", "可数；reach/pass the break-even point", "The service reached its break-even point in year three.", "They passed the break-even point before the grant ended."],
+  ["bankruptcy", "/ˈbæŋkrʌptsi/", "名词", "破产", "可数或不可数；file for/face bankruptcy", "The chain filed for bankruptcy in August.", "Two suppliers face bankruptcy because of the delay."],
+  ["insolvency", "/ɪnˈsɒlvənsi/", "名词", "资不抵债；无力偿债", "可数或不可数；insolvency proceedings；trading while insolvent", "The firm traded for months in clear insolvency.", "Insolvency proceedings began in October."],
+  ["liquidation", "/ˌlɪkwɪˈdeɪʃn/", "名词", "清算；企业清盘", "不可数；go into liquidation", "The builder went into liquidation owing wages.", "Liquidation returned nine pence in the pound."],
+];
+
+export const ECONOMY_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "state-owned enterprise": ["亏损的国有企业被合并了。", "这座港口仍由一家国有企业运营。"],
+  "private sector": ["大多数新增工作岗位都在私营部门。", "她为了更高的薪酬转到了私营部门。"],
+  "public sector": ["公共部门的工资被冻结了四年。", "公共部门雇用了五分之一的劳动力。"],
+  "consumer spending": ["裁员开始前，消费者支出就已走弱。", "圣诞节期间的消费支出超出了所有预测。"],
+  "consumer confidence": ["消费者信心跌至十年来的最低点。", "没有什么比加息更能打击消费者信心。"],
+  "purchasing power": ["工资上涨了，购买力却下降了。", "通货膨胀削弱了养老金的购买力。"],
+  "cost of living": ["不断上涨的生活成本使餐馆门可罗雀。", "这两座城市的生活成本差异很大。"],
+  "price index": ["居民消费价格指数连续第九个月上涨。", "住房在价格指数中的权重设置得有些奇怪。"],
+  "price war": ["两家航空公司陷入了价格战。", "这场价格战吞噬了双方的利润空间。"],
+  "profit margin": ["杂货零售业的利润率出了名地低。", "能源成本把利润空间挤压得所剩无几。"],
+  "revenue": ["广告贡献了大部分收入。", "2021 年的年度营业收入超过了十亿。"],
+  "overheads": ["高昂的日常运营开支使市中心的分店关门了。", "在家办公大幅削减了间接费用。"],
+  "break-even point": ["这项服务在第三年达到了盈亏平衡点。", "补助结束前，他们就已越过了盈亏平衡点。"],
+  "bankruptcy": ["这家连锁企业于八月申请破产。", "由于这次延误，两家供应商面临破产。"],
+  "insolvency": ["这家公司在明显无力偿债的情况下仍经营了数月。", "破产清算程序于十月启动。"],
+  "liquidation": ["这家建筑公司拖欠工资，随后进入清算程序。", "清算后，每欠一英镑只偿还了九便士。"],
+};
