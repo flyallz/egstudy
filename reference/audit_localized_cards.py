@@ -67,4 +67,4 @@ check("B1", "client/src/data/originalB1.ts", "reference/original-cefr-csv/cefr-b
 check("B2", "client/src/data/originalB2.ts", "reference/original-cefr-csv/cefr-b2.csv", "B2", 27)
 check("C1", "client/src/data/originalC1.ts", "reference/original-cefr-csv/cefr-c1.csv", "C1", 65)
 check("C2", "client/src/data/originalC2.ts", "reference/original-cefr-csv/cefr-c2.csv", "C2", 36)
-check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 5)
+check("Education", "client/src/data/originalTopics.ts", "reference/original-topic-csv/education-learning.csv", "EDUCATION", 6)
