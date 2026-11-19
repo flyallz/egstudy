@@ -3670,3 +3670,29 @@ export const CITIES_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "street party": ["小巷关闭时，邻居们办了一场街区聚会。", "那场街头聚会需要许可证和两道护栏。"],
   "in the middle of nowhere": ["这片住宅区建在偏僻之地。", "建在荒郊野外的商务园区需要停车场。"],
 };
+
+export const TRANSPORT_FIRST_LESSON: OriginalTopicWord[] = [
+  ["public transport", "/ˌpʌblɪk ˈtrænspɔːt/", "名词短语", "公共交通", "不可数；use/subsidise public transport", "Public transport carries two thirds of commuters here.", "Public transport outside the city stops at seven."],
+  ["mass transit", "/ˌmæs ˈtrænzɪt/", "名词短语", "大运量公共交通", "不可数；build a mass transit system", "Mass transit was promised in three successive manifestos.", "The mass transit system opened eleven years late."],
+  ["metro system", "/ˈmetrəʊ ˌsɪstəm/", "名词短语", "地铁系统", "可数；extend/build a metro system", "The metro system runs on four lines.", "Extending the metro system cost double the estimate."],
+  ["underground", "/ˈʌndəɡraʊnd/", "名词", "地铁", "通常单数；take the underground", "She takes the underground two stops.", "The underground closes before the night shift ends."],
+  ["tram", "/træm/", "名词", "有轨电车", "可数；catch a tram", "Trams returned to the city in 2004.", "The tram runs every six minutes."],
+  ["light rail", "/ˌlaɪt ˈreɪl/", "名词短语", "轻轨交通", "不可数；a light rail line", "A light rail line replaced the bus corridor.", "Light rail suits medium-sized cities best."],
+  ["commuter train", "/kəˈmjuːtə treɪn/", "名词短语", "通勤列车；市郊列车", "可数；catch a packed commuter train", "The commuter train is standing room only by the third stop.", "Commuter trains run half-hourly off-peak."],
+  ["high-speed rail", "/ˌhaɪ spiːd ˈreɪl/", "名词短语", "高速铁路", "不可数；a high-speed rail link", "High-speed rail cut the journey to two hours.", "The high-speed rail link bypasses every town between."],
+  ["intercity service", "/ˌɪntəˈsɪti ˌsɜːvɪs/", "名词短语", "城际列车服务", "可数；run an intercity service", "The intercity service calls at four stations only.", "Intercity services were cut to hourly."],
+  ["bus route", "/ˈbʌs ruːt/", "名词短语", "公交线路", "可数；withdraw/reinstate a bus route", "The bus route was withdrawn without consultation.", "Two bus routes cross at the market."],
+];
+
+export const TRANSPORT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "public transport": ["这里三分之二的通勤者乘坐公共交通。", "市区以外的公共交通七点就停运。"],
+  "mass transit": ["连续三份竞选纲领都承诺建设大运量公共交通。", "大运量交通系统比计划晚了十一年才开通。"],
+  "metro system": ["这套地铁系统有四条线路。", "扩建地铁系统的费用达到了估算的两倍。"],
+  "underground": ["她乘地铁坐两站。", "地铁在夜班结束前就停运了。"],
+  "tram": ["有轨电车于 2004 年重返这座城市。", "这趟有轨电车每六分钟一班。"],
+  "light rail": ["一条轻轨线路取代了公交走廊。", "轻轨最适合中等规模的城市。"],
+  "commuter train": ["通勤列车到第三站时就只剩站位。", "市郊列车在非高峰时段每半小时一班。"],
+  "high-speed rail": ["高速铁路把行程缩短到了两小时。", "这条高铁线路绕过了中间的每座城镇。"],
+  "intercity service": ["这班城际列车只停四站。", "城际列车服务被削减为每小时一班。"],
+  "bus route": ["这条公交线路未经征询意见就被取消了。", "两条公交线路在市场交会。"],
+};
