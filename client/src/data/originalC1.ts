@@ -166,3 +166,39 @@ export const C1_TENTH_LESSON: OriginalA2Word[] = [
   ["authorize", "/ˈɔːθəraɪz/", "动词", "授权；批准", "authorize somebody to do something = 授权某人做某事；英式拼法 authorise", "Only the branch manager can authorize a refund of this size.", "The board finally authorized the construction of a second factory."],
   ["cargo", "/ˈkɑːɡəʊ/", "名词", "货物；船货", "cargo ship = 货船；a cargo of grain = 一批谷物；区别于个人行李 luggage", "The vessel was carrying a cargo of grain bound for North Africa.", "Customs officers inspected the entire cargo for contraband."],
 ];
+
+export const C1_ELEVENTH_LESSON: OriginalA2Word[] = [
+  ["concede", "/kənˈsiːd/", "动词", "勉强承认；让步；认输", "concede that = 承认；concede defeat = 认输；体育中 concede a goal = 丢球", "Most economists now concede that the forecast was far too optimistic.", "After the recount, the candidate finally conceded defeat."],
+  ["crawl", "/krɔːl/", "动词", "爬行；缓慢移动", "crawl along = 缓慢前行；traffic crawls = 车流缓慢行进", "The baby had just learned to crawl across the living room floor.", "Traffic crawled through the flooded streets at little more than walking pace."],
+  ["auto", "/ˈɔːtəʊ/", "名词", "汽车", "美式口语；auto industry = 汽车工业；英式英语多用 car", "Thousands of workers in the auto industry lost their jobs that year.", "He runs a small shop selling second-hand auto parts."],
+  ["carriage", "/ˈkærɪdʒ/", "名词", "火车客车厢；马车", "railway carriage = 火车客车厢；horse-drawn carriage = 马车", "We found two empty seats in the rear carriage of the train.", "A splendid carriage drawn by four horses pulled up at the gate."],
+  ["conceive", "/kənˈsiːv/", "动词", "想象；构思；怀孕", "conceive of something = 想象某事；conceive a plan = 构思计划", "I honestly cannot conceive of a world without books.", "The project was originally conceived as a small community garden."],
+  ["creator", "/kriˈeɪtə/", "名词", "创作者；创造者", "content creator = 内容创作者；the Creator 大写时可指造物主", "The show's creator insisted on writing every single episode herself.", "Social media has turned millions of ordinary users into content creators."],
+  ["autonomy", "/ɔːˈtɒnəmi/", "名词", "自主权；自治权", "grant autonomy = 赋予自治权；personal autonomy = 个人自主权", "The region was granted greater autonomy under the new constitution.", "Teachers were given much more autonomy over how they ran their classes."],
+  ["carve", "/kɑːv/", "动词", "雕刻；切肉；开创", "carve something from stone = 用石头雕刻；carve out a career = 开创事业", "The sculptor carves intricate figures from solid blocks of marble.", "She carved a successful career for herself in a male-dominated field."],
+  ["concession", "/kənˈseʃn/", "名词", "让步；特许经营权；优惠", "make a concession = 作出让步；concessions 也可指优惠票", "Neither side was willing to make the first concession.", "The union won several important concessions on working hours."],
+  ["credibility", "/ˌkredəˈbɪləti/", "名词", "可信度；信誉", "lose credibility = 失去公信力；scientific credibility = 科学可信度", "The scandal badly damaged the minister's credibility.", "Citing unreliable sources will only undermine your credibility."],
+  ["availability", "/əˌveɪləˈbɪləti/", "名词", "可获得性；有空", "subject to availability = 视供应情况而定；check somebody’s availability = 确认某人是否有空", "The wider availability of broadband has transformed rural businesses.", "Please confirm your availability for a meeting sometime next week."],
+  ["casino", "/kəˈsiːnəʊ/", "名词", "赌场", "an online casino = 在线赌场；复数 casinos", "They spent the entire evening at a glittering casino on the seafront.", "The city's economy depends heavily on its casinos and luxury hotels."],
+  ["condemn", "/kənˈdem/", "动词", "谴责；判刑；宣布不适用", "condemn an attack = 谴责袭击；condemn somebody to death = 判处死刑", "World leaders were quick to condemn the attack on the embassy.", "The old factory was condemned as unsafe and later demolished."],
+  ["credible", "/ˈkredəbl/", "形容词", "可信的；有说服力的", "a credible witness = 可信的证人；a credible alternative = 可行的替代方案", "The prosecution failed to produce a single credible witness.", "Voters are clearly looking for a credible alternative to the current government."],
+  ["await", "/əˈweɪt/", "动词", "等待；将会发生在……身上", "await something = 等待某事；不接 for；a surprise awaits somebody = 惊喜正等待某人", "Investors anxiously await the central bank's decision on interest rates.", "A warm welcome awaited them at the tiny mountain inn."],
+];
+
+export const C1_TWELFTH_LESSON: OriginalA2Word[] = [
+  ["casualty", "/ˈkæʒuəlti/", "名词", "伤亡者；牺牲品", "heavy casualties = 重大伤亡；the first casualty = 首个牺牲品", "The earthquake caused hundreds of casualties across the province.", "Privacy is often the first casualty of new surveillance laws."],
+  ["confess", "/kənˈfes/", "动词", "坦白；承认；忏悔", "confess to doing something = 承认做过某事；confess that = 坦言", "He eventually confessed to taking the money from the safe.", "She confessed that she had never actually read the book."],
+  ["creep", "/kriːp/", "动词", "悄悄移动；逐渐蔓延", "creep in = 悄然出现；过去式 crept；creep up on somebody = 悄悄靠近某人", "Doubt began creeping into her mind as the silent hours passed.", "The cat creeps silently along the top of the garden fence."],
+  ["awkward", "/ˈɔːkwəd/", "形容词", "尴尬的；难处理的；笨拙的", "an awkward silence = 尴尬的沉默；an awkward situation = 棘手处境", "There was an awkward silence after his tactless remark.", "She felt awkward being the only stranger at the whole party."],
+  ["catalogue", "/ˈkætəlɒɡ/", "名词", "目录；一连串问题", "a catalogue of errors = 一连串错误；美式拼法 catalog；也可作动词", "The gallery published a lavish catalogue to accompany the exhibition.", "The inquiry uncovered a shocking catalogue of safety failures."],
+  ["confession", "/kənˈfeʃn/", "名词", "供认；坦白；忏悔", "make a confession = 作出供认；a full confession = 全面供认", "The police obtained a full confession within hours of the arrest.", "His sudden confession came as a complete shock to his family."],
+  ["critique", "/krɪˈtiːk/", "名词", "评论；批判性分析", "a critique of something = 对某物的批评性分析；也可作动词", "The journal published a detailed critique of the government's housing policy.", "Her essay offers a thoughtful critique of modern consumer culture."],
+  ["backdrop", "/ˈbækdrɒp/", "名词", "背景幕布；背景情况", "against a backdrop of = 在……背景下；stage backdrop = 舞台背景", "The wedding photos were taken against a backdrop of snow-capped mountains.", "The talks took place against a backdrop of growing public anger."],
+  ["cater", "/ˈkeɪtə/", "动词", "承办餐饮；迎合需求", "cater for or to somebody = 满足某人需求；cater a party = 承办聚会餐饮", "The resort caters mainly to wealthy foreign tourists.", "This magazine caters for readers interested in classic cars."],
+  ["configuration", "/kənˌfɪɡəˈreɪʃn/", "名词", "配置；排列方式", "default configuration = 默认配置；动词 configure", "Changing the network configuration finally solved the connection problem.", "The seats can be arranged in several different configurations."],
+  ["crown", "/kraʊn/", "名词", "王冠；王权；顶部；牙冠", "the Crown = 君主或王权；the crown of the head = 头顶；也可作动词", "The ancient crown was studded with rubies and sapphires.", "The dentist fitted a new crown over the badly broken tooth."],
+  ["backing", "/ˈbækɪŋ/", "名词", "支持；资助；衬底", "financial backing = 资金支持；have the backing of somebody = 得到某人支持", "The start-up secured financial backing from several major investors.", "The proposal has the full backing of the city council."],
+  ["cattle", "/ˈkætl/", "名词", "牛；家畜", "集合名词，接复数动词；a head of cattle = 一头牛；不说 a cattle", "The farmer drove his cattle into the barn before the storm broke.", "Thousands of cattle graze freely on these open plains."],
+  ["confine", "/kənˈfaɪn/", "动词", "限制；禁闭", "confine something to something = 将某事限制在某范围；be confined to bed = 卧床不起", "Please confine your comments strictly to the topic under discussion.", "For several weeks the illness confined him to his bed."],
+  ["crude", "/kruːd/", "形容词", "粗糙的；未经提炼的；粗俗的", "crude oil = 原油；a crude estimate = 粗略估算；crude joke = 粗俗笑话", "The price of crude oil fell sharply during the last quarter.", "They built a crude shelter out of branches and leaves."],
+];
