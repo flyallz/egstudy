@@ -3236,3 +3236,33 @@ export const CITIES_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "suburb": ["他们为了有个花园搬到了郊区。", "远郊晚上没有公交车。"],
   "outskirts": ["仓库位于城镇边缘。", "市郊的廉价土地吸引了这些仓储企业。"],
 };
+
+export const CITIES_SECOND_LESSON: OriginalTopicWord[] = [
+  ["commuter belt", "/kəˈmjuːtə belt/", "名词短语", "通勤带；城市周边通勤地区", "通常单数；live in the commuter belt", "House prices in the commuter belt doubled.", "The commuter belt now reaches ninety kilometres out."],
+  ["satellite town", "/ˈsætəlaɪt taʊn/", "名词短语", "卫星城", "可数；build a planned satellite town", "Three satellite towns were built after the war.", "The satellite town has houses but no jobs."],
+  ["shanty town", "/ˈʃænti taʊn/", "名词短语", "棚户区；贫民窟", "可数；a sprawling shanty town", "A shanty town grew along the railway embankment.", "The shanty town was cleared without rehousing anyone."],
+  ["informal settlement", "/ɪnˌfɔːml ˈsetlmənt/", "名词短语", "非正规住区；自发形成的社区", "可数；upgrade an informal settlement", "Upgrading the informal settlement began with drainage.", "A fifth of the city lives in informal settlements."],
+  ["gentrification", "/ˌdʒentrɪfɪˈkeɪʃn/", "名词", "士绅化；老城区高档化", "不可数；resist/rapid gentrification", "Gentrification priced out the families who stayed through the bad years.", "The market resisted gentrification longer than the side streets."],
+  ["urban regeneration", "/ˌɜːbən rɪˌdʒenəˈreɪʃn/", "名词短语", "城市更新；旧城再生", "不可数；fund an urban regeneration scheme", "Urban regeneration brought a cinema and little else.", "The scheme is urban regeneration in name only."],
+  ["redevelopment", "/ˌriːdɪˈveləpmənt/", "名词", "重新开发；改建", "可数或不可数；approve the redevelopment of + 地点", "The redevelopment of the docks took twenty years.", "Redevelopment was approved despite four hundred objections."],
+  ["derelict land", "/ˌderəlɪkt ˈlænd/", "名词短语", "荒废土地；废弃地", "不可数；reclaim derelict land", "Derelict land along the canal became allotments.", "Reclaiming derelict land costs more than building on fields."],
+  ["brownfield site", "/ˈbraʊnfiːld saɪt/", "名词短语", "棕地；曾开发过的用地", "可数；build on/clean up a brownfield site", "The flats were built on a brownfield site.", "Cleaning up the brownfield site took two summers."],
+  ["greenfield site", "/ˈɡriːnfiːld saɪt/", "名词短语", "绿地；尚未开发的用地", "可数；develop a greenfield site", "Developers prefer a greenfield site to a cleared factory.", "The hospital was placed on a greenfield site outside town."],
+  ["civic pride", "/ˌsɪvɪk ˈpraɪd/", "名词短语", "市民自豪感", "不可数；restore civic pride；a source of civic pride", "The restored baths became a source of civic pride.", "Civic pride survived the closures better than the buildings did."],
+  ["zoning", "/ˈzəʊnɪŋ/", "名词", "土地用途分区；分区规划", "不可数；strict/relax zoning", "Strict zoning separated homes from workshops.", "Relaxed zoning let cafés open among the flats."],
+];
+
+export const CITIES_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "commuter belt": ["通勤圈内的房价翻了一番。", "如今通勤圈已向外延伸九十公里。"],
+  "satellite town": ["战后建起了三座卫星城。", "这座卫星城有住房，却没有工作岗位。"],
+  "shanty town": ["铁路路堤旁形成了一片棚户区。", "这片棚户区被清拆了，却没有给任何人安排新住处。"],
+  "informal settlement": ["改造这片非正规住区从排水工程开始。", "这座城市五分之一的人住在非正规住区。"],
+  "gentrification": ["老城区高档化使那些熬过艰难岁月的家庭也负担不起当地生活。", "市场区域抵抗士绅化的时间比周边小街更久。"],
+  "urban regeneration": ["城市更新带来了一家电影院，除此之外几乎没有别的。", "这项计划只是名义上的城市更新。"],
+  "redevelopment": ["码头区的重新开发花了二十年。", "尽管有四百份反对意见，改建计划仍获批准。"],
+  "derelict land": ["运河旁的废弃地变成了市民菜园。", "再利用废弃地的成本高于在农田上建设。"],
+  "brownfield site": ["这些公寓建在一块棕地上。", "清理这块棕地花了两个夏天。"],
+  "greenfield site": ["开发商更喜欢未经开发的绿地，而不是清理过的旧工厂地块。", "医院建在城外一块尚未开发的土地上。"],
+  "civic pride": ["修复后的公共浴场成了市民自豪感的来源。", "企业关门后，市民的自豪感比建筑物保存得更久。"],
+  "zoning": ["严格的分区规划将住宅与工场隔开。", "放宽分区规定后，公寓之间也能开咖啡馆了。"],
+};
