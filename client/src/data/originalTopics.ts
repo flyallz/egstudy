@@ -910,3 +910,29 @@ export const WORK_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> =
   "a baptism of fire": ["他的第一班就是一次严峻的考验。", "她在投诉团队经历了一场真正的考验。"],
   "hit the ground running": ["入职第一周，他就迅速进入了工作状态。", "良好的交接能让继任者马上开展工作。"],
 };
+
+export const HEALTH_FIRST_LESSON: OriginalTopicWord[] = [
+  ["public health", "/ˌpʌblɪk ˈhelθ/", "名词短语", "公共卫生", "不可数；a public health campaign/crisis", "Public health improved faster than medicine in the last century.", "Clean water is the oldest public health measure."],
+  ["healthcare system", "/ˈhelθkeə ˌsɪstəm/", "名词短语", "医疗卫生体系", "可数；fund/overload a healthcare system", "The healthcare system was overloaded within a fortnight.", "No healthcare system can absorb unlimited demand."],
+  ["primary care", "/ˌpraɪməri ˈkeə/", "名词短语", "初级医疗服务；基层医疗", "不可数；strengthen/access primary care", "Strong primary care keeps patients out of hospital.", "Rural districts have one primary care centre each."],
+  ["hospital admission", "/ˈhɒspɪtl ədˌmɪʃn/", "名词短语", "住院；入院病例", "可数；reduce avoidable hospital admissions", "Winter hospital admissions doubled in a week.", "Half of these admissions were avoidable."],
+  ["waiting list", "/ˈweɪtɪŋ lɪst/", "名词短语", "候诊名单；治疗等候名单", "可数；join/clear a waiting list", "The waiting list for hip surgery runs to two years.", "Extra theatres cleared the waiting list by spring."],
+  ["health insurance", "/ˈhelθ ɪnˌʃʊərəns/", "名词短语", "医疗保险", "不可数；take out/be covered by health insurance", "Health insurance covers eighty per cent of the bill.", "Informal workers rarely take out health insurance."],
+  ["medical record", "/ˈmedɪkl ˌrekɔːd/", "名词短语", "病历；医疗记录", "可数；access/share a medical record", "Doctors can now read a medical record from any clinic.", "Medical records were lost in the flood."],
+  ["general practitioner", "/ˌdʒenrəl prækˈtɪʃənə/", "名词短语", "全科医生", "可数，缩写 GP；register with/see a general practitioner", "Every household registers with a general practitioner.", "She saw her general practitioner three times before referral."],
+  ["specialist referral", "/ˈspeʃəlɪst rɪˌfɜːrəl/", "名词短语", "专科转诊；专科转诊单", "可数；need/wait for a specialist referral", "A specialist referral takes six weeks on average.", "He needed a specialist referral before any scan."],
+  ["emergency department", "/ɪˈmɜːdʒənsi dɪˌpɑːtmənt/", "名词短语", "急诊科", "可数；attend/overcrowd the emergency department", "The emergency department treats four hundred people a day.", "Minor injuries overcrowd the emergency department."],
+];
+
+export const HEALTH_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "public health": ["上个世纪，公共卫生的改善速度超过了医学的发展。", "清洁饮水是最早的公共卫生措施。"],
+  "healthcare system": ["不到两周，医疗卫生体系就不堪重负。", "没有任何医疗卫生体系能承受无限的需求。"],
+  "primary care": ["健全的基层医疗服务能减少患者住院。", "每个乡村地区都各有一家基层医疗中心。"],
+  "hospital admission": ["冬季住院人数在一周内翻了一番。", "这些入院病例有一半本可以避免。"],
+  "waiting list": ["髋关节手术的等候时间长达两年。", "增加手术室后，到春季就消化了等候名单。"],
+  "health insurance": ["医疗保险报销百分之八十的费用。", "非正规就业人员很少购买医疗保险。"],
+  "medical record": ["医生现在可以读取任一家诊所的病历。", "洪水中，病历遗失了。"],
+  "general practitioner": ["每户家庭都要登记一名全科医生。", "转诊前，她见了全科医生三次。"],
+  "specialist referral": ["获得专科转诊平均需要六周。", "他做任何扫描检查前都需要专科转诊单。"],
+  "emergency department": ["急诊科每天救治四百人。", "轻微伤患者使急诊科人满为患。"],
+};
