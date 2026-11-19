@@ -5050,3 +5050,29 @@ export const GOVERNMENT_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "in the public eye": ["部长们生活在公众视线中，却对此抱怨。", "这项调查使该部门受到公众关注。"],
   "pass the buck": ["每个部门都把责任推给下一个部门。", "会议纪要一公布，就没人能再推卸责任。"],
 };
+
+export const MEDIA_FIRST_LESSON: OriginalTopicWord[] = [
+  ["mass media", "/ˌmæs ˈmiːdiə/", "名词短语", "大众传媒", "意义上为复数；the mass media report", "The mass media reached every household by 1960.", "Politicians court the mass media and resent it."],
+  ["the press", "/ðə ˈpres/", "名词短语", "新闻界；报刊媒体", "不可数；brief/attack the press", "The press was briefed before the committee was.", "A free press irritates every government in turn."],
+  ["print media", "/ˌprɪnt ˈmiːdiə/", "名词短语", "印刷媒体；报刊", "不可数；print media declines", "Print media lost two thirds of its advertising.", "Print media still sets the agenda for the broadcasters."],
+  ["broadcast media", "/ˈbrɔːdkɑːst ˌmiːdiə/", "名词短语", "广播电视媒体", "不可数；broadcast media regulation", "Broadcast media is regulated far more tightly than print.", "Broadcast media reaches the people who never buy a paper."],
+  ["news outlet", "/ˈnjuːz ˌaʊtlet/", "名词短语", "新闻机构；新闻媒体", "可数；a local/independent news outlet", "Nine news outlets carried the same agency copy.", "The last independent news outlet in the county closed."],
+  ["tabloid", "/ˈtæblɔɪd/", "名词", "小报；通俗报纸", "可数；a tabloid splashes", "The tabloids ran the photograph for a week.", "A tabloid headline can outlive a court judgment."],
+  ["broadsheet", "/ˈbrɔːdʃiːt/", "名词", "大报；严肃报纸", "可数；a broadsheet reports", "The broadsheets covered the inquiry in detail.", "Every broadsheet has shrunk to tabloid size."],
+  ["local paper", "/ˌləʊkl ˈpeɪpə/", "名词短语", "地方报纸", "可数；read/close a local paper", "The local paper is the only record of council meetings.", "When the local paper closed, nobody reported the planning hearings."],
+  ["front page", "/ˌfrʌnt ˈpeɪdʒ/", "名词短语", "报纸头版", "可数；make/clear the front page", "The story made the front page twice.", "They cleared the front page for the verdict."],
+  ["headline", "/ˈhedlaɪn/", "名词", "新闻标题", "可数；write a misleading headline", "The headline said more than the article could support.", "Headlines are written by people who did not report the story."],
+];
+
+export const MEDIA_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "mass media": ["到 1960 年，大众传媒已经覆盖了每个家庭。", "政客一边讨好大众传媒，一边对它心怀不满。"],
+  "the press": ["新闻界比委员会更早得到了情况通报。", "自由的新闻界总会依次惹恼每届政府。"],
+  "print media": ["印刷媒体失去了三分之二的广告收入。", "报刊媒体仍在为广播电视设定报道议程。"],
+  "broadcast media": ["广播电视媒体受到的监管远比印刷媒体严格。", "广播电视媒体能接触到从不买报纸的人。"],
+  "news outlet": ["九家新闻机构刊载了同一篇通讯社稿件。", "该郡最后一家独立新闻机构关闭了。"],
+  "tabloid": ["这些小报连续一周刊登了这张照片。", "小报标题的影响可能比法庭判决还持久。"],
+  "broadsheet": ["严肃报纸详细报道了这项调查。", "每份大报的版面都缩到了小报尺寸。"],
+  "local paper": ["这份地方报纸是地方议会会议的唯一记录来源。", "地方报纸停刊后，再没人报道规划听证会。"],
+  "front page": ["这则新闻两次登上头版。", "他们把头版腾出来报道判决。"],
+  "headline": ["标题所表达的内容超出了文章能够支持的范围。", "标题往往由没有亲自报道这则新闻的人撰写。"],
+};
