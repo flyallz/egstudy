@@ -9,7 +9,7 @@ questions = [unit["pool"][i] for i in unit["levels"]["easy"]]
 prompts = [
     "选择表示‘独自生活’的正确短语。", "选择正确的句子。", "Help ___ to some cake.",
     "Please make ___ at home, everyone.", "选择正确的句子。", "She was cooking alone and hurt ___.",
-    "I taught ___ to play the guitar.", "Mai 在车站见到了朋友 Hoa，并向她挥手。选择正确的句子。",
+    "I taught ___ to play the guitar.", "Mai saw her friend Hoa at the station. 选择正确的句子。",
     "Nam and Lan helped ___ with the homework.", "选择正确的句子。", "把‘她做晚饭时弄伤了自己’译成英语。",
     "把‘孩子们在聚会上玩得很开心’译成英语。", "把‘正是女主任亲自签署了那封信’译成英语。",
     "把‘他自己修好了自行车’译成英语。", "把‘你自己取些蛋糕吧’译成英语。",

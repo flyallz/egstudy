@@ -11,7 +11,7 @@ const choice = (q: string, options: string[], answer: string, explain: string): 
 export const A2_FUTURE_QUESTIONS: QuizQuestion[] = [
   choice("选择正确的句子。", ["She wills come tomorrow.", "She will to come tomorrow.", "She will coming tomorrow.", "She will come tomorrow."], "She will come tomorrow.", "句意是“她明天会来”。will 不随主语变化，后接动词原形。"),
   choice("She will ___ you tomorrow.", ["calls", "to call", "call", "calling"], "call", "句意是“她明天会给你打电话”。will 后接不带 to 的动词原形。"),
-  choice("房间很冷。你此刻才决定关窗。选择最自然的说法。", ["I am going to closing the window.", "I will to close the window.", "I’ll close window.", "I’ll close the window."], "I’ll close the window.", "当场作出的决定用 will，缩写为 ’ll。"),
+  choice("The room is cold. You decide at this moment to close the window. 选择最自然的说法。", ["I am going to closing the window.", "I will to close the window.", "I’ll close window.", "I’ll close the window."], "I’ll close the window.", "当场作出的决定用 will，缩写为 ’ll。"),
   choice("He ___ come to the meeting.", ["willn't", "doesn't will", "not will", "won't"], "won't", "句意是“他不会来开会”。will not 的缩写是 won't。"),
   choice("选择正确的句子。", ["Will you helping me?", "Do you will help me?", "Are you will help me?", "Will you help me?"], "Will you help me?", "句意是“你能帮我吗？”。will 放在主语前，后接动词原形。"),
   choice("选择表达承诺的句子。", ["I am going to tell anyone, I promise.", "I won't tell anyone, I promise.", "I don't tell anyone, I promise.", "I am not telling anyone, I promise so."], "I won't tell anyone, I promise.", "句意是“我保证不会告诉任何人”。承诺用 will，否定缩写为 won't。"),
