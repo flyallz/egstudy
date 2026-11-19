@@ -3760,3 +3760,41 @@ export const TRANSPORT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, strin
   "lay-by": ["货车司机整周都在路边停车区过夜。", "他驶入路边停车区查看地图。"],
   "central reservation": ["中央隔离带上的植物挡住了对向车灯。", "护栏沿着中央隔离带延伸。"],
 };
+
+export const TRANSPORT_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["cycle lane", "/ˈsaɪkl leɪn/", "名词短语", "自行车道", "可数；a segregated cycle lane", "A segregated cycle lane doubled the number of riders.", "The cycle lane disappears at the junction."],
+  ["bus lane", "/ˈbʌs leɪn/", "名词短语", "公交专用道", "可数；enforce a bus lane", "The bus lane cut journey times by nine minutes.", "Cameras enforce the bus lane at peak hours."],
+  ["bus shelter", "/ˈbʌs ˌʃeltə/", "名词短语", "公交候车亭", "可数；a bus shelter with seating", "The bus shelter has no seat and no timetable.", "A new bus shelter was installed outside the clinic."],
+  ["bus station", "/ˈbʌs ˌsteɪʃn/", "名词短语", "公交总站；汽车站", "可数；rebuild a bus station", "The bus station was rebuilt behind the shopping centre.", "Coaches and local buses share one bus station."],
+  ["railway station", "/ˈreɪlweɪ ˌsteɪʃn/", "名词短语", "火车站", "可数；reopen a railway station", "The railway station reopened after thirty years.", "Every railway station on the branch is unstaffed."],
+  ["station platform", "/ˈsteɪʃn ˌplætfɔːm/", "名词短语", "站台；月台", "可数；wait on a station platform", "The station platform is too short for twelve carriages.", "Passengers crowd the station platform before the barriers open."],
+  ["level crossing", "/ˌlevl ˈkrɒsɪŋ/", "名词短语", "铁路平交道口", "可数；an automatic level crossing", "The level crossing is shut for eight minutes each hour.", "A new footbridge took pedestrians over the level crossing."],
+  ["terminus", "/ˈtɜːmɪnəs/", "名词", "线路终点站", "可数；the terminus of a line", "The terminus is a shed and a turning circle.", "Buses wait ten minutes at the terminus."],
+  ["interchange", "/ˈɪntətʃeɪndʒ/", "名词", "换乘枢纽；换乘站", "可数；a transport interchange", "The interchange links three bus routes and the tram.", "A single interchange serves the whole district."],
+  ["runway", "/ˈrʌnweɪ/", "名词", "机场跑道", "可数；extend a runway", "A second runway was refused twice.", "The runway is too short for long-haul aircraft."],
+  ["terminal building", "/ˈtɜːmɪnl ˌbɪldɪŋ/", "名词短语", "航站楼", "可数；a new terminal building", "The terminal building handles nine million passengers.", "A temporary terminal building served the airport for years."],
+  ["container terminal", "/kənˈteɪnə ˌtɜːmɪnl/", "名词短语", "集装箱码头", "可数；a deep-water container terminal", "The container terminal works around the clock.", "A deep-water container terminal opened downstream."],
+  ["harbour", "/ˈhɑːbə/", "名词", "港口；港湾", "可数；dredge a fishing harbour", "The harbour silts up every winter.", "Only three boats still work out of the harbour."],
+  ["multi-storey car park", "/ˌmʌlti ˌstɔːri ˈkɑː pɑːk/", "名词短语", "多层停车场", "可数；a multi-storey car park", "The multi-storey car park is half empty on weekdays.", "They demolished the multi-storey car park for flats."],
+  ["park and ride", "/ˌpɑːk ən ˈraɪd/", "名词短语", "停车换乘设施", "可数或不可数；use a park and ride", "The park and ride takes nine hundred cars.", "Park and ride works only with a frequent bus."],
+  ["charging point", "/ˈtʃɑːdʒɪŋ pɔɪnt/", "名词短语", "电动车充电点", "可数；install a charging point", "Charging points were installed along the parade.", "One charging point serves forty flats."],
+];
+
+export const TRANSPORT_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "cycle lane": ["隔离式自行车道使骑行人数翻了一番。", "自行车道到了路口就突然消失了。"],
+  "bus lane": ["公交专用道让行程缩短了九分钟。", "高峰时段，摄像头负责监督公交专用道的使用。"],
+  "bus shelter": ["候车亭既没有座位，也没有时刻表。", "诊所外安装了一座新的公交候车亭。"],
+  "bus station": ["公交总站在购物中心后面重建了。", "长途客车和本地公交共用一座车站。"],
+  "railway station": ["这座火车站在关闭三十年后重新开放。", "这条支线上的每座火车站都没有工作人员。"],
+  "station platform": ["站台太短，停不下十二节车厢。", "检票闸门开放前，乘客挤满了站台。"],
+  "level crossing": ["这处铁路平交道口每小时关闭八分钟。", "新建的人行天桥让行人从平交道口上方通过。"],
+  "terminus": ["这座终点站只有一间棚屋和一个掉头环岛。", "公交车在终点站停十分钟。"],
+  "interchange": ["这座换乘枢纽连接三条公交线路和有轨电车。", "整个区域只有一座换乘站。"],
+  "runway": ["修建第二条跑道的申请两次遭到拒绝。", "这条跑道太短，无法起降远程飞机。"],
+  "terminal building": ["这座航站楼每年接待九百万名旅客。", "一座临时航站楼为机场服务了多年。"],
+  "container terminal": ["这座集装箱码头昼夜不停地运转。", "下游新开了一座深水集装箱码头。"],
+  "harbour": ["这座港口每年冬天都会淤积。", "如今只有三艘船仍从这座港口出海作业。"],
+  "multi-storey car park": ["工作日，这座多层停车场有一半车位空着。", "他们拆掉多层停车场，改建成公寓。"],
+  "park and ride": ["这座停车换乘场可容纳九百辆车。", "只有公交班次足够频繁，停车换乘才能奏效。"],
+  "charging point": ["商业街沿线安装了充电点。", "四十套公寓共用一个充电点。"],
+};
