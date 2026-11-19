@@ -6456,3 +6456,33 @@ export const FAMILY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "only child": ["他是独生子女，在一条拥挤的街道上长大。", "在那一代人中，独生子女并不常见。"],
   "twin": ["学校有意把这对双胞胎分到了不同班级。", "研究同卵双胞胎，正是为了弄清这个问题。"],
 };
+
+export const FAMILY_SECOND_LESSON: OriginalTopicWord[] = [
+  ["stepmother", "/ˈstepmʌðə/", "名词", "继母", "可数；his/her stepmother", "His stepmother raised him from the age of six.", "The word stepmother carries a thousand bad stories."],
+  ["stepchild", "/ˈsteptʃaɪld/", "名词", "继子女；配偶与前任所生的孩子", "可数；复数 stepchildren", "Her stepchild moved in at fourteen.", "Two stepchildren inherited nothing under the old law."],
+  ["in-laws", "/ˈɪn lɔːz/", "名词", "姻亲；配偶一方的亲属", "复数；his/her in-laws", "They lived with his in-laws for two years.", "Her in-laws are nine kilometres away and visit daily."],
+  ["mother-in-law", "/ˈmʌðər ɪn lɔː/", "名词", "岳母；婆婆", "可数；his/her mother-in-law", "Her mother-in-law moved in after the stroke.", "His mother-in-law ran the family finances."],
+  ["grandparent", "/ˈɡrænpeərənt/", "名词", "祖父母或外祖父母中的一位", "可数；a grandparent looks after", "Grandparents provide most of the childcare in this district.", "Both grandparents live in the next street."],
+  ["ancestor", "/ˈænsestə/", "名词", "祖先", "可数；trace an ancestor", "Her ancestors came over as weavers.", "He traced an ancestor to a single farm."],
+  ["descendant", "/dɪˈsendənt/", "名词", "后代；子孙", "可数；a direct descendant", "A direct descendant still farms the land.", "Nine descendants attended the reunion."],
+  ["relative", "/ˈrelətɪv/", "名词", "亲戚", "可数；a distant/close relative", "A distant relative left her the cottage.", "Close relatives were told before anyone else."],
+  ["kinship", "/ˈkɪnʃɪp/", "名词", "亲属关系；血缘关系", "不可数；kinship ties/networks", "Kinship networks found the first jobs for every arrival.", "Kinship decided who inherited the boat."],
+  ["family ties", "/ˌfæməli ˈtaɪz/", "名词短语", "家庭纽带；亲情联系", "复数；strong/loosen family ties", "Family ties pulled him back after nine years abroad.", "Distance loosened the family ties slowly."],
+  ["upbringing", "/ˈʌpbrɪŋɪŋ/", "名词", "教养；成长经历", "可数，常用单数；a strict/happy upbringing", "He had a strict upbringing and a gentle manner.", "Her upbringing explains her carefulness with money."],
+  ["parenting", "/ˈpeərəntɪŋ/", "名词", "养育子女；育儿方式", "不可数；shared parenting；a parenting class", "Shared parenting was unusual in that street.", "Parenting classes helped more than the leaflets did."],
+];
+
+export const FAMILY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "stepmother": ["他六岁起由继母抚养。", "“继母”这个词承载着数不清的负面故事。"],
+  "stepchild": ["她的继子女十四岁时搬来同住。", "按旧法律，两个继子女什么也没继承到。"],
+  "in-laws": ["他们和他的姻亲同住了两年。", "她的姻亲住在九公里外，每天都来探望。"],
+  "mother-in-law": ["她的婆婆中风后搬来同住。", "他的岳母管理家庭财务。"],
+  "grandparent": ["这个地区大部分照看孩子的工作由祖父母承担。", "两位祖父母都住在隔壁那条街上。"],
+  "ancestor": ["她的祖先作为织工来到这里。", "他把一位祖先追溯到一座农场。"],
+  "descendant": ["一位直系后代仍在耕种那片土地。", "九位后代参加了家族聚会。"],
+  "relative": ["一位远房亲戚把那间小屋留给了她。", "近亲比其他任何人都先得到通知。"],
+  "kinship": ["亲属网络为每一位新来者找到了第一份工作。", "亲属关系决定了谁继承那条船。"],
+  "family ties": ["他在国外生活九年后，亲情纽带又把他拉了回来。", "距离慢慢疏远了家庭关系。"],
+  "upbringing": ["他从小受严格管教，却性情温和。", "她的成长经历解释了她为何花钱如此谨慎。"],
+  "parenting": ["在那条街上，父母共同育儿并不常见。", "育儿课程比宣传单更有帮助。"],
+};
