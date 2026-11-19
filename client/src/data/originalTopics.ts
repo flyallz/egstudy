@@ -5600,3 +5600,41 @@ export const CULTURE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "choir": ["这支合唱团自 1890 年以来一直在那座教堂演唱。", "他加入合唱团是为了认识新朋友。"],
   "folk music": ["民间音乐只在两座山谷中留存，其他地方都消失了。", "她从年长的歌手那里收集民间音乐。"],
 };
+
+export const CULTURE_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["classical music", "/ˌklæsɪkl ˈmjuːzɪk/", "名词短语", "古典音乐", "不可数；listen to/study classical music", "Classical music lost its evening slot on the station.", "Classical music is cheap to record and expensive to perform."],
+  ["live music", "/ˌlaɪv ˈmjuːzɪk/", "名词短语", "现场音乐演出", "不可数；host/play live music", "Three pubs still host live music.", "Live music returned to the square in June."],
+  ["festival", "/ˈfestɪvl/", "名词", "节庆；艺术节", "可数；hold a festival；a literary festival", "The festival fills every spare room in town.", "A literary festival grew out of one bookshop."],
+  ["carnival", "/ˈkɑːnɪvl/", "名词", "嘉年华；狂欢节", "可数；a street carnival", "The carnival has run since 1964.", "Nine thousand people walk in the carnival."],
+  ["parade", "/pəˈreɪd/", "名词", "游行；巡游队伍", "可数；hold/watch a parade", "The parade takes two hours to pass.", "A parade of lanterns closes the festival."],
+  ["literature", "/ˈlɪtrətʃə/", "名词", "文学；文学作品", "不可数；study/translate literature", "The literature of the period is almost all anonymous.", "She teaches literature in two languages."],
+  ["novelist", "/ˈnɒvəlɪst/", "名词", "小说家", "可数；a novelist publishes", "The novelist wrote nine books and sold two.", "A local novelist set three books in the town."],
+  ["poetry", "/ˈpəʊətri/", "名词", "诗歌", "不可数；write/read poetry", "Poetry sells badly and lasts longest.", "He writes poetry and shows nobody."],
+  ["prose", "/prəʊz/", "名词", "散文；散文体", "不可数；plain prose；write prose", "Her prose is plain and exact.", "He wrote prose for a living and poetry for himself."],
+  ["fiction", "/ˈfɪkʃən/", "名词", "小说；虚构作品", "不可数；read/write fiction", "Fiction outsells everything else in the library.", "She stopped writing fiction after the inquiry."],
+  ["non-fiction", "/ˌnɒn ˈfɪkʃən/", "名词", "非虚构作品", "不可数；read/publish non-fiction", "Non-fiction accounts for most of their list.", "He moved from fiction to non-fiction in his fifties."],
+  ["short story", "/ˌʃɔːt ˈstɔːri/", "名词短语", "短篇小说", "可数；write a short story；a collection of short stories", "The short story runs to nine pages.", "Her collection of short stories was reprinted twice."],
+  ["biography", "/baɪˈɒɡrəfi/", "名词", "传记", "可数；write an authorised biography", "The biography relied on nine boxes of letters.", "An authorised biography tells you what the family allowed."],
+  ["autobiography", "/ˌɔːtəbaɪˈɒɡrəfi/", "名词", "自传", "可数；write/publish an autobiography", "The autobiography stops at nineteen forty-five.", "She wrote her autobiography at eighty-two."],
+  ["memoir", "/ˈmemwɑː/", "名词", "回忆录", "可数；write a memoir of + 事件", "The memoir describes one winter in detail.", "His memoir of the strike is the only account from inside."],
+  ["anthology", "/ænˈθɒlədʒi/", "名词", "选集；文集", "可数；compile/appear in an anthology", "Her poem appears in every anthology of the period.", "They compiled an anthology of local writing."],
+];
+
+export const CULTURE_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "classical music": ["电台取消了古典音乐的晚间播出时段。", "古典音乐录制成本低，现场演出成本却高。"],
+  "live music": ["仍有三家酒吧提供现场音乐演出。", "六月，现场音乐演出重回广场。"],
+  "festival": ["节日期间，镇上所有空房间都住满了人。", "一场文学节从一家书店发展起来。"],
+  "carnival": ["这场狂欢节自 1964 年起一直举办。", "九千人参加了狂欢节游行。"],
+  "parade": ["游行队伍要花两个小时才能走完。", "节日以灯笼巡游收尾。"],
+  "literature": ["那个时期的文学作品几乎都没有署名。", "她用两种语言教授文学。"],
+  "novelist": ["这位小说家写了九本书，只卖出了两本。", "一位本地小说家把三本书的故事设在镇上。"],
+  "poetry": ["诗歌卖得不好，却流传得最久。", "他写诗，却不给任何人看。"],
+  "prose": ["她的散文朴素而准确。", "他写散文谋生，写诗则是为了自己。"],
+  "fiction": ["图书馆里，小说的借阅量超过其他所有类别。", "调查之后，她不再写小说。"],
+  "non-fiction": ["他们的书目中，非虚构作品占了大多数。", "他五十多岁时从小说转写非虚构作品。"],
+  "short story": ["这篇短篇小说长九页。", "她的短篇小说集重印了两次。"],
+  "biography": ["这部传记依据九箱信件写成。", "授权传记只能告诉你家属允许公开的事。"],
+  "autobiography": ["这本自传写到 1945 年便结束了。", "她八十二岁时写了自传。"],
+  "memoir": ["回忆录详细描述了某一个冬天。", "他关于罢工的回忆录是唯一来自内部的记述。"],
+  "anthology": ["她的诗收入了那个时期的每一部选集。", "他们编了一本本地作品选集。"],
+};
