@@ -111,4 +111,4 @@ check("Housing", "client/src/data/originalTopics.ts", "reference/original-topic-
 check("Energy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/energy-resources.csv", "ENERGY", 10)
 check("Equality", "client/src/data/originalTopics.ts", "reference/original-topic-csv/equality-social-change.csv", "EQUALITY", 10)
 check("Language", "client/src/data/originalTopics.ts", "reference/original-topic-csv/language-communication.csv", "LANGUAGE", 10)
-check("Population", "client/src/data/originalTopics.ts", "reference/original-topic-csv/population-migration.csv", "POPULATION", 3)
+check("Population", "client/src/data/originalTopics.ts", "reference/original-topic-csv/population-migration.csv", "POPULATION", 5)

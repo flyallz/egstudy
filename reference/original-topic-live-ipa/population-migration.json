@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–36 张正面；网页显示第 1–3 课分别为 10、12、14 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–70 张正面；网页显示第 1–5 课分别为 10、12、14、16、18 张",
   "cards": [
     [
       "population growth",
@@ -146,6 +146,142 @@
     [
       "points-based system",
       "/pɔɪnts beɪst ˈsɪstəm/"
+    ],
+    [
+      "residence permit",
+      "/ˈrezɪdəns pəˈmɪt/"
+    ],
+    [
+      "naturalisation",
+      "/ˌnætʃrəlaɪˈzeɪʃn/"
+    ],
+    [
+      "citizenship test",
+      "/ˈsɪtɪzənʃɪp test/"
+    ],
+    [
+      "deportation",
+      "/ˌdiːpɔːˈteɪʃn/"
+    ],
+    [
+      "undocumented migrant",
+      "/ʌnˈdɒkjumentɪd ˈmaɪɡrənt/"
+    ],
+    [
+      "people smuggling",
+      "/ˈpiːpl ˈsmʌɡlɪŋ/"
+    ],
+    [
+      "family planning",
+      "/ˈfæməli ˈplænɪŋ/"
+    ],
+    [
+      "contraception",
+      "/ˌkɒntrəˈsepʃn/"
+    ],
+    [
+      "household size",
+      "/ˈhaʊshəʊld saɪz/"
+    ],
+    [
+      "single-person household",
+      "/ˈsɪŋɡl ˈpɜːsn ˈhaʊshəʊld/"
+    ],
+    [
+      "multigenerational household",
+      "/ˌmʌltidʒenəˈreɪʃənl ˈhaʊshəʊld/"
+    ],
+    [
+      "retirement age",
+      "/rɪˈtaɪəmənt eɪdʒ/"
+    ],
+    [
+      "mortality",
+      "/mɔːˈtæləti/"
+    ],
+    [
+      "overpopulation",
+      "/ˌəʊvəpɒpjuˈleɪʃn/"
+    ],
+    [
+      "depopulation",
+      "/diːˌpɒpjuˈleɪʃn/"
+    ],
+    [
+      "longevity",
+      "/lɒnˈdʒevəti/"
+    ],
+    [
+      "vital statistics",
+      "/ˈvaɪtl stəˈtɪstɪks/"
+    ],
+    [
+      "repopulate",
+      "/riːˈpɒpjuleɪt/"
+    ],
+    [
+      "immigrate",
+      "/ˈɪmɪɡreɪt/"
+    ],
+    [
+      "emigrate",
+      "/ˈemɪɡreɪt/"
+    ],
+    [
+      "settle",
+      "/ˈsetl/"
+    ],
+    [
+      "resettle",
+      "/ˌriːˈsetl/"
+    ],
+    [
+      "deport",
+      "/dɪˈpɔːt/"
+    ],
+    [
+      "flee",
+      "/fliː/"
+    ],
+    [
+      "outnumber",
+      "/ˌaʊtˈnʌmbə/"
+    ],
+    [
+      "disperse",
+      "/dɪˈspɜːs/"
+    ],
+    [
+      "demographic",
+      "/ˌdeməˈɡræfɪk/"
+    ],
+    [
+      "populous",
+      "/ˈpɒpjələs/"
+    ],
+    [
+      "sparsely populated",
+      "/ˈspɑːsli ˈpɒpjuleɪtɪd/"
+    ],
+    [
+      "ageing",
+      "/ˈeɪdʒɪŋ/"
+    ],
+    [
+      "youthful",
+      "/ˈjuːθfl/"
+    ],
+    [
+      "undocumented",
+      "/ʌnˈdɒkjumentɪd/"
+    ],
+    [
+      "foreign-born",
+      "/ˈfɒrən bɔːn/"
+    ],
+    [
+      "native-born",
+      "/ˈneɪtɪv bɔːn/"
     ]
   ]
 }
