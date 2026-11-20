@@ -10596,3 +10596,33 @@ export const OCEANS_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "ocean current": ["这股洋流把温暖的海水带向北方。", "洋流在全球各地分配热量。"],
   "warm current": ["一股暖流使那些港口终年不结冰。", "暖流改变了方向，鱼群也跟着移动。"],
 };
+
+export const OCEANS_SECOND_LESSON: OriginalTopicWord[] = [
+  ["upwelling", "/ˈʌpwelɪŋ/", "名词", "上升流；海水上涌", "可数或不可数名词；coastal upwelling", "Coastal upwelling brings nutrients to the surface.", "Upwelling explains why that coast feeds so many birds."],
+  ["salinity", "/səˈlɪnəti/", "名词", "盐度；含盐量", "不可数名词；measure salinity、falling salinity", "Salinity falls where the river enters the bay.", "They measure salinity at nine depths."],
+  ["sea temperature", "/siː ˈtemprətʃə/", "名词短语", "海水温度", "可数名词；sea temperature rises", "Sea temperature has risen by a degree in forty years.", "Sea temperature decides which fish arrive in June."],
+  ["wave", "/weɪv/", "名词", "波浪；海浪", "可数名词；a breaking wave、a two-metre wave", "A two-metre wave took the whole deck cargo.", "Waves break on that bar in any swell."],
+  ["whitecap", "/ˈwaɪtkæp/", "名词", "白浪；浪尖白沫", "可数名词；whitecaps appear", "Whitecaps appeared within an hour of the wind rising.", "Nine kilometres of whitecaps meant no fishing that day."],
+  ["surf", "/sɜːf/", "名词", "拍岸浪；海浪冲岸处", "不可数名词；heavy surf、in the surf", "The surf was too heavy for the inshore boats.", "Children play in the surf all August."],
+  ["breaker", "/ˈbreɪkə/", "名词", "碎浪；破岸浪", "可数名词；a breaker crashes", "The breakers crashed over the sea wall.", "Nine breakers in a row flooded the road."],
+  ["storm surge", "/stɔːm sɜːdʒ/", "名词短语", "风暴潮；风暴增水", "可数名词；a storm surge floods", "The storm surge of 1953 killed three hundred people.", "A storm surge arrives with the tide, not instead of it."],
+  ["estuary", "/ˈestʃuəri/", "名词", "河口；河口湾", "可数名词；an estuary silts up", "The estuary silts up without constant dredging.", "Nine thousand birds feed in that estuary each winter."],
+  ["lagoon", "/ləˈɡuːn/", "名词", "潟湖；海岸泻湖", "可数名词；a coastal lagoon", "The coastal lagoon is separated from the sea by a shingle bar.", "A lagoon warms faster than open water."],
+  ["bay", "/beɪ/", "名词", "海湾；湾", "可数名词；a sheltered bay", "The bay is sheltered from every wind but the east.", "Nine boats moor in the bay all summer."],
+  ["cove", "/kəʊv/", "名词", "小海湾；海湾中的小水湾", "可数名词；a hidden cove", "The cove can be reached only at low tide.", "Smugglers used that cove for a century."],
+];
+
+export const OCEANS_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "upwelling": ["沿岸上升流把营养物质带到海面。", "上升流解释了那片海岸为何能养活那么多鸟类。"],
+  "salinity": ["河水流入海湾的地方盐度会下降。", "他们在九个深度测量盐度。"],
+  "sea temperature": ["四十年来，海水温度上升了一度。", "海水温度决定六月会出现哪些鱼。"],
+  "wave": ["一个两米高的浪卷走了整船甲板货物。", "无论涌浪多大，海浪都会在那片沙洲上破碎。"],
+  "whitecap": ["起风不到一小时，海面就出现了白浪。", "九公里海面都翻着白浪，那天就没法捕鱼了。"],
+  "surf": ["拍岸浪太大，近岸的小船无法出海。", "整个八月，孩子们都在浪里玩耍。"],
+  "breaker": ["碎浪冲过了海堤。", "接连九道大浪淹没了道路。"],
+  "storm surge": ["1953 年的风暴潮夺去了三百人的生命。", "风暴潮伴随潮汐而来，并不会取代潮汐。"],
+  "estuary": ["如果不持续疏浚，这片河口就会淤塞。", "每年冬天，九千只鸟在那片河口觅食。"],
+  "lagoon": ["一条砾石滩把这片海岸潟湖与大海隔开。", "潟湖升温比开阔水域快。"],
+  "bay": ["除了东风，这片海湾能挡住其他方向的风。", "整个夏天，有九艘船停泊在海湾里。"],
+  "cove": ["只有退潮时才能到达那个小海湾。", "走私者曾在一个世纪里使用那个小海湾。"],
+};
