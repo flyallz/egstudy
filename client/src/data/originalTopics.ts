@@ -8270,3 +8270,59 @@ export const HOUSING_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "out on the street": ["那个月有两个家庭最终流落街头。", "如果拿不回押金，她就要流落街头。"],
   "a fixer-upper": ["他们买下一栋需要大修的房子，还学会了抹灰。", "待修缮的房子看着便宜，直到查验报告出来才知道成本。"],
 };
+
+export const ENERGY_FIRST_LESSON: OriginalTopicWord[] = [
+  ["energy supply", "/ˈenədʒi səˌplaɪ/", "名词短语", "能源供应", "不可数；secure/disrupt energy supply", "The energy supply was disrupted for nine days.", "Securing the energy supply shaped the whole foreign policy."],
+  ["energy demand", "/ˈenədʒi dɪˌmɑːnd/", "名词短语", "能源需求", "不可数；energy demand peaks/falls", "Energy demand peaks at six in the evening.", "Energy demand fell for the first time in a decade."],
+  ["energy mix", "/ˈenədʒi mɪks/", "名词短语", "能源结构；能源组合", "通常用单数；the energy mix shifts", "Coal still accounts for a third of the energy mix.", "The energy mix changed faster than the grid could follow."],
+  ["energy security", "/ˈenədʒi sɪˌkjʊərəti/", "名词短语", "能源安全", "不可数；energy security concerns", "Energy security became the only argument that mattered.", "Energy security means more than one supplier."],
+  ["energy policy", "/ˈenədʒi ˌpɒləsi/", "名词短语", "能源政策", "可数或不可数；set/reverse energy policy", "Energy policy was rewritten three times in five years.", "Energy policy here is written for the next election."],
+  ["fuel switching", "/ˈfjuːəl ˌswɪtʃɪŋ/", "名词短语", "燃料替代；转换燃料种类", "不可数；fuel switching from...to...", "Fuel switching from coal to gas halved the emissions.", "Fuel switching will take thirty years and two generations."],
+  ["efficiency standard", "/ɪˈfɪʃnsi ˌstændəd/", "名词短语", "能效标准", "可数；set/tighten an efficiency standard", "Efficiency standards removed the worst appliances from sale.", "Tightening the efficiency standard cut demand by a sixth."],
+  ["household consumption", "/ˈhaʊshəʊld kənˌsʌmpʃn/", "名词短语", "家庭能源消费量", "不可数；household consumption falls", "Household consumption fell with the price rise.", "Household consumption per person is twice the European average."],
+  ["primary energy", "/ˈpraɪməri ˈenədʒi/", "名词短语", "一次能源；初级能源", "不可数；primary energy supply", "Primary energy includes what is lost in generation.", "Primary energy demand understates how efficient the system is."],
+  ["power station", "/ˈpaʊə ˌsteɪʃn/", "名词短语", "发电站", "可数；build/close a power station", "The power station closed after forty-one years.", "A single power station lit the whole county."],
+];
+
+export const ENERGY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "energy supply": ["能源供应中断了九天。", "保障能源供应影响了整个外交政策。"],
+  "energy demand": ["能源需求在傍晚六点达到峰值。", "能源需求十年来首次下降。"],
+  "energy mix": ["煤炭仍占能源结构的三分之一。", "能源结构变化得太快，电网来不及跟上。"],
+  "energy security": ["能源安全成了唯一重要的论点。", "能源安全意味着不能只靠一家供应商。"],
+  "energy policy": ["能源政策五年内重写了三次。", "这里制定能源政策，只想着下一次选举。"],
+  "fuel switching": ["从煤转用天然气，使排放量减半。", "转换燃料种类需要三十年、两代人的时间。"],
+  "efficiency standard": ["能效标准让最差的电器退出了市场。", "收紧能效标准使需求减少了六分之一。"],
+  "household consumption": ["涨价后，家庭消费量下降了。", "人均家庭消费量是欧洲平均水平的两倍。"],
+  "primary energy": ["一次能源包括发电过程中损失的能源。", "一次能源需求低估了整个系统的效率。"],
+  "power station": ["这座发电站运营四十一年后关闭了。", "单凭一座发电站就照亮了整个郡。"],
+};
+
+export const ENERGY_SECOND_LESSON: OriginalTopicWord[] = [
+  ["coal-fired power station", "/ˌkəʊl faɪəd ˈpaʊə ˌsteɪʃn/", "名词短语", "燃煤发电站", "可数；a coal-fired power station closes", "The last coal-fired power station shut in 2024.", "Two coal-fired power stations were kept on standby."],
+  ["gas-fired plant", "/ˌɡæs faɪəd plɑːnt/", "名词短语", "燃气发电厂", "可数；a gas-fired plant runs", "The gas-fired plant runs only at peak times.", "A gas-fired plant can start in minutes."],
+  ["nuclear generation", "/ˈnjuːkliə ˌdʒenəˈreɪʃn/", "名词短语", "核能发电", "不可数；rely on/phase out nuclear generation", "Nuclear generation supplies a fifth of the electricity.", "Nuclear generation divides every environmental movement."],
+  ["nuclear reactor", "/ˈnjuːkliə riˈæktə/", "名词短语", "核反应堆", "可数；a nuclear reactor operates", "The nuclear reactor has operated since 1976.", "Two nuclear reactors share one turbine hall."],
+  ["spent fuel", "/ˌspent ˈfjuːəl/", "名词短语", "乏燃料；使用过的核燃料", "不可数；store spent fuel", "Spent fuel is stored on site for want of anywhere else.", "Nobody has solved the spent fuel question."],
+  ["radioactive waste", "/ˌreɪdiəʊˈæktɪv weɪst/", "名词短语", "放射性废物", "不可数；bury low-level radioactive waste", "Low-level radioactive waste fills nine hundred drums.", "Radioactive waste outlives every institution that made it."],
+  ["decommissioning", "/ˌdiːkəˈmɪʃənɪŋ/", "名词", "停役拆除；退役处理", "不可数；the decommissioning of...", "Decommissioning the site will take sixty years.", "Decommissioning costs more than construction did."],
+  ["hydroelectric dam", "/ˌhaɪdrəʊɪˈlektrɪk dæm/", "名词短语", "水力发电大坝", "可数；build a hydroelectric dam", "The hydroelectric dam flooded two valleys.", "A hydroelectric dam built in 1938 still supplies the town."],
+  ["pumped storage", "/ˌpʌmpt ˈstɔːrɪdʒ/", "名词短语", "抽水蓄能", "不可数；a pumped storage scheme", "The pumped storage scheme acts as a battery for the whole grid.", "Pumped storage pumps water uphill when power is cheap."],
+  ["tidal power", "/ˈtaɪdl paʊə/", "名词短语", "潮汐发电", "不可数；harness tidal power", "Tidal power is predictable, which solar is not.", "Harnessing tidal power needs a very particular coastline."],
+  ["wave power", "/ˈweɪv paʊə/", "名词短语", "海浪发电", "不可数；develop wave power", "Wave power has been nine years from commercial for forty years.", "Wave power devices break before they pay."],
+  ["geothermal energy", "/ˌdʒiːəʊˈθɜːml ˈenədʒi/", "名词短语", "地热能", "不可数；use geothermal energy", "Geothermal energy heats nine thousand homes in that city.", "Geothermal energy needs the right geology, not the right policy."],
+];
+
+export const ENERGY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "coal-fired power station": ["最后一座燃煤发电站于 2024 年关闭。", "两座燃煤发电站被保留作备用。"],
+  "gas-fired plant": ["这座燃气发电厂只在用电高峰运行。", "燃气发电厂几分钟就能启动。"],
+  "nuclear generation": ["核能发电供应了五分之一的电力。", "核能发电让每一个环保运动内部都出现分歧。"],
+  "nuclear reactor": ["这座核反应堆从 1976 年起就在运行。", "两座核反应堆共用一间涡轮机房。"],
+  "spent fuel": ["由于没有别的地方存放，乏燃料只能留在现场。", "乏燃料问题仍无人解决。"],
+  "radioactive waste": ["低放射性废物装满了九百个桶。", "放射性废物的存在时间，比制造它的任何机构都长。"],
+  "decommissioning": ["这处设施的退役拆除将花六十年。", "退役成本比当初的建设成本还高。"],
+  "hydroelectric dam": ["这座水电大坝淹没了两条山谷。", "一座建于 1938 年的水电大坝至今仍为镇上供电。"],
+  "pumped storage": ["这套抽水蓄能系统相当于整个电网的电池。", "抽水蓄能会在电价低时把水抽到高处。"],
+  "tidal power": ["潮汐发电是可预测的，太阳能却不一样。", "利用潮汐发电，需要海岸线具备特定条件。"],
+  "wave power": ["过去四十年，人们总说海浪发电再过九年就能商业化。", "海浪发电装置还没回本就坏了。"],
+  "geothermal energy": ["这座城市有九千户家庭使用地热能供暖。", "地热能需要合适的地质条件，而不只是合适的政策。"],
+};
