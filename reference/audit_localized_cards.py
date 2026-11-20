@@ -35,7 +35,7 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         [f"{prefix}_{name}_LESSON" for name in ("FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH", "TWENTY_FIRST", "TWENTY_SECOND", "TWENTY_THIRD", "TWENTY_FOURTH", "TWENTY_FIFTH", "TWENTY_SIXTH", "TWENTY_SEVENTH", "TWENTY_EIGHTH", "TWENTY_NINTH", "THIRTIETH", "THIRTY_FIRST", "THIRTY_SECOND", "THIRTY_THIRD", "THIRTY_FOURTH", "THIRTY_FIFTH", "THIRTY_SIXTH", "THIRTY_SEVENTH", "THIRTY_EIGHTH", "THIRTY_NINTH", "FORTIETH", "FORTY_FIRST", "FORTY_SECOND", "FORTY_THIRD", "FORTY_FOURTH", "FORTY_FIFTH", "FORTY_SIXTH", "FORTY_SEVENTH", "FORTY_EIGHTH", "FORTY_NINTH", "FIFTIETH", "FIFTY_FIRST", "FIFTY_SECOND", "FIFTY_THIRD", "FIFTY_FOURTH", "FIFTY_FIFTH", "FIFTY_SIXTH", "FIFTY_SEVENTH", "FIFTY_EIGHTH", "FIFTY_NINTH", "SIXTIETH", "SIXTY_FIRST", "SIXTY_SECOND", "SIXTY_THIRD", "SIXTY_FOURTH", "SIXTY_FIFTH")[:blocks]]
     )
     cards = []
-    expected_counts = json.loads((ROOT / "reference/original-cefr-lesson-counts.json").read_text(encoding="utf-8"))[label] if label in ("A2", "B1", "B2", "C1", "C2") else [10, 12, 14, 16, 18, 20, 22, 24, 28, 36] if label in ("Education", "Work", "Health", "Environment", "Technology", "Economy", "Science", "Cities", "Transport", "Crime", "Government", "Media", "Culture", "Globalisation", "Family", "FoodAgriculture", "Tourism") else None
+    expected_counts = json.loads((ROOT / "reference/original-cefr-lesson-counts.json").read_text(encoding="utf-8"))[label] if label in ("A2", "B1", "B2", "C1", "C2") else [10, 12, 14, 16, 18, 20, 22, 24, 28, 36] if label in ("Education", "Work", "Health", "Environment", "Technology", "Economy", "Science", "Cities", "Transport", "Crime", "Government", "Media", "Culture", "Globalisation", "Family", "FoodAgriculture", "Tourism", "Housing") else None
     errors = []
     for index, name in enumerate(names):
         match = re.search(rf"export const {name}:.*?= \[\n(.*?)\n\];", source, re.S)
@@ -94,3 +94,4 @@ check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-c
 check("FoodAgriculture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/food-agriculture.csv", "FOOD_AGRICULTURE", 10)
 
 check("Tourism", "client/src/data/originalTopics.ts", "reference/original-topic-csv/tourism-travel.csv", "TOURISM", 10)
+check("Housing", "client/src/data/originalTopics.ts", "reference/original-topic-csv/housing-communities.csv", "HOUSING", 1)

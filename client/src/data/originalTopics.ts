@@ -7810,3 +7810,29 @@ export const TOURISM_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "the back of beyond": ["那间小屋地处偏僻，连信号都没有。", "他们开车去极偏僻的地方，就为了图个清静。"],
   "see the world": ["他加入商船队，是为了看世界。", "她靠护士的工资走遍了世界。"],
 };
+
+export const HOUSING_FIRST_LESSON: OriginalTopicWord[] = [
+  ["housing stock", "/ˈhaʊzɪŋ stɒk/", "名词短语", "住房存量；现有住房总量", "不可数；the housing stock ages", "Half the housing stock was built before 1919.", "The housing stock has not grown with the population."],
+  ["housing shortage", "/ˈhaʊzɪŋ ˌʃɔːtɪdʒ/", "名词短语", "住房短缺", "可数；a severe housing shortage", "The housing shortage is worst for single people.", "A housing shortage of this size takes a decade to ease."],
+  ["housing crisis", "/ˈhaʊzɪŋ ˌkraɪsɪs/", "名词短语", "住房危机", "通常用单数；the housing crisis deepens", "The housing crisis arrived in the small towns last.", "Nobody disputes the housing crisis; everyone disputes the cause."],
+  ["affordable housing", "/əˌfɔːdəbl ˈhaʊzɪŋ/", "名词短语", "可负担住房；平价住房", "不可数；build/provide affordable housing", "The scheme promised affordable housing and delivered nine units.", "Affordable housing is defined against market rents, not wages."],
+  ["social housing", "/ˈsəʊʃl ˌhaʊzɪŋ/", "名词短语", "社会保障住房", "不可数；build/sell off social housing", "Social housing was sold off faster than it was replaced.", "She has lived in social housing all her life."],
+  ["council housing", "/ˈkaʊnsl ˌhaʊzɪŋ/", "名词短语", "地方政府公营住房", "不可数；council housing waiting list", "Council housing was the making of that estate.", "The council housing list runs to nine thousand names."],
+  ["private rented sector", "/ˌpraɪvət ˈrentɪd ˌsektə/", "名词短语", "私人出租住房市场", "通常用单数；the private rented sector grows", "The private rented sector now houses a fifth of families.", "Standards in the private rented sector vary street by street."],
+  ["owner-occupier", "/ˌəʊnə ˈɒkjəpaɪə/", "名词", "自有住房居住者；业主自住者", "可数；an owner-occupier maintains", "Owner-occupiers outnumber tenants two to one here.", "An owner-occupier pays for the roof and keeps the garden."],
+  ["tenant", "/ˈtenənt/", "名词", "租客；承租人", "可数；a tenant rents/complains", "The tenant had asked for the repair nine times.", "Tenants here move every eighteen months on average."],
+  ["landlord", "/ˈlændlɔːd/", "名词", "房东；出租房业主", "可数；a private/a good landlord", "The landlord lives two hundred kilometres away.", "A good landlord fixes the boiler before the frost."],
+];
+
+export const HOUSING_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "housing stock": ["现有住房有一半建于 1919 年以前。", "住房总量没有随着人口增长而增加。"],
+  "housing shortage": ["单身人士受到住房短缺的影响最严重。", "如此严重的住房短缺，需要十年才能缓解。"],
+  "housing crisis": ["住房危机最后才波及小城镇。", "没人否认住房危机的存在，但人人都对成因有争议。"],
+  "affordable housing": ["这项计划承诺建设平价住房，最后只交付了九套。", "平价住房是按市场租金来界定的，而不是按工资水平。"],
+  "social housing": ["社会保障住房卖出的速度比补建的速度还快。", "她一辈子都住在社会保障住房里。"],
+  "council housing": ["当年的公营住房建设成就了那个住宅区。", "公营住房的轮候名单有九千人。"],
+  "private rented sector": ["如今，五分之一的家庭住在私人出租房里。", "私人出租住房的标准因街道而异。"],
+  "owner-occupier": ["这里自住业主与租客的数量之比为二比一。", "自住业主要自费修屋顶，也会维护花园。"],
+  "tenant": ["那位租客已经要求修理九次了。", "这里的租客平均每十八个月搬一次家。"],
+  "landlord": ["这位房东住在两百公里外。", "好房东会在霜冻到来前修好锅炉。"],
+};
