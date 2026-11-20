@@ -49,14 +49,14 @@ export const A2_COMPARATIVES: Partial<GrammarLesson> = {
     ] },
     { heading: "5 · 牢记", body: "不要在同一个形容词上同时使用 more 和 -er。不规则形式要单独记：good → better，bad → worse，far → farther/further。" },
     { heading: "6 · 句式", body: "根据音节数与词尾决定比较级形式。", table: [
-      { left: "单音节：形容词 + -er", right: "tall → taller；cheap → cheaper" },
-      { left: "特殊拼写：双写辅音；辅音 + y 变 -ier", right: "big → bigger；happy → happier" },
+      { left: "单音节：形容词 + -er", right: "tall → taller · cheap → cheaper" },
+      { left: "特殊拼写：双写辅音；辅音 + y 变 -ier", right: "big → bigger · happy → happier" },
       { left: "三个及以上音节：more + 形容词", right: "interesting → more interesting" },
-      { left: "不规则", right: "good → better；bad → worse；far → farther/further" },
+      { left: "不规则", right: "good → better；bad → worse；far → farther/further。This is better than that.（这个比那个更好。）" },
     ] },
     { heading: "7 · 分析步骤", body: "确认音节数，应用拼写规则，最后用 than 连接。", table: [
-      { left: "01 数音节", right: "单音节通常用 -er；三个及以上音节用 more；双音节词要看词尾，-y、-er、-ow 常加 -er：narrow → narrower；modern → more modern。" },
-      { left: "02 检查拼写", right: "元音加辅音结尾的单音节词通常双写辅音；辅音加 y 变 -ier：hot → hotter；easy → easier。" },
+      { left: "01 数音节", right: "单音节通常用 -er；三个及以上音节用 more；双音节词要看词尾，-y、-er、-ow 常加 -er：narrow → narrower · modern → more modern。" },
+      { left: "02 检查拼写", right: "元音加辅音结尾的单音节词通常双写辅音；辅音加 y 变 -ier：hot → hotter · easy → easier。" },
       { left: "03 连接比较双方", right: "用 than；that 和 then 都不对：cheaper than this one。" },
     ] },
     { heading: "8 · 例句与讲解", body: "观察长短形容词、拼写变化、不规则形式与程度修饰。", examples: [

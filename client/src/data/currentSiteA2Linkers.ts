@@ -34,8 +34,8 @@ export const A2_LINKERS: Partial<GrammarLesson> = {
       { left: "so + 结果；so that + 目的", right: "It rained, so we stayed in. · Note everything so that nothing is lost." },
     ] },
     { heading: "7 · 分析步骤", body: "判断关系，再检查结构。", table: [
-      { left: "01 判断关系", right: "是补充、对比、选择、结果，还是原因？" },
-      { left: "02 判断因果方向", right: "后面是原因用 because；后面是结果用 so；后面是目的用 so that。" },
+      { left: "01 判断关系", right: "是补充、对比、选择、结果，还是原因？例如：下雨 → 待在家里，属于因果关系。" },
+      { left: "02 判断因果方向", right: "后面是原因用 because；后面是结果用 so；后面是目的用 so that。例如：…, so we stayed at home.（……，所以我们待在家里。）" },
       { left: "03 检查成分", right: "连接从句时保留各自的主语和动词；but 与 so 前通常加逗号。" },
     ] },
     { heading: "8 · 例句与讲解", body: "同样的事实可以从原因或结果出发来表达。", examples: [
