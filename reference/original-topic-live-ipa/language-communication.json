@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–70 张正面；抽查第 11、37 张背面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–90 张正面；抽查第 11、37 张背面",
   "cards": [
     ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
     ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
@@ -72,6 +72,26 @@
     ["stammer", "/ˈstæmə/"],
     ["voice", "/vɔɪs/"],
     ["well-spoken", "/wel ˈspəʊkən/"],
-    ["inarticulate", "/ˌɪnɑːˈtɪkjələt/"]
+    ["inarticulate", "/ˌɪnɑːˈtɪkjələt/"],
+    ["fluent", "/ˈfluːənt/"],
+    ["eloquent", "/ˈeləkwənt/"],
+    ["concise", "/kənˈsaɪs/"],
+    ["verbose", "/vɜːˈbəʊs/"],
+    ["blunt", "/blʌnt/"],
+    ["tactful", "/ˈtæktfl/"],
+    ["tactless", "/ˈtæktləs/"],
+    ["diplomatic", "/ˌdɪpləˈmætɪk/"],
+    ["assertive", "/əˈsɜːtɪv/"],
+    ["persuasive", "/pəˈsweɪsɪv/"],
+    ["ambiguous", "/æmˈbɪɡjuəs/"],
+    ["explicit", "/ɪkˈsplɪsɪt/"],
+    ["implicit", "/ɪmˈplɪsɪt/"],
+    ["long-winded", "/lɒŋ ˈwɪndɪd/"],
+    ["talkative", "/ˈtɔːkətɪv/"],
+    ["outspoken", "/aʊtˈspəʊkən/"],
+    ["speak up", "/spiːk ʌp/"],
+    ["talk over", "/tɔːk ˈəʊvə/"],
+    ["cut in", "/kʌt ɪn/"],
+    ["butt in", "/bʌt ɪn/"]
   ]
 }
