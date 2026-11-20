@@ -10110,3 +10110,29 @@ export const POPULATION_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "live to a ripe old age": ["祖父母二人都在同一个村庄活到了高龄。", "他靠面包和劳作活到了高龄。"],
   "a close-knit community": ["这是个关系紧密的社区，外人也很难融入。", "关系紧密的社区一天之内就会察觉有人不在。"],
 };
+
+export const SPORT_FIRST_LESSON: OriginalTopicWord[] = [
+  ["daily step count", "/ˈdeɪli step kaʊnt/", "名词短语", "每日步数", "可数；a daily step count of + 数值", "A daily step count of eight thousand is a realistic target.", "Her daily step count halved when she changed jobs."],
+  ["exertion", "/ɪɡˈzɜːʃn/", "名词", "体力消耗；费力活动", "不可数；physical/moderate exertion", "Moderate exertion four times a week is the whole prescription.", "Any exertion left him breathless that winter."],
+  ["workout", "/ˈwɜːkaʊt/", "名词", "一次锻炼；训练课", "可数；do a hard workout", "The workout lasts forty minutes with no equipment.", "A hard workout twice a week suits most beginners."],
+  ["training session", "/ˈtreɪnɪŋ ˈseʃən/", "名词短语", "训练课；训练时段", "可数；attend a training session", "The training session starts at seven in the morning.", "Nine training sessions a week is a full-time job."],
+  ["fitness", "/ˈfɪtnəs/", "名词", "体能；身体素质", "不可数；improve/lose fitness", "Fitness returns more slowly than it is lost.", "His fitness improved once he stopped driving to work."],
+  ["stamina", "/ˈstæmɪnə/", "名词", "耐力；持久力", "不可数；build/lack stamina", "Stamina is built over months, not weeks.", "She has the stamina for nine hours on her feet."],
+  ["endurance", "/ɪnˈdjʊərəns/", "名词", "耐力；持久力", "不可数；an endurance event", "The endurance event covers ninety kilometres.", "Endurance matters more than speed in that race."],
+  ["strength training", "/streŋθ ˈtreɪnɪŋ/", "名词短语", "力量训练", "不可数；do strength training", "Strength training matters most after sixty.", "Two sessions of strength training a week preserve the bone."],
+  ["flexibility", "/ˌfleksəˈbɪləti/", "名词", "柔韧性；身体灵活度", "不可数；improve/lose flexibility", "Flexibility is lost first and regained slowly.", "Nine minutes of stretching improves flexibility measurably."],
+  ["warm-up", "/wɔːm ʌp/", "名词", "热身；热身环节", "可数；do a proper warm-up", "A proper warm-up prevents most of the injuries.", "The warm-up takes ten minutes and is always skipped."],
+];
+
+export const SPORT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "daily step count": ["每天走八千步是一个切实可行的目标。", "她换工作后，每日步数减少了一半。"],
+  "exertion": ["每周四次适度活动，就是完整的运动处方。", "那年冬天，任何体力活动都会让他喘不过气。"],
+  "workout": ["这套锻炼持续四十分钟，不需要器材。", "每周两次高强度锻炼适合大多数初学者。"],
+  "training session": ["训练课早上七点开始。", "一周九次训练课相当于一份全职工作。"],
+  "fitness": ["体能恢复得比流失得慢。", "他不再开车上班后，体能改善了。"],
+  "stamina": ["耐力要经过几个月，而不是几个星期才能练出来。", "她有连续站九小时的耐力。"],
+  "endurance": ["这项耐力赛事全程九十公里。", "在那场比赛中，耐力比速度更重要。"],
+  "strength training": ["六十岁以后，力量训练尤其重要。", "每周两次力量训练有助于维持骨骼健康。"],
+  "flexibility": ["柔韧性最先退化，恢复却很慢。", "九分钟的伸展运动就能明显改善柔韧性。"],
+  "warm-up": ["充分热身能预防大多数运动损伤。", "热身需要十分钟，却总是被跳过。"],
+};

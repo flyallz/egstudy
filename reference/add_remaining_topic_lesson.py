@@ -59,7 +59,7 @@ else:
 
 topics = ROOT / "client/src/data/originalTopics.ts"
 text = topics.read_text(encoding="utf-8")
-assert f"{prefix}_{current}_LESSON" not in text
+assert not re.search(rf"^export const {re.escape(prefix)}_{current}_LESSON\b", text, re.M)
 text += (
     f"\nexport const {prefix}_{current}_LESSON: OriginalTopicWord[] = [\n"
     + "\n".join(rows)
