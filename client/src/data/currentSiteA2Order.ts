@@ -50,7 +50,7 @@ export const A2_ORDER: Partial<GrammarLesson> = {
     { heading: "5 · 牢记", body: "真实表达通常不会连用太多形容词；超过三项时可以分成定语从句。几个同类形容词并列可用逗号或 and。" },
     { heading: "6 · 句式", body: "形容词类别及其常见位置。", table: [
       { left: "常规顺序：评价 · 尺寸 · 年龄 · 形状 · 颜色 · 出处 · 材料 · 用途", right: "a nice big new round black Italian leather sofa" },
-      { left: "评价", right: "beautiful · lovely · terrible · interesting" },
+      { left: "评价", right: "beautiful · lovely · terrible · interesting；例：a beautiful painting（一幅美丽的画）。" },
       { left: "客观特征", right: "small · old · square · blue · Japanese · plastic" },
       { left: "同类并列：形容词, 形容词；或形容词 and 形容词", right: "a dark, narrow street" },
     ] },
