@@ -7406,3 +7406,37 @@ export const TOURISM_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "bed and breakfast": ["这家包早餐的民宿每逢周末都客满。", "她只在冬季经营这家包早餐的民宿。"],
   "hostel": ["这家青年旅舍有六间房，可住四十人。", "青年旅舍一张床位的价格只有酒店客房的九分之一。"],
 };
+
+export const TOURISM_THIRD_LESSON: OriginalTopicWord[] = [
+  ["campsite", "/ˈkæmpsaɪt/", "名词", "露营地", "可数；book a campsite", "The campsite takes ninety tents and no caravans.", "They book the same campsite every August."],
+  ["caravan park", "/ˈkærəvæn pɑːk/", "名词短语", "房车营地", "可数；a caravan park opens", "The caravan park opens in March and closes in October.", "A caravan park took over the old airfield."],
+  ["self-catering accommodation", "/ˌself ˈkeɪtərɪŋ əˌkɒməˈdeɪʃn/", "名词短语", "自炊式住宿；带厨房的住宿", "不可数；book self-catering accommodation", "Self-catering accommodation suits families with small children.", "Self-catering accommodation now outnumbers hotel beds here."],
+  ["holiday let", "/ˈhɒlədeɪ let/", "名词短语", "短期度假出租屋", "可数；a holiday let earns", "A holiday let earns in a week what a tenancy earns in a month.", "Nine holiday lets stand empty all winter."],
+  ["check-in desk", "/ˈtʃek ɪn desk/", "名词短语", "值机柜台；办理入住柜台", "可数；queue at a check-in desk", "The check-in desk opens two hours before departure.", "Only one check-in desk was staffed."],
+  ["boarding pass", "/ˈbɔːdɪŋ pɑːs/", "名词短语", "登机牌", "可数；print/show a boarding pass", "The boarding pass is on her telephone.", "They print a boarding pass at the machine."],
+  ["departure lounge", "/dɪˈpɑːtʃə laʊndʒ/", "名词短语", "候机室", "可数；wait in the departure lounge", "The departure lounge has nine seats and four shops.", "They spent the night in the departure lounge."],
+  ["baggage reclaim", "/ˈbæɡɪdʒ rɪkleɪm/", "名词短语", "行李提取处", "不可数；wait at baggage reclaim", "Baggage reclaim took longer than the flight.", "Two cases never reached baggage reclaim."],
+  ["passport control", "/ˈpɑːspɔːt kənˌtrəʊl/", "名词短语", "护照检查处；出入境检查", "不可数；go through passport control", "Passport control took an hour on arrival.", "Passport control is the slowest part of the journey."],
+  ["travel visa", "/ˈtrævl ˈviːzə/", "名词短语", "旅行签证", "可数；apply for a travel visa", "The travel visa took six weeks to arrive.", "A travel visa for that country costs more than the flight."],
+  ["travel insurance", "/ˈtrævl ɪnˌʃʊərəns/", "名词短语", "旅行保险", "不可数；take out/claim on travel insurance", "She claimed on her travel insurance for the first time.", "Travel insurance costs little and is read by nobody."],
+  ["excess baggage", "/ˈekses ˈbæɡɪdʒ/", "名词短语", "超重行李；超额行李", "不可数；pay for excess baggage", "They paid more for excess baggage than for the seat.", "Excess baggage charges are where the profit lies."],
+  ["hand luggage", "/ˈhænd ˌlʌɡɪdʒ/", "名词短语", "随身行李；手提行李", "不可数；take only hand luggage", "He travels with hand luggage only.", "Hand luggage rules change with every airline."],
+  ["souvenir", "/ˌsuːvəˈnɪə/", "名词", "纪念品", "可数；buy a souvenir", "The souvenir was made nine thousand kilometres away.", "She buys one small souvenir in every town."],
+];
+
+export const TOURISM_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "campsite": ["这处露营地可容纳九十顶帐篷，但不接待房车。", "他们每年八月都预订同一处露营地。"],
+  "caravan park": ["房车营地三月开放，十月关闭。", "原来的机场变成了一处房车营地。"],
+  "self-catering accommodation": ["自炊式住宿适合有小孩的家庭。", "这里的自炊式住宿现在比酒店床位还多。"],
+  "holiday let": ["度假出租屋一周赚的钱，抵得上长期租约一个月的收入。", "九套度假出租屋整个冬天都空着。"],
+  "check-in desk": ["值机柜台在起飞前两小时开放。", "只有一个值机柜台安排了工作人员。"],
+  "boarding pass": ["她的登机牌存在手机里。", "他们在机器上打印登机牌。"],
+  "departure lounge": ["候机室有九个座位，却有四家商店。", "他们在候机室待了一整夜。"],
+  "baggage reclaim": ["提取行李花的时间比飞行还长。", "两只箱子始终没有送到行李提取处。"],
+  "passport control": ["抵达后通过护照检查花了一个小时。", "出入境检查是整段旅程最慢的环节。"],
+  "travel visa": ["旅行签证过了六周才办下来。", "那个国家的旅行签证比机票还贵。"],
+  "travel insurance": ["她第一次向旅行保险申请理赔。", "旅行保险花费不多，却没人看条款。"],
+  "excess baggage": ["他们付的超额行李费比座位费还高。", "超额行李费才是利润所在。"],
+  "hand luggage": ["他旅行时只带随身行李。", "每家航空公司的手提行李规定都不一样。"],
+  "souvenir": ["这件纪念品是在九千公里外生产的。", "她每到一个城镇都会买一件小纪念品。"],
+};
