@@ -10136,3 +10136,67 @@ export const SPORT_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "flexibility": ["柔韧性最先退化，恢复却很慢。", "九分钟的伸展运动就能明显改善柔韧性。"],
   "warm-up": ["充分热身能预防大多数运动损伤。", "热身需要十分钟，却总是被跳过。"],
 };
+
+export const SPORT_SECOND_LESSON: OriginalTopicWord[] = [
+  ["cool-down", "/kuːl daʊn/", "名词", "运动后的放松；整理活动", "可数；do a cool-down", "The cool-down is five minutes of walking.", "Nobody does the cool-down when it is raining."],
+  ["stretching", "/ˈstretʃɪŋ/", "名词", "拉伸；伸展运动", "不可数；do stretching", "Stretching after the run became a habit.", "Stretching cold muscles does more harm than good."],
+  ["aerobic exercise", "/eəˈrəʊbɪk ˈeksəsaɪz/", "名词短语", "有氧运动", "不可数；do aerobic exercise", "Aerobic exercise means moving long enough to be out of breath.", "Aerobic exercise three times a week changed his resting pulse."],
+  ["sports injury", "/spɔːts ˈɪndʒəri/", "名词短语", "运动损伤；体育伤病", "可数；suffer a sports injury", "The sports injury ended a promising season.", "Nine sports injuries came from the same pitch."],
+  ["twisted ankle", "/ˈtwɪstɪd ˈæŋkl/", "名词短语", "扭伤的脚踝；脚踝扭伤", "可数；get a twisted ankle", "A twisted ankle kept her out for six weeks.", "The twisted ankle was treated with ice and patience."],
+  ["pulled muscle", "/pʊld ˈmʌsl/", "名词短语", "肌肉拉伤", "可数；a pulled muscle heals", "A pulled muscle heals in a fortnight if you let it.", "He trained on a pulled muscle and lost a season."],
+  ["rest day", "/rest deɪ/", "名词短语", "休息日；训练恢复日", "可数；take a rest day", "A rest day is part of the training, not a failure of it.", "They take two rest days a week in the winter."],
+  ["overtraining", "/ˌəʊvəˈtreɪnɪŋ/", "名词", "过度训练", "不可数；avoid overtraining", "Overtraining produces injury rather than progress.", "Overtraining is the commonest mistake of a first season."],
+  ["gym", "/dʒɪm/", "名词", "健身房；体育馆", "可数；join/go to a gym", "The gym is busiest in January and empty by March.", "She joined a gym and used the swimming pool instead."],
+  ["swimming pool", "/ˈswɪmɪŋ puːl/", "名词短语", "游泳池", "可数；a public swimming pool", "The public swimming pool closed for want of a boiler.", "Nine schools share one swimming pool."],
+  ["running track", "/ˈrʌnɪŋ træk/", "名词短语", "跑道；田径跑道", "可数；a running track opens", "The running track was laid over the old cinder one.", "A running track with floodlights doubles its use."],
+  ["football pitch", "/ˈfʊtbɔːl pɪtʃ/", "名词短语", "足球场", "可数；mark out a football pitch", "The football pitch floods every February.", "Two football pitches were sold for housing."],
+];
+
+export const SPORT_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "cool-down": ["训练后的放松活动是步行五分钟。", "下雨时，没人做训练后的放松活动。"],
+  "stretching": ["跑步后拉伸成了一种习惯。", "在肌肉尚未热起来时拉伸，弊大于利。"],
+  "aerobic exercise": ["有氧运动就是持续活动到有些喘不过气。", "每周三次有氧运动改变了他休息时的脉搏。"],
+  "sports injury": ["一次运动伤害让那个前景看好的赛季提前结束。", "九起运动损伤都发生在同一个球场。"],
+  "twisted ankle": ["脚踝扭伤让她六周无法上场。", "那处脚踝扭伤靠冰敷和耐心慢慢恢复。"],
+  "pulled muscle": ["只要让它好好休息，肌肉拉伤两周就能恢复。", "他带着拉伤的肌肉继续训练，结果错过了整个赛季。"],
+  "rest day": ["休息日也是训练的一部分，并不意味着失败。", "冬天他们每周安排两个休息日。"],
+  "overtraining": ["过度训练带来的是伤病，而非进步。", "新手在第一个赛季最常犯的错误就是训练过度。"],
+  "gym": ["健身房一月最忙，到三月就冷清了。", "她办了健身房会员，却转去用那里的游泳池。"],
+  "swimming pool": ["公共游泳池因缺少一台锅炉而关闭。", "九所学校共用一个游泳池。"],
+  "running track": ["新跑道铺在原来的煤渣跑道上。", "跑道装上泛光灯，使用率就能翻倍。"],
+  "football pitch": ["这个足球场每年二月都会被水淹。", "两块足球场地被卖掉，用来建住房。"],
+};
+
+export const SPORT_THIRD_LESSON: OriginalTopicWord[] = [
+  ["tennis court", "/ˈtenɪs kɔːt/", "名词短语", "网球场", "可数；book a tennis court", "The tennis courts are free before nine.", "Nine tennis courts have become four and a car park."],
+  ["sports hall", "/spɔːts hɔːl/", "名词短语", "体育馆；室内运动场", "可数；book a sports hall", "The sports hall hosts badminton and the jumble sale.", "A sports hall keeps a village active through the winter."],
+  ["climbing wall", "/ˈklaɪmɪŋ wɔːl/", "名词短语", "人工攀岩墙", "可数；a climbing wall opens", "The climbing wall was built inside the old church.", "A climbing wall brought nine new members a week."],
+  ["bridleway", "/ˈbraɪdlweɪ/", "名词", "骑马小道；马道", "可数；ride along a bridleway", "The bridleway follows the old drovers' route.", "Nine kilometres of bridleway were reopened."],
+  ["team sport", "/tiːm spɔːt/", "名词短语", "团队运动；集体项目", "可数；play a team sport", "A team sport teaches what an individual one cannot.", "Team sports collapsed when the pitches were sold."],
+  ["individual sport", "/ˌɪndɪˈvɪdʒuəl spɔːt/", "名词短语", "个人运动项目", "可数；an individual sport suits", "An individual sport suits anyone who dislikes committees.", "Individual sports require less organisation and more discipline."],
+  ["contact sport", "/ˈkɒntækt spɔːt/", "名词短语", "身体对抗性运动；接触性体育项目", "可数；a contact sport carries risk", "Contact sports carry a risk nobody discussed in 1980.", "Two contact sports have changed their rules over concussion."],
+  ["water sport", "/ˈwɔːtə spɔːt/", "名词短语", "水上运动", "可数；a water sport requires", "Water sports need a safety boat and a forecast.", "Nine water sports are taught at the reservoir."],
+  ["winter sport", "/ˈwɪntə spɔːt/", "名词短语", "冬季运动", "可数；a winter sport depends on snow", "Winter sports depend on snow that no longer arrives.", "Winter sports here mean a frozen reservoir once a decade."],
+  ["extreme sport", "/ɪkˈstriːm spɔːt/", "名词短语", "极限运动", "可数；an extreme sport attracts", "Extreme sports attract sponsorship and insurance refusals.", "An extreme sport becomes ordinary once the equipment improves."],
+  ["martial arts", "/ˈmɑːʃl ɑːts/", "名词短语", "武术；格斗术", "复数；practise/teach martial arts", "Martial arts classes fill the sports hall three nights a week.", "She has practised martial arts since she was nine."],
+  ["athletics", "/æθˈletɪks/", "名词", "田径运动", "不可数；compete in athletics", "Athletics needs a track and very little else.", "Athletics produced nine club records that season."],
+  ["gymnastics", "/dʒɪmˈnæstɪks/", "名词", "体操；竞技体操", "不可数；do gymnastics", "Gymnastics starts young and ends early.", "The gymnastics club trains in a converted barn."],
+  ["road racing", "/rəʊd ˈreɪsɪŋ/", "名词短语", "公路竞赛；公路自行车赛", "不可数；road racing on closed roads", "Road racing needs a closed road and nine marshals.", "Road racing grew out of the cycling clubs."],
+];
+
+export const SPORT_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "tennis court": ["九点前，网球场可免费使用。", "九片网球场如今只剩四片，其余变成了停车场。"],
+  "sports hall": ["这座体育馆既办羽毛球赛，也办旧物义卖。", "一座体育馆能让村庄在整个冬天都保持活力。"],
+  "climbing wall": ["攀岩墙建在旧教堂里面。", "攀岩墙每周吸引九名新会员。"],
+  "bridleway": ["这条骑马小道沿着旧时赶牲畜的路线延伸。", "九公里的骑马小道重新开放了。"],
+  "team sport": ["团队运动能教会人一些个人项目教不了的东西。", "球场被卖掉后，团队运动衰落了。"],
+  "individual sport": ["不喜欢参加委员会活动的人适合个人运动。", "个人运动需要较少组织工作，却需要更多自律。"],
+  "contact sport": ["身体对抗项目有一种在 1980 年没人讨论过的风险。", "两项身体对抗运动因脑震荡问题修改了规则。"],
+  "water sport": ["水上运动需要一艘安全救援船和天气预报。", "这个水库教授九种水上运动。"],
+  "winter sport": ["冬季运动依赖如今已不再降下的雪。", "这里的冬季运动意味着每十年才结一次冰的水库。"],
+  "extreme sport": ["极限运动会吸引赞助，也会招来保险公司的拒保。", "设备一改进，极限运动也会变得寻常。"],
+  "martial arts": ["武术课每周三个晚上都把体育馆坐满。", "她从九岁起就练习武术。"],
+  "athletics": ["田径运动只需要跑道，几乎不用其他设施。", "那个赛季，田径项目创造了九项俱乐部纪录。"],
+  "gymnastics": ["练体操通常开始得早，结束得也早。", "体操俱乐部在一座改建的谷仓里训练。"],
+  "road racing": ["公路赛需要封路，还需要九名赛道工作人员。", "公路赛从自行车俱乐部发展而来。"],
+};

@@ -1,17 +1,151 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–10 张正面；网页显示第 1 课为 10 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–36 张正面；网页显示第 1–3 课分别为 10、12、14 张",
   "cards": [
-    ["daily step count", "/ˈdeɪli step kaʊnt/"],
-    ["exertion", "/ɪɡˈzɜːʃn/"],
-    ["workout", "/ˈwɜːkaʊt/"],
-    ["training session", "/ˈtreɪnɪŋ ˈseʃən/"],
-    ["fitness", "/ˈfɪtnəs/"],
-    ["stamina", "/ˈstæmɪnə/"],
-    ["endurance", "/ɪnˈdjʊərəns/"],
-    ["strength training", "/streŋθ ˈtreɪnɪŋ/"],
-    ["flexibility", "/ˌfleksəˈbɪləti/"],
-    ["warm-up", "/wɔːm ʌp/"]
+    [
+      "daily step count",
+      "/ˈdeɪli step kaʊnt/"
+    ],
+    [
+      "exertion",
+      "/ɪɡˈzɜːʃn/"
+    ],
+    [
+      "workout",
+      "/ˈwɜːkaʊt/"
+    ],
+    [
+      "training session",
+      "/ˈtreɪnɪŋ ˈseʃən/"
+    ],
+    [
+      "fitness",
+      "/ˈfɪtnəs/"
+    ],
+    [
+      "stamina",
+      "/ˈstæmɪnə/"
+    ],
+    [
+      "endurance",
+      "/ɪnˈdjʊərəns/"
+    ],
+    [
+      "strength training",
+      "/streŋθ ˈtreɪnɪŋ/"
+    ],
+    [
+      "flexibility",
+      "/ˌfleksəˈbɪləti/"
+    ],
+    [
+      "warm-up",
+      "/wɔːm ʌp/"
+    ],
+    [
+      "cool-down",
+      "/kuːl daʊn/"
+    ],
+    [
+      "stretching",
+      "/ˈstretʃɪŋ/"
+    ],
+    [
+      "aerobic exercise",
+      "/eəˈrəʊbɪk ˈeksəsaɪz/"
+    ],
+    [
+      "sports injury",
+      "/spɔːts ˈɪndʒəri/"
+    ],
+    [
+      "twisted ankle",
+      "/ˈtwɪstɪd ˈæŋkl/"
+    ],
+    [
+      "pulled muscle",
+      "/pʊld ˈmʌsl/"
+    ],
+    [
+      "rest day",
+      "/rest deɪ/"
+    ],
+    [
+      "overtraining",
+      "/ˌəʊvəˈtreɪnɪŋ/"
+    ],
+    [
+      "gym",
+      "/dʒɪm/"
+    ],
+    [
+      "swimming pool",
+      "/ˈswɪmɪŋ puːl/"
+    ],
+    [
+      "running track",
+      "/ˈrʌnɪŋ træk/"
+    ],
+    [
+      "football pitch",
+      "/ˈfʊtbɔːl pɪtʃ/"
+    ],
+    [
+      "tennis court",
+      "/ˈtenɪs kɔːt/"
+    ],
+    [
+      "sports hall",
+      "/spɔːts hɔːl/"
+    ],
+    [
+      "climbing wall",
+      "/ˈklaɪmɪŋ wɔːl/"
+    ],
+    [
+      "bridleway",
+      "/ˈbraɪdlweɪ/"
+    ],
+    [
+      "team sport",
+      "/tiːm spɔːt/"
+    ],
+    [
+      "individual sport",
+      "/ˌɪndɪˈvɪdʒuəl spɔːt/"
+    ],
+    [
+      "contact sport",
+      "/ˈkɒntækt spɔːt/"
+    ],
+    [
+      "water sport",
+      "/ˈwɔːtə spɔːt/"
+    ],
+    [
+      "winter sport",
+      "/ˈwɪntə spɔːt/"
+    ],
+    [
+      "extreme sport",
+      "/ɪkˈstriːm spɔːt/"
+    ],
+    [
+      "martial arts",
+      "/ˈmɑːʃl ɑːts/"
+    ],
+    [
+      "athletics",
+      "/æθˈletɪks/"
+    ],
+    [
+      "gymnastics",
+      "/dʒɪmˈnæstɪks/"
+    ],
+    [
+      "road racing",
+      "/rəʊd ˈreɪsɪŋ/"
+    ]
   ]
 }
