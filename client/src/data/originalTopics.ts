@@ -7350,3 +7350,29 @@ export const FOOD_AGRICULTURE_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string
   "the proof of the pudding": ["效果要看实际体验，而不是看宣传册。", "他们把试验结果当作实践检验的证据。"],
   "cry over spilt milk": ["现在为已经发生的事后悔也没用。", "她不愿为过去的事懊悔，于是重新开始。"],
 };
+
+export const TOURISM_FIRST_LESSON: OriginalTopicWord[] = [
+  ["tourism", "/ˈtʊərɪzəm/", "名词", "旅游业", "不可数；depend on/promote tourism", "The whole coast depends on tourism for nine weeks a year.", "Tourism replaced fishing and pays worse."],
+  ["mass tourism", "/ˌmæs ˈtʊərɪzəm/", "名词短语", "大众旅游；大规模旅游", "不可数；the effects of mass tourism", "Mass tourism arrived with the charter flights.", "Mass tourism paid for the harbour wall and ruined the harbour."],
+  ["package holiday", "/ˈpækɪdʒ ˌhɒlədeɪ/", "名词短语", "旅游套餐；包价假期", "可数；book a package holiday", "A package holiday was cheaper than the flight alone.", "Package holidays opened the coast to ordinary wages."],
+  ["independent travel", "/ˌɪndɪˈpendənt ˈtrævl/", "名词短语", "自助旅行；自由行", "不可数；prefer independent travel", "Independent travel suits them better than a coach.", "Independent travel grew once the booking moved online."],
+  ["backpacking", "/ˈbækpækɪŋ/", "名词", "背包旅行", "不可数；go backpacking", "They went backpacking for nine months.", "Backpacking here means buses and a single bag."],
+  ["sightseeing", "/ˈsaɪtsiːɪŋ/", "名词", "观光；游览", "不可数；do/go sightseeing", "They did their sightseeing before the heat built up.", "Sightseeing from a coach window sees very little."],
+  ["itinerary", "/aɪˈtɪnərəri/", "名词", "旅行日程；行程安排", "可数；plan/change an itinerary", "The itinerary allowed nine hours in each city.", "They changed the itinerary after the first day."],
+  ["destination", "/ˌdestɪˈneɪʃn/", "名词", "旅游目的地", "可数；a popular/remote destination", "The town became a destination within one summer.", "Remote destinations cost more to reach than to stay in."],
+  ["tourist attraction", "/ˈtʊərɪst əˌtrækʃn/", "名词短语", "旅游景点", "可数；a major tourist attraction", "The ruin is the only tourist attraction for miles.", "Nine tourist attractions share one car park."],
+  ["tourist trail", "/ˈtʊərɪst treɪl/", "名词短语", "热门旅游路线", "可数；be on/off the tourist trail", "The village sits just off the tourist trail.", "Once a place joins the tourist trail its rents change."],
+];
+
+export const TOURISM_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "tourism": ["整条海岸每年有九个星期靠旅游业维生。", "旅游业取代了捕鱼业，收入却更低。"],
+  "mass tourism": ["包机航班到来后，大众旅游也随之兴起。", "大众旅游出钱修了港口防波墙，却毁了港口原貌。"],
+  "package holiday": ["包价旅游比单买机票还便宜。", "包价旅游让普通工薪家庭也能去海岸度假。"],
+  "independent travel": ["比起跟着大巴走，他们更适合自由行。", "预订转到网上后，自助旅行发展起来。"],
+  "backpacking": ["他们背包旅行了九个月。", "在这里，背包旅行意味着坐公交、只带一个包。"],
+  "sightseeing": ["他们趁天气还没热起来先去观光。", "从大巴车窗观光，看不到多少东西。"],
+  "itinerary": ["行程安排给每座城市留了九小时。", "第一天过后，他们就调整了行程。"],
+  "destination": ["只用一个夏天，这个镇就成了旅游目的地。", "去偏远目的地的路费比住宿费还高。"],
+  "tourist attraction": ["方圆数英里内，这处遗迹是唯一的旅游景点。", "九处景点共用一个停车场。"],
+  "tourist trail": ["这个村子就在常规旅游路线旁边。", "一个地方一旦成为旅游路线的一部分，房租就会变化。"],
+};
