@@ -21,15 +21,15 @@ export const A2_QUANTIFIERS: Partial<GrammarLesson> = {
     ] },
     { heading: "5 · 牢记", body: "可数名词复数搭配 a few/few/many/several；不可数名词搭配 a little/little/much。a lot of、lots of、plenty of、some、any、enough 可搭配两类名词。动词与后面的中心名词保持数一致。" },
     { heading: "6 · 句式", body: "注意名词类型与语气。", table: [
-      { left: "可数名词复数", right: "a few / few / many / several + questions" },
-      { left: "不可数名词", right: "a little / little / much + milk" },
-      { left: "两者通用", right: "a lot of / lots of / plenty of / some / any / enough + 名词" },
-      { left: "a few / a little ↔ few / little", right: "有一点、尚够用 ↔ 太少、几乎没有" },
+      { left: "可数名词复数", right: "a few / few / many / several + questions；例：a few questions（几个问题）。" },
+      { left: "不可数名词", right: "a little / little / much + milk；例：a little milk（一点牛奶）。" },
+      { left: "两者通用", right: "a lot of / lots of / plenty of / some / any / enough + 名词；例：a lot of time · a lot of friends（很多时间；许多朋友）。" },
+      { left: "a few / a little ↔ few / little", right: "有一点、尚够用 ↔ 太少、几乎没有。I have a little money. ↔ I have little money.（我还有点钱。↔ 我的钱所剩无几。）" },
     ] },
     { heading: "7 · 分析步骤", body: "识别名词、选择语气，再检查动词。", table: [
-      { left: "01 判断名词", right: "chairs 可数，用 a few；furniture 不可数，用 a little。" },
-      { left: "02 判断语气", right: "a little time 表示还有一些；little time 表示时间几乎不够。" },
-      { left: "03 检查数一致", right: "a lot of people 搭配复数动词；a lot of rice 搭配单数动词。" },
+      { left: "01 判断名词", right: "chairs 可数，用 a few；furniture 不可数，用 a little。对比：a few chairs · a little furniture。" },
+      { left: "02 判断语气", right: "a little time ↔ little time：前者表示还有一些时间，后者表示时间几乎不够。" },
+      { left: "03 检查数一致", right: "a lot of people · a lot of rice：前者搭配复数动词，后者搭配单数动词。" },
     ] },
     { heading: "8 · 例句与讲解", body: "数量词选法由名词的可数性和句子想表达的语气决定。", examples: [
       { en: "We have a little time before the train leaves.", cn: "火车开走前，我们还有一点时间。", note: "time 不可数；a little 表示还有一些。" },
