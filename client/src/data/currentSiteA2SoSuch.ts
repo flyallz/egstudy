@@ -27,9 +27,9 @@ export const A2_SO_SUCH: Partial<GrammarLesson> = {
       { left: "省略 that 从句，仅表示强调", right: "Thank you — you're so kind!" },
     ] },
     { heading: "7 · 分析步骤", body: "先看修饰对象，再检查冠词和结果从句。", table: [
-      { left: "01 看后面的词", right: "名词短语通常选 such；没有名词、只修饰形容词或副词选 so；数量词 many/much/few/little 选 so。" },
-      { left: "02 检查冠词", right: "such 后的单数可数名词保留 a/an；复数和不可数名词不加。" },
-      { left: "03 补充结果", right: "需要说明结果时，接 that + 完整从句。" },
+      { left: "01 看后面的词", right: "名词短语通常选 such；没有名词、只修饰形容词或副词选 so；数量词 many/much/few/little 选 so。对比：so cold ↔ such a cold night。" },
+      { left: "02 检查冠词", right: "such 后的单数可数名词保留 a/an；复数和不可数名词不加。对比：such a good idea · such good news。" },
+      { left: "03 补充结果", right: "需要说明结果时，接 that + 完整从句，例如 so hot that the road melted（热得路面都融化了）。" },
     ] },
     { heading: "8 · 例句与讲解", body: "同一意思可以通过不同句式表达。", examples: [
       { en: "It was such a cold night that we stayed indoors.", cn: "那一夜冷得我们待在室内。", note: "a cold night 是名词短语，用 such a。" },

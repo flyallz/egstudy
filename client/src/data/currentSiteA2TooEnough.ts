@@ -24,12 +24,12 @@ export const A2_TOO_ENOUGH: Partial<GrammarLesson> = {
       { left: "too + 形容词 (+ for + 人) + to do", right: "too expensive for us to buy" },
       { left: "形容词 + enough (+ for + 人) + to do", right: "warm enough to swim" },
       { left: "enough + 名词 + to do", right: "enough money to travel" },
-      { left: "too much + 不可数名词；too many + 复数名词", right: "too much salt；too many people" },
+      { left: "too much + 不可数名词；too many + 复数名词", right: "too much salt · too many people" },
     ] },
     { heading: "7 · 分析步骤", body: "判断结果、确定 enough 的位置，再检查 to do。", table: [
       { left: "01 判断程度", right: "超过界限而做不到用 too；达到条件而做得到用 enough：too small ↔ big enough。" },
-      { left: "02 放置 enough", right: "在形容词或副词后，在名词前：strong enough；enough strength。" },
-      { left: "03 写出结果", right: "结果动作使用 to + 动词原形：too heavy to carry，不能写 for carry。" },
+      { left: "02 放置 enough", right: "在形容词或副词后，在名词前：strong enough · enough strength。" },
+      { left: "03 写出结果", right: "结果动作使用 to + 动词原形：too heavy to carry，而非 for carry。" },
     ] },
     { heading: "8 · 例句与讲解", body: "注意 too、enough 与名词和形容词的不同搭配。", examples: [
       { en: "The box was too heavy to carry, but I was strong enough to move it.", cn: "箱子太重搬不动，但我有足够的力气挪动它。", note: "too 在形容词 heavy 前；enough 在 strong 后；两边都接 to do。" },
