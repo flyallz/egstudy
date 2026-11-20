@@ -10570,3 +10570,29 @@ export const SPORT_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> 
   "raise the bar": ["她的表现提高了整个俱乐部的标准。", "他们提高了要求，结果九名会员离开了。"],
   "home advantage": ["那片有坡度的球场确实给主队带来优势。", "他们有主场优势，却还是输了。"],
 };
+
+export const OCEANS_FIRST_LESSON: OriginalTopicWord[] = [
+  ["seabed", "/ˈsiːbed/", "名词", "海床；海底", "可数名词，通常用单数；the seabed is mapped", "Less than a fifth of the seabed has been mapped in detail.", "Cables run along the seabed for nine hundred kilometres."],
+  ["continental shelf", "/ˌkɒntɪˈnentl ʃelf/", "名词短语", "大陆架", "可数名词；the continental shelf extends", "The continental shelf extends two hundred kilometres out.", "Most of the catch comes from the continental shelf."],
+  ["ocean trench", "/ˈəʊʃn trentʃ/", "名词短语", "海沟；大洋海沟", "可数名词；an ocean trench reaches", "The ocean trench reaches eleven kilometres down.", "Nothing from an ocean trench reaches the surface alive."],
+  ["mid-ocean ridge", "/mɪd ˈəʊʃn rɪdʒ/", "名词短语", "洋中脊；大洋中脊", "可数名词；a mid-ocean ridge runs", "The mid-ocean ridge runs the length of the Atlantic.", "New seafloor is formed at the mid-ocean ridge."],
+  ["tide", "/taɪd/", "名词", "潮汐；潮水", "可数名词；the tide turns/comes in", "The tide turns at a quarter past four.", "They waited for the tide for nine hours."],
+  ["high tide", "/haɪ taɪd/", "名词短语", "高潮；涨潮时", "可数或不可数名词；at high tide", "At high tide the causeway disappears.", "High tide and a westerly wind flood the whole quay."],
+  ["low tide", "/ləʊ taɪd/", "名词短语", "低潮；退潮时", "可数或不可数名词；at low tide", "At low tide you can walk to the island.", "The boats sit on mud at low tide."],
+  ["tidal range", "/ˈtaɪdl reɪndʒ/", "名词短语", "潮差；潮汐涨落幅度", "可数名词；a tidal range of + 数值", "The tidal range there is nine metres.", "A large tidal range makes the estuary dangerous."],
+  ["ocean current", "/ˈəʊʃn ˈkʌrənt/", "名词短语", "洋流；海流", "可数名词；an ocean current carries", "The ocean current carries warm water north.", "Ocean currents distribute heat around the planet."],
+  ["warm current", "/wɔːm ˈkʌrənt/", "名词短语", "暖流", "可数名词；a warm current keeps + 名词 + mild", "A warm current keeps those harbours free of ice.", "The warm current shifted and the fish followed."],
+];
+
+export const OCEANS_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "seabed": ["详细绘制过地图的海床不到五分之一。", "电缆沿海床延伸了九百公里。"],
+  "continental shelf": ["大陆架向海中延伸两百公里。", "大部分渔获来自大陆架海域。"],
+  "ocean trench": ["这条海沟深达十一公里。", "来自海沟的生物没有什么能活着到达海面。"],
+  "mid-ocean ridge": ["洋中脊贯穿整个大西洋。", "新的海底在洋中脊形成。"],
+  "tide": ["潮水在四点十五分开始转向。", "他们等了九个小时才等到合适的潮水。"],
+  "high tide": ["涨潮时，那条堤道会被淹没。", "高潮加上西风会淹没整座码头。"],
+  "low tide": ["退潮时，你可以步行到那座岛。", "低潮时，船只搁在泥滩上。"],
+  "tidal range": ["那里的潮差有九米。", "较大的潮差使河口变得危险。"],
+  "ocean current": ["这股洋流把温暖的海水带向北方。", "洋流在全球各地分配热量。"],
+  "warm current": ["一股暖流使那些港口终年不结冰。", "暖流改变了方向，鱼群也跟着移动。"],
+};
