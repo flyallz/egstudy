@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–112 张正面；抽查第 11、37 张背面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–136 张正面；抽查第 11、37 张背面",
   "cards": [
     ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
     ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
@@ -114,6 +114,30 @@
     ["a slip of the tongue", "/ə slɪp ɒv ðə tʌŋ/"],
     ["on the same wavelength", "/ɒn ðə seɪm ˈweɪvleŋθ/"],
     ["at cross purposes", "/æt krɒs ˈpɜːpəsɪz/"],
-    ["lost in translation", "/lɒst ɪn trænsˈleɪʃn/"]
+    ["lost in translation", "/lɒst ɪn trænsˈleɪʃn/"],
+    ["break the ice", "/breɪk ðə aɪs/"],
+    ["in a word", "/ɪn ə wɜːd/"],
+    ["have the last word", "/hæv ðə lɑːst wɜːd/"],
+    ["a figure of speech", "/ə ˈfɪɡə ɒv spiːtʃ/"],
+    ["word of mouth", "/wɜːd ɒv maʊθ/"],
+    ["put it bluntly", "/pʊt ɪt ˈblʌntli/"],
+    ["take the hint", "/teɪk ðə hɪnt/"],
+    ["talk shop", "/tɔːk ʃɒp/"],
+    ["a two-way conversation", "/ə tuː weɪ ˌkɒnvəˈseɪʃn/"],
+    ["language learning", "/ˈlæŋɡwɪdʒ ˈlɜːnɪŋ/"],
+    ["language exchange", "/ˈlæŋɡwɪdʒ ɪksˈtʃeɪndʒ/"],
+    ["immersion programme", "/ɪˈmɜːʃn ˈprəʊɡræm/"],
+    ["listening practice", "/ˈlɪsənɪŋ ˈpræktɪs/"],
+    ["role play", "/rəʊl pleɪ/"],
+    ["flashcard", "/ˈflæʃkɑːd/"],
+    ["dictionary", "/ˈdɪkʃənri/"],
+    ["thesaurus", "/θɪˈsɔːrəs/"],
+    ["phrase", "/freɪz/"],
+    ["clause", "/klɔːz/"],
+    ["word order", "/wɜːd ˈɔːdə/"],
+    ["spelling", "/ˈspelɪŋ/"],
+    ["punctuation", "/ˌpʌŋktʃuˈeɪʃn/"],
+    ["handwriting", "/ˈhændraɪtɪŋ/"],
+    ["minute-taking", "/ˈmɪnɪt ˈteɪkɪŋ/"]
   ]
 }
