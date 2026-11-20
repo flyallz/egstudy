@@ -74,14 +74,14 @@ export const A2_SUPERLATIVES: Partial<GrammarLesson> = {
     { heading: "5 · 牢记", body: "只有两者比较时用比较级：the taller of the two。最高级通常需要 the，但已有物主限定词时可说 my biggest mistake。不要同时使用 most 和 -est。" },
     { heading: "6 · 句式", body: "按音节数、拼写和不规则变化确定形式。", table: [
       { left: "单音节：the + 形容词 -est", right: "tall → the tallest" },
-      { left: "特殊拼写：双写辅音；辅音 + y → -iest", right: "big → the biggest；busy → the busiest" },
+      { left: "特殊拼写：双写辅音；辅音 + y → -iest", right: "big → the biggest · busy → the busiest" },
       { left: "多音节：the most + 形容词", right: "the most beautiful" },
       { left: "不规则变化", right: "good → the best；bad → the worst；far → the farthest" },
     ] },
     { heading: "7 · 分析步骤", body: "检查比较人数、冠词和范围。", table: [
       { left: "01 判断群体", right: "至少三个对象才能用最高级；只有两者时用比较级：the taller of the two。" },
-      { left: "02 写出最高级", right: "通常在 -est 或 most 前加 the；已有物主限定词时可不用 the。" },
-      { left: "03 标出范围", right: "地点或组织用 in，明确的人或物集合用 of：the best in the class；the oldest of the three。" },
+      { left: "02 写出最高级", right: "通常在 -est 或 most 前加 the；已有物主限定词时可不用 the。对比：the biggest · my biggest mistake。" },
+      { left: "03 标出范围", right: "地点或组织用 in，明确的人或物集合用 of：the best in the class · the oldest of the three。" },
     ] },
     { heading: "8 · 例句与讲解", body: "观察不规则形式、短词拼写、长词和名次。", examples: [
       { en: "She is the best student in our class.", cn: "她是我们班最好的学生。", note: "good → best；需要 the，班级范围用 in。" },

@@ -52,7 +52,7 @@ export const A2_ED_ING: Partial<GrammarLesson> = {
       { left: "-ing：引起感受的原因", right: "boring · interesting · tiring · surprising · worrying" },
       { left: "-ed：产生感受的人", right: "bored · interested · tired · surprised · worried" },
       { left: "名词前两种形式意义不同", right: "a tiring journey ↔ a tired traveller" },
-      { left: "固定介词", right: "interested in · bored with · worried about · excited about · surprised at" },
+      { left: "固定介词", right: "interested in · bored with · worried about · excited about · surprised at。She is interested in history.（她对历史感兴趣。）" },
     ] },
     { heading: "7 · 分析步骤", body: "判定原因和感受者，并检查固定介词。", table: [
       { left: "01 区分原因与感受者", right: "原因用 -ing，感受者用 -ed：The job is tiring. ↔ I am tired." },
