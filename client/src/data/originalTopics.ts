@@ -7376,3 +7376,33 @@ export const TOURISM_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "tourist attraction": ["方圆数英里内，这处遗迹是唯一的旅游景点。", "九处景点共用一个停车场。"],
   "tourist trail": ["这个村子就在常规旅游路线旁边。", "一个地方一旦成为旅游路线的一部分，房租就会变化。"],
 };
+
+export const TOURISM_SECOND_LESSON: OriginalTopicWord[] = [
+  ["travel agency", "/ˈtrævl ˌeɪdʒənsi/", "名词短语", "旅行社", "可数；book through a travel agency", "The last travel agency on the street closed in 2017.", "Older customers still book through a travel agency."],
+  ["tour operator", "/ˈtʊər ˌɒpəreɪtə/", "名词短语", "旅行社运营商；旅游承办商", "可数；a tour operator charters", "The tour operator charters nine flights a week.", "Two tour operators control most of the beds."],
+  ["tour guide", "/ˈtʊə ɡaɪd/", "名词短语", "导游", "可数；a licensed tour guide", "The tour guide knew the building better than its owner.", "Licensed tour guides train for two years here."],
+  ["guided tour", "/ˈɡaɪdɪd tʊə/", "名词短语", "有导游带领的参观", "可数；join a guided tour", "The guided tour lasts ninety minutes.", "A guided tour runs every hour in summer."],
+  ["excursion", "/ɪkˈskɜːʃn/", "名词", "短途游；短途参观", "可数；book a day excursion", "The excursion to the islands was cancelled twice.", "A day excursion costs more than the hotel night."],
+  ["day trip", "/ˈdeɪ trɪp/", "名词短语", "一日游", "可数；take a day trip to...", "A day trip fills the square and empties it by six.", "They took a day trip to the lake and came back sunburnt."],
+  ["city break", "/ˈsɪti breɪk/", "名词短语", "城市短假；城市短途度假", "可数；book a city break", "A city break of three nights is the commonest booking.", "City breaks pushed the rents up in the old quarter."],
+  ["cruise", "/kruːz/", "名词", "邮轮旅行；乘船游览", "可数；go on a cruise", "The cruise calls here for six hours.", "A cruise brings two thousand people and very little money."],
+  ["resort", "/rɪˈzɔːt/", "名词", "度假胜地；度假村", "可数；a seaside/a ski resort", "The resort was built in one season.", "Two ski resorts share the same valley."],
+  ["guesthouse", "/ˈɡesthaʊs/", "名词", "家庭旅馆；小旅馆", "可数；run/stay at a guesthouse", "The guesthouse has nine rooms and one bathroom.", "They have run the guesthouse since 1988."],
+  ["bed and breakfast", "/ˌbed ən ˈbrekfəst/", "名词短语", "提供早餐的住宿旅馆；民宿", "可数；stay in/run a bed and breakfast", "The bed and breakfast is full every weekend.", "She runs a bed and breakfast in the winter months only."],
+  ["hostel", "/ˈhɒstl/", "名词", "青年旅舍；廉价宿舍", "可数；a youth hostel", "The youth hostel sleeps forty in six rooms.", "A hostel bed costs a ninth of a hotel room."],
+];
+
+export const TOURISM_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "travel agency": ["这条街上最后一家旅行社于 2017 年关门了。", "年纪较大的顾客仍会通过旅行社预订。"],
+  "tour operator": ["这家旅游承办商每周包租九个航班。", "两家旅游承办商控制着当地大部分客房。"],
+  "tour guide": ["导游对这栋建筑的了解比业主还多。", "这里持证导游需要培训两年。"],
+  "guided tour": ["这趟导览持续九十分钟。", "夏季每小时都有一趟导览。"],
+  "excursion": ["去群岛的短途游被取消了两次。", "一日游的费用比住一晚酒店还高。"],
+  "day trip": ["一日游的游客把广场挤满，到了六点又散去。", "他们当天往返湖边，回来时都晒伤了。"],
+  "city break": ["三晚的城市短假是最常见的预订。", "城市短途度假推高了老城区的租金。"],
+  "cruise": ["这趟邮轮在这里停靠六小时。", "一艘邮轮带来两千人，却没带来多少收入。"],
+  "resort": ["这座度假村在一个旅游季里建成了。", "两座滑雪度假村共用同一片山谷。"],
+  "guesthouse": ["这家小旅馆有九间客房，却只有一间浴室。", "他们从 1988 年起一直经营这家小旅馆。"],
+  "bed and breakfast": ["这家包早餐的民宿每逢周末都客满。", "她只在冬季经营这家包早餐的民宿。"],
+  "hostel": ["这家青年旅舍有六间房，可住四十人。", "青年旅舍一张床位的价格只有酒店客房的九分之一。"],
+};
