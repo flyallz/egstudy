@@ -8730,3 +8730,59 @@ export const ENERGY_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "a stopgap measure": ["这项补贴原是权宜之计，却持续了九年。", "让老电厂继续开着只是临时措施。"],
   "bite the bullet": ["他们咬咬牙，把整套系统都换了。", "地方议会硬着头皮借了款。"],
 };
+
+export const EQUALITY_FIRST_LESSON: OriginalTopicWord[] = [
+  ["equality", "/ɪˈkwɒləti/", "名词", "平等", "不可数；promote/achieve equality", "Equality before the law is easier to write than to deliver.", "Equality of outcome and equality of chance are different demands."],
+  ["inequality", "/ˌɪnɪˈkwɒləti/", "名词", "不平等", "可数或不可数；widen/reduce inequality", "Inequality widened in every decade but one.", "Inequality within regions now exceeds that between them."],
+  ["income inequality", "/ˈɪnkʌm ˌɪnɪˈkwɒləti/", "名词短语", "收入不平等", "不可数；measure income inequality", "Income inequality is measured before housing costs and after.", "Rising income inequality shows up first in the dentists' records."],
+  ["wealth gap", "/ˈwelθ ɡæp/", "名词短语", "财富差距", "通常用单数；the wealth gap widens", "The wealth gap is wider than the income gap by far.", "Inheritance drives the wealth gap more than wages do."],
+  ["upward mobility", "/ˌʌpwəd məʊˈbɪləti/", "名词短语", "向上流动；社会阶层上升", "不可数；upward mobility stalls", "Upward mobility stalled for the cohort born after 1980.", "Upward mobility is highest where housing is affordable."],
+  ["social class", "/ˈsəʊʃl klɑːs/", "名词短语", "社会阶层", "可数；social class shapes", "Social class still predicts the examination results.", "They never discussed social class and knew it exactly."],
+  ["working class", "/ˈwɜːkɪŋ klɑːs/", "名词短语", "工人阶级；劳动阶层", "通常用单数；the working class votes", "The working class in that town built the whole institution.", "Working class is a description, not an insult."],
+  ["middle class", "/ˈmɪdl klɑːs/", "名词短语", "中产阶级", "通常用单数；the middle class expands", "The middle class expanded for forty years and then stopped.", "A middle class income no longer buys a house here."],
+  ["privilege", "/ˈprɪvəlɪdʒ/", "名词", "特权；优势", "可数或不可数；inherited privilege", "Privilege is hardest to see from inside.", "Inherited privilege survives every reform."],
+  ["disadvantage", "/ˌdɪsədˈvɑːntɪdʒ/", "名词", "不利处境；劣势", "可数或不可数；face disadvantage", "Disadvantage compounds across a childhood.", "They face disadvantage in housing, health and schooling at once."],
+];
+
+export const EQUALITY_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "equality": ["法律面前人人平等，写出来容易，真正做到却难。", "结果平等与机会平等是两种不同的诉求。"],
+  "inequality": ["除了一个十年时期外，不平等程度每十年都在扩大。", "如今，地区内部的不平等超过了地区之间的不平等。"],
+  "income inequality": ["衡量收入不平等时，会分别看扣除住房成本前和扣除后的收入。", "收入差距扩大，最先在牙科诊疗记录中显现出来。"],
+  "wealth gap": ["财富差距远大于收入差距。", "推动财富差距扩大的，继承财产比工资的作用更大。"],
+  "upward mobility": ["1980 年以后出生的一代，向上流动的机会停滞了。", "住房负担得起的地方，向上流动性最高。"],
+  "social class": ["社会阶层仍能预测考试成绩。", "他们从不谈论社会阶层，却清楚知道彼此属于哪一层。"],
+  "working class": ["那个镇的工人阶级建立了整个机构。", "工人阶级是一种描述，不是侮辱。"],
+  "middle class": ["中产阶级壮大了四十年，然后停止了增长。", "在这里，中产阶级的收入也买不起房子了。"],
+  "privilege": ["身在特权之中，最难看见特权。", "继承而来的特权经历每次改革仍能保留下来。"],
+  "disadvantage": ["不利处境在整个童年中不断叠加。", "他们同时在住房、健康和教育上处于劣势。"],
+};
+
+export const EQUALITY_SECOND_LESSON: OriginalTopicWord[] = [
+  ["deprivation", "/ˌdeprɪˈveɪʃn/", "名词", "贫困；资源匮乏", "不可数；multiple deprivation", "The index of multiple deprivation ranks every ward.", "Deprivation is a measure, not a character."],
+  ["poverty", "/ˈpɒvəti/", "名词", "贫困", "不可数；live in/tackle poverty", "Poverty here means heating or eating.", "Nine million live in poverty in a wealthy country."],
+  ["relative poverty", "/ˌrelətɪv ˈpɒvəti/", "名词短语", "相对贫困", "不可数；measure relative poverty", "Relative poverty is set at sixty per cent of median income.", "Relative poverty rose while absolute poverty fell."],
+  ["absolute poverty", "/ˌæbsəluːt ˈpɒvəti/", "名词短语", "绝对贫困", "不可数；absolute poverty falls", "Absolute poverty fell worldwide and rose in two regions.", "Absolute poverty means not enough, by any measure."],
+  ["poverty line", "/ˈpɒvəti laɪn/", "名词短语", "贫困线", "通常用单数；below the poverty line", "A third of the ward lives below the poverty line.", "The poverty line takes no account of local rents."],
+  ["child poverty", "/ˈtʃaɪld ˌpɒvəti/", "名词短语", "儿童贫困", "不可数；reduce child poverty", "Child poverty fell by a third and then returned.", "Child poverty is measured by what the household earns."],
+  ["in-work poverty", "/ˌɪn wɜːk ˈpɒvəti/", "名词短语", "在职贫困", "不可数；in-work poverty grows", "In-work poverty now affects more households than unemployment.", "In-work poverty is a wage problem, not a work-ethic one."],
+  ["means testing", "/ˈmiːnz ˌtestɪŋ/", "名词短语", "经济状况审核；收入资格审查", "不可数；introduce means testing", "Means testing saves money and deters claimants.", "Means testing added nine forms to a simple payment."],
+  ["safety net", "/ˈseɪfti net/", "名词短语", "社会保障网", "通常用单数；a safety net catches", "The safety net has holes the size of a household.", "A safety net exists to be used, not admired."],
+  ["discrimination", "/dɪˌskrɪmɪˈneɪʃn/", "名词", "歧视；区别对待", "不可数；face/prove discrimination", "Discrimination is easiest to prove and hardest to live with.", "She faced discrimination at every interview and could show none of it."],
+  ["direct discrimination", "/dɪˌrekt dɪˌskrɪmɪˈneɪʃn/", "名词短语", "直接歧视", "不可数；direct discrimination is unlawful", "Direct discrimination is unlawful and comparatively rare now.", "The refusal was direct discrimination in writing."],
+  ["indirect discrimination", "/ˌɪndɪˌrekt dɪˌskrɪmɪˈneɪʃn/", "名词短语", "间接歧视", "不可数；indirect discrimination occurs", "Indirect discrimination hides inside neutral rules.", "A height requirement was indirect discrimination against women."],
+];
+
+export const EQUALITY_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "deprivation": ["多重贫困指数给每个行政区排了名。", "贫困是一项衡量指标，不是人格特征。"],
+  "poverty": ["在这里，贫困意味着取暖和吃饭只能二选一。", "一个富裕国家仍有九百万人生活在贫困中。"],
+  "relative poverty": ["相对贫困线设为收入中位数的百分之六十。", "绝对贫困下降时，相对贫困却上升了。"],
+  "absolute poverty": ["全球绝对贫困有所下降，两个地区却上升了。", "无论用哪种尺度衡量，绝对贫困都意味着基本生活所需不足。"],
+  "poverty line": ["这个行政区三分之一的人生活在贫困线以下。", "贫困线没有考虑当地租金。"],
+  "child poverty": ["儿童贫困先下降了三分之一，后来又回升。", "儿童贫困是根据家庭收入衡量的。"],
+  "in-work poverty": ["如今，在职贫困影响的家庭比失业影响的还多。", "在职贫困是工资问题，不是工作态度问题。"],
+  "means testing": ["收入资格审查节省了开支，也劝退了申请人。", "一笔简单的补助因经济状况审查多了九张表格。"],
+  "safety net": ["这张社会保障网的漏洞大得足以让一个家庭掉下去。", "社会保障网是为了让人使用，不是让人欣赏。"],
+  "discrimination": ["歧视最容易证明，却最难承受。", "她每次面试都遭遇歧视，却拿不出任何证据。"],
+  "direct discrimination": ["直接歧视违法，如今也相对少见。", "那份书面拒绝就是直接歧视。"],
+  "indirect discrimination": ["间接歧视藏在表面中立的规则里。", "身高要求构成了对女性的间接歧视。"],
+};
