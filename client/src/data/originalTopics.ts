@@ -9190,3 +9190,29 @@ export const EQUALITY_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "the bare necessities": ["他们只买得起生活必需品，任何意外开支都承担不起。", "这笔补助仅够支付最基本的生活必需品。"],
   "know one's rights": ["了解自身权利的租户会受到不同的对待。", "她清楚自己的权利，还随身带了那封信。"],
 };
+
+export const LANGUAGE_FIRST_LESSON: OriginalTopicWord[] = [
+  ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/", "名词短语", "言语交流；口头交流", "不可数；rely on verbal communication", "Verbal communication carries less of the meaning than people assume.", "The job depends on verbal communication under pressure."],
+  ["non-verbal communication", "/ˌnɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/", "名词短语", "非言语交流", "不可数；non-verbal communication conveys something", "Non-verbal communication conveys most of the attitude.", "Non-verbal communication differs sharply between the two regions."],
+  ["body language", "/ˈbɒdi ˌlæŋɡwɪdʒ/", "名词短语", "肢体语言", "不可数；read body language；open body language", "Her body language said the opposite of her answer.", "Reading body language is a skill, not a party trick."],
+  ["facial expression", "/ˈfeɪʃl ɪkˌspreʃn/", "名词短语", "面部表情", "可数；a facial expression gives something away", "One facial expression ended the negotiation.", "Facial expressions are read faster than words."],
+  ["eye contact", "/ˈaɪ ˌkɒntækt/", "名词短语", "目光接触；眼神交流", "不可数；make or avoid eye contact", "He avoided eye contact for the whole interview.", "Eye contact means confidence in one culture and rudeness in another."],
+  ["gesture", "/ˈdʒestʃə/", "名词", "手势；姿势", "可数；make a gesture", "One gesture replaced a whole sentence.", "Gestures travel badly across borders."],
+  ["tone of voice", "/ˌtəʊn əv ˈvɔɪs/", "名词短语", "语气；说话的声调", "可数；a sharp tone of voice；change one's tone of voice", "The tone of voice carried the whole message.", "She changed her tone of voice and the room settled."],
+  ["intonation", "/ˌɪntəˈneɪʃn/", "名词", "语调；抑扬顿挫", "不可数；rising or falling intonation", "Rising intonation turns a statement into a question.", "Intonation is the hardest thing to teach."],
+  ["pronunciation", "/prəˌnʌnsiˈeɪʃn/", "名词", "发音；读音", "不可数；correct pronunciation；work on pronunciation", "Her pronunciation is clearer than most native speakers'.", "They work on pronunciation for ten minutes a lesson."],
+  ["accent", "/ˈæksent/", "名词", "口音；地方腔调", "可数；a strong accent；lose an accent", "His accent moved two counties in forty years.", "A strong accent was held against her at every interview."],
+];
+
+export const LANGUAGE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "verbal communication": ["言语交流承载的意思比人们想象的少。", "这份工作要求人在压力下进行口头交流。"],
+  "non-verbal communication": ["非言语交流传达了态度中的大部分信息。", "这两个地区的非言语交流方式差异很大。"],
+  "body language": ["她的肢体语言表达的意思与她的回答恰恰相反。", "读懂肢体语言是一项技能，不是聚会上的小把戏。"],
+  "facial expression": ["一个面部表情就让谈判结束了。", "人们理解面部表情的速度比理解语言快。"],
+  "eye contact": ["整场面试中，他都避开了眼神接触。", "在一种文化中，眼神交流表示自信；在另一种文化中，却被视为无礼。"],
+  "gesture": ["一个手势代替了一整句话。", "手势一旦跨越国界，就很容易被误解。"],
+  "tone of voice": ["说话的语气传达了全部信息。", "她改变了语气，整个房间就安静下来了。"],
+  "intonation": ["升调能把陈述句变成疑问句。", "语调是最难教的部分。"],
+  "pronunciation": ["她的发音比大多数母语者都清楚。", "他们每节课花十分钟练习发音。"],
+  "accent": ["四十年间，他的口音变得像相隔两个郡的地方的口音。", "每次面试，她的浓重口音都成为别人对她不利的评价依据。"],
+};
