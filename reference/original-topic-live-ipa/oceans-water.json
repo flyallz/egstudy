@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/oceans",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–22 张正面；网页显示第 1–2 课分别为 10、12 张；第 10 张背面已抽样核对",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–36 张正面；网页显示第 1–3 课分别为 10、12、14 张；第 10 张背面已抽样核对",
   "cards": [
     [
       "seabed",
@@ -90,6 +90,62 @@
     [
       "cove",
       "/kəʊv/"
+    ],
+    [
+      "headland",
+      "/ˈhedlənd/"
+    ],
+    [
+      "cliff",
+      "/klɪf/"
+    ],
+    [
+      "shingle beach",
+      "/ˈʃɪŋɡl biːtʃ/"
+    ],
+    [
+      "sand dune",
+      "/sænd djuːn/"
+    ],
+    [
+      "salt marsh",
+      "/sɒlt mɑːʃ/"
+    ],
+    [
+      "mudflat",
+      "/ˈmʌdflæt/"
+    ],
+    [
+      "rock pool",
+      "/rɒk puːl/"
+    ],
+    [
+      "fringing reef",
+      "/ˈfrɪndʒɪŋ riːf/"
+    ],
+    [
+      "kelp forest",
+      "/kelp ˈfɒrɪst/"
+    ],
+    [
+      "seagrass meadow",
+      "/ˈsiːɡrɑːs ˈmedəʊ/"
+    ],
+    [
+      "mangrove",
+      "/ˈmæŋɡrəʊv/"
+    ],
+    [
+      "shoreline",
+      "/ˈʃɔːlaɪn/"
+    ],
+    [
+      "coastal erosion",
+      "/ˈkəʊstl ɪˈrəʊʒn/"
+    ],
+    [
+      "revetment",
+      "/rɪˈvetmənt/"
     ]
   ]
 }

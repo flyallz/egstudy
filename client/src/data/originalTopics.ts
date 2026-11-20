@@ -10626,3 +10626,37 @@ export const OCEANS_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "bay": ["除了东风，这片海湾能挡住其他方向的风。", "整个夏天，有九艘船停泊在海湾里。"],
   "cove": ["只有退潮时才能到达那个小海湾。", "走私者曾在一个世纪里使用那个小海湾。"],
 };
+
+export const OCEANS_THIRD_LESSON: OriginalTopicWord[] = [
+  ["headland", "/ˈhedlənd/", "名词", "海角；伸入海中的陆地", "可数名词；a headland juts out", "The headland takes the full force of the westerlies.", "A lighthouse stands on the headland."],
+  ["cliff", "/klɪf/", "名词", "悬崖；海边峭壁", "可数名词；a crumbling cliff", "The cliff retreats by a metre a year.", "Nine houses stood on that cliff in 1890."],
+  ["shingle beach", "/ˈʃɪŋɡl biːtʃ/", "名词短语", "砾石海滩；卵石滩", "可数名词；a shingle beach shifts", "The shingle beach shifts a hundred metres in a bad winter.", "A shingle beach protects the marsh behind it."],
+  ["sand dune", "/sænd djuːn/", "名词短语", "沙丘", "可数名词；stabilise a sand dune", "The sand dunes were stabilised with marram grass.", "Nine hectares of sand dune were lost to the car park."],
+  ["salt marsh", "/sɒlt mɑːʃ/", "名词短语", "盐沼；滨海盐沼", "可数名词；a salt marsh absorbs", "The salt marsh absorbs a storm surge better than concrete.", "Salt marsh is grazed in summer and flooded in winter."],
+  ["mudflat", "/ˈmʌdflæt/", "名词", "潮间带泥滩；滩涂", "可数名词；a mudflat feeds birds", "The mudflats feed nine species of wader.", "At low tide the mudflats stretch a kilometre out."],
+  ["rock pool", "/rɒk puːl/", "名词短语", "岩池；退潮后留在岩石间的水坑", "可数名词；explore a rock pool", "Children explore the rock pools at every low tide.", "A rock pool holds a whole ecosystem for six hours."],
+  ["fringing reef", "/ˈfrɪndʒɪŋ riːf/", "名词短语", "岸礁；沿岸珊瑚礁", "可数名词；a fringing reef protects", "The fringing reef protects the whole shore from the swell.", "A fringing reef shelters a quarter of the local species."],
+  ["kelp forest", "/kelp ˈfɒrɪst/", "名词短语", "海带林；大型褐藻林", "可数名词；a kelp forest shelters", "The kelp forest was cut back by the sea urchins.", "A kelp forest grows half a metre a day in spring."],
+  ["seagrass meadow", "/ˈsiːɡrɑːs ˈmedəʊ/", "名词短语", "海草床；海草草甸", "可数名词；restore a seagrass meadow", "The seagrass meadow stores carbon and shelters young fish.", "Nine hectares of seagrass meadow were replanted."],
+  ["mangrove", "/ˈmæŋɡrəʊv/", "名词", "红树林；红树植物", "可数名词；plant/clear mangroves", "The mangroves took the force of the wave.", "Nine hundred hectares of mangrove were cleared for ponds."],
+  ["shoreline", "/ˈʃɔːlaɪn/", "名词", "海岸线；水边线", "可数名词；a retreating shoreline", "The shoreline has retreated ninety metres since 1950.", "They map the shoreline every spring."],
+  ["coastal erosion", "/ˈkəʊstl ɪˈrəʊʒn/", "名词短语", "海岸侵蚀；海岸线退缩", "不可数名词；coastal erosion threatens", "Coastal erosion threatens nine properties on that lane.", "Coastal erosion is managed, not stopped."],
+  ["revetment", "/rɪˈvetmənt/", "名词", "护岸斜坡；护岸工程", "可数名词；build a rock revetment", "A rock revetment was built along the exposed stretch.", "The revetment holds the bank and spoils the view."],
+];
+
+export const OCEANS_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "headland": ["那处海角直接承受西风的全部冲击。", "海角上矗立着一座灯塔。"],
+  "cliff": ["那处海崖每年后退一米。", "1890 年，那处悬崖上还有九栋房屋。"],
+  "shingle beach": ["冬季风浪严重时，这片砾石滩会移动一百米。", "砾石海滩保护着后方的沼泽地。"],
+  "sand dune": ["人们用滨草固定住了沙丘。", "停车场占用了九公顷沙丘。"],
+  "salt marsh": ["盐沼缓冲风暴潮的效果比混凝土还好。", "夏天有人在盐沼放牧，冬天盐沼则被淹没。"],
+  "mudflat": ["这些泥滩为九种涉禽提供食物。", "退潮时，泥滩向海中延伸一公里。"],
+  "rock pool": ["每逢退潮，孩子们都会探索岩石间的水池。", "一个岩池能让一整套生态系统维持六个小时。"],
+  "fringing reef": ["岸礁保护着整片海岸，使其免受涌浪冲击。", "一片岸礁为当地四分之一的物种提供庇护。"],
+  "kelp forest": ["海胆啃食，使那片海带林缩小了。", "春天，海带林每天能长半米。"],
+  "seagrass meadow": ["海草床储存碳，也为幼鱼提供栖身之处。", "九公顷海草床重新种植了海草。"],
+  "mangrove": ["红树林承受了海浪的冲击。", "九百公顷红树林被清除，改建成了池塘。"],
+  "shoreline": ["自 1950 年以来，海岸线后退了九十米。", "他们每年春天绘制海岸线地图。"],
+  "coastal erosion": ["海岸侵蚀威胁着那条路上的九处房产。", "人们只能管理海岸侵蚀，无法彻底阻止它。"],
+  "revetment": ["人们在暴露的海岸段修建了石砌护岸。", "护岸稳住了岸坡，却破坏了景观。"],
+};
