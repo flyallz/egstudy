@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–136 张正面；网页显示第 1–8 课分别为 10、12、14、16、18、20、22、24 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–164 张正面；网页显示第 1–9 课分别为 10、12、14、16、18、20、22、24、28 张",
   "cards": [
     [
       "population growth",
@@ -546,6 +546,118 @@
     [
       "age-friendly design",
       "/eɪdʒ ˈfrendli dɪˈzaɪn/"
+    ],
+    [
+      "loneliness",
+      "/ˈləʊnlinəs/"
+    ],
+    [
+      "social isolation",
+      "/ˈsəʊʃl ˌaɪsəˈleɪʃn/"
+    ],
+    [
+      "bereavement",
+      "/bɪˈriːvmənt/"
+    ],
+    [
+      "widowhood",
+      "/ˈwɪdəʊhʊd/"
+    ],
+    [
+      "care worker",
+      "/keə ˈwɜːkə/"
+    ],
+    [
+      "home help",
+      "/həʊm help/"
+    ],
+    [
+      "immigration detention",
+      "/ˌɪmɪˈɡreɪʃn dɪˈtenʃn/"
+    ],
+    [
+      "detention centre",
+      "/dɪˈtenʃn ˈsentə/"
+    ],
+    [
+      "voluntary return",
+      "/ˈvɒləntri rɪˈtɜːn/"
+    ],
+    [
+      "border crossing",
+      "/ˈbɔːdə ˈkrɒsɪŋ/"
+    ],
+    [
+      "refugee camp",
+      "/ˌrefjuˈdʒiː kæmp/"
+    ],
+    [
+      "reception centre",
+      "/rɪˈsepʃn ˈsentə/"
+    ],
+    [
+      "dispersal area",
+      "/dɪˈspɜːsl ˈeəriə/"
+    ],
+    [
+      "right to remain",
+      "/raɪt tuː rɪˈmeɪn/"
+    ],
+    [
+      "indefinite leave",
+      "/ɪnˈdefɪnət liːv/"
+    ],
+    [
+      "hostile environment",
+      "/ˈhɒstaɪl ɪnˈvaɪrənmənt/"
+    ],
+    [
+      "amnesty",
+      "/ˈæmnəsti/"
+    ],
+    [
+      "cap on numbers",
+      "/kæp ɒn ˈnʌmbəz/"
+    ],
+    [
+      "population boom",
+      "/ˌpɒpjuˈleɪʃn buːm/"
+    ],
+    [
+      "fertility decline",
+      "/fəˈtɪləti dɪˈklaɪn/"
+    ],
+    [
+      "remittance flow",
+      "/rɪˈmɪtns fləʊ/"
+    ],
+    [
+      "settlement pattern",
+      "/ˈsetlmənt ˈpætn/"
+    ],
+    [
+      "shrinking city",
+      "/ˈʃrɪŋkɪŋ ˈsɪti/"
+    ],
+    [
+      "ghost village",
+      "/ɡəʊst ˈvɪlɪdʒ/"
+    ],
+    [
+      "new town",
+      "/njuː taʊn/"
+    ],
+    [
+      "study visa",
+      "/ˈstʌdi ˈviːzə/"
+    ],
+    [
+      "right of abode",
+      "/raɪt ɒv əˈbəʊd/"
+    ],
+    [
+      "net inflow",
+      "/net ˈɪnfləʊ/"
     ]
   ]
 }
