@@ -6890,3 +6890,29 @@ export const FAMILY_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "a home from home": ["姨妈的厨房对她来说就像第二个家。", "这个俱乐部成了新来者的第二个家。"],
   "take sides": ["表亲们拒绝在这场争端中选边站。", "在家庭争吵中选边站，往往会同时失去双方。"],
 };
+
+export const FOOD_AGRICULTURE_FIRST_LESSON: OriginalTopicWord[] = [
+  ["cuisine", "/kwɪˈziːn/", "名词", "烹饪风格；地方菜系", "可数或不可数；regional/traditional cuisine", "The regional cuisine is built on three vegetables.", "Their cuisine travelled with the fishing fleets."],
+  ["staple food", "/ˈsteɪpl fuːd/", "名词短语", "主食", "可数；a staple food of ...", "Rice is the staple food of half the world.", "Potatoes became a staple food within two generations."],
+  ["nutrient", "/ˈnjuːtriənt/", "名词", "营养素；养分", "可数；essential nutrients；lose nutrients", "Boiling removes nutrients the steaming would keep.", "Nine essential nutrients come from that single crop."],
+  ["carbohydrate", "/ˌkɑːbəʊˈhaɪdreɪt/", "名词", "碳水化合物", "可数或不可数；complex carbohydrates", "Complex carbohydrates release energy slowly.", "The meal is mostly carbohydrate and salt."],
+  ["wholemeal flour", "/ˈhəʊlmiːl ˈflaʊə/", "名词短语", "全麦面粉", "不可数；bake with wholemeal flour", "Bread made with wholemeal flour keeps you full for longer.", "Wholemeal flour went out of fashion with the roller mill."],
+  ["helping", "/ˈhelpɪŋ/", "名词", "一份食物；一客", "可数；a second/a generous helping", "A second helping was always offered and rarely refused.", "The helpings have grown by a third since 1990."],
+  ["ingredient", "/ɪnˈɡriːdiənt/", "名词", "食材；原料", "可数；fresh ingredients；list the ingredients", "The dish has four ingredients and no shortcuts.", "Fresh ingredients cost more and cook faster."],
+  ["recipe", "/ˈresəpi/", "名词", "食谱；烹饪方法", "可数；follow/pass on a recipe", "The recipe was passed on without being written down.", "She follows the recipe and then ignores it."],
+  ["seasoning", "/ˈsiːzənɪŋ/", "名词", "调味；调味料", "可数或不可数；adjust/taste for seasoning", "Check the seasoning before you serve it.", "The seasoning is salt, pepper and patience."],
+  ["spice", "/spaɪs/", "名词", "香料", "可数；grind/toast a spice", "The spices are toasted before grinding.", "Nine spices go into the mixture."],
+];
+
+export const FOOD_AGRICULTURE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "cuisine": ["当地菜肴以三种蔬菜为基础。", "他们的饮食文化随着捕鱼船队传播开来。"],
+  "staple food": ["稻米是世界上一半人口的主食。", "两代人之内，土豆就成了一种主食。"],
+  "nutrient": ["水煮会使一些营养素流失，而蒸制可以保留它们。", "九种必需营养素来自这一种作物。"],
+  "carbohydrate": ["复合碳水化合物缓慢释放能量。", "这顿饭主要是碳水化合物和盐。"],
+  "wholemeal flour": ["用全麦面粉做的面包更耐饿。", "辊式磨粉机出现后，全麦面粉逐渐不再流行。"],
+  "helping": ["总有人劝再添一份，几乎没人拒绝。", "自 1990 年以来，每份食物的分量增加了三分之一。"],
+  "ingredient": ["这道菜只有四种食材，没有偷工减料。", "新鲜食材更贵，但熟得更快。"],
+  "recipe": ["这份食谱口口相传，从未写下来。", "她先照着食谱做，然后又随心改动。"],
+  "seasoning": ["上菜前尝一尝调味是否合适。", "调味料是盐、胡椒和耐心。"],
+  "spice": ["这些香料先烘烤，再研磨。", "这种混合配料里有九种香料。"],
+};
