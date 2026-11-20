@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–90 张正面；抽查第 11、37 张背面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–112 张正面；抽查第 11、37 张背面",
   "cards": [
     ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
     ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
@@ -92,6 +92,28 @@
     ["speak up", "/spiːk ʌp/"],
     ["talk over", "/tɔːk ˈəʊvə/"],
     ["cut in", "/kʌt ɪn/"],
-    ["butt in", "/bʌt ɪn/"]
+    ["butt in", "/bʌt ɪn/"],
+    ["get across", "/ɡet əˈkrɒs/"],
+    ["put across", "/pʊt əˈkrɒs/"],
+    ["touch on", "/tʌtʃ ɒn/"],
+    ["dwell on", "/dwel ɒn/"],
+    ["wrap up", "/ræp ʌp/"],
+    ["flag up", "/flæɡ ʌp/"],
+    ["talk round", "/tɔːk raʊnd/"],
+    ["hear out", "/hɪə aʊt/"],
+    ["interpreter", "/ɪnˈtɜːprɪtə/"],
+    ["translator", "/trænsˈleɪtə/"],
+    ["noticeboard", "/ˈnəʊtɪsbɔːd/"],
+    ["public announcement", "/ˈpʌblɪk əˈnaʊnsmənt/"],
+    ["language aptitude", "/ˈlæŋɡwɪdʒ ˈæptɪtjuːd/"],
+    ["icebreaker", "/ˈaɪsbreɪkə/"],
+    ["plain-language summary", "/pleɪn ˈlæŋɡwɪdʒ ˈsʌməri/"],
+    ["get to the point", "/ɡet tuː ðə pɔɪnt/"],
+    ["beat about the bush", "/biːt əˈbaʊt ðə bʊʃ/"],
+    ["speak one's mind", "/spiːk wʌnz maɪnd/"],
+    ["a slip of the tongue", "/ə slɪp ɒv ðə tʌŋ/"],
+    ["on the same wavelength", "/ɒn ðə seɪm ˈweɪvleŋθ/"],
+    ["at cross purposes", "/æt krɒs ˈpɜːpəsɪz/"],
+    ["lost in translation", "/lɒst ɪn trænsˈleɪʃn/"]
   ]
 }
