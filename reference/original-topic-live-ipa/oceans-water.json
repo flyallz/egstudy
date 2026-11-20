@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/oceans",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–52 张正面；网页显示第 1–4 课分别为 10、12、14、16 张；第 10 张背面已抽样核对",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–70 张正面；网页显示第 1–5 课分别为 10、12、14、16、18 张；第 10 张背面已抽样核对",
   "cards": [
     [
       "seabed",
@@ -210,6 +210,78 @@
     [
       "closed season",
       "/kləʊzd ˈsiːzn/"
+    ],
+    [
+      "marine protected area",
+      "/məˈriːn prəˈtektɪd ˈeəriə/"
+    ],
+    [
+      "no-take zone",
+      "/nəʊ teɪk zəʊn/"
+    ],
+    [
+      "fish farm",
+      "/fɪʃ fɑːm/"
+    ],
+    [
+      "aquaculture",
+      "/ˈækwəkʌltʃə/"
+    ],
+    [
+      "shellfish",
+      "/ˈʃelfɪʃ/"
+    ],
+    [
+      "oyster bed",
+      "/ˈɔɪstə bed/"
+    ],
+    [
+      "mussel",
+      "/ˈmʌsl/"
+    ],
+    [
+      "crab",
+      "/kræb/"
+    ],
+    [
+      "lobster",
+      "/ˈlɒbstə/"
+    ],
+    [
+      "squid",
+      "/skwɪd/"
+    ],
+    [
+      "tuna",
+      "/ˈtjuːnə/"
+    ],
+    [
+      "cod",
+      "/kɒd/"
+    ],
+    [
+      "herring",
+      "/ˈherɪŋ/"
+    ],
+    [
+      "mackerel",
+      "/ˈmækrəl/"
+    ],
+    [
+      "salmon",
+      "/ˈsæmən/"
+    ],
+    [
+      "whale",
+      "/weɪl/"
+    ],
+    [
+      "dolphin",
+      "/ˈdɒlfɪn/"
+    ],
+    [
+      "porpoise",
+      "/ˈpɔːpəs/"
     ]
   ]
 }
