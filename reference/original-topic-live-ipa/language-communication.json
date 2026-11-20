@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–52 张正面；抽查第 11、37 张背面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–70 张正面；抽查第 11、37 张背面",
   "cards": [
     ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
     ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
@@ -54,6 +54,24 @@
     ["converse", "/kənˈvɜːs/"],
     ["chat", "/tʃæt/"],
     ["mumble", "/ˈmʌmbl/"],
-    ["mutter", "/ˈmʌtə/"]
+    ["mutter", "/ˈmʌtə/"],
+    ["whisper", "/ˈwɪspə/"],
+    ["shout", "/ʃaʊt/"],
+    ["interrupt", "/ˌɪntəˈrʌpt/"],
+    ["listen", "/ˈlɪsn/"],
+    ["overhear", "/ˌəʊvəˈhɪə/"],
+    ["eavesdrop", "/ˈiːvzdrɒp/"],
+    ["clarify", "/ˈklærɪfaɪ/"],
+    ["restate", "/ˌriːˈsteɪt/"],
+    ["condense", "/kənˈdens/"],
+    ["elaborate", "/ɪˈlæbərət/"],
+    ["digress", "/daɪˈɡres/"],
+    ["persuade", "/pəˈsweɪd/"],
+    ["convince", "/kənˈvɪns/"],
+    ["translate", "/trænsˈleɪt/"],
+    ["stammer", "/ˈstæmə/"],
+    ["voice", "/vɔɪs/"],
+    ["well-spoken", "/wel ˈspəʊkən/"],
+    ["inarticulate", "/ˌɪnɑːˈtɪkjələt/"]
   ]
 }
