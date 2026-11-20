@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–70 张正面；网页显示第 1–5 课分别为 10、12、14、16、18 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–112 张正面；网页显示第 1–7 课分别为 10、12、14、16、18、20、22 张",
   "cards": [
     [
       "population growth",
@@ -282,6 +282,174 @@
     [
       "native-born",
       "/ˈneɪtɪv bɔːn/"
+    ],
+    [
+      "transient",
+      "/ˈtrænziənt/"
+    ],
+    [
+      "settled",
+      "/ˈsetld/"
+    ],
+    [
+      "economically active",
+      "/ˌiːkəˈnɒmɪkli ˈæktɪv/"
+    ],
+    [
+      "move away",
+      "/muːv əˈweɪ/"
+    ],
+    [
+      "move abroad",
+      "/muːv əˈbrɔːd/"
+    ],
+    [
+      "take in",
+      "/teɪk ɪn/"
+    ],
+    [
+      "turn away",
+      "/tɜːn əˈweɪ/"
+    ],
+    [
+      "send back",
+      "/send bæk/"
+    ],
+    [
+      "thin out",
+      "/θɪn aʊt/"
+    ],
+    [
+      "level off",
+      "/ˈlevl ɒf/"
+    ],
+    [
+      "life course",
+      "/laɪf kɔːs/"
+    ],
+    [
+      "household formation",
+      "/ˈhaʊshəʊld fɔːˈmeɪʃn/"
+    ],
+    [
+      "net outflow",
+      "/net ˈaʊtfləʊ/"
+    ],
+    [
+      "migration corridor",
+      "/maɪˈɡreɪʃn ˈkɒrɪdɔː/"
+    ],
+    [
+      "second generation",
+      "/ˈsekənd ˌdʒenəˈreɪʃn/"
+    ],
+    [
+      "generational replacement",
+      "/ˌdʒenəˈreɪʃənl rɪˈpleɪsmənt/"
+    ],
+    [
+      "retirement migration",
+      "/rɪˈtaɪəmənt maɪˈɡreɪʃn/"
+    ],
+    [
+      "working life",
+      "/ˈwɜːkɪŋ laɪf/"
+    ],
+    [
+      "parish register",
+      "/ˈpærɪʃ ˈredʒɪstə/"
+    ],
+    [
+      "a demographic time bomb",
+      "/ə ˌdeməˈɡræfɪk taɪm bɒm/"
+    ],
+    [
+      "a land of opportunity",
+      "/ə lænd ɒv ˌɒpəˈtjuːnəti/"
+    ],
+    [
+      "in search of a better life",
+      "/ɪn sɜːtʃ ɒv ə ˈbetə laɪf/"
+    ],
+    [
+      "the old country",
+      "/ðə əʊld ˈkʌntri/"
+    ],
+    [
+      "the sandwich generation",
+      "/ðə ˈsænwɪdʒ ˌdʒenəˈreɪʃn/"
+    ],
+    [
+      "population movement",
+      "/ˌpɒpjuˈleɪʃn ˈmuːvmənt/"
+    ],
+    [
+      "push factor",
+      "/pʊʃ ˈfæktə/"
+    ],
+    [
+      "pull factor",
+      "/pʊl ˈfæktə/"
+    ],
+    [
+      "chain migration",
+      "/tʃeɪn maɪˈɡreɪʃn/"
+    ],
+    [
+      "return migration",
+      "/rɪˈtɜːn maɪˈɡreɪʃn/"
+    ],
+    [
+      "circular migration",
+      "/ˈsɜːkjələ maɪˈɡreɪʃn/"
+    ],
+    [
+      "ethnic composition",
+      "/ˈeθnɪk ˌkɒmpəˈzɪʃn/"
+    ],
+    [
+      "population distribution",
+      "/ˌpɒpjuˈleɪʃn ˌdɪstrɪˈbjuːʃn/"
+    ],
+    [
+      "carrying capacity",
+      "/ˈkæriɪŋ kəˈpæsəti/"
+    ],
+    [
+      "age cohort",
+      "/eɪdʒ ˈkəʊhɔːt/"
+    ],
+    [
+      "school roll",
+      "/skuːl rəʊl/"
+    ],
+    [
+      "care home place",
+      "/keə həʊm pleɪs/"
+    ],
+    [
+      "pension provision",
+      "/ˈpenʃn prəˈvɪʒn/"
+    ],
+    [
+      "worker shortfall",
+      "/ˈwɜːkə ˈʃɔːtfɔːl/"
+    ],
+    [
+      "skilled migration",
+      "/skɪld maɪˈɡreɪʃn/"
+    ],
+    [
+      "seasonal worker scheme",
+      "/ˈsiːzənl ˈwɜːkə skiːm/"
+    ],
+    [
+      "integration programme",
+      "/ˌɪntɪˈɡreɪʃn ˈprəʊɡræm/"
+    ],
+    [
+      "community sponsorship",
+      "/kəˈmjuːnəti ˈspɒnsəʃɪp/"
     ]
   ]
 }
