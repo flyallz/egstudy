@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–36 张正面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–52 张正面；抽查第 11、37 张背面",
   "cards": [
     ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
     ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
@@ -38,6 +38,22 @@
     ["speech", "/spiːtʃ/"],
     ["miscommunication", "/ˌmɪskəmjuːnɪˈkeɪʃn/"],
     ["constructive comment", "/kənˈstrʌktɪv ˈkɒment/"],
-    ["criticism", "/ˈkrɪtɪsɪzəm/"]
+    ["criticism", "/ˈkrɪtɪsɪzəm/"],
+    ["compliment", "/ˈkɒmplɪment/"],
+    ["gossip", "/ˈɡɒsɪp/"],
+    ["handwritten letter", "/ˌhændˈrɪtn ˈletə/"],
+    ["phone call", "/fəʊn kɔːl/"],
+    ["video call", "/ˈvɪdiəʊ kɔːl/"],
+    ["voicemail", "/ˈvɔɪsmeɪl/"],
+    ["text message", "/tekst ˈmesɪdʒ/"],
+    ["group chat", "/ɡruːp tʃæt/"],
+    ["sign language", "/saɪn ˈlæŋɡwɪdʒ/"],
+    ["braille", "/breɪl/"],
+    ["lip-reading", "/lɪp ˈriːdɪŋ/"],
+    ["communicate", "/kəˈmjuːnɪkeɪt/"],
+    ["converse", "/kənˈvɜːs/"],
+    ["chat", "/tʃæt/"],
+    ["mumble", "/ˈmʌmbl/"],
+    ["mutter", "/ˈmʌtə/"]
   ]
 }

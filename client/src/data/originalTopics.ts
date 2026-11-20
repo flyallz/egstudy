@@ -9280,3 +9280,41 @@ export const LANGUAGE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "constructive comment": ["建设性意见比表扬更少见。", "他们以书面方式私下提出了建设性意见。"],
   "criticism": ["建设性的批评改进了第二稿。", "比起听称赞，她更善于接受批评。"],
 };
+
+export const LANGUAGE_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["compliment", "/ˈkɒmplɪment/", "名词", "赞美；称赞的话", "可数；pay or receive a compliment", "He paid her a compliment she remembered for years.", "A compliment in public is worth nine in private."],
+  ["gossip", "/ˈɡɒsɪp/", "名词", "闲言碎语；流言", "不可数；spread local gossip", "Local gossip knew before the official letter arrived.", "Gossip in a small place is a form of record-keeping."],
+  ["handwritten letter", "/ˌhændˈrɪtn ˈletə/", "名词短语", "手写信；亲笔信", "可数；write or receive a handwritten letter", "A handwritten letter still arrives differently.", "She wrote a handwritten letter to every family."],
+  ["phone call", "/fəʊn kɔːl/", "名词短语", "电话；通话", "可数；make or return a phone call", "One phone call settled what nine emails could not.", "He returns every phone call the same day."],
+  ["video call", "/ˈvɪdiəʊ kɔːl/", "名词短语", "视频通话", "可数；make a video call", "A video call replaced the monthly journey.", "Video calls keep the grandparents in the room."],
+  ["voicemail", "/ˈvɔɪsmeɪl/", "名词", "语音留言；语音信箱", "可数或不可数；leave or check voicemail", "He left a voicemail nobody listened to for a week.", "Her voicemail is full for most of the term."],
+  ["text message", "/tekst ˈmesɪdʒ/", "名词短语", "短信；文字消息", "可数；send a text message", "A text message is the only way to reach the night staff.", "Nine text messages said less than one call."],
+  ["group chat", "/ɡruːp tʃæt/", "名词短语", "群聊；聊天群", "可数；a group chat organises something", "The street group chat organised the whole clean-up.", "A group chat of ninety people decides nothing."],
+  ["sign language", "/saɪn ˈlæŋɡwɪdʒ/", "名词短语", "手语", "可数；use or learn sign language", "Sign language is a language, not a code for English.", "Two staff learned sign language for one patient."],
+  ["braille", "/breɪl/", "名词", "盲文；布莱叶点字", "不可数；read in braille", "The menu is available in braille on request.", "She reads braille faster than most people read print."],
+  ["lip-reading", "/lɪp ˈriːdɪŋ/", "名词", "读唇；看口型辨识说话", "不可数；rely on lip-reading", "Masks removed lip-reading as an option overnight.", "Lip-reading catches about a third of what is said."],
+  ["communicate", "/kəˈmjuːnɪkeɪt/", "动词", "传达；沟通", "communicate something to somebody", "The decision was communicated by a notice on the door.", "They communicate badly and work together perfectly."],
+  ["converse", "/kənˈvɜːs/", "动词", "交谈；谈话", "converse with somebody about something", "They conversed in two languages at once.", "He conversed easily with anyone on any shift."],
+  ["chat", "/tʃæt/", "动词", "闲聊；聊天", "chat；chat to or with somebody", "They chatted for an hour about nothing of consequence.", "She chats to every customer and remembers all of it."],
+  ["mumble", "/ˈmʌmbl/", "动词", "含糊地说；咕哝", "mumble；mumble something", "He mumbled the answer and had to repeat it.", "Nobody heard the question; the speaker mumbled."],
+  ["mutter", "/ˈmʌtə/", "动词", "低声嘟囔；喃喃抱怨", "mutter；mutter something", "She muttered something about the paperwork.", "He muttered a complaint and signed anyway."],
+];
+
+export const LANGUAGE_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "compliment": ["他称赞了她一句，她多年后仍记得。", "当众的一句赞美，胜过私下的九句。"],
+  "gossip": ["正式通知信还没到，当地的闲话就已经传开了。", "在小地方，流言也是一种记事方式。"],
+  "handwritten letter": ["手写信抵达时，依然给人一种不一样的感受。", "她给每个家庭都写了一封亲笔信。"],
+  "phone call": ["九封邮件没能解决的事，一通电话就解决了。", "每一通电话他都会在当天回拨。"],
+  "video call": ["视频通话取代了每月一次的远行。", "视频通话让祖父母仿佛就在房间里。"],
+  "voicemail": ["他留下的语音留言，一个星期都没人听。", "她的语音信箱在学期的大部分时间里都是满的。"],
+  "text message": ["要联系夜班人员，发短信是唯一的办法。", "九条短信传达的信息还不如一通电话。"],
+  "group chat": ["整条街的群聊组织了这次清理行动。", "九十个人的群聊做不出决定。"],
+  "sign language": ["手语是一门语言，并不是英语的另一套符号。", "两名员工为了一名患者学了手语。"],
+  "braille": ["如有需要，可以提供盲文菜单。", "她读盲文的速度比大多数人读印刷文字还快。"],
+  "lip-reading": ["口罩一夜之间让读唇不再可行。", "读唇只能辨识大约三分之一的讲话内容。"],
+  "communicate": ["这项决定是通过贴在门上的通知传达的。", "他们沟通得很差，合作起来却毫无问题。"],
+  "converse": ["他们同时用两种语言交谈。", "不管在哪个班次，他都能轻松地与任何人交谈。"],
+  "chat": ["他们聊了一个小时，全是无关紧要的事。", "她和每位顾客聊天，还把聊过的内容都记得。"],
+  "mumble": ["他含含糊糊地回答，只好再说一遍。", "没人听清那个问题，因为发言人说得含糊不清。"],
+  "mutter": ["她低声嘟囔了几句关于文件手续的话。", "他嘟囔着抱怨了一句，但还是签了字。"],
+};
