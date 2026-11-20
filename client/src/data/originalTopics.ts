@@ -6946,3 +6946,37 @@ export const FOOD_AGRICULTURE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [strin
   "organic produce": ["有机农产品贵三分之一，却最先卖光。", "他们从 1998 年起就种植有机农产品。"],
   "seasonal produce": ["菜单随着时令农产品而变化。", "所谓时令农产品，就是连续九周都有豆子，随后又一点也没有。"],
 };
+
+export const FOOD_AGRICULTURE_THIRD_LESSON: OriginalTopicWord[] = [
+  ["farmers' market", "/ˈfɑːməz ˌmɑːkɪt/", "名词短语", "农夫市集；农产品直销市场", "可数；hold a farmers' market", "The farmers' market runs on the first Saturday.", "A farmers' market pays the grower directly."],
+  ["greengrocer", "/ˈɡriːnɡrəʊsə/", "名词", "蔬果商；蔬果店", "可数；a greengrocer sells fruit and vegetables", "The last greengrocer closed in 2011.", "Her greengrocer keeps the awkward vegetables for her."],
+  ["butcher", "/ˈbʊtʃə/", "名词", "肉贩；肉店老板", "可数；a butcher cuts meat", "The butcher cuts to order and advises for free.", "Two butchers share the same abattoir."],
+  ["fishmonger", "/ˈfɪʃmʌŋɡə/", "名词", "鱼贩；鱼店老板", "可数；a fishmonger fillets fish", "The fishmonger fillets it while you wait.", "No fishmonger has traded here since the quay closed."],
+  ["delicatessen", "/ˌdelɪkəˈtesn/", "名词", "熟食店；特色食品店", "可数；a delicatessen stocks food", "The delicatessen stocks nine kinds of olive.", "A delicatessen opened where the dairy had been."],
+  ["canteen", "/kænˈtiːn/", "名词", "食堂；员工餐厅", "可数；a works/school canteen", "The works canteen fed four hundred in two sittings.", "The school canteen is the only hot meal for some pupils."],
+  ["menu", "/ˈmenjuː/", "名词", "菜单", "可数；a short menu；change a menu", "The menu is short because the kitchen is small.", "They change the menu every fortnight."],
+  ["set menu", "/ˌset ˈmenjuː/", "名词短语", "套餐菜单；固定价菜单", "可数；a set menu offers ...", "The set menu is three courses for a fixed price.", "A set menu lets a kitchen plan its buying."],
+  ["starter", "/ˈstɑːtə/", "名词", "前菜；开胃菜", "可数；order a starter", "The starter was better than the main course.", "They share one starter between two."],
+  ["main course", "/ˈmeɪn kɔːs/", "名词短语", "主菜", "可数；the main course arrives", "The main course arrived cold.", "A good main course needs two components, not nine."],
+  ["side dish", "/ˈsaɪd dɪʃ/", "名词短语", "配菜；佐餐小菜", "可数；order a side dish", "The side dish outshone everything else.", "Three side dishes come with the fish."],
+  ["dessert", "/dɪˈzɜːt/", "名词", "甜点；餐后点心", "可数；serve/skip dessert", "Dessert is fruit and cheese, nothing more.", "They skipped dessert and walked home."],
+  ["snack", "/snæk/", "名词", "小吃；点心", "可数；a mid-morning snack", "A mid-morning snack keeps the whole shift going.", "Snacks account for a fifth of what most people eat."],
+  ["leftovers", "/ˈleftəʊvəz/", "名词", "剩饭剩菜", "复数名词；use up/eat leftovers", "The leftovers become tomorrow's lunch.", "Nothing is wasted; leftovers are planned for."],
+];
+
+export const FOOD_AGRICULTURE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "farmers' market": ["农夫市集在每月第一个星期六举办。", "在农夫市集买东西，钱直接付给种植者。"],
+  "greengrocer": ["最后一家蔬果店在 2011 年关门了。", "她常去的蔬果商会替她留着那些形状不规整的蔬菜。"],
+  "butcher": ["肉贩按顾客要求切肉，还免费提供建议。", "两家肉店共用同一家屠宰场。"],
+  "fishmonger": ["你等着的时候，鱼贩就会把鱼片好。", "码头关闭后，再也没有鱼贩在这里做生意。"],
+  "delicatessen": ["这家熟食店备有九种橄榄。", "原来的乳品店位置开了一家熟食店。"],
+  "canteen": ["工厂食堂分两批给四百人供餐。", "对一些学生来说，学校食堂提供的是他们唯一一顿热饭。"],
+  "menu": ["菜单很短，因为厨房很小。", "他们每两周换一次菜单。"],
+  "set menu": ["固定价套餐有三道菜。", "固定菜单让厨房可以提前规划采购。"],
+  "starter": ["前菜比主菜更好吃。", "他们两人合点一份前菜。"],
+  "main course": ["主菜端上来时已经凉了。", "一道好的主菜只需要两种主要部分，而不是九种。"],
+  "side dish": ["配菜比其他所有菜都出彩。", "鱼会配上三道小菜。"],
+  "dessert": ["甜点只有水果和奶酪，没有别的。", "他们没吃甜点，步行回家了。"],
+  "snack": ["上午的一份点心让整个班次的人撑了下去。", "对大多数人而言，零食约占食物总量的五分之一。"],
+  "leftovers": ["剩菜就成了明天的午餐。", "什么都不会浪费；剩菜也事先安排好了用途。"],
+};

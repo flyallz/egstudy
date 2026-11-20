@@ -91,4 +91,4 @@ check("Globalisation", "client/src/data/originalTopics.ts", "reference/original-
 
 check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-csv/family-children.csv", "FAMILY", 10)
 
-check("FoodAgriculture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/food-agriculture.csv", "FOOD_AGRICULTURE", 2)
+check("FoodAgriculture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/food-agriculture.csv", "FOOD_AGRICULTURE", 3)
