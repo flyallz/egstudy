@@ -110,4 +110,4 @@ check("Tourism", "client/src/data/originalTopics.ts", "reference/original-topic-
 check("Housing", "client/src/data/originalTopics.ts", "reference/original-topic-csv/housing-communities.csv", "HOUSING", 10)
 check("Energy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/energy-resources.csv", "ENERGY", 10)
 check("Equality", "client/src/data/originalTopics.ts", "reference/original-topic-csv/equality-social-change.csv", "EQUALITY", 10)
-check("Language", "client/src/data/originalTopics.ts", "reference/original-topic-csv/language-communication.csv", "LANGUAGE", 8)
+check("Language", "client/src/data/originalTopics.ts", "reference/original-topic-csv/language-communication.csv", "LANGUAGE", 9)
