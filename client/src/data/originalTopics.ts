@@ -9216,3 +9216,67 @@ export const LANGUAGE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "pronunciation": ["她的发音比大多数母语者都清楚。", "他们每节课花十分钟练习发音。"],
   "accent": ["四十年间，他的口音变得像相隔两个郡的地方的口音。", "每次面试，她的浓重口音都成为别人对她不利的评价依据。"],
 };
+
+export const LANGUAGE_SECOND_LESSON: OriginalTopicWord[] = [
+  ["dialect", "/ˈdaɪəlekt/", "名词", "方言；地方话", "可数；speak or record a dialect", "The dialect survives in two valleys.", "Nine dialect words were recorded from one speaker."],
+  ["mother tongue", "/ˌmʌðə ˈtʌŋ/", "名词短语", "母语", "可数；speak or lose a mother tongue", "She lost her mother tongue by the age of twelve.", "Teaching in the mother tongue improved the results immediately."],
+  ["first language", "/ˌfɜːst ˈlæŋɡwɪdʒ/", "名词短语", "第一语言；最早习得的语言", "可数；a first-language speaker", "Nine first languages are spoken in that one class.", "His first language is not the language of the paperwork."],
+  ["second language", "/ˌsekənd ˈlæŋɡwɪdʒ/", "名词短语", "第二语言", "可数；learn a second language", "English is a second language for most of the staff.", "Learning a second language after fifty is slow and possible."],
+  ["foreign language", "/ˌfɒrən ˈlæŋɡwɪdʒ/", "名词短语", "外语", "可数；study a foreign language", "Foreign language teaching was cut in nine schools.", "She studied two foreign languages and uses one."],
+  ["bilingualism", "/baɪˈlɪŋɡwəlɪzəm/", "名词", "双语现象；使用两种语言的能力", "不可数；bilingualism is the norm", "Bilingualism is the norm in most of the world.", "Bilingualism was discouraged in that generation of schools."],
+  ["multilingualism", "/ˌmʌltiˈlɪŋɡwəlɪzəm/", "名词", "多语现象；使用多种语言", "不可数；multilingualism in a city", "Multilingualism is the ordinary condition of that market.", "Multilingualism costs a school nothing and gains it a great deal."],
+  ["lingua franca", "/ˌlɪŋɡwə ˈfræŋkə/", "名词短语", "通用语；不同母语者之间的交流语言", "可数，常用单数；serve as a lingua franca", "English serves as a lingua franca in the whole industry.", "A lingua franca belongs to nobody in the room."],
+  ["language barrier", "/ˈlæŋɡwɪdʒ ˌbæriə/", "名词短语", "语言障碍", "可数；overcome or face a language barrier", "The language barrier kept nine families from the service.", "A language barrier is removed by one interpreter."],
+  ["interpreting", "/ɪnˈtɜːprətɪŋ/", "名词", "口译；口头翻译", "不可数；simultaneous interpreting", "Simultaneous interpreting exhausts the interpreter in twenty minutes.", "Interpreting was provided for two of the nine languages."],
+  ["fluency", "/ˈfluːənsi/", "名词", "流利程度；表达流畅度", "不可数；develop or assess fluency", "Fluency came before accuracy for both of them.", "They assess fluency by how little the listener works."],
+  ["proficiency", "/prəˈfɪʃnsi/", "名词", "熟练程度；语言水平", "不可数；demonstrate proficiency；a proficiency test", "The proficiency test decides the visa.", "Proficiency in writing lagged behind speaking by a year."],
+];
+
+export const LANGUAGE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "dialect": ["这种方言仍在两个山谷流传。", "研究人员从一名说话者口中记录了九个方言词。"],
+  "mother tongue": ["她到十二岁时就不会说自己的母语了。", "用母语教学后，学生的成绩立即提高了。"],
+  "first language": ["仅那一个班就有人说九种第一语言。", "他的第一语言并不是办手续所用的语言。"],
+  "second language": ["对大部分员工来说，英语是第二语言。", "五十岁后学习第二语言虽然慢，但依然可行。"],
+  "foreign language": ["九所学校削减了外语教学。", "她学过两门外语，现在用得上一门。"],
+  "bilingualism": ["在世界大部分地区，使用两种语言是常态。", "那一代学校曾不鼓励学生使用双语。"],
+  "multilingualism": ["在那个市场，使用多种语言再平常不过。", "多语环境不会让学校付出什么，却会让它受益良多。"],
+  "lingua franca": ["英语在整个行业充当通用语。", "通用语不专属于房间里的任何一个人。"],
+  "language barrier": ["语言障碍让九个家庭无法使用这项服务。", "只需一位口译员，就能消除一道语言障碍。"],
+  "interpreting": ["同声传译只需二十分钟就会让口译员精疲力竭。", "九种语言中只有两种获得了口译服务。"],
+  "fluency": ["对他们两人来说，流利表达都先于准确表达。", "他们通过听者理解起来有多轻松来评估流利程度。"],
+  "proficiency": ["语言水平测试决定签证能否获批。", "他的写作水平比口语水平晚了一年才跟上。"],
+};
+
+export const LANGUAGE_THIRD_LESSON: OriginalTopicWord[] = [
+  ["vocabulary", "/vəˈkæbjələri/", "名词", "词汇量；词汇", "可数或不可数；build vocabulary；an active vocabulary", "An active vocabulary of two thousand words carries most conversation.", "She built her vocabulary from the radio."],
+  ["grammar", "/ˈɡræmə/", "名词", "语法", "不可数；teach grammar；a point of grammar", "Grammar was taught as rules and remembered as reflexes.", "One point of grammar changes the whole meaning."],
+  ["slang", "/slæŋ/", "名词", "俚语；行话", "不可数；use local slang", "Local slang dates a speaker within five years.", "Slang moves faster than any dictionary."],
+  ["jargon", "/ˈdʒɑːɡən/", "名词", "专业术语；业内行话", "不可数；use or avoid jargon", "The leaflet is written in jargon nobody outside uses.", "Jargon excludes as efficiently as a locked door."],
+  ["register", "/ˈredʒɪstə/", "名词", "语域；语言的正式程度", "可数；a formal register；shift register", "The formal register of the letter frightened the reader.", "She shifts register between the ward and the committee."],
+  ["small talk", "/ˈsmɔːl tɔːk/", "名词短语", "寒暄；闲聊", "不可数；make small talk", "Small talk is the hardest part in a second language.", "He makes no small talk and everybody trusts him."],
+  ["conversation", "/ˌkɒnvəˈseɪʃn/", "名词", "交谈；谈话", "可数；have or start a conversation", "The conversation lasted nine minutes and changed the policy.", "She starts a conversation with anyone at a bus stop."],
+  ["dialogue", "/ˈdaɪəlɒɡ/", "名词", "对话；交流", "可数或不可数；open or maintain a dialogue", "A dialogue was opened between the two unions.", "They maintained a dialogue through nine difficult months."],
+  ["discussion", "/dɪˈskʌʃn/", "名词", "讨论", "可数；hold a frank discussion", "The discussion was frank and went nowhere.", "Nine discussions preceded one decision."],
+  ["public speaking", "/ˌpʌblɪk ˈspiːkɪŋ/", "名词短语", "公众演讲；当众讲话", "不可数；fear or practise public speaking", "Public speaking terrified her until she had something to say.", "Public speaking is taught in two lessons and learned in nine years."],
+  ["speech", "/spiːtʃ/", "名词", "演讲；发言", "可数；give or draft a speech", "The speech lasted four minutes and is still quoted.", "He drafted the speech nine times."],
+  ["miscommunication", "/ˌmɪskəˌmjuːnɪˈkeɪʃn/", "名词", "沟通失误；误解", "可数或不可数；a miscommunication occurs", "A miscommunication between two departments cost a week.", "Most of it was miscommunication rather than disagreement."],
+  ["constructive comment", "/kənˈstrʌktɪv ˈkɒment/", "名词短语", "建设性意见", "可数；give or receive a constructive comment", "Constructive comments are rarer than praise.", "They gave their constructive comments in writing and in private."],
+  ["criticism", "/ˈkrɪtɪsɪzəm/", "名词", "批评；批评意见", "可数或不可数；accept constructive criticism", "Constructive criticism improved the second draft.", "She takes criticism better than compliments."],
+];
+
+export const LANGUAGE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "vocabulary": ["掌握两千个常用词，就足以应付大多数日常对话。", "她通过听广播扩大了词汇量。"],
+  "grammar": ["语法以规则的形式教授，最终变成了下意识的反应。", "一个语法点就能改变整句话的意思。"],
+  "slang": ["地方俚语能让人把说话者的年代判断到五年以内。", "俚语的变化速度比任何词典都快。"],
+  "jargon": ["这张宣传单写满了圈外人看不懂的专业术语。", "行话排斥人的效果不亚于一扇锁上的门。"],
+  "register": ["那封信正式的措辞让读者感到害怕。", "她在病区和委员会之间切换不同的说话方式。"],
+  "small talk": ["学习第二语言时，最难的是寒暄。", "他从不闲聊，大家却都信任他。"],
+  "conversation": ["那场谈话只持续了九分钟，却改变了政策。", "在公交站，她会和任何人聊起来。"],
+  "dialogue": ["两个工会之间开始了对话。", "他们在九个月的艰难时期一直保持着沟通。"],
+  "discussion": ["讨论很坦诚，却没有任何结果。", "做出一个决定之前，已经进行了九次讨论。"],
+  "public speaking": ["在真正有话想说之前，她一直害怕当众讲话。", "公众演讲可以在两节课里教完，却要花九年才能学会。"],
+  "speech": ["那次演讲只有四分钟，至今仍有人引用。", "他把演讲稿改写了九遍。"],
+  "miscommunication": ["两个部门之间一次沟通失误耽误了一周。", "其中大部分是沟通误会，而不是意见分歧。"],
+  "constructive comment": ["建设性意见比表扬更少见。", "他们以书面方式私下提出了建设性意见。"],
+  "criticism": ["建设性的批评改进了第二稿。", "比起听称赞，她更善于接受批评。"],
+};
