@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–112 张正面；网页显示第 1–7 课分别为 10、12、14、16、18、20、22 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–136 张正面；网页显示第 1–8 课分别为 10、12、14、16、18、20、22、24 张",
   "cards": [
     [
       "population growth",
@@ -450,6 +450,102 @@
     [
       "community sponsorship",
       "/kəˈmjuːnəti ˈspɒnsəʃɪp/"
+    ],
+    [
+      "host community",
+      "/həʊst kəˈmjuːnəti/"
+    ],
+    [
+      "population projection",
+      "/ˌpɒpjuˈleɪʃn prəˈdʒekʃn/"
+    ],
+    [
+      "family reunification",
+      "/ˈfæməli ˌriːjuːnɪfɪˈkeɪʃn/"
+    ],
+    [
+      "statelessness",
+      "/ˈsteɪtləsnəs/"
+    ],
+    [
+      "work visa",
+      "/wɜːk ˈviːzə/"
+    ],
+    [
+      "sponsorship licence",
+      "/ˈspɒnsəʃɪp ˈlaɪsns/"
+    ],
+    [
+      "population register",
+      "/ˌpɒpjuˈleɪʃn ˈredʒɪstə/"
+    ],
+    [
+      "urban drift",
+      "/ˈɜːbən drɪft/"
+    ],
+    [
+      "family size",
+      "/ˈfæməli saɪz/"
+    ],
+    [
+      "age at marriage",
+      "/eɪdʒ æt ˈmærɪdʒ/"
+    ],
+    [
+      "childlessness",
+      "/ˈtʃaɪldləsnəs/"
+    ],
+    [
+      "generational divide",
+      "/ˌdʒenəˈreɪʃənl dɪˈvaɪd/"
+    ],
+    [
+      "birth certificate",
+      "/bɜːθ səˈtɪfɪkət/"
+    ],
+    [
+      "death certificate",
+      "/deθ səˈtɪfɪkət/"
+    ],
+    [
+      "marriage rate",
+      "/ˈmærɪdʒ reɪt/"
+    ],
+    [
+      "divorce rate",
+      "/dɪˈvɔːs reɪt/"
+    ],
+    [
+      "remarriage rate",
+      "/ˌriːˈmærɪdʒ reɪt/"
+    ],
+    [
+      "teenage pregnancy",
+      "/ˈtiːneɪdʒ ˈpreɡnənsi/"
+    ],
+    [
+      "late parenthood",
+      "/leɪt ˈpeərənthʊd/"
+    ],
+    [
+      "life stage",
+      "/laɪf steɪdʒ/"
+    ],
+    [
+      "ageing in place",
+      "/ˈeɪdʒɪŋ ɪn pleɪs/"
+    ],
+    [
+      "informal care",
+      "/ɪnˈfɔːml keə/"
+    ],
+    [
+      "care need",
+      "/keə niːd/"
+    ],
+    [
+      "age-friendly design",
+      "/eɪdʒ ˈfrendli dɪˈzaɪn/"
     ]
   ]
 }
