@@ -6916,3 +6916,33 @@ export const FOOD_AGRICULTURE_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string
   "seasoning": ["上菜前尝一尝调味是否合适。", "调味料是盐、胡椒和耐心。"],
   "spice": ["这些香料先烘烤，再研磨。", "这种混合配料里有九种香料。"],
 };
+
+export const FOOD_AGRICULTURE_SECOND_LESSON: OriginalTopicWord[] = [
+  ["herb", "/hɜːb/", "名词", "香草；香草植物", "可数；fresh/dried herbs", "Fresh herbs are added at the end.", "She grows nine herbs in a window box."],
+  ["condiment", "/ˈkɒndɪmənt/", "名词", "佐餐调味品；酱料", "可数；a condiment accompanies a dish", "Three condiments sit on every table.", "The condiment is fermented for a year."],
+  ["marinade", "/ˌmærɪˈneɪd/", "名词", "腌料；腌汁", "可数；make a marinade；leave sth in a marinade", "The marinade needs eight hours to work.", "A simple marinade of oil and lemon is enough."],
+  ["broth", "/brɒθ/", "名词", "肉汤；清汤", "可数或不可数；simmer broth；a clear broth", "The broth simmers for six hours.", "A clear broth shows whether the cook was careful."],
+  ["street food", "/ˈstriːt fuːd/", "名词短语", "街头小吃；街头食品", "不可数；sell/eat street food", "Street food feeds the whole market by seven.", "Street food here is cheaper than cooking at home."],
+  ["fast food", "/ˈfɑːst fuːd/", "名词短语", "快餐", "不可数；eat fast food；a fast-food outlet", "Nine fast food outlets stand within a hundred metres of the school.", "Fast food is not the cause and is part of it."],
+  ["processed food", "/ˈprəʊsest fuːd/", "名词短语", "加工食品", "不可数；ultra-processed food；rely on processed food", "Ultra-processed food fills most of the trolley.", "Processed food keeps longer and satisfies less."],
+  ["ready meal", "/ˌredi ˈmiːl/", "名词短语", "预制餐；即食餐", "可数；heat/buy a ready meal", "A ready meal costs less than the ingredients here.", "Ready meals get people through a working week."],
+  ["takeaway", "/ˈteɪkəweɪ/", "名词", "外卖食品；外卖店", "可数；order a takeaway", "They order a takeaway once a fortnight.", "The takeaway closed and the street went quiet."],
+  ["home cooking", "/ˌhəʊm ˈkʊkɪŋ/", "名词短语", "家常菜；在家烹饪", "不可数；miss home cooking；good home cooking", "Home cooking takes time nobody is given.", "Good home cooking is mostly knowing when to stop."],
+  ["organic produce", "/ɔːˈɡænɪk ˈprɒdjuːs/", "名词短语", "有机农产品", "不可数；grow/buy organic produce", "Organic produce costs a third more and sells out first.", "They have grown organic produce since 1998."],
+  ["seasonal produce", "/ˈsiːzənəl ˈprɒdjuːs/", "名词短语", "时令农产品", "不可数；use/sell seasonal produce", "The menu changes with the seasonal produce.", "Seasonal produce means nine weeks of beans and then none."],
+];
+
+export const FOOD_AGRICULTURE_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "herb": ["新鲜香草要在最后加入。", "她在窗台花箱里种了九种香草。"],
+  "condiment": ["每张桌上都放着三种佐餐调味品。", "这种酱料需要发酵一年。"],
+  "marinade": ["这份腌料需要八小时才能入味。", "只用油和柠檬配成的简单腌料就够了。"],
+  "broth": ["这锅汤用小火煨了六小时。", "一碗清汤就能看出厨师是否用心。"],
+  "street food": ["到七点，街头小吃就供养了整个市场的人。", "这里的街头小吃比在家做饭还便宜。"],
+  "fast food": ["学校方圆一百米内有九家快餐店。", "快餐并非唯一原因，但也是原因之一。"],
+  "processed food": ["购物车里装的大多是超加工食品。", "加工食品保存得更久，却更难让人满足。"],
+  "ready meal": ["这里一份预制餐比食材本身还便宜。", "预制餐帮助人们熬过忙碌的一周。"],
+  "takeaway": ["他们每两周点一次外卖。", "那家外卖店关门后，这条街安静了下来。"],
+  "home cooking": ["自己在家做饭需要时间，但人们常常没有这段时间。", "做好家常菜，关键往往是知道何时该停手。"],
+  "organic produce": ["有机农产品贵三分之一，却最先卖光。", "他们从 1998 年起就种植有机农产品。"],
+  "seasonal produce": ["菜单随着时令农产品而变化。", "所谓时令农产品，就是连续九周都有豆子，随后又一点也没有。"],
+};
