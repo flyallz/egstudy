@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–22 张正面；网页显示第 1、2 课分别为 10、12 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–36 张正面；网页显示第 1–3 课分别为 10、12、14 张",
   "cards": [
     [
       "population growth",
@@ -90,6 +90,62 @@
     [
       "immigration",
       "/ˌɪmɪˈɡreɪʃn/"
+    ],
+    [
+      "emigration",
+      "/ˌemɪˈɡreɪʃn/"
+    ],
+    [
+      "net migration",
+      "/net maɪˈɡreɪʃn/"
+    ],
+    [
+      "internal migration",
+      "/ɪnˈtɜːnl maɪˈɡreɪʃn/"
+    ],
+    [
+      "rural-urban migration",
+      "/ˈrʊərəl ˈɜːbən maɪˈɡreɪʃn/"
+    ],
+    [
+      "forced migration",
+      "/fɔːst maɪˈɡreɪʃn/"
+    ],
+    [
+      "immigrant",
+      "/ˈɪmɪɡrənt/"
+    ],
+    [
+      "emigrant",
+      "/ˈemɪɡrənt/"
+    ],
+    [
+      "refugee",
+      "/ˌrefjuˈdʒiː/"
+    ],
+    [
+      "asylum seeker",
+      "/əˈsaɪləm ˈsiːkə/"
+    ],
+    [
+      "displaced person",
+      "/dɪsˈpleɪst ˈpɜːsn/"
+    ],
+    [
+      "resettlement",
+      "/ˌriːˈsetlmənt/"
+    ],
+    [
+      "border control",
+      "/ˈbɔːdə kənˈtrəʊl/"
+    ],
+    [
+      "immigration policy",
+      "/ˌɪmɪˈɡreɪʃn ˈpɒləsi/"
+    ],
+    [
+      "points-based system",
+      "/pɔɪnts beɪst ˈsɪstəm/"
     ]
   ]
 }

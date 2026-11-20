@@ -9706,3 +9706,37 @@ export const POPULATION_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, str
   "migration": ["人口迁移让这家医院四十年来都有足够的工作人员。", "季节性迁移紧随收获季节而来。"],
   "immigration": ["移民填补了工厂留下的工作岗位。", "十年间，移民政策变了九次。"],
 };
+
+export const POPULATION_THIRD_LESSON: OriginalTopicWord[] = [
+  ["emigration", "/ˌemɪˈɡreɪʃn/", "名词", "移居国外；人口外迁", "不可数；mass emigration", "Mass emigration took a third of the parish.", "Emigration slowed when the ferries stopped."],
+  ["net migration", "/net maɪˈɡreɪʃn/", "名词短语", "净迁移；迁入减去迁出的人数", "不可数；net migration of + 数值", "Net migration ran at nine thousand a year.", "Net migration turned negative for one unusual year."],
+  ["internal migration", "/ɪnˈtɜːnl maɪˈɡreɪʃn/", "名词短语", "国内迁移；内部人口流动", "不可数；internal migration from somewhere", "Internal migration from the coast to the capital never stopped.", "Internal migration explains most of the growth."],
+  ["rural-urban migration", "/ˈrʊərəl ˈɜːbən maɪˈɡreɪʃn/", "名词短语", "农村向城市迁移", "不可数；rural-urban migration accelerates", "Rural-urban migration emptied nine villages in a generation.", "Rural-urban migration accelerated after the land reform."],
+  ["forced migration", "/fɔːst maɪˈɡreɪʃn/", "名词短语", "被迫迁移；强制迁徙", "不可数；forced migration follows conflict", "Forced migration followed the flooding of the valley.", "Forced migration is counted badly and remembered exactly."],
+  ["immigrant", "/ˈɪmɪɡrənt/", "名词", "移入者；移民", "可数；a first-generation immigrant", "Her grandfather arrived as an immigrant in 1954.", "Immigrants founded nine of the town's businesses."],
+  ["emigrant", "/ˈemɪɡrənt/", "名词", "移居国外者；移出者", "可数；an emigrant leaves", "The emigrants sent money home for forty years.", "Nine emigrants from one street are buried abroad."],
+  ["refugee", "/ˌrefjuˈdʒiː/", "名词", "难民；获得难民身份的人", "可数；a refugee flees；a refugee is resettled", "Nine refugee families were housed in the old vicarage.", "A refugee has a legal status; a migrant has a journey."],
+  ["asylum seeker", "/əˈsaɪləm ˈsiːkə/", "名词短语", "寻求庇护者；庇护申请人", "可数；an asylum seeker waits", "Asylum seekers wait nine months for a first decision.", "An asylum seeker may not work while waiting."],
+  ["displaced person", "/dɪsˈpleɪst ˈpɜːsn/", "名词短语", "流离失所者；被迫离开家园的人", "可数；a displaced person returns", "Nine hundred displaced persons passed through the camp.", "A displaced person is counted when they cross a line."],
+  ["resettlement", "/ˌriːˈsetlmənt/", "名词", "重新安置；再安置", "不可数；a resettlement scheme", "The resettlement scheme took nine families a year.", "Resettlement works when the housing is arranged first."],
+  ["border control", "/ˈbɔːdə kənˈtrəʊl/", "名词短语", "边境管制；边境检查", "不可数；tighten border control", "Border control was tightened and the routes moved.", "Border control at that crossing takes four hours."],
+  ["immigration policy", "/ˌɪmɪˈɡreɪʃn ˈpɒləsi/", "名词短语", "移民政策；入境政策", "可数或不可数；reform immigration policy", "Immigration policy is written for headlines and applied to families.", "Reforming immigration policy took three governments."],
+  ["points-based system", "/pɔɪnts beɪst ˈsɪstəm/", "名词短语", "积分制；按积分筛选移民的制度", "可数；a points-based system selects", "A points-based system favours salary over need.", "The points-based system excluded the care sector entirely."],
+];
+
+export const POPULATION_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "emigration": ["大规模外迁使该教区失去了三分之一的人口。", "渡轮停航后，人口外迁的速度放缓了。"],
+  "net migration": ["净迁移人数当时每年约为九千人。", "有一年情况异常，净迁移人数转为负数。"],
+  "internal migration": ["从沿海地区迁往首都的人口流动从未停止。", "大部分人口增长都可由国内迁移解释。"],
+  "rural-urban migration": ["一代人的城乡迁移使九个村庄空了下来。", "土地改革后，农村向城市迁移的速度加快了。"],
+  "forced migration": ["山谷被洪水淹没后，人们被迫迁移。", "被迫迁移的统计常常不准确，当事人的记忆却十分清晰。"],
+  "immigrant": ["她的祖父于 1954 年作为移民来到这里。", "这个镇有九家企业是移民创办的。"],
+  "emigrant": ["这些移居国外的人连续四十年寄钱回家。", "同一条街有九名移出者葬在海外。"],
+  "refugee": ["九户难民家庭住进了旧牧师宅。", "难民拥有法律身份；迁移者经历的是一段旅程。"],
+  "asylum seeker": ["寻求庇护者要等九个月才能得到初步决定。", "庇护申请人在等待期间可能不被允许工作。"],
+  "displaced person": ["九百名流离失所者经过了这个营地。", "流离失所者跨过边界线时，才被计入统计。"],
+  "resettlement": ["这项重新安置计划每年接收九个家庭。", "先安排好住房，重新安置才能顺利进行。"],
+  "border control": ["边境管制收紧后，人们改走了其他路线。", "通过那个口岸的边境检查要花四个小时。"],
+  "immigration policy": ["移民政策为新闻标题而写，执行时却影响一个个家庭。", "改革移民政策历经了三届政府。"],
+  "points-based system": ["积分制更看重薪资，而非实际需求。", "积分制把整个护理行业排除在外。"],
+};
