@@ -1,171 +1,807 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/communication",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–164 张正面；抽查第 11、37 张背面",
+  "method": "Chrome 登录态下的主题全部词卡页，逐张核对第 1–200 张正面；抽查第 11、37 张背面",
   "cards": [
-    ["verbal communication", "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
-    ["non-verbal communication", "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"],
-    ["body language", "/ˈbɒdi ˈlæŋɡwɪdʒ/"],
-    ["facial expression", "/ˈfeɪʃl ɪkˈspreʃn/"],
-    ["eye contact", "/aɪ ˈkɒntækt/"],
-    ["gesture", "/ˈdʒestʃə/"],
-    ["tone of voice", "/təʊn ɒv vɔɪs/"],
-    ["intonation", "/ˌɪntəˈneɪʃn/"],
-    ["pronunciation", "/prəˌnʌnsiˈeɪʃn/"],
-    ["accent", "/ˈæksent/"],
-    ["dialect", "/ˈdaɪəlekt/"],
-    ["mother tongue", "/ˈmʌðə tʌŋ/"],
-    ["first language", "/fɜːst ˈlæŋɡwɪdʒ/"],
-    ["second language", "/ˈsekənd ˈlæŋɡwɪdʒ/"],
-    ["foreign language", "/ˈfɒrən ˈlæŋɡwɪdʒ/"],
-    ["bilingualism", "/baɪˈlɪŋɡwəlɪzəm/"],
-    ["multilingualism", "/ˌmʌltiˈlɪŋɡwəlɪzəm/"],
-    ["lingua franca", "/ˈlɪŋɡwə ˈfræŋkə/"],
-    ["language barrier", "/ˈlæŋɡwɪdʒ ˈbæriə/"],
-    ["interpreting", "/ɪnˈtɜːprɪtɪŋ/"],
-    ["fluency", "/ˈfluːənsi/"],
-    ["proficiency", "/prəˈfɪʃnsi/"],
-    ["vocabulary", "/vəˈkæbjələri/"],
-    ["grammar", "/ˈɡræmə/"],
-    ["slang", "/slæŋ/"],
-    ["jargon", "/ˈdʒɑːɡən/"],
-    ["register", "/ˈredʒɪstə/"],
-    ["small talk", "/smɔːl tɔːk/"],
-    ["conversation", "/ˌkɒnvəˈseɪʃn/"],
-    ["dialogue", "/ˈdaɪəlɒɡ/"],
-    ["discussion", "/dɪˈskʌʃn/"],
-    ["public speaking", "/ˈpʌblɪk ˈspiːkɪŋ/"],
-    ["speech", "/spiːtʃ/"],
-    ["miscommunication", "/ˌmɪskəmjuːnɪˈkeɪʃn/"],
-    ["constructive comment", "/kənˈstrʌktɪv ˈkɒment/"],
-    ["criticism", "/ˈkrɪtɪsɪzəm/"],
-    ["compliment", "/ˈkɒmplɪment/"],
-    ["gossip", "/ˈɡɒsɪp/"],
-    ["handwritten letter", "/ˌhændˈrɪtn ˈletə/"],
-    ["phone call", "/fəʊn kɔːl/"],
-    ["video call", "/ˈvɪdiəʊ kɔːl/"],
-    ["voicemail", "/ˈvɔɪsmeɪl/"],
-    ["text message", "/tekst ˈmesɪdʒ/"],
-    ["group chat", "/ɡruːp tʃæt/"],
-    ["sign language", "/saɪn ˈlæŋɡwɪdʒ/"],
-    ["braille", "/breɪl/"],
-    ["lip-reading", "/lɪp ˈriːdɪŋ/"],
-    ["communicate", "/kəˈmjuːnɪkeɪt/"],
-    ["converse", "/kənˈvɜːs/"],
-    ["chat", "/tʃæt/"],
-    ["mumble", "/ˈmʌmbl/"],
-    ["mutter", "/ˈmʌtə/"],
-    ["whisper", "/ˈwɪspə/"],
-    ["shout", "/ʃaʊt/"],
-    ["interrupt", "/ˌɪntəˈrʌpt/"],
-    ["listen", "/ˈlɪsn/"],
-    ["overhear", "/ˌəʊvəˈhɪə/"],
-    ["eavesdrop", "/ˈiːvzdrɒp/"],
-    ["clarify", "/ˈklærɪfaɪ/"],
-    ["restate", "/ˌriːˈsteɪt/"],
-    ["condense", "/kənˈdens/"],
-    ["elaborate", "/ɪˈlæbərət/"],
-    ["digress", "/daɪˈɡres/"],
-    ["persuade", "/pəˈsweɪd/"],
-    ["convince", "/kənˈvɪns/"],
-    ["translate", "/trænsˈleɪt/"],
-    ["stammer", "/ˈstæmə/"],
-    ["voice", "/vɔɪs/"],
-    ["well-spoken", "/wel ˈspəʊkən/"],
-    ["inarticulate", "/ˌɪnɑːˈtɪkjələt/"],
-    ["fluent", "/ˈfluːənt/"],
-    ["eloquent", "/ˈeləkwənt/"],
-    ["concise", "/kənˈsaɪs/"],
-    ["verbose", "/vɜːˈbəʊs/"],
-    ["blunt", "/blʌnt/"],
-    ["tactful", "/ˈtæktfl/"],
-    ["tactless", "/ˈtæktləs/"],
-    ["diplomatic", "/ˌdɪpləˈmætɪk/"],
-    ["assertive", "/əˈsɜːtɪv/"],
-    ["persuasive", "/pəˈsweɪsɪv/"],
-    ["ambiguous", "/æmˈbɪɡjuəs/"],
-    ["explicit", "/ɪkˈsplɪsɪt/"],
-    ["implicit", "/ɪmˈplɪsɪt/"],
-    ["long-winded", "/lɒŋ ˈwɪndɪd/"],
-    ["talkative", "/ˈtɔːkətɪv/"],
-    ["outspoken", "/aʊtˈspəʊkən/"],
-    ["speak up", "/spiːk ʌp/"],
-    ["talk over", "/tɔːk ˈəʊvə/"],
-    ["cut in", "/kʌt ɪn/"],
-    ["butt in", "/bʌt ɪn/"],
-    ["get across", "/ɡet əˈkrɒs/"],
-    ["put across", "/pʊt əˈkrɒs/"],
-    ["touch on", "/tʌtʃ ɒn/"],
-    ["dwell on", "/dwel ɒn/"],
-    ["wrap up", "/ræp ʌp/"],
-    ["flag up", "/flæɡ ʌp/"],
-    ["talk round", "/tɔːk raʊnd/"],
-    ["hear out", "/hɪə aʊt/"],
-    ["interpreter", "/ɪnˈtɜːprɪtə/"],
-    ["translator", "/trænsˈleɪtə/"],
-    ["noticeboard", "/ˈnəʊtɪsbɔːd/"],
-    ["public announcement", "/ˈpʌblɪk əˈnaʊnsmənt/"],
-    ["language aptitude", "/ˈlæŋɡwɪdʒ ˈæptɪtjuːd/"],
-    ["icebreaker", "/ˈaɪsbreɪkə/"],
-    ["plain-language summary", "/pleɪn ˈlæŋɡwɪdʒ ˈsʌməri/"],
-    ["get to the point", "/ɡet tuː ðə pɔɪnt/"],
-    ["beat about the bush", "/biːt əˈbaʊt ðə bʊʃ/"],
-    ["speak one's mind", "/spiːk wʌnz maɪnd/"],
-    ["a slip of the tongue", "/ə slɪp ɒv ðə tʌŋ/"],
-    ["on the same wavelength", "/ɒn ðə seɪm ˈweɪvleŋθ/"],
-    ["at cross purposes", "/æt krɒs ˈpɜːpəsɪz/"],
-    ["lost in translation", "/lɒst ɪn trænsˈleɪʃn/"],
-    ["break the ice", "/breɪk ðə aɪs/"],
-    ["in a word", "/ɪn ə wɜːd/"],
-    ["have the last word", "/hæv ðə lɑːst wɜːd/"],
-    ["a figure of speech", "/ə ˈfɪɡə ɒv spiːtʃ/"],
-    ["word of mouth", "/wɜːd ɒv maʊθ/"],
-    ["put it bluntly", "/pʊt ɪt ˈblʌntli/"],
-    ["take the hint", "/teɪk ðə hɪnt/"],
-    ["talk shop", "/tɔːk ʃɒp/"],
-    ["a two-way conversation", "/ə tuː weɪ ˌkɒnvəˈseɪʃn/"],
-    ["language learning", "/ˈlæŋɡwɪdʒ ˈlɜːnɪŋ/"],
-    ["language exchange", "/ˈlæŋɡwɪdʒ ɪksˈtʃeɪndʒ/"],
-    ["immersion programme", "/ɪˈmɜːʃn ˈprəʊɡræm/"],
-    ["listening practice", "/ˈlɪsənɪŋ ˈpræktɪs/"],
-    ["role play", "/rəʊl pleɪ/"],
-    ["flashcard", "/ˈflæʃkɑːd/"],
-    ["dictionary", "/ˈdɪkʃənri/"],
-    ["thesaurus", "/θɪˈsɔːrəs/"],
-    ["phrase", "/freɪz/"],
-    ["clause", "/klɔːz/"],
-    ["word order", "/wɜːd ˈɔːdə/"],
-    ["spelling", "/ˈspelɪŋ/"],
-    ["punctuation", "/ˌpʌŋktʃuˈeɪʃn/"],
-    ["handwriting", "/ˈhændraɪtɪŋ/"],
-    ["minute-taking", "/ˈmɪnɪt ˈteɪkɪŋ/"],
-    ["shorthand", "/ˈʃɔːthænd/"],
-    ["verbatim record", "/vɜːˈbeɪtɪm rɪˈkɔːd/"],
-    ["captioning", "/ˈkæpʃənɪŋ/"],
-    ["pronunciation guide", "/prəˌnʌnsiˈeɪʃn ɡaɪd/"],
-    ["phonetic alphabet", "/fəˈnetɪk ˈælfəbet/"],
-    ["language policy", "/ˈlæŋɡwɪdʒ ˈpɒləsi/"],
-    ["official language", "/əˈfɪʃl ˈlæŋɡwɪdʒ/"],
-    ["minority language", "/maɪˈnɒrəti ˈlæŋɡwɪdʒ/"],
-    ["language revival", "/ˈlæŋɡwɪdʒ rɪˈvaɪvl/"],
-    ["language loss", "/ˈlæŋɡwɪdʒ lɒs/"],
-    ["loanword", "/ˈləʊnwɜːd/"],
-    ["false friend", "/fɔːls frend/"],
-    ["metaphor", "/ˈmetəfə/"],
-    ["proverb", "/ˈprɒvɜːb/"],
-    ["catchphrase", "/ˈkætʃfreɪz/"],
-    ["acronym", "/ˈækrənɪm/"],
-    ["abbreviation", "/əˌbriːviˈeɪʃn/"],
-    ["euphemism", "/ˈjuːfəmɪzəm/"],
-    ["understatement", "/ˈʌndəsteɪtmənt/"],
-    ["exaggeration", "/ɪɡˌzædʒəˈreɪʃn/"],
-    ["anecdote", "/ˈænɪkdəʊt/"],
-    ["turn-taking", "/tɜːn ˈteɪkɪŋ/"],
-    ["active listening", "/ˈæktɪv ˈlɪsənɪŋ/"],
-    ["open question", "/ˈəʊpən ˈkwestʃən/"],
-    ["leading question", "/ˈliːdɪŋ ˈkwestʃən/"],
-    ["enunciate", "/ɪˈnʌnsieɪt/"],
-    ["address", "/əˈdres/"],
-    ["rephrase", "/ˌriːˈfreɪz/"]
+    [
+      "verbal communication",
+      "/ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"
+    ],
+    [
+      "non-verbal communication",
+      "/nɒn ˈvɜːbl kəˌmjuːnɪˈkeɪʃn/"
+    ],
+    [
+      "body language",
+      "/ˈbɒdi ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "facial expression",
+      "/ˈfeɪʃl ɪkˈspreʃn/"
+    ],
+    [
+      "eye contact",
+      "/aɪ ˈkɒntækt/"
+    ],
+    [
+      "gesture",
+      "/ˈdʒestʃə/"
+    ],
+    [
+      "tone of voice",
+      "/təʊn ɒv vɔɪs/"
+    ],
+    [
+      "intonation",
+      "/ˌɪntəˈneɪʃn/"
+    ],
+    [
+      "pronunciation",
+      "/prəˌnʌnsiˈeɪʃn/"
+    ],
+    [
+      "accent",
+      "/ˈæksent/"
+    ],
+    [
+      "dialect",
+      "/ˈdaɪəlekt/"
+    ],
+    [
+      "mother tongue",
+      "/ˈmʌðə tʌŋ/"
+    ],
+    [
+      "first language",
+      "/fɜːst ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "second language",
+      "/ˈsekənd ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "foreign language",
+      "/ˈfɒrən ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "bilingualism",
+      "/baɪˈlɪŋɡwəlɪzəm/"
+    ],
+    [
+      "multilingualism",
+      "/ˌmʌltiˈlɪŋɡwəlɪzəm/"
+    ],
+    [
+      "lingua franca",
+      "/ˈlɪŋɡwə ˈfræŋkə/"
+    ],
+    [
+      "language barrier",
+      "/ˈlæŋɡwɪdʒ ˈbæriə/"
+    ],
+    [
+      "interpreting",
+      "/ɪnˈtɜːprɪtɪŋ/"
+    ],
+    [
+      "fluency",
+      "/ˈfluːənsi/"
+    ],
+    [
+      "proficiency",
+      "/prəˈfɪʃnsi/"
+    ],
+    [
+      "vocabulary",
+      "/vəˈkæbjələri/"
+    ],
+    [
+      "grammar",
+      "/ˈɡræmə/"
+    ],
+    [
+      "slang",
+      "/slæŋ/"
+    ],
+    [
+      "jargon",
+      "/ˈdʒɑːɡən/"
+    ],
+    [
+      "register",
+      "/ˈredʒɪstə/"
+    ],
+    [
+      "small talk",
+      "/smɔːl tɔːk/"
+    ],
+    [
+      "conversation",
+      "/ˌkɒnvəˈseɪʃn/"
+    ],
+    [
+      "dialogue",
+      "/ˈdaɪəlɒɡ/"
+    ],
+    [
+      "discussion",
+      "/dɪˈskʌʃn/"
+    ],
+    [
+      "public speaking",
+      "/ˈpʌblɪk ˈspiːkɪŋ/"
+    ],
+    [
+      "speech",
+      "/spiːtʃ/"
+    ],
+    [
+      "miscommunication",
+      "/ˌmɪskəmjuːnɪˈkeɪʃn/"
+    ],
+    [
+      "constructive comment",
+      "/kənˈstrʌktɪv ˈkɒment/"
+    ],
+    [
+      "criticism",
+      "/ˈkrɪtɪsɪzəm/"
+    ],
+    [
+      "compliment",
+      "/ˈkɒmplɪment/"
+    ],
+    [
+      "gossip",
+      "/ˈɡɒsɪp/"
+    ],
+    [
+      "handwritten letter",
+      "/ˌhændˈrɪtn ˈletə/"
+    ],
+    [
+      "phone call",
+      "/fəʊn kɔːl/"
+    ],
+    [
+      "video call",
+      "/ˈvɪdiəʊ kɔːl/"
+    ],
+    [
+      "voicemail",
+      "/ˈvɔɪsmeɪl/"
+    ],
+    [
+      "text message",
+      "/tekst ˈmesɪdʒ/"
+    ],
+    [
+      "group chat",
+      "/ɡruːp tʃæt/"
+    ],
+    [
+      "sign language",
+      "/saɪn ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "braille",
+      "/breɪl/"
+    ],
+    [
+      "lip-reading",
+      "/lɪp ˈriːdɪŋ/"
+    ],
+    [
+      "communicate",
+      "/kəˈmjuːnɪkeɪt/"
+    ],
+    [
+      "converse",
+      "/kənˈvɜːs/"
+    ],
+    [
+      "chat",
+      "/tʃæt/"
+    ],
+    [
+      "mumble",
+      "/ˈmʌmbl/"
+    ],
+    [
+      "mutter",
+      "/ˈmʌtə/"
+    ],
+    [
+      "whisper",
+      "/ˈwɪspə/"
+    ],
+    [
+      "shout",
+      "/ʃaʊt/"
+    ],
+    [
+      "interrupt",
+      "/ˌɪntəˈrʌpt/"
+    ],
+    [
+      "listen",
+      "/ˈlɪsn/"
+    ],
+    [
+      "overhear",
+      "/ˌəʊvəˈhɪə/"
+    ],
+    [
+      "eavesdrop",
+      "/ˈiːvzdrɒp/"
+    ],
+    [
+      "clarify",
+      "/ˈklærɪfaɪ/"
+    ],
+    [
+      "restate",
+      "/ˌriːˈsteɪt/"
+    ],
+    [
+      "condense",
+      "/kənˈdens/"
+    ],
+    [
+      "elaborate",
+      "/ɪˈlæbərət/"
+    ],
+    [
+      "digress",
+      "/daɪˈɡres/"
+    ],
+    [
+      "persuade",
+      "/pəˈsweɪd/"
+    ],
+    [
+      "convince",
+      "/kənˈvɪns/"
+    ],
+    [
+      "translate",
+      "/trænsˈleɪt/"
+    ],
+    [
+      "stammer",
+      "/ˈstæmə/"
+    ],
+    [
+      "voice",
+      "/vɔɪs/"
+    ],
+    [
+      "well-spoken",
+      "/wel ˈspəʊkən/"
+    ],
+    [
+      "inarticulate",
+      "/ˌɪnɑːˈtɪkjələt/"
+    ],
+    [
+      "fluent",
+      "/ˈfluːənt/"
+    ],
+    [
+      "eloquent",
+      "/ˈeləkwənt/"
+    ],
+    [
+      "concise",
+      "/kənˈsaɪs/"
+    ],
+    [
+      "verbose",
+      "/vɜːˈbəʊs/"
+    ],
+    [
+      "blunt",
+      "/blʌnt/"
+    ],
+    [
+      "tactful",
+      "/ˈtæktfl/"
+    ],
+    [
+      "tactless",
+      "/ˈtæktləs/"
+    ],
+    [
+      "diplomatic",
+      "/ˌdɪpləˈmætɪk/"
+    ],
+    [
+      "assertive",
+      "/əˈsɜːtɪv/"
+    ],
+    [
+      "persuasive",
+      "/pəˈsweɪsɪv/"
+    ],
+    [
+      "ambiguous",
+      "/æmˈbɪɡjuəs/"
+    ],
+    [
+      "explicit",
+      "/ɪkˈsplɪsɪt/"
+    ],
+    [
+      "implicit",
+      "/ɪmˈplɪsɪt/"
+    ],
+    [
+      "long-winded",
+      "/lɒŋ ˈwɪndɪd/"
+    ],
+    [
+      "talkative",
+      "/ˈtɔːkətɪv/"
+    ],
+    [
+      "outspoken",
+      "/aʊtˈspəʊkən/"
+    ],
+    [
+      "speak up",
+      "/spiːk ʌp/"
+    ],
+    [
+      "talk over",
+      "/tɔːk ˈəʊvə/"
+    ],
+    [
+      "cut in",
+      "/kʌt ɪn/"
+    ],
+    [
+      "butt in",
+      "/bʌt ɪn/"
+    ],
+    [
+      "get across",
+      "/ɡet əˈkrɒs/"
+    ],
+    [
+      "put across",
+      "/pʊt əˈkrɒs/"
+    ],
+    [
+      "touch on",
+      "/tʌtʃ ɒn/"
+    ],
+    [
+      "dwell on",
+      "/dwel ɒn/"
+    ],
+    [
+      "wrap up",
+      "/ræp ʌp/"
+    ],
+    [
+      "flag up",
+      "/flæɡ ʌp/"
+    ],
+    [
+      "talk round",
+      "/tɔːk raʊnd/"
+    ],
+    [
+      "hear out",
+      "/hɪə aʊt/"
+    ],
+    [
+      "interpreter",
+      "/ɪnˈtɜːprɪtə/"
+    ],
+    [
+      "translator",
+      "/trænsˈleɪtə/"
+    ],
+    [
+      "noticeboard",
+      "/ˈnəʊtɪsbɔːd/"
+    ],
+    [
+      "public announcement",
+      "/ˈpʌblɪk əˈnaʊnsmənt/"
+    ],
+    [
+      "language aptitude",
+      "/ˈlæŋɡwɪdʒ ˈæptɪtjuːd/"
+    ],
+    [
+      "icebreaker",
+      "/ˈaɪsbreɪkə/"
+    ],
+    [
+      "plain-language summary",
+      "/pleɪn ˈlæŋɡwɪdʒ ˈsʌməri/"
+    ],
+    [
+      "get to the point",
+      "/ɡet tuː ðə pɔɪnt/"
+    ],
+    [
+      "beat about the bush",
+      "/biːt əˈbaʊt ðə bʊʃ/"
+    ],
+    [
+      "speak one's mind",
+      "/spiːk wʌnz maɪnd/"
+    ],
+    [
+      "a slip of the tongue",
+      "/ə slɪp ɒv ðə tʌŋ/"
+    ],
+    [
+      "on the same wavelength",
+      "/ɒn ðə seɪm ˈweɪvleŋθ/"
+    ],
+    [
+      "at cross purposes",
+      "/æt krɒs ˈpɜːpəsɪz/"
+    ],
+    [
+      "lost in translation",
+      "/lɒst ɪn trænsˈleɪʃn/"
+    ],
+    [
+      "break the ice",
+      "/breɪk ðə aɪs/"
+    ],
+    [
+      "in a word",
+      "/ɪn ə wɜːd/"
+    ],
+    [
+      "have the last word",
+      "/hæv ðə lɑːst wɜːd/"
+    ],
+    [
+      "a figure of speech",
+      "/ə ˈfɪɡə ɒv spiːtʃ/"
+    ],
+    [
+      "word of mouth",
+      "/wɜːd ɒv maʊθ/"
+    ],
+    [
+      "put it bluntly",
+      "/pʊt ɪt ˈblʌntli/"
+    ],
+    [
+      "take the hint",
+      "/teɪk ðə hɪnt/"
+    ],
+    [
+      "talk shop",
+      "/tɔːk ʃɒp/"
+    ],
+    [
+      "a two-way conversation",
+      "/ə tuː weɪ ˌkɒnvəˈseɪʃn/"
+    ],
+    [
+      "language learning",
+      "/ˈlæŋɡwɪdʒ ˈlɜːnɪŋ/"
+    ],
+    [
+      "language exchange",
+      "/ˈlæŋɡwɪdʒ ɪksˈtʃeɪndʒ/"
+    ],
+    [
+      "immersion programme",
+      "/ɪˈmɜːʃn ˈprəʊɡræm/"
+    ],
+    [
+      "listening practice",
+      "/ˈlɪsənɪŋ ˈpræktɪs/"
+    ],
+    [
+      "role play",
+      "/rəʊl pleɪ/"
+    ],
+    [
+      "flashcard",
+      "/ˈflæʃkɑːd/"
+    ],
+    [
+      "dictionary",
+      "/ˈdɪkʃənri/"
+    ],
+    [
+      "thesaurus",
+      "/θɪˈsɔːrəs/"
+    ],
+    [
+      "phrase",
+      "/freɪz/"
+    ],
+    [
+      "clause",
+      "/klɔːz/"
+    ],
+    [
+      "word order",
+      "/wɜːd ˈɔːdə/"
+    ],
+    [
+      "spelling",
+      "/ˈspelɪŋ/"
+    ],
+    [
+      "punctuation",
+      "/ˌpʌŋktʃuˈeɪʃn/"
+    ],
+    [
+      "handwriting",
+      "/ˈhændraɪtɪŋ/"
+    ],
+    [
+      "minute-taking",
+      "/ˈmɪnɪt ˈteɪkɪŋ/"
+    ],
+    [
+      "shorthand",
+      "/ˈʃɔːthænd/"
+    ],
+    [
+      "verbatim record",
+      "/vɜːˈbeɪtɪm rɪˈkɔːd/"
+    ],
+    [
+      "captioning",
+      "/ˈkæpʃənɪŋ/"
+    ],
+    [
+      "pronunciation guide",
+      "/prəˌnʌnsiˈeɪʃn ɡaɪd/"
+    ],
+    [
+      "phonetic alphabet",
+      "/fəˈnetɪk ˈælfəbet/"
+    ],
+    [
+      "language policy",
+      "/ˈlæŋɡwɪdʒ ˈpɒləsi/"
+    ],
+    [
+      "official language",
+      "/əˈfɪʃl ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "minority language",
+      "/maɪˈnɒrəti ˈlæŋɡwɪdʒ/"
+    ],
+    [
+      "language revival",
+      "/ˈlæŋɡwɪdʒ rɪˈvaɪvl/"
+    ],
+    [
+      "language loss",
+      "/ˈlæŋɡwɪdʒ lɒs/"
+    ],
+    [
+      "loanword",
+      "/ˈləʊnwɜːd/"
+    ],
+    [
+      "false friend",
+      "/fɔːls frend/"
+    ],
+    [
+      "metaphor",
+      "/ˈmetəfə/"
+    ],
+    [
+      "proverb",
+      "/ˈprɒvɜːb/"
+    ],
+    [
+      "catchphrase",
+      "/ˈkætʃfreɪz/"
+    ],
+    [
+      "acronym",
+      "/ˈækrənɪm/"
+    ],
+    [
+      "abbreviation",
+      "/əˌbriːviˈeɪʃn/"
+    ],
+    [
+      "euphemism",
+      "/ˈjuːfəmɪzəm/"
+    ],
+    [
+      "understatement",
+      "/ˈʌndəsteɪtmənt/"
+    ],
+    [
+      "exaggeration",
+      "/ɪɡˌzædʒəˈreɪʃn/"
+    ],
+    [
+      "anecdote",
+      "/ˈænɪkdəʊt/"
+    ],
+    [
+      "turn-taking",
+      "/tɜːn ˈteɪkɪŋ/"
+    ],
+    [
+      "active listening",
+      "/ˈæktɪv ˈlɪsənɪŋ/"
+    ],
+    [
+      "open question",
+      "/ˈəʊpən ˈkwestʃən/"
+    ],
+    [
+      "leading question",
+      "/ˈliːdɪŋ ˈkwestʃən/"
+    ],
+    [
+      "enunciate",
+      "/ɪˈnʌnsieɪt/"
+    ],
+    [
+      "address",
+      "/əˈdres/"
+    ],
+    [
+      "rephrase",
+      "/ˌriːˈfreɪz/"
+    ],
+    [
+      "stress",
+      "/stres/"
+    ],
+    [
+      "spell",
+      "/spel/"
+    ],
+    [
+      "pronounce",
+      "/prəˈnaʊns/"
+    ],
+    [
+      "mispronounce",
+      "/ˌmɪsprəˈnaʊns/"
+    ],
+    [
+      "nod",
+      "/nɒd/"
+    ],
+    [
+      "greet",
+      "/ɡriːt/"
+    ],
+    [
+      "chatter",
+      "/ˈtʃætə/"
+    ],
+    [
+      "bilingual",
+      "/baɪˈlɪŋɡwəl/"
+    ],
+    [
+      "monolingual",
+      "/ˌmɒnəʊˈlɪŋɡwəl/"
+    ],
+    [
+      "idiomatic",
+      "/ˌɪdiəˈmætɪk/"
+    ],
+    [
+      "colloquial",
+      "/kəˈləʊkwiəl/"
+    ],
+    [
+      "formal",
+      "/ˈfɔːml/"
+    ],
+    [
+      "informal",
+      "/ɪnˈfɔːml/"
+    ],
+    [
+      "polite",
+      "/pəˈlaɪt/"
+    ],
+    [
+      "impolite",
+      "/ˌɪmpəˈlaɪt/"
+    ],
+    [
+      "incomprehensible",
+      "/ɪnˌkɒmprɪˈhensəbl/"
+    ],
+    [
+      "soft-spoken",
+      "/sɒft ˈspəʊkən/"
+    ],
+    [
+      "go on about",
+      "/ɡəʊ ɒn əˈbaʊt/"
+    ],
+    [
+      "shut up",
+      "/ʃʌt ʌp/"
+    ],
+    [
+      "pipe up",
+      "/paɪp ʌp/"
+    ],
+    [
+      "blurt out",
+      "/blɜːt aʊt/"
+    ],
+    [
+      "trail off",
+      "/treɪl ɒf/"
+    ],
+    [
+      "spell out",
+      "/spel aʊt/"
+    ],
+    [
+      "write down",
+      "/raɪt daʊn/"
+    ],
+    [
+      "read out",
+      "/riːd aʊt/"
+    ],
+    [
+      "call back",
+      "/kɔːl bæk/"
+    ],
+    [
+      "mince one's words",
+      "/mɪns wʌnz wɜːdz/"
+    ],
+    [
+      "hold one's tongue",
+      "/həʊld wʌnz tʌŋ/"
+    ],
+    [
+      "drop a hint",
+      "/drɒp ə hɪnt/"
+    ],
+    [
+      "the wrong end of the stick",
+      "/ðə rɒŋ end ɒv ðə stɪk/"
+    ],
+    [
+      "speak volumes",
+      "/spiːk ˈvɒljuːmz/"
+    ],
+    [
+      "a war of words",
+      "/ə wɔː ɒv wɜːdz/"
+    ],
+    [
+      "say one's piece",
+      "/seɪ wʌnz piːs/"
+    ],
+    [
+      "have a word with",
+      "/hæv ə wɜːd wɪð/"
+    ],
+    [
+      "in plain English",
+      "/ɪn pleɪn ˈɪŋɡlɪʃ/"
+    ],
+    [
+      "take at face value",
+      "/teɪk æt feɪs ˈvæljuː/"
+    ]
   ]
 }
