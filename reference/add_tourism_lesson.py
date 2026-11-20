@@ -8,7 +8,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parents[1]
 counts = [10, 12, 14, 16, 18, 20, 22, 24, 28, 36]
 ordinals = ["FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH"]
-pos = {"Danh từ": "名词", "Cụm danh từ": "名词短语", "Động từ": "动词", "Tính từ": "形容词", "Cụm động từ": "动词短语"}
+pos = {"Danh từ": "名词", "Cụm danh từ": "名词短语", "Động từ": "动词", "Tính từ": "形容词", "Cụm động từ": "动词短语", "Thành ngữ": "习语"}
 dump = lambda value: json.dumps(value, ensure_ascii=False)
 
 lesson = int(sys.argv[1])
