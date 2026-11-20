@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–36 张正面；网页显示第 1–3 课分别为 10、12、14 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–70 张正面；网页显示第 1–5 课分别为 10、12、14、16、18 张",
   "cards": [
     [
       "daily step count",
@@ -146,6 +146,142 @@
     [
       "road racing",
       "/rəʊd ˈreɪsɪŋ/"
+    ],
+    [
+      "cricket",
+      "/ˈkrɪkɪt/"
+    ],
+    [
+      "rugby",
+      "/ˈrʌɡbi/"
+    ],
+    [
+      "badminton",
+      "/ˈbædmɪntən/"
+    ],
+    [
+      "table tennis",
+      "/ˈteɪbl ˈtenɪs/"
+    ],
+    [
+      "hockey",
+      "/ˈhɒki/"
+    ],
+    [
+      "rowing",
+      "/ˈrəʊɪŋ/"
+    ],
+    [
+      "match",
+      "/mætʃ/"
+    ],
+    [
+      "fixture",
+      "/ˈfɪkstʃə/"
+    ],
+    [
+      "league",
+      "/liːɡ/"
+    ],
+    [
+      "tournament",
+      "/ˈtʊənəmənt/"
+    ],
+    [
+      "cup final",
+      "/kʌp ˈfaɪnl/"
+    ],
+    [
+      "friendly match",
+      "/ˈfrendli mætʃ/"
+    ],
+    [
+      "kick-off",
+      "/kɪk ɒf/"
+    ],
+    [
+      "half-time",
+      "/hɑːf taɪm/"
+    ],
+    [
+      "final whistle",
+      "/ˈfaɪnl ˈwɪsl/"
+    ],
+    [
+      "score",
+      "/skɔː/"
+    ],
+    [
+      "draw",
+      "/drɔː/"
+    ],
+    [
+      "defeat",
+      "/dɪˈfiːt/"
+    ],
+    [
+      "win",
+      "/wɪn/"
+    ],
+    [
+      "umpire",
+      "/ˈʌmpaɪə/"
+    ],
+    [
+      "match official",
+      "/mætʃ əˈfɪʃl/"
+    ],
+    [
+      "trainer",
+      "/ˈtreɪnə/"
+    ],
+    [
+      "squad",
+      "/skwɒd/"
+    ],
+    [
+      "substitute",
+      "/ˈsʌbstɪtjuːt/"
+    ],
+    [
+      "captain",
+      "/ˈkæptɪn/"
+    ],
+    [
+      "spectator",
+      "/spekˈteɪtə/"
+    ],
+    [
+      "supporter",
+      "/səˈpɔːtə/"
+    ],
+    [
+      "personal best",
+      "/ˈpɜːsənl best/"
+    ],
+    [
+      "medal",
+      "/ˈmedl/"
+    ],
+    [
+      "trophy",
+      "/ˈtrəʊfi/"
+    ],
+    [
+      "podium",
+      "/ˈpəʊdiəm/"
+    ],
+    [
+      "doping",
+      "/ˈdəʊpɪŋ/"
+    ],
+    [
+      "doping test",
+      "/ˈdəʊpɪŋ test/"
+    ],
+    [
+      "amateur",
+      "/ˈæmətə/"
     ]
   ]
 }
