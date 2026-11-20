@@ -55,9 +55,9 @@ export const A2_FUTURE: Partial<GrammarLesson> = {
       { left: "be going to 疑问：Am/Is/Are + 主语 + going to + 原形？", right: "Are you going to join us?" },
     ] },
     { heading: "7 · 分析步骤", body: "先辨别意图与证据，再检查动词结构。", table: [
-      { left: "01 判断表达的意思", right: "已有计划或明显迹象用 be going to；当场决定、承诺和主观预测用 will：I'm going to buy it. ↔ I'll buy it." },
-      { left: "02 检查 will 后的动词", right: "will 是情态动词，后接原形，不加 to，也不随主语变化：will go，不能说 will to go。" },
-      { left: "03 检查 be going to 的 be", right: "going to 不变，只让 be 与主语一致：He is going to…；They are going to…。" },
+      { left: "01 判断表达的意思", right: "已有计划或明显迹象用 be going to；当场决定、承诺和主观预测用 will：I'm going to buy it.（早已打算买）↔ I'll buy it.（当场决定买）。" },
+      { left: "02 检查 will 后的动词", right: "will 是情态动词，后接原形，不加 to，也不随主语变化：will go，而非 will to go。" },
+      { left: "03 检查 be going to 的 be", right: "going to 不变，只让 be 与主语一致：He is going to… · They are going to…。" },
     ] },
     { heading: "8 · 例句与讲解", body: "对照已有计划、临时决定、两种预测和承诺。", examples: [
       { en: "We are going to visit our grandparents this weekend.", cn: "这个周末我们打算去看望祖父母。", note: "说话前已有的计划，用 be going to。" },
