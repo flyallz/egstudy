@@ -129,4 +129,4 @@ check("Energy", "client/src/data/originalTopics.ts", "reference/original-topic-c
 check("Equality", "client/src/data/originalTopics.ts", "reference/original-topic-csv/equality-social-change.csv", "EQUALITY", 10)
 check("Language", "client/src/data/originalTopics.ts", "reference/original-topic-csv/language-communication.csv", "LANGUAGE", 10)
 check("Population", "client/src/data/originalTopics.ts", "reference/original-topic-csv/population-migration.csv", "POPULATION", 10)
-check("Sport", "client/src/data/originalTopics.ts", "reference/original-topic-csv/sport-active-lifestyles.csv", "SPORT", 9)
+check("Sport", "client/src/data/originalTopics.ts", "reference/original-topic-csv/sport-active-lifestyles.csv", "SPORT", 10)

@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–164 张正面；网页显示第 1–9 课分别为 10、12、14、16、18、20、22、24、28 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–200 张正面；网页显示第 1–10 课分别为 10、12、14、16、18、20、22、24、28、36 张",
   "cards": [
     [
       "daily step count",
@@ -658,6 +658,150 @@
     [
       "sporting",
       "/ˈspɔːtɪŋ/"
+    ],
+    [
+      "professional",
+      "/prəˈfeʃənl/"
+    ],
+    [
+      "home",
+      "/həʊm/"
+    ],
+    [
+      "away",
+      "/əˈweɪ/"
+    ],
+    [
+      "undefeated",
+      "/ˌʌndɪˈfiːtɪd/"
+    ],
+    [
+      "outdoor",
+      "/ˌaʊtˈdɔː/"
+    ],
+    [
+      "indoor",
+      "/ˈɪndɔː/"
+    ],
+    [
+      "physically active",
+      "/ˈfɪzɪkli ˈæktɪv/"
+    ],
+    [
+      "well-attended",
+      "/wel əˈtendɪd/"
+    ],
+    [
+      "hard-fought",
+      "/hɑːd fɔːt/"
+    ],
+    [
+      "take part in",
+      "/teɪk pɑːt ɪn/"
+    ],
+    [
+      "warm down",
+      "/wɔːm daʊn/"
+    ],
+    [
+      "line up",
+      "/laɪn ʌp/"
+    ],
+    [
+      "send off",
+      "/send ɒf/"
+    ],
+    [
+      "bring on",
+      "/brɪŋ ɒn/"
+    ],
+    [
+      "sit out",
+      "/sɪt aʊt/"
+    ],
+    [
+      "cheer on",
+      "/tʃɪə ɒn/"
+    ],
+    [
+      "come first",
+      "/kʌm fɜːst/"
+    ],
+    [
+      "shape up",
+      "/ʃeɪp ʌp/"
+    ],
+    [
+      "pair up",
+      "/peə ʌp/"
+    ],
+    [
+      "sports day",
+      "/spɔːts deɪ/"
+    ],
+    [
+      "fun run",
+      "/fʌn rʌn/"
+    ],
+    [
+      "charity run",
+      "/ˈtʃærəti rʌn/"
+    ],
+    [
+      "club night",
+      "/klʌb naɪt/"
+    ],
+    [
+      "youth team",
+      "/juːθ tiːm/"
+    ],
+    [
+      "veteran player",
+      "/ˈvetərən ˈpleɪə/"
+    ],
+    [
+      "go the distance",
+      "/ɡəʊ ðə ˈdɪstəns/"
+    ],
+    [
+      "a second wind",
+      "/ə ˈsekənd wɪnd/"
+    ],
+    [
+      "on the ball",
+      "/ɒn ðə bɔːl/"
+    ],
+    [
+      "throw in the towel",
+      "/θrəʊ ɪn ðə ˈtaʊəl/"
+    ],
+    [
+      "move the goalposts",
+      "/muːv ðə ˈɡəʊlpəʊsts/"
+    ],
+    [
+      "a sporting chance",
+      "/ə ˈspɔːtɪŋ tʃɑːns/"
+    ],
+    [
+      "neck and neck",
+      "/nek ænd nek/"
+    ],
+    [
+      "par for the course",
+      "/pɑː fɔː ðə kɔːs/"
+    ],
+    [
+      "jump the gun",
+      "/dʒʌmp ðə ɡʌn/"
+    ],
+    [
+      "raise the bar",
+      "/reɪz ðə bɑː/"
+    ],
+    [
+      "home advantage",
+      "/həʊm ədˈvɑːntɪdʒ/"
     ]
   ]
 }
