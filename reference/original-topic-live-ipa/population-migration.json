@@ -1,0 +1,17 @@
+{
+  "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
+  "checkedAt": "2026-11-20",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–10 张正面；网页显示第 1 课为 10 张",
+  "cards": [
+    ["population growth", "/ˌpɒpjuˈleɪʃn ɡrəʊθ/"],
+    ["population decline", "/ˌpɒpjuˈleɪʃn dɪˈklaɪn/"],
+    ["birth rate", "/bɜːθ reɪt/"],
+    ["death rate", "/deθ reɪt/"],
+    ["fertility rate", "/fəˈtɪləti reɪt/"],
+    ["replacement rate", "/rɪˈpleɪsmənt reɪt/"],
+    ["under-five mortality", "/ˈʌndə faɪv mɔːˈtæləti/"],
+    ["average lifespan", "/ˈævərɪdʒ ˈlaɪfspæn/"],
+    ["ageing population", "/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/"],
+    ["demographic change", "/ˌdeməˈɡræfɪk tʃeɪndʒ/"]
+  ]
+}

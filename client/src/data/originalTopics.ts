@@ -9650,3 +9650,29 @@ export const LANGUAGE_TENTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string
   "in plain English": ["说白了，这项服务要关闭了。", "那份指南被改写成了通俗易懂的英语。"],
   "take at face value": ["他们相信了那份声明的表面意思，结果很失望。", "如今她再也不会不加怀疑地相信任何事。"],
 };
+
+export const POPULATION_FIRST_LESSON: OriginalTopicWord[] = [
+  ["population growth", "/ˌpɒpjuˈleɪʃn ɡrəʊθ/", "名词短语", "人口增长", "不可数；rapid/slow population growth", "Population growth here comes from arrivals, not births.", "Rapid population growth outran the water supply."],
+  ["population decline", "/ˌpɒpjuˈleɪʃn dɪˈklaɪn/", "名词短语", "人口减少；人口下降", "不可数；face population decline", "The county has faced population decline since 1961.", "Population decline closes the school before it closes the shop."],
+  ["birth rate", "/bɜːθ reɪt/", "名词短语", "出生率", "可数；a falling birth rate", "The birth rate fell below replacement in 1973.", "A falling birth rate reshapes every budget eventually."],
+  ["death rate", "/deθ reɪt/", "名词短语", "死亡率", "可数；the death rate falls", "The death rate fell fastest among infants.", "A rising death rate in one ward prompted the inquiry."],
+  ["fertility rate", "/fəˈtɪləti reɪt/", "名词短语", "生育率；总和生育率", "可数；the total fertility rate", "The total fertility rate is one point four here.", "The fertility rate fell everywhere that schooling for girls rose."],
+  ["replacement rate", "/rɪˈpleɪsmənt reɪt/", "名词短语", "人口更替水平；更替生育率", "可数，通常用单数；below the replacement rate", "Births have been below the replacement rate for fifty years.", "The replacement rate is about two point one children."],
+  ["under-five mortality", "/ˈʌndə faɪv mɔːˈtæləti/", "名词短语", "五岁以下儿童死亡率", "不可数；under-five mortality falls", "Under-five mortality fell by nine tenths in one century.", "Under-five mortality is the measure that exposes everything else."],
+  ["average lifespan", "/ˈævərɪdʒ ˈlaɪfspæn/", "名词短语", "平均寿命", "可数；the average lifespan rises", "The average lifespan stalled after 2011 for the first time.", "The average lifespan differs by nine years across the city."],
+  ["ageing population", "/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/", "名词短语", "老龄化人口；人口老龄化", "可数，通常用单数；an ageing population needs", "An ageing population needs housing on one floor.", "The ageing population is a success story with a bill attached."],
+  ["demographic change", "/ˌdeməˈɡræfɪk tʃeɪndʒ/", "名词短语", "人口结构变化", "不可数；demographic change reshapes", "Demographic change arrives slowly and cannot be reversed quickly.", "Demographic change emptied nine primary schools."],
+];
+
+export const POPULATION_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "population growth": ["这里的人口增长来自迁入，而非新生儿。", "人口迅速增长，供水量已跟不上需求。"],
+  "population decline": ["这个郡自 1961 年起一直面临人口减少。", "人口下降先使学校关门，然后才轮到商店。"],
+  "birth rate": ["1973 年，出生率降到了人口更替水平以下。", "出生率下降最终会改变每一项预算。"],
+  "death rate": ["婴儿死亡率下降得最快。", "一个选区的死亡率上升，促使当局展开调查。"],
+  "fertility rate": ["这里的总和生育率为 1.4。", "凡是女孩受教育程度提高的地方，生育率都下降了。"],
+  "replacement rate": ["五十年来，新生儿数量一直低于人口更替所需水平。", "人口更替水平约为每名女性生育 2.1 个孩子。"],
+  "under-five mortality": ["一个世纪里，五岁以下儿童死亡率下降了九成。", "五岁以下儿童死亡率是最能揭示其他问题的指标。"],
+  "average lifespan": ["2011 年后，平均寿命首次停止增长。", "这座城市不同地区的平均寿命相差九年。"],
+  "ageing population": ["老龄化人口需要单层住宅。", "人口老龄化是成功的象征，也伴随着相应的开支。"],
+  "demographic change": ["人口结构变化来得缓慢，却无法迅速逆转。", "人口结构变化让九所小学失去了学生。"],
+};
