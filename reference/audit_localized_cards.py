@@ -70,7 +70,24 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
             if number > len(cards) or cards[number - 1][0] != term or cards[number - 1][1] != ipa:
                 errors.append((number, "live IPA mismatch", term, ipa))
 
+    live_back_count = 0
+    back_dir = ROOT / "reference/original-topic-live-backs"
+    for back_file in back_dir.glob(f"{Path(csv_file).stem}-lesson-*.json"):
+        match = re.search(r"-lesson-(\d+)\.json$", back_file.name)
+        assert match
+        lesson = int(match.group(1))
+        start = sum(expected_counts[:lesson - 1])
+        back_cards = json.loads(back_file.read_text(encoding="utf-8"))["cards"]
+        if len(back_cards) != expected_counts[lesson - 1]:
+            errors.append((back_file.name, "live back count", len(back_cards)))
+        for number, (back, original) in enumerate(zip(back_cards, originals[start:]), start + 1):
+            if len(back) != 5 or back[:3] != [original["Term"], original["Definition"], original["Pattern"]] or not all(back[3:]):
+                errors.append((number, "live back mismatch", back[0]))
+        live_back_count += len(back_cards)
+
     live_note = f", {live_ipa_count} live IPA checked" if live_ipa_count else ""
+    if live_back_count:
+        live_note += f", {live_back_count} live backs checked"
     print(f"{label}: {len(cards)} localized cards, {len(errors)} errors{live_note}")
     if errors:
         print(errors[:20])

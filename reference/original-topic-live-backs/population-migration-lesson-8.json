@@ -1,0 +1,31 @@
+{
+  "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
+  "checkedAt": "2026-11-20",
+  "method": "登录态下逐张翻看主题词卡第 113–136 张；每项记录越南语释义、用法、两条例句的越南语译文",
+  "cards": [
+    ["host community", "cộng đồng tiếp nhận", "danh từ đếm được; a + host community + adjusts", "Cộng đồng tiếp nhận được tham vấn sau khi những người mới đã đến.", "Cộng đồng tiếp nhận không có nhà ở dư sẽ bất mãn với những gì được giao cho họ."],
+    ["population projection", "dự báo dân số", "danh từ đếm được; a + population projection + assumes", "Dự báo dân số giả định có dòng di cư nhưng dòng người đó không bao giờ đến.", "Dự báo dân số sai ở chi tiết nhưng hữu ích về xu hướng."],
+    ["family reunification", "việc đoàn tụ gia đình", "danh từ không đếm được; apply for + family reunification", "Việc đoàn tụ gia đình mất bốn năm và cần chín giấy tờ.", "Quy định đoàn tụ gia đình quyết định ai được lớn lên cùng cha hoặc mẹ."],
+    ["statelessness", "tình trạng không quốc tịch", "danh từ không đếm được; prevent + statelessness", "Tình trạng không quốc tịch truyền từ cha mẹ sang con do những hệ quả ngẫu nhiên của luật pháp.", "Chín nghìn người ở đây sống trong tình trạng không quốc tịch."],
+    ["work visa", "thị thực lao động", "danh từ đếm được; apply for/a + work visa", "Thị thực lao động gắn với một người sử dụng lao động duy nhất.", "Thị thực lao động tốn hơn một tháng lương."],
+    ["sponsorship licence", "giấy phép bảo lãnh lao động", "danh từ đếm được; hold/lose + a sponsorship licence", "Viện dưỡng lão mất giấy phép bảo lãnh lao động.", "Chỉ người sử dụng lao động có giấy phép bảo lãnh mới được tuyển người ở nước ngoài."],
+    ["population register", "sổ đăng kí dân cư", "danh từ đếm được; a + population register + records", "Sổ đăng kí dân cư ghi lại mọi thay đổi địa chỉ.", "Ở đây không có sổ đăng kí dân cư nên việc thống kê rất khó."],
+    ["urban drift", "dòng người đổ về đô thị", "danh từ không đếm được; urban drift + continues", "Dòng người đổ về đô thị tiếp diễn suốt một thế kỉ rưỡi.", "Dòng người đổ về đô thị để lại những cư dân cao tuổi nhất trong các ngôi làng nhỏ nhất."],
+    ["family size", "số con trong gia đình", "danh từ đếm được; average + family size", "Số con trung bình trong gia đình giảm từ năm xuống hai.", "Gia đình ít con hơn làm thay đổi toàn bộ thị trường nhà ở."],
+    ["age at marriage", "tuổi kết hôn", "danh từ không đếm được; the average + age at marriage", "Tuổi kết hôn trung bình tăng chín năm.", "Tuổi kết hôn muộn hơn đi cùng thời gian học tập dài hơn."],
+    ["childlessness", "tình trạng không có con", "danh từ không đếm được; voluntary + childlessness", "Tình trạng không có con phổ biến trong nhóm người này hơn mọi nhóm trước đó.", "Việc tự nguyện không có con được khai báo trung thực hơn trước."],
+    ["generational divide", "sự chia cắt giữa các thế hệ", "danh từ đếm được, thường số ít; a + generational divide + opens", "Khoảng cách giữa các thế hệ xuất hiện về vấn đề nhà ở chứ không phải âm nhạc.", "Khoảng cách thế hệ trong lần bỏ phiếu đó là lớn nhất từng được ghi nhận."],
+    ["birth certificate", "giấy khai sinh", "danh từ đếm được; a + birth certificate + records", "Giấy khai sinh ghi một ngôi làng không còn tồn tại.", "Không có giấy khai sinh, cô không thể yêu cầu được hưởng bất kì quyền lợi nào."],
+    ["death certificate", "giấy chứng tử", "danh từ đếm được; issue/a + death certificate", "Giấy chứng tử ghi hai nguyên nhân.", "Chín giấy chứng tử được cấp trong tuần đó tại một khu dân cư."],
+    ["marriage rate", "tỉ suất kết hôn", "danh từ đếm được; the + marriage rate + falls", "Tỉ suất kết hôn giảm một nửa từ năm 1972.", "Tỉ suất kết hôn giảm không nói lên điều gì về các cặp đôi."],
+    ["divorce rate", "tỉ suất li hôn", "danh từ đếm được; the + divorce rate + peaks", "Tỉ suất li hôn đạt đỉnh rồi giảm cùng tỉ suất kết hôn.", "Tỉ suất li hôn cao nhất vào năm thứ tư và thứ năm của hôn nhân."],
+    ["remarriage rate", "tỉ suất tái hôn", "danh từ đếm được; the + remarriage rate + among men", "Tỉ suất tái hôn ở nam giới gấp đôi nữ giới.", "Tỉ suất tái hôn giảm mạnh sau tuổi sáu mươi."],
+    ["teenage pregnancy", "mang thai ở tuổi vị thành niên", "danh từ đếm được hoặc không; teenage pregnancy + rates", "Tỉ lệ mang thai ở tuổi vị thành niên giảm hai phần ba trong hai mươi năm.", "Mang thai ở tuổi vị thành niên giảm nhanh nhất tại những nơi cung cấp biện pháp tránh thai miễn phí."],
+    ["late parenthood", "việc có con muộn", "danh từ không đếm được; late parenthood + becomes common", "Có con muộn hiện là thông lệ ở những người tốt nghiệp đại học.", "Có con muộn làm thay đổi toàn bộ cấu trúc của một gia đình."],
+    ["life stage", "giai đoạn trong đời", "danh từ đếm được; a + life stage + transition", "Mỗi giai đoạn cuộc đời trước đây thường đến ở một độ tuổi có thể dự đoán.", "Hệ thống trợ cấp đó giả định có chín giai đoạn cuộc đời."],
+    ["ageing in place", "sống tuổi già tại nhà", "danh từ không đếm được; support + ageing in place", "Sống tuổi già tại nơi ở quen thuộc cần tay vịn hơn là cần bệnh viện.", "Sống tuổi già tại nơi ở quen thuộc giúp người dân tiếp tục ở con phố họ biết rõ."],
+    ["informal care", "sự chăm sóc không chính thức", "danh từ không đếm được; rely on + informal care", "Chăm sóc không chính thức do người thân đảm nhiệm gánh phần lớn công việc.", "Hệ thống mặc nhiên dựa vào nguồn chăm sóc không chính thức có thể không tồn tại."],
+    ["care need", "nhu cầu được chăm sóc", "danh từ đếm được; assess/a + care need", "Nhu cầu chăm sóc được đánh giá rồi phần chăm sóc được phân bổ theo hạn mức.", "Nhu cầu được chăm sóc hai giờ mỗi ngày khiến một người phải ở nhà."],
+    ["age-friendly design", "thiết kế phù hợp người cao tuổi", "danh từ không đếm được; age-friendly design + of streets", "Thiết kế phù hợp với người cao tuổi có nghĩa là có ghế băng và vỉa hè bằng phẳng.", "Thiết kế phù hợp với người cao tuổi rẻ hơn điều trị hậu quả của các vụ ngã."]
+  ]
+}
