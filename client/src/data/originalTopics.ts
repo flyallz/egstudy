@@ -6980,3 +6980,41 @@ export const FOOD_AGRICULTURE_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string
   "snack": ["上午的一份点心让整个班次的人撑了下去。", "对大多数人而言，零食约占食物总量的五分之一。"],
   "leftovers": ["剩菜就成了明天的午餐。", "什么都不会浪费；剩菜也事先安排好了用途。"],
 };
+
+export const FOOD_AGRICULTURE_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["buffet", "/ˈbʊfeɪ/", "名词", "自助餐", "可数；a cold buffet；lay out a buffet", "The buffet was laid out in the side room.", "A cold buffet feeds ninety people without a kitchen."],
+  ["barbecue", "/ˈbɑːbɪkjuː/", "名词", "户外烧烤聚会；烧烤炉", "可数；hold/light a barbecue", "The barbecue was rained off twice.", "They light the barbecue at the first warm evening."],
+  ["picnic", "/ˈpɪknɪk/", "名词", "野餐", "可数；have/pack a picnic", "The picnic was eaten in the car.", "They pack a picnic for every long journey."],
+  ["feast", "/fiːst/", "名词", "盛宴；宴席", "可数；hold a feast；a wedding feast", "The wedding feast lasted two days.", "What they called a simple meal was a feast."],
+  ["food safety", "/ˈfuːd ˌseɪfti/", "名词短语", "食品安全", "不可数；food safety rules/inspection", "Food safety rules closed the stall for a week.", "Food safety here depends on refrigeration nobody can afford."],
+  ["food hygiene", "/ˈfuːd ˌhaɪdʒiːn/", "名词短语", "食品卫生", "不可数；a food hygiene rating", "The food hygiene rating is displayed by the door.", "Food hygiene training lasts one morning."],
+  ["use-by date", "/ˈjuːz baɪ deɪt/", "名词短语", "食用期限；最后使用日期", "可数；check/pass a use-by date", "The use-by date matters; the best-before date is advice.", "Nine trays were binned a day after the use-by date."],
+  ["best-before date", "/ˌbest bɪˈfɔː deɪt/", "名词短语", "最佳食用日期", "可数；a best-before date indicates quality", "Food past its best-before date is often perfectly good.", "The best-before date sends tonnes to landfill."],
+  ["food poisoning", "/ˈfuːd ˌpɔɪzənɪŋ/", "名词短语", "食物中毒", "不可数；get/cause food poisoning", "Nine guests got food poisoning from the same dish.", "Food poisoning closed the restaurant for a fortnight."],
+  ["refrigeration", "/rɪˌfrɪdʒəˈreɪʃn/", "名词", "冷藏；制冷", "不可数；rely on/lose refrigeration", "Refrigeration changed what a city could eat.", "The power cut destroyed everything without refrigeration."],
+  ["preservative", "/prɪˈzɜːvətɪv/", "名词", "防腐剂；保鲜剂", "可数；add preservatives；free from preservatives", "The bread contains no preservatives and lasts a day.", "Preservatives made long supply chains possible."],
+  ["additive", "/ˈædətɪv/", "名词", "添加剂", "可数；contain/ban an additive", "Two additives were banned in the same year.", "The label lists nine additives by number."],
+  ["food labelling", "/ˈfuːd ˌleɪbəlɪŋ/", "名词短语", "食品标签标注", "不可数；clear/improve food labelling", "Food labelling rules were fought line by line.", "Clear food labelling helps the people who read labels."],
+  ["allergen", "/ˈælədʒən/", "名词", "过敏原", "可数；declare an allergen", "Every allergen must be declared on the menu.", "One undeclared allergen caused the whole case."],
+  ["food allergy", "/ˈfuːd ˌælədʒi/", "名词短语", "食物过敏", "可数；have a severe food allergy", "A severe food allergy means reading every label.", "Food allergies are commoner than they were in 1980."],
+  ["intolerance", "/ɪnˈtɒlərəns/", "名词", "不耐受；不能耐受某种食物", "可数或不可数；lactose/gluten intolerance", "Lactose intolerance is the norm in most of the world.", "Her intolerance was diagnosed after nine years."],
+];
+
+export const FOOD_AGRICULTURE_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "buffet": ["自助餐摆在旁边的房间里。", "一顿冷餐自助餐无需厨房也能招待九十人。"],
+  "barbecue": ["那场烧烤聚会两次因下雨而取消。", "每到第一个暖和的晚上，他们就点起烧烤炉。"],
+  "picnic": ["他们最终在车里吃了野餐食物。", "每次长途旅行，他们都会带上野餐食物。"],
+  "feast": ["婚宴持续了两天。", "他们说是家常便饭，其实是一顿盛宴。"],
+  "food safety": ["食品安全规定让那个摊位停业一周。", "这里的食品安全依赖冷藏设备，而没人负担得起。"],
+  "food hygiene": ["食品卫生评级贴在门边。", "食品卫生培训只持续了一个上午。"],
+  "use-by date": ["食用期限很重要；最佳食用日期只是建议。", "过了食用期限一天，九盘食物就被扔掉了。"],
+  "best-before date": ["过了最佳食用日期的食物通常依然完好。", "最佳食用日期让成吨食物被送去填埋。"],
+  "food poisoning": ["九位客人吃同一道菜后食物中毒。", "食物中毒事件让餐厅关闭了两周。"],
+  "refrigeration": ["冷藏技术改变了一座城市能吃到的东西。", "停电毁掉了所有没有冷藏保存的食物。"],
+  "preservative": ["这种面包不含防腐剂，只能保存一天。", "防腐剂使漫长的供应链成为可能。"],
+  "additive": ["两种添加剂在同一年被禁用。", "标签按编号列出了九种添加剂。"],
+  "food labelling": ["食品标签规定的每一条都经过争论。", "清晰的食品标签有助于那些会阅读标签的人。"],
+  "allergen": ["菜单必须注明每一种过敏原。", "一种未申报的过敏原引发了整起案件。"],
+  "food allergy": ["严重食物过敏意味着每张标签都得看。", "食物过敏如今比 1980 年时更常见。"],
+  "intolerance": ["乳糖不耐受在世界大部分地区是常态。", "九年后，她的不耐受症才得到确诊。"],
+};
