@@ -137,16 +137,16 @@ export const A2_PAST_SIMPLE: Partial<GrammarLesson> = {
     ] },
     { heading: "5 · 牢记", body: "说到某个已确定的过去时间里已经结束的动作，使用一般过去时。" },
     { heading: "6 · 句式", body: "肯定句中动词用过去式；否定句和疑问句使用 did，主要动词回到原形。", table: [
-      { left: "规则变化：V + -ed；-e 后只加 -d；辅音 + y → -ied；必要时双写词尾辅音", right: "work → worked；live → lived；study → studied；stop → stopped" },
-      { left: "不规则变化：词形另记", right: "go → went；see → saw；buy → bought；take → took；find → found" },
+      { left: "规则变化：V + -ed；-e 后只加 -d；辅音 + y → -ied；必要时双写词尾辅音", right: "work → worked · live → lived · study → studied · stop → stopped" },
+      { left: "不规则变化：词形另记", right: "go → went · see → saw · buy → bought · take → took · find → found" },
       { left: "否定：S + did not (didn't) + 动词原形", right: "She didn't come." },
       { left: "疑问：Did + S + 动词原形?", right: "Did you see it?" },
-      { left: "常见不规则动词", right: "fall → fell；begin → began；go → went；see → saw。例：Emissions fell sharply. / Monitoring began long before the plant opened." },
+      { left: "常见不规则动词", right: "fall → fell；begin → began；go → went；see → saw。例：Emissions fell sharply. · Monitoring began long before the plant opened." },
     ] },
     { heading: "7 · 分析步骤", body: "先判断动词类型，再核对拼写；若有 did，主要动词必须用原形。", table: [
-      { left: "01 判断规则或不规则", right: "规则动词加 -ed；不规则动词用专门的过去式：watch → watched，go → went，send → sent，hear → heard，read → read（拼写相同，读音不同）。" },
+      { left: "01 判断规则或不规则", right: "规则动词加 -ed；不规则动词用专门的过去式：watch → watched · go → went · send → sent · hear → heard · read → read（拼写相同，读音不同）。" },
       { left: "02 核对 -ed 的拼写", right: "-e 结尾只加 -d；辅音 + y 改 -ied；单音节元音 + 辅音结尾通常双写辅音。plan → planned。" },
-      { left: "03 否定和疑问使用 did", right: "did 已表示过去，主要动词恢复原形：Did you go?，不能说 Did you went?" },
+      { left: "03 否定和疑问使用 did", right: "did 已表示过去，主要动词恢复原形：Did you go?（对），Did you went?（错）。" },
     ] },
     { heading: "8 · 例句与讲解", body: "结合意思、结构和时间语境逐句分析。", examples: [
       { en: "We visited Hoi An last summer.", cn: "去年夏天我们去了会安。", note: "last summer 是已过去的时间，visit 要用过去式 visited。" },
@@ -296,15 +296,15 @@ export const A2_MOVEMENT_PREPOSITIONS: Partial<GrammarLesson> = {
     ] },
     { heading: "5 · 牢记", body: "into、out of、across、through、along、onto 表示移动方向；in、on 表示静止位置。" },
     { heading: "6 · 句式", body: "除了位置与方向，还要区分路径、上下方向及起点终点。", table: [
-      { left: "进入与离开：into / out of / onto / off", right: "jump into the pool；get off the bus" },
-      { left: "穿越：across / through / over / past", right: "swim across the river；climb over the wall" },
-      { left: "沿途与上下：along / up / down / around", right: "cycle along the river；walk down the hill" },
+      { left: "进入与离开：into / out of / onto / off", right: "jump into the pool · get off the bus" },
+      { left: "穿越：across / through / over / past", right: "swim across the river · climb over the wall" },
+      { left: "沿途与上下：along / up / down / around", right: "cycle along the river · walk down the hill" },
       { left: "目的地与起点：to / from / towards / as far as", right: "walk towards the station" },
     ] },
     { heading: "7 · 分析步骤", body: "先判断是否移动，再想象运动经过的空间，最后检查交通工具固定搭配。", table: [
       { left: "01 区分静止与移动", right: "静态位置用 in / on / at；有方向的动作用 into / onto / to：She is in the room. ↔ She walked into the room." },
-      { left: "02 根据空间形状选介词", right: "across 经过表面，through 穿过内部，over 越过上方：across the field / through the forest / over the fence。" },
-      { left: "03 记交通工具搭配", right: "公交车、火车、飞机用 get on / get off；小汽车、出租车用 get into / get out of。" },
+      { left: "02 根据空间形状选介词", right: "across 经过表面，through 穿过内部，over 越过上方：across the field · through the forest · over the fence。" },
+      { left: "03 记交通工具搭配", right: "公交车、火车、飞机用 get on / get off；小汽车、出租车用 get into / get out of。对比：get on the train · get into the taxi。" },
     ] },
     { heading: "8 · 例句与讲解", body: "看同一句中何处表示方向、何处表示最终位置。", examples: [
       { en: "She walked into the room and put her bag on the table.", cn: "她走进房间，把包放在桌上。", note: "into 是走进去的方向；on 是包放下后的静态位置。" },
