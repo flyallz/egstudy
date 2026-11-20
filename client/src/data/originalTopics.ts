@@ -7836,3 +7836,67 @@ export const HOUSING_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, string]
   "tenant": ["那位租客已经要求修理九次了。", "这里的租客平均每十八个月搬一次家。"],
   "landlord": ["这位房东住在两百公里外。", "好房东会在霜冻到来前修好锅炉。"],
 };
+
+export const HOUSING_SECOND_LESSON: OriginalTopicWord[] = [
+  ["letting agent", "/ˈletɪŋ ˌeɪdʒənt/", "名词短语", "房屋租赁中介", "可数；a letting agent charges", "The letting agent charged a fee for every document.", "Two letting agents manage most of the street."],
+  ["estate agent", "/ɪˈsteɪt ˌeɪdʒənt/", "名词短语", "房地产经纪人", "可数；an estate agent values", "The estate agent valued it twice in one month.", "Estate agents fill four windows on the high street."],
+  ["tenancy agreement", "/ˈtenənsi əˌɡriːmənt/", "名词短语", "租赁协议", "可数；sign a tenancy agreement", "The tenancy agreement runs for twelve months.", "She signed the tenancy agreement without reading clause nine."],
+  ["lease", "/liːs/", "名词", "租约；租赁合同", "可数；hold/extend a lease", "The lease has forty years left to run.", "Extending the lease cost more than the kitchen."],
+  ["monthly rent", "/ˈmʌnθli rent/", "名词短语", "月租金", "可数；pay/raise the monthly rent", "The monthly rent rose by a fifth in one year.", "The monthly rent takes half of what she earns."],
+  ["rent arrears", "/ˈrent əˌrɪəz/", "名词短语", "拖欠的租金", "复数；fall into/clear rent arrears", "She fell into rent arrears after the hours were cut.", "Rent arrears are the commonest cause of eviction."],
+  ["rent control", "/ˈrent kənˌtrəʊl/", "名词短语", "租金管制", "不可数；introduce/abolish rent control", "Rent control was abolished in 1988.", "Two cities reintroduced rent control last year."],
+  ["deposit", "/dɪˈpɒzɪt/", "名词", "押金", "可数；pay/withhold a deposit", "The deposit was withheld over a mark on the wall.", "A deposit of six weeks' rent is now the norm."],
+  ["mortgage", "/ˈmɔːɡɪdʒ/", "名词", "房屋按揭贷款", "可数；take out/pay off a mortgage", "The mortgage took twenty-five years to pay off.", "They were refused a mortgage on an income like that."],
+  ["mortgage repayment", "/ˈmɔːɡɪdʒ rɪˌpeɪmənt/", "名词短语", "房贷还款额；按揭月供", "可数；meet a mortgage repayment", "The mortgage repayment rose by ninety a month.", "Two missed mortgage repayments start the clock on repossession."],
+  ["first-time buyer", "/ˌfɜːst taɪm ˈbaɪə/", "名词短语", "首次购房者", "可数；a first-time buyer saves", "A first-time buyer here needs nine years of saving.", "First-time buyers are older than they have ever been."],
+  ["property ladder", "/ˈprɒpəti ˌlædə/", "名词短语", "住房产权阶梯；逐步换购住房的路径", "通常用单数；get onto the property ladder", "Getting onto the property ladder took them until forty.", "The property ladder lost its lower rungs."],
+];
+
+export const HOUSING_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "letting agent": ["房屋租赁中介每出具一份文件都收费。", "两家房屋租赁中介管理着这条街的大部分房屋。"],
+  "estate agent": ["房地产经纪人在一个月内给那套房估了两次价。", "商业街上有四个橱窗属于房地产中介。"],
+  "tenancy agreement": ["这份租赁协议的期限是十二个月。", "她签署租赁协议时连第九条都没读。"],
+  "lease": ["这份租约还剩四十年。", "延长租约的费用比厨房装修还贵。"],
+  "monthly rent": ["月租金一年涨了五分之一。", "月租金占了她收入的一半。"],
+  "rent arrears": ["工作时数减少后，她开始拖欠房租。", "拖欠租金是被驱逐的最常见原因。"],
+  "rent control": ["租金管制于 1988 年废除。", "去年有两座城市重新实行租金管制。"],
+  "deposit": ["房东因为墙上的一道痕迹扣下了押金。", "相当于六周房租的押金如今已很常见。"],
+  "mortgage": ["这笔房贷花了二十五年才还清。", "以那样的收入，他们申请房贷被拒绝了。"],
+  "mortgage repayment": ["每月房贷还款额增加了九十。", "连续两期房贷没还，房屋收回程序就开始倒计时。"],
+  "first-time buyer": ["这里的首次购房者需要存九年钱。", "如今首次购房者的年龄比以往任何时候都大。"],
+  "property ladder": ["他们直到四十岁才买得起第一套房。", "买房阶梯最底下的几级已经消失了。"],
+};
+
+export const HOUSING_THIRD_LESSON: OriginalTopicWord[] = [
+  ["equity", "/ˈekwəti/", "名词", "房屋净值；房产中的自有权益", "不可数；build up/release equity", "They released equity to pay for the roof.", "Equity built up faster than any wage."],
+  ["negative equity", "/ˌneɡətɪv ˈekwəti/", "名词短语", "负资产；房贷余额超过房屋价值", "不可数；be in negative equity", "They were in negative equity for nine years.", "Negative equity traps people in the wrong house."],
+  ["repossession", "/ˌriːpəˈzeʃn/", "名词", "收回抵押房屋", "可数或不可数；face repossession", "Repossessions trebled in the second year of the recession.", "The family faced repossession over four hundred pounds."],
+  ["eviction", "/ɪˈvɪkʃn/", "名词", "驱逐住户；强制搬离", "可数；face an eviction notice", "The eviction notice gave them two months.", "Evictions rose as soon as the protection lapsed."],
+  ["homelessness", "/ˈhəʊmləsnəs/", "名词", "无家可归；流离失所", "不可数；tackle/hidden homelessness", "Hidden homelessness means sofas, not doorways.", "Homelessness in this county doubled in four years."],
+  ["rough sleeping", "/ˌrʌf ˈsliːpɪŋ/", "名词短语", "露宿街头", "不可数；rough sleeping figures", "Rough sleeping is counted on one night in November.", "Rough sleeping is the visible tenth of the problem."],
+  ["temporary accommodation", "/ˌtempərəri əˌkɒməˈdeɪʃn/", "名词短语", "临时住所", "不可数；be placed in temporary accommodation", "The family spent nine months in temporary accommodation.", "Temporary accommodation costs the council more than a tenancy."],
+  ["housing register", "/ˈhaʊzɪŋ ˌredʒɪstə/", "名词短语", "保障住房申请名册", "可数；join/be on the housing register", "The housing register has nine thousand names on it.", "She has been on the housing register since her second child."],
+  ["terraced house", "/ˌterəst ˈhaʊs/", "名词短语", "排屋；联排住宅", "可数；a terraced house stands", "The terraced house has two rooms up and two down.", "Terraced houses were built for the mill workers."],
+  ["semi-detached house", "/ˌsemi dɪˈtætʃt haʊs/", "名词短语", "半独立式住宅；双拼住宅", "可数；a semi-detached house", "A semi-detached house with a garden was the whole ambition.", "Semi-detached houses fill the whole interwar suburb."],
+  ["detached house", "/dɪˌtætʃt ˈhaʊs/", "名词短语", "独栋住宅", "可数；a detached house sells", "A detached house here costs four times a flat.", "Nine detached houses were built on the old orchard."],
+  ["bungalow", "/ˈbʌŋɡələʊ/", "名词", "平房；单层住宅", "可数；a bungalow suits", "A bungalow suits anyone who dislikes stairs.", "The bungalow was built in 1964 and never altered."],
+  ["flat", "/flæt/", "名词", "公寓；单元房", "可数；rent a one-bedroom flat", "The flat is on the fourth floor with no lift.", "She rents a one-bedroom flat above the shop."],
+  ["maisonette", "/ˌmeɪzəˈnet/", "名词", "复式公寓；有独立入口的公寓", "可数；a maisonette has its own door", "A maisonette has its own front door and no garden.", "Nine maisonettes share one stairwell."],
+];
+
+export const HOUSING_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "equity": ["他们提取房屋净值来支付修屋顶的费用。", "房屋净值的增长速度比任何人的工资都快。"],
+  "negative equity": ["他们的房子连续九年处于负资产状态。", "负资产把人困在不合适的房子里。"],
+  "repossession": ["经济衰退的第二年，房屋被收回的数量增加到三倍。", "这个家庭因欠下四百英镑而面临房屋被收回。"],
+  "eviction": ["驱逐通知给了他们两个月时间。", "保护措施一失效，驱逐住户的数量就上升了。"],
+  "homelessness": ["隐性无家可归者借住别人的沙发，而不是露宿街头。", "这个郡的无家可归人口在四年内翻了一倍。"],
+  "rough sleeping": ["露宿街头人数是根据十一月某一晚的情况统计的。", "露宿街头只是整个问题显而易见的十分之一。"],
+  "temporary accommodation": ["这家人在临时住所住了九个月。", "临时安置的费用比给他们租一套房还让地方议会花钱。"],
+  "housing register": ["保障住房申请名册上有九千个名字。", "她生下第二个孩子后，就一直在保障住房轮候名单上。"],
+  "terraced house": ["这栋联排住宅楼上两间房、楼下两间房。", "这些联排住宅原本是为纺织厂工人建的。"],
+  "semi-detached house": ["拥有一套带花园的双拼住宅，就是他们全部的梦想。", "整个两次世界大战之间建成的郊区都是双拼住宅。"],
+  "detached house": ["这里一栋独立住宅的价格是公寓的四倍。", "旧果园里建了九栋独栋住宅。"],
+  "bungalow": ["不喜欢爬楼梯的人适合住平房。", "这栋平房建于 1964 年，此后从未改建。"],
+  "flat": ["这套公寓在四楼，没有电梯。", "她租住商店楼上的一套一居室公寓。"],
+  "maisonette": ["这套复式公寓有自己的大门，却没有花园。", "九套复式公寓共用一个楼梯间。"],
+};
