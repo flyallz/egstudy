@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–136 张正面；网页显示第 1–8 课分别为 10、12、14、16、18、20、22、24 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–164 张正面；网页显示第 1–9 课分别为 10、12、14、16、18、20、22、24、28 张",
   "cards": [
     [
       "daily step count",
@@ -546,6 +546,118 @@
     [
       "final standings",
       "/ˈfaɪnl ˈstændɪŋz/"
+    ],
+    [
+      "relegation",
+      "/ˌrelɪˈɡeɪʃn/"
+    ],
+    [
+      "penalty kick",
+      "/ˈpenəlti kɪk/"
+    ],
+    [
+      "free kick",
+      "/friː kɪk/"
+    ],
+    [
+      "offside rule",
+      "/ˌɒfˈsaɪd ruːl/"
+    ],
+    [
+      "extra time",
+      "/ˈekstrə taɪm/"
+    ],
+    [
+      "injury time",
+      "/ˈɪndʒəri taɪm/"
+    ],
+    [
+      "sportsmanship",
+      "/ˈspɔːtsmənʃɪp/"
+    ],
+    [
+      "fair play",
+      "/feə pleɪ/"
+    ],
+    [
+      "team spirit",
+      "/tiːm ˈspɪrɪt/"
+    ],
+    [
+      "local derby",
+      "/ˈləʊkl ˈdɑːbi/"
+    ],
+    [
+      "supporters' club",
+      "/səˈpɔːtəz klʌb/"
+    ],
+    [
+      "matchday programme",
+      "/ˈmætʃdeɪ ˈprəʊɡræm/"
+    ],
+    [
+      "sports kit",
+      "/spɔːts kɪt/"
+    ],
+    [
+      "running shoes",
+      "/ˈrʌnɪŋ ʃuːz/"
+    ],
+    [
+      "shin pads",
+      "/ʃɪn pædz/"
+    ],
+    [
+      "water bottle",
+      "/ˈwɔːtə ˈbɒtl/"
+    ],
+    [
+      "stopwatch",
+      "/ˈstɒpwɒtʃ/"
+    ],
+    [
+      "heart rate monitor",
+      "/hɑːt reɪt ˈmɒnɪtə/"
+    ],
+    [
+      "cheer",
+      "/tʃɪə/"
+    ],
+    [
+      "chant",
+      "/tʃɑːnt/"
+    ],
+    [
+      "officiate",
+      "/əˈfɪʃieɪt/"
+    ],
+    [
+      "tackle",
+      "/ˈtækl/"
+    ],
+    [
+      "dribble",
+      "/ˈdrɪbl/"
+    ],
+    [
+      "volley",
+      "/ˈvɒli/"
+    ],
+    [
+      "pedal",
+      "/ˈpedl/"
+    ],
+    [
+      "paddle",
+      "/ˈpædl/"
+    ],
+    [
+      "sweat",
+      "/swet/"
+    ],
+    [
+      "sporting",
+      "/ˈspɔːtɪŋ/"
     ]
   ]
 }
