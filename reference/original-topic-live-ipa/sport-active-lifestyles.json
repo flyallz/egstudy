@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–70 张正面；网页显示第 1–5 课分别为 10、12、14、16、18 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–112 张正面；网页显示第 1–7 课分别为 10、12、14、16、18、20、22 张",
   "cards": [
     [
       "daily step count",
@@ -282,6 +282,174 @@
     [
       "amateur",
       "/ˈæmətə/"
+    ],
+    [
+      "prize money",
+      "/praɪz ˈmʌni/"
+    ],
+    [
+      "hobby",
+      "/ˈhɒbi/"
+    ],
+    [
+      "pastime",
+      "/ˈpɑːstaɪm/"
+    ],
+    [
+      "leisure time",
+      "/ˈleʒə taɪm/"
+    ],
+    [
+      "recreation",
+      "/ˌrekriˈeɪʃn/"
+    ],
+    [
+      "birdwatching",
+      "/ˈbɜːdwɒtʃɪŋ/"
+    ],
+    [
+      "fishing",
+      "/ˈfɪʃɪŋ/"
+    ],
+    [
+      "rambling",
+      "/ˈræmblɪŋ/"
+    ],
+    [
+      "gardening",
+      "/ˈɡɑːdnɪŋ/"
+    ],
+    [
+      "knitting",
+      "/ˈnɪtɪŋ/"
+    ],
+    [
+      "photography",
+      "/fəˈtɒɡrəfi/"
+    ],
+    [
+      "chess",
+      "/tʃes/"
+    ],
+    [
+      "board game",
+      "/bɔːd ɡeɪm/"
+    ],
+    [
+      "jigsaw puzzle",
+      "/ˈdʒɪɡsɔː ˈpʌzl/"
+    ],
+    [
+      "dance class",
+      "/dɑːns klɑːs/"
+    ],
+    [
+      "book club",
+      "/bʊk klʌb/"
+    ],
+    [
+      "spar",
+      "/spɑː/"
+    ],
+    [
+      "train",
+      "/treɪn/"
+    ],
+    [
+      "jog",
+      "/dʒɒɡ/"
+    ],
+    [
+      "sprint",
+      "/sprɪnt/"
+    ],
+    [
+      "swim",
+      "/swɪm/"
+    ],
+    [
+      "dive",
+      "/daɪv/"
+    ],
+    [
+      "row",
+      "/rəʊ/"
+    ],
+    [
+      "kick",
+      "/kɪk/"
+    ],
+    [
+      "throw",
+      "/θrəʊ/"
+    ],
+    [
+      "catch",
+      "/kætʃ/"
+    ],
+    [
+      "compete",
+      "/kəmˈpiːt/"
+    ],
+    [
+      "qualify",
+      "/ˈkwɒlɪfaɪ/"
+    ],
+    [
+      "beat",
+      "/biːt/"
+    ],
+    [
+      "loosen up",
+      "/ˈluːsn ʌp/"
+    ],
+    [
+      "limber up",
+      "/ˈlɪmbə ʌp/"
+    ],
+    [
+      "fit",
+      "/fɪt/"
+    ],
+    [
+      "unfit",
+      "/ʌnˈfɪt/"
+    ],
+    [
+      "athletic",
+      "/æθˈletɪk/"
+    ],
+    [
+      "sedentary",
+      "/ˈsedntri/"
+    ],
+    [
+      "active",
+      "/ˈæktɪv/"
+    ],
+    [
+      "inactive",
+      "/ɪnˈæktɪv/"
+    ],
+    [
+      "sporty",
+      "/ˈspɔːti/"
+    ],
+    [
+      "strenuous",
+      "/ˈstrenjuəs/"
+    ],
+    [
+      "exhausting",
+      "/ɪɡˈzɔːstɪŋ/"
+    ],
+    [
+      "injury-prone",
+      "/ˈɪndʒəri prəʊn/"
+    ],
+    [
+      "goalless",
+      "/ˈɡəʊlləs/"
     ]
   ]
 }
