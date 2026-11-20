@@ -93,4 +93,4 @@ check("Family", "client/src/data/originalTopics.ts", "reference/original-topic-c
 
 check("FoodAgriculture", "client/src/data/originalTopics.ts", "reference/original-topic-csv/food-agriculture.csv", "FOOD_AGRICULTURE", 10)
 
-check("Tourism", "client/src/data/originalTopics.ts", "reference/original-topic-csv/tourism-travel.csv", "TOURISM", 5)
+check("Tourism", "client/src/data/originalTopics.ts", "reference/original-topic-csv/tourism-travel.csv", "TOURISM", 7)
