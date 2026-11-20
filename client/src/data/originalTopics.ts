@@ -9676,3 +9676,33 @@ export const POPULATION_FIRST_EXAMPLE_TRANSLATIONS: Record<string, [string, stri
   "ageing population": ["老龄化人口需要单层住宅。", "人口老龄化是成功的象征，也伴随着相应的开支。"],
   "demographic change": ["人口结构变化来得缓慢，却无法迅速逆转。", "人口结构变化让九所小学失去了学生。"],
 };
+
+export const POPULATION_SECOND_LESSON: OriginalTopicWord[] = [
+  ["demographic transition", "/ˌdeməˈɡræfɪk trænˈzɪʃn/", "名词短语", "人口转变；人口转型", "可数，通常用单数；the demographic transition", "The demographic transition took a century here and a generation elsewhere.", "The demographic transition ends with few births and long lives."],
+  ["age structure", "/eɪdʒ ˈstrʌktʃə/", "名词短语", "年龄结构", "可数；the age structure of a population", "The age structure of the village is nine decades old.", "A distorted age structure follows every wave of emigration."],
+  ["population pyramid", "/ˌpɒpjuˈleɪʃn ˈpɪrəmɪd/", "名词短语", "人口金字塔图", "可数；draw a population pyramid", "The population pyramid has become a column.", "A population pyramid shows the war in one indented row."],
+  ["dependency ratio", "/dɪˈpendənsi ˈreɪʃiəʊ/", "名词短语", "抚养比；人口负担系数", "可数；a rising dependency ratio", "The dependency ratio rises as the boomers retire.", "A rising dependency ratio means fewer workers per pensioner."],
+  ["working-age population", "/ˈwɜːkɪŋ eɪdʒ ˌpɒpjuˈleɪʃn/", "名词短语", "劳动年龄人口", "可数，通常用单数；the working-age population shrinks", "The working-age population shrank for nine consecutive years.", "Migration keeps the working-age population stable."],
+  ["baby boom", "/ˈbeɪbi buːm/", "名词短语", "婴儿潮；生育高峰", "可数；the postwar baby boom", "The postwar baby boom filled every school in a decade.", "A baby boom becomes a pension problem sixty years later."],
+  ["generation", "/ˌdʒenəˈreɪʃn/", "名词", "一代人；世代", "可数；a generation grows up", "One generation left and the next could not afford to return.", "Three generations live within nine streets."],
+  ["birth cohort", "/bɜːθ ˈkəʊhɔːt/", "名词短语", "出生队列；同年出生人群", "可数；a birth cohort is followed", "The birth cohort of 1947 changed every institution it entered.", "Nine birth cohorts have been followed since 1958."],
+  ["census", "/ˈsensəs/", "名词", "人口普查", "可数；conduct a census；the census", "The census is taken every ten years.", "The census missed whole households without addresses."],
+  ["rural population", "/ˈrʊərəl ˌpɒpjuˈleɪʃn/", "名词短语", "农村人口", "可数，通常用单数；the rural population ages", "The rural population is older and more dispersed.", "The rural population halved between 1950 and 1990."],
+  ["migration", "/maɪˈɡreɪʃn/", "名词", "迁移；人口迁徙", "不可数；net/seasonal migration", "Migration kept the hospital staffed for forty years.", "Seasonal migration follows the harvest exactly."],
+  ["immigration", "/ˌɪmɪˈɡreɪʃn/", "名词", "移民入境；迁入", "不可数；immigration policy；immigration rises", "Immigration filled the jobs the mills had left.", "Immigration policy changed nine times in a decade."],
+];
+
+export const POPULATION_SECOND_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "demographic transition": ["这里的人口转型历时一个世纪，在别处却只用了一代人的时间。", "人口转型的终点是低出生率和较长的寿命。"],
+  "age structure": ["这个村子的年龄结构跨度达九十年。", "每一波人口外迁之后，年龄结构都会失衡。"],
+  "population pyramid": ["人口金字塔如今变成了一根柱子。", "人口金字塔上一个凹陷的年龄层就能显示战争的影响。"],
+  "dependency ratio": ["随着婴儿潮一代退休，抚养比不断上升。", "抚养比上升意味着每位退休者对应的劳动者更少。"],
+  "working-age population": ["劳动年龄人口连续九年减少。", "人口迁移使劳动年龄人口保持稳定。"],
+  "baby boom": ["战后婴儿潮在十年内挤满了每所学校。", "六十年后，婴儿潮变成了养老金难题。"],
+  "generation": ["一代人离开后，下一代已负担不起回来的费用。", "九条街以内住着三代人。"],
+  "birth cohort": ["1947 年出生的那一代人改变了他们进入的每一个机构。", "自 1958 年起，研究者持续追踪了九个出生队列。"],
+  "census": ["人口普查每十年进行一次。", "那次人口普查遗漏了整户没有地址的家庭。"],
+  "rural population": ["农村人口年龄更大，居住也更分散。", "1950 年至 1990 年间，农村人口减少了一半。"],
+  "migration": ["人口迁移让这家医院四十年来都有足够的工作人员。", "季节性迁移紧随收获季节而来。"],
+  "immigration": ["移民填补了工厂留下的工作岗位。", "十年间，移民政策变了九次。"],
+};
