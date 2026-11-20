@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/active-life",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–112 张正面；网页显示第 1–7 课分别为 10、12、14、16、18、20、22 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–136 张正面；网页显示第 1–8 课分别为 10、12、14、16、18、20、22、24 张",
   "cards": [
     [
       "daily step count",
@@ -450,6 +450,102 @@
     [
       "goalless",
       "/ˈɡəʊlləs/"
+    ],
+    [
+      "bulk up",
+      "/bʌlk ʌp/"
+    ],
+    [
+      "get into",
+      "/ɡet ˈɪntuː/"
+    ],
+    [
+      "join in",
+      "/dʒɔɪn ɪn/"
+    ],
+    [
+      "keep fit",
+      "/kiːp fɪt/"
+    ],
+    [
+      "drop out",
+      "/drɒp aʊt/"
+    ],
+    [
+      "knock out",
+      "/nɒk aʊt/"
+    ],
+    [
+      "ease off",
+      "/iːz ɒf/"
+    ],
+    [
+      "sports club",
+      "/spɔːts klʌb/"
+    ],
+    [
+      "club membership",
+      "/klʌb ˈmembəʃɪp/"
+    ],
+    [
+      "coaching qualification",
+      "/ˈkəʊtʃɪŋ ˌkwɒlɪfɪˈkeɪʃn/"
+    ],
+    [
+      "club volunteer",
+      "/klʌb ˌvɒlənˈtɪə/"
+    ],
+    [
+      "grassroots sport",
+      "/ˈɡrɑːsruːts spɔːt/"
+    ],
+    [
+      "school sport",
+      "/skuːl spɔːt/"
+    ],
+    [
+      "physical education",
+      "/ˈfɪzɪkl ˌedʒuˈkeɪʃn/"
+    ],
+    [
+      "playing field",
+      "/ˈpleɪɪŋ fiːld/"
+    ],
+    [
+      "pavilion",
+      "/pəˈvɪliən/"
+    ],
+    [
+      "changing room",
+      "/ˈtʃeɪndʒɪŋ ruːm/"
+    ],
+    [
+      "floodlights",
+      "/ˈflʌdlaɪts/"
+    ],
+    [
+      "scoreboard",
+      "/ˈskɔːbɔːd/"
+    ],
+    [
+      "turnstile",
+      "/ˈtɜːnstaɪl/"
+    ],
+    [
+      "grandstand",
+      "/ˈɡrænstænd/"
+    ],
+    [
+      "home ground",
+      "/həʊm ɡraʊnd/"
+    ],
+    [
+      "pre-season",
+      "/priː ˈsiːzn/"
+    ],
+    [
+      "final standings",
+      "/ˈfaɪnl ˈstændɪŋz/"
     ]
   ]
 }
