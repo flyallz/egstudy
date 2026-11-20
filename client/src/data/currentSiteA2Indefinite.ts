@@ -21,15 +21,15 @@ export const A2_INDEFINITE: Partial<GrammarLesson> = {
     ] },
     { heading: "5 · 牢记", body: "不定代词作主语用单数动词：Everybody is here。nobody、nothing 等已含否定意义，不再搭配 not。形容词后置：something interesting、nothing new。提出邀请等期待肯定答复的问句也可用 some。" },
     { heading: "6 · 句式", body: "词尾区分指人、物或地点。", table: [
-      { left: "人：-one / -body", right: "someone/somebody · anyone/anybody · no one/nobody · everyone/everybody" },
-      { left: "物：-thing", right: "something · anything · nothing · everything" },
-      { left: "地点：-where", right: "somewhere · anywhere · nowhere · everywhere" },
+      { left: "人：-one / -body", right: "someone/somebody · anyone/anybody · no one/nobody · everyone/everybody。Everybody knows the answer.（每个人都知道答案。）" },
+      { left: "物：-thing", right: "something · anything · nothing · everything。Nothing happened.（什么事也没发生。）" },
+      { left: "地点：-where", right: "somewhere · anywhere · nowhere · everywhere。I can't find it anywhere.（我到处都找不到它。）" },
       { left: "不定代词 + 形容词", right: "something interesting · nothing new" },
     ] },
     { heading: "7 · 分析步骤", body: "选择词首、检查动词，再检查否定和修饰语。", table: [
-      { left: "01 选择词首", right: "肯定通常用 some；否定、疑问用 any；直接否定用 no；全部用 every。" },
-      { left: "02 使用单数动词", right: "即使 everybody 指许多人，动词仍用 is / was 等单数形式。" },
-      { left: "03 避免双重否定", right: "nobody、nothing 等已经是否定词，不再加 doesn't / didn't。" },
+      { left: "01 选择词首", right: "肯定通常用 some；否定、疑问用 any；直接否定用 no；全部用 every。对比：something ↔ anything ↔ nothing。" },
+      { left: "02 使用单数动词", right: "即使 everybody 指许多人，动词仍用单数形式：Everybody is here.（大家都到了。）" },
+      { left: "03 避免双重否定", right: "nobody、nothing 等已经是否定词，不再加 doesn't / didn't：应说 Nobody knows，而非 Nobody doesn't know。" },
     ] },
     { heading: "8 · 例句与讲解", body: "留意否定方式与形容词的位置。", examples: [
       { en: "Someone left a message, but nobody knows who.", cn: "有人留了言，但没人知道是谁。", note: "someone 用于肯定；nobody 已含否定，knows 保持肯定形式。" },
