@@ -61,7 +61,17 @@ def check(label: str, source_file: str, csv_file: str, prefix: str, blocks: int)
         if label in ("Education", "Work", "Health", "Environment", "Technology", "Economy", "Science", "Cities", "Transport", "Crime") and not re.search(rf"^  {re.escape(json.dumps(card[0], ensure_ascii=False))}: \[", source, re.M):
             errors.append((number, "missing example translation"))
 
-    print(f"{label}: {len(cards)} localized cards, {len(errors)} errors")
+    live_ipa_file = ROOT / "reference/original-topic-live-ipa" / Path(csv_file).with_suffix(".json").name
+    live_ipa_count = 0
+    if live_ipa_file.exists():
+        live_cards = json.loads(live_ipa_file.read_text(encoding="utf-8"))["cards"]
+        live_ipa_count = len(live_cards)
+        for number, (term, ipa) in enumerate(live_cards, 1):
+            if number > len(cards) or cards[number - 1][0] != term or cards[number - 1][1] != ipa:
+                errors.append((number, "live IPA mismatch", term, ipa))
+
+    live_note = f", {live_ipa_count} live IPA checked" if live_ipa_count else ""
+    print(f"{label}: {len(cards)} localized cards, {len(errors)} errors{live_note}")
     if errors:
         print(errors[:20])
         raise SystemExit(1)
