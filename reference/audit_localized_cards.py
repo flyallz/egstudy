@@ -98,4 +98,4 @@ check("FoodAgriculture", "client/src/data/originalTopics.ts", "reference/origina
 
 check("Tourism", "client/src/data/originalTopics.ts", "reference/original-topic-csv/tourism-travel.csv", "TOURISM", 10)
 check("Housing", "client/src/data/originalTopics.ts", "reference/original-topic-csv/housing-communities.csv", "HOUSING", 10)
-check("Energy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/energy-resources.csv", "ENERGY", 2)
+check("Energy", "client/src/data/originalTopics.ts", "reference/original-topic-csv/energy-resources.csv", "ENERGY", 4)
