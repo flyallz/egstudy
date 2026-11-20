@@ -1,6 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
+set "PORT=60003"
 echo ========================================
 echo  ForumFlash 英文学习网站 - 最新源码本地运行
 echo ========================================
@@ -11,8 +12,15 @@ if errorlevel 1 goto :fail
 echo [2/3] 构建后端接口...
 call npm run build:backend
 if errorlevel 1 goto :fail
-echo [3/3] 启动服务 http://127.0.0.1:60002/ ...
-start "" http://127.0.0.1:60002/
+echo [3/3] 检查 http://127.0.0.1:%PORT%/ ...
+powershell -NoProfile -Command "try { $r = Invoke-WebRequest -Uri 'http://127.0.0.1:%PORT%/' -UseBasicParsing -TimeoutSec 2; if ($r.StatusCode -eq 200) { exit 0 } } catch {} ; exit 1" >nul 2>&1
+if not errorlevel 1 (
+    echo 站点已在运行，正在打开 http://127.0.0.1:%PORT%/
+    start "" "http://127.0.0.1:%PORT%/"
+    goto :eof
+)
+echo 启动服务 http://127.0.0.1:%PORT%/ ...
+start "" "http://127.0.0.1:%PORT%/"
 node server.mjs
 goto :eof
 
