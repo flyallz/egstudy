@@ -10660,3 +10660,41 @@ export const OCEANS_THIRD_EXAMPLE_TRANSLATIONS: Record<string, [string, string]>
   "coastal erosion": ["海岸侵蚀威胁着那条路上的九处房产。", "人们只能管理海岸侵蚀，无法彻底阻止它。"],
   "revetment": ["人们在暴露的海岸段修建了石砌护岸。", "护岸稳住了岸坡，却破坏了景观。"],
 };
+
+export const OCEANS_FOURTH_LESSON: OriginalTopicWord[] = [
+  ["sea wall", "/siː wɔːl/", "名词短语", "海堤；挡海墙", "可数名词；build/breach a sea wall", "The sea wall was breached in two places.", "A sea wall protects the town and starves the beach."],
+  ["groyne", "/ɡrɔɪn/", "名词", "丁坝；拦沙堤", "可数名词；build a groyne", "The groynes hold the shingle in front of the town.", "Nine timber groynes were replaced with rock."],
+  ["breakwater", "/ˈbreɪkwɔːtə/", "名词", "防波堤", "可数名词；a breakwater shelters", "The breakwater shelters the whole fishing fleet.", "A breakwater was built from quarry stone in 1884."],
+  ["fishing fleet", "/ˈfɪʃɪŋ fliːt/", "名词短语", "渔船队；捕捞船队", "可数名词；a fishing fleet sails", "The fishing fleet has fallen from ninety boats to four.", "The whole fishing fleet sails on the same tide."],
+  ["marine life", "/məˈriːn laɪf/", "名词短语", "海洋生物", "不可数名词；protect marine life、rich in marine life", "The bay is unusually rich in marine life.", "Marine life returned within three years of the ban."],
+  ["plankton", "/ˈplæŋktən/", "名词", "浮游生物", "不可数名词；feed on plankton", "The whales feed on plankton in these waters.", "Plankton blooms in the first warm week."],
+  ["krill", "/krɪl/", "名词", "磷虾", "不可数名词；harvest krill", "Krill supports the whole southern food web.", "Harvesting krill for supplements worries every biologist."],
+  ["shoal", "/ʃəʊl/", "名词", "鱼群", "可数名词；a shoal moves", "A shoal of herring filled the whole net.", "The shoals move north as the water warms."],
+  ["fish stock", "/fɪʃ stɒk/", "名词短语", "鱼类种群资源；鱼类资源量", "可数名词；deplete/recover fish stocks", "The fish stocks collapsed in 1992 and have not recovered.", "Fish stocks recover if the fleet stays in port."],
+  ["fishing effort", "/ˈfɪʃɪŋ ˈefət/", "名词短语", "捕捞努力量；捕捞强度", "不可数名词；reduce fishing effort", "Fishing effort has to fall before any stock recovers.", "Fishing effort trebled with engine power."],
+  ["bycatch", "/ˈbaɪkætʃ/", "名词", "兼捕物；非目标渔获", "不可数名词；reduce bycatch", "Bycatch includes nine species nobody can sell.", "Changing the net reduced bycatch by half."],
+  ["trawler", "/ˈtrɔːlə/", "名词", "拖网渔船", "可数名词；a trawler works", "The trawler works nine days at a stretch.", "Two trawlers were tied up for the whole season."],
+  ["bottom trawling", "/ˈbɒtəm ˈtrɔːlɪŋ/", "名词短语", "底拖网捕鱼；海底拖网作业", "不可数名词；ban bottom trawling", "Bottom trawling flattens everything on the seabed.", "Bottom trawling was banned inside the protected area."],
+  ["fishing quota", "/ˈfɪʃɪŋ ˈkwəʊtə/", "名词短语", "捕捞配额；渔获限额", "可数名词；set/exceed a fishing quota", "The fishing quota was cut by a third.", "Fishing quotas are traded like any other asset."],
+  ["fishing licence", "/ˈfɪʃɪŋ ˈlaɪsns/", "名词短语", "捕鱼许可证；捕捞执照", "可数名词；hold/lose a fishing licence", "He has held a fishing licence for forty years.", "Two boats lost their fishing licence after the inspection."],
+  ["closed season", "/kləʊzd ˈsiːzn/", "名词短语", "禁渔期；休渔期", "可数名词；a closed season protects", "The closed season protects the fish while they spawn.", "A closed season of three months restored the stock."],
+];
+
+export const OCEANS_FOURTH_EXAMPLE_TRANSLATIONS: Record<string, [string, string]> = {
+  "sea wall": ["海堤有两处被冲破。", "海堤保护了城镇，却使海滩失去了沙石补给。"],
+  "groyne": ["丁坝把砾石留在城镇前方的海滩上。", "九座木制丁坝被石制丁坝取代。"],
+  "breakwater": ["防波堤为整支渔船队提供避风处。", "1884 年，人们用采石场的石料建起一道防波堤。"],
+  "fishing fleet": ["渔船队从九十艘船缩减到只剩四艘。", "整支渔船队都趁同一次潮汐出航。"],
+  "marine life": ["这片海湾的海洋生物异常丰富。", "禁令实施后三年内，海洋生物又回来了。"],
+  "plankton": ["鲸在这片海域以浮游生物为食。", "入春后第一个暖和的星期，浮游生物大量繁殖。"],
+  "krill": ["磷虾支撑着整个南方海域的食物网。", "为制作保健品而捕捞磷虾，让生物学家们担忧。"],
+  "shoal": ["一群鲱鱼装满了整张网。", "随着海水变暖，鱼群向北迁移。"],
+  "fish stock": ["鱼类资源量在 1992 年骤降，至今没有恢复。", "如果渔船停在港口，鱼类资源就能恢复。"],
+  "fishing effort": ["任何鱼类资源恢复之前，都必须先降低捕捞强度。", "随着发动机动力增强，捕捞强度增加了两倍。"],
+  "bycatch": ["兼捕物中包括九种没人能出售的物种。", "更换渔网后，兼捕量减少了一半。"],
+  "trawler": ["这艘拖网渔船一次连续作业九天。", "两艘拖网渔船整个捕捞季都停泊在港。"],
+  "bottom trawling": ["底拖网作业会压平海床上的一切。", "保护区内已经禁止底拖网捕鱼。"],
+  "fishing quota": ["捕捞配额被削减了三分之一。", "捕捞配额像其他资产一样可以交易。"],
+  "fishing licence": ["他持有捕鱼许可证已有四十年。", "检查之后，两艘船失去了捕鱼许可。"],
+  "closed season": ["禁渔期在鱼类产卵时保护它们。", "长达三个月的禁渔期使鱼类资源得以恢复。"],
+};

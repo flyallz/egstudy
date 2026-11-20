@@ -130,4 +130,4 @@ check("Equality", "client/src/data/originalTopics.ts", "reference/original-topic
 check("Language", "client/src/data/originalTopics.ts", "reference/original-topic-csv/language-communication.csv", "LANGUAGE", 10)
 check("Population", "client/src/data/originalTopics.ts", "reference/original-topic-csv/population-migration.csv", "POPULATION", 10)
 check("Sport", "client/src/data/originalTopics.ts", "reference/original-topic-csv/sport-active-lifestyles.csv", "SPORT", 10)
-check("Oceans", "client/src/data/originalTopics.ts", "reference/original-topic-csv/oceans-water.csv", "OCEANS", 3)
+check("Oceans", "client/src/data/originalTopics.ts", "reference/original-topic-csv/oceans-water.csv", "OCEANS", 4)
