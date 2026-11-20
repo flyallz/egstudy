@@ -56,7 +56,7 @@ export const A2_OBLIGATION: Partial<GrammarLesson> = {
     ] },
     { heading: "7 · 分析步骤", body: "看义务来源，检查动词形式，再选择否定含义。", table: [
       { left: "01 判断义务来源", right: "说话人自己认为必要用 must；外部规定或环境要求用 have to：I must finish this. ↔ I have to wear a uniform." },
-      { left: "02 检查原形与 to", right: "must/should 后不加 to；have to 中的 to 保留：should go ↔ have to go。" },
+      { left: "02 检查原形与 to", right: "must/should 后不加 to；have to 中的 to 保留：should go · have to go。" },
       { left: "03 区分否定", right: "禁止用 mustn't；不必用 don't have to：You mustn't touch it. ↔ You don't have to buy it." },
     ] },
     { heading: "8 · 例句与讲解", body: "同一件事可以因建议、规定或禁止而选择不同结构。", examples: [

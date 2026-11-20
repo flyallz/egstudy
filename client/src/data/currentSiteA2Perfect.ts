@@ -52,13 +52,13 @@ export const A2_PERFECT: Partial<GrammarLesson> = {
       { left: "肯定：I/you/we/they + have + V3；he/she/it + has + V3", right: "She has finished." },
       { left: "否定：haven't / hasn't + V3", right: "They haven't arrived." },
       { left: "疑问：Have/Has + 主语 + V3？", right: "Have you eaten?" },
-      { left: "规则与不规则过去分词", right: "work → worked；go → gone；see → seen；write → written；make → made" },
-      { left: "常见不规则形式", right: "break → broken；go → gone；write → written；take → taken" },
+      { left: "规则与不规则过去分词", right: "work → worked · go → gone · see → seen · write → written · make → made" },
+      { left: "常见不规则形式", right: "break → broken；go → gone；write → written；take → taken。Someone has broken the window.（有人打破了窗户。）" },
     ] },
     { heading: "7 · 分析步骤", body: "先选 have/has，再选过去分词，最后检查时间状语。", table: [
       { left: "01 让 have/has 与主语一致", right: "he、she、it 和单数名词用 has，其余用 have：My sister has…。" },
-      { left: "02 使用过去分词", right: "不规则动词的过去式与过去分词可能不同：I have seen it，不能说 I have saw it。" },
-      { left: "03 检查具体过去时间", right: "yesterday、last year、in 2020 要用一般过去时：I saw it yesterday。" },
+      { left: "02 使用过去分词", right: "不规则动词的过去式与过去分词可能不同：I have seen it，而非 I have saw it。" },
+      { left: "03 检查具体过去时间", right: "yesterday、last year、in 2020 要用一般过去时：I saw it yesterday.（我昨天看到了它。）" },
     ] },
     { heading: "8 · 例句与讲解", body: "经历、结果和未结束的时间段都可与现在完成时相连。", examples: [
       { en: "I have visited Hanoi three times.", cn: "我去过河内三次。", note: "不说具体时间，强调截至现在的次数，次数还可能增加。" },
