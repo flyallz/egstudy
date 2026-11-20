@@ -1,7 +1,7 @@
 {
   "source": "https://www.forumflashstudy.com/roadmap/tu-vung/population",
   "checkedAt": "2026-11-20",
-  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–164 张正面；网页显示第 1–9 课分别为 10、12、14、16、18、20、22、24、28 张",
+  "method": "Chrome 登录态下主题全部词卡页，逐张核对第 1–200 张正面；网页显示第 1–10 课分别为 10、12、14、16、18、20、22、24、28、36 张",
   "cards": [
     [
       "population growth",
@@ -658,6 +658,150 @@
     [
       "net inflow",
       "/net ˈɪnfləʊ/"
+    ],
+    [
+      "age",
+      "/eɪdʒ/"
+    ],
+    [
+      "dwindle",
+      "/ˈdwɪndl/"
+    ],
+    [
+      "swell",
+      "/swel/"
+    ],
+    [
+      "project",
+      "/prəˈdʒekt/"
+    ],
+    [
+      "record",
+      "/rɪˈkɔːd/"
+    ],
+    [
+      "sign on",
+      "/saɪn ɒn/"
+    ],
+    [
+      "uproot",
+      "/ʌpˈruːt/"
+    ],
+    [
+      "naturalise",
+      "/ˈnætʃrəlaɪz/"
+    ],
+    [
+      "overstay",
+      "/ˌəʊvəˈsteɪ/"
+    ],
+    [
+      "cluster",
+      "/ˈklʌstə/"
+    ],
+    [
+      "rural",
+      "/ˈrʊərəl/"
+    ],
+    [
+      "overstretched",
+      "/ˌəʊvəˈstretʃt/"
+    ],
+    [
+      "long-lived",
+      "/lɒŋ lɪvd/"
+    ],
+    [
+      "childless",
+      "/ˈtʃaɪldləs/"
+    ],
+    [
+      "dependent",
+      "/dɪˈpendənt/"
+    ],
+    [
+      "pensionable",
+      "/ˈpenʃənəbl/"
+    ],
+    [
+      "migratory",
+      "/ˈmaɪɡrətri/"
+    ],
+    [
+      "displaced",
+      "/dɪsˈpleɪst/"
+    ],
+    [
+      "stateless",
+      "/ˈsteɪtləs/"
+    ],
+    [
+      "multi-ethnic",
+      "/ˈmʌlti ˈeθnɪk/"
+    ],
+    [
+      "grow old",
+      "/ɡrəʊ əʊld/"
+    ],
+    [
+      "pass away",
+      "/pɑːs əˈweɪ/"
+    ],
+    [
+      "move on",
+      "/muːv ɒn/"
+    ],
+    [
+      "stay on",
+      "/steɪ ɒn/"
+    ],
+    [
+      "come over",
+      "/kʌm ˈəʊvə/"
+    ],
+    [
+      "go back",
+      "/ɡəʊ bæk/"
+    ],
+    [
+      "end up",
+      "/end ʌp/"
+    ],
+    [
+      "fall off",
+      "/fɔːl ɒf/"
+    ],
+    [
+      "the next generation",
+      "/ðə nekst ˌdʒenəˈreɪʃn/"
+    ],
+    [
+      "a baby boomer",
+      "/ə ˈbeɪbi ˈbuːmə/"
+    ],
+    [
+      "make a fresh start",
+      "/meɪk ə freʃ stɑːt/"
+    ],
+    [
+      "start a new life",
+      "/stɑːt ə njuː laɪf/"
+    ],
+    [
+      "a place in the sun",
+      "/ə pleɪs ɪn ðə sʌn/"
+    ],
+    [
+      "the land of one's birth",
+      "/ðə lænd ɒv wʌnz bɜːθ/"
+    ],
+    [
+      "live to a ripe old age",
+      "/lɪv tuː ə raɪp əʊld eɪdʒ/"
+    ],
+    [
+      "a close-knit community",
+      "/ə kləʊz nɪt kəˈmjuːnəti/"
     ]
   ]
 }
